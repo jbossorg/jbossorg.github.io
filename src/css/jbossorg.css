@@ -18,31 +18,36 @@ body {
     font-size: 1em;
     font-family: var(--font-family--content);
 }
-h1 { font-size: calc(86pt * 0.75); }
-h2 { font-size: calc(42pt * 0.75); }
+
+h1 { font-size: 70px; }
+h2 { font-size: 42px; }
 h3 { font-size: calc(36pt * 0.75); }
 h4 { font-size: calc(28pt * 0.75); }
 h5 { font-size: calc(24pt * 0.75); }
 h6 { font-size: calc(22pt * 0.75); }
 p, nav { font-size: calc(18pt * 0.75); }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, nav {
     font-family: var(--font-family--heading);
     margin: 0; padding: 0;
 }
 h1, h2, h4 {
     font-weight: var(--font-weight--light);
 }
-h3,h5 { font-weight: var(--font-weight--semibold); }
+h1 > strong, h3,h5 { font-weight: var(--font-weight--semibold); }
 h6 { font-weight: var(--font-weight--medium); }
 h1, h4, h6 { text-transform: uppercase; }
-p, nav { font-family: var(--font-family--content); }
+header h1, header h1 a { color: var(--color--white); text-decoration: none; }
+p { font-family: var(--font-family--content); }
 body > header { 
     background: var(--color--dark-grey); 
     display: flex; 
     flex-direction: row; 
-    height: 5em;
+    height: 160px;
+    align-items: center;
+    border-bottom: 40px solid var(--color--green);
 }
+body.site-home > header { border-bottom: 0;}
 body > header > a { flex: 0 0 200px; }
 body > header > nav { 
     flex: 1 1 auto; 
@@ -57,6 +62,7 @@ body > header > nav a {
     color: var(--color--green); 
     text-transform: uppercase; 
     text-decoration: none;
+    font-size: 2em;
     font-weight: var(--font-weight--semibold);
 }
 
@@ -65,6 +71,42 @@ main {
     flex-direction: row;
     align-items: stretch;
 }
+.site-home { font-size: 65px; }
+.site-home span { font-size: 70px; }
+.this-week { flex: 58%; --preamble-bg-color: var(--color--orange); }
+.blog-feed, .twitter-feed { flex: 42%; --preamble-bg-color: var(--color--green); }
+.preamble {
+    background-color: var(--preamble-bg-color);
+    position: relative;
+    height: 180px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 7em;
+}
+.preamble p { margin: 0; }
+.preamble::after {
+    content: '';
+    display: block;
+    background-color: var(--preamble-bg-color);
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 140px;
+    border-width: 50px;
+    border-style: solid;
+    background: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: var(--preamble-bg-color);
+    border-top-color: var(--preamble-bg-color);
+}
+main article > * {
+    padding-left: 140px;
+}
 
-.this-week { flex: 1 1 2fr; }
-.blog-feed, .twitter-feed { flex: 1 1 1fr; }
+cpx-results {
+    
+}

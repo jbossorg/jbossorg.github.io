@@ -3,6 +3,7 @@ Firstname Lastname <author@asciidoctor.org>
 1.0, July 29, 2014, Asciidoctor 1.5 article template
 :toc:
 :icons: font
+:short-name: this-week
 
 Content entered directly below the header but before the first section heading is called the preamble.
 
@@ -93,6 +94,7 @@ This is an attribute reference {quick-uri}[which links this text to the Asciidoc
 ++++
 </article>
 <article class="twitter-feed">
+<div class="preamble"><h2>Latest Upstream Posts</h2></div>
 <cpx-query auto url="https://dcp2.jboss.org/v2/rest/search/middlewareblogs"></cpx-query>
 <cpx-results></cpx-results>
 ++++

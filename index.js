@@ -20,11 +20,15 @@ let options = {
     standalone: true, 
     template_dirs: ['src'], 
     to_dir: 'gh-pages',
-    attributes: { stylesheet: 'theme/css/jboss.css', linkcss: true }
+    attributes: { stylesheet: 'theme/css/jboss.css', linkcss: true, title: '' }
 };
 
 pages.forEach((page) => {
-    asciidoctor.convertFile(`content/${page}.adoc`, options);
+    let doc = asciidoctor.loadFile(`content/${page}.adoc`, options);
+    //console.log(doc.getAttributes());
+    doc.setAttribute('heading', doc.getAttribute('doctitle')); 
+    //console.log(doc.getAttribute('heading'));
+    doc.write(doc.convert(), `gh-pages/${page}.html`);
 }) 
 
 // fs.mkdir('gh-pages/css', {recursive: true}, (err) => { if (err) throw err; });
