@@ -1,0 +1,7 @@
+= Blogs
+1.0, July 29, 2014, Asciidoctor 1.5 article template
+:toc:
+:icons: font
+:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+== Community Blog Feed: Most Recent Posts

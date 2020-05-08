@@ -1,0 +1,24 @@
+{
+  "name": "jbossorg",
+  "version": "1.0.0",
+  "description": "JBoss.org website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbossorg/jbossorg.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbossorg/jbossorg.github.io/issues"
+  },
+  "homepage": "https://github.com/jbossorg/jbossorg.github.io#readme",
+  "dependencies": {
+    "asciidoctor": "^2.2.0",
+    "fs-extra": "^9.0.0",
+    "typescript": "^3.8.3"
+  }
+}

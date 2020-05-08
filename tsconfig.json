@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "module": "ES6",
+        "watch": false,
+        "moduleResolution": "node",
+        "target": "es5",
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": false,
+        "removeComments": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "pretty": true,
+        "strictBindCallApply": false,
+        "baseUrl": "src/js",
+        "allowJs": true,
+        "rootDirs": ["src/js"],
+        "lib":[
+          "dom", "es5", "dom.iterable", "es6"
+        ],
+        //"outFile": "dist/js/rhd.js",
+        "outDir": "gh-pages/js"
+        // "paths": {
+        //     "@patternfly/pfelement/pfelement.umd": [
+        //         "@types/patternfly__pfelement"
+        //     ],
+        //     "../@patternfly/pfelement/pfelement": [
+        //         "@types/patternfly__pfelement"
+        //     ]
+        // }
+    },
+    "include": [
+        "src/js/**/*.js",
+        "src/js/**/*.ts"
+
+    ]
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBoss.org</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link rel="stylesheet" href="js/pfelement/pfelement.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-family--heading: 'Hind Siliguri', sans-serif;
+            --font-family--content: 'Montserrat', sans-serif;
+            --font-weight--light: 300;
+            --font-weight--semibold: 600;
+            --font-weight--medium: 500;
+            --color--white: #FFFFFF;
+            --color--dark-grey: #2A2A2A;
+            --color--orange: #F26430;
+            --color--green: #77BA99;
+            --color--blue:  #004DB9;
+            --color--grey: #626262;
+            --font-size--content: calc(1em * 0.75);
+        }
+        body { 
+            margin: 0;
+            padding: 0;
+            font-size: 1em;
+            font-family: var(--font-family--content);
+        }
+        h1 { font-size: calc(86pt * 0.75); }
+        h2 { font-size: calc(42pt * 0.75); }
+        h3 { font-size: calc(36pt * 0.75); }
+        h4 { font-size: calc(28pt * 0.75); }
+        h5 { font-size: calc(24pt * 0.75); }
+        h6 { font-size: calc(22pt * 0.75); }
+        p, nav { font-size: calc(18pt * 0.75); }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-family--heading);
+            margin: 0; padding: 0;
+        }
+        h1, h2, h4 {
+            font-weight: var(--font-weight--light);
+        }
+        h3,h5 { font-weight: var(--font-weight--semibold); }
+        h6 { font-weight: var(--font-weight--medium); }
+        h1, h4, h6 { text-transform: uppercase; }
+        p, nav { font-family: var(--font-family--content); }
+        body > header { 
+            background: var(--color--dark-grey); 
+            display: flex; 
+            flex-direction: row; 
+            height: 5em;
+        }
+        body > header > a { flex: 0 0 200px; }
+        body > header > nav { 
+            flex: 1 1 auto; 
+            list-style: none; 
+            display: flex; 
+            flex-direction: row; 
+            align-items: center;
+            justify-content: flex-end; 
+        }
+        body > header > nav a { 
+            flex: 1 1 1fr; margin-right: 1em;
+            color: var(--color--green); 
+            text-transform: uppercase; 
+            text-decoration: none;
+            font-weight: var(--font-weight--semibold);
+        }
+
+        main { 
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        .this-week { flex: 1 1 2fr; }
+        .blog-feed { flex: 1 1 1fr; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#"><img class="logo"></a>
+        <nav>
+            <a href="#">Blogs</a>
+            <a href="#">Twitter</a>
+            <a href="#">Projects</a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <article class="this-week">
+            <header>
+                <h1>This Week in JBoss</h1>
+                <h2>Highlights of the latest news and updates from our middleware community projects.</h2>
+                <hr>
+            </header>
+            <h2>Fri May 01 2020 - The Virtual Red Hat Summit week</h2>
+            <p><a href="https://www.redhat.com/en/summit" rel="nofollow">
+                <img alt="" class="image-1 jive-image" height="199" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-6364-439941/Screenshot+2020-05-01+at+15.03.04.png" style="width: 620px; height: 95px;" width="1301"></a></p>
+                <p>I'm writing this as we wrap up another successful Red Hat Summit. But this year, with a significant distinction: the event was 100% virtual. Despite the involuntary move to virtual, there were many benefits that came about from the change in format. The event was completely free, and of course required no travel, allowing a much broader and more diverse set of attendees to benefit from the content and experience. It was also ran in three regions to accommodate many more timezones.</p>
+                <p>Being Red Hat we were keen to experiment with the format and find new ways to engage with the community. It was important for us to carry over as much of the personality and intimacy of the physical event as possible. So, this needed to be more than just a bunch of streamed talks. The talks were pre-recorded which allowed the presenter(s) to participate directly in the Q&amp;A in real-time as the talk proceeded. There was also a variety of sessions that went beyond the talk format. For examples see <em>Ask the experts</em>, <em>Networking social hour</em>, and the <em>Virtual Open Neighborhood</em> on the <a class="jive-link-external-small" href="https://www.redhat.com/en/summit/agenda/agenda-at-a-glance" rel="nofollow">agenda</a>.</p>
+                <p>If you weren't able to attend, or want to catch some of the talks you missed, you can <a class="jive-link-external-small" href="https://onlinexperiences.com/Launch/QReg.htm?ShowUUID=4245E6E3-7D25-496D-9B08-4CBDC87CCE74" rel="nofollow">re-live the virtual event here</a>.</p>
+                <p><strong>In other news...</strong></p>
+                <h2>Quarkus Insights on Youtube Live</h2>
+                <p>This week Max Andersen and Emmanuel Bernard <a class="jive-link-external-small" href="https://quarkus.io/blog/insights/" rel="nofollow">kicked off a new video/podcast series</a> bringing insights into Quarkus. Each episode will focus on a guest speaker discussing the development or usage of Quarkus. There are also some dedicated Q&amp;A sessions planned. Be sure to subscribe to the <a class="jive-link-external-small" href="https://www.youtube.com/c/quarkusio" rel="nofollow">Quarkus YouTube channel</a> to catch these sessions and other exciting Quarkus content. In particular <a class="jive-link-external-small" href="https://www.youtube.com/watch?v=OCPFdpvL1Q0&amp;feature=youtu.be" rel="nofollow">join them on the 4th of May</a> where Georgios Andrianakis will talk about Quarkus testing and specifically the new mocking improvements in the recently released Quarkus 1.4.</p>
+                <h2>Kogito: A Modular Codegen Design Proposal</h2><p>In <a class="jive-link-external-small" href="https://planet.jboss.org/post/kogito_a_modular_codegen_design_proposal" rel="nofollow">this post</a> Edoardo Vacchi explains how Kogito is improving performance by moving processing out of the run-time and into build-time.</p>
+                <h2>Red Hat Summit 2020 - Ask the Experts: Hybrid Multicloud Pitfalls</h2>
+                <p>In one of the many <em>Ask the Experts</em> sessions, Eric Schabell &amp; Roel Hodzelmans focused on their hybrid multi-cloud pitfall theories. You can <a class="jive-link-external-small" href="https://planet.jboss.org/post/red_hat_summit_2020_ask_the_experts_hybrid_multicloud_pitfalls_slides" rel="nofollow">view the slides here</a>, or <a class="jive-link-external-small" href="https://onlinexperiences.com/Launch/QReg.htm?ShowUUID=4245E6E3-7D25-496D-9B08-4CBDC87CCE74" rel="nofollow">register for the Red Hat Summit Virtual event</a> to re-watch the content on demand.</p>
+                <h2>Free book on Knative covering Camel K and Kafka and upcoming webinar with live demos</h2>
+                <p>In this post Claus Ibsen <a class="jive-link-external-small" href="https://planet.jboss.org/post/free_book_on_knative_covering_camel_k_and_kafka_and_upcoming_webinar_with_live_demos" rel="nofollow">alerts us to the free eBook</a> written by Burr Sutter &amp; Kamesh Sampath on the subject of Knative. Go get your free copy <a class="jive-link-external-small" href="https://developers.redhat.com/books/knative-cookbook/" rel="nofollow">here</a>!</p>
+                <h2>Red Hat Summit 2020 - Business Automation Sessions</h2>
+                <p>If you are interested in the area of <em>Business Automation</em>, be sure to view Kris Verlaenen's <a class="jive-link-external-small" href="https://planet.jboss.org/post/virtual_red_hat_summit_2020_april_28_29" rel="nofollow">helpful summary</a> of all the BI related talks held at Red Hat Summit.</p>
+                <h2>Demystifying the Event Driven Architecture - An introduction (part 1)</h2>
+                <p>Eric Schabell has <a class="jive-link-external-small" href="https://planet.jboss.org/post/demystifying_the_event_driven_architecture_an_introduction_part_1" rel="nofollow">started a new blog series</a> that explores the world of Event Driven Architectures (EDA).</p>
+                <h2>Six reasons why you will love Camel K</h2>
+                <p>Interested in Camel K, or want to find out what all the fuss is about? <a class="jive-link-external-small" href="https://planet.jboss.org/post/six_reasons_why_you_will_love_camel_k" rel="nofollow">Read on</a>, and Christina will give you six reasons to love Camel K.</p>
+                <h2>Hybrid clouds with JGroups and Skupper</h2>
+                <p>Bela Ban follows up on his post explaining how to <a class="jive-link-external-small" href="http://belaban.blogspot.com/2019/12/spanning-jgroups-kubernetes-based.html" rel="nofollow">span JGroups Kubernetes-based clusters across Google and Amazon clouds</a>. In <a class="jive-link-external-small" href="https://planet.jboss.org/post/hybrid_clouds_with_jgroups_and_skupper" rel="nofollow">this new post</a> Bela improves on the process by using <a class="jive-link-external-small" href="https://skupper.io/" rel="nofollow">Skupper</a> to simplify this task and encrypt the data exchanged between different clouds.</p>
+            <h2>This Week's Releases</h2>
+            <ul>
+                <li><a class="jive-link-external-small" href="https://quarkus.io/blog/quarkus-1-4-final-released/" rel="nofollow">Quarkus 1.4</a>. Command mode, HTTP 2, New FaaS framework, Mocking, and more.</li>
+                <li><a class="jive-link-external-small" href="https://www.keycloak.org//2020/04/keycloak-1000-released.html" rel="nofollow">Keycloak 10.0.0</a>. With <em>Identity Brokering Sync Mode</em>, <em>Client Session Timeout for OpenID Connect / OAuth 2.0</em> and much more.</li>
+                <li><a class="jive-link-external-small" href="https://planet.jboss.org/post/kogito_0_9_1_released" rel="nofollow">Kogito 0.9.1</a>. This release is a bug fix release, but there has also been considerable work spent on documentation and code examples. See the link for detais.</li>
+            </ul>
+        </article>
+        <article class="blog-feed">Blog Feed</article>
+    </main>
+    <footer>
+        
+    </footer>
+    <script async defer src="js/pfelement/pfelement.umd.js"></script>
+    <script type="module" src="js/pfe-icon/pfe-icon.js"></script>
+</body>
+</html>

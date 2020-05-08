@@ -1,0 +1,9 @@
+= Twitter
+1.0, July 29, 2014, Asciidoctor 1.5 article template
+:toc:
+:icons: font
+:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+Want to keep up to date with the latest releases and developments in the greater middleware
+community? Keep an eye on all through the global feed or follow an individual project's feed.
+
