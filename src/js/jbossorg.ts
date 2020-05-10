@@ -1,0 +1,1 @@
+fetch('/data/authors/example.json').then(resp => resp.json()).then(data => console.log(data))

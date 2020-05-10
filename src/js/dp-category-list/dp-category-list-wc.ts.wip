@@ -1,0 +1,11 @@
+import DPCategoryItemList from './dp-category-item-list.js';
+import DPCategoryItem from './dp-category-item.js';
+import DPCategoryList from './dp-category-list.js';
+import DPCategory from './dp-category.js';
+import DPProductShortTeaser from './dp-product-short-teaser.js';
+
+new DPCategoryItemList();
+new DPCategoryItem();
+new DPCategoryList();
+new DPCategory();
+new DPProductShortTeaser();

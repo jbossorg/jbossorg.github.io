@@ -9,9 +9,3 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
-# use npm i asciidoctor
-# const Asciidoctor = require('asciidoctor')
-# const asciidoctor = Asciidoctor()
-# let html = asciidoctor.convertFile('/content/', { 
-#   base_dir: 'content', standalone: true })

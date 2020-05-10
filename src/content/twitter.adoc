@@ -1,0 +1,13 @@
+= Twitter
+Firstname Lastname <author@asciidoctor.org>; Example Author <example@redhat.com>
+1.0, May 10, 2020
+:toc:
+:icons: font
+:short-name: twitter-list
+
+Want to keep up to date with the latest releases and developments in the greater middleware
+community? Keep an eye on all through the global feed or follow an individual project's feed.
+
+++++
+<h3>Test H3</h3>
+++++

@@ -72,6 +72,7 @@ export default class CPXResults extends HTMLElement {
     }
 
     _results;
+    _resultLayout = `<div><a href="{{url}}">{{description}}</a><div>`;
     _more = false;
     _last = 0;
     _valid = true;
@@ -113,6 +114,14 @@ export default class CPXResults extends HTMLElement {
         this._valid = val;
     }
 
+    get resultLayout() {
+        return this._resultLayout;
+    }
+    set resultLayout(val) {
+        if (this._resultLayout === val) return;
+        this._resultLayout = val;
+    }
+
     render() {
         this.shadowRoot.innerHTML = "";
         this.template.innerHTML = this.html;
@@ -136,6 +145,9 @@ export default class CPXResults extends HTMLElement {
     }
 
     connectedCallback() {
+        if (this.querySelector('template')) {
+            this.resultLayout = this.querySelector('template').innerHTML;
+        }
         this.render();
         this.shadowRoot.querySelector('div.moreBtn').addEventListener('click', e => {
             e.preventDefault();
@@ -149,7 +161,6 @@ export default class CPXResults extends HTMLElement {
             };
             this.dispatchEvent(new CustomEvent('load-more', evt));
         });
-
         top.addEventListener('search-complete', this._renderResults);
         top.addEventListener('search-start', this._setLoading);
         top.addEventListener('params-ready', this._checkValid);
@@ -159,6 +170,7 @@ export default class CPXResults extends HTMLElement {
     addResult(result) {
         var item = new CPXResult();
         item.result = result;
+        item.layout = this.resultLayout;
         this.appendChild(item);
     }
 

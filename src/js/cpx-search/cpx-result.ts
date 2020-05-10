@@ -85,17 +85,18 @@ export default class CPXResult extends HTMLElement {
     .hlt { font-weight: 600; }
         </style>
 <div>
-    <h4>${this.url ? `<a href="${this.url}">${this.title}</a>` : this.title}</h4>
     <p ${this.premium ? 'class="result-info subscription-required" data-tooltip="" title="Subscription Required" data-options="disable-for-touch:true"' : 'class="result-info"'}>
-        <span class="caps">${this.kind}</span>
-        ${this.created ? `- <pfe-datetime datetime="${this.created}" type="local" day="numeric" month="long" year="numeric">${this.created}</pfe-datetime>` : ''}
+        ${this.created ? `<pfe-datetime datetime="${this.created}" type="local" day="numeric" month="long" year="numeric">${this.created}</pfe-datetime>` : ''}
+        ${this.author ? ` | ${this.author}` : ''}
+        <!--<span class="caps">${this.kind}</span>-->
     </p>
-    <p class="result-description">${this.description}</p>
+    <h4>${this.url ? `<a href="${this.url}">${this.title}</a>` : this.title}</h4>
+    <!--<p class="result-description">${this.description}</p>-->
 </div>
 ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:','https:')}"></div>` : ''}`;
     }
 
-
+    _layout =  '<div><a href="{{url}}">{{description}}</a><div>';
     _result;
     _url;
     _title;
@@ -104,7 +105,17 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
     _description;
     _premium;
     _thumbnail;
+    _author;
     template;
+
+    get layout() {
+        return this._layout;
+    }
+    set layout(val) {
+        //if (this._layout === val) return;
+
+        this._layout = val;
+    }
 
     get url() {
         const stage = window.location.href.indexOf('stage') >= 0 || window.location.href.indexOf('developers') < 0 ? '.stage' : '';
@@ -114,6 +125,14 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
     set url(val) {
         if (this._url === val) return;
         this._url = val;
+    }
+
+    get author() {
+        return this._author;
+    }
+    set author(val) {
+        if (this._author === val) return;
+        this._author = val;
     }
 
     get title() {
@@ -180,6 +199,8 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
         this.description = this._result.fields.sys_description[0] ? this._result.fields.sys_description[0] : 'Default Description';
         this.url = this._result.fields.sys_url_view[0] ? this._result.fields.sys_url_view[0] : '#';
         this.kind = this._result._type ? this._result._type : 'webpage';
+        this.author = this._result.fields.author[0] ? this._result.fields.author[0] : undefined;
+        this.created = this._result.fields.sys_created[0] ? this._result.fields.sys_created[0] : 'Published'
         // this.computeTitle(val);
         // this.computeKind(val);
         // this.computeCreated(val);
@@ -193,7 +214,7 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
 
     render() {
         this.shadowRoot.innerHTML = "";
-        this.template.innerHTML = this.html;
+        this.template.innerHTML = this.injectData(this.layout);
 
         if (window['ShadyCSS']) {
         window['ShadyCSS'].prepareTemplate(this.template, CPXResult.tag);
@@ -228,6 +249,15 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
         if (result.fields.thumbnail) {
             this.thumbnail = result.fields.thumbnail[0];
         }
+    }
+
+    injectData(layout) {
+        let re = /(\{\{\w+\}\})/gm
+        let br = /[\{\}]+/g
+        let fill = (match, p1, offset, string) => {
+            return this[match.replace(br,'')]
+        }
+        return layout.replace(re, fill);
     }
 
     computeTitle(result) {

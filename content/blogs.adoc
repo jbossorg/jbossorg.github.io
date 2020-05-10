@@ -1,8 +1,0 @@
-= Blogs
-Firstname Lastname <author@asciidoctor.org>
-1.0, July 29, 2014, Asciidoctor 1.5 article template
-:toc:
-:icons: font
-:short-name: blog-list
-
-== Community Blog Feed: Most Recent Posts
