@@ -1,0 +1,84 @@
+{
+  "_from": "@patternfly/pfe-sass@^1.0.0-prerelease.45",
+  "_id": "@patternfly/pfe-sass@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-lZjTB9gK+pDadrVd03lQUi3lkCAZ/BWKmibbrow8ax2DmgJciTWkK1bnRJpc92KpMQobwitEVH8WnOLu1CaXzA==",
+  "_location": "/@patternfly/pfe-sass",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@patternfly/pfe-sass@^1.0.0-prerelease.45",
+    "name": "@patternfly/pfe-sass",
+    "escapedName": "@patternfly%2fpfe-sass",
+    "scope": "@patternfly",
+    "rawSpec": "^1.0.0-prerelease.45",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0-prerelease.45"
+  },
+  "_requiredBy": [
+    "/@patternfly/pfe-avatar",
+    "/@patternfly/pfe-band",
+    "/@patternfly/pfe-card",
+    "/@patternfly/pfe-cta",
+    "/@patternfly/pfe-icon",
+    "/@patternfly/pfe-styles"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-sass/-/pfe-sass-1.0.0-prerelease.45.tgz",
+  "_shasum": "2ba19a45fb39413ab77496c15af5f42e83601b66",
+  "_spec": "@patternfly/pfe-sass@^1.0.0-prerelease.45",
+  "_where": "/home/ldary/rh/jbossorg/node_modules/@patternfly/pfe-avatar",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    },
+    {
+      "name": "Mark Caron",
+      "email": "mark@redhat.com",
+      "url": "https://github.com/markcaron"
+    },
+    {
+      "name": "castastrophe",
+      "url": "https://github.com/castastrophe"
+    },
+    {
+      "name": "Kendall Totten"
+    },
+    {
+      "name": "cd"
+    }
+  ],
+  "deprecated": false,
+  "description": "Sass variables and mixins for PatternFly Elements",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "name": "@patternfly/pfe-sass",
+  "pfelement": {
+    "className": "PfeSass",
+    "elementName": "pfe-sass"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-sass"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp",
+    "dev": "../../node_modules/.bin/gulp dev"
+  },
+  "version": "1.0.0-prerelease.45"
+}

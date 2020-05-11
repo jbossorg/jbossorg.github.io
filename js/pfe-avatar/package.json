@@ -1,0 +1,75 @@
+{
+  "_from": "@patternfly/pfe-avatar",
+  "_id": "@patternfly/pfe-avatar@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-2mI1QWWiNPVRry97JkYYxGwR98qbNeNgfdZYqsAl71idZyM5Kxoq/L5ypEfS7ebPPmaN3t/uVmyK1PNfl3nfJQ==",
+  "_location": "/@patternfly/pfe-avatar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-avatar",
+    "name": "@patternfly/pfe-avatar",
+    "escapedName": "@patternfly%2fpfe-avatar",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-avatar/-/pfe-avatar-1.0.0-prerelease.45.tgz",
+  "_shasum": "4903c227b368878a4a1610c16054d2e083b97c3c",
+  "_spec": "@patternfly/pfe-avatar",
+  "_where": "/home/ldary/rh/jbossorg",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Michael Clayton"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45",
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Avatar for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.6.8",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-avatar.umd.js",
+  "module": "./dist/pfe-avatar.js",
+  "name": "@patternfly/pfe-avatar",
+  "pfelement": {
+    "className": "PfeAvatar",
+    "elementName": "pfe-avatar"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-avatar"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-avatar/test/"
+  },
+  "unpkg": "./dist/pfe-avatar.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}

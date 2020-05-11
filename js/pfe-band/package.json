@@ -1,0 +1,81 @@
+{
+  "_from": "@patternfly/pfe-band",
+  "_id": "@patternfly/pfe-band@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-GManiHeVMKQTu5MpqWoB302bhbFo1P4p3/t9bf+rTM7WldxZql/mMzJh+xpP3aC3wdKhyysYsuqOc4E3BB2Krw==",
+  "_location": "/@patternfly/pfe-band",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-band",
+    "name": "@patternfly/pfe-band",
+    "escapedName": "@patternfly%2fpfe-band",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-band/-/pfe-band-1.0.0-prerelease.45.tgz",
+  "_shasum": "fd86443dd02a9b8b4bdf55f392034c97f798cd1e",
+  "_spec": "@patternfly/pfe-band",
+  "_where": "/home/ldary/rh/jbossorg",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "castastrophe",
+      "url": "https://www.github.com/castastrophe"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45",
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Band container for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-rhelement-version": "0.6.8",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-band.umd.js",
+  "module": "./dist/pfe-band.js",
+  "name": "@patternfly/pfe-band",
+  "pfelement": {
+    "className": "PfeBand",
+    "elementName": "pfe-band",
+    "files": {
+      "styles": "src/pfe-band.scss",
+      "template": "src/pfe-band.html",
+      "js": "src/pfe-band.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-band"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-band/test/"
+  },
+  "unpkg": "./dist/pfe-band.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}

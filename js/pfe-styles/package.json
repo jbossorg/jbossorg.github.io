@@ -1,0 +1,80 @@
+{
+  "_from": "@patternfly/pfe-styles",
+  "_id": "@patternfly/pfe-styles@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-f5A7btsCxI2koY4SxWK/I+QePFhesSVScl6H8sKT9ZApTRV0tpiiKFvldrBO+gcp818iRTZTzt7DZWpFxADT6A==",
+  "_location": "/@patternfly/pfe-styles",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-styles",
+    "name": "@patternfly/pfe-styles",
+    "escapedName": "@patternfly%2fpfe-styles",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-styles/-/pfe-styles-1.0.0-prerelease.45.tgz",
+  "_shasum": "c86d299f77ac655098aeed541614a5e037d9afbf",
+  "_spec": "@patternfly/pfe-styles",
+  "_where": "/home/ldary/rh/jbossorg",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Mark Caron",
+      "email": "mark@redhat.com",
+      "url": "https://github.com/markcaron"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Helper classes for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-layouts.css",
+  "name": "@patternfly/pfe-styles",
+  "pfelement": {
+    "className": "PfeLayouts",
+    "elementName": "pfe-layouts",
+    "assets": [
+      "pfe-base.*css",
+      "pfe-base.*.map",
+      "pfe-context.*css",
+      "pfe-context.*.map",
+      "pfe-layouts.*css",
+      "pfe-layouts.*.map"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-styles"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp build:nojs && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev:nojs"
+  },
+  "version": "1.0.0-prerelease.45"
+}

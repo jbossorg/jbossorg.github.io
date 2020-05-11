@@ -1,0 +1,75 @@
+{
+  "_from": "@patternfly/pfe-datetime",
+  "_id": "@patternfly/pfe-datetime@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-82u+UdK/484EJJIWB2q5EbN+1WquA5plgACDHfj8WfLUYe1EyWsdh3i1oMyQ2UTpe8xCbCFoSnX/Y2La8vU3hg==",
+  "_location": "/@patternfly/pfe-datetime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-datetime",
+    "name": "@patternfly/pfe-datetime",
+    "escapedName": "@patternfly%2fpfe-datetime",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-datetime/-/pfe-datetime-1.0.0-prerelease.45.tgz",
+  "_shasum": "de78ec68080a91c387a7ef606e88808520fc08c2",
+  "_spec": "@patternfly/pfe-datetime",
+  "_where": "/home/ldary/rh/jbossorg",
+  "authors": [
+    {
+      "name": "Luke Dary"
+    },
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Datetime element for PFElements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.2.8",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "license": "MIT",
+  "main": "./dist/pfe-datetime.umd.js",
+  "module": "./dist/pfe-datetime.js",
+  "name": "@patternfly/pfe-datetime",
+  "pfelement": {
+    "className": "PfeDatetime",
+    "elementName": "pfe-datetime"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-datetime"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-datetime/test/"
+  },
+  "unpkg": "./dist/pfe-datetime.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}

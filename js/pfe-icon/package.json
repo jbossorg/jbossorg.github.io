@@ -1,0 +1,73 @@
+{
+  "_from": "@patternfly/pfe-icon",
+  "_id": "@patternfly/pfe-icon@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-kb237RojESimmQe0s/+cIPR56yHi6qodI1CkRxAA5fkG1a1B3pFLPecxK9Fpv+o3UVQq4RhLUTSr6AUWpWIAeg==",
+  "_location": "/@patternfly/pfe-icon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-icon",
+    "name": "@patternfly/pfe-icon",
+    "escapedName": "@patternfly%2fpfe-icon",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-icon/-/pfe-icon-1.0.0-prerelease.45.tgz",
+  "_shasum": "99637393b1f8d7d7d700c91112ace85f2a194da1",
+  "_spec": "@patternfly/pfe-icon",
+  "_where": "/home/ldary/rh/jbossorg",
+  "author": {
+    "name": "Michael Clayton &lt;mclayton@redhat.com&gt;"
+  },
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45",
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Icon element for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "1.1.0",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-icon.umd.js",
+  "module": "./dist/pfe-icon.js",
+  "name": "@patternfly/pfe-icon",
+  "pfelement": {
+    "className": "PfeIcon",
+    "elementName": "pfe-icon"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-icon"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-icon/test/"
+  },
+  "unpkg": "./dist/pfe-icon.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}

@@ -1,0 +1,84 @@
+{
+  "_from": "@patternfly/pfe-card",
+  "_id": "@patternfly/pfe-card@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-PGPQabtdX0ahhdBeX15qR5F71hDegGw2kK4U4CIaX5jbm9QHb29uTv/iBU3QeQ+GeuDD3hUJlNCVuDU5z9if+A==",
+  "_location": "/@patternfly/pfe-card",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-card",
+    "name": "@patternfly/pfe-card",
+    "escapedName": "@patternfly%2fpfe-card",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-card/-/pfe-card-1.0.0-prerelease.45.tgz",
+  "_shasum": "22413583853267347e12aa52801c880b2c6f38bb",
+  "_spec": "@patternfly/pfe-card",
+  "_where": "/home/ldary/rh/jbossorg",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Mark Caron",
+      "email": "mark@redhat.com",
+      "url": "https://github.com/markcaron"
+    },
+    {
+      "name": "Kendall Totten"
+    },
+    {
+      "name": "castastrophe",
+      "url": "https://www.github.com/castastrophe"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45",
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Cards for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.5.0",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-card.umd.js",
+  "module": "./dist/pfe-card.js",
+  "name": "@patternfly/pfe-card",
+  "pfelement": {
+    "className": "PfeCard",
+    "elementName": "pfe-card"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-card"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-card/test/"
+  },
+  "unpkg": "./dist/pfe-card.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}

@@ -1,0 +1,77 @@
+{
+  "_from": "@patternfly/pfe-cta",
+  "_id": "@patternfly/pfe-cta@1.0.0-prerelease.45",
+  "_inBundle": false,
+  "_integrity": "sha512-WFECWgXnHvp2bjSSJVKQPikX3PILMq/MZitV0cICwAefzHZ8C6QkzOWQkKWLWXqelkoODkhgctxSyORAx6kulA==",
+  "_location": "/@patternfly/pfe-cta",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@patternfly/pfe-cta",
+    "name": "@patternfly/pfe-cta",
+    "escapedName": "@patternfly%2fpfe-cta",
+    "scope": "@patternfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-cta/-/pfe-cta-1.0.0-prerelease.45.tgz",
+  "_shasum": "0be1a4f1240dc0ad3f24c675192ee20df7ab6f1d",
+  "_spec": "@patternfly/pfe-cta",
+  "_where": "/home/ldary/rh/jbossorg",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Mark Caron",
+      "email": "mark@redhat.com",
+      "url": "https://github.com/markcaron"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.45",
+    "@patternfly/pfelement": "^1.0.0-prerelease.45"
+  },
+  "deprecated": false,
+  "description": "Call-to-actions for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.5.0",
+  "gitHead": "551aee451a9760efb87d26feff78172b613af7e7",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-cta.umd.js",
+  "module": "./dist/pfe-cta.js",
+  "name": "@patternfly/pfe-cta",
+  "pfelement": {
+    "className": "PfeCta",
+    "elementName": "pfe-cta"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-cta"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-cta/test/"
+  },
+  "unpkg": "./dist/pfe-cta.umd.min.js",
+  "version": "1.0.0-prerelease.45"
+}
