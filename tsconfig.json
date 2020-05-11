@@ -19,7 +19,7 @@
           "dom", "es5", "dom.iterable", "es6"
         ],
         //"outFile": "dist/js/rhd.js",
-        "outDir": "gh-pages/js"
+        "outDir": "docs/js"
         // "paths": {
         //     "@patternfly/pfelement/pfelement.umd": [
         //         "@types/patternfly__pfelement"

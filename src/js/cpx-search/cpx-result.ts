@@ -255,7 +255,7 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
         let re = /(\{\{\w+\}\})/gm
         let br = /[\{\}]+/g
         let fill = (match, p1, offset, string) => {
-            return this[match.replace(br,'')]
+            return this[match.replace(br,'')] ? this[match.replace(br,'')] : '';
         }
         return layout.replace(re, fill);
     }

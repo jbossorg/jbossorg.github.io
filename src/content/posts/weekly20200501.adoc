@@ -1,0 +1,103 @@
+= This Week in JBoss
+Paul Robinson
+v1.0, 2020-05-01
+:tags: summit, virtual, quarkus, kogito
+
+== [2020-04-30] - The Virtual Red Hat Summit week
+
+image::/img/posts/rh-summit-banner.png[link="https://www.redhat.com/en/summit"]
+
+I'm writing this as we wrap up another successful Red Hat Summit. 
+But this year, with a significant distinction: the event was 100% 
+virtual. Despite the involuntary move to virtual, there were many 
+benefits that came about from the change in format. The event was 
+completely free, and of course required no travel, allowing a much 
+broader and more diverse set of attendees to benefit from the 
+content and experience. It was also ran in three regions to 
+accommodate many more timezones.
+
+Being Red Hat we were keen to experiment with the format and find 
+new ways to engage with the community. It was important for us to 
+carry over as much of the personality and intimacy of the physical 
+event as possible. So, this needed to be more than just a bunch of 
+streamed talks. The talks were pre-recorded which allowed the 
+presenter(s) to participate directly in the Q&amp;A in real-time 
+as the talk proceeded. There was also a variety of sessions that 
+went beyond the talk format. For examples see 
+_Ask the experts_, _Networking social hour_, and 
+the _Virtual Open Neighborhood_ on the 
+https://www.redhat.com/en/summit/agenda/agenda-at-a-glance[agenda].
+
+If you weren't able to attend, or want to catch some of the 
+talks you missed, you can https://onlinexperiences.com/Launch/QReg.htm?ShowUUID=4245E6E3-7D25-496D-9B08-4CBDC87CCE74[re-live the virtual event here].
+
+*In other news...*
+
+=== Quarkus Insights on Youtube live
+
+This week Max Andersen and Emmanuel Bernard https://quarkus.io/blog/insights/[kicked off a new video/podcast series] 
+bringing insights into Quarkus. Each episode will focus on a 
+guest speaker discussing the development or usage of Quarkus. 
+There are also some dedicated Q&amp;A sessions planned. Be sure 
+to subscribe to the https://www.youtube.com/c/quarkusio[Quarkus YouTube channel] 
+to catch these sessions and other exciting Quarkus content. 
+In particular https://www.youtube.com/watch?v=OCPFdpvL1Q0&amp;feature=youtu.be[join them on the 4th of May]
+where Georgios Andrianakis will talk about Quarkus testing 
+and specifically the new mocking improvements in the recently 
+released Quarkus 1.4.
+
+=== Kogito: A Modular Codegen Design Proposal
+
+In https://planet.jboss.org/post/kogito_a_modular_codegen_design_proposal[this post] 
+Edoardo Vacchi explains how Kogito is improving performance 
+by moving processing out of the run-time and into build-time.
+
+=== Red Hat Summit 2020 - Ask the Experts: Hybrid Multicloud Pitfalls
+
+In one of the many _Ask the Experts_ sessions, 
+Eric Schabell &amp; Roel Hodzelmans focused on their hybrid 
+multi-cloud pitfall theories. You can 
+https://planet.jboss.org/post/red_hat_summit_2020_ask_the_experts_hybrid_multicloud_pitfalls_slides[view the slides here], 
+or https://onlinexperiences.com/Launch/QReg.htm?ShowUUID=4245E6E3-7D25-496D-9B08-4CBDC87CCE74[register for the Red Hat Summit Virtual event]
+to re-watch the content on demand.
+
+=== Free book on Knative covering Camel K and Kafka and upcoming webinar with live demos
+
+In this post Claus Ibsen https://planet.jboss.org/post/free_book_on_knative_covering_camel_k_and_kafka_and_upcoming_webinar_with_live_demos[alerts us to the free eBook] 
+written by Burr Sutter &amp; Kamesh Sampath on the subject of Knative. Go get your 
+free copy https://developers.redhat.com/books/knative-cookbook/[here]!
+
+=== Red Hat Summit 2020 - Business Automation Sessions
+
+If you are interested in the area of _Business Automation_, be sure to view Kris 
+Verlaenen's https://planet.jboss.org/post/virtual_red_hat_summit_2020_april_28_29[helpful summary] 
+of all the BI related talks held at Red Hat Summit.
+
+=== Demystifying the Event Driven Architecture - An introduction (part 1)
+
+Eric Schabell has https://planet.jboss.org/post/demystifying_the_event_driven_architecture_an_introduction_part_1[started a new blog series] 
+that explores the world of Event Driven Architectures (EDA).
+
+=== Six reasons why you will love Camel K
+
+Interested in Camel K, or want to find out what all the fuss is about?
+https://planet.jboss.org/post/six_reasons_why_you_will_love_camel_k[Read on], 
+and Christina will give you six reasons to love Camel K.
+ 
+=== Hybrid clouds with JGroups and Skupper
+
+Bela Ban follows up on his post explaining how to 
+http://belaban.blogspot.com/2019/12/spanning-jgroups-kubernetes-based.html[span JGroups Kubernetes-based clusters across Google and Amazon clouds]. 
+In https://planet.jboss.org/post/hybrid_clouds_with_jgroups_and_skupper[this new post] 
+Bela improves on the process by using https://skupper.io/[Skupper] to simplify this 
+task and encrypt the data exchanged between different clouds.
+
+=== This Week's Releases
+
+* https://quarkus.io/blog/quarkus-1-4-final-released/[Quarkus 1.4]. Command mode, HTTP 2, New FaaS framework, Mocking, and more.
+* https://www.keycloak.org//2020/04/keycloak-1000-released.html[Keycloak 10.0.0]. 
+With _Identity Brokering Sync Mode_, _Client Session Timeout for OpenID Connect / OAuth 2.0_ 
+and much more.
+* https://planet.jboss.org/post/kogito_0_9_1_released[Kogito 0.9.1]. This release 
+is a bug fix release, but there has also been considerable work spent on 
+documentation and code examples. See the link for detais.
