@@ -6,11 +6,11 @@ const YAML = require('yaml');
 const copyPromise = util.promisify(fsExtra.copy);
 const asciidoctor = require('asciidoctor')();
 const pageDir = 'src/content/pages/';
-const pageOutDir = 'docs/';
+const pageOutDir = 'gh-pages/';
 const contentDir = 'src/content/posts/';
-const contentOutDir = 'docs/posts/';
+const contentOutDir = 'gh-pages/posts/';
 const peopleDir = 'src/data/people/';
-const peopleOutDir = 'docs/data/people/';
+const peopleOutDir = 'gh-pages/data/people/';
 let posts = fs.readdirSync(contentDir)
             .map(v => ({ name:v, time:fs.statSync(contentDir + v).mtime.getTime()}))
             .sort((a, b) => (a.time - b.time))
@@ -36,10 +36,6 @@ posts.forEach((post) => {
     doc.write(doc.convert(), `${contentOutDir}${post.replace('adoc','html')}`);
 });
 
-// let idx = asciidoctor.loadFile('src/content/index.adoc', options);
-// idx.setAttribute('short-name', 'this-week');
-// idx.write(idx.convert(), 'gh-pages/index.html');
-
 fs.readdir(pageDir, (err, files) => {
     if (err) console.log(err);
     files.map( (file) => {
@@ -58,13 +54,13 @@ fs.readdir(peopleDir, (err,files) => {
     });
 });
 
-copyDirs('src', 'docs', ['css','img']).then(() => {
+copyDirs('src', 'gh-pages', ['css','img']).then(() => {
     console.log('Copied CSS and Images');
 }).catch(err => {
     console.log(err);
 });
 
-copyDirs('node_modules/@patternfly', 'docs/js').then(() => {
+copyDirs('node_modules/@patternfly', 'gh-pages/js').then(() => {
     console.log('Copied Patternfly and JS');
 }).catch(err => {
     console.log(err);
