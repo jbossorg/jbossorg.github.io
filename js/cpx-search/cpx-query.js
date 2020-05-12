@@ -287,7 +287,7 @@ var CPXQuery = (function (_super) {
             qURL_1.searchParams.set('q', this.term || '');
             qURL_1.searchParams.set('hl', 'true');
             qURL_1.searchParams.set('hl.fl', 'description');
-            qURL_1.searchParams.set('rows', this.limit.toString());
+            qURL_1.searchParams.set('size', this.limit.toString());
             this.activeFilters.forEach(function (filters, group) {
                 qURL_1.searchParams.set(group, Array.from(filters).join(','));
             });

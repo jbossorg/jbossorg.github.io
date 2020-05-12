@@ -12,6 +12,7 @@
     --color--grey: #626262;
     --font-size--content: calc(1em * 0.75);
 }
+
 body { 
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ body {
 /* Font-sizing */
 h1 { font-size: 86px; }
 h2 { font-size: 42px; }
-h3 { font-size: 36px; }
+h3 { font-size: 1.5em; }
 h4 { font-size: 28px; }
 h5 { font-size: 24px; }
 h6 { font-size: 22px; }
@@ -34,12 +35,13 @@ p { font-size: 18px; }
 h1 { line-height: 100px; }
 h2 { line-height: 46px; }
 .this-week h2 { line-height: 68px;}
+h3 { line-height: 1.25;}
 /* End Line Height */
 
 /* Font-families */
 h1, h2, h3, h4, h5, h6, nav {
     font-family: var(--font-family--heading);
-    margin: 0; padding: 0;
+    margin: 0 0 10px 0; padding: 0;
 }
 p { font-family: var(--font-family--content); }
 /* End Font-families */
@@ -200,20 +202,12 @@ main article > * {
     padding-right: 30px;
 }
 
-.redhat-footer {
-    background-color: black;
-    padding: .5rem 13rem;
-    display: flex;
-    color: white;
-    justify-content: flex-end;
-}
-.redhat-footer a {
-    color: white;
-}
-.redhat-footer .redhat {
-    margin-right: 2em;
-}
-.redhat-footer .licence {
-    flex: 1 0 auto;
-    text-align: center;
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: black;
+    }
+
+    h3 { color: #bababa; }
+    a { color: #73a2e5; }
 }

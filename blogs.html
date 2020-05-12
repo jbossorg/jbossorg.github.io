@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>Blogs - JBoss.org</title>
     <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
@@ -66,6 +67,15 @@ p.byline {
     font-size: 16px;
     font-family: "Hind Siliguri", "Open Sans", Arial, Helvetica, sans-serif;
 }
+
+p { margin-bottom: 30px; }
+
+hr { width: 50%; }
+
+@media (prefers-color-scheme: dark) {
+    p.byline { color: #bababa; }
+    h4 a { color: #73a2e5; }
+}
 </style>
 <div>
     <h4><a href="{{url}}">{{title}}</a></h4>
@@ -78,31 +88,25 @@ p.byline {
     </div>
     <p>{{description}}</p>
 </div>
+<hr>
 </template>
 </cpx-results>
 <cpx-query auto url="https://dcp2.jboss.org/v2/rest/search/middlewareblogs"></cpx-query>
+</article>
+<!--<cpx-search-box></cpx-search-box>-->
 </div>
 </div>
       </article>
   </main>
   <footer>
     
-    <div class="redhat-footer">
-        <span class="licence">
-          <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC by 3.0</a> | <a href="https://www.redhat.com/en/about/privacy-policy">Privacy Policy</a>
-        </span>
-        <span class="redhat">
-          Sponsored by
-        </span>
-        <span class="redhat-logo">
-          <a href="https://www.redhat.com/" target="_blank"><img src="/img/redhat_reversed.svg"></a>
-        </span>
-    </div>
   </footer>
   <script type="module" src="/js/cpx-search/cpx-query.js"></script>
   <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
   <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
   <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
   <script src="/js/jbossorg.js"></script>
 </body>
 </html>
