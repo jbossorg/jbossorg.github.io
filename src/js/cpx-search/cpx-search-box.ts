@@ -1,7 +1,7 @@
 // import {PFElement} from '../../@pfelements/pfelement.umd.js';
 // import { library, icon, dom } from '@fortawesome/fontawesome-svg-core/index'
 // import {faSearch} from '@fortawesome/pro-solid-svg-icons/index';
-import PFElement from '@patternfly/pfelement/pfelement.umd';
+//import PFElement from '@patternfly/pfelement/pfelement.umd';
 
 // library.add(faSearch);
 
@@ -9,7 +9,8 @@ import PFElement from '@patternfly/pfelement/pfelement.umd';
 //     size: 18
 //     }}).html;
 
-export default class DPSearchBox extends PFElement {
+export default class CPXSearchBox extends HTMLElement {
+    static tag = 'cpx-search-box';
     get html() {
         return `
         <style>
@@ -106,10 +107,7 @@ export default class DPSearchBox extends PFElement {
 </form>`;
     }
     _term = '';
-
-    static get tag() {
-        return 'dp-search-box';
-    }
+    template;
 
     get term() {
         return this._term;
@@ -121,15 +119,25 @@ export default class DPSearchBox extends PFElement {
     }
 
     name = 'Search Box';
+    render() {
+        this.shadowRoot.innerHTML = "";
+        this.template.innerHTML = this.html;
 
+        if (window['ShadyCSS']) {
+        window['ShadyCSS'].prepareTemplate(this.template, CPXSearchBox.tag);
+        }
+     
+        this.shadowRoot.appendChild(this.template.content.cloneNode(true));
+    }
     constructor() {
-        super(DPSearchBox, {delayRender: true});
+        super();
+        this.template = document.createElement("template");
+        this.attachShadow({ mode: "open" });
         this._checkTerm = this._checkTerm.bind(this);
     }
 
     connectedCallback() {
-        super.connectedCallback();
-        super.render();
+        this.render();
         top.addEventListener('params-ready', this._checkTerm);
         top.addEventListener('term-change', this._checkTerm);
 
@@ -171,4 +179,4 @@ export default class DPSearchBox extends PFElement {
     }
 }
 
-PFElement.create(DPSearchBox);
+window.customElements.define('cpx-search-box', CPXSearchBox);

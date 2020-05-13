@@ -42,6 +42,15 @@ p.byline {
     font-size: 16px;
     font-family: "Hind Siliguri", "Open Sans", Arial, Helvetica, sans-serif;
 }
+
+p { margin-bottom: 30px; }
+
+hr { width: 50%; }
+
+@media (prefers-color-scheme: dark) {
+    p.byline { color: #bababa; }
+    h4 a { color: #6BB5FF; }
+}
 </style>
 <div>
     <h4><a href="{{url}}">{{title}}</a></h4>
@@ -54,7 +63,10 @@ p.byline {
     </div>
     <p>{{description}}</p>
 </div>
+<hr>
 </template>
 </cpx-results>
 <cpx-query auto url="https://dcp2.jboss.org/v2/rest/search/middlewareblogs"></cpx-query>
+</article>
+<!--<cpx-search-box></cpx-search-box>-->
 ++++

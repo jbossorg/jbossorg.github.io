@@ -272,7 +272,7 @@ export default class CPXQuery extends HTMLElement {
             qURL.searchParams.set('q', this.term || '');
             qURL.searchParams.set('hl', 'true');
             qURL.searchParams.set('hl.fl', 'description');
-            qURL.searchParams.set('rows', this.limit.toString());
+            qURL.searchParams.set('size', this.limit.toString());
             // qURL.searchParams.set('start', (this.from + this.limit).toString());
 
             this.activeFilters.forEach((filters, group) => {

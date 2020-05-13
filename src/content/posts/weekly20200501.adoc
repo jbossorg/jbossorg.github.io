@@ -3,9 +3,9 @@ Paul Robinson
 v1.0, 2020-05-01
 :tags: summit, virtual, quarkus, kogito
 
-== [2020-04-30] - The Virtual Red Hat Summit week
-
 image::/img/posts/rh-summit-banner.png[link="https://www.redhat.com/en/summit"]
+
+== [2020-04-30] - The Virtual Red Hat Summit week
 
 I'm writing this as we wrap up another successful Red Hat Summit. 
 But this year, with a significant distinction: the event was 100% 
