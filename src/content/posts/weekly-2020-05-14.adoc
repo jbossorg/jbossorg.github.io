@@ -1,0 +1,25 @@
+= JBoss Weekly Editorial 14 May 2020
+Jason Porter
+2020-05-14
+:tags: event-driven, codeready-containers, keycloak, devnation
+
+We're a little light on the news this time, but those of us who have been reading the editorial for a few years will be familiar with the "after Summit slump."
+With Red Hat Summit behind us (and what a great Summit, check out the sessions on demand if you missed them), many people have taken PTO.
+Expect all the news, blogs, releases, etc. to pick back up in the coming weeks.
+
+All that being said, we do have some blogs to go over and one release.
+
+== Blogs
+
+First up is Eric Schabell's second entry in his "Demystifying the Event Driven Architecture - Making the case" series.
+You can read more about it https://www.schabell.org/2020/05/demystifying-event-driven-architecture-making-the-case.html[at his blog].
+
+We have another post by Eric: https://www.schabell.org/2020/05/code-ready-containers-installing-hr-employee-rewards-project.html[Code Ready Containers - Installing an HR employee rewards project using developer container catalog].
+For more information about CodeReady Containers, please visit the https://developers.redhat.com/products/codeready-containers/overview[Red Hat Developer page].
+
+There are a number of DevNation Tech Talks and master courses dropping within the next week, please visit the https://developers.redhat.com/devnation/[DevNation page] for more information.
+
+
+== Releases
+
+Keycloak released a new version: https://www.keycloak.org//2020/05/keycloak-1001-released.html[Keycloak 10.0.1].
