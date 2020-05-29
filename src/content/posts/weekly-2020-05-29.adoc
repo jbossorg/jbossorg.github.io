@@ -1,0 +1,37 @@
+= JBoss Weekly Editorial 14 May 2020
+Jason Porter
+2020-05-29
+:tags: infinispan, teiid, quarkus
+
+Welcome back!
+Things keep rolling along for us within Middleware at Red Hat.
+We have a couple of new releases and some blogs to talk about this week, so let's dig in.
+
+== Releases
+
+* https://infinispan.org/blog/2020/05/25/infinispan-11/[Infinispan 11.0.0.0.CR1] - This CR release sees non-blocking internal changes, a non-blocking Store SPI, slight modifications to clustering scaling, better/more server security, CLI, kubernetes/OpenShift operator, and an update to documentation!
+* https://github.com/quarkusio/quarkus/milestone/68?closed=1[Quarkus 1.5.0.Final] - The milestoe is done and the artifacts are in Maven Central. There are a few things left to do to offically announce the release, but all the coding is done. The link here is to the GitHub milestone for a list of issues completed.
+* https://teiid.blogspot.com/2020/05/teiid-spring-boot-150-released.html[Teiid Spring Boot 1.5.0]
+
+== Blogs 
+
+To go along with the Infinispan release, a couple of new blog posts have come out:
+
+* https://infinispan.org/blog/2020/05/28/cli/[CLI enhancements]
+* https://infinispan.org/blog/2020/05/26/hotrod-uri/[Hot Rod URI], so you can connect via Hot Rod the same way you would a JDBC datastore.
+
+Eric Schabell has a couple of entries into his Cloud-native development series:
+
+* https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html[A Blueprint]
+* https://www.schabell.org/2020/05/cloud-native-development-common-architectural-elements.html[Common Architectural Elements]
+
+There is also an entry called https://www.schabell.org/2020/05/reality-bites-3-misconceptions-can-lead-to-micorservice-mayhem-slides.html[Reality Bites: 3 misconceptions that can lead to microservice mayhem] discussing pitfalls to avoid while working with Microservices
+
+Lastly, we want to cover episodes 2, 3, and 4 of the Quarkus Insights video podcast.
+Episode 2 covers `quarkus:dev` and Command mode.
+Episode 3 discusses Hibernate and Panache.
+The most recent one, episode 4, talks about JHipster for Quarkus.
+You can find these video pod casts at https://www.youtube.com/playlist?list=PLsM3ZE5tGAVZ5p_CTx5YPLdMbyjlzfj8y[YouTube] or the audio on Apple Podcasts and Spotify.
+
+
+
