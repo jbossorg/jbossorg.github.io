@@ -1,0 +1,46 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ src ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm run-script start
+      
+    - name: SFTP Deploy
+      if: success()
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      env:
+        ARGS: --delete
+      with:
+        ftp-server: ${{ secrets.SFTP_SERVER }}
+        ftp-username: ${{ secrets.SFTP_USER }}
+        git-ftp-args: --pubkey ${{ secrets.SFTP_PRIVATE_KEY }} --remote-root ${{ secrets.SFTP_PATH }}
+        local-dir: gh-pages
+        
+    - name: GitHub Pages Deploy
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        target_branch: master
+        build_dir: gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
