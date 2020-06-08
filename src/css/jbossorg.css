@@ -202,6 +202,27 @@ main article > * {
     padding-right: 30px;
 }
 
+.rhd-banner {
+    background-color: var(--color--grey);
+    color: var(--color--white);
+    padding: 64px 140px;
+}
+.rhd-banner .three-cols {
+    display: flex;
+    flex-direction: row;
+}
+
+.rhd-banner .three-cols p {
+    flex: 2;
+}
+.rhd-banner .three-cols a {
+    flex: 1;
+    margin-left: 140px;
+    color: var(--color--white);
+    font-size: 22px;
+    font-weight: bold;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: white;

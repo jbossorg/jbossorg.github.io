@@ -3,6 +3,8 @@ module.exports = ({node}) => `
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src https:">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>${node.getAttribute('doctitle')} - JBoss.org</title>
@@ -22,6 +24,17 @@ module.exports = ({node}) => `
           <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
       </nav>
   </header>
+  ${ node.getAttribute('docname').indexOf('index') >= 0 ? `
+      <div class="rhd-banner">
+        <h2>Stay in touch with Red Hat Developer</h2>
+        <div class="three-cols">
+        <p>Red Hat uses the best and most effective ideas from the community projects to build 
+        enterprise products. These products remain open and are being used all around the world 
+        by corporations, governments, and non-profit organizations.</p>
+        <a href="https://developers.redhat.com">Learn more at developers.redhat.com</a>
+        <a href="https://twitter.com/rhdevelopers"><i class="fab fa-twitter"></i> @rhdevelopers</a>
+        </div>
+      </div>` : ''}
   <main id="main-content">
       <article class="" data-tags="${node.getAttribute('tags') ? node.getAttribute('tags') : ''}">
       ${ node.getAttribute('docname').indexOf('index') >= 0 ? `

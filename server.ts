@@ -13,7 +13,7 @@ const port = Deno.args[0] || "8088";
 
 const app = new Application();
 
-app.static("/", "./gh-pages/").start({hostname: "0.0.0.0", port: 8080 });
+app.static("/", "./gh-pages/").start({hostname: "0.0.0.0", port: 8000 });
 
 /*
 for await (const req of serve(`:${port}`)) {
