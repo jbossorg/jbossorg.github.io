@@ -33,7 +33,7 @@ jobs:
         # SSH key file name (default: id_rsa)
         name: jbossorg_rsa # optional, default is id_rsa
         # public keys of SSH servers
-        known_hosts: filemgmt.jboss.org # default is 
+        known_hosts: ${{ secrets.SFTP_PUBLIC_KEY }} # default is 
       
     - name: SFTP Deploy
       if: success()
@@ -41,10 +41,10 @@ jobs:
       env:
         ARGS: --delete
       with:
-        ftp-server: sftp://${{ secrets.SFTP_SERVER }}/${{ secrets.SFTP_PATH }}/
+        ftp-server: ${{ secrets.SFTP_SERVER }}
         ftp-username: ${{ secrets.SFTP_USER }}
         ftp-password: www
-        git-ftp-args: --key ~/.ssh/jbossorg_rsa
+        git-ftp-args: --key $HOME/.ssh/jbossorg_rsa
         local-dir: gh-pages
         
     - name: GitHub Pages Deploy
