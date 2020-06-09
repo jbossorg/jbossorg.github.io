@@ -41,10 +41,10 @@ jobs:
       env:
         ARGS: --delete
       with:
-        ftp-server: ${{ secrets.SFTP_SERVER }}
+        ftp-server: sftp://${{ secrets.SFTP_SERVER }}/${{ secrets.SFTP_PATH }}/
         ftp-username: ${{ secrets.SFTP_USER }}
         ftp-password: www
-        git-ftp-args: --key ~/.ssh/jbossorg_rsa --remote-root ${{ secrets.SFTP_PATH }}
+        git-ftp-args: --key ~/.ssh/jbossorg_rsa
         local-dir: gh-pages
         
     - name: GitHub Pages Deploy
