@@ -25,6 +25,16 @@ jobs:
     - run: npm install
     - run: npm run-script start
       
+    - name: Install SSH Key
+      uses: shimataro/ssh-key-action@v2.0.3
+      with:
+        # SSH private key
+        key: ${{ secrets.SFTP_PRIVATE_KEY }}
+        # SSH key file name (default: id_rsa)
+        name: jbossorg_rsa # optional, default is id_rsa
+        # public keys of SSH servers
+        known_hosts: filemgmt.jboss.org # default is 
+      
     - name: SFTP Deploy
       if: success()
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
@@ -33,7 +43,7 @@ jobs:
       with:
         ftp-server: ${{ secrets.SFTP_SERVER }}
         ftp-username: ${{ secrets.SFTP_USER }}
-        git-ftp-args: --pubkey ${{ secrets.SFTP_PRIVATE_KEY }} --remote-root ${{ secrets.SFTP_PATH }}
+        git-ftp-args: --key ~/.ssh/jbossorg_rsa --remote-root ${{ secrets.SFTP_PATH }}
         local-dir: gh-pages
         
     - name: GitHub Pages Deploy
