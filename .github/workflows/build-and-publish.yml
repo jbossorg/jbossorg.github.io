@@ -43,6 +43,7 @@ jobs:
       with:
         ftp-server: ${{ secrets.SFTP_SERVER }}
         ftp-username: ${{ secrets.SFTP_USER }}
+        ftp-password: www
         git-ftp-args: --key ~/.ssh/jbossorg_rsa --remote-root ${{ secrets.SFTP_PATH }}
         local-dir: gh-pages
         
