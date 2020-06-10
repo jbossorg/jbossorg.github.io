@@ -34,18 +34,24 @@ jobs:
         name: jbossorg_rsa # optional, default is id_rsa
         # public keys of SSH servers
         known_hosts: ${{ secrets.SFTP_PUBLIC_KEY }} # default is 
-      
+
     - name: SFTP Deploy
-      if: success()
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      env:
-        ARGS: --delete
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        ftp-server: ${{ secrets.SFTP_SERVER }}
-        ftp-username: ${{ secrets.SFTP_USER }}
-        ftp-password: www
-        git-ftp-args: --key $HOME/.ssh/jbossorg_rsa
-        local-dir: gh-pages
+        # username
+        username: ${{ secrets.SFTP_USER }}
+        # your sftp server
+        server: ${{ secrets.SFTP_SERVER }}
+        # your sftp server port, default to 22
+        port: 22 # default is 22
+        # you can copy private_key from your *.pem file, keep format
+        ssh_private_key: ${{ secrets.SFTP_PRIVATE_KEY }}
+        # will put all file under this path
+        local_path: './gh-pages/*' # default is ./*
+        # files will copy to under remote_path
+        remote_path: ${{ secrets.SFTP_PATH }} # default is /
+        # sftp args
+        #args: # optional  
         
     - name: GitHub Pages Deploy
       if: success()
