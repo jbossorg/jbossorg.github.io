@@ -57,14 +57,13 @@ posts.forEach((post) => {
                 link: `https://www.jboss.org/people/${doc.getAttribute('author').toLowerCase().replace(' ','-')}`
             }
         ],
-        date: new Date(doc.getAttribute('docdate')),
+        date: new Date(doc.getAttribute('docname').replace(/[a-zA-Z]+-?-/g,'')),
         image: doc.getAttribute('image'),
         content: dom.window.document.querySelector('main').innerHTML,
         category: doc.getAttribute('tags').split(',').map(tag => { return {name:tag.trim(), term: tag.trim()}; })
     };
     
     feed.addItem(item);
-    
     doc.write(doc.convert(), `${contentOutDir}${post.replace('adoc','html')}`);
 });
 

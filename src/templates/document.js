@@ -20,7 +20,7 @@ module.exports = ({node}) => `
       <a class="site-home ${node.getAttribute('docname') !== 'index' ? '' : 'active'}" href="/">JBoss<strong>.ORG</strong></a>
       <nav>
           <a ${node.getAttribute('docname') !== 'blogs' ? '' : 'class="active"'} href="blogs.html">Blogs</a>
-          <a ${node.getAttribute('docname') !== 'twitter' ? '' : 'class="active"'} href="twitter.html">Twitter</a>
+          <a ${node.getAttribute('docname') !== 'twitter' ? '' : 'class="active"'} href="tweets.html">Twitter</a>
           <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
       </nav>
   </header>
@@ -44,11 +44,11 @@ module.exports = ({node}) => `
             ${node.getAttribute('author') ? `<span>${node.getAttribute('author')}</span>` : ''}
         </div>`: `<h1>${node.getAttribute('doctitle')}</h1>` }
       ${node.getContent()}
-      ${ node.getAttribute('docname').indexOf('index') < 0 ? `
-        <div class="author">
-          <pfe-avatar pfe-shape="circle" pfe-pattern="squares" ${node.getAttribute('author') ? `pfe-src="/img/people/${node.getAttribute('author').toLowerCase().replace(' ','-')}.png"` : ''}></pfe-avatar>
-          ${node.getAttribute('author') ? `<span>${node.getAttribute('author')}</span>` : ''}
-      ` : ''}
+      ${ node.getAttribute('short-name') ? '':`
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" ${node.getAttribute('author') ? `pfe-src="/img/people/${node.getAttribute('author').toLowerCase().replace(' ','-')}.png"` : ''}></pfe-avatar>
+        ${node.getAttribute('author') ? `<span>${node.getAttribute('author')}</span>` : ''}
+    `}
       </article>
   </main>
   <footer>
