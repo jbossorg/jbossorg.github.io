@@ -15,7 +15,7 @@ const peopleDir = 'src/data/people/';
 const peopleOutDir = 'gh-pages/data/people/';
 let posts = fs.readdirSync(contentDir)
             .map(v => ({ name:v, time:fs.statSync(contentDir + v).mtime.getTime()}))
-            .sort((a, b) => (b.time - a.time))
+            .sort((a, b) => (b.name.replace(/[a-zA-Z]|-?-/g,'') - a.name.replace(/[a-zA-Z]|-?-/g,'')))
             .map(v => v.name);
 const feed = new Feed({
     title: 'Weekly Editorial',
