@@ -31,7 +31,7 @@ module.exports = ({node}) => `
         <p>Red Hat uses the best and most effective ideas from the community projects to build 
         enterprise products. These products remain open and are being used all around the world 
         by corporations, governments, and non-profit organizations.</p>
-        <a href="https://developers.redhat.com">Learn more at developers.redhat.com</a>
+        <a href="https://developers.redhat.com/middleware/?referrer=jbd">Learn more at developers.redhat.com</a>
         <a href="https://twitter.com/rhdevelopers"><i class="fab fa-twitter"></i> @rhdevelopers</a>
         </div>
       </div>` : ''}
@@ -44,6 +44,11 @@ module.exports = ({node}) => `
             ${node.getAttribute('author') ? `<span>${node.getAttribute('author')}</span>` : ''}
         </div>`: `<h1>${node.getAttribute('doctitle')}</h1>` }
       ${node.getContent()}
+      ${ node.getAttribute('docname').indexOf('index') < 0 ? `
+        <div class="author">
+          <pfe-avatar pfe-shape="circle" pfe-pattern="squares" ${node.getAttribute('author') ? `pfe-src="/img/people/${node.getAttribute('author').toLowerCase().replace(' ','-')}.png"` : ''}></pfe-avatar>
+          ${node.getAttribute('author') ? `<span>${node.getAttribute('author')}</span>` : ''}
+      ` : ''}
       </article>
   </main>
   <footer>
