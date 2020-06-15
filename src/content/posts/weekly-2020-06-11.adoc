@@ -1,4 +1,4 @@
-= This Week in JBoss
+= This Week in JBoss - 11 June 2020
 Don Naro
 v1.0, 2020-06-11
 :tags: quarkus, kogito, sso, infinispan

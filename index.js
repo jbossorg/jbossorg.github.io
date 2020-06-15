@@ -49,6 +49,7 @@ posts.forEach((post) => {
     let item = {
         title: doc.getAttribute('doctitle'),
         id: `https://www.jboss.org/posts/${doc.getAttribute('docname')}.html`,
+        link: `https://www.jboss.org/posts/${doc.getAttribute('docname')}.html`,
         description: '',
         author: [
             {
