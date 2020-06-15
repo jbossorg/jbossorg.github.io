@@ -3,7 +3,7 @@ module.exports = ({node}) => `
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src https:; script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://kit.fontawesome.com/ https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com/ 'unsafe-inline'; style-src https: 'unsafe-inline'; font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/">
+    <meta http-equiv="Content-Security-Policy" content="default-src https:; script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://assets.adobedtm.com https://kit.fontawesome.com/ https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com/ 'unsafe-inline'; style-src https: 'unsafe-inline'; font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
