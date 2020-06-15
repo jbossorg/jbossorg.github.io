@@ -3,47 +3,16 @@ module.exports = ({node}) => `
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<meta http-equiv="Content-Security-Policy" content="default-src https:">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src https:">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>${node.getAttribute('doctitle')} - JBoss.org</title>
     <script>
-
-    var digitalData = {
-      "page":{
-        "attributes":{
-          "queryParameters": window.location.href.split('?')[1] ? window.location.href.split('?')[1].replace(/=/g,':').split('&') : ""
-        },
-        "category":{
-          "contentType":"jboss-org-home",
-          "contentSubType":"blog",
-          "keyPage":false,
-          "keyPageType":"",
-          "pageType":"jboss-org-home",
-          "primaryCategory":"jboss-org-home",
-          "subCategories":[]
-        },
-        "pageInfo":{
-          "breadCrumbs":[],
-          "cms":"JBoss CMS",
-          "destinationURL": window.location.href,
-          "errorMessage":"",
-          "errorType":"",
-          "language":"en",
-          "pageID":"${node.getAttribute('docname')}",
-          "contentID":"jboss-org-home",
-          "pageName":"jboss-org-home",
-          "referringDomain":"","referringURL":"","syndicationIds":[],"sysEnv":( window.innerWidth <= 768 ) ? "tablet" : "desktop","title":"${node.getAttribute('doctitle')}"},"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""}},"user":[{"profile":[{"profileInfo":{"accountID":"","daysSinceLastPurchase":"","daysSinceRegistration":"","eloquaGUID":"POPULATE ELOQUA ID","keyCloakID":"","loggedIn":false,"profileID":"","registered":false,"socialAccountsLinked":[],"subscriptionFrequency":"","subscriptionLevel":"","userAgent":""}}]}],"event":[]};
-       if ( document.referrer ) {
-            var a = d.createElement( "a" );
-            a.href = d.referrer;
-            digitalData.page.pageInfo.referringDomain = a.hostname;
-            digitalData.page.pageInfo.referringURL = a.href;
-        }
+    var digitalData = {"page":{"attributes":{"queryParameters": window.location.href.split('?')[1] ? window.location.href.split('?')[1].replace(/=/g,':').split('&') : ""},"category":{"contentType":"jboss-org-home","contentSubType":"blog","keyPage":false,"keyPageType":"","pageType":"jboss-org-home","primaryCategory":"jboss-org-home","subCategories":[]},"pageInfo":{"breadCrumbs":[],"cms":"JBoss CMS","destinationURL": window.location.href,"errorMessage":"","errorType":"","language":"en","pageID":"${node.getAttribute('docname')}","contentID":"jboss-org-home","pageName":"jboss-org-home","referringDomain":"","referringURL":"","syndicationIds":[],"sysEnv":( window.innerWidth <= 768 ) ? "tablet" : "desktop","title":"${node.getAttribute('doctitle')}"},"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""}},"user":[{"profile":[{"profileInfo":{"accountID":"","daysSinceLastPurchase":"","daysSinceRegistration":"","eloquaGUID":"POPULATE ELOQUA ID","keyCloakID":"","loggedIn":false,"profileID":"","registered":false,"socialAccountsLinked":[],"subscriptionFrequency":"","subscriptionLevel":"","userAgent":""}}]}],"event":[]};
+    if ( document.referrer ) { var a = d.createElement( "a" );a.href = d.referrer;digitalData.page.pageInfo.referringDomain = a.hostname;digitalData.page.pageInfo.referringURL = a.href;}
     </script>
     <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
-    <script src="https://www.redhat.com/ma/dpal.js"></script>
     <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
