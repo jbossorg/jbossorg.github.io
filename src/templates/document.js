@@ -8,7 +8,7 @@ module.exports = ({node}) => `
     https://consent.trustarc.com/ https://kit.fontawesome.com/ https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com 
     https://static.redhat.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
     style-src https: 'unsafe-inline'; 
-    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/">
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
