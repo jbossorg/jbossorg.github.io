@@ -3,7 +3,7 @@ module.exports = ({node}) => `
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src https:; script-src https://www.stage.jboss.org/ 
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; script-src https://www.stage.jboss.org/ 
     https://www.jboss.org/ https://www.redhat.com/ https://assets.adobedtm.com https://img.en25.com https://s1795.t.eloqua.com 
     https://consent.trustarc.com/ https://kit.fontawesome.com/ https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com 
     https://static.redhat.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
@@ -13,10 +13,6 @@ module.exports = ({node}) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>${node.getAttribute('doctitle')} - JBoss.org</title>
-    <script>
-    var digitalData = {"page":{"attributes":{"queryParameters": window.location.href.split('?')[1] ? window.location.href.split('?')[1].replace(/=/g,':').split('&') : ""},"category":{"contentType":"jboss-org-home","contentSubType":"blog","keyPage":false,"keyPageType":"","pageType":"jboss-org-home","primaryCategory":"jboss-org-home","subCategories":[]},"pageInfo":{"breadCrumbs":[],"cms":"JBoss CMS","destinationURL": window.location.href,"errorMessage":"","errorType":"","language":"en","pageID":"${node.getAttribute('docname')}","contentID":"jboss-org-home","pageName":"jboss-org-home","referringDomain":"","referringURL":"","syndicationIds":[],"sysEnv":( window.innerWidth <= 768 ) ? "tablet" : "desktop","title":"${node.getAttribute('doctitle')}"},"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""}},"user":[{"profile":[{"profileInfo":{"accountID":"","daysSinceLastPurchase":"","daysSinceRegistration":"","eloquaGUID":"POPULATE ELOQUA ID","keyCloakID":"","loggedIn":false,"profileID":"","registered":false,"socialAccountsLinked":[],"subscriptionFrequency":"","subscriptionLevel":"","userAgent":""}}]}],"event":[]};
-    if ( document.referrer ) { var a = document.createElement( "a" );a.href = document.referrer;digitalData.page.pageInfo.referringDomain = a.hostname;digitalData.page.pageInfo.referringURL = a.href;}
-    </script>
     <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
     <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
@@ -64,8 +60,8 @@ module.exports = ({node}) => `
   <footer>
     ${ node.getAttribute('docname').indexOf('index') >= 0 ? `` : ''}
   </footer>
-  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
   <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
   <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
   <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
   <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
