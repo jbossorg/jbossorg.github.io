@@ -1,15 +1,15 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Staging CI
 
 on:
-  push:
+  pull_request:
     branches: [ src ]
 
 jobs:
   build:
-
+    name: Staging Build
     runs-on: ubuntu-latest
 
     strategy:
@@ -23,17 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run-script start
-      
-#     - name: Install SSH Key
-#       uses: shimataro/ssh-key-action@v2.0.3
-#       with:
-#         # SSH private key
-#         key: ${{ secrets.SFTP_PRIVATE_KEY }}
-#         # SSH key file name (default: id_rsa)
-#         name: jbossorg_rsa # optional, default is id_rsa
-#         # public keys of SSH servers
-#         known_hosts: ${{ secrets.SFTP_PUBLIC_KEY }} # default is 
+    - run: npm start
 
     - name: SFTP Deploy
       uses: wlixcc/SFTP-Deploy-Action@v1.0
@@ -49,15 +39,6 @@ jobs:
         # will put all file under this path
         local_path: './gh-pages/*' # default is ./*
         # files will copy to under remote_path
-        remote_path: ${{ secrets.SFTP_PATH }} # default is /
+        remote_path: ${{ secrets.SFTP_STG_PATH }} # default is /
         # sftp args
         #args: # optional  
-        
-    - name: GitHub Pages Deploy
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v2
-      with:
-        target_branch: master
-        build_dir: gh-pages
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

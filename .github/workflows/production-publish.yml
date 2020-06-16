@@ -1,0 +1,53 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Production CI
+
+on:
+  push:
+    branches: [ src ]
+
+jobs:
+  build:
+    name: Production Build
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm start
+
+    - name: SFTP Deploy
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
+      with:
+        # username
+        username: ${{ secrets.SFTP_USER }}
+        # your sftp server
+        server: ${{ secrets.SFTP_SERVER }}
+        # your sftp server port, default to 22
+        port: 22 # default is 22
+        # you can copy private_key from your *.pem file, keep format
+        ssh_private_key: ${{ secrets.SFTP_PRIVATE_KEY }}
+        # will put all file under this path
+        local_path: './gh-pages/*' # default is ./*
+        # files will copy to under remote_path
+        remote_path: ${{ secrets.SFTP_PATH }} # default is /
+        # sftp args
+        #args: # optional  
+        
+    - name: GitHub Pages Deploy
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        target_branch: master
+        build_dir: gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
