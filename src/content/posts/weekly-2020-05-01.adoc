@@ -1,4 +1,4 @@
-= This Week in JBoss
+= This Week in JBoss: 1 May 2020
 Paul Robinson
 v1.0, 2020-05-01
 :tags: summit, virtual, quarkus, kogito
