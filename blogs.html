@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://assets.adobedtm.com 
+    https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ https://kit.fontawesome.com/ 
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://consent.trustarc.com https://smetrics.jboss.org https://s1795.t.eloqua.com; 
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>Blogs - JBoss.org</title>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="blogs-page">
+
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a class="active" href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="">
+      <h1>Blogs</h1>
+      <div class="sect1">
+<h2 id="_community_blog_feed_most_recent_posts">Community Blog Feed: Most Recent Posts</h2>
+<div class="sectionbody">
+<cpx-results>
+<template>
+<style>
+:host {
+    margin-bottom: 20px;
+    --pfe-avatar--width: 50px;
+}
+h4 {
+    font-weight: 600;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+h4 a {
+    color: #004DB9;
+    cursor: pointer;
+}
+
+.author {
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+.author pfe-avatar {
+    --pfe-avatar--width: 50px;
+    display: inline-block;
+    margin-right:20px;
+}
+
+p.byline {
+    margin: 0;padding:0;
+    color: #454545;
+    font-size: 16px;
+    font-family: "Hind Siliguri", "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+p { margin-bottom: 30px; }
+
+hr { width: 50%; }
+
+@media (prefers-color-scheme: dark) {
+    p.byline { color: #bababa; }
+    h4 a { color: #6BB5FF; }
+}
+</style>
+<div>
+    <h4><a href="{{url}}">{{title}}</a></h4>
+    <p class="byline">
+        <pfe-datetime datetime="{{created}}" type="local" day="numeric" month="long" year="numeric">{{created}}</pfe-datetime>
+    </p>
+    <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-name="{{author}}"></pfe-avatar>
+        <span>By {{author}}</span>
+    </div>
+    <p>{{description}}</p>
+</div>
+<hr>
+</template>
+</cpx-results>
+<cpx-query auto url="https://dcp2.jboss.org/v2/rest/search/middlewareblogs"></cpx-query>
+</article>
+<!--<cpx-search-box></cpx-search-box>-->
+</div>
+</div>
+      
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
