@@ -8,7 +8,9 @@ module.exports = ({node}) => `
     https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ https://kit.fontawesome.com/ 
     https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
     style-src https: 'unsafe-inline'; 
-    img-src 'self' https://developers.redhat.com https://consent.trustarc.com https://smetrics.jboss.org https://s1795.t.eloqua.com; 
+    img-src 'self' https://developers.redhat.com https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net; 
+    frame-src https://redhat.demdex.net/;
     connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org;
     font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
