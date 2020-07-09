@@ -1,0 +1,40 @@
+= This Week in JBoss - 9 July 2020: Over the (j)cliff!
+Romain Pelisse 2020-07-09
+:tags: quarkus, editorial, infinispan, jgroups, netty, codeready, serverless, microservice, ansible, jcliff, widlfy, eap, eap-xp, microprofile
+
+Welcome to another installment of our JBoss Editorial! Summer has begun, well, at least for those of you readers living in the northern hemisphere :)! So let’s enjoy it by giving some nice, interesting and exciting reading material to enjoy while resting in the sun (with your mask, #staysafe!).
+
+== Infinispan 11!
+
+It’s out! The new major version of Infinispan is here! Please go and check out https://infinispan.org/blog/2020/07/03/infinispan-11/[Infinispan 11]!
+
+== JGroups: new Netty transport!
+
+I’ve said it many times, JGroups is an incredible piece of software. The power and the flexibility of the frameworks always dazzle me, so I’m very excited about this http://belaban.blogspot.com/2020/06/new-netty-transport.html[new netty transport] getting into it!
+
+== Ansible Collection for JCliff
+
+It’s a pet project of mine that I have already mentioned a few months ago: Andrew Block, Roel Holzmans and I have been working on integrating further Widlfy (and EAP) into Ansible, in order to ensure that one can use the tool to fine-tune as much as possible the JEE server’s configuration. We leverage an existing Open Source Java tool called https://github.com/bserdar/jcliff[JCliff] to just that.
+
+Last year, we released a role, already available in https://galaxy.ansible.com/redhat-cop/jcliff[Ansible Galaxy], to integrate JCliff into Ansible. However, since then, the Ansible community released a new format to distribute extension, called Ansible Collection. We therefore decide to migrate our content there and we finally released, just this week, a very first version: https://galaxy.ansible.com/redhat/jcliff[Ansible Collection for JCliff 0.0.1].
+
+So, please check it out! All you need to do is $ ansible-galaxy collection install redhat.jcliff:0.0.1 and, voilà, the collection is installed and you can start to https://github.com/ansible-middleware/ansible_collections_jcliff_demo[play with it].
+
+Oh, almost forgot! This release also supports, on tops of Linux, MacOSX with homebrew! (Windows using Chocolatey is coming next).
+
+
+== Serverless and Microservice
+
+As alluring as “serverless” is, it does, like any other technology, come with its own challenges. Follow Christina as she goes through the importance of having the proper infrastructure to support your “serverless” apps in this well thought out blog entry: http://wei-meilin.blogspot.com/2020/07/serverless-integration-components.html[Serverless Integration Components]
+
+Follow this first read, you may want to take a look at this other article on http://www.ofbizian.com/2020/07/operators-and-sidecars-are-new-model.html[operators and sidecars are the new model], which also discuss similar concerns.
+
+== Microprofile
+
+With the release JBoss EAP XP, there are a lot of opportunities to develop supported microprofile application. So if you want to explore how to develop such an application, please follow https://developers.redhat.com/blog/author/ehugonne/[Emmanuel Hugonnet]’s tutorial on https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces/[Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces].
+
+== Decaf—Quarkus Workshops automated with Ansible
+
+Yeah, I know, we just talked about Ansible! Where is my Java stuff you are rightly asking. Well, as you’ll see Ansible, while being Python, plays well with Java software, as demonstrated by this article on https://developers.redhat.com/blog/2020/07/03/automate-workshop-setup-with-ansible-playbooks-and-codeready-workspaces/[automate workshop setup with Ansible playbooks and CodeReady workspaces].
+
+That's all for another edition of the JBoss Editorial, please join us again for more exciting development from the JBoss Communities.
