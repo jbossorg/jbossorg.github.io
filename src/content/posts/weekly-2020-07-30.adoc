@@ -1,0 +1,47 @@
+= This Week in JBoss - 30th July 2020: No rest for the JBoss community!
+Romain Pelisse 2020-07-30
+:tags: eap, editorial, infinispan, quarkus, jgroups, java, wildfly, clustering, mod_cluster, eclipse, jkube, kubernetes,
+
+Welcome to another installment of our JBoss Editorial! The last two weeks have been pretty rich on published content and releases, so let's dive right in!
+
+== From Spring Boot to Quarkus
+
+As Quarkus community is increasing the question of how to migrate to this new framework (or rather runtime) often arises. If you happen to have such predicament with Spring Boot, I'm sure you'll be quite interested to read this article on https://developers.redhat.com/blog/2020/07/17/migrating-spring-boot-tests-to-quarkus/[migrating Spring Boot tests to Quarkus].
+
+== Secure vue.js with Keycloak
+
+If most of the content we mentioned today is made of articles, we have one, quite cool video content to share. It's coming straight from one of the tech-talks of the DevNation and we hope you'll like it :  https://developers.redhat.com/devnation/tech-talks/secure-vuejs-keycloak[Secure vue.js using Keycloak].
+
+== JGroups: Double your performance with virtual threads!
+
+Quite a lot of exciting things are happening in the realm of JGroups lately! Last time, we already mentioned the http://belaban.blogspot.com/2020/06/new-netty-transport.html[new netty transport], but Bela Ban, the creator of project, got us even more excited with this news about http://belaban.blogspot.com/2020/07/double-your-performance-virtual-threads.html[how one can double its performance using virtual threads (fibers) on JDK15/16]!!! This JDK is still a bit down the road, but its certainly a nice glimpse into tomorrow.
+
+== Back to the Basics
+
+As said above, the last two weeks have been particularly rich in interesting content around the JBoss community and the Java ecosystem at large. Some of those articles took the time to go back and rethink some aspects of our work that we take for granted. Let's first mention this original take on java programming that focuses on https://developers.redhat.com/blog/2020/07/09/behavior-is-easy-state-is-hard-tame-inconsistent-state-in-your-java-code/[taming inconsistent state in a Java code].
+
+This first article is already pretty centered around coding, but this next one goes into the very guts of Infinispan! If you know the project, I'm sure you'll find this entry on https://infinispan.org/blog/2020/07/22/anchored-keys/[anchored keys] as fascinating as I did!
+
+Let's also revisit a classic: load balancing a JEE app server (such as Wildfly or its product counterpart JBoss EAP), but with a twist: https://developers.redhat.com/blog/2020/07/15/load-balancing-red-hat-jboss-enterprise-application-platform-subclusters-with-mod_cluster/[Load balancing Red Hat JBoss EAP with subclusters].
+
+== Evangelist's Corner
+
+No rest for the wicked! And no, no rest for our very own Eric D. Schabell! In the last two weeks, he has been quite busy again. First of all, he got his very https://www.schabell.org/2020/07/what-the-dev-podcast-episode-44-agile-integration.html[first interview on a podcast] (yep, that's right, he was never on a podcast before!). With the host, he discussed the best practices for Agile integration. If you are interested in this topic, fetch the episode, you won't regret it!
+
+That's not all. Eric also took the time to update and release his "fully updated to the latest release" version of his https://www.schabell.org/2020/07/beginners-guide-building-a-retail-web-shop-workshop-update.html[Beginners guide - Building a retail web shop workshop update].
+
+On top of that, he took the time to describe https://www.schabell.org/2020/07/how-to-install-rhpam-77.html[how to How to Install Red Hat Process Automation Manager 7.7] and share his experience with the https://www.schabell.org/2020/07/shift-remote-2020-devops-heroes.html[Shift Remote 2020 online conference].
+
+== Releases, releases, releases,...
+
+As always, the JBoss community has been pretty busy in the last weeks and a few projects have seized the relative quietness of Summer to release new version of their product:
+
+* https://www.keycloak.org//2020/07/keycloak-1100-released.html[Keycloak 11.0.0]
+* http://bytemanblog.blogspot.com/2020/07/byteman-4012-has-been-released.html[Byteman 4.0.12]
+* https://infinispan.org/blog/2020/07/27/infinispan-12/[Infinispan 12.0.0.Dev01]
+
+== Decaf
+
+For once, this section stays rather close to Java, covering how to https://developers.redhat.com/blog/2020/07/27/deploy-your-java-web-application-into-the-cloud-using-eclipse-jkube/[deploy your Java Webapp into the cloud using Eclipse JKube]. So, yes, we'll talk Kubernetes, but in a context quite close to home :) .
+
+That's all for another edition of the JBoss Editorial, please join us again for more exciting development from the JBoss Communities.
