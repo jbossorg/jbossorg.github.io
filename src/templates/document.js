@@ -17,6 +17,14 @@ module.exports = ({node}) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>${node.getAttribute('doctitle')} - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
     <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
     <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
@@ -25,7 +33,7 @@ module.exports = ({node}) => `
     <link rel="stylesheet" href="/css/jbossorg.css">
 </head>
 <body class="${node.getAttribute('short-name')}">
-
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header>
       <a class="site-home ${node.getAttribute('docname') !== 'index' ? '' : 'active'}" href="/">JBoss<strong>.ORG</strong></a>
       <nav>
