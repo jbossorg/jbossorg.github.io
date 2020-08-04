@@ -223,6 +223,46 @@ main article > * {
     font-weight: bold;
 }
 
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .rhd-banner .three-cols {
+        flex-direction: column;
+    }
+    body > header, .rhd-banner {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    body > header {
+        height: 80px;
+    }
+    .rhd-banner {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .rhd-banner .three-cols a {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .this-week main article:first-child > * {
+        padding-right: 30px;
+    }
+    main article > * {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .convo {
+        height: 120px;
+        margin-bottom: 120px;
+    }
+    .convo::after {
+        border-width: 35px;
+        left: 70px;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: white;
