@@ -4,9 +4,9 @@ module.exports = ({node}) => `
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
-    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://assets.adobedtm.com 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://assets.adobedtm.com 
     https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ https://kit.fontawesome.com/ 
-    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
     style-src https: 'unsafe-inline'; 
     img-src 'self' https://developers.redhat.com https://consent.trustarc.com https://smetrics.jboss.org 
     https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net; 
@@ -17,6 +17,14 @@ module.exports = ({node}) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <title>${node.getAttribute('doctitle')} - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
     <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
     <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
@@ -25,7 +33,7 @@ module.exports = ({node}) => `
     <link rel="stylesheet" href="/css/jbossorg.css">
 </head>
 <body class="${node.getAttribute('short-name')}">
-
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header>
       <a class="site-home ${node.getAttribute('docname') !== 'index' ? '' : 'active'}" href="/">JBoss<strong>.ORG</strong></a>
       <nav>
