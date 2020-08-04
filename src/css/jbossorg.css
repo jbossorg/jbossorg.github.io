@@ -224,7 +224,7 @@ main article > * {
 }
 
 @media (max-width: 1200px) {
-    h2 {
+    h2, .this-week h2 {
         font-size: 24px;
         line-height: 34px;
     }
@@ -260,6 +260,38 @@ main article > * {
     .convo::after {
         border-width: 35px;
         left: 70px;
+    }
+}
+
+@media (max-width: 769px) {
+    h2, .this-week h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 1em;
+    }
+    body > header, .rhd-banner {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    body > header {
+        height: auto;
+    }
+    header a.site-home {
+        flex: 0 0 auto;
+        font-size: 32px;
+    }
+    body > header > nav a {
+        font-size: 24px;
+    }
+    .this-week h2 {
+        line-height: 34px;
+    }
+    main {
+        flex-direction: column;
+    }
+    main article > * {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
