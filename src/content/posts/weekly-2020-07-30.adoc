@@ -1,5 +1,6 @@
 = This Week in JBoss - 30th July 2020: No rest for the JBoss community!
-Romain Pelisse 2020-07-30
+Romain Pelisse
+2020-07-30
 :tags: eap, editorial, infinispan, quarkus, jgroups, java, wildfly, clustering, mod_cluster, eclipse, jkube, kubernetes,
 
 Welcome to another installment of our JBoss Editorial! The last two weeks have been pretty rich on published content and releases, so let's dive right in!
