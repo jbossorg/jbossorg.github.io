@@ -1,5 +1,6 @@
 = This Week in JBoss - 9 July 2020: Over the (j)cliff!
-Romain Pelisse 2020-07-09
+Romain Pelisse
+2020-07-09
 :tags: quarkus, editorial, infinispan, jgroups, netty, codeready, serverless, microservice, ansible, jcliff, widlfy, eap, eap-xp, microprofile
 
 Welcome to another installment of our JBoss Editorial! Summer has begun, well, at least for those of you readers living in the northern hemisphere :)! So let’s enjoy it by giving some nice, interesting and exciting reading material to enjoy while resting in the sun (with your mask, #staysafe!).
