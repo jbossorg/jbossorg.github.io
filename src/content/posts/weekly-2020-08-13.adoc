@@ -1,0 +1,44 @@
+= This Week in JBoss - 13 August 2020
+Don Naro
+v1.0, 2020-08-13
+:tags: jgroups, quarkus, keycloak, skupper, tech talk, infinispan, strimzi
+
+Welcome to another edition of the JBoss Editorial where we gather news from our communities and explore developments from our projects.
+
+== JGroups 5!
+
+Exciting news from Bela Ban as link:http://belaban.blogspot.com/2020/08/jgroups-500final-released.html[JGroups 5.0.0.Final] is released. JGroups 5 brings lots of improvements and some major API changes.
+
+Perhaps the biggest change is that link:http://www.jgroups.org/manual5/index.html#Message[`Message`] is now an interface with a number of subclasses that perform late marshalling so object payload is serialized at the point when messages are sent, which eliminates a memory allocation and makes JGroups performance even better.
+
+Other cool features in JGroups 5 are link:http://belaban.blogspot.com/2020/07/double-your-performance-virtual-threads.html[virtual thread support], an implementation of the Random Early Drop (RED) protocol, more efficient FD_ALL3 failure detection, a new protocol to dump stats, and lots more.
+
+Hearty congratulations to Bela and all the contributors and folks who made it happen!!
+
+Head over to the link:http://www.jgroups.org/manual5/index.html[JGroups 5 documentation] and find out more.
+
+== Keycloak Tech Talk
+
+Stian Thorgersen of the Keycloak team presents a DevNation Tech Talk that provides an in-depth look at the best open-source identity and management solution around. Stian gives a great demo of Keycloak that not only highlights features but showcases just how easy it is to integrate and use Keycloak capabilities to secure your applications.
+
+Spend half an hour and let Stian dazzle you with link:https://developers.redhat.com/blog/2020/08/07/a-deep-dive-into-keycloak/[A deep dive into Keycloak].
+
+== Reactive Quarkus: A Java Mutiny
+
+Another Tech Talk that you should definitely check out comes from Clement Escoffier and Edson Yanaga, who go into detail about Mutiny, a new reactive programming library. Clement and Edson explain why reactive matters, how Mutiny is makes it easier to develop reactive applications, and how the library is integrated with Quarkus.
+
+Listen to Clement and Edson deliver their excellent talk, link:https://developers.redhat.com/blog/2020/08/07/reactive-quarkus-a-java-mutiny/[Reactive Quarkus: A Java Mutiny].
+
+== Skupper and the Hybrid Cloud
+
+By now I'm sure you've heard of link:https://skupper.io/[Skupper] but maybe have yet to see it in action. Ted Ross gives a great introduction and live demonstration of Skupper across AWS, GCP, and Azure that shows real-time load balancing and fail-over.
+
+Watch Ted's link:https://developers.redhat.com/blog/2020/08/10/kubernetes-and-the-hybrid-cloud-with-skupper/[Kubernetes and the hybrid cloud with Skupper] Tech Talk today. You won't regret it.
+
+== In the Community
+
+Katia Aresti has created a pretty awesome Infinispan Server tutorial that demonstrates a full set of capabilities with a weather application. Visit the link:https://infinispan.org/infinispan-server-tutorial/[Infinispan Remote Weather App Tutorial] and try it for yourself.
+
+Jakub Scholz on the Strimzi team has written a comprehensive blog post, link:https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/[Using Open Policy Agent with Strimzi and Apache Kafka], that explores support for Kafka authorization using Open Policy Agent.
+
+That's it for this week's editorial. Thanks for reading and see you next time.
