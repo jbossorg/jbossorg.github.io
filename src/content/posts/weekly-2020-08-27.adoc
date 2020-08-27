@@ -1,0 +1,35 @@
+= JBoss Weekly Editorial 27 August 2020
+Jason Porter
+2020-08-27
+:tags: openshift, openjdk, amq, strimzi, automation, kubernetes, keycloak
+
+Welcome to another edition of the JBoss Weekly Editorial!
+Summer is drawing to a close, but that doesn't mean Red Hat has been resting, or that nothing has been happening over the past two weeks.
+There's been some great movement and progress made, which we'll cover.
+In this edition we're going to focus on OpenShift, the blogosphere, and finally, other project news.
+
+== OpenShift
+
+Last week was KubeCon Europe 2020, which as you can guess, was a big event for OpenShift!
+We had 15 speakers from Red Hat speaking over the three days, giving 17 talks.
+A number of new announcements, blog posts, and articles came out during KubeCon Europe 2020, They're all liked at https://www.openshift.com/kubecon[the OpenShift event page].
+There's simply too many to link here.
+The above event page has videos, press release links, links to other announcements and blogs.
+
+== Blogs
+
+Continuing the trend about OpenShift, Paul Vergilis wrote about external clients and Red Hat AMQ over at the https://developers.redhat.com/blog/2020/08/26/connecting-external-clients-to-red-hat-amq-broker-on-red-hat-openshift/[Red Hat Developer blog].
+If you're interested in getting started with Strimzi, Apache Kafka on Kubernetes, you'll want to catch up on the blog post Paolo Patierno and Jakub Scholz wrote: https://developers.redhat.com/blog/2020/08/14/introduction-to-strimzi-apache-kafka-on-kubernetes-kubecon-europe-2020/[Introduction to Strimzi: Apache Kafka on Kubernetes (KubeCon Europe 2020)].
+For those of you running OpenJDK 8, you'll want to know more about JDK Flight Recorder available in OpenJDK 8u262. An indepth intro is available at the https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u/[Red Hat Developer Blog] written by Mario Torre.
+
+== Projects
+
+To wrap up this edition, we will be looking at two announcements from Keycloak:
+
+* https://www.keycloak.org//2020/08/keycloak-1101-released.html[Keycloak 11.0.1 released] - fixing seven bugs
+* https://www.keycloak.org//2020/08/sunsetting-louketo-project.adoc.html[Sunsetting Louketo Project] - Bruno Oliveira discusses the reasons in this blog post.
+
+We're natuarally happy for a new release and sad for Louketo.
+
+Thanks for being here with us in this edition!
+We look forward to seeing you again in two weeks.
