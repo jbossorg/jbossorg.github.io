@@ -1,0 +1,30 @@
+= This Week in JBoss - 16 September 2020
+Don Naro
+2020-09-16
+:tags: jgroups, quarkus, infinispan
+
+Welcome to another edition of the JBoss Editorial where we gather news from our communities and explore developments from our projects.
+
+Our very own Mark Little goes into detail to explain Quarkus and Jakarta EE compatibility. Mark gives an insightful breakdown of the history for both projects and answers a much asked question, will Quarkus and Jarkata EE come together? No spoilers here, though. Go read Mark's link:https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not/[Quarkus and Jakarta EE: Together, or not?] if you already haven't.
+
+In the evangelist's corner, Eric Schabell has brought out an excellent https://www.schabell.org/2020/09/beginners-guide-to-decision-management-retail-web-shop.html[hands-on workshop with labs] for Red Hat Decision Manager that show you how to design and build a retail web shop from scratch.
+
+Eric also teams up with Ramon Villarreal to bring you architectural blueprints for link:https://www.schabell.org/2020/09/financial-payments-architecture-an-introduction.html[cloud-native financial payment services]. The blueprints are focused on proven interactions, messaging, processing, and integration patterns that you can put to use when building a cloud-native payment architecture.
+
+Leon Matthews continues the topic of all things financial with his analysis of the history of Java in the banking sector and the role Quarkus is playing in allowing banks and financial institutions to embrace change, innovate to remain competitive, and become more efficient. Read Leon's post: link:https://www.redhat.com/en/blog/25-years-and-going-strong-why-java-matters-future-banks?source=bloglisting[25 years and going strong: Why Java matters to the future of banks].
+
+Speaking of Quarkus, Clement Escoffier shows you how to build a stream of beer and then retrieve beers in a reactive way. After walking you through how you can do that with Mutiny, Clement provides a gist with all the code that you can compile and execute with jbang and a single command. You can find everything in his link:https://quarkus.io/blog/mutiny-pagination/[Handling paginated APIs with Mutiny] post.
+
+Another post from the Quarkus team that is worth reading is Jeff Beck's link:https://quarkus.io/blog/wipro-customer-story/[Wipro Addresses Seismic Shift in Retail with Quarkus]. Jeff shares the Wipro story by describing their needs and challenges and how they adopted Quarkus to modernize their applications and address customer use cases.
+
+If it hasn't crossed your radar, Bela Ban shows us his plans for a link:http://belaban.blogspot.com/2020/09/one-size-fits-all-jgroups.html[One Size Fits All JGroups] program and explains what is needed to get there.
+
+Jakub Scholz on the Strimzi team shares a post that looks at using the link:https://strimzi.io/blog/2020/09/01/enforce-custom-resource-policies-with-opa-gatekeeper/[Open Policy Agent Gatekeeper project to enforce policies when creating custom resources] and demonstrates how this is useful. While the post focuses on Strimzi, Jakub points out how Gatekeeper can be used with other projects so go take a look.
+
+Releases!!
+
+Congratulations to the Infinispan team for releasing the Dev03 cut of Infinispan 12. Cross-site replication capabilities continue to advance with an SPI that includes configurable policies for merging conflicting values from asynchronous backups, a feature which guarantees data consistency between global Infinispan clusters. That's no small feat of engineering! Find out about that and more over on the link:https://infinispan.org/blog/2020/09/08/infinispan-12/[Infinispan blog].
+
+Quarkus 1.8 is out with some shiny new features, including jbang integration for easy Quarkus-based scripting, support for multiple persistence units for the Hibernate ORM extension, a new Micrometer extension, and update to GraalVM 20.2 for building native apps from Quarkus projects. Here is the link:https://quarkus.io/blog/quarkus-1-8-0-final-released/[announcement with all the info].
+
+Keycloak have announced their new Account Console, built on React and PatternFly 4. The latest version offers a fresher look and feel with custom themes and extensions. Go link:https://www.keycloak.org/2020/09/new-account-console.adoc[check it out].
