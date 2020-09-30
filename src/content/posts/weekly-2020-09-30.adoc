@@ -1,0 +1,35 @@
+= This Week in JBoss - 30 September 2020
+Paul Robinson
+2020-09-30
+:tags: jBPM, OCP, OpenShift, Camel, CamelK, DevConf, Kafka
+
+It’s that time again where we round up the latest news from the community…
+
+Are you looking to develop projects on your local machine, and push them on to a real OpenShift Container Platform, without having to worry about cloud hosting of your container platform? 
+In this https://www.schabell.org/2020/09/how-to-setup-openshift-container-platform-45.html[post] Eric Schabell provides an easy way to get up and running with CodeReady containers on your own development machine.
+He’s automated most of the process through scripts, and guides you through the rest of the process.
+Eric also shows you how to drop into the Developer console in OCP providing a developer focused view that hides much of the plumbing that is not needed during development.
+
+In this https://developers.redhat.com/blog/2020/09/28/call-an-existing-rest-service-with-apache-camel-k/[post] Mary Cochran shows us a simple way to connect existing services together using CamelK via each service’s REST APIs.
+Mary gets deep into the details providing code examples and commands to get you up and running.
+
+Eric Schabell continues his https://www.schabell.org/2020/09/financial-payments-architecture-an-introduction.html[blog series], bringing you architectural blueprints for cloud-native financial payment services.
+The blueprints are focused on proven interactions, messaging, processing, and integration patterns that you can put to use when building a cloud-native payment architecture.
+This week he covers the https://www.schabell.org/2020/09/payments-architecture-common-elements.html[Common Architecture Elements] that make up the architecture, and gets into some details with the https://www.schabell.org/2020/09/payments-architecture-immediate-payments-example.html[Immediate Payments Example].
+
+As is normal for this time of year, the conference season is beginning to kick off.
+Albeit this year in a virtual arena.
+Undoubtedly this is an unfortunate situation for those that enjoy the in-person events.
+However, it’s great for accessibility and reach allowing many more people across to globe to attend.
+DevConf.US 2020 is one such event.
+It’s a free, Red Hat sponsored technology conference for community project and professional contributors to Free and Open Source technologies.
+Read more https://www.schabell.org/2020/09/devconfus-2020-appdev-containerization-ask-the-experts.html[here] where Eric describes the “AppDev & Containerization Ask the Experts” Panels that he and Kurt Stam  will be moderating.
+
+This week Kapil Shukla explains how to https://developers.redhat.com/blog/2020/09/28/build-a-data-streaming-pipeline-using-kafka-streams-and-quarkus/[build a data streaming pipeline using Kafka Streams and Quarkus].
+In this post Kapil shows how data can be processed in real-time as and when it arrives, instead of being batch processed as was needed in the past. 
+
+In this https://developers.redhat.com/blog/2020/09/22/troubleshooting-user-task-errors-in-red-hat-process-automation-manager-and-red-hat-jboss-bpm-suite/[Post] Anton Giertli provides help with troubleshooting user task errors in Red Hat Process Automation Manager and Red Hat JBoss BPM Suite.
+If you are a developer working with user tasks and having trouble debugging them, this post might well help you out.
+
+With the recent release of Apache Camel VS Code extension (0.0.27) comes several new language support features for Apache Camel.
+Read this https://developers.redhat.com/blog/2020/09/18/new-language-support-features-in-apache-camel-vs-code-extension-0-0-27/[post] to learn more. 
