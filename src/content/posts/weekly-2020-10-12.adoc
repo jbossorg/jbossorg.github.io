@@ -1,0 +1,44 @@
+= This week in JBoss - 12th October 2020 =
+Kevin Conner
+2020-10-12
+:tags: news, weekly_update, weekly_editorial, decision_manager, process_automation, kafka, camel, kamlets, quarkus, hacktoberfest, infinispan
+
+Welcome to another edition of the JBoss Editorial where we bring you articles and news from across the JBoss Community of projects
+
+== Creating a Payments Architecture ==
+
+With Cloud technologies changing the way we architect and deliver software Eric has been taking a look at how these technologies will apply to the Payment Services industry.
+
+In the next two posts from his Payment Architecture series Eric introduces us to link:https://www.schabell.org/2020/10/payments-architecture-anti-money-laundering-example.html[the design of an Anti-Money Laundering solution] and follows that with link:https://www.schabell.org/2020/10/payments-architecture-fraud-detection-example.html[the design of a Fraud Detection solution].
+
+== CodeReady Containers, Decision Manager and Process Automation ==
+
+If you have ever wanted to explore Decision Manager or Process Automation running within the cloud then it has never been easier to get started.  Eric has developed two simple setups, both leveraging CodeReady containers and OpenShift Container Platform 4.5, which allow you to quickly set up link:https://www.schabell.org/2020/10/codeready-containers-getting-started-with-ocp-45-and-decision-manager-tooling.html[Decision Manager] and link:https://www.schabell.org/2020/10/codeready-containers-ocp-45-with-process-automation-tooling.html[Process Automation].
+
+== Kafka and Emitters, a deeper dive ==
+
+Following on from an earlier blog post introducing us to emitters and how they can be used to send messages, Clement has taken a link:https://quarkus.io/blog/reactive-messaging-emitter/[deeper look into the Emitter construct and explains how this can be used to bridge between the imperative and reactive worlds].
+
+== Optimizing Camel 3.6 ==
+
+Camel 3.6 will bring with it a number of optimizations to the camel core which will improve not only the performance of the core but also reduce the resources required to run camel routes.  For more information link:http://www.davsclaus.com/2020/10/apache-camel-36-more-camel-core.html[check out Claus' blog where he describes the changes in more detail].
+
+== Kamlets, Camel in the cloud ==
+
+Apache Camel K 1.2.0 introduced a number of features, the most important of which is the Kamelet.  The Kamelet represents a camel route snippet and encapsulates the logic for connecting to a specific system.  For more information check out link:https://www.nicolaferraro.me/2020/10/12/kamelets/[Nicola's blog where he introduces you to Kamelets and how they relate to Knative Eventing].
+
+== Testing Quarkus ==
+
+Alex Soto and Burr Sutter recently gave a talk about testing Quarkus applications as part of the DevNation Tech Talk series.  The talk covers link:https://developers.redhat.com/blog/2020/10/12/quarked-testing-writing-tests-for-quarkus/[how to test basic components as well as more advanced topics such as persistence, service virtualization and using containers for testing].
+
+== Contributing to OpenSource Communities ==
+
+With link:https://hacktoberfest.digitalocean.com/[Hacktoberfest] already under way there are a number of opportunities for contributing to OpenSource, including a number of projects within the JBoss Community with two of those being link:https://strimzi.io[Strimzi] and link:https://quarkus.io/[Quarkus].   If you are interested in link:https://strimzi.io/blog/2020/10/01/hacktoberfest/[contributing to Strimzi] then check out Paolo's post, if interested in link:https://quarkus.io/blog/contributing-for-the-first-time/[contributing to Quarkus] then check out Loïc's post.
+
+
+== New Releases ==
+
+* The link:https://quarkus.io/[Quarkus team] have announced the release of link:https://quarkus.io/blog/quarkus-1-8-2-final-released/[Quarkus 1.8.2.Final] and link:https://quarkus.io/blog/quarkus-1-8-3-final-released/[Quarkus 1.8.3.Final]
+* The link:https://infinispan.org/[Infinispan] team have announced the release of link:https://infinispan.org/blog/2020/09/08/infinispan-12/[Infinispan 12.0.0.Dev03]
+
+That's all for this episode of the JBoss Editorial, please join us for our next edition when we will take another spin through the JBoss Community Projects in search of more interesting news and articles.
