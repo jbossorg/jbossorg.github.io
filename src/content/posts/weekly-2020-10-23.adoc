@@ -1,0 +1,45 @@
+= This week in JBoss - 23rd October 2020 =
+Paul Robinson
+2020-10-23
+:tags: news, weekly_update, weekly_editorial, kafka, quarkus, infinispan, keycloak, openshift, micrometer, microprofile, mutiny, codeready
+
+Welcome to another edition of the JBoss Editorial where we bring you articles and news from across the JBoss Community of projects.
+
+== Micrometer is recommended for metrics with Quarkus 1.9 ==
+
+In link:https://quarkus.io/blog/micrometer-metrics/[this post], Ken explains why the Quarkus team are now reccomending the use of the Micrometer Quarkus extension over the previous Eclipse MicroProfile Metrics extension. 
+
+== Kafka - How to fail gracefully ==
+
+Failures are inevitable.
+There is nothing we can do about that, and that also applies to Kafka applications.
+Your application may contain a faulty component misbehaving once in a while, or unable to process a specific Kafka record. 
+In link:https://quarkus.io/blog/kafka-failure-strategy/[this post], Clement explains how to manage these failures.
+
+== Use mobile numbers for user authentication in Keycloak ==
+
+In link:https://developers.redhat.com/blog/2020/10/23/use-mobile-numbers-for-user-authentication-in-keycloak/[this post] Siddhartha De explains how to extend Keycloak to use mobile-based authentication.
+The post explains the need for mobile-authentication and shows, hands on, how to use the Keycloak service provider interface to create this extension.
+
+== Securely connect Quarkus and Red Hat Data Grid on Red Hat OpenShift ==
+Continuing on the theme of security, James Falkner explains (link:https://developers.redhat.com/blog/2020/10/15/securely-connect-quarkus-and-red-hat-data-grid-on-red-hat-openshift/[here]) how to secure applications deployed on Red Hat OpenShift that use the link:https://quarkus.io/guides/infinispan-client[Quarkus Data Grid Extension].
+
+== Creating a Payments Architecture ==
+
+Eric continues his blog series looking at how Cloud technologies are changing the way we architect and deliver software, in particular how these technologies will apply to the Payment Services industry. 
+This week Eric describes a link:https://www.schabell.org/2020/10/payments-architecture-financial-calculations-example.html[Financial Calculations Example]
+
+== Mutiny - How does retry... retries? ==
+
+Clement was recently helping a community Quarkus user understand how to retry asynchronous operations with Mutiny.
+In doing so, he realised it was not all that simple to understand, and so he created link:https://quarkus.io/blog/uni-retry/[this blog post] so that the whole community could benefit from his explanation.
+
+== CodeReady Containers - Building a Cloud-Native Human Resources Process ==
+
+In link:https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html[this blog post] Eric talks you through how to install process automation developer tooling into a running Openshift Container platform.
+You can also refer to one of link:https://gitlab.com/redhatdemocentral/ocp-install-demo[Eric's previous posts] for details on how to easily get Openshift Container Platform running on your local machine. 
+
+== New Releases ==
+
+* The link:https://quarkus.io/[Quarkus team] have announced the release of link:https://quarkus.io/blog/quarkus-1-9-0-final-released/[Quarkus 1.9] and link:https://quarkus.io/blog/intellij-quarkus-tools-1.2.0/[Quarkus Tools for IntelliJ 1.2.0]
+
