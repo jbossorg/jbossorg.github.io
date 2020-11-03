@@ -1,0 +1,20 @@
+# List of feeds to index
+- http://feeds.feedburner.com/schabell/jboss
+- http://www.cdi-spec.org/news.atom
+- http://www.ofbizian.com/feeds/posts/default
+- https://infinispan.org/feed.atom
+- https://www.nicolaferraro.me/feed.xml
+- http://belaban.blogspot.com/feeds/posts/default
+- https://www.keycloak.org/rss.xml
+- http://bytemanblog.blogspot.com/feeds/posts/default?alt=rss
+- http://www.davsclaus.com/feeds/posts/default
+- http://feeds2.feedburner.com/ApacheCamel
+- http://wei-meilin.blogspot.tw/feeds/posts/default
+- http://teiid.blogspot.com/feeds/posts/default
+- http://kverlaen.blogspot.com/feeds/posts/default
+- http://feeds.athico.com/DroolsAtom?format=xml
+- http://www.lamida.net/feeds/posts/default
+- http://jbossws.blogspot.com/feeds/posts/default
+# kie blog disabled - returns 504
+#- https://blog.kie.org/feed/atom
+- https://quarkus.io/feed.xml

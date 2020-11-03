@@ -26,6 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    - name: aggregate community blogs
+      run: npm run aggregate
     - run: npm start
 
     - name: SFTP Deploy

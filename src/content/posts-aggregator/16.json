@@ -1,0 +1,12 @@
+{
+  "title": "Mutiny - How does retry... retries?",
+  "link": "https://quarkus.io/blog/uni-retry/",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-10-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Last week, David, a Quarkus user, asked me about retrying an asynchronous operation. David has a picky remote HTTP service, which sometimes misbehaves. Easy answer! Just do: uni.onFailure().retry().atMost(x). But, David is curious, and asked me a second question: how does retry work? Well, that’s simple; it just retries… As you..."
+}

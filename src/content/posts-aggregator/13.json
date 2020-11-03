@@ -1,0 +1,12 @@
+{
+  "title": "Kafka - How to fail gracefully",
+  "link": "https://quarkus.io/blog/kafka-failure-strategy/",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-10-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Failures are inevitable. There is nothing we can do about that, and that also applies to Kafka applications. Your application may contain a faulty component misbehaving once in a while, or unable to process a specific Kafka record. In this post, we are going to see how we can manage..."
+}
