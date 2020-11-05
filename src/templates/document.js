@@ -13,7 +13,7 @@ module.exports = ({node}) => `
     https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
     https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
     frame-src https://redhat.demdex.net/;
-    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
     font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
