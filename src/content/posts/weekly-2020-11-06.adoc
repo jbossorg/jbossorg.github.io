@@ -1,0 +1,41 @@
+= This week in JBoss - 6th November 2020 =
+Kevin Conner
+2020-11-06
+:tags: news, weekly_update, weekly_editorial, keycloak, camel, decision_manager, process_automation, wildfly, open_liberty, fabric8
+
+Welcome to another edition of the JBoss Editorial where we search through the JBoss Community for interesting articles and updates
+
+== Optimizing Camel 3.7 ==
+
+Camel 3.7 continues the push to optimize camel core by introducing some more improvements including further modularisation to help reduce the size of the runtime, a lightweight mode and more.  For further details link:http://www.davsclaus.com/2020/11/apache-camel-37-more-camel-core.html[check out Claus' blog where he covers these improvements in more detail].
+
+== Keycloak Authentication Using a Mobile Phone Number ==
+
+The Keycloak Identity and Access Management project provides an extension mechanism through which a developer can provide additional, custom authentication service providers to expand its capabilities.  link:https://developers.redhat.com/blog/2020/10/23/use-mobile-numbers-for-user-authentication-in-keycloak/[Siddhartha and his team recently took advantage of this capability to develop a custom authenticator class which could be used to authenticate a user via their mobile phone number].
+
+==  Fronting Decision Management with a Node.js Front End ==
+
+If you are interested in exploring how to expose the Decision Management server through a Node.js front end then Eric has a great demo for you.  The link:https://www.schabell.org/2020/10/codeready-containers-exploring-nodejs-with-decision-manager.html[demo is based on a bank loan scenario and uses numerous technologies within the Decision Management server as well as introducing a client application written in AngularJS and PatternFly].
+
+== WildFly server configuration with Ansible collection for JCliff ==
+
+In the first part of a three part series covering how to take advantage of Ansible capabilities to fine tune a WildFly server, link:https://developers.redhat.com/blog/2020/11/06/wildfly-server-configuration-with-ansible-collection-for-jcliff-part-1/[Romain walks us through the necessary steps for installing JCliff and ensuring it can be used within ansible playbooks].
+
+== Open Liberty and Kerberos/Thanos support ==
+
+The Open Liberty 20.0.0.11 release introduced two very interesting capabilities, the addition of kerberos authentication for securing Java Database Connectivity data sources and the ability to visualise MicroProfile Metrics data from Thanos sources.  For more information on these capabilities link:https://developers.redhat.com/blog/2020/10/30/open-liberty-20-0-0-11-brings-kerberos-authentication-and-thanos-support-in-grafana-dashboards/[check out Austin's blog on the topic]
+
+== What's new in Fabric8 Kubernetes Java Client ==
+
+The recent Fabric8 Kubernetes Java client 4.12.0 release included a number of bug fixes and new features.  For more information on these updates, including details on some breaking changes, link:https://developers.redhat.com/blog/2020/10/30/whats-new-in-fabric8-kubernetes-java-client-4-12-0/[head over to Rohan's post where he covers these in more detail].
+
+== JBoss Online ==
+
+Eric Schabell will be giving a presentation as part of the KieLives series on all technologies living under the KIE umbrella.  Eric's talk is titled link:https://www.schabell.org/2020/11/kielive-ultimate-beginners-guide-to-rules-processes-episode14.html["The ultimate beginers guide to rules and processes"] and will be taking place on November 10th.
+
+== New Releases ==
+
+* The link:https://www.keycloak.org/[Keycloak team] have announced the release of link:https://www.keycloak.org//2020/11/keycloak-1103-released.html[Keycloak 11.0.3]
+
+
+That's all for this edition of the JBoss Editorial, please join us in a couple of weeks when we will bring you more news and articles from the JBoss Community Projects.
