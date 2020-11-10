@@ -1,12 +1,12 @@
 {
-  "title": "Quarkus 1.9.1.Final released - Bugfixes",
-  "link": "https://quarkus.io/blog/quarkus-1-9-1-final-released/",
+  "title": "Quarkus native running on a Raspberry Pi",
+  "link": "https://quarkus.io/blog/quarkus-native-on-a-raspberry-pi/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-28T00:00:00.000Z",
+  "date": "2020-11-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Thanks to all your feedback, here comes 1.9.1.Final with bugfixes and documentation improvements. It is a safe upgrade for everyone using Quarkus 1.9. If you are not using 1.9 already, please refer to the 1.9 migration guide. What’s new? This release is a maintenance release that fixes various bugs found..."
+  "content": "Intro When I’ve been introduced to Quarkus, back in December 2018, I suddenly had the feeling the Quarkus runtime has the potential of covering ~95% of the software use-cases. My friend Sanne demoed Quarkus on his laptop when the runtime was still in an alpha state, far from being the..."
 }

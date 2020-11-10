@@ -1,12 +1,12 @@
 {
-  "title": "Quarkus 1.9 released - Micrometer extension maturing, multiple Redis clients, Quarkiverse",
-  "link": "https://quarkus.io/blog/quarkus-1-9-0-final-released/",
+  "title": "Mutiny - Flow control and Back-pressure",
+  "link": "https://quarkus.io/blog/mutiny-back-pressure/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-21T00:00:00.000Z",
+  "date": "2020-10-27T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quarkus 1.9 comes with a lot of improvements on top of our existing feature set: The Micrometer extension is maturing Kafka now has metrics Multiple Redis clients are supported (as well as Sentinel connections) Bean Validation is supported by Reactive Routes SmallRye Reactive Messaging upgraded to 2.4.0 and Mutiny to..."
+  "content": "Reactive Programming offers an elegant, flexible, and powerful way to write asynchronous code. It supports failure handling, both sequential and parallel operation composition, and plenty of operators. Reactive programming promotes data streams as a primary construct, and your code is observing streams and reacting to signals. Figure 1. Origins of..."
 }

@@ -1,12 +1,12 @@
 {
-  "title": "Micrometer is recommended for metrics with Quarkus 1.9",
-  "link": "https://quarkus.io/blog/micrometer-metrics/",
+  "title": "Quarkus 1.9 released - Micrometer extension maturing, multiple Redis clients, Quarkiverse",
+  "link": "https://quarkus.io/blog/quarkus-1-9-0-final-released/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-19T00:00:00.000Z",
+  "date": "2020-10-21T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Though Quarkus offers extensions for MicroProfile, including metrics, we’re now recommending the use of the Micrometer extension for metrics in Quarkus with the release of 1.9. Brief MicroProfile Metrics History During the creation of the MicroProfile Metrics specification in 2017, Dropwizard Metrics was the most popular metrics library at that..."
+  "content": "Quarkus 1.9 comes with a lot of improvements on top of our existing feature set: The Micrometer extension is maturing Kafka now has metrics Multiple Redis clients are supported (as well as Sentinel connections) Bean Validation is supported by Reactive Routes SmallRye Reactive Messaging upgraded to 2.4.0 and Mutiny to..."
 }

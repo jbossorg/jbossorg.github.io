@@ -1,12 +1,12 @@
 {
-  "title": "Mutiny - Flow control and Back-pressure",
-  "link": "https://quarkus.io/blog/mutiny-back-pressure/",
+  "title": "Quarkus 1.9.1.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-9-1-final-released/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-27T00:00:00.000Z",
+  "date": "2020-10-28T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Reactive Programming offers an elegant, flexible, and powerful way to write asynchronous code. It supports failure handling, both sequential and parallel operation composition, and plenty of operators. Reactive programming promotes data streams as a primary construct, and your code is observing streams and reacting to signals. Figure 1. Origins of..."
+  "content": "Thanks to all your feedback, here comes 1.9.1.Final with bugfixes and documentation improvements. It is a safe upgrade for everyone using Quarkus 1.9. If you are not using 1.9 already, please refer to the 1.9 migration guide. What’s new? This release is a maintenance release that fixes various bugs found..."
 }

@@ -1,12 +1,12 @@
 {
-  "title": "Mutiny - How does retry... retries?",
-  "link": "https://quarkus.io/blog/uni-retry/",
+  "title": "Micrometer is recommended for metrics with Quarkus 1.9",
+  "link": "https://quarkus.io/blog/micrometer-metrics/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-13T00:00:00.000Z",
+  "date": "2020-10-19T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Last week, David, a Quarkus user, asked me about retrying an asynchronous operation. David has a picky remote HTTP service, which sometimes misbehaves. Easy answer! Just do: uni.onFailure().retry().atMost(x). But, David is curious, and asked me a second question: how does retry work? Well, that’s simple; it just retries… As you..."
+  "content": "Though Quarkus offers extensions for MicroProfile, including metrics, we’re now recommending the use of the Micrometer extension for metrics in Quarkus with the release of 1.9. Brief MicroProfile Metrics History During the creation of the MicroProfile Metrics specification in 2017, Dropwizard Metrics was the most popular metrics library at that..."
 }
