@@ -7,6 +7,9 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 * * * *'
+  # Ability to trigger manually
+  # https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow-on-github
+  workflow_dispatch:
 
 jobs:
   build:
