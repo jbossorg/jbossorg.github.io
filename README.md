@@ -19,6 +19,14 @@
     4. `:tags: any, tags, you-want, comma-separated`
 2. Commit and Push the changes or create a Pull Request to the `src` branch
 
+## Community Blogs Aggregation
+
+The website aggregates community blogs and index 20 most recent posts.
+
+To add a new blog you need to:
+1. Add your blog's RSS/ATOM url into [aggregator-feeds.yaml](src/data/aggregator-feeds.yaml).
+2. Create a pull request to the `src` branch.
+
 ## Notes
 
 * A Pull Request to the `src` branch will publish to the staging site

@@ -1,0 +1,12 @@
+{
+  "title": "Quarkus 1.9.2.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-9-2-final-released/",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-11-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Just a week after 1.9.1.Final, here comes 1.9.2.Final with some bugfixes and documentation improvements. Thanks a lot to everyone providing feedback and pull requests! It is a safe upgrade for everyone using Quarkus 1.9. If you are not using 1.9 already, please refer to the 1.9 migration guide. What’s new?..."
+}

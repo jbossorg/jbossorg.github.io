@@ -1,0 +1,12 @@
+{
+  "title": "Kafka - When to commit?",
+  "link": "https://quarkus.io/blog/kafka-commit-strategies/",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-11-03T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "In a previous blog post, we have looked at failure strategies provided by the Reactive Messaging Kafka connector. But, imagine it’s our lucky day, and for once it worked. We should inform Kafka that the processing succeeded. In Kafka terminology, we call this: offset commit. This post covers the different..."
+}

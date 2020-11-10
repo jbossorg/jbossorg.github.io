@@ -1,0 +1,12 @@
+{
+  "title": "Keycloak 11.0.3 released",
+  "link": "https://www.keycloak.org//2020/11/keycloak-1103-released.html",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-11-05T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+}

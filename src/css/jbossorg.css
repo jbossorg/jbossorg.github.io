@@ -186,6 +186,16 @@ main article > * {
     display: inline-block;
     margin-right:20px;
 }
+p.byline {
+    margin: 0;
+    padding: 0;
+    color: #454545;
+    font-size: 16px;
+}
+p.end-of-results {
+    text-align: center;
+    font-size: 16px;
+}
 
 .preamble {
     font-size: 24px;
@@ -194,12 +204,28 @@ main article > * {
     color: #454545;
 }
 
+.twitter-feed h3 {
+    font-size: 16px;
+    color: #454545;
+}
+.twitter-feed p a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .blogs-page main, .twitter-page main {
     display: flex;
 }
 .blogs-page main article:first-child, .twitter-page main article:first-child {
     flex: 0 0 65%;
     padding-right: 30px;
+}
+
+.blogs-page hr {
+    width: 50%;
+}
+.blogs-page h3 {
+    margin-top: 30px;
 }
 
 .rhd-banner {

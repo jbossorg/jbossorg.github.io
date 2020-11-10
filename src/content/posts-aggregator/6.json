@@ -1,0 +1,12 @@
+{
+  "title": "Quarkus native running on a Raspberry Pi",
+  "link": "https://quarkus.io/blog/quarkus-native-on-a-raspberry-pi/",
+  "author": [
+    {
+      "name": null
+    }
+  ],
+  "date": "2020-11-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Intro When I’ve been introduced to Quarkus, back in December 2018, I suddenly had the feeling the Quarkus runtime has the potential of covering ~95% of the software use-cases. My friend Sanne demoed Quarkus on his laptop when the runtime was still in an alpha state, far from being the..."
+}
