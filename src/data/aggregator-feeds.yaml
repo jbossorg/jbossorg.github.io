@@ -17,4 +17,5 @@
 - http://jbossws.blogspot.com/feeds/posts/default
 # kie blog disabled - returns 504
 #- https://blog.kie.org/feed/atom
+- https://www.wildfly.org/feed.xml
 - https://quarkus.io/feed.xml
