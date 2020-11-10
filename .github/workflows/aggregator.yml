@@ -20,6 +20,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: src
+        # Has to be jbossorg token because. otherwise other actions are not triggered e.g. Production CI
+        # https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows#triggering-new-workflows-using-a-personal-access-token
+        token: ${{ secrets.JBOSSORG_BOT }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
