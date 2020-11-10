@@ -1,12 +1,12 @@
 {
-  "title": "Kafka - How to fail gracefully",
-  "link": "https://quarkus.io/blog/kafka-failure-strategy/",
+  "title": "Mutiny - Flow control and Back-pressure",
+  "link": "https://quarkus.io/blog/mutiny-back-pressure/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-20T00:00:00.000Z",
+  "date": "2020-10-27T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Failures are inevitable. There is nothing we can do about that, and that also applies to Kafka applications. Your application may contain a faulty component misbehaving once in a while, or unable to process a specific Kafka record. In this post, we are going to see how we can manage..."
+  "content": "Reactive Programming offers an elegant, flexible, and powerful way to write asynchronous code. It supports failure handling, both sequential and parallel operation composition, and plenty of operators. Reactive programming promotes data streams as a primary construct, and your code is observing streams and reacting to signals. Figure 1. Origins of..."
 }

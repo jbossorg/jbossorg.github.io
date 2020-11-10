@@ -1,12 +1,12 @@
 {
-  "title": "Quarkus native running on a Raspberry Pi",
-  "link": "https://quarkus.io/blog/quarkus-native-on-a-raspberry-pi/",
+  "title": "Kafka - When to commit?",
+  "link": "https://quarkus.io/blog/kafka-commit-strategies/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-11-02T00:00:00.000Z",
+  "date": "2020-11-03T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Intro When I’ve been introduced to Quarkus, back in December 2018, I suddenly had the feeling the Quarkus runtime has the potential of covering ~95% of the software use-cases. My friend Sanne demoed Quarkus on his laptop when the runtime was still in an alpha state, far from being the..."
+  "content": "In a previous blog post, we have looked at failure strategies provided by the Reactive Messaging Kafka connector. But, imagine it’s our lucky day, and for once it worked. We should inform Kafka that the processing succeeded. In Kafka terminology, we call this: offset commit. This post covers the different..."
 }

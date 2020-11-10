@@ -1,12 +1,12 @@
 {
-  "title": "Experimental GraphQL",
-  "link": "https://quarkus.io/blog/experimental_graphql/",
+  "title": "Quarkus native running on a Raspberry Pi",
+  "link": "https://quarkus.io/blog/quarkus-native-on-a-raspberry-pi/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-27T00:00:00.000Z",
+  "date": "2020-11-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "This blog post is a follow up on the initial introductory post, Supersonic Subatomic GraphQL, and here we will explore more features, some that is experimental, that we hope to eventually move to the MicroProfile GraphQL Specification (based on your feedback !) We will look at the following: Operational Context..."
+  "content": "Intro When I’ve been introduced to Quarkus, back in December 2018, I suddenly had the feeling the Quarkus runtime has the potential of covering ~95% of the software use-cases. My friend Sanne demoed Quarkus on his laptop when the runtime was still in an alpha state, far from being the..."
 }

@@ -1,12 +1,12 @@
 {
-  "title": "Quarkus 1.9 released - Micrometer extension maturing, multiple Redis clients, Quarkiverse",
-  "link": "https://quarkus.io/blog/quarkus-1-9-0-final-released/",
+  "title": "Experimental GraphQL",
+  "link": "https://quarkus.io/blog/experimental_graphql/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-21T00:00:00.000Z",
+  "date": "2020-10-27T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quarkus 1.9 comes with a lot of improvements on top of our existing feature set: The Micrometer extension is maturing Kafka now has metrics Multiple Redis clients are supported (as well as Sentinel connections) Bean Validation is supported by Reactive Routes SmallRye Reactive Messaging upgraded to 2.4.0 and Mutiny to..."
+  "content": "This blog post is a follow up on the initial introductory post, Supersonic Subatomic GraphQL, and here we will explore more features, some that is experimental, that we hope to eventually move to the MicroProfile GraphQL Specification (based on your feedback !) We will look at the following: Operational Context..."
 }
