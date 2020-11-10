@@ -34,6 +34,6 @@ jobs:
     - run: npm run aggregate
     - name: publish aggregation
       run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
+        git config user.name jbossorg-bot
+        git config user.email actions@users.noreply.github.com
         ./publish-aggregation.sh
