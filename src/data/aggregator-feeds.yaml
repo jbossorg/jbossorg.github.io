@@ -23,6 +23,7 @@ feeds:
   - url: https://www.wildfly.org/feed.xml
   - url: https://quarkus.io/feed.xml
   - url: https://resteasy.github.io/feed.xml
+  - url: https://vertx.io/feed.xml
 
 # end of list
 
