@@ -43,6 +43,7 @@ jobs:
           echo "Nothing to push"
           echo "::set-output name=push::false"
         else
+          git add --all
           git commit -m "Published latest aggregated blog posts"
           git push
           echo "::set-output name=push::true"
