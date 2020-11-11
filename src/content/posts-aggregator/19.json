@@ -1,12 +1,12 @@
 {
-  "title": "Kafka - How to fail gracefully",
-  "link": "https://quarkus.io/blog/kafka-failure-strategy/",
+  "title": "Quarkus 1.9 released - Micrometer extension maturing, multiple Redis clients, Quarkiverse",
+  "link": "https://quarkus.io/blog/quarkus-1-9-0-final-released/",
   "author": [
     {
       "name": null
     }
   ],
-  "date": "2020-10-20T00:00:00.000Z",
+  "date": "2020-10-21T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Failures are inevitable. There is nothing we can do about that, and that also applies to Kafka applications. Your application may contain a faulty component misbehaving once in a while, or unable to process a specific Kafka record. In this post, we are going to see how we can manage..."
+  "content": "Quarkus 1.9 comes with a lot of improvements on top of our existing feature set: The Micrometer extension is maturing Kafka now has metrics Multiple Redis clients are supported (as well as Sentinel connections) Bean Validation is supported by Reactive Routes SmallRye Reactive Messaging upgraded to 2.4.0 and Mutiny to..."
 }
