@@ -145,6 +145,12 @@ function getPostAuthorImgUrl(post) {
     if (post.link.indexOf('//www.jboss.org/posts/') > 0) {
         return "/img/people/" + post.author[0].name.toLowerCase().replace(' ','-') + ".png";
     }
+    let avatar = post.author[0].avatar;
+    if (avatar != null) {
+        return avatar
+    } else if (post.feed_avatar != null) {
+        return post.feed_avatar;
+    }
     return '/img/people/default_usericon.png';
 }
 
