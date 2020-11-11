@@ -17,14 +17,14 @@ const logErrorAndExit = (message, err) => {
 process.on('uncaughtException', err => logErrorAndExit("", err))
 
 // process feed promise function. The result of this promise is array of posts objects
-const processFeed = (url) => {
+const processFeed = (feedConfig) => {
     return new Promise((resolve, reject) => {
         let fetchedPosts = [];
 
         let feedparser = new FeedParser([{
             addmeta: false
         }]);
-        fetch(url).then(res => {
+        fetch(feedConfig.url).then(res => {
             if (res.status !== 200) {
                 reject('Response return not 200, code=' + res.status + ' feed_url=' + url + ' response_text=' + res.statusText);
             } else {
@@ -40,6 +40,7 @@ const processFeed = (url) => {
             let item;
 
             while (item = stream.read()) {
+                item.feed_avatar = feedConfig.avatar;
                 fetchedPosts.push(item);
             }
         });
@@ -51,7 +52,9 @@ const processFeed = (url) => {
 // Start the aggregation process
 console.log("Going to read the config file %s", configFile);
 const config = fs.readFileSync(configFile, 'utf8');
-const feedsJson = YAML.parseDocument(config, {schema: 'core'}).toJSON();
+const configJson = YAML.parseDocument(config, {schema: 'core'}).toJSON();
+const feedsJson = configJson.feeds;
+const authorsJson = configJson.authors;
 
 let allPosts = [];
 let feedsProcessed = 0;
@@ -59,18 +62,18 @@ let feedsProcessed = 0;
 const start = new Date(), feedsCount = feedsJson.length;
 
 console.log("Going to read %s feeds and store all blog posts to memory", feedsCount);
-feedsJson.forEach((item, index) => {
+feedsJson.forEach((feed, index) => {
     let feedNumber = index + 1;
     let feedStart = new Date();
-    console.log("Feed Process #%s START feeds_started=[%s/%s] feed_url=%s", feedNumber, feedNumber, feedsCount, item);
+    console.log("Feed Process #%s START feeds_started=[%s/%s] feed_url=%s", feedNumber, feedNumber, feedsCount, feed.url);
 
-    processFeed(item).then(fetchedPosts => {
+    processFeed(feed).then(fetchedPosts => {
         feedsProcessed++;
         const duration = new Date() - feedStart;
 
         fetchedPosts.forEach(item => allPosts.push(item));
 
-        console.log("Feed Process #%s END fetch_duration=%sms feeds_finished=[%s/%s] feed_url=%s", feedNumber, duration, feedsProcessed, feedsCount, item);
+        console.log("Feed Process #%s END fetch_duration=%sms feeds_finished=[%s/%s] feed_url=%s", feedNumber, duration, feedsProcessed, feedsCount, feed.url);
     }).then(() => {
         if (feedsProcessed === feedsJson.length) {
             const duration = new Date() - start;
@@ -104,6 +107,7 @@ function allPostsFetched(posts) {
 
 function convertBlogPost(dom) {
     let contentPreview = getContentPreview(dom.description);
+    let avatar = getAvatar(dom.author);
     let item = {
         title: dom.title,
         id: dom.id,
@@ -111,10 +115,12 @@ function convertBlogPost(dom) {
         author: [
             {
                 name: dom.author,
+                avatar: avatar
             }
         ],
         date: dom.pubdate,
         feed_title: dom.meta.title,
+        feed_avatar: dom.feed_avatar,
         // image: dom.image,
         content: contentPreview,
         // category: []
@@ -138,6 +144,15 @@ function getContentPreview(html) {
         }
     });
     return str.split('\n').join(' ');
+}
+
+function getAvatar(author) {
+    for (let i = 0; i < authorsJson.length; i++) {
+        if (authorsJson[i].name === author) {
+            return authorsJson[i].avatar;
+        }
+    }
+    return null;
 }
 
 function removeDuplicates(array) {

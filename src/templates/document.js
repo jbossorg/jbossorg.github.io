@@ -9,7 +9,7 @@ module.exports = ({node}) => `
     https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
     https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
     style-src https: 'unsafe-inline'; 
-    img-src 'self' https://developers.redhat.com https://consent.trustarc.com https://smetrics.jboss.org 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
     https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
     https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
     frame-src https://redhat.demdex.net/;
