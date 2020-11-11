@@ -1,4 +1,5 @@
 # This workflow will do a clean install of node dependencies, build the source code and run the aggregator
+# If no new posts are published then the workflow is cancelled
 
 name: Aggregator
 
@@ -13,11 +14,8 @@ on:
 
 jobs:
   build:
+    name: Check new posts and publish
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -29,11 +27,28 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm run aggregate
-    - name: publish aggregation
+        node-version: 12.x
+
+    - name: install npm dependencies
+      run: npm install
+    - name: aggregate community blogs
+      run: npm run aggregate
+
+    - name: publish new posts
+      id: commit
       run: |
         git config user.name jbossorg-bot
         git config user.email actions@users.noreply.github.com
-        ./publish-aggregation.sh
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "Nothing to push"
+          echo "::set-output name=push::false"
+        else
+          git commit -m "Published latest aggregated blog posts"
+          git push
+          echo "::set-output name=push::true"
+        fi
+      shell: bash
+
+    - name: cancelling - no new posts
+      if: steps.commit.outputs.push == 'false'
+      uses: andymckay/cancel-action@0.2
