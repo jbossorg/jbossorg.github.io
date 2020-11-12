@@ -7,50 +7,94 @@ toc::[]
 
 The following project names along with their name design and logos, either separately or in combination, are hereineafter referred to as 'Project Trademarks' and are trademarks of Red Hat Inc. Except as provided in these guidelines, you may not use the Project Trademarks or any confusingly similar marks as trademarks for your product/project, or use the Project Trademarks in any other manner that might cause confusion in the marketplace, including but not limited to in advertising, on auction sites, or on software or hardware. Red Hat protects the Project Trademarks on behalf of the entire JBoss Community. Indeed, the law obligates trademark owners to police their marks and prevent the use of confusingly similar names by third parties. As the trademark owner, Red Hat strives to use the Project Trademarks under the same guidelines as the rest of the community.
 
-Keycloak
-CapeDwarf
-GateIn
-RichFaces
-SwitchYard
-Weld
-Seam
-Snowdrop
-RESTEasy
-TorqueBox
-Errai
-Drools
-Hibernate
-Infinispan
-HornetQ
-jBPM
-RiftSaw
-JGroups
+Aerogear
+Aerogear DiGGER
+AESH
+Apicurio
+APIMAN
+APIviz
+Arquillian
+Arquillian Cube
+Artificer
+Ashiaro
+AtlasMap
 Blacktie
+BoxGrinder
+BuildTRacker
+Byteman
+CapeDwarf
+CEKIT
+Ceylon
+Chapeaux
+CirrAS
+Debezium
+Decorate
+Drogue IoT
+Drools
+Errai
+Escalante
+GateIn
+Guvnor
+Halkyon
+Hawkular
+Hibernate
+HornetQ
+Hyperfoil
+Immutant
+Infinispan
+IronJacamar
+JBeret
+JBoss Forge
+JBoss Tools
+jBPM
+JGroups
+Keycloak
+Kogito
+LiveOak
+Maistra
+Mass
+Mobicents
+mod_cluster
+Mod_cluster
+ModeShape
+Narayana
+Nodeshift
+Nodyn
+Optaplanner
+Overard
+Overlord
+Papaki
 PicketBox
 PicketLink
-IronJacamar
-Tohu
-Teiid
-Mobicents
-ModeShape
-Overlord
-Guvnor
-StormGrind
-CirrAS
-BoxGrinder
-SteamCannon
-Arquillian
-ShrinkWrap
-Tattletale
-Byteman
-Scribble
-Savara
-Mass
 PressGang
-mod_cluster
-XNIO
+Quarkus
+RESTEasy
+RichFaces
+RiftSaw
+Savara
+Scribble
+Seam
+ShrinkWrap
+Skupper
+SmallRye
+Snowdrop
+SteamCannon
+StormGrind
+Strimzi
+SwitchYard
+Syndesis
+Tattletale
+Teiid
+Thermostat
+Thorntail
+Tohu
+TorqueBox
+Undertow
+Weld
+WildFly
+WildFly Swarm
 Wise
-APIviz
+XNIO
 
 == Usage That Does Not Require Permission
 
@@ -155,88 +199,62 @@ One of the purposes of the JBoss Community is to make cutting-edge versions of J
 
 === Trademark Usage Guidelines
 
-[%header,cols=2*] 
-|===
-|Guideline
-|Examples
-
-|When using the Project Trademarks you must provide the proper trademark symbols and a trademark attribution statement.
-|Acceptable: Use Infinispan® for the first instance of the trademark, and include the statement "Infinispan and the Infinispan logo are trademarks of Red Hat, Inc."
+. When using the Project Trademarks you must provide the proper trademark symbols and a trademark attribution statement.
+Acceptable: Use Infinispan® for the first instance of the trademark, and include the statement "Infinispan and the Infinispan logo are trademarks of Red Hat, Inc."
 Unacceptable:  Never using the ® mark for Infinispan, nor a trademark statement per the guidelines.
 
-|Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.
-|Acceptable:  Hibernate, HIBERNATE
+. Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.
+*Acceptable:*  Hibernate, HIBERNATE
+*Unacceptable:*  hibernate, yourHibernate
 
-Unacceptable:  hibernate, yourHibernate
+. Always use proper trademark form and spelling.	
+*Acceptable:*  jBPM
+*Unacceptable:*  jBpm, JBPM, Jbpm
 
-|Always use proper trademark form and spelling.	
-|Acceptable:  jBPM
+. Never pluralize a trademark. Never use "a" or "the" to refer to an instance of the trademark. Always use a trademark as an adjective modifying a noun, or as a singular noun.	
+*Acceptable:*  This is a RichFaces interface. Anyone can install RichFaces.
+*Unacceptable:*  The RichFaces is great. I have seventeen RichFaces running in my application.
 
-Unacceptable:  jBpm, JBPM, Jbpm
+. Never use a trademark as a verb. Trademarks are products or services, never actions.	
+*Acceptable:*  Install Drools on your computer.
+*Unacceptable:*  Drool over your application logic today!
 
-|Never pluralize a trademark. Never use "a" or "the" to refer to an instance of the trademark. Always use a trademark as an adjective modifying a noun, or as a singular noun.	
-|Acceptable:  This is a RichFaces interface.
+. Never use a trademark as a possessive. Instead, the following noun should be used in possessive form or the sentence reworded so there is no possessive.	
+*Acceptable:*  The web interface using GateIn is very clean.
+*Unacceptable:*  GateIn's web interface is very clean.
 
-Anyone can install RichFaces.
+. Never translate a trademark into another language.	
+*Acceptable:*  Quiero instalar Blacktie en mi sistema.
+*Unacceptable:*  Quiero instalar empate negro en mi sistema.
 
-Unacceptable:  The RichFaces is great. I have seventeen RichFaces running in my application.
+. Never use trademarks to coin new words or names.	
+*Acceptable:*  N/A
+*Unacceptable:*  Teiid Fashion for geeks; Teiidorate.
 
-|Never use a trademark as a verb. Trademarks are products or services, never actions.	
-|Acceptable:  Install Drools on your computer.
+. Never alter a trademark in any way including through unapproved fonts or visual identifiers.	
+*Acceptable:* Proper use of the JGroups logo.
+*Unacceptable:*  Putting a target on top of the trademark.
 
-Unacceptable:  Drool over your application logic today!
+. Never use or register any trademarks that are confusingly similar to, or a play on, the project name.	
+*Acceptable:*  N/A
+*Unacceptable:*  RESTeezy
 
-|Never use a trademark as a possessive. Instead, the following noun should be used in possessive form or the sentence reworded so there is no possessive.	
-|Acceptable:  The web interface using GateIn is very clean.
+. Never combine your company name with a project name or use the project name in a way that it could be perceived that Red Hat or the project and your company have an organizational link such as a joint venture.	
+*Acceptable:*  AcmeCo uses Mobicents software on all its servers.
+*Unacceptable:*  Bix Max servers are a partnership of Mobicents and AcmeCo.
 
-Unacceptable:  GateIn's web interface is very clean.
+. Never use the Project Trademarks in a disparaging manner or in a manner that infringes Red Hat trademark rights or violates any federal, state, or international law.	
+*Acceptable:*  N/A
+*Unacceptable:*  Little cartoon boy micturating on RiftSaw logo, applying RiftSaw logo outside permitted uses.
 
-|Never translate a trademark into another language.	
-|Acceptable:  Quiero instalar Blacktie en mi sistema.
+. Never use terminology that states or implies that a project assumes any responsibility for the performance of your products and services.	
+*Acceptable:*  AcmeCo uses Mobicents software on all its servers.
+*Unacceptable:*  Mobicents runs AcmeCo's servers.
 
-Unacceptable:  Quiero instalar empate negro en mi sistema.
+. Never abbreviate or use any Project Trademarks as an acronym.	
+*Acceptable:*  HornetQ.
+*Unacceptable:*  HornQ, HORNETQ (Hide Or Reveal Network Queues)
 
-|Never use trademarks to coin new words or names.	
-|Acceptable:  N/A
-
-Unacceptable:  Teiid Fashion for geeks; Teiidorate.
-
-|Never alter a trademark in any way including through unapproved fonts or visual identifiers.	
-|Acceptable:  Proper use of the JGroups logo.
-
-Unacceptable:  Putting a target on top of the trademark.
-
-|Never use or register any trademarks that are confusingly similar to, or a play on, the project name.	
-|Acceptable:  N/A
-
-Unacceptable:  RESTeezy
-
-|Never combine your company name with a project name or use the project name in a way that it could be perceived that Red Hat or the project and your company have an organizational link such as a joint venture.	
-|Acceptable:  AcmeCo uses Mobicents software on all its servers.
-
-Unacceptable:  Bix Max servers are a partnership of Mobicents and AcmeCo.
-
-|Never use the Project Trademarks in a disparaging manner or in a manner that infringes Red Hat trademark rights or violates any federal, state, or international law.	
-|Acceptable:  N/A
-
-Unacceptable:  Little cartoon boy micturating on RiftSaw logo, applying RiftSaw logo outside permitted uses.
-
-|Never use terminology that states or implies that a project assumes any responsibility for the performance of your products and services.	
-|Acceptable:  AcmeCo uses Mobicents software on all its servers.
-
-Unacceptable:  Mobicents runs AcmeCo's servers.
-
-|Never abbreviate or use any Project Trademarks as an acronym.	
-|Acceptable:  HornetQ.
-
-Unacceptable:  HornQ, HORNETQ (Hide Or Reveal Network Queues)
-
-|Project logos must be hyperlinked to the project's homepage (e.g. http://drools.org) in contexts where such a hyperlink is technically feasible.
-|Acceptable:  Hyperlinking the logo where feasible.
-
-Unacceptable:  Not hyperlinking the logo where feasible.
-
-|===
-
-
-
+. Project logos must be hyperlinked to the project's homepage (e.g. http://drools.org) in contexts where such a hyperlink is technically feasible.
+*Acceptable:*  Hyperlinking the logo where feasible.
+*Unacceptable:*  Not hyperlinking the logo where feasible.
