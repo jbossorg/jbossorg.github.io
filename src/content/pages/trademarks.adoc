@@ -200,61 +200,61 @@ One of the purposes of the JBoss Community is to make cutting-edge versions of J
 === Trademark Usage Guidelines
 
 . When using the Project Trademarks you must provide the proper trademark symbols and a trademark attribution statement.
-Acceptable: Use Infinispan® for the first instance of the trademark, and include the statement "Infinispan and the Infinispan logo are trademarks of Red Hat, Inc."
-Unacceptable:  Never using the ® mark for Infinispan, nor a trademark statement per the guidelines.
+* *Acceptable:* Use Infinispan® for the first instance of the trademark, and include the statement "Infinispan and the Infinispan logo are trademarks of Red Hat, Inc."
+* *Unacceptable:*  Never using the ® mark for Infinispan, nor a trademark statement per the guidelines.
 
 . Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.
-*Acceptable:*  Hibernate, HIBERNATE
-*Unacceptable:*  hibernate, yourHibernate
+* *Acceptable:*  Hibernate, HIBERNATE
+* *Unacceptable:*  hibernate, yourHibernate
 
 . Always use proper trademark form and spelling.	
-*Acceptable:*  jBPM
-*Unacceptable:*  jBpm, JBPM, Jbpm
+* *Acceptable:*  jBPM
+* *Unacceptable:*  jBpm, JBPM, Jbpm
 
 . Never pluralize a trademark. Never use "a" or "the" to refer to an instance of the trademark. Always use a trademark as an adjective modifying a noun, or as a singular noun.	
-*Acceptable:*  This is a RichFaces interface. Anyone can install RichFaces.
-*Unacceptable:*  The RichFaces is great. I have seventeen RichFaces running in my application.
+* *Acceptable:*  This is a RichFaces interface. Anyone can install RichFaces.
+* *Unacceptable:*  The RichFaces is great. I have seventeen RichFaces running in my application.
 
 . Never use a trademark as a verb. Trademarks are products or services, never actions.	
-*Acceptable:*  Install Drools on your computer.
-*Unacceptable:*  Drool over your application logic today!
+* *Acceptable:*  Install Drools on your computer.
+* *Unacceptable:*  Drool over your application logic today!
 
 . Never use a trademark as a possessive. Instead, the following noun should be used in possessive form or the sentence reworded so there is no possessive.	
-*Acceptable:*  The web interface using GateIn is very clean.
-*Unacceptable:*  GateIn's web interface is very clean.
+* *Acceptable:*  The web interface using GateIn is very clean.
+* *Unacceptable:*  GateIn's web interface is very clean.
 
 . Never translate a trademark into another language.	
-*Acceptable:*  Quiero instalar Blacktie en mi sistema.
-*Unacceptable:*  Quiero instalar empate negro en mi sistema.
+* *Acceptable:*  Quiero instalar Blacktie en mi sistema.
+* *Unacceptable:*  Quiero instalar empate negro en mi sistema.
 
 . Never use trademarks to coin new words or names.	
-*Acceptable:*  N/A
-*Unacceptable:*  Teiid Fashion for geeks; Teiidorate.
+* *Acceptable:*  N/A
+* *Unacceptable:*  Teiid Fashion for geeks; Teiidorate.
 
 . Never alter a trademark in any way including through unapproved fonts or visual identifiers.	
-*Acceptable:* Proper use of the JGroups logo.
-*Unacceptable:*  Putting a target on top of the trademark.
+* *Acceptable:* Proper use of the JGroups logo.
+* *Unacceptable:*  Putting a target on top of the trademark.
 
 . Never use or register any trademarks that are confusingly similar to, or a play on, the project name.	
-*Acceptable:*  N/A
-*Unacceptable:*  RESTeezy
+* *Acceptable:*  N/A
+* *Unacceptable:*  RESTeezy
 
 . Never combine your company name with a project name or use the project name in a way that it could be perceived that Red Hat or the project and your company have an organizational link such as a joint venture.	
-*Acceptable:*  AcmeCo uses Mobicents software on all its servers.
-*Unacceptable:*  Bix Max servers are a partnership of Mobicents and AcmeCo.
+* *Acceptable:*  AcmeCo uses Mobicents software on all its servers.
+* *Unacceptable:*  Bix Max servers are a partnership of Mobicents and AcmeCo.
 
 . Never use the Project Trademarks in a disparaging manner or in a manner that infringes Red Hat trademark rights or violates any federal, state, or international law.	
-*Acceptable:*  N/A
-*Unacceptable:*  Little cartoon boy micturating on RiftSaw logo, applying RiftSaw logo outside permitted uses.
+* *Acceptable:*  N/A
+* *Unacceptable:*  Little cartoon boy micturating on RiftSaw logo, applying RiftSaw logo outside permitted uses.
 
 . Never use terminology that states or implies that a project assumes any responsibility for the performance of your products and services.	
-*Acceptable:*  AcmeCo uses Mobicents software on all its servers.
-*Unacceptable:*  Mobicents runs AcmeCo's servers.
+* *Acceptable:*  AcmeCo uses Mobicents software on all its servers.
+* *Unacceptable:*  Mobicents runs AcmeCo's servers.
 
 . Never abbreviate or use any Project Trademarks as an acronym.	
-*Acceptable:*  HornetQ.
-*Unacceptable:*  HornQ, HORNETQ (Hide Or Reveal Network Queues)
+* *Acceptable:*  HornetQ.
+* *Unacceptable:*  HornQ, HORNETQ (Hide Or Reveal Network Queues)
 
 . Project logos must be hyperlinked to the project's homepage (e.g. http://drools.org) in contexts where such a hyperlink is technically feasible.
-*Acceptable:*  Hyperlinking the logo where feasible.
-*Unacceptable:*  Not hyperlinking the logo where feasible.
+* *Acceptable:*  Hyperlinking the logo where feasible.
+* *Unacceptable:*  Not hyperlinking the logo where feasible.
