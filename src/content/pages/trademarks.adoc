@@ -1,0 +1,40 @@
+= Trademark Guidelines
+:toc: macro
+
+toc::[]
+
+== JBoss Trademark
+
+=== Legacy Product Names
+
+=== JBoss Community
+
+=== Community Websites
+
+== Project Trademarks
+
+=== Usage That Does Not Require Permission
+
+==== Noncommercial and community web sites
+
+==== Business web sites
+
+==== Promotional events
+
+==== Publications
+
+==== Application themes, skins, and personas
+
+=== Usage That Requires Permission
+
+==== Domain names
+
+==== Non-software goods
+
+=== Unapproved Use
+
+=== Proper Trademark Use
+
+==== Trademark Usage Guidelines
+
+=== Other Information
