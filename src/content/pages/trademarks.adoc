@@ -3,38 +3,240 @@
 
 toc::[]
 
-== JBoss Trademark
-
-=== Legacy Product Names
-
-=== JBoss Community
-
-=== Community Websites
-
 == Project Trademarks
 
-=== Usage That Does Not Require Permission
+The following project names along with their name design and logos, either separately or in combination, are hereineafter referred to as 'Project Trademarks' and are trademarks of Red Hat Inc. Except as provided in these guidelines, you may not use the Project Trademarks or any confusingly similar marks as trademarks for your product/project, or use the Project Trademarks in any other manner that might cause confusion in the marketplace, including but not limited to in advertising, on auction sites, or on software or hardware. Red Hat protects the Project Trademarks on behalf of the entire JBoss Community. Indeed, the law obligates trademark owners to police their marks and prevent the use of confusingly similar names by third parties. As the trademark owner, Red Hat strives to use the Project Trademarks under the same guidelines as the rest of the community.
 
-==== Noncommercial and community web sites
+Keycloak
+CapeDwarf
+GateIn
+RichFaces
+SwitchYard
+Weld
+Seam
+Snowdrop
+RESTEasy
+TorqueBox
+Errai
+Drools
+Hibernate
+Infinispan
+HornetQ
+jBPM
+RiftSaw
+JGroups
+Blacktie
+PicketBox
+PicketLink
+IronJacamar
+Tohu
+Teiid
+Mobicents
+ModeShape
+Overlord
+Guvnor
+StormGrind
+CirrAS
+BoxGrinder
+SteamCannon
+Arquillian
+ShrinkWrap
+Tattletale
+Byteman
+Scribble
+Savara
+Mass
+PressGang
+mod_cluster
+XNIO
+Wise
+APIviz
 
-==== Business web sites
+== Usage That Does Not Require Permission
 
-==== Promotional events
+Below are some guidelines for use of the Project Trademarks where, as long as you are in compliance with the guidelines, no permission is necessary. In all cases, use is permitted only provided that:
 
-==== Publications
+* the use is only in connection with promoting the projects
+* the use is not disparaging to Red Hat, its products or the projects
+* the use does not imply sponsorship or endorsement by Red Hat or the project
+* Proper trademark symbols are used in connection with the Project Trademarks and the trademark attribution statement must appear as explained in Proper Trademark Use
+ 
 
-==== Application themes, skins, and personas
+=== Noncommercial and community web sites
 
-=== Usage That Requires Permission
+In the past, community members have inquired whether it is permissible to show support for projects by:
 
-==== Domain names
+* placing the Project Trademarks on a personal web site or blog to support a project
+* making a page on a social networking web site to support a project
+* linking to a project from a wiki to provide information or show support for a project
+ 
+The guidelines relating to such usage are set forth in this section.
 
-==== Non-software goods
+It is permissible to use the Project Trademarks on websites to show your support for a project, provided that:
 
-=== Unapproved Use
+* where possible, the design logo hyperlinks to the project website, e.g. http://quarkus.io, or if that is not possible, the site includes a prominent link to the project website.
+* the site indicates clearly that it is not affiliated with or endorsed by the project; in addition, where possible:
+ - the site must include the text "This site is not affiliated with or endorsed by <project/s>" prominently on any page that includes the Project Trademarks, and
+ - if the Project Trademarks appear in a page header or any area that is designed to be presented on more than one page, the notice must also be designed to be presented on all of those pages as well. (i.e. if the Project Trademarks appear in a site-wide header, the informational text must appear in that header or an identically site-wide footer.)
+* the site does not use visual styling that could be confusing to viewers or visitors as to whether the site is hosted by or on behalf of a project
 
-=== Proper Trademark Use
+=== Business web sites
 
-==== Trademark Usage Guidelines
+In the past, community members have inquired whether it is permissible to show support for a project by:
 
-=== Other Information
+* offering Project Merchandise for sale at a retail business or web site
+* displaying a link to a project using the Project Trademarks from a business web site
+* displaying the Project Trademarks as part of a business that provides services for clients using a project
+
+The guidelines relating to such usage are set forth in this section.
+
+It is permissible to use the Project Trademarks on business web sites, provided that:
+
+* the web site has non-project primary branding
+* the design logo hyperlinks to the project website, e.g. http://quarkus.io
+* the use does not imply sponsorship or endorsement by Red Hat or the project
+* the use of the Project Trademarks does not imply an association with or endorsement of any non-project goods or services
+* the site does not use visual styling that could be confusing to viewers or visitors as to whether the site is hosted by or on behalf of the project
+
+Provided these guidelines are observed, it is permissible to use the Project Trademarks to sell Project Merchandise, and to advertise services for project-based systems (installation, configuration, troubleshooting, etc.)
+
+=== Promotional events
+
+In the past, community members have inquired whether it is permissible to use the Project Trademarks to promote open source software events such as Oracle Code One or community open source software trade shows. The guidelines relating to such usage are set forth in this section.
+
+It is permissible to use the Project Trademarks without prior permission to promote open source software events where individuals in the project appear as Project Ambassadors or otherwise represent the project, provided the general guidelines above are followed. If you would like to make some non-software goods to give away at the event and don't already have a license to do so, see the 'Non-software goods' section below.
+
+=== Publications
+
+It is permissible to use the Project Trademarks in the title and content of a publication, provided that:
+
+* the use is clearly in reference to the project or its software
+* the use does not imply sponsorship or endorsement by Red Hat or the project
+* proper trademark symbols are used in connection with the Project Trademarks and the trademark attribution statement must appear as explained in 'Proper Trademark Use' below.
+
+=== Application themes, skins, and personas
+
+In the past, community members have inquired whether it is permissible to show support for a project by placing the Project Trademarks in a theme, persona, or skin intended to alter the appearance of an application. The guidelines relating to such usage are set forth in this section. These guidelines do not apply to the appearance of a web site, which is covered elsewhere in this document.
+
+It is permissible to use the Project Trademarks in themes, personas, or skins for applications to show your support for a project, provided that:
+
+* the use of the Project Trademarks does not conflict with the license or terms of use of the application being altered;
+* the use is non-commercial in nature; and,
+* the use does not imply sponsorship or endorsement by Red Hat or the project.
+
+If you wish to use any existing project designs other than the Project Trademarks for your work, please observe the licensing requirements for those materials.
+
+== Usage That Requires Permission
+
+Community members must obtain permission prior to using any of the Project Trademarks in the following situations.
+
+=== Domain names
+
+To establish a domain with a project name in its domain name, you must have a http://fedoraproject.org/wiki/Trademark_license_agreement[trademark license agreement] with Red Hat.
+
+=== Non-software goods
+
+In the past, community members have inquired whether it is permissible to use Project Trademarks on non-software goods such as T-shirts, stickers, and pens.
+
+Community members may request from Red Hat a license to use the Project Trademarks on non-software related goods, services, or other entities. Red Hat, or someone it delegates for the task, will ask to see the proposed designs before approving their use.
+
+== Unapproved Use
+
+The following uses of the Project Trademarks are not approved under any foreseeable circumstances.
+
+* Violations of the 'Trademark Usage Guidelines' below.
+* Any use outside these guidelines not by explicit written permission
+
+Except as set forth herein, the trademark owner (Red Hat) retains and reserves all rights to the Project Trademarks and their use, including the right to modify these guidelines.
+
+== Proper Trademark Use
+
+One of the purposes of the JBoss Community is to make cutting-edge versions of Java Middleware widely available in a consistent format that the public can come to trust. To achieve this purpose it is important that the technology can quickly be identified and that the recipient knows the technology they are receiving is the official and unmodified version. Red Hat has chosen a number of project names to identify this effort and is granting usage rights in the Project Trademarks as previously described in this document in order to assure widespread availability.
+
+=== Trademark Usage Guidelines
+
+[%header,cols=2*] 
+|===
+|Guideline
+|Examples
+
+|When using the Project Trademarks you must provide the proper trademark symbols and a trademark attribution statement.
+|Acceptable: Use Infinispan® for the first instance of the trademark, and include the statement "Infinispan and the Infinispan logo are trademarks of Red Hat, Inc."
+Unacceptable:  Never using the ® mark for Infinispan, nor a trademark statement per the guidelines.
+
+|Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.
+|Acceptable:  Hibernate, HIBERNATE
+
+Unacceptable:  hibernate, yourHibernate
+
+|Always use proper trademark form and spelling.	
+|Acceptable:  jBPM
+
+Unacceptable:  jBpm, JBPM, Jbpm
+
+|Never pluralize a trademark. Never use "a" or "the" to refer to an instance of the trademark. Always use a trademark as an adjective modifying a noun, or as a singular noun.	
+|Acceptable:  This is a RichFaces interface.
+
+Anyone can install RichFaces.
+
+Unacceptable:  The RichFaces is great. I have seventeen RichFaces running in my application.
+
+|Never use a trademark as a verb. Trademarks are products or services, never actions.	
+|Acceptable:  Install Drools on your computer.
+
+Unacceptable:  Drool over your application logic today!
+
+|Never use a trademark as a possessive. Instead, the following noun should be used in possessive form or the sentence reworded so there is no possessive.	
+|Acceptable:  The web interface using GateIn is very clean.
+
+Unacceptable:  GateIn's web interface is very clean.
+
+|Never translate a trademark into another language.	
+|Acceptable:  Quiero instalar Blacktie en mi sistema.
+
+Unacceptable:  Quiero instalar empate negro en mi sistema.
+
+|Never use trademarks to coin new words or names.	
+|Acceptable:  N/A
+
+Unacceptable:  Teiid Fashion for geeks; Teiidorate.
+
+|Never alter a trademark in any way including through unapproved fonts or visual identifiers.	
+|Acceptable:  Proper use of the JGroups logo.
+
+Unacceptable:  Putting a target on top of the trademark.
+
+|Never use or register any trademarks that are confusingly similar to, or a play on, the project name.	
+|Acceptable:  N/A
+
+Unacceptable:  RESTeezy
+
+|Never combine your company name with a project name or use the project name in a way that it could be perceived that Red Hat or the project and your company have an organizational link such as a joint venture.	
+|Acceptable:  AcmeCo uses Mobicents software on all its servers.
+
+Unacceptable:  Bix Max servers are a partnership of Mobicents and AcmeCo.
+
+|Never use the Project Trademarks in a disparaging manner or in a manner that infringes Red Hat trademark rights or violates any federal, state, or international law.	
+|Acceptable:  N/A
+
+Unacceptable:  Little cartoon boy micturating on RiftSaw logo, applying RiftSaw logo outside permitted uses.
+
+|Never use terminology that states or implies that a project assumes any responsibility for the performance of your products and services.	
+|Acceptable:  AcmeCo uses Mobicents software on all its servers.
+
+Unacceptable:  Mobicents runs AcmeCo's servers.
+
+|Never abbreviate or use any Project Trademarks as an acronym.	
+|Acceptable:  HornetQ.
+
+Unacceptable:  HornQ, HORNETQ (Hide Or Reveal Network Queues)
+
+|Project logos must be hyperlinked to the project's homepage (e.g. http://drools.org) in contexts where such a hyperlink is technically feasible.
+|Acceptable:  Hyperlinking the logo where feasible.
+
+Unacceptable:  Not hyperlinking the logo where feasible.
+
+|===
+
+
+
