@@ -46,10 +46,12 @@ jobs:
           git add --all
           git commit -m "Published latest aggregated blog posts"
           git push
+          echo "New posts pushed to git repo"
           echo "::set-output name=push::true"
         fi
       shell: bash
 
-    - name: cancelling - no new posts
-      if: steps.commit.outputs.push == 'false'
-      uses: andymckay/cancel-action@0.2
+#    Disabled because cancelled jobs triggers e-mails notification
+#    - name: cancelling - no new posts
+#      if: steps.commit.outputs.push == 'false'
+#      uses: andymckay/cancel-action@0.2
