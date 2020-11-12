@@ -7,94 +7,94 @@ toc::[]
 
 The following project names along with their name design and logos, either separately or in combination, are hereineafter referred to as 'Project Trademarks' and are trademarks of Red Hat Inc. Except as provided in these guidelines, you may not use the Project Trademarks or any confusingly similar marks as trademarks for your product/project, or use the Project Trademarks in any other manner that might cause confusion in the marketplace, including but not limited to in advertising, on auction sites, or on software or hardware. Red Hat protects the Project Trademarks on behalf of the entire JBoss Community. Indeed, the law obligates trademark owners to police their marks and prevent the use of confusingly similar names by third parties. As the trademark owner, Red Hat strives to use the Project Trademarks under the same guidelines as the rest of the community.
 
-Aerogear
-Aerogear DiGGER
-AESH
-Apicurio
-APIMAN
-APIviz
-Arquillian
-Arquillian Cube
-Artificer
-Ashiaro
-AtlasMap
-Blacktie
-BoxGrinder
-BuildTRacker
-Byteman
-CapeDwarf
-CEKIT
-Ceylon
-Chapeaux
-CirrAS
-Debezium
-Decorate
-Drogue IoT
-Drools
-Errai
-Escalante
-GateIn
-Guvnor
-Halkyon
-Hawkular
-Hibernate
-HornetQ
-Hyperfoil
-Immutant
-Infinispan
-IronJacamar
-JBeret
-JBoss Forge
-JBoss Tools
-jBPM
-JGroups
-Keycloak
-Kogito
-LiveOak
-Maistra
-Mass
-Mobicents
-mod_cluster
-Mod_cluster
-ModeShape
-Narayana
-Nodeshift
-Nodyn
-Optaplanner
-Overard
-Overlord
-Papaki
-PicketBox
-PicketLink
-PressGang
-Quarkus
-RESTEasy
-RichFaces
-RiftSaw
-Savara
-Scribble
-Seam
-ShrinkWrap
-Skupper
-SmallRye
-Snowdrop
-SteamCannon
-StormGrind
-Strimzi
-SwitchYard
-Syndesis
-Tattletale
-Teiid
-Thermostat
-Thorntail
-Tohu
-TorqueBox
-Undertow
-Weld
-WildFly
-WildFly Swarm
-Wise
-XNIO
+Aerogear +
+Aerogear DiGGER +
+AESH +
+Apicurio +
+APIMAN +
+APIviz +
+Arquillian +
+Arquillian Cube +
+Artificer +
+Ashiaro +
+AtlasMap +
+Blacktie +
+BoxGrinder +
+BuildTRacker +
+Byteman +
+CapeDwarf +
+CEKIT +
+Ceylon +
+Chapeaux +
+CirrAS +
+Debezium +
+Decorate +
+Drogue IoT +
+Drools +
+Errai +
+Escalante +
+GateIn +
+Guvnor +
+Halkyon +
+Hawkular +
+Hibernate +
+HornetQ +
+Hyperfoil +
+Immutant +
+Infinispan +
+IronJacamar +
+JBeret +
+JBoss Forge +
+JBoss Tools +
+jBPM +
+JGroups +
+Keycloak +
+Kogito +
+LiveOak +
+Maistra +
+Mass +
+Mobicents +
+mod_cluster +
+Mod_cluster +
+ModeShape +
+Narayana +
+Nodeshift +
+Nodyn +
+Optaplanner +
+Overard +
+Overlord +
+Papaki +
+PicketBox +
+PicketLink +
+PressGang +
+Quarkus +
+RESTEasy +
+RichFaces +
+RiftSaw +
+Savara +
+Scribble +
+Seam +
+ShrinkWrap +
+Skupper +
+SmallRye +
+Snowdrop +
+SteamCannon +
+StormGrind +
+Strimzi +
+SwitchYard +
+Syndesis +
+Tattletale +
+Teiid +
+Thermostat +
+Thorntail +
+Tohu +
+TorqueBox +
+Undertow +
+Weld +
+WildFly +
+WildFly Swarm +
+Wise +
+XNIO +
 
 == Usage That Does Not Require Permission
 
