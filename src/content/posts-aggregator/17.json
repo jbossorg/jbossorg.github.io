@@ -1,6 +1,6 @@
 {
-  "title": "Mutiny - Flow control and Back-pressure",
-  "link": "https://quarkus.io/blog/mutiny-back-pressure/",
+  "title": "Experimental GraphQL",
+  "link": "https://quarkus.io/blog/experimental_graphql/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2020-10-27T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Reactive Programming offers an elegant, flexible, and powerful way to write asynchronous code. It supports failure handling, both sequential and parallel operation composition, and plenty of operators. Reactive programming promotes data streams as a primary construct, and your code is observing streams and reacting to signals. Figure 1. Origins of..."
+  "content": "This blog post is a follow up on the initial introductory post, Supersonic Subatomic GraphQL, and here we will explore more features, some that is experimental, that we hope to eventually move to the MicroProfile GraphQL Specification (based on your feedback !) We will look at the following: Operational Context..."
 }
