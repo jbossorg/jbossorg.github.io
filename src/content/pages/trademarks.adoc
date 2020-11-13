@@ -5,7 +5,7 @@ toc::[]
 
 == Project Trademarks
 
-The following project names along with their name design and logos, either separately or in combination, are hereineafter referred to as 'Project Trademarks' and are trademarks of Red Hat Inc. Except as provided in these guidelines, you may not use the Project Trademarks or any confusingly similar marks as trademarks for your product/project, or use the Project Trademarks in any other manner that might cause confusion in the marketplace, including but not limited to in advertising, on auction sites, or on software or hardware. Red Hat protects the Project Trademarks on behalf of the entire JBoss Community. Indeed, the law obligates trademark owners to police their marks and prevent the use of confusingly similar names by third parties. As the trademark owner, Red Hat strives to use the Project Trademarks under the same guidelines as the rest of the community.
+The following project names along with their name design and logos, either separately or in combination, are hereineafter referred to as 'Project Trademarks' and are trademarks of Red Hat Inc. Except as provided in these guidelines, you may not use the Project Trademarks or any confusingly similar marks as trademarks for your product/project, or use the Project Trademarks in any other manner that might cause confusion in the marketplace, including but not limited to in advertising, on auction sites, or on software or hardware. Red Hat protects the Project Trademarks on behalf of upstream project communities. Indeed, the law obligates trademark owners to police their marks and prevent the use of confusingly similar names by third parties. As the trademark owner, Red Hat strives to use the Project Trademarks under the same guidelines as the rest of the community.
 
 Aerogear +
 Aerogear DiGGER +
@@ -195,7 +195,7 @@ Except as set forth herein, the trademark owner (Red Hat) retains and reserves a
 
 == Proper Trademark Use
 
-One of the purposes of the JBoss Community is to make cutting-edge versions of Java Middleware widely available in a consistent format that the public can come to trust. To achieve this purpose it is important that the technology can quickly be identified and that the recipient knows the technology they are receiving is the official and unmodified version. Red Hat has chosen a number of project names to identify this effort and is granting usage rights in the Project Trademarks as previously described in this document in order to assure widespread availability.
+One of our purposes is to make cutting-edge versions of Java Middleware widely available in a consistent format that the public can come to trust. To achieve this purpose it is important that the technology can quickly be identified and that the recipient knows the technology they are receiving is the official and unmodified version. Red Hat has chosen a number of project names to identify this effort and is granting usage rights in the Project Trademarks as previously described in this document in order to assure widespread availability.
 
 === Trademark Usage Guidelines
 
