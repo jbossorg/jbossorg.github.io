@@ -89,6 +89,7 @@ class CPXFooter extends HTMLElement {
             </svg>
 
             <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC by 3.0</a> <span>|</span> 
+            <a href="https://www.jboss.org/trademarks.html">Trademark Guidelines <span>|</span> 
             <a href="https://www.redhat.com/en/about/privacy-policy">Red Hat Privacy Policy</a>
             </div>
             <div class="redhat-logo">
