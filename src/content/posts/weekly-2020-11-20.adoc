@@ -1,4 +1,4 @@
-= This week in JBoss - 20th November 2020 ==
+= This week in JBoss - 20th November 2020
 Romain Pelisse 2020-20-06
 :tags: news, weekly_update, weekly_editorial, wildfly, quarkus, jcliff, ansible, jca, jpa, jakarta-ee, openid, 3scale, event-driven, Camel-K, aws, kafka, camel, apicurio
 
