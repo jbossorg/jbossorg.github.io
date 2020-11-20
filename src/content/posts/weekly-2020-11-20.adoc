@@ -1,5 +1,5 @@
 = This week in JBoss - 20th November 2020
-Romain Pelisse 2020-20-06
+Romain Pelisse
 :tags: news, weekly_update, weekly_editorial, wildfly, quarkus, jcliff, ansible, jca, jpa, jakarta-ee, openid, 3scale, event-driven, Camel-K, aws, kafka, camel, apicurio
 
 _Welcome to another installment of our JBoss Editorial! Today, we'll focus on some core project of our community. The first one is obviously Wildfly, our Jakarta EE application server whom predecessor (JBoss AS) was the beginning of everything. The second one is our more recent and shiny project, Quarkus. Without any further ado, let's begin!_
