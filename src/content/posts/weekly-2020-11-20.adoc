@@ -1,0 +1,33 @@
+= This week in JBoss - 20th November 2020 ==
+Romain Pelisse 2020-20-06
+:tags: news, weekly_update, weekly_editorial, wildfly, quarkus, jcliff, ansible, jca, jpa, jakarta-ee, openid, 3scale, event-driven, Camel-K, aws, kafka, camel, apicurio
+
+_Welcome to another installment of our JBoss Editorial! Today, we'll focus on some core project of our community. The first one is obviously Wildfly, our Jakarta EE application server whom predecessor (JBoss AS) was the beginning of everything. The second one is our more recent and shiny project, Quarkus. Without any further ado, let's begin!_
+
+== Wildfly, a first Taste of Jakarta 9 ==
+
+With the release of the link:https://wildfly.org//news/2020/11/19/WildFly2101-Released/[Wildfly 21.01], it's time to put the Jakarta EE server back in the spotlight. Especially as this release gives a link:https://www.wildfly.org//news/2020/11/12/Jakarta-EE-9-with-WildFly-Preview/[a preview of Jakarta EE 9]! And if your knowledge of the EE standards needs a refresher to fully enjoy this preview, we got you covered with this in depth two-part series on link:https://developers.redhat.com/blog/2020/06/15/jakarta-ee-multitenancy-with-jpa-on-wildfly-part-1/[Jakarta EE multitenancy (part1)] and link:https://developers.redhat.com/blog/2020/11/12/jakarta-ee-multitenancy-with-jpa-on-wildfly-part-2/[(part 2)].
+
+But Jakarta EE 9 is not the only newsworthy item around Wildfly. The first part of my own series on link:https://developers.redhat.com/blog/2020/11/06/wildfly-server-configuration-with-ansible-collection-for-jcliff-part-1/[automation of Wildfly using Ansible and JCliff] is out! It's hand on a tutorial on how to set up Ansible and its decided collection for Wildfly (link:https://github.com/wildfly-extras/ansible_collections_jcliff[JCliff]) in order to fully automate the app server set up and configuration.
+
+== Quarkus, Leading the Future of Java ==
+
+It might a bold statement, but we've made it! Or rather Red Hat made it as Quarkus 1.7 is available as a product for a little while now. Maybe it's time to finally take a look at it by following this link:https://developers.redhat.com/blog/2020/11/10/leading-the-future-of-java-with-the-red-hat-build-of-quarkus-1-7/[Red Hat Quarkus tutorial]?
+
+This is also a perfect opportunity to explore Quarkus functionality and ecosystems. For instance, take a look at this interesting post on link:https://quarkus.io/blog/mutiny-invoke-and-call/[mutiny invoke and call]. Or simply explore the cloud readiness of the framework with this article on link:https://developers.redhat.com/blog/2020/11/13/how-i-built-a-serverless-blog-search-with-java-quarkus-and-aws-lambda/[building a serverless blog search with Quarkus and AWS lambda] and this link:https://www.redhat.com/en/blog/introducing-quarkus-red-hat-openshift?sc_cid=701f2000000tyBjAAI[introduction to Quarkus on Red Hat Openshift]?
+
+== Techbytes ==
+
+If Quarkus and Wildfly did not quench your thirst for knowledge, let us give you a bit more nuggets. First, why not explore the topic of link:https://developers.redhat.com/blog/2020/11/09/openid-connect-integration-with-red-hat-3scale-api-management-and-okta/[using OpenID connect integration with 3scale]? Or maybe link:http://wei-meilin.blogspot.com/2020/11/contract-first-development-event-driven.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FhFXzh+%28Christina+%E7%9A%84+J%E8%80%81%E9%97%86%29[contract first development using an event-driven approach with Kafka, AMQ Streams, APIcurio]? And to make it extra spicy, Christina has even a added a touch of Google protobuf! By the way, if "event driven" is your thing, you can then move this other article on link:https://developers.redhat.com/blog/2020/11/17/event-driven-serverless-applications-with-camel-k/[event driven serverless with Camel K].
+
+Still hungry for more? Well, maybe it's time for less crunchy and technical details? What about stepping back and invite some reflection on link:http://www.ofbizian.com/2020/11/open-source-monetization-ecosystem.html[Open Source monetization ecosystem].
+
+== Releases, releases, releases... ==
+
+In case you somehow missed above (most likely by jumping directly to this section) ... link:https://wildfly.org//news/2020/11/19/WildFly2101-Released/[Wildlfy 21 Alpha 1 has been released]!
+
+== Decaf ==
+
+All this Java made you too jittery? Time for a Java break? Here are a few dry cookies to go along your cup of joe. As mentioned above, the first part of my series on using [Ansible to automate Wildfly setup] might a nice palate cleanser. Also, if you are using Docker you might be interested in this article describing how to link:https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman/[transitioning from Docker to Podman].
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
