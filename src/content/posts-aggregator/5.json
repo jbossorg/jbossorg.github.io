@@ -1,13 +1,13 @@
 {
-  "title": "Untangling Reactive Streams' Gordian Knot, Wiring Subscriber, Publisher and Subscription",
-  "link": "https://resteasy.github.io/2020/11/23/blog-Untangling-Reactive-Streams/",
+  "title": "Mutiny and the Reactiverse",
+  "link": "https://quarkus.io/blog/mutiny-vertx/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-23T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2020-11-24T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "I had the question multiple times: how do I use Eclipse Vert.x in Quarkus? Indeed, you can use Vert.x in Quarkus. You can deploy verticles, communicate with the event bus, or use anything from the Vert.x ecosystem. But, you can also use the Mutiny variant of Vert.x in Quarkus, and..."
 }
