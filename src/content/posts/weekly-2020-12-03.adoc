@@ -1,0 +1,57 @@
+= This Week in JBoss - 16 September 2020
+Don Naro
+2020-12-03
+:tags: jgroups, quarkus, infinispan, openshift, business automation
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Releases!
+
+link:https://quarkus.io/blog/quarkus-1-10-2-final-released/[Quarkus 1.10] is out!
+This release brings several updates, notably JSON as the default media type for REST resources in your Quarkus applications.
+Now you no longer need all those ``@Produces` and `@Consumes` annotations!
+
+Quarkus 1.10 also brings you two new Micrometer registries, additional metrics, and lots of consistency and configuration improvements to all things Swagger UI, which is detailed in the link:https://quarkus.io/blog/stylish-api/[Stylish API] blog post.
+
+WildFly have released link:https://www.wildfly.org/news/2020/11/27/WildFly-GraphQL-feature-pack-1.0/[GraphQL Feature Pack 1.0.0.Final] to give WildFly 20 and 21 the latest MicroProfile GraphQL and SmallRye GraphQL capabilities.
+Congrats to the WildFly team!
+
+== Distributed Locks? They Don't Work!
+
+Bela Ban's recent post, link:http://belaban.blogspot.com/2020/11/i-hate-distributed-locks.html[I hate distributed locks!], is an insightful and emotionally charged look at the pain and the agony of distributed locks.
+He dissects different scenarios in which locks are distributed and the pitfalls for each.
+Bela does give hints to other alternatives, but I'd suggest you go read them over on his blog.
+
+== Cloud Events with Quarkus
+
+Given that event-drive architectures are becoming ever more popular, Clement Escoffier introduces Cloud Events with the Kafka Connector in Quarkus and shows you link:https://quarkus.io/blog/kafka-cloud-events/[how to write and read Cloud Events easily].
+
+== Vert.x Mutiny API
+
+In another recent post on the Quarkus blog, link:https://quarkus.io/blog/mutiny-vertx/[Mutiny and the Reactiverse], Clement Escoffier explains using Mutiny variants of Vert.x APIs to get a seamless experience with reactive APIs in Quarkus while taking advantage of the Vert.x ecosystem.
+
+== Untangling Reactive Streams
+
+Continuing the discussion on the reactive paradigm, Rebecca Searls strips back complexities of Reactive Streams in her link:https://resteasy.github.io/2020/11/23/blog-Untangling-Reactive-Streams/[detailed blog post] and brings some clarity for wiring a Subscriber, Publisher, and Subscription.
+Be sure to check out the demo code in https://github.com/rsearls/blog-posts[Rebecca's github].
+
+== Business Automation and CodeReady Containers
+
+In this first in his series of articles, Eric D. Schabell begins his journey that will guide you through using the latest Business Automation Operator on the OpenShift Container Platform.
+
+Take a look at link:https://www.schabell.org/2020/12/codeready-containers-installing-business-automation-operator-part1.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+schabell/jboss+(Eric+D.+Schabell+-+JBoss)[CodeReady Containers - Installing business automation operator (Part 1)] to install the operator manually and then starting using decision management and process automation tooling on OpenShift.
+Eric's post is complete with an example project.
+
+== Infinispan Website
+
+The Infinispan community have launched a revamped site at link:https://infinispan.org[infinispan.org].
+The new layout has a great look and feel! Congrats to the team.
+
+== Red Hat Developer Highlights
+
+Alex Krikos and Donna Smalls announce Red Hat Software Collections that offer use case-specific tools along with the most current, stable version of dynamic languages, open source databases, web servers, and other critical development components.
+Visit the link:https://developers.redhat.com/blog/2020/12/01/red-hat-software-collections-3-6-now-generally-available/[Red Hat Software Collections 3.6 Now Generally Available] announcement.
+
+David Harris and Nick Boldt's link:https://developers.redhat.com/blog/2020/12/01/using-intellij-community-edition-in-red-hat-codeready-workspaces-2-5/[Using IntelliJ Community Edition in Red Hat CodeReady Workspaces 2.5] post explains how to create a custom workspace with IntelliJ IDEA in CodeReady Workspaces 2.5.
+
+Karina Varela introduces us to the out-of-the-box integration with Apache Kafka in Process Automation Manager 7.9 in her artcile, link:https://developers.redhat.com/blog/2020/11/27/red-hat-process-automation-manager-7-9-brings-apache-kafka-integration-and-more/[Red Hat Process Automation Manager 7.9 brings Apache Kafka integration and more].
