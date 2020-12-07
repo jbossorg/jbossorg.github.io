@@ -1,6 +1,6 @@
 {
-  "title": "Sending and Receiving Cloud Events with Kafka",
-  "link": "https://quarkus.io/blog/kafka-cloud-events/",
+  "title": "Quarkus 1.10 released - JSON as default, Multiple reactive datasources, new Micrometer registries...",
+  "link": "https://quarkus.io/blog/quarkus-1-10-2-final-released/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2020-12-01T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Cloud Events is a specification for describing events. It aims to ease interoperability. With the rise of event-driven architecture, it’s not surprising to see Cloud Events gaining popularity. This post explains how you can generate and consume Cloud Events using Quarkus, Kafka, and Reactive Messaging. What is Cloud Event? First,..."
+  "content": "The just released Quarkus 1.10.2.Final comes with a lot of improvements and new features: Default media type is now JSON CodeStarts is now the default project generation tool The Micrometer extension got its fair share of improvements (e.g. new registries) New Qute error pages Swagger/GraphQL/Health/OpenAPI UIs and Swagger UI configuration..."
 }
