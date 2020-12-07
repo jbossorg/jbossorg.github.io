@@ -1,14 +1,13 @@
 {
-  "title": "Shift Remote 2020 - DevOps Heroes scheduled",
-  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/KveGJ7QIrps/shiftremote-2020-devops-heroes-scheduled.html",
+  "title": "Untangling Reactive Streams' Gordian Knot, Wiring Subscriber, Publisher and Subscription",
+  "link": "https://resteasy.github.io/2020/11/23/blog-Untangling-Reactive-Streams/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-18T06:00:00.007Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "    Previously I the virtual online series called Shift Remote for 2020.     The planning was pretty fluid when I first posted but has settled down on dates and times for the event in our series. I'll be part of E11 (event 11) which is focused on DevOps, taking place on 15 Dec 2020 from 17:00 - 20:00 CET (GMT +2).  Back for the then live on-site version of Shift and talked about how to jump start a career in open source. It was a pretty nice experience in the national opera house, the sessions were recorded, the local town was a vacation paradise, and the people were extremely nice.  When the organization reached out about presenting for one of the Shift Remote sessions, I decided to share some insights into expanding a DevOps engineers toolbox with the following session.   What am I going to share with you at this event exactly?     I'll be sharing an online introduction to the DevOps Heroes workshop, helping anyone in the operations world to get started with adding a new and powerful tool to their automation toolboxes.      DEVOPS HEROES - ADDING ADVANCED AUTOMATION TO YOUR TOOLBOX  DevOps is more than the process of automating your CI/CD pipelines to generate code and deployment artifacts for production. It's also about organizational change and integration of many subtle processes that help you to deliver applications seamlessly from development to production through your operations.   Let's unlock the power of process integration with a getting started walk through of a free online hands-on workshop that adds advanced automation to your devops toolbox. We'll take you through the integration of an organizational process as part of your DevOps strategy. Step-by-step you'll learn how to build a data model, create an automated process, integrate user approval tasks, and more using modern open source process automation tooling.    No experience in automation integration is required. Join us for a short session that helps you in adding a new tool to your devops toolbox.   Date: 15 Dec 2020 Time: 19:30 - 19:55 CET (GMT +2)    The session will take place in their DevOps week, dates and times in the schedule can be found online here. It should be updated as the event gets closer as they are now targeting Dec 2020. The session should be recorded and on-demand after the event, while the targeted  to you today.   Get yourself and join me at Shift Remote 2020 - E11. "
+  "date": "2020-11-23T00:00:00.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

@@ -1,13 +1,13 @@
 {
-  "title": "WildFly MicroProfile GraphQL Feature Pack 1.0.0.Final Released!",
-  "link": "https://wildfly.org//news/2020/11/27/WildFly-GraphQL-feature-pack-1.0/",
+  "title": "Quarkus 1.10 released - JSON as default, Multiple reactive datasources, new Micrometer registries...",
+  "link": "https://quarkus.io/blog/quarkus-1-10-2-final-released/",
   "author": [
     {
-      "name": "Jan Martiska",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-27T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "I am happy to announce that the first Final build of the GraphQL feature pack has been released! It is fully compatible with MicroProfile GraphQL 1.0 and has been tested with WildFly 20 and 21, JDK 8 and 11. It bundles the latest available version of SmallRye GraphQL, and that is 1.0.17.   CLIENT LIBRARIES  The feature pack now contains the typesafe GraphQL client libraries. They are now installed as WildFly static modules, so deployments using the client libraries don’t have to carry all the libraries within themselves, they just need to depend on the io.smallrye.graphql.client module.   LAYER RENAME  The graphql layer included in the feature pack was renamed to microprofile-graphql to align with other WildFly layers.   MULTIPLE DEPLOYMENT SUPPORT  While MicroProfile specifications are generally designed to be used in microservice environments as opposed to application servers with multiple deployments, the GraphQL feature pack does support running with multiple deployments in one WildFly instance. There have been issues with it in the past, but since we now bundle graphql-java 16.1, multiple deployments should work. Note that this support is only on a best-effort basis, and there will probably still be some issues.   FUTURE GOODIES TO LOOK FORWARD TO   * SmallRye Mutiny support and better alignment with reactive programming in    general   * Managed federation (see )   * Other transport protocols apart from HTTP   * And more!   FEEDBACK  We’re keen to hear your feedback! Please raise any issues found at ."
+  "date": "2020-12-01T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The just released Quarkus 1.10.2.Final comes with a lot of improvements and new features: Default media type is now JSON CodeStarts is now the default project generation tool The Micrometer extension got its fair share of improvements (e.g. new registries) New Qute error pages Swagger/GraphQL/Health/OpenAPI UIs and Swagger UI configuration..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Untangling Reactive Streams' Gordian Knot, Wiring Subscriber, Publisher and Subscription",
-  "link": "https://resteasy.github.io/2020/11/23/blog-Untangling-Reactive-Streams/",
+  "title": "Eclipse Vert.x 4 CR2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-cr2-released",
   "author": [
     {
-      "name": null,
+      "name": "vietj",
       "avatar": null
     }
   ],
-  "date": "2020-11-23T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2020-11-24T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "We are extremely pleased to announce the first release candidate of Vert.x 4.0 .  We consider Vert.x 4.0 as feature complete and we will do a few release candidates to allow the community to test it and report issues.  Vert.x 4 is the evolution of the Vert.x 3.x series that will bring key features to Vert.x.  Since this release candidate we have created a new distribution with a custom thirdparty repository () and a vertx4 formula:  > brew tap vertx-distrib/tap > brew install vertx4  This is the second relase candidate of Vert.x 4, you can of course expect more as we get feedback from the community and fix issues that we failed to catch before.  You can also read the previous announces to know more about the overral changes:   *   *   *   *   *   *   *   *   *   *   The can be found on the wiki.  For this release there are no Docker images.  The release artifacts have been deployed to and you can get the distribution on .  You can bootstrap a Vert.x 4.0.0.CR2 project using .  The documentation has been deployed on this preview web-site  That’s it! Happy coding and see you soon on our user or dev ."
 }

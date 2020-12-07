@@ -1,13 +1,13 @@
 {
-  "title": "Stylish API",
-  "link": "https://quarkus.io/blog/stylish-api/",
+  "title": "Sending and Receiving Cloud Events with Kafka",
+  "link": "https://quarkus.io/blog/kafka-cloud-events/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-25T00:00:00.000Z",
+  "date": "2020-12-01T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In this blog post we are going to look at the new styling and other new options available in OpenAPI and Swagger UI Quarkus extensions (version 1.10+). All the source code for the examples below is available here. Styling Default style The default style for Swagger UI has changed from..."
+  "content": "Cloud Events is a specification for describing events. It aims to ease interoperability. With the rise of event-driven architecture, it’s not surprising to see Cloud Events gaining popularity. This post explains how you can generate and consume Cloud Events using Quarkus, Kafka, and Reactive Messaging. What is Cloud Event? First,..."
 }

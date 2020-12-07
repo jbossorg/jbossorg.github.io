@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.10 released - JSON as default, Multiple reactive datasources, new Micrometer registries...",
-  "link": "https://quarkus.io/blog/quarkus-1-10-2-final-released/",
+  "title": "Quarkiverse Hub - Home of Community Extensions",
+  "link": "https://quarkus.io/blog/quarkiverse/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-12-01T00:00:00.000Z",
+  "date": "2020-12-03T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The just released Quarkus 1.10.2.Final comes with a lot of improvements and new features: Default media type is now JSON CodeStarts is now the default project generation tool The Micrometer extension got its fair share of improvements (e.g. new registries) New Qute error pages Swagger/GraphQL/Health/OpenAPI UIs and Swagger UI configuration..."
+  "content": "Today we’re proud to announce Quarkiverse Hub, a GitHub organization where any contributor can host their Quarkus extensions. Hosting your extension in the Quarkiverse Hub makes it available to all Quarkus users through the Quarkus tooling. So read on to discover more and find out how you can make your..."
 }

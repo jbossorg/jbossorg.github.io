@@ -1,13 +1,13 @@
 {
-  "title": "Quarkiverse Hub - Home of Community Extensions",
-  "link": "https://quarkus.io/blog/quarkiverse/",
+  "title": "Announcing RESTEasy Reactive",
+  "link": "https://quarkus.io/blog/resteasy-reactive/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-12-03T00:00:00.000Z",
+  "date": "2020-12-07T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today we’re proud to announce Quarkiverse Hub, a GitHub organization where any contributor can host their Quarkus extensions. Hosting your extension in the Quarkiverse Hub makes it available to all Quarkus users through the Quarkus tooling. So read on to discover more and find out how you can make your..."
+  "content": "It gives the Quarkus and RESTEasy teams great pleasure to announce that RESTEasy Reactive integration in Quarkus has landed in the main Quarkus repo [1] and will be part of the next Quarkus release 1.11. We are looking forward to everyone testing it and providing us as much feedback as..."
 }
