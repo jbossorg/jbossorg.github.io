@@ -1,6 +1,6 @@
 {
-  "title": "Extension codestarts - A new way to learn & discover Quarkus",
-  "link": "https://quarkus.io/blog/extension-codestarts-a-new-way-to-learn-and-discover-quarkus/",
+  "title": "Announcing RESTEasy Reactive",
+  "link": "https://quarkus.io/blog/resteasy-reactive/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2020-12-07T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "What’s nice about Extension codestarts is that it’s useful for fresh Quarkus developers as well as experienced ones. This is because of the wide range (and growing) of Quarkus extensions, you simply can’t know them all. When I am comparing frameworks, I think that Doc is a very important factor,..."
+  "content": "It gives the Quarkus and RESTEasy teams great pleasure to announce that RESTEasy Reactive integration in Quarkus has landed in the main Quarkus repo [1] and will be part of the next Quarkus release 1.11. We are looking forward to everyone testing it and providing us as much feedback as..."
 }

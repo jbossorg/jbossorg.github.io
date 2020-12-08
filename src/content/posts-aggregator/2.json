@@ -1,13 +1,13 @@
 {
-  "title": "Introducing RESTEasy Reactive",
-  "link": "https://resteasy.github.io/2020/12/07/resteasy-reactive/",
+  "title": "Using Avro in a native executable",
+  "link": "https://quarkus.io/blog/avro-native/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-12-07T14:30:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2020-12-08T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "A few months back, I blogged about Quarkus, Kafka, and Avro (using the Apicurio schema registry). We developed a simple application, receives HTTP requests, writes Kafka records, and reads them from Kafka. It uses Avro to serialize and deserialize the records. At that time, the application was NOT working in..."
 }
