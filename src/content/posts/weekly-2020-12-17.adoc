@@ -1,0 +1,24 @@
+= This Week in JBoss - 17 December 2020
+Romain Pelisse
+2020-12-17
+:tags: quarkus, resteasy, springboot, avro, apicurio
+
+Welcome to another installment of our JBoss Editorial and last before the holidays! As always during this period of the year, we all rush to finish our ongoing tasks so that we can enjoy a bit of rest. And the projects of the JBoss community do the same, which means we have quite of lot to discuss today! So, without any further ado...
+
+== Quarkus and RestEasy Reactive
+
+The last months have certainly been quite active for Quarkus. Now part of the portfolio of link:https://www.redhat.com/en/topics/cloud-native-apps/what-is-quarkus[Red Hat products], the project has everything but slow down. Just last week a new release, link:https://quarkus.io/blog/quarkus-1-10-3-final-released/[Quarkus 1.10.3] was published, but also RestEasy announced a large refactoring of its project link:https://quarkus.io/blog/resteasy-reactive/[RestEasy Reactive] in order to integrate and support Quarkus even more. Alessio Soldano, one of the main developers of RestEasy, also shares his thoughts behind this project link:https://resteasy.github.io/2020/12/07/resteasy-reactive/[here].
+
+But that's not all in the Quarkiverse! Andy Damevin released an interesting article on link:But that's not all in the Quarkus-verse! Andy Damevin released an interesting article on new ways to discover Quarkus https://quarkus.io/blog/extension-codestarts-a-new-way-to-learn-and-discover-quarkus/[ new ways to discover Quarkus using Extension codestarts]. Whether that you already know Quarkus or want to explore it for the first time, this one will be in any case quite interesting to you! Oh, and by the way Quarkiverse is by no means a "bon mot,” it's the real thing: link:https://quarkus.io/blog/quarkiverse/[Quarkiverse Hub - Home of Community Extensions], so go check out this article from George Gastaldi to know more about it!
+
+Last, but certainly not the least, another article will help you link:https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0/[migrating your Spring Boot app to Quarkus using the Red Hat migration toolkit].
+
+== Apache Avro and Apicurio Registry
+
+Avro and Apicurio got a lot of attention in the last weeks. First, Clément Escoffier, who already took the time to blog about link:[How to Use Kafka, Schema Registry and Avro with Quarkus] a few months ago, just released a new article on link:https://quarkus.io/blog/avro-native/[Using Avro in a native executable]. Hugo Guerrero also took a stab at the topic in his blog entry on link:https://developers.redhat.com/blog/2020/12/11/debezium-serialization-with-apache-avro-and-apicurio-registry/[Debezium serialization with Apache Avro and Apicurio Registry].
+
+== Decaf'
+
+With the end of 2020 coming up soon, it's time to clean up our desk and prepare a clean slate for next year. So let's do the same with our computer and follow link:https://developers.redhat.com/blog/2020/12/10/how-to-clean-up-the-fedora-root-folder/[this how-to to clean up your Fedora]!
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
