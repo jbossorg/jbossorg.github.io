@@ -16,7 +16,7 @@ as a community, you could be forgiven for thinking this was a normal year!
 * Making Quarkus available to all OpenShift customers, which we announced at KubeCon, as well as continuing the innovation within
 (e.g., Hibernate Reactive, RESTeasy Reactive);
 * Knative/Serverless, where we now have 7 Working Group leads out of 15 in the Knative community, we also added Functions to OpenShift Serverless;
-* More and more of our technologies become available as to Kube developers;
+* More and more of our technologies become available to Kube developers;
 * We continued our close involvement with AdoptOpenJDK (aka Eclipse Adoptium), helping to push it to even greater heights;
 * So many great innovations continued around efforts such as Kogito, Strimzi, Camel-K, Eclipse Vert.x, Infinispan, ...
 * We all managed to host, attend, present at countless virtual conferences, workshops and Red Hat Summit; probably enough to realise what
