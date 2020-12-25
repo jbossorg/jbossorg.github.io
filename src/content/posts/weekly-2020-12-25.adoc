@@ -1,0 +1,36 @@
+= This Week in JBoss: 25 December 2020
+Mark Little
+v1.0, 2020-12-25
+:tags: Christmas, 2020
+
+I'm writing this on Christmas Day and have spent the last week or so thinking about what I should put
+into my traditional 25th of December entry. Then it came to me in that "lightbulb moment": I'd replicate,
+more or less, what I said to my entire team/org before I went on vacation a few days earlier. It's a summary
+of the year and I think it's relevant for our wider community too. So here it is in a slightly modified form ...
+
+I wanted to spend a few minutes thanking you all for the work and interactions you’ve done over this testing year!
+I don’t think anyone could have predicted 2020 at the start of the year and I think it’s fair to say that every one of us
+has been affected in one way or another. Yet if you look back on the year and the accomplishments we’ve achieved
+as a community, you could be forgiven for thinking this was a normal year!
+
+* Making Quarkus available to all OpenShift customers, which we announced at KubeCon, as well as continuing the innovation within
+(e.g., Hibernate Reactive, RESTeasy Reactive);
+* Knative/Serverless, where we now have 7 Working Group leads out of 15 in the Knative community, we also added Functions to OpenShift Serverless;
+* More and more of our technologies become available as to Kube developers;
+* We continued our close involvement with AdoptOpenJDK (aka Eclipse Adoptium), helping to push it to even greater heights;
+* So many great innovations continued around efforts such as Kogito, Strimzi, Camel-K, Eclipse Vert.x, Infinispan, ...
+* We all managed to host, attend, present at countless virtual conferences, workshops and Red Hat Summit; probably enough to realise what
+we're all missing from the real things!
+* Eclipse MicroProfile 4.0 and Eclipse Jakarta EE 9.0 both come to life;
+
+The list could go on and on (e.g., EAP XD, OptaPlanner, …) but my point isn’t so much to call out the successes that this
+community have helped to drive but rather to illustrate that we were able to do these and more at all! In the
+climate of 2020, retaining the kind of focus we have and continuing to go above and beyond, as many of you and the teams
+have, is a testament to Red Hat and our communities, our culture and the supporting bonds you’ve all built up and nurtured. For that
+alone I thank you and you should all be incredibly proud!
+
+With that in mind, whether or not you celebrate Christmas or intend to take extended time away, make sure you do take time
+to rest and recharge. Be with your friends and family as much as you can given the continuing Covid situation. Find time to unwind
+but also congratulate yourself on coming together in 2020 and delivering so much to our communities, partners and customers. I’m not
+even going to try to predict what 2021 will be like but if we can replicate what we’ve been able to do in 2020, I’m sure
+we’ll all come through it stronger and together!
