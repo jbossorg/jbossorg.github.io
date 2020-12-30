@@ -4,7 +4,7 @@
 name: Staging CI
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [ src ]
   push:
     branches: [ src ]
@@ -48,4 +48,4 @@ jobs:
         # files will copy to under remote_path
         remote_path: ${{ secrets.SFTP_STG_PATH }} # default is /
         # sftp args
-        #args: # optional  
+        #args: # optional
