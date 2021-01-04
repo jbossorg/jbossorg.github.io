@@ -24,6 +24,7 @@ feeds:
   - url: https://quarkus.io/feed.xml
   - url: https://resteasy.github.io/feed.xml
   - url: https://vertx.io/feed.xml
+  - url: https://blog.ramon-gordillo.dev/index.xml
 
 # end of list
 
