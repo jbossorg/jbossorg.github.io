@@ -23,7 +23,8 @@ feeds:
   - url: https://www.wildfly.org/feed.xml
   - url: https://quarkus.io/feed.xml
   - url: https://resteasy.github.io/feed.xml
-  - url: https://vertx.io/feed.xml
+  # vertx website has changed and there is no link to RSS feed
+  #- url: https://vertx.io/feed.xml
   - url: https://blog.ramon-gordillo.dev/index.xml
 
 # end of list
