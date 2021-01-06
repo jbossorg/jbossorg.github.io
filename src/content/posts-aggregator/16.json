@@ -1,13 +1,13 @@
 {
-  "title": "Mutiny and the Reactiverse",
-  "link": "https://quarkus.io/blog/mutiny-vertx/",
+  "title": "Quarkus 1.10.3.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-10-3-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-24T00:00:00.000Z",
+  "date": "2020-12-08T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "I had the question multiple times: how do I use Eclipse Vert.x in Quarkus? Indeed, you can use Vert.x in Quarkus. You can deploy verticles, communicate with the event bus, or use anything from the Vert.x ecosystem. But, you can also use the Mutiny variant of Vert.x in Quarkus, and..."
+  "content": "1.10.3.Final is a maintenance release fixing bugs and improving the documentation. Thanks to all the contributors who reported issues and provided reproducers: it really helped a lot! It is a safe upgrade for everyone using Quarkus 1.10. If you are not using 1.10 already, please refer to the 1.10 migration..."
 }

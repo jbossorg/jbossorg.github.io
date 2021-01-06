@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 21.0.1 is released!",
-  "link": "https://wildfly.org//news/2020/11/19/WildFly2101-Released/",
+  "title": "Introducing RESTEasy Reactive",
+  "link": "https://resteasy.github.io/2020/12/07/resteasy-reactive/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-19T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 21.0.1.Final is now available .  It’s been about a month since the WildFly 21 release, so we’ve done a small bug fix update, WildFly 21.0.1.  The full list of issues resolved in WildFly 21.0.1 is available . Issues resolved in the WildFly Core update included with WildFly 21.0.1 are available .  Enjoy!"
+  "date": "2020-12-07T14:30:00.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

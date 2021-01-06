@@ -1,13 +1,13 @@
 {
-  "title": "Stylish API",
-  "link": "https://quarkus.io/blog/stylish-api/",
+  "title": "Quarkus 1.10.5.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-10-5-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-11-25T00:00:00.000Z",
+  "date": "2020-12-16T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In this blog post we are going to look at the new styling and other new options available in OpenAPI and Swagger UI Quarkus extensions (version 1.10+). All the source code for the examples below is available here. Styling Default style The default style for Swagger UI has changed from..."
+  "content": "1.10.5.Final is a maintenance release. It is a safe upgrade for everyone using Quarkus 1.10. If you are not using 1.10 already, please refer to the 1.10 migration guide. What’s new? This release is a maintenance release. It fixes some important issues in Quarkus, most notably in the Hibernate ORM..."
 }

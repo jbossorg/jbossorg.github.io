@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.10 released - JSON as default, Multiple reactive datasources, new Micrometer registries...",
-  "link": "https://quarkus.io/blog/quarkus-1-10-2-final-released/",
+  "title": "WildFly 22 Beta and 21.0.2.Final",
+  "link": "https://wildfly.org//news/2020/12/17/WildFly22-Beta-Released/",
   "author": [
     {
-      "name": null,
+      "name": "Brian Stansberry",
       "avatar": null
     }
   ],
-  "date": "2020-12-01T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The just released Quarkus 1.10.2.Final comes with a lot of improvements and new features: Default media type is now JSON CodeStarts is now the default project generation tool The Micrometer extension got its fair share of improvements (e.g. new registries) New Qute error pages Swagger/GraphQL/Health/OpenAPI UIs and Swagger UI configuration..."
+  "date": "2020-12-17T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "YEAR END TREATS  I’m pleased to announce that two new WildFly releases are available for download at .  First you can get WildFly 22.0.0.Beta1 and have a look at what’s coming soon in WildFly 22. This also includes an update of WildFly Preview.  Release notes for that release are , with issues fixed in the underlying WildFly Core betas listed .  For developers using our bootable jar feature, please have a look at the new dev-watch mode that Jean-Francois Denise describes in .  We’ve also done a micro update of WildFly 21, a new WildFly 21.0.2.Final release. This includes a fix for CVE-2020-27822, a medium impact CVE.  Release notes for that release are . Thank you to Rafael Paz and Michel Erard for reporting the problems that led to these fixes!  Thank you to everyone in the WildFly community for your support of WildFly in 2020. It’s been a trying year but I’m excited by and proud of the progress we’ve made. I wish all of you and your families a happy and healthy rest of the year, and I’m looking forward to a great 2021!  Best regards,  Brian"
 }

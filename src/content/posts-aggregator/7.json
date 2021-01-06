@@ -1,13 +1,14 @@
 {
-  "title": "Quarkiverse Hub - Home of Community Extensions",
-  "link": "https://quarkus.io/blog/quarkiverse/",
+  "title": "Keycloak 12.0.1 released",
+  "link": "https://www.keycloak.org//2020/12/keycloak-1201-released.html",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2020-12-03T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today we’re proud to announce Quarkiverse Hub, a GitHub organization where any contributor can host their Quarkus extensions. Hosting your extension in the Quarkiverse Hub makes it available to all Quarkus users through the Quarkus tooling. So read on to discover more and find out how you can make your..."
+  "date": "2020-12-18T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
