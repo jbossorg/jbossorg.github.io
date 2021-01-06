@@ -26,7 +26,7 @@ const processFeed = (feedConfig) => {
         }]);
         fetch(feedConfig.url).then(res => {
             if (res.status !== 200) {
-                reject('Response return not 200, code=' + res.status + ' feed_url=' + url + ' response_text=' + res.statusText);
+                reject('Response return not 200, code=' + res.status + ' response_text=' + res.statusText);
             } else {
                 // The response `body` -- res.body -- is a stream
                 res.body.pipe(feedparser);
@@ -80,7 +80,7 @@ feedsJson.forEach((feed, index) => {
             console.log("ALL FEEDS FETCHED feeds_count=%s blog_posts_count=%s execution_time=%sms", feedsProcessed, allPosts.length, duration);
             allPostsFetched(allPosts);
         }
-    }).catch(err => logErrorAndExit("Cannot parse feed. feed_url=" + item, err));
+    }).catch(err => logErrorAndExit("Cannot parse feed. feed_url=" + feed.url, err));
 });
 
 // All feeds and their blog posts fetched. Pick last 20 and store them
