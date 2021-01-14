@@ -1,13 +1,13 @@
 {
-  "title": "Bored with magic tricks?",
-  "link": "https://quarkus.io/blog/magic-control/",
+  "title": "Using case principal transformers in Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/case-principal-transformer/",
   "author": [
     {
-      "name": null,
+      "name": "Sonia Zaldana Calles",
       "avatar": null
     }
   ],
-  "date": "2021-01-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Just before my PTO, someone told me: 'I don’t like magic.' In this context, magic refers to the amount of hidden stuff done by Quarkus under the hood for the sake of simplicity. It includes dependency injection, annotations, and so on. It’s not the first time that I get that..."
+  "date": "2021-01-14T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
