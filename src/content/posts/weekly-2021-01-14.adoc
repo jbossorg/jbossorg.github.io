@@ -1,7 +1,7 @@
-= This Week in JBoss: 25 December 2020
+= This Week in JBoss: 14 January 2021
 Romain Pelisse
-v1.0, 2021-01-14
-:tags:
+v1.1, 2021-01-14
+:tags: wildfly, camel, keycloak, teiid, springboot, tekton, kubernetes, codeready, quarkus, jgroups
 
 Welcome to the first installment of our JBoss Editorial for 2021! And to start the year, we have a brand new major release of the core product of the JBoss community! Yes, Wildfly 22 is out!
 
