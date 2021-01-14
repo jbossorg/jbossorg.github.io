@@ -26,9 +26,13 @@ As always, our very own Eric Schabell has been busy in the few last weeks and re
 == Releases, releases, releases...
 
 As always, the JBoss community has been quite active in the last weeks, and more than a few project releases new version (including the forementionned Wildfly 22 and Apache Camel 3.7):
+
 * link:https://www.wildfly.org/news/2021/01/13/WildFly22-Final-Released/[Wildfly 22 Final released!]
+
 * link:https://www.keycloak.org//2020/12/keycloak-1201-released.html[Keycloak 12.0.1 released]
+
 * https://camel.apache.org/blog/2020/12/Camel37-Whatsnew/[Apache Camel 3.7]
+
 * link:http://teiid.blogspot.com/2021/01/teiid-spring-boot-170-released.html[Teiid Spring Boot 1.7.0 Released]
 
 == Decaf
