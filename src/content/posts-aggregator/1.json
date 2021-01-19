@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.3.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.3.0/",
+  "title": "Getting Started with Apache Kafka in your Quarkus application",
+  "link": "https://quarkus.io/blog/getting-started-kafka/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-01-15T00:00:00.000Z",
+  "date": "2021-01-19T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.3.0 release of Quarkus Tools for IntelliJ. This release brings codestarts support in the Quarkus project wizard. Codestarts The Quarkus project wizard adds a new codestarts option, allowing to enable/disable codestarts generation for Quarkus extensions that support this feature. Moving Forward If you..."
+  "content": "Apache Kafka is a prevalent distributed streaming platform offering a unique set of characteristics such as message retention, replay capabilities, consumer groups, and so on. Kafka is highly scalable, fault-tolerant, and is becoming the spine of many modern systems. That being said, Kafka is not the only one out there,..."
 }
