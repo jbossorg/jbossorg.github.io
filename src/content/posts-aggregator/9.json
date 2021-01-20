@@ -1,10 +1,10 @@
 {
-  "title": "Using case principal transformers in Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/case-principal-transformer/",
+  "title": "Automatic Self-Signed Certificate Generation with Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/auto-self-signed-certificate-generation/",
   "author": [
     {
-      "name": "Sonia Zaldana Calles",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
   "date": "2021-01-14T00:00:00.000Z",

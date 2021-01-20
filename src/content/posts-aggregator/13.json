@@ -1,13 +1,13 @@
 {
-  "title": "Teiid Spring Boot 1.7.0 Released",
-  "link": "http://teiid.blogspot.com/2021/01/teiid-spring-boot-170-released.html",
+  "title": "Bored with magic tricks?",
+  "link": "https://quarkus.io/blog/magic-control/",
   "author": [
     {
-      "name": "Ramesh",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-01-06T15:24:00.000Z",
-  "feed_title": "Teiid",
-  "content": "Teiid Spring Boot version 1.7.0 to support Teiid 16.0 has been released. This release is mainly to support the Teiid's latest version.   In this release, the support for OpenAPI code generation based on VDB has been removed as there is no community interest and moreover it was at OpenAPI 2.0, and the industry has moved to 3.0 and beyond. There are no plans to further pursue this feature.  VDB maven plugin was also removed, which was intended to be a replacement for the VDB importing feature was to be used when working on OpenShift, however, since it requires the Maven repository and does not completely represent the feature as defined on the WildFly based deployments this is also removed. You can still use the VDB import feature with Teiid Spring Boot, simply define the VDB with your \"IMPORT DATABASE\" statements and provide the additional files along with the main VDB file. During the start of the application, Teiid Spring Boot will load all the necessary DDL files for the VDB.  The Spring Boot version is upgraded to 2.3.4.RELEASE     Ramesh.."
+  "date": "2021-01-12T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Just before my PTO, someone told me: 'I don’t like magic.' In this context, magic refers to the amount of hidden stuff done by Quarkus under the hood for the sake of simplicity. It includes dependency injection, annotations, and so on. It’s not the first time that I get that..."
 }
