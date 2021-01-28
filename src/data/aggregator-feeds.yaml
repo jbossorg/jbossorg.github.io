@@ -6,7 +6,7 @@ feeds:
   - url: http://www.cdi-spec.org/news.atom
   - url: http://www.ofbizian.com/feeds/posts/default
     avatar: https://www.gravatar.com/avatar/279246bd111a7c211134179eddb94afa?s=50
-  - url: https://infinispan.org/feed.atom
+  - url: https://infinispan.org/feed.xml
   - url: https://www.nicolaferraro.me/feed.xml
   - url: http://belaban.blogspot.com/feeds/posts/default
   - url: https://www.keycloak.org/rss.xml
@@ -24,7 +24,7 @@ feeds:
   - url: https://quarkus.io/feed.xml
   - url: https://resteasy.github.io/feed.xml
   # vertx website has changed and there is no link to RSS feed
-  #- url: https://vertx.io/feed.xml
+  - url: https://vertx.io/feed/atom.xml
   - url: https://blog.ramon-gordillo.dev/index.xml
 
 # end of list
