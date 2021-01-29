@@ -1,4 +1,4 @@
-= This Week in JBoss - 16 September 2020
+= This Week in JBoss - 28 January 2021
 Don Naro
 2021-01-28
 :tags: quarkus, infinispan, openshift, camel, kafka, wildfly, keycloak
