@@ -1,0 +1,69 @@
+= This Week in JBoss - 16 September 2020
+Don Naro
+2021-01-28
+:tags: quarkus, infinispan, openshift, camel, kafka, wildfly, keycloak
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Releases!!
+
+.Infinispan 12 Final
+
+Infinispan 12 release, codenamed `Lockdown`, brings a ton of new features and improvements.
+Indexing and querying capabilities have seen a number of improvements with the help of Hibernate Search integration.
+ProtoStream marshalling is upgraded with a new `@ProtoAdapter` annotation that lets you easily integrate third-party classes.
+It's a pretty elegant solution to what could present itself as a real headache for developers.
+Speaking of marshalling improvements, Infinispan 12 also makes your life easier by automatically generating and registering `SerializationContextInitializer` implementations to marshall user types.
+Also notable is the SPI for cross-site replication merge conflicts, which continues on the brilliant work that team has done to provide a solution for ensuring data integrity.
+There's a lot going on in Infinispan 12 and probably too much to try and sum up here so why not head over and read all the details in the link:https://infinispan.org/blog/2021/01/25/infinispan-12-final[Infinispan 12.0.0.Final Announcement].
+
+Congratulations to the entire Infinispan team on all the hard work.
+
+.Quarkus 1.11
+
+link:https://quarkus.io/blog/quarkus-1-11-0-final-released/[Quarkus 1.11] is here!
+This release brings you RESTEasy Reactive, which is a new JAX-RS implementation for writing RESTful services.
+Quarkus 1.11 also introduces the Dev UI so you can quickly visualize all your loaded extensions, access docs, and more.
+Of course there are other things in Quarkus 1.11 but RESTEasy Reactive and the Dev UI look to be quite promising indeed.
+
+The Quarkus team keep things rolling with the release of link:https://quarkus.io/blog/intellij-quarkus-tools-1.3.0/[Quarkus Tools for IntelliJ 1.3.0] that adds codestarts to the Quarkus project wizard.
+
+link:https://www.keycloak.org//2021/01/keycloak-1202-released.html[Keycloak 12.0.2 is now available too!
+Head on over to their site and check it out.
+
+== WildFly Bootable JARs on OpenShift
+
+Emmanuel Hugonnet link:https://www.wildfly.org//news/2021/01/24/odo-bootable-jar/[shows you how to use WildFly's bootable JAR feature] and the `odo` CLI tool to easily build and deploy applications on OpenShift.
+
+== Getting Started with Apache Kafka in Quarkus
+
+Clement Escoffier details how to get you started with Apache Kafka in Quarkus applications in less than 10 steps using Reactive Messaging.
+Clement provides a GitHub repository with the code too so take a look at his link:https://quarkus.io/blog/getting-started-kafka/[Getting Started with Apache Kafka].
+
+== Easing the Keycloak integration tests in Kie Server with Testcontainers
+
+Over at the Kie blog, Gonzalo Muñoz Fernández demonstrates link:https://blog.kie.org/2021/01/keycloak-integration-tests-in-kie-server-with-testcontainers.html[using Testcontainers to quickly and easily create integration tests with Kie Server and Keycloak].
+
+== RESTEasy WADL Module in WildFly
+
+Wei Nan gives a straightforward example of link:https://resteasy.github.io/2021/01/18/deploy-resteasy-wadl-to-wildfly/[deploying the RESTEasy WADL module] into WildFly.
+
+== Quarkus Insights: Hibernate Search 6
+
+Have you subscribed to the link:https://www.youtube.com/c/Quarkusio/videos[Quarkusio YouTube] channel yet?
+
+If not, head over and take a look.
+There are always interesting discussions and cool speakers.
+
+One recent video that I really enjoyed, and is timed well with the release of Infinispan 12, is link:https://www.youtube.com/watch?v=hwxWx-ORVwM[Episode #32] where Yoann Rodière joins the lads and introduces us to link:https://hibernate.org/search/releases/6.0/#whats-new[Hibernate Search 6].
+Yoann goes through all the exciting new stuff in Hibernate Search and explains how the search API gives you accurate and flexible full-text search for applications to overcome the limitations that come from SQL queries.
+
+== Apache Camel and Java Flight Recorder
+
+Claus Ibsen's recent link:http://www.davsclaus.com/2021/01/apache-camel-38-and-java-flight-recorder.html[Apache Camel 3.8 and Java Flight Recorder] post breaks down how you can capture work steps with Flight Recorder to diagnose Apache Camel and improve performance.
+
+== Red Hat Developer Highlights
+
+In another Flight Recorder post, Andrew Azores gives us a great tutorial on using link:https://developers.redhat.com/blog/2021/01/25/introduction-to-containerjfr-jdk-flight-recorder-for-containers/[JDK Flight Recorder for containers] running on OpenShift.
+
+Finally, there is a great DevNation Tech Talk by Sebastien Blanc and Edson Yanaga on link:https://developers.redhat.com/devnation/tech-talks/kubectl-quarkus[Building kubectl plugins with Quarkus].
