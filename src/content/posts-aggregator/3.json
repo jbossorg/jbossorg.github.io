@@ -1,6 +1,6 @@
 {
-  "title": "Getting Started with AMQP in your Quarkus application",
-  "link": "https://quarkus.io/blog/getting-started-amqp/",
+  "title": "Quarkus Insights Q&A",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2021-02-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "AMQP 1.0 is a standard for passing messages between applications or organizations. It connects systems, feeds business processes with the information they need, and reliably handles communication between systems. AMQP is a robust and mature protocol widely used in event-driven applications. This post is the equivalent of the Kafka getting..."
+  "content": "On the next Quarkus Insights episode, we are trying something new. We will cover the most often asked questions we have seen and any question tagged with #quarkusinsights on our various social media presences: Twitter, Facebook, LinkedIn or on the youtube event directly. If you have a question about Quarkus..."
 }
