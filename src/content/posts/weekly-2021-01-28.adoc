@@ -28,7 +28,7 @@ Of course there are other things in Quarkus 1.11 but RESTEasy Reactive and the D
 
 The Quarkus team keep things rolling with the release of link:https://quarkus.io/blog/intellij-quarkus-tools-1.3.0/[Quarkus Tools for IntelliJ 1.3.0] that adds codestarts to the Quarkus project wizard.
 
-link:https://www.keycloak.org//2021/01/keycloak-1202-released.html[Keycloak 12.0.2 is now available too!
+link:https://www.keycloak.org//2021/01/keycloak-1202-released.html[Keycloak 12.0.2] is now available too!
 Head on over to their site and check it out.
 
 == WildFly Bootable JARs on OpenShift
