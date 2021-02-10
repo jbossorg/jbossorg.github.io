@@ -18,8 +18,7 @@ feeds:
   - url: http://kverlaen.blogspot.com/feeds/posts/default
   - url: http://feeds.athico.com/DroolsAtom?format=xml
   - url: http://jbossws.blogspot.com/feeds/posts/default
-  # kie blog disabled - returns 504
-  #- url: https://blog.kie.org/feed/atom
+  - url: https://blog.kie.org/feed/atom
   - url: https://www.wildfly.org/feed.xml
   - url: https://quarkus.io/feed.xml
   - url: https://resteasy.github.io/feed.xml
