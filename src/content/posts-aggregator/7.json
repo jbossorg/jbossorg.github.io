@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Insights Q&A",
-  "link": "https://quarkus.io/blog/quarkus-insights-qanda/",
+  "title": "Eclipse Vert.x 4.0.2 released!",
+  "link": "https://vertx.io/eclipse-vert-x-4-0-2",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-02-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "On the next Quarkus Insights episode, we are trying something new. We will cover the most often asked questions we have seen and any question tagged with #quarkusinsights on our various social media presences: Twitter, Facebook, LinkedIn or on the youtube event directly. If you have a question about Quarkus..."
+  "date": "2021-02-05T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.0.2 has just been released. It fixes quite a few bugs that have been reported by the community."
 }

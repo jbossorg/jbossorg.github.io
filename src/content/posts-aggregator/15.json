@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.11 released - RESTEasy Reactive, Dev UI, and more!",
-  "link": "https://quarkus.io/blog/quarkus-1-11-0-final-released/",
+  "title": "Quarkus 1.11.1.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-11-1-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-01-20T00:00:00.000Z",
+  "date": "2021-01-27T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "For each Quarkus release, it’s the same story: it comes with a ton of exciting new features and enhancements… But believe it or not, it’s true. 1.11 is an important milestone as it marks the beginning of two amazing new features: RESTEasy Reactive, Our Dev UI. But it also comes..."
+  "content": "1.11.1.Final is a maintenance release fixing bugs and improving the documentation. Thanks to all the contributors who reported issues and provided reproducers: it allowed us to make steady progress on fixing issues. Also a big thanks to all the contributors providing pull requests, be they for the code or the..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.0.2 released!",
-  "link": "https://vertx.io/eclipse-vert-x-4-0-2",
+  "title": "Quarkus 1.11.2.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-11-2-final-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-02-05T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.0.2 has just been released. It fixes quite a few bugs that have been reported by the community."
+  "date": "2021-02-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "1.11.2.Final is a maintenance release fixing bugs and improving the documentation. It is a safe upgrade for everyone using Quarkus 1.11. If you are not using 1.11 already, please refer to the 1.11 migration guide. What’s new? Hibernate ORM We upgraded to Hibernate ORM 5.4.27.SP1 which fixes an important issue,..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Planned Security Features for WildFly",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/planned-security-features-for-wildfly-23/",
+  "title": "Quarkus Newsletter #9",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-9/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2021-01-22T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2021-01-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We took a little break, but now another Newsletter round of stories found! For the news below - give it a read and if you feel something is missing or have an article coming out for future Quarkus Newsletter install the bookmarklet on your laptop and phone to easily submit..."
 }
