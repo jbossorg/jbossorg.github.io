@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with AMQP in your Quarkus application",
-  "link": "https://quarkus.io/blog/getting-started-amqp/",
+  "title": "Eclipse Vert.x 4.0.2 released!",
+  "link": "https://vertx.io/eclipse-vert-x-4-0-2",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-02-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "AMQP 1.0 is a standard for passing messages between applications or organizations. It connects systems, feeds business processes with the information they need, and reliably handles communication between systems. AMQP is a robust and mature protocol widely used in event-driven applications. This post is the equivalent of the Kafka getting..."
+  "date": "2021-02-05T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.0.2 has just been released. It fixes quite a few bugs that have been reported by the community."
 }
