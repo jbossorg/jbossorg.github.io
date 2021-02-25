@@ -1,0 +1,39 @@
+= This Week in JBoss - 25 February 2021
+Romain Pelisse
+2021-25-11
+:tags: quarkus, wildfly, kogito, openshift, bpm, microprofile, resteasy, keycloak, infinispan
+
+Welcome to another installment of our JBoss Editorial! Today, we'll focus on Kogito and the upcoming major release of Wildfly. Enjoy!
+
+== Wildfly 23 Beta: Microprofile
+
+As the release of the next major version of Wildlfy is coming up soon, Brian Stanberry took the time to write up a brief article on the https://www.wildfly.org//news/2021/02/24/WildFly23-Beta-Released/[progress with MicroProfile]. If you have interested in playing with https://github.com/eclipse/microprofile/releases/tag/4.0[MicroProfile Platform 4.0] or see tech preview support for https://github.com/eclipse/microprofile-reactive-messaging/releases/tag/1.0[MicroProfile Reactive Messaging 1.0], go check out https://download.jboss.org/wildfly/23.0.0.Beta1/wildfly-23.0.0.Beta1.zip[Wildfly 23 Beta1] and let us know what you think!
+
+== Kogito
+
+If you are already a Kogito user or if you are interested in exploring this software, there were a few articles released in the past two weeks that you might find interesting. The first one is on https://blog.kie.org/2021/02/kogito-notifications-api.html[Kogito Notification API] which is followed nicely by the second one on https://blog.kie.org/2021/02/event-driven-decisions-with-kogito.html[Event-driven decisions with Kogito]
+
+If you want something more practical, you'll certainly enjoy the third article on https://blog.kie.org/2021/02/3-steps-to-author-bpmn-dmn-editors-on-github-codespaces.html[3 steps to author BPMN and DMN assets on GitHub Codespaces]
+
+== Quarkus: Fast jar as default, Multipart support for RESTEasy Reactive
+
+Following up the recent release of https://quarkus.io/blog/quarkus-1-11-3-final-released/[Quarkus 1.11.3.Final], https://quarkus.io/blog/quarkus-1-12-0-final-released/[Quarkus 1.12 was just released] and includes some exciting new features. First, fast jar is now by default and the framework added multipart support for RESTEasy Reactive. Go check it out!
+
+And if you have not yet looked into Quarkus, a new tutorial has been released: https://developers.redhat.com/blog/2021/02/11/enhancing-the-development-loop-with-quarkus-remote-development/[Enhancing the development loop with Quarkus remote development], so it's the perfect opportunity to explore the framework potential and test it over OpenShift.
+
+== Evangelist's Corner
+
+As always, our very own Eric Schabell has provided the community with quite a lot of content in the last two weeks. First, you have a nice https://www.schabell.org/2021/02/business-optimisation-an-introduction.html[introduction to Business optimization architecture], which can be followed by this other piece on https://www.schabell.org/2021/02/business-optimisation-common-architectural-elements.html[Business optimization architecture - Common architectural elements].
+
+Of course, Eric has not forgotten the famous OpenShift and delivered a pretty nifty https://www.schabell.org/2021/03/refcard-getting-started-with-openshift.html[RefCard - Getting started with OpenShift] published for DZone. Go grab it!
+
+== Releases!
+
+* https://quarkus.io/blog/quarkus-1-12-0-final-released/[Quarkus 1.12 released]
+* https://download.jboss.org/wildfly/23.0.0.Beta1/wildfly-23.0.0.Beta1.zip[Wildfly 23 Beta1 is now available]
+* https://resteasy.github.io/2021/02/18/resteasy-3.15.0.Final/[RESTEasy 3.15.0.Final is now available]
+* http://bytemanblog.blogspot.com/2021/02/byteman-4014-has-been-released.html[Byteman 4.0.14 has been released ]
+* https://www.keycloak.org//2021/02/keycloak-1203-released.html[Keycloak 12.0.3 released]
+* https://infinispan.org/blog/2021/02/12/infinispan-12-0-1[Infinispan 12.0.1.Final "Lockdown"]
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
