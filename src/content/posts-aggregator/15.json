@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 22.0.1 is released!",
-  "link": "https://wildfly.org//news/2021/02/11/WildFly2201-Released/",
+  "title": "Quarkus 1.11.3.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-11-3-final-released/",
   "author": [
     {
-      "name": "James R. Perkins",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-02-11T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 22.0.1.Final is now available .  It’s been about a month since the WildFly 22 release, so we’ve done a small bug fix update, WildFly 22.0.1.  The full list of issues resolved in WildFly 22.0.1 is available . Issues resolved in the WildFly Core update included with WildFly 22.0.1 are available .  Enjoy!"
+  "feed_title": "Quarkus",
+  "content": "1.11.3.Final mainly fixes a regression introduced in 1.11.2.Final that makes it impossible to build native executables while using both the RESTEasy and OpenTracing extensions. It is a safe upgrade for everyone using Quarkus 1.11. If you are not using 1.11 already, please refer to the 1.11 migration guide. You can..."
 }
