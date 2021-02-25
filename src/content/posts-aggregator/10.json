@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.14 has been released",
-  "link": "http://bytemanblog.blogspot.com/2021/02/byteman-4014-has-been-released.html",
+  "title": "RESTEasy 3.15.0.Final is now available",
+  "link": "https://resteasy.github.io/2021/02/18/resteasy-3.15.0.Final/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2021-02-18T14:37:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "Byteman 4.0.14 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes. It is also recommended as the preferred release for use on JDK8- runtimes.  Byteman 4.0.14 is a maintenance release which fixes a few minor issues. More details are provided in the ."
+  "date": "2021-02-18T19:52:00.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
