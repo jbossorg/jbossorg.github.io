@@ -1,14 +1,13 @@
 {
-  "title": "RefCard - Getting started with OpenShift published",
-  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/PJSsJ9oNvsU/refcard-getting-started-with-openshift.html",
+  "title": "Quarkus Tools for IntelliJ 1.4.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.4.0/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-02-16T06:00:00.001Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "Earlier this month a writing project I was working on, a getting started with OpenShift reference card, went live .   The project was to put together a getting started guide that walks a developer through getting OpenShift, installing it on a local machine, and a quick start to using one of the provided operators.   Basically, providing the first steps any developer would need to get started experiencing cloud-native application development. Even better, it's using CodeReady Containers to allow any developer to follow along with this refcard and experience OpenShift on their own local developer machine.  Everything shown in this refcard is freely available for download and the process followed has been put into a project that anyone can use. The entire document is eight pages and includes code examples to help you on your journey to exploring and using cloud-native development on a Kubernetes based platform.       The best way to get started is to share a bit of the introduction and then you can head over to .       ABSTRACT  Red Hat OpenShift is an enterprise open source container orchestration platform. It’s a software product that includes components of the Kubernetes container management project, but adds productivity and security features that are important to large-scale companies. In this Refcard, learn how to get started with the developer usage of Red Hat OpenShift to help you go hands-on with installing a local development cluster on your own machine.   TABLE OF CONTENTS  * Introduction  * What Is OpenShift?  * Installing OpenShift  * Exploring the OpenShift Platform  * Installing With Operators  * Conclusion      INTRODUCTION  What is Red Hat’s OpenShift Container Platform, and what does it offer in the way of easier-to-use Kubernetes? It’s an enterprise-ready Kubernetes container platform with full-stack automated operations to manage hybrid cloud, multi-cloud, and edge deployments. No matter the cloud provider, with Red Hat OpenShift, you can give your developers an open-standards-based container platform on Kubernetes that not only runs your application workloads but provides cloud portability for those workloads.    This Refcard gets you started on developer usage of Red Hat OpenShift and helps you go hands-on with installing a local development cluster using CodeReady Containers on your own machine. After installation, you’ll see an example of deploying the available data protection and management solution using the operator available on the Operator Hub.    That's the preview so far, hope you like it enough to want to read the entire Refcard, if so . "
+  "date": "2021-02-17T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.4.0 release of Quarkus Tools for IntelliJ. This release enhances codestarts support in the Quarkus project wizard. Codestarts The Quarkus project wizard now highlights codestarts enabled extension with a specific icon (right to the extension name), similar to code.quarkus.io, allowing users to better..."
 }
