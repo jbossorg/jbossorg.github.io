@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 3.15.0.Final is now available",
-  "link": "https://resteasy.github.io/2021/02/18/resteasy-3.15.0.Final/",
+  "title": "3 steps to author BPMN and DMN assets on GitHub Codespaces",
+  "link": "https://blog.kie.org/2021/02/3-steps-to-author-bpmn-dmn-editors-on-github-codespaces.html",
   "author": [
     {
-      "name": null,
+      "name": "Eder Ignatowicz",
       "avatar": null
     }
   ],
-  "date": "2021-02-18T19:52:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-02-19T05:00:00.000Z",
+  "feed_title": "KIE",
+  "content": "Recently, GitHub launched early access to , an online development environment hosted by GitHub and powered by Visual Studio Code, that allows you to develop entirely in the cloud.  Online development environments are a recent trend in the industry and can potentially be a game-changer for developers. But the question is, can I also develop my Business Automation assets in the cloud?  Yes, you can! Do you want to see it how? Let’s do it in a 3 easy steps:   1-) CREATE YOUR GITHUB CODESPACE  Go to and create a code space based on any GitHub repository[1]:  [1] If you don’t have access yet, you can request early access   2-) INSTALL RED HAT BUSINESS AUTOMATION BUNDLE  Now your Codespace is live, and you can work on any GitHub repository in an online VS Code. The next step is to install our extensions. Go to the Extensions menu and search for “Red Hat Business Automation Bundle”. This will automatically install our BPMN and DMN extensions.   3-) AUTHOR YOUR BPMN AND DMN ASSETS  You are now ready to author your BPMN and DMN assets as any other VS Code asset.  You can also drag and drop any file of your computer into Codespaces, making it super easy to import the assets that you created on and .  That’s it! Thanks for reading and I hope you like it. Let’s develop our Business Automation Assets in the cloud.  The post appeared first on ."
 }
