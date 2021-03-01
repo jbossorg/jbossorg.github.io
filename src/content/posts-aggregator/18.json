@@ -1,13 +1,14 @@
 {
-  "title": "Infinispan 12.0.1.Final “Lockdown”",
-  "link": "/blog/2021/02/12/infinispan-12-0-1",
+  "title": "Keycloak 12.0.3 released",
+  "link": "https://www.keycloak.org//2021/02/keycloak-1203-released.html",
   "author": [
     {
-      "name": "Ryan Emerson",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-02-12T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  we hope you’ve been enjoying all the new goodies included in our latest major release, Infinispan 12.  We now have a brand new micro release for you which addresses a number of issues.  The following list shows what we have fixed:   COMPONENT UPGRADE   * - Upgrade console to 0.13.1.Final   ENHANCEMENT   * - Implement proper form login and digest login   * - Implicit connectors for the single-port endpoint   * - Add addtional DEBUG logs to Backup/Restore operations   FEATURE REQUEST   * - Add property to disable test execution   BUG   * - Replicated cache get ignores value in zero-capacity nodes   * - CacheEntryCloudEventsTest test failures   * - Get entry broken in protobuf caches   * - Fix IracWriteSkewTest test   * - StatsTest random failures   * - Licenses are not properly generated in console   * - Functional commands break in replicated caches on zero-capacity nodes   * - LocalIndexSyncStateTransferTest random failures   * - ReplicationIndexTest random failures   * - GlobalState incompatibility between 11.x and 12.x   * - Tests failing due to relying on published images   * - CLI Batch files returns exit code 0 on error   * - Cannot retrieve the keyset of a cache (ISPN000287)   * - IllegalArgumentException in VoidResponseCollector: Self-suppression not    permitted   * - Hot Rod iteration shouldn’t require ADMIN permission   * - When a value is json but not protobuf the console fails   * - Hot Rod client has too many Elytron dependencies   TASK   * - Upgrade logo in Operator Hub"
+  "date": "2021-02-16T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
