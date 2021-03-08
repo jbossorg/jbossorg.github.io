@@ -1,14 +1,13 @@
 {
-  "title": "VU Alumni Spotlight - Open Key to Every Career (slides)",
-  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/GAVXuHfmkKs/vu-alumni-spotlight-open-key-to-every-career.html",
+  "title": "Eclipse Vert.x 3.9.6 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-6",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-02-25T15:00:00.004Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": " As previously mentioned, I was invited to speak today as part of the VU alumni spotlight series.   I spent the time sharing how being open can mean everything to your career. It's something that has been core to my journey throughout my working life and striving to help others only lifts your own path.   It's amazing to see how many people just need to slightly adjust their way of doing things to become that catalyst in another person's journey through life.   If you were unable to join, or just didn't have the time, no worries, I've posted the slides from the session online below.     The following was shared online in a virtual event with anyone wanting to attend, first the abstract and then the slides themselves.     OPEN IS KEY TO EVERY CAREER   It's not a coincidence. It's not just luck. It's not going to happen by itself, so what's the secret sauce for accelerating your career path? Understanding what makes a career grow, what choices are crucial, and what actions accelerate or damage your future are sometimes hard to grasp. Learning to position, expand and grow your personal brand in an open source world is what this session provides. Be ready for your next career step using open source principles. Join me for a story sharing a clear and easy to use plan for jump starting your career immediately.          Hope you enjoyed this session and feel free to reach out in the comments or contact me through this site. "
+  "date": "2021-02-26T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.6 has just been released. It fixes quite a few bugs that have been reported by the community."
 }

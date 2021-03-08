@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 12.0.4 released",
-  "link": "https://www.keycloak.org//2021/03/keycloak-1204-released.html",
+  "title": "New enhancements on DMN editor decision services experience",
+  "link": "https://blog.kie.org/2021/03/new-enhancements-on-dmn-editor-decision-services-experience.html",
   "author": [
     {
-      "name": null,
+      "name": "Guilherme Carreiro",
       "avatar": null
     }
   ],
-  "date": "2021-03-01T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-03-01T23:00:00.000Z",
+  "feed_title": "KIE",
+  "content": "The user experience for decision service nodes is something we’re incrementally enhancing in the DMN editor. will introduce a new feature that significantly enhances how users call decision services.  Imagine you have a DMN model like this one:    Also, imagine that you need to invoke the decision service “user message” into the “Example” node with a Literal Expression. How can you do that? 🤔  You probably would need to guess the parameters’ order, which is quite frustrating (of course – we may be wrong!). On Kogito 0.8.4, users will be able to select a decision service and see the order of parameters, like this:    So, now it’s much easier to call “user message” now, as we can clearly see the order of our parameters is “Age (number)” and then “Name (string)”. Also, now we know the answer to the question above and we can call our decision service:    If you’re wondering what this model returns, check this example of DMN model call and output:  require 'httparty'  body = {   'Name': 'Kojima',   'Age': 57, }  resp = HTTParty.post(\"http://localhost:8080/example\",                     body: body.to_json,                     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },                     basic_auth: { username: 'kieserver', password: 'kieserver1!' })  puts resp # { #    \"user message\":\"function user message( Age, Name )\", #    \"upcase\":\"THE USER KOJIMA IS 57 YEARS OLD.\", #    \"Example\":\"THE USER GUILHERME IS 29 YEARS OLD.\", #    \"concat\":\"The user Kojima is 57 years old.\", #    \"Age\":57, #    \"Name\":\"Kojima\" # }   Straightforward, right? 🙂 We’ll release Kogito 0.8.4 in a few days with other surprising news… but, if you really wanna try it right now, download my latest VSCode plugin build .  Stay tuned! 🙂  The post appeared first on ."
 }
