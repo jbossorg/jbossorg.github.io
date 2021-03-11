@@ -7,7 +7,7 @@ Hello! Welcome to another edition of the JBoss Editorial that brings you news an
 
 == Release roundup
 
-Let's start things off with congrats to all the teams on all their hard work!
+Let's start things off with congrats to all the teams on their hard work!
 
 [square]
 * link:https://quarkus.io/blog/quarkus-1-12-1-final-released/[Quarkus 1.12.1.Final] is out with bug fixes and documentation improvements.
