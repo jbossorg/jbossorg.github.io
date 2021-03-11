@@ -51,14 +51,6 @@ Eric also provides a link:https://www.schabell.org/2021/03/supply-chain-integrat
 Get your popcorn ready and sit back to watch some videos from our community.
 Here are my top picks for this week's editorial:
 
-.Make your Quarkus apps even faster with Fast Jar packaging
-
-video::ogbMLeU1ogk[youtube,width=640,height=480]
-
-.Quarkus Insights #40: Behind the curtains with Quarkus tooling and workflows
-
-video::BQMMd-RbXcE[youtube,width=640,height=480]
-
-.Data gateways: Legacy data for microservices
-
-video::ALeGqUAJrUU[youtube,width=640,height=480]
+* link:https://youtu.be/ogbMLeU1ogk[Make your Quarkus apps even faster with Fast Jar packaging]
+* link:https://youtu.be/BQMMd-RbXcE[Quarkus Insights #40: Behind the curtains with Quarkus tooling and workflows]
+* link:https://youtu.be/ALeGqUAJrUU[Data gateways: Legacy data for microservices]
