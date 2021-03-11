@@ -31,7 +31,7 @@ Also on the Kogito blog, Paul Brown and Emily Murphy take on the challenge of li
 Their post details the approach for using OptaPlanner to handle planning constraints and automatically assign vaccination appointments.
 Getting vaccinations rolled out globally is a massive logistical and planning challenge so it's comforting to know our community is providing tooling to get us all back to "normal".
 
-Over on the Red Hat Developer blog there are a couple of posts focused on JavaScript that I enjoyed.
+The Red Hat Developer blog has a couple of recent entries focused on JavaScript that are both good reads.
 
 Michael Dawson introduces us to the link:https://developers.redhat.com/blog/2021/03/08/introduction-to-the-node-js-reference-architecture-part-1-overview/[Node.js reference architecture from Red Hat and IBM] and explains their reasons for creating it.
 The goal is to help developers make good choices when navigating the vibrant and extensive JavaScript ecosystem by recommending packages based on shared experience across teams and projects.
