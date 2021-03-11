@@ -21,7 +21,7 @@ There's been a lot of activity since the last editorial so let's take a look.
 First up is Ramon Gordillo's rather interesting take on moving legacy technology on Kubernetes.
 Ramon starts by pointing out that even software that is considered "legacy" and traditionally on-prem is often packed with new and useful features.
 Add to that the fact that many containerized applications still rely on legacy systems - "not all apps are greenfield" - and he builds a solid case for doing something that might otherwise induce a few gasps.
-Go see how Ramon tackles running IBM DB2 on containers in his post, link:https://blog.ramon-gordillo.dev/2021/03/trying-db2-in-kubernetes-for-developers/[Trying DB2 in Kubernetes for developers].
+Go see how Ramon tackles running IBM DB2 in containers, link:https://blog.ramon-gordillo.dev/2021/03/trying-db2-in-kubernetes-for-developers/[Trying DB2 in Kubernetes for developers].
 
 link:https://blog.kie.org/2021/02/migrating-jbpm-images-secured-by-ldap-to-elytron.html[Migrating jBPM images secured by LDAP to Elytron] by Gonzalo Muñoz Fernández is one that I thoroughly enjoyed.
 If you're not familiar with Elytron it is, as Gonzalo explains, Wildfly's security framework that puts security management and application access into a single subsystem.
