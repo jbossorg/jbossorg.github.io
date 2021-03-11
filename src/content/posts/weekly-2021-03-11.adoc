@@ -1,0 +1,64 @@
+= This Week in JBoss - 11 March 2021
+Don Naro
+2021-03-11
+:tags: quarkus, wildfly, keycloak, kogito, elytron, containers, javascript
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Let's start things off with congrats to all the teams on their hard work!
+
+[square]
+* link:https://quarkus.io/blog/quarkus-1-12-1-final-released/[Quarkus 1.12.1.Final] is out with bug fixes and documentation improvements.
+* link:https://vertx.io/blog/eclipse-vert-x-3-9-6[Eclipse Vert.x 3.9.6] is now available and delivers several bug fixes.
+* link:https://www.keycloak.org/2021/03/keycloak-1204-released[Keycloak 12.0.4] is also released. Go check out their blog for full details.
+
+== From the community
+
+There's been a lot of activity since the last editorial so let's take a look.
+
+First up is Ramon Gordillo's rather interesting take on moving legacy technology on Kubernetes.
+Ramon starts by pointing out that even software that is considered "legacy" and traditionally on-prem is often packed with new and useful features.
+Add to that the fact that many containerized applications still rely on legacy systems - "not all apps are greenfield" - and he builds a solid case for doing something that might otherwise induce a few gasps.
+Go see how Ramon tackles running IBM DB2 in containers, link:https://blog.ramon-gordillo.dev/2021/03/trying-db2-in-kubernetes-for-developers/[Trying DB2 in Kubernetes for developers].
+
+link:https://blog.kie.org/2021/02/migrating-jbpm-images-secured-by-ldap-to-elytron.html[Migrating jBPM images secured by LDAP to Elytron] by Gonzalo Muñoz Fernández is one that I thoroughly enjoyed.
+If you're not familiar with Elytron it is, as Gonzalo explains, Wildfly's security framework that puts security management and application access into a single subsystem.
+In his post, Gonzalo clearly describes and then steps through how to migrate jBPM images from PicketBox, which is a security subsystem based on JAAS login modules, over to Elytron.
+
+Also on the Kogito blog, Paul Brown and Emily Murphy take on the challenge of link:https://blog.kie.org/2021/03/optimizing-covid-19-vaccination-appointment-scheduling.html[Optimizing COVID-19 vaccination appointment scheduling].
+Their post details the approach for using OptaPlanner to handle planning constraints and automatically assign vaccination appointments.
+Getting vaccinations rolled out globally is a massive logistical and planning challenge so it's comforting to know our community is providing tooling to get us all back to "normal".
+
+The Red Hat Developer blog has a couple of recent entries focused on JavaScript that are both good reads.
+
+Michael Dawson introduces us to the link:https://developers.redhat.com/blog/2021/03/08/introduction-to-the-node-js-reference-architecture-part-1-overview/[Node.js reference architecture from Red Hat and IBM] and explains their reasons for creating it.
+The goal is to help developers make good choices when navigating the vibrant and extensive JavaScript ecosystem by recommending packages based on shared experience across teams and projects.
+
+Joel Lord takes us through link:https://developers.redhat.com/blog/2021/03/04/building-rootless-containers-for-javascript-front-ends/[Building rootless containers for JavaScript front ends] to demonstrate how you can avoid security vulnerabilities and potential disaster.
+
+== Evangelist's corner
+
+Our ever productive Eric Schabell has brought us some fantastic content that should really get you thinking about community technology can apply to solve real world business problems.
+
+Similarly to James and Emily's post on the Kogito blog, Eric shows how link:https://www.schabell.org/2021/03/business-optimisation-architecture-example-vaccine-scheduling-.html[retail pharmacies can optimize scheduling to provide customer vaccinations].
+
+Eric also provides a link:https://www.schabell.org/2021/03/supply-chain-integration-an-architectural-introduction.html[architectural blueprint for supply-chain integration] that comes with a treasure trove of resources and is well worth delving into.
+
+== Developers on film
+
+Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week's editorial:
+
+.Make your Quarkus apps even faster with Fast Jar packaging
+
+video::ogbMLeU1ogk[youtube,width=640,height=480]
+
+.Quarkus Insights #40: Behind the curtains with Quarkus tooling and workflows
+
+video::BQMMd-RbXcE[youtube,width=640,height=480]
+
+.Data gateways: Legacy data for microservices
+
+video::ALeGqUAJrUU[youtube,width=640,height=480]
