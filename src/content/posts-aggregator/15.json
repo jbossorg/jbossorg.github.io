@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.12.1.Final released - Bugfixes",
-  "link": "https://quarkus.io/blog/quarkus-1-12-1-final-released/",
+  "title": "Path resolution in Quarkus",
+  "link": "https://quarkus.io/blog/path-resolution-in-quarkus/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-03-03T00:00:00.000Z",
+  "date": "2021-03-04T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "1.12.1.Final is a maintenance release fixing bugs and improving the documentation. 1.12.1.Final is a safe upgrade for everyone using Quarkus 1.12. If you are not using 1.12 already, please refer to the 1.12 migration guide. What’s new? Full changelog You can get the full changelog of 1.12.1.Final on GitHub. Come..."
+  "content": "We have had an unusually bumpy ride the last few weeks. Path resolution can be sneakily complicated, and in trying to make things better, we accidentally made them worse! We’ve fixed it all now, but you might notice some changes. Hopefully, this post will make clear what those changes are,..."
 }
