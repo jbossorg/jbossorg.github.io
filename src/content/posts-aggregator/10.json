@@ -1,13 +1,13 @@
 {
-  "title": "ja.quarkus.io is now public",
-  "link": "https://quarkus.io/blog/ja-quarkus-io/",
+  "title": "Quarkus 1.12.2.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-12-2-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-03-10T00:00:00.000Z",
+  "date": "2021-03-11T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today we’re proud to announce our quarkus.io Japanese localization site (https://ja.quarkus.io) is now open. It is where our valuable guides and blog entries are translated. Some contents have not been translated yet, but we are continuing to translate them one by one. We are working on the localization of the..."
+  "content": "1.12.2.Final is a maintenance release fixing bugs and improving the documentation. It is a recommended upgrade for everyone using Quarkus 1.12. If you are not using 1.12 already, please refer to the 1.12 migration guide. What’s new? Two important regressions fixed 1.12.2.Final fixes two important regressions that were introduced in..."
 }
