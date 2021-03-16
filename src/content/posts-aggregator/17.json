@@ -1,13 +1,13 @@
 {
-  "title": "Modeling and development of decision services: DMN with Kogito",
-  "link": "https://blog.kie.org/2021/03/modeling-and-development-of-decision-services-dmn-with-kogito.html",
+  "title": "Quarkus 1.12.1.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-12-1-final-released/",
   "author": [
     {
-      "name": "Matteo Mortari",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-03-02T17:32:24.000Z",
-  "feed_title": "KIE",
-  "content": "I’ve recorded the following \"developer notes\" as a support medium to demonstrate the progress and the current integration of several Kogito features. As I believe this could be of interest to a wider audience to have a brief overview of the many capabilities of the Kogito platform for modeling and developing decision services with DMN, I am sharing them in this post.  Let us know if you find these useful and if you’d like to see more of this kind of video recordings!   DMN WITH KOGITO ON QUARKUS   DMN with Kogito on Quarkus  * Bootstrap a new project with Kogito Maven archetype  * Author DMN model in VS Code DMN modeler tooling  * Generate Swagger / OAS descriptors (development support)  * Test DMN REST endpoints using JUnit ( + RestAssured )  * Test DMN model using VS Code Test scenarios tooling  * Inject listener use case  * Test DMN on Quarkus service using Quarkus dev-mode locally  * Generated REST API for DMN models with Swagger/OAS descriptors and internals  * GraalVM Native Image / Mandrel native support   DMN WITH KOGITO ON SPRING BOOT   DMN with Kogito on Spring Boot  * Bootstrap a new project with Kogito Maven archetype  * Author DMN model in VS Code DMN modeler tooling  * Generated Swagger / OAS descriptors (development support) and Test DMN    SpringBoot service locally  * Test DMN REST endpoints using JUnit ( + RestAssured )  * Test DMN model using VS Code Test scenarios tooling  The post appeared first on ."
+  "date": "2021-03-03T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "1.12.1.Final is a maintenance release fixing bugs and improving the documentation. 1.12.1.Final is a safe upgrade for everyone using Quarkus 1.12. If you are not using 1.12 already, please refer to the 1.12 migration guide. What’s new? Path resolution for configurable endpoints changed in this release. Full changelog You can..."
 }
