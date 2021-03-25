@@ -1,13 +1,13 @@
 {
-  "title": "Monitoring Quarkus apps using Micrometer and Prometheus into OpenShift",
-  "link": "https://quarkus.io/blog/micrometer-prometheus-openshift/",
+  "title": "Eclipse Vert.x 4.0.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-0-3",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-03-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Metrics are the measurements of any aspect of an application such as resource usage or behaviors. We can expose these metrics from our Quarkus applications by using the Micrometer extension via the /q/metrics endpoint. What metrics will be exposed? Only by adding the Micrometer extension, a lot of metrics are..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.0.3 has just been released. It fixes quite a few bugs that have been reported by the community."
 }
