@@ -1,0 +1,51 @@
+= This Week in JBoss - 25 March 2021
+Kevin Conner
+2021-03-25
+:tags: news, weekly_update, weekly_editorial, wildfly, vertx, quarkus, kie, camel, kogito
+
+Welcome to another edition of the JBoss Editorial where we search through the JBoss Community for interesting articles and updates
+
+== Introducing the prolific Eric Schabell ==
+
+If you are a regular reader of the JBoss Editorial  you will be very familiar with the work of Eric Schabell, arguably one of the most prolific writers within the JBoss Community.  This edition is no different and sees Eric product three more articles.
+
+Eric's first article is a continuation of his Supply Chain Integration Blueprint discussion.  In this article Eric link:https://www.schabell.org/2021/03/supply-chain-integration-example-store-integration-architecture.html[expands on the common architectural elements discussed previously and outlines an example Store integration architecture for Supply Chain integration].
+
+Eric's second article walks us through link:https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html[the necessary steps for installing and running the OpenShift Container Platform 4.7 on our local machines].
+
+Eric's final article kicks off a new series of articles within which he will introduce a new architectural blueprint covering link:https://www.schabell.org/2021/03/point-of-sale-an-architectural-introduction.html["Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications"].
+
+== What's new in Kogito land? ==
+
+The link:http://kie.org[Kogito team] have been busy over the last few weeks publishing a number of interesting blog posts covering different aspects of the Kogito ecosystem.
+
+We begin our coverage with an article written by William link:https://blog.kie.org/2021/03/building-prometheus-dashboards-in-business-central.html[demonstrating how to integrate metrics from a Prometheus datasource into the Business Central].  The article walks you through the process from the creation of the data set within Dashbuilder, building the dashboard, how to consider filtering requirements and how to test the dashboard.
+
+The next article, written by Manaswini, follows on from William's article and link:https://blog.kie.org/2021/03/time-series-component-for-dashbuilder.html[demonstrates how you can further extend your dashboard through the integration and visualisation of time series data].
+
+The final article, written by Ricardo, introduces us to Kogito's support for the link:https://github.com/serverlessworkflow/specification/[CNCF Serverless Workflow] specification, link:https://blog.kie.org/2021/03/restful-services-orchestration-with-kogito-and-openapi.html[allowing Kogito to provide a serverless interface to a service which can also be used to orchestrate RESTful services described through the OpenAPI standard].
+
+== Clustering WildFly using DNS ping ==
+
+When running within a kubernetes environment it is natural to consider the link:http://www.jgroups.org/manual5/index.html#_kube_ping[KUBE_PING protocol] for cluster discovery, a protocol relying on the ability to query the kubernetes API server.  If you want to remain agnostic of your environment, or if you do not have sufficient permissions to query the kubernetes API server, then an alternative approach to consider would be the link:https://www.wildfly.org//news/2021/03/12/Bootable-jar-jkube-clustering-dns-ping-openshift/[DNS_PING protocol] as link:https://www.wildfly.org//news/2021/03/12/Bootable-jar-jkube-clustering-dns-ping-openshift/[demonstrated by Yeray using a simple WildFly bootable JAR application].
+
+== Optimizing Camel 3.9, no more saw tooth JVM garbage collection ==
+
+The upcoming Camel 3.9 release will include some additional, significant improvements in the performance of the internal routing engine leading to a dramatic reduction in object allocation during continuous use.  The Camel team focussed on the five major areas of the codebase they had identified during performance testing with the intention of reducing the allocation count as much as possible, they managed to go one better and achieved a sustained object allocation count of zero!  For more information take a look at link:http://www.davsclaus.com/2021/03/apache-camel-39-no-more-saw-tooth-jvm.html[Claus' blog describing the effort].
+
+== Monitoring Quarkus applications on OpenShift ==
+
+If you are running a Quarkus application on OpenShift you will most likely have a need for integrating with the centralised prometheus instance within the cluster.  This integration is fairly straight forward and can be achieved after following only a few simple steps link:https://quarkus.io/blog/micrometer-prometheus-openshift/[as ably demonstrated by Jose].
+
+== New Releases ==
+
+* The link:https://www.wildfly.org/[WildFly team] have announced
+** the link:https://www.wildfly.org/news/2021/03/11/WildFly-MicroProfile-Reactive-specifications-feature-pack-2.0/[2.0.0.Final release of the MicroProfile Reactive Specifications Feature Pack for WildFly]
+** the link:https://www.wildfly.org/news/2021/03/19/bootable-jar-4.0.Final-Released/[4.0.0.Final release of the WildFly Bootable JAR Maven Plugin]
+** the link:https://www.wildfly.org//news/2021/03/18/WildFly-s2i-23-Released/[23.0 release of the WildFly S2I images]
+* The link:http://kie.org/[Kogito team] have announced
+** the release of link:https://blog.kie.org/2021/03/kogito-tooling-0-8-5-released.html[Kogito Tooling 0.8.5].
+** the preliminary release of their link:https://blog.kie.org/2021/03/scorecard-editor.html[PMML (4.4) Scorecard Editor].
+* The link:https://vertx.io[Vert.x team] have announced the release of link:https://vertx.io/blog/eclipse-vert-x-4-0-3/[Eclipse Vert.x 4.0.3].
+
+That's all for this edition of the JBoss Editorial, please join us in a couple of weeks when we will bring you more news and articles from the JBoss Community Projects.
