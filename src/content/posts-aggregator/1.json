@@ -1,13 +1,13 @@
 {
-  "title": "Scorecard Editor",
-  "link": "https://blog.kie.org/2021/03/scorecard-editor.html",
+  "title": "Migrating existing applications to Quarkus with Migration Toolkit for Applications",
+  "link": "https://quarkus.io/blog/migrating-existing-apps-to-quarkus-with-mta/",
   "author": [
     {
-      "name": "Michael Anstis",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-03-25T09:37:22.000Z",
-  "feed_title": "KIE",
-  "content": "We are delighted to announce that preliminary work on a PMML (4.4) Scorecard Editor has completed.  Overview  A VSCode extension has been published to the and can be added to your VSCode installation.  The release is considered alpha and primarily aimed at providing a channel to gather feedback.  The journey to provide a capable editor has started but the road is long and winding.  Please install, kick the tyres and provide feedback as this is what will drive change.   EDITING MADE SIMPLE  Just click, edit and move on. All changes can be undone/redone.  Model settings   IN-LINE VALIDATION  Made a mistake? Errors are shown in-line and can be undone and corrected as needed.  Inline errors   INTEGRATION WITH VSCODE  Errors also integrate with the Problems panel.  Problems panel   DEFINING DATA FIELDS  Use the \"Set Data Dictionary\" dialog to define Data Fields.  Click on a row to edit a Data Field’s extended properties  Basic properties  Click on \"Edit properties\" for more advanced extended properties.  Editing extended properties   DEFINING MINING FIELDS AND OUTPUT FIELDS  Similarly the Mining Schema and Outputs can be defined.  Mining Field basic properties Mining Field extended properties Output Field basic properties Output Field extended properties   CHARACTERISTICS AND ATTRIBUTES  The way in which you interact with the editor remains consistent.  Both Characteristics and Attributes are authored similarly to the different types of fields.   PREDICATES  The PMML Specification allows for the definition of complex compound expressions.  We therefore decided to provide a context-aware, auto-complete predicate editor.  This is where we really would like to receive feedback.   YOUR EDITOR NEEDS YOU!  Real-life predicates seem to be much more simple and we find ourselves at a cross-road.  Do we invest in completing the text-based predicate editor or do we investigate a different approach?  Your feedback counts!  The post appeared first on ."
+  "date": "2021-03-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The evolution of Java Java is a language that never ceases to impress me. From its conception, to the first Java Virtual Machines with the premise of “write once run anywhere”, to Tomcat or to the Enterprise Edition standards (whether J2EE, or Java EE) it’s an ever evolving language. With..."
 }
