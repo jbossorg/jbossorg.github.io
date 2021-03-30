@@ -1,13 +1,13 @@
 {
-  "title": "Migrating existing applications to Quarkus with Migration Toolkit for Applications",
-  "link": "https://quarkus.io/blog/migrating-existing-apps-to-quarkus-with-mta/",
+  "title": "Why FEEL code-completion matters",
+  "link": "https://blog.kie.org/2021/03/why-feel-code-completion-matters.html",
   "author": [
     {
-      "name": null,
+      "name": "Guilherme Carreiro",
       "avatar": null
     }
   ],
-  "date": "2021-03-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The evolution of Java Java is a language that never ceases to impress me. From its conception, to the first Java Virtual Machines with the premise of “write once run anywhere”, to Tomcat or to the Enterprise Edition standards (whether J2EE, or Java EE) it’s an ever evolving language. With..."
+  "date": "2021-03-30T00:00:00.000Z",
+  "feed_title": "KIE",
+  "content": "Context-aware code-completion is one of the most important features an IDE can provide to speed-up coding, reduce typos and avoid other common mistakes. Kogito Tooling 0.8.6 release will bring enhanced code-completion for Literal FEEL expressions:    Look how it helps me realize that I need to use the \"string(from)\" function if I want to concatenate something to my string. Let’s check these two examples of FEEL expressions:  \"2\" + 1  The FEEL expression above is evaluated to 3.  \"2\" + string(1)  While the FEEL expression above is evaluated to \"21\".  Interesting, isn’t it? 🤓  With some naive enhancements in the FEEL code-completion, users already can avoid the mistake above and concatenate the string as they expect. But now you’re probably wondering how does the magic work, right? It relies on a combination of two elements that power this context-aware FEEL code-completion:   * ANTLR4 (ANother Tool for Language Recognition v4) – generates the parser    based on FEEL grammar  * antlr4-c3 (ANTLR4 Code Completion Core) – provides code-completion candidates    based on ANTLR4 parsed trees (as the image below shows)    With the combination of these tools and a naive implementation, the Literal Boxed expression editor already provides helpful suggestions. In the next Kogito Tooling release, suggestions will be based only on the FEEL functions’ return type and the context’s inferred type.  There’s still room for enhancements in this initial implementation, like considering parameters and other information that those two powerful tools are already providing to us. This feature has a high level of isolation from the rest of the code base, and it’s an excellent starting point for new contributors! 🚀  If you’re wondering about contributing to one of the Kogito Tooling projects 🙂 ping me on Zulip () or in one of the related to this topic, and I will be glad to help! 🙂  The post appeared first on ."
 }
