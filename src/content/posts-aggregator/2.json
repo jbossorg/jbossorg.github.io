@@ -9,5 +9,5 @@
   ],
   "date": "2021-03-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we announce the availability of Quarkus 1.13.0.Final. This release brings several new features: DevServices simplifies testing with containers. Kubernetes Service Binding simplifies the deployment on Kubernetes. OpenTelemetry is now supported via two new extensions. We introduced a new MicroProfile REST Client based on RESTEasy Reactive. quarkus-jacoco can generate your..."
+  "content": "Today, we announce the availability of Quarkus 1.13.0.Final. This release brings several new features: DevServices simplifies testing with containers. OpenTelemetry is now supported via two new extensions. Kubernetes Service Binding simplifies the deployment on Kubernetes. We introduced a new MicroProfile REST Client based on RESTEasy Reactive. quarkus-jacoco can generate your..."
 }
