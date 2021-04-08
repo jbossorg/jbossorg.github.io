@@ -1,0 +1,57 @@
+= This Week in JBoss - 8 April 2021
+Don Naro
+2021-04-08
+:tags: quarkus, wildfly, keycloak, kogito, elytron, containers, javascript
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Let's start things off with congrats to the teams on their hard work!
+
+[square]
+* link:https://infinispan.org/blog/2021/04/07/infinispan-12-1-0-final[Infinispan 12.1.0.Final] is released! +
+This version of Infinispan, codenamed Taedonggang, includes a bunch of new features and fixes. Be sure to check out the announcement and start using it right away.
+* link:https://quarkus.io/blog/quarkus-1-13-0-final-released/[Quarkus 1.13] and link:https://quarkus.io/blog/quarkus-1-13-1-final-released/[Quarkus 1.13.1.Final] are now available with loads of great new features and improvements.
+
+Our very own Bela Ban has also recently finished off the work on link:https://github.com/belaban/JGroups/tree/jgroups-4.2.12.Final[JGroups 4.2.12] and link:https://github.com/belaban/JGroups/tree/jgroups-5.1.6.Final[JGroups 5.1.6].
+While there might not be an "official" annoucement on his blog, you can check Bela's commit history for details.
+
+== From the community
+
+Let's take a look at what's been happening in the community since our last editorial.
+
+First up is a post by Hao Wu, link:https://blog.kie.org/2021/04/how-to-interact-with-business-processes-using-camel-routes.html[How to Interact with Business Processes Using Camel Routes], that neatly explains using Apache Camel to interact with business processes deployed in a KIE server.
+
+Rebecca Searls, over at the RESTEasy blog, recently added a post titled link:https://resteasy.github.io/2021/04/05/blog-ParamConverter-with-Quarkus/[JAX-RS ParamConverter with Quarkus] that shows how to write RESTful services with Quarkus using the JAX-RS ParamConverter.
+
+Eric Schabell has, yet again, delivered some great posts recently that demonstrate how community technology can solve real world business problems.
+
+Finishing off a series of articles on point of sale architectures, Eric delves in a specific example in his post, link:https://www.schabell.org/2021/03/point-of-sale-example-image-distribution-architecture.html[Point of sale - Example image distribution architecture].
+Be sure to check the links at the end of the post in case you missed any of the other articles in his architecture blueprint for point of sale imaging in retail.
+
+Not one to rest, Eric kicks things off with another series to share an architectural blueprint for the use case of deploying a container-based eCommerce website while moving away from tightly coupled existing eCommerce platform.
+
+This first article in this series is link:https://www.schabell.org/2021/04/headless-ecommerce-an-architectural-introduction.html[Headless eCommerce - An architectural introduction], which gives you an outline for the use case.
+
+Eric then continues the series with his post, link:https://www.schabell.org/2021/04/headless-ecommerce-common-architectural-elements.html[Headless eCommerce - Common architectural elements].
+In this article, Eric goes into detail on common generic elements that make up the architecture blueprint for the headless eCommerce use case.
+
+Stay tuned for the rest of Eric's series!
+I'm sure there's lots more great information on the way.
+
+== Red Hat developer network
+
+James Falkner talks us through what's new with the beta release of JBoss EAP 7.4 beta, including an detailed look at security and management improvement.
+What to find out what's going on? Take a few minutes and read his post, link:https://developers.redhat.com/blog/2021/03/30/security-and-management-improvements-in-red-hat-jboss-enterprise-application-platform-7-4-beta/[Security and management improvements in Red Hat JBoss Enterprise Application Platform 7.4 Beta].
+
+Pasquale Congiusti also breaks down Camel K's Kamelets and shows how they simplify complex system integration in his post, link:https://developers.redhat.com/blog/2021/04/02/design-event-driven-integrations-with-kamelets-and-camel-k/[Design event-driven integrations with Kamelets and Camel K].
+
+== Developers on film
+
+Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week's editorial:
+
+* link:https://youtu.be/eW_1rj2EKYM[3 new Java tools to try in 2021]
+* link:https://youtu.be/RZbLwBuKxuw[Quarkus Insights #43: Writing Quarkus Extensions]
+* link:https://youtu.be/U_SqX5uMbds[Improving security with Istio | DevNation Tech Talk]
