@@ -1,13 +1,13 @@
 {
-  "title": "JAX-RS ParamConverter with Quarkus",
-  "link": "https://resteasy.github.io/2021/04/05/blog-ParamConverter-with-Quarkus/",
+  "title": "Quarkus 1.13.1.Final released - Bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-13-1-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-04-05T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-04-07T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It has been a week since the release of 1.13.0.Final so it is time for our traditional .1 release. 1.13.1.Final is a maintenance release fixing bugs and improving the documentation. 1.13.1.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to..."
 }
