@@ -25,6 +25,7 @@ feeds:
   # vertx website has changed and there is no link to RSS feed
   - url: https://vertx.io/feed/atom.xml
   - url: https://blog.ramon-gordillo.dev/index.xml
+  - url: https://jbossts.blogspot.com/feeds/posts/default
 
 # end of list
 
