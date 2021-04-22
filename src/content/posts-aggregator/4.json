@@ -1,13 +1,13 @@
 {
-  "title": "Kogito Serverless Workflow at OpenShift Commons Briefing 2021",
-  "link": "https://blog.kie.org/2021/04/kogito-serverless-workflow-at-openshift-commons-briefing-2021.html",
+  "title": "Kogito Serverless Workflows at OpenShift Commons Briefing",
+  "link": "https://blog.kie.org/2021/04/kogito-serverless-workflows-at-openshift-commons-briefing.html",
   "author": [
     {
       "name": "Ricardo Zanini",
       "avatar": null
     }
   ],
-  "date": "2021-04-16T21:17:46.000Z",
+  "date": "2021-04-20T17:30:06.000Z",
   "feed_title": "KIE",
-  "content": "Following Monday (April 19th), we will have a presentation during the . In this talk, we will briefly introduce the CNCF Serverless Workflow Specification project and talk about the Kogito implementation and Knative Eventing integration.  We prepared a special demonstration just for this talk available at our repository later next week. In this demo, we will run through a use case to understand how to use Kogito Serverless Workflow to orchestrate CloudEvents on top of Knative Eventing.  Come to the talk, and let’s have some enjoyable time together learning about events and workflows!  The post appeared first on ."
+  "content": "Last Monday, we gave a brief overview of the Kogito implementation of the , named Serverless Workflows, at . You can watch the recorded presentation here:    Highlights:   * Introduction to the CNCF Serverless Workflows  * Overview of the Kogito Project  * Event-Driven Applications Use Case Example  * Kogito deployment model on OpenShift  * Knative infrastructure  * Short Demonstration  * Q&A  You can find the full example that we showcased in this presentation at our . Try it locally and give us your feedback!  The post appeared first on ."
 }

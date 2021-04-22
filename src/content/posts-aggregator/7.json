@@ -1,13 +1,13 @@
 {
-  "title": "Adding Eyecandy to your Quarkus App with React and Patternfly",
-  "link": "https://quarkus.io/blog/gui-react-patternfly/",
+  "title": "Eclipse Vert.x 3.9.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-7",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-04-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "A common pattern for containerized and distributed Quarkus applications is to serve as an efficient and scalable backend for a separate frontend application. In the Kubernetes world a frontend application could be a pure web layer pod such as React, Angular or Vue.js, delegating all REST calls to these Quarkus..."
+  "date": "2021-04-16T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.7 has just been released. It fixes quite a few bugs that have been reported by the community."
 }
