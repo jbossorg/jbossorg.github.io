@@ -1,13 +1,13 @@
 {
-  "title": "Kogito Serverless Workflow at OpenShift Commons Briefing 2021",
-  "link": "https://blog.kie.org/2021/04/kogito-serverless-workflow-at-openshift-commons-briefing-2021.html",
+  "title": "Eclipse Vert.x 3.9.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-7",
   "author": [
     {
-      "name": "Ricardo Zanini",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-04-16T21:17:46.000Z",
-  "feed_title": "KIE",
-  "content": "Following Monday (April 19th), we will have a presentation during the . In this talk, we will briefly introduce the CNCF Serverless Workflow Specification project and talk about the Kogito implementation and Knative Eventing integration.  We prepared a special demonstration just for this talk available at our repository later next week. In this demo, we will run through a use case to understand how to use Kogito Serverless Workflow to orchestrate CloudEvents on top of Knative Eventing.  Come to the talk, and let’s have some enjoyable time together learning about events and workflows!  The post appeared first on ."
+  "date": "2021-04-16T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.7 has just been released. It fixes quite a few bugs that have been reported by the community."
 }
