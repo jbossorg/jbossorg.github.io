@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.0.0.Alpha1 released - Vert.x 4, MicroProfile 4 and Continuous Testing",
-  "link": "https://quarkus.io/blog/quarkus-2-0-0-alpha1-released/",
+  "title": "The Score card editor goes online",
+  "link": "https://blog.kie.org/2021/04/the-score-card-editor-goes-online.html",
   "author": [
     {
-      "name": null,
+      "name": "Michael Anstis",
       "avatar": null
     }
   ],
-  "date": "2021-04-22T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is with a bit of emotion that I announce today the release of Quarkus 2.0.0.Alpha1. As previously presented, Quarkus 2.0 is in the continuity of Quarkus 1.x and won’t require too many changes on your side. But we consider it a major release as major parts of our infrastructure..."
+  "date": "2021-04-22T17:30:03.000Z",
+  "feed_title": "KIE",
+  "content": "Following the , that our Score Card editor is available in VSCode, it can now be tried .  The online landing page  There is no better time to give it a look and provide feedback to drive its road map.  The post appeared first on ."
 }
