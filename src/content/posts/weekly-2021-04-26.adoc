@@ -1,0 +1,63 @@
+= This Week in JBoss - 26 April 2021
+Romain Pelisse
+2021-04-26
+:tags: quarkus, wildfly, keycloak, kogito, vertx, openshift
+
+Welcome to another - slightly delayed, installment of our JBoss Editorial! If anything, the last two weeks in the Jboss community has been all about Quarkus and Kogito. Indeed, you'll find in this post a trove of information and news on the two projects. But also, an exciting opportunity on Keycloak! Without any further ado, let's jump right in.
+
+== Keycloak wants you!
+
+If you are developers who is passionate about Keycloak, there is an opportunity of a lifetime for you! The link:https://www.keycloak.org//2021/04/jobs.adoc.html[keycloak team is indeed recruiting!].
+
+Also on the SSO project front, there is a cool post on link:https://developers.redhat.com/blog/2021/04/23/integrate-red-hat-data-grid-and-red-hats-single-sign-on-technology-on-red-hat-openshift/[how to integrate Red Data Grid with RHSOO (Keycloak)]. Go check it out!
+
+== Kogito your way out of Dodge!
+
+First of all, a few days ago, yet another (see "Developers on film" below) link:https://blog.kie.org/2021/04/kogito-serverless-workflow-at-openshift-commons-briefing-2021.html[OpenShift commons briefing around Kogito] was delivered (19/04). If the video is (not yet) available, you can checkout the link:https://github.com/kiegroup/kogito-examples/[examples code from Github].
+
+Then, you may want to catchup on all link:https://blog.kie.org/2021/04/design-tools-highlights-on-kogito-and-business-central-april-2021.html[the cool features released] in the last weeks by the project.
+
+If you are a user of VSCode, there are a few items for you. First, you can go and check out link:https://blog.kie.org/2021/04/the-score-card-editor-goes-online.html[the score card editors now online]. Second, there is a rather tutorial on link:https://blog.kie.org/2021/04/how-to-use-test-scenario-editor-to-test-your-dmn-asset-in-vscode.html[using the test scenario editor to validate your DMN assets in VSCode].
+
+== Evangelist's Corner: Off with their head!!!
+
+With the Red Hat Summit coming up tomorrow, you may want to check out this post of our very own Eric D. Schabell on the new format we are trying out this year: link:https://www.schabell.org/2021/04/red-hat-summit-2021-how-to-enjoy-this-three-part-event-series.html[Red Hat Summit: How to enjoy this three-part event series].
+
+On top of that, Eric has, as always, delivered a steady stream of content in the past weeks, with a focus on headless architecture. It started with a first post on link:https://www.schabell.org/2021/04/headless-ecommerce-an-architectural-introduction.html[Headless eCommerce - An architectural introduction], to which he did a followup on: link:https://www.schabell.org/2021/04/headless-ecommerce-common-architectural-elements.html[Headless eCommerce - Common architectural elements].
+
+Headless architecture was also part of the link:https://www.schabell.org/2021/04/store-health-and-safety-architectural-introduction.html[Store health and safety architectural introduction], which also was followed up by a post on link:https://www.schabell.org/2021/04/store-health-and-safety-common-architectural-elements.html[Store health and safety common architectural elements].
+
+== Quarkus tips and tricks
+
+As mentioned in our introduction, Quarkus has been the focused on many content released in the last weeks. On top of that, as you'll see in the releases section of this editorial, the project has released not one, but two versions, including an alpha of the upcoming Quarkus 2.0.
+
+Let's first take a look at the content relating to Quarkus as a development platform. If you are still new to Quarkus, you may want to start then with this post about link:https://developers.redhat.com/blog/2021/04/07/deploy-quarkus-everywhere-with-red-hat-enterprise-linux-rhel/[deploying Quarkus everywhere with RHEL]. After that, still on the topic of packaging and deployment, you can learn how to link:https://developers.redhat.com/blog/2021/04/08/build-even-faster-quarkus-applications-with-fast-jar/[build even faster Quarkus applications with Fast jar].
+
+If you are already onboard Quarkus and his very neat development model, you'll be quite happy to learn that link:https://developers.redhat.com/blog/2021/04/14/mandrel-a-specialized-distribution-of-graalvm-for-quarkus/[Mandrel, a specialized distribution of GraalVM for Quarkus] is coming up!
+
+As you may be aware, Quarkus comes already with quite a few supported extensions, but you may still want to learn more about link:https://quarkus.io/blog/solving-problems-with-custom-extensions/[custom extensions and which problems they can help you solve].
+
+If you are already running or developing a few webapps on Quarkus, you'll be interested in link:https://quarkus.io/blog/gui-react-patternfly/[learning how to add eye candy to it].
+
+== Developers on film
+
+No time to read anything? What about relaxing and simply watching some nice technical videos instead?
+
+* link:https://youtu.be/zx0_DIG6698[a brief overview of the Kogito implementation of the CNCF Serverless Workflow, named Serverless Workflows, at OpenShift Commons Briefing]
+
+== Release, release, release...
+
+As always, the JBoss community has been quite active and released a few major version in the last weeks:
+
+* link:https://www.wildfly.org//news/2021/04/14/WildFly2301-Released/[WildFly 23.0.1 is released!]
+* Quarkus releases two different versions:
+** link:https://quarkus.io/blog/quarkus-1-13-2-final-released[Quarkus 1.13.2.Final was released]
+** link:https://quarkus.io/blog/quarkus-2-0-0-alpha1-released/[Quarkus 2.0.0.Alpha1 was also released].
+* link:https://vertx.io/blog/eclipse-vert-x-3-9-7/[Eclipse Vert.x 3.9.7 released!]
+
+== Decaf'
+
+Enough Java? Too much jitters? Wants a palate cleanser? Here you with a cool two-part series on deploying the Mosquitto MQTT broker on OpenShift: link:https://developers.redhat.com/blog/2021/04/16/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-1/[(part 1)] and link:https://developers.redhat.com/blog/2021/04/26/deploying-the-mosquitto-mqtt-message-broker-on-red-hat-openshift-part-2/[(part2)].
+
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
