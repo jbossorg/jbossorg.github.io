@@ -1,13 +1,13 @@
 {
-  "title": "Protected: Complex KIE server tests automation part 1: EJB Timers on clusters",
-  "link": "https://blog.kie.org/2021/04/complex-kie-server-tests-automation-part-1-ejb-timers-on-clusters.html",
+  "title": "The Score card editor goes online",
+  "link": "https://blog.kie.org/2021/04/the-score-card-editor-goes-online.html",
   "author": [
     {
-      "name": "Gonzalo Muñoz Fernández",
+      "name": "Michael Anstis",
       "avatar": null
     }
   ],
-  "date": "2021-04-22T14:54:30.000Z",
+  "date": "2021-04-22T17:30:03.000Z",
   "feed_title": "KIE",
-  "content": "This content is password protected. To view it please enter your password below:  Password:  The post appeared first on ."
+  "content": "Following the , that our Score Card editor is available in VSCode, it can now be tried .  The online landing page  There is no better time to give it a look and provide feedback to drive its road map.  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.0.0.Alpha1 released - Vert.x 4, MicroProfile 4 and Continuous Testing",
-  "link": "https://quarkus.io/blog/quarkus-2-0-0-alpha1-released/",
+  "title": "Protected: Complex KIE server tests automation part 1: EJB Timers on clusters",
+  "link": "https://blog.kie.org/2021/04/complex-kie-server-tests-automation-part-1-ejb-timers-on-clusters.html",
   "author": [
     {
-      "name": null,
+      "name": "Gonzalo Muñoz Fernández",
       "avatar": null
     }
   ],
-  "date": "2021-04-22T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is with a bit of emotion that I announce today the release of Quarkus 2.0.0.Alpha1. As previously presented, Quarkus 2.0 is in the continuity of Quarkus 1.x and won’t require too many changes on your side. But we consider it a major release as major parts of our infrastructure..."
+  "date": "2021-04-22T14:54:30.000Z",
+  "feed_title": "KIE",
+  "content": "This content is password protected. To view it please enter your password below:  Password:  The post appeared first on ."
 }
