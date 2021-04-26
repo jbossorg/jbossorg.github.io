@@ -1,13 +1,13 @@
 {
-  "title": "Adding Eyecandy to your Quarkus App with React and Patternfly",
-  "link": "https://quarkus.io/blog/gui-react-patternfly/",
+  "title": "Quarkus 1.13.2.Final released - Oracle JDBC driver extension, bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-13-2-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-04-15T00:00:00.000Z",
+  "date": "2021-04-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "A common pattern for containerized and distributed Quarkus applications is to serve as an efficient and scalable backend for a separate frontend application. In the Kubernetes world a frontend application could be a pure web layer pod such as React, Angular or Vue.js, delegating all REST calls to these Quarkus..."
+  "content": "We just released 1.13.2.Final, a new maintenance release for the 1.13 release train. As usual, this release fixes bugs and includes some documentation improvements but it also introduces a new extension for the Oracle JDBC driver. 1.13.2.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not..."
 }
