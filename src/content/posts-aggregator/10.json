@@ -8,6 +8,6 @@
     }
   ],
   "date": "2021-04-16T21:17:46.000Z",
-  "feed_title": "KIE",
+  "feed_title": "KIE Community",
   "content": "Following Monday (April 19th), we will have a presentation during the . In this talk, we will briefly introduce the CNCF Serverless Workflow Specification project and talk about the Kogito implementation and Knative Eventing integration.  We prepared a special demonstration just for this talk available at our repository later next week. In this demo, we will run through a use case to understand how to use Kogito Serverless Workflow to orchestrate CloudEvents on top of Knative Eventing.  Come to the talk, and let’s have some enjoyable time together learning about events and workflows!  The post appeared first on ."
 }
