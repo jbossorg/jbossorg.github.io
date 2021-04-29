@@ -1,6 +1,6 @@
 {
-  "title": "Quarkus 1.13.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-1-13-3-final-released/",
+  "title": "Quarkus 1.13.2.Final released - Oracle JDBC driver extension, bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-13-2-final-released/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2021-04-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We just released 1.13.3.Final, a new maintenance release for the 1.13 release train. 1.13.3.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to the 1.13 migration guide. What’s new? Full changelog You can get the full changelog of 1.13.3.Final on..."
+  "content": "We just released 1.13.2.Final, a new maintenance release for the 1.13 release train. As usual, this release fixes bugs and includes some documentation improvements but it also introduces a new extension for the Oracle JDBC driver. 1.13.2.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not..."
 }
