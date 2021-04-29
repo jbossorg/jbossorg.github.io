@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 23.0.1 is released!",
-  "link": "https://wildfly.org//news/2021/04/14/WildFly2301-Released/",
+  "title": "Quarkus 1.13.2.Final released - Oracle JDBC driver extension, bugfixes",
+  "link": "https://quarkus.io/blog/quarkus-1-13-2-final-released/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-04-14T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 23.0.1.Final is now available .  It’s been about a month since the WildFly 23 release, so we’ve done a bug fix update, WildFly 23.0.1.   WILDFLY PREVIEW AND JAKARTA EE 9.0  The big news in this release is the fact that the of the server passes the TCKs for the Jakarta EE 9.0 and the . We’ve sent a to Eclipse. We’d previously been able to for WildFly Preview 23.0.0.  I’m very excited about this achievement and am so proud of the great WildFly contributors who made it happen, particularly Scott Marlow, Richard Opalka, Jean-Francois Denise, Geoffrey DeSmet, Emmanuel Hugonnet, Farah Juma, Jason Lee, Jim Ma, Matej Novotny, Flavia Rainone and Parul Sharma.  As is described in the , WildFly Preview is a tech preview variant of the server meant to allow our community to get an early look at new things we’re looking to eventually bring into the standard WildFly variant. Currently, the main (but not only) difference from standard WildFly is support of Jakarta EE 9 instead of EE 8.  WildFly Preview is not a compatible Jakarta EE 8 or MicroProfile Platform 4.0 implementation, although we do expect most apps using the EE 8 and MP 4 APIs to run well on it.  WildFly Preview is available on the , next to the standard WildFly download links for the same version. Look for the 'WildFly Preview EE 9 Distribution' links.   RELEASE NOTES  The full list of issues resolved in WildFly 23.0.1 is available . Issues resolved in the WildFly Core update included with WildFly 23.0.1 are available .  Enjoy!"
+  "feed_title": "Quarkus",
+  "content": "We just released 1.13.2.Final, a new maintenance release for the 1.13 release train. As usual, this release fixes bugs and includes some documentation improvements but it also introduces a new extension for the Oracle JDBC driver. 1.13.2.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not..."
 }
