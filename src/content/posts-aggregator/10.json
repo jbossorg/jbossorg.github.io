@@ -1,13 +1,13 @@
 {
-  "title": "Kogito Serverless Workflows at OpenShift Commons Briefing",
-  "link": "https://blog.kie.org/2021/04/kogito-serverless-workflows-at-openshift-commons-briefing.html",
+  "title": "Quarkus 2.0.0.Alpha1 released - Vert.x 4, MicroProfile 4 and Continuous Testing",
+  "link": "https://quarkus.io/blog/quarkus-2-0-0-alpha1-released/",
   "author": [
     {
-      "name": "Ricardo Zanini",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-04-20T17:30:06.000Z",
-  "feed_title": "KIE Community",
-  "content": "Last Monday, we gave a brief overview of the Kogito implementation of the , named Serverless Workflows, at . You can watch the recorded presentation here:    Highlights:   * Introduction to the CNCF Serverless Workflows  * Overview of the Kogito Project  * Event-Driven Applications Use Case Example  * Kogito deployment model on OpenShift  * Knative infrastructure  * Short Demonstration  * Q&A  You can find the full example that we showcased in this presentation at our . Try it locally and give us your feedback!  The post appeared first on ."
+  "date": "2021-04-22T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is with a bit of emotion that I announce today the release of Quarkus 2.0.0.Alpha1. As previously presented, Quarkus 2.0 is in the continuity of Quarkus 1.x and won’t require too many changes on your side. But we consider it a major release as major parts of our infrastructure..."
 }
