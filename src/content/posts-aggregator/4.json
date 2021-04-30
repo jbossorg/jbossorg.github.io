@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.13.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-1-13-3-final-released/",
+  "title": "WildFly 23.0.2 is released!",
+  "link": "https://wildfly.org//news/2021/04/29/WildFly2302-Released/",
   "author": [
     {
-      "name": null,
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2021-04-28T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released 1.13.3.Final, a new maintenance release for the 1.13 release train. 1.13.3.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to the 1.13 migration guide. What’s new? Full changelog You can get the full changelog of 1.13.3.Final on..."
+  "date": "2021-04-29T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 23.0.2.Final is now available .  After the release of Jakarta EE 9 the Jakarta EE Platform Project has been busy with the . This has now progressed to the point that a candidate release of the Jakarta EE 9.1 TCK is available with WildFly 23.0.2.Final being our release candidate as a compatible implementation based on this TCK.   WILDFLY PREVIEW AND JAKARTA EE 9  The of the server still passes the Jakarta EE 9 for the TCKs and the . We have previously sent a for WildFly Preview 23.0.1.Final and a for WildFly Preview 23.0.0.Final.  Once released, Jakarta EE 9.1 will be the first Jakarta EE release that allows a server to certify using both Java 8 and Java 11 for both the web profile and the full platform.  For the various permutations we have published the following test results using the of the server with the candidate release of the Jakarta EE 9.1 TCKs and submitted corresponding certification requests to Eclipse.   * /   * /   * /   * /  We are hopeful this will mean the of the server can be declared compatible with Jakarta EE 9.1 at the time it is released for the Web Profile and Full Platform against both Java 8 and Java 11.  This has been a busy couple of weeks working through the remaining issues to pass the candidate release of the Jakarta EE Platform 9.1 TCKs with particular thanks to Brian Stansberry, Scott Marlow, Richard Opalka, Jean-Francois Denise, Tomasz Adamski, Jim Ma, and Alessio Soldano for making it happen.  As is described in the , WildFly Preview is a tech preview variant of the server meant to allow our community to get an early look at new things we’re looking to eventually bring into the standard WildFly variant. Currently, the main (but not only) difference from standard WildFly is support of Jakarta EE 9 and 9.1 instead of EE 8.  WildFly Preview is not a compatible Jakarta EE 8 or MicroProfile Platform 4.0 implementation, although we do expect most apps using the EE 8 and MP 4 APIs to run well on it.  WildFly Preview is available on the , next to the standard WildFly download links for the same version. Look for the 'WildFly Preview EE 9 Distribution' links.   RELEASE NOTES  The full list of issues resolved in WildFly 23.0.2 is available . WildFly 23.0.2.Final is using the same version of WildFly Core as was used in the 23.0.1.Final release so no WildFly Core specific fixes have been applied.  Enjoy!"
 }
