@@ -1,13 +1,13 @@
 {
-  "title": "Solving problems with custom Quarkus extensions",
-  "link": "https://quarkus.io/blog/solving-problems-with-custom-extensions/",
+  "title": "Kogito Serverless Workflows at OpenShift Commons Briefing",
+  "link": "https://blog.kie.org/2021/04/kogito-serverless-workflows-at-openshift-commons-briefing.html",
   "author": [
     {
-      "name": null,
+      "name": "Ricardo Zanini",
       "avatar": null
     }
   ],
-  "date": "2021-04-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "From time to time, I see tweets or articles claiming they don’t see the point of Quarkus because \"who needs fast startup?\", \"I have plenty of memory\" or \"what is the point of live reload?\". I could write an article debunking these arguments and explain how the latter makes your..."
+  "date": "2021-04-20T17:30:06.000Z",
+  "feed_title": "KIE Community",
+  "content": "Last Monday, we gave a brief overview of the Kogito implementation of the , named Serverless Workflows, at . You can watch the recorded presentation here:    Highlights:   * Introduction to the CNCF Serverless Workflows  * Overview of the Kogito Project  * Event-Driven Applications Use Case Example  * Kogito deployment model on OpenShift  * Knative infrastructure  * Short Demonstration  * Q&A  You can find the full example that we showcased in this presentation at our . Try it locally and give us your feedback!  The post appeared first on ."
 }
