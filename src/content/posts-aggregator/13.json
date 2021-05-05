@@ -1,13 +1,14 @@
 {
-  "title": "The Score card editor goes online",
-  "link": "https://blog.kie.org/2021/04/the-score-card-editor-goes-online.html",
+  "title": "Would you like to join the Keycloak team? We're hiring!",
+  "link": "https://www.keycloak.org//2021/04/jobs.adoc.html",
   "author": [
     {
-      "name": "Michael Anstis",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2021-04-22T17:30:03.000Z",
-  "feed_title": "KIE Community",
-  "content": "Following the , that our Score Card editor is available in VSCode, it can now be tried .  The online landing page  There is no better time to give it a look and provide feedback to drive its road map.  The post appeared first on ."
+  "date": "2021-04-23T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Red Hat continues its investment in Red Hat Single Sign-On and are looking to hire a number of engineers to work directly with the Keycloak project to continuously improve the project, as well as work on new capabilities.  There are a number of openings on the teams responsible for development of Red Hat Single Sign-On, and maintaining Red Hat’s own deployments and integrations of Keycloak.  Engineering:   *    *    *    *    *    *    *    *    *   Quality Engineering:   *    *    *   Product Security:   *   Management:   *    * "
 }
