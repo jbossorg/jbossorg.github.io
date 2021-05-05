@@ -1,14 +1,13 @@
 {
-  "title": "Would you like to join the Keycloak team? We're hiring!",
-  "link": "https://www.keycloak.org//2021/04/jobs.adoc.html",
+  "title": "Quarkus 1.13.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-1-13-3-final-released/",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-04-23T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Red Hat continues its investment in Red Hat Single Sign-On and are looking to hire a number of engineers to work directly with the Keycloak project to continuously improve the project, as well as work on new capabilities.  There are a number of openings on the teams responsible for development of Red Hat Single Sign-On, and maintaining Red Hat’s own deployments and integrations of Keycloak.  Engineering:   *    *    *    *    *    *    *    *    *   Quality Engineering:   *    *    *   Product Security:   *   Management:   *    * "
+  "date": "2021-04-28T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released 1.13.3.Final, a new maintenance release for the 1.13 release train. 1.13.3.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to the 1.13 migration guide. What’s new? Full changelog You can get the full changelog of 1.13.3.Final on..."
 }
