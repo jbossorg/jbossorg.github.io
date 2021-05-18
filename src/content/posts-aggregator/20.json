@@ -1,6 +1,6 @@
 {
-  "title": "Quarkus 2.0.0.Alpha2 released - Continuous Testing improvements",
-  "link": "https://quarkus.io/blog/quarkus-2-0-0-alpha2-released/",
+  "title": "Keycloak 13.0.0 released",
+  "link": "https://www.keycloak.org//2021/05/keycloak-1300-released.html",
   "author": [
     {
       "name": null,
@@ -8,6 +8,7 @@
     }
   ],
   "date": "2021-05-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released our second Alpha for Quarkus 2.0. We had a lot of feedback and Continuous Testing got a lot of fixes and improvements. Please keep the feedback coming! If you have missed our Alpha1 announcement: here are the main new features of Quarkus 2.0. Migration Guide We will..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   UPGRADE TO WILDFLY 23  The Keycloak server was upgraded to use Wildfly 23.0.2.Final as the underlying container.   OAUTH 2.0 DEVICE AUTHORIZATION GRANT (RFC 8628)  Support for OAuth 2.0 Device Authorization Grant is now available.  Thanks to , and .   OPENID CONNECT CLIENT INITIATED BACKCHANNEL AUTHENTICATION (CIBA)  Support for OpenID Connect Client Initiated Backchannel Authentication (CIBA) is now available.  Thanks to , , and members of the FAPI WG for the implementation and feedback.   SAML ARTIFACT BINDING IN SERVER TO CLIENT COMMUNICATION  Keycloak now supports communication with clients using SAML Artifact binding. A new Force Artifact Binding option was introduced in the client configuration, that forces communication with the client using artifact messages. For more details proceed to . Please note, that with this version, Keycloak SAML client adapter does NOT support Artifact binding.  Thanks to and .   SUPPORT PKCE FOR IDENTITY BROKERING  Keycloak can now leverage PKCE when brokering to an external OpenID Connect IdP.  Thanks to .   DEFAULT ROLES PROCESSING IMPROVEMENT  Default roles are now internally stored as composite roles of a new role usually named default-roles-<realmName>. Instead of assigning both realm and all client default roles directly to newly created users or users imported through Identity Brokering, just the role is assigned to them and the rest of default roles are assigned as effective roles. This change improves performance of default roles processing, especially with larger number of clients, because it is no longer necessary to go through all clients.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

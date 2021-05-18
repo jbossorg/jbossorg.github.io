@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.13.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-1-13-4-final-released/",
+  "title": "Eclipse Vert.x 4.1.0.Beta1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-Beta1-released",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-05-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released 1.13.4.Final, a new maintenance release for the 1.13 release train. 1.13.4.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to the 1.13 migration guide. What’s new? Full changelog You can get the full changelog of 1.13.4.Final on..."
+  "feed_title": "Vert.x",
+  "content": "The first beta of the upcoming Vert.x 4.1 has just been released. We consider it feature complete and invite the community to test it."
 }
