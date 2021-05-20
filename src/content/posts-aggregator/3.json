@@ -1,13 +1,13 @@
 {
-  "title": "What's new in Vert.x 4.1",
-  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-1",
+  "title": "Quarkus 2.0.0.Alpha3 released - GraalVM 21.1, SmallRye GraphQL Client...",
+  "link": "https://quarkus.io/blog/quarkus-2-0-0-alpha3-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-05-20T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "See an overview of all new and exciting features in Vert.x 4.1, including futures, distributed tracing, reactive database clients, SQL templating, and more."
+  "feed_title": "Quarkus",
+  "content": "We just released our third Alpha for Quarkus 2.0 which contains several enhancements and new features: #17014 - Update to GraalVM 21.1 #17350 - SmallRye GraphQL Client extension + 1.2.1 upgrade #16857 - Add Amazon SSM extension #16963 - Add quarkus:test goal #17232 - Introduce coroutine support in Reactive Messaging..."
 }
