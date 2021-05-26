@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.1.0.CR1 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-CR1-released",
+  "title": "Infinispan Native CLI",
+  "link": "https://infinispan.org/blog/2021/05/21/infinispan-cli-image",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Ryan Emerson",
       "avatar": null
     }
   ],
-  "date": "2021-05-21T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "The first candidate release of the upcoming Vert.x 4.1 has just been released. We consider it feature complete and invite the community to test it."
+  "date": "2021-05-21T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Starting with Infinispan 12, we provide a natively compiled version of the Infinispan CLI.  This can be consumed as a native binary or via a container image.   USAGE   1. Start a Infinispan server instance so that the CLI has an endpoint to     connect to:  docker run -it -p 11222:11222 -e USER=\"user\" -e PASS=\"pass\" quay.io/infinispan/server:12.1  CONTAINER   2. Launch the CLI image and connect to the server image:  docker run --net=host -it --rm quay.io/infinispan/cli:12.1 -c http://127.0.0.1:11222   3. Enter the \"user\" and \"pass\" credentials, for the username and password     respectively.  Tip The container’s endpoint is the CLI binary, which lets you pass CLI arguments straight to the image, e.g. quay.io/infinispan/cli:12.1 --version  BINARY  Native CLI binaries for Linux, Mac and Windows can be downloaded .   2. Download and extract the .zip for your desired platform:           a.            b.            c.    3. Start the CLI and connect to the server container:           a. Linux & Mac: ./ispn-cli -c           b. Windows (Powershell): & \".\\ispn-cli.exe\" -c"
 }
