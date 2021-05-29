@@ -1,13 +1,13 @@
 {
-  "title": "About to release Quarkus 2 - ask us anything!",
-  "link": "https://quarkus.io/blog/quarkus-insights-qanda2/",
+  "title": "Webinar: Integrate systems in the age of Quarkus and Camel",
+  "link": "http://feedproxy.google.com/~r/ApacheCamel/~3/BkZSRxVBBG4/webinar-integrate-systems-in-age-of.html",
   "author": [
     {
-      "name": null,
+      "name": "Claus Ibsen",
       "avatar": null
     }
   ],
-  "date": "2021-05-27T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "With Quarkus 2 approaching its imminent release and we passed 50 episodes of Quarkus Insights we want to do Q&A episode similar to what we did earlier in the year. We will cover the most often asked questions we have seen and any question tagged with #quarkusinsights on our various..."
+  "date": "2021-05-29T09:15:00.006Z",
+  "feed_title": "Claus Ibsen (@davsclaus) riding the Apache Camel",
+  "content": "A few days ago I presented a webinar where he covered all the latest innovations with Apache Camel with focus on Camel Quarkus, Camel K, and Kamelets. This trio is a powerful combination that takes Camel to another level, which allows non developers and IT professionals, to manage and bind systems together without any Camel knowledge.    Kamelets being the Apache Camel solution for an app store experience with integration software.  The webinar is and the .     "
 }
