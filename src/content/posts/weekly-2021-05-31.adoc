@@ -1,0 +1,77 @@
+= This Week in JBoss - 31 May 2021
+Don Naro
+2021-05-31
+:tags: quarkus, wildfly, keycloak, kogito, infinispan, camel, jgroups, vert.x
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Hello again
+
+To our community and all our readers,
+
+I'd like to start this edition with a sincere and frank apology on behalf of the editorial team for the posts we missed in the last month.
+
+There's been a lot of awesome content that our community has shared and multiple project releases packed with useful new features and clever enhancements.
+We're long overdue in highlighting and celebrating all the great work that JBoss teams are doing, not to mention all the brilliant work of our evangelists and other contributors.
+
+It's been a busy past few weeks and we've got a lot of great articles and releases to catch up on, so let's go.
+
+== Release roundup
+
+Let's start things off with congrats to all the teams on their hard work!
+
+[square]
+* link:http://belaban.blogspot.com/2021/05/jgroups-517-released.html/[JGroups 5.1.7] is released. Congrats, Bela!
+* link:https://quarkus.io/blog/quarkus-1-13-6-final-released/[Quarkus 1.13.6.Final] has shipped, which is the latest in a recent series of updates to version 1.13.
+* link:https://quarkus.io/blog/quarkus-2-0-0-cr2-released/[Quarkus 2 CR2] is out!
+* link:https://vertx.io/blog/eclipse-vert-x-4-1-CR2-released/[Vert.x 4.1.0.CR2] is here, right on the heels of the beta and CR1 releases.
+* link:https://infinispan.org/blog/2021/05/07/infinispan-12-1-2-final[Infinispan 12.1.2 Final] is available for download so go grab it.
+* link:https://www.keycloak.org/2021/05/keycloak-1301-released[Keycloak 13.0.1] is out!
+* link:https://blog.kie.org/2021/05/kogito-tooling-0-10-0-released.html[Kogito Tooling 0.10.0] has launched!
+* link:http://bytemanblog.blogspot.com/2021/05/byteman-4015-has-been-released.html][Byteman 4.0.15] is now available!
+
+== Quarkus 2 AMA
+
+With the recent release of Quarkus CR2, I'm sure we're all anticipating Quarkus 2.0 GA.
+As part of that release, Max and the rest of the Quarkus team are taking questions that they will answer on an episode of Quarkus Insights.
+Use the `#quarkusinsights` tag to submit a question via social media and tune in to link:https://www.youtube.com/watch?v=ETTMBWEBfLY[Quarkus Insights #51: Q & A - Part II] on June 2 to hear your questions answered.
+
+Follow the social media links to post your question to the Quarkus team in their post, link:https://quarkus.io/blog/quarkus-insights-qanda2/[About to release Quarkus 2 - ask us anything!]
+
+== From the community
+
+Jeff Mesnil has authored a very helpful and detailed look at building and deploying WildFly applications on OpenShift using Helm Charts in his post, link:https://www.wildfly.org/news/2021/05/05/helm-charts-for-wildfly/[Helm Chart for WildFly]
+
+Over on the Infinispan blog, Ryan Emerson has shared some details about the CLI compiled to a native image in link:https://infinispan.org/blog/2021/05/21/infinispan-cli-image[Infinispan Native CLI], which is well worth a read.
+You should also try downloading the latest Infinispan 12 server version and taking it for a spin with the native CLI!
+
+Another recent one from the Infinispan team comes from Katia Aresti who, along with Ryan Emerson, explains how they link:https://developers.redhat.com/articles/2021/05/28/building-real-time-leaderboard-red-hat-data-grid-and-quarkus-hybrid-kubernetes[built a real-time leaderboard using Data Grid and several Quarkus extensions] to add some magic to this year's Red Hat Summit Keynote.
+
+Jacopo Rota on the Kogito blog explains how to link:https://blog.kie.org/2021/05/getting-started-with-trustyai-in-only-15-minutes.html[how to deploy a Kogito service together with the TrustyAI infrastructure on an OpenShift cluster in only 15 minutes]!
+
+Have you been wanting to find out more about Shenandoah GC? Well, you should dive right in and check out Roman Kennke's informative post, link:https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing[Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing].
+
+Bilgin Ibryam has recently posted link:http://www.ofbizian.com/2021/05/data-gateways-of-future.html[Data Gateways in the Cloud Native Era] that examines how data gateway components support different use cases and offer a solution for hybrid workloads spread across multiple cloud providers.
+
+Last but certainly not least is Claus Ibsen's webinar, link:http://www.davsclaus.com/2021/05/webinar-integrate-systems-in-age-of.html[Integrate systems in the age of Quarkus and Camel], that explores how the trio of Camel Quarkus, Camel K, and Kamelets simplify the work to manage and bind systems together.
+
+== Evangelist's corner
+
+Eric Schabell never disappoints and his previous series on architectural elements in a real-time stock control solution for retail was no exception.
+Eric rounds that series off nicely with link:https://www.schabell.org/2021/05/real-time-stock-control-example-stock-control-architecture.html[Real-time stock control - Example stock control architecture].
+
+Not one to rest for long, Eric Schabell launches a new series that tackles how to create a framework for accessing retail data from customers, stock, stores, and staff across multiple internal teams.
+I'm sure it's going to be a brilliant series so go have a look for yourself and find out more in his post, link:https://www.schabell.org/2021/05/retail-data-framework-architectural-introduction.html[Retail data framework - An architectural introduction].
+
+I also really enjoyed reading through Christina and Eric's link:http://wei-meilin.blogspot.com/2021/05/tooling-guide-for-getting-started-with.html[Tooling guide for Getting Started with Apache Camel in 2021].
+It's a well put together beginner's guide to tools that can help with Camel applications.
+
+== Developers on film
+
+Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week's editorial:
+
+* link:https://youtu.be/ILl85LLj93w[Quarkus Insights #49: Why I use Quarkus for Cloud Native Apps]
+* link:https://youtu.be/7JPm1BFcrrk[What is Serverless with Java?]
+* link:https://youtu.be/jBDmX85IjLM[No YAML! Kubernetes done the easy way]
+* link:https://youtu.be/szza3DZlKzA[Quarkus DevServices]
