@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 13.0.1 released",
-  "link": "https://www.keycloak.org//2021/05/keycloak-1301-released.html",
+  "title": "Quarkus 1.13.5.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-1-13-5-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-05-25T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-05-26T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released 1.13.5.Final today with a new set of bugfixes for our 1.13 release. 1.13.5.Final is a safe upgrade for everyone using Quarkus 1.13. If you are not using 1.13 already, please refer to the 1.13 migration guide. What’s new? Maven 3.8.1 Given there are a couple of CVEs in..."
 }

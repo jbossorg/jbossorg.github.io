@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.13.6.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-1-13-6-final-released/",
+  "title": "Eclipse Vert.x 4.1.0.CR2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-CR2-released",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-05-27T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Unfortunately, 1.13.5.Final introduced a regression in the Hibernate Validator extension due to a Jandex issue (Jandex is our library indexing the classes and annotations). Thus, we released 1.13.6.Final today to mitigate the issue. 1.13.6.Final is a safe upgrade for everyone using Quarkus 1.13. Please also check out the 1.13.5 announcement..."
+  "feed_title": "Vert.x",
+  "content": "The second candidate release of the upcoming Vert.x 4.1 has just been released. We consider it feature complete and invite the community to test it."
 }
