@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.0.0.CR2 released - Towards Final",
-  "link": "https://quarkus.io/blog/quarkus-2-0-0-cr2-released/",
+  "title": "Eclipse Vert.x 4.1.0.CR2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-CR2-released",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-05-27T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just started the candidate release cycle for 2.0.0.Final. Feedback is very welcome so if you have a Quarkus app around, please give it a go. Make sure you update both the BOM version and the Quarkus Maven Plugin version to 2.0.0.CR2. Also, we only publish the quarkus-bom for non-Final..."
+  "feed_title": "Vert.x",
+  "content": "The second candidate release of the upcoming Vert.x 4.1 has just been released. We consider it feature complete and invite the community to test it."
 }
