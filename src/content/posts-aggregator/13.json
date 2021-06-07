@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.1.0.CR2 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-CR2-released",
+  "title": "About to release Quarkus 2 - ask us anything!",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda2/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-05-27T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "The second candidate release of the upcoming Vert.x 4.1 has just been released. We consider it feature complete and invite the community to test it."
+  "feed_title": "Quarkus",
+  "content": "With Quarkus 2 approaching its imminent release and we passed 50 episodes of Quarkus Insights we want to do Q&A episode similar to what we did earlier in the year. We will cover the most often asked questions we have seen and any question tagged with #quarkusinsights on our various..."
 }
