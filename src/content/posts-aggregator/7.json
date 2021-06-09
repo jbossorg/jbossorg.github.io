@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 24 Beta1 is released!",
-  "link": "https://wildfly.org//news/2021/06/04/WildFly24-Beta-Released/",
+  "title": "Quarkus 2.0.0.CR3 released - Towards Final",
+  "link": "https://quarkus.io/blog/quarkus-2-0-0-cr3-released/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-06-04T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "I’m pleased to announce that the new WildFly and WildFly Preview 24.0.0.Beta1 releases are available for download at .  Work during the WildFly 24 development cycle has been primarily oriented toward bug fixing, plus the .  But I do want to express my special thanks to Sonia Zaldana, a great contributor to WildFly over the past year, who has added three new features in WildFly 24 Beta1:   *    *    *   The other area of focus during this development cycle was improving how WildFly, particularly WildFly Preview, runs on JDK 16 and the early access releases of the next LTS JDK release, JDK 17. There are still some issues to resolve, but WildFly Preview 24 Beta1 runs well enough on the latest JDKs that it’s worthwhile for people interested in what JDK 17 will mean for their application to give it a look.  The release notes for the release are , with issues fixed in the underlying WildFly Core betas listed .  Please try it out and give us your feedback, while we get to work WildFly 24 Final!  Best regards,  Brian"
+  "feed_title": "Quarkus",
+  "content": "Thanks to your feedback, we fixed some more issues in Quarkus 2.0 and we thought a new CR was necessary. As usual, it also comes with documentation refinements. We will build the Final artifacts on June 23rd so keep the feedback coming! Migration Guide We keep the Migration Guide up..."
 }

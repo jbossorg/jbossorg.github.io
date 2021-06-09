@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan (Red Hat Data Grid) featured in Red Hat Developers",
-  "link": "https://infinispan.org/blog/2021/05/31/infinispan-redhat-summit-quarkus",
+  "title": "Eclipse Vert.x 4.1.0 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-0",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-05-31T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan Community,  The Infinispan team is pleased to share an article published over on the Red Hat Developer blog.  Part one of a two-part series of articles, this blog post focuses on how Data Grid, which is built on Infinispan, was used to create a leaderboard for an online Battleship game that featured at this year’s Red Hat Summit Keynote.  You can read the blog post  Technologies featured in our keynote demo: * Quarkus and Infinispan Client Extension * Additional Quarkus extensions: RestEasy, Websockets, Scheduler * Infinispan Query * Infinispan Cross-Site Replication * Infinispan Kubernetes Operator  Enjoy your reading!"
+  "date": "2021-06-01T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.1.0 has just been released. It comes with a set of new exciting features!"
 }
