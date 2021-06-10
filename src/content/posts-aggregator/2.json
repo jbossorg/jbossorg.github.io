@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 1.13.7.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-1-13-7-final-released/",
+  "title": "Narayana 5.12.0.Final released",
+  "link": "https://jbossts.blogspot.com/2021/06/narayana-5120final-released.html",
   "author": [
     {
-      "name": null,
+      "name": "Michael Musgrove",
       "avatar": null
     }
   ],
-  "date": "2021-06-09T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "And here comes 1.13.7.Final, our (most probably!) last round of bugfixes for the 1.13 release. If you are not using 1.13 already, please refer to the 1.13 migration guide. Full changelog You can get the full changelog of 1.13.7.Final on GitHub. 2.0 coming soon We will soon start a new..."
+  "date": "2021-06-09T16:32:00.000Z",
+  "feed_title": "Narayana team blog",
+  "content": "This week we released Narayana 5.12.0.Final. You can download it from our website at https://narayana.io/downloads/index.html This release includes a mix of enhancements (including support for CDI 2.0) and bug fixes, full details can be found in the"
 }
