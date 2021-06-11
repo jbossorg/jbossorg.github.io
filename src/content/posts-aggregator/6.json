@@ -1,13 +1,13 @@
 {
-  "title": "Narayana 5.12.0.Final released",
-  "link": "https://jbossts.blogspot.com/2021/06/narayana-5120final-released.html",
+  "title": "Eclipse Vert.x 3.9.8 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-8",
   "author": [
     {
-      "name": "Michael Musgrove",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-06-09T16:32:00.000Z",
-  "feed_title": "Narayana team blog",
-  "content": "This week we released Narayana 5.12.0.Final. You can download it from our website at https://narayana.io/downloads/index.html This release includes a mix of enhancements (including support for CDI 2.0) and bug fixes, full details can be found in the"
+  "date": "2021-06-10T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.8 has just been released. It fixes quite a few bugs that have been reported by the community."
 }
