@@ -1,6 +1,6 @@
 {
   "title": "Kogito 1.7.0 released!",
-  "link": "http://feeds.athico.com/~r/droolsatom/~3/2twMKzhHt9o/kogito-1-7-0-release.html",
+  "link": "https://blog.kie.org/2021/06/kogito-1-7-0-release.html",
   "author": [
     {
       "name": "Cristiano Nicolai",
@@ -9,5 +9,5 @@
   ],
   "date": "2021-06-11T10:27:07.000Z",
   "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.7.0 release is now available! This goes hand in hand with and .  From a feature point of view, we included a series of new features and bug fixes, including:   * Process SVG addon now works directly with the process SVG exported by VSCode  * PostgreSQL persistence for Jobs Service  * Quarkus upgrade to version  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.10.0 artifacts are available at the .  A detailed changelog for 1.7.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  Thank you to everyone who collaborate to make this release possible and stay tuned for more updates!  The post appeared first on .  "
+  "content": "We are glad to announce that the Kogito 1.7.0 release is now available! This goes hand in hand with and .  From a feature point of view, we included a series of new features and bug fixes, including:   * Process SVG addon now works directly with the process SVG exported by VSCode  * PostgreSQL persistence for Jobs Service  * Quarkus upgrade to version  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.10.0 artifacts are available at the .  A detailed changelog for 1.7.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  Thank you to everyone who collaborate to make this release possible and stay tuned for more updates!  The post appeared first on ."
 }
