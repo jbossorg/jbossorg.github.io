@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan (Red Hat Data Grid) featured again in Red Hat Developers",
-  "link": "https://infinispan.org/blog/2021/06/08/infinispan-redhat-summit-quarkus",
+  "title": "Narayana 5.12.0.Final released",
+  "link": "https://jbossts.blogspot.com/2021/06/narayana-5120final-released.html",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": "Michael Musgrove",
       "avatar": null
     }
   ],
-  "date": "2021-06-08T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan Community,  The Infinispan team is pleased to share the follow up article published on the Red Hat Developer blog.  Part two of a two-part series of articles, this blog post focuses on how the was used to create all the configuration and deployment descriptors for the online hybrid-cloud Battleship game that featured at this year’s Red Hat Summit Keynote.  You can read the blog post  The Infinispan Operator is available from the .  Enjoy your reading!"
+  "date": "2021-06-09T16:32:00.000Z",
+  "feed_title": "Narayana team blog",
+  "content": "This week we released Narayana 5.12.0.Final. You can download it from our website at https://narayana.io/downloads/index.html This release includes a mix of enhancements (including support for CDI 2.0) and bug fixes, full details can be found in the"
 }
