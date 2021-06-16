@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan (Red Hat Data Grid) featured again in Red Hat Developers",
-  "link": "https://infinispan.org/blog/2021/06/08/infinispan-redhat-summit-quarkus",
+  "title": "Quarkus 1.13.7.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-1-13-7-final-released/",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-06-08T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan Community,  The Infinispan team is pleased to share the follow up article published on the Red Hat Developer blog.  Part two of a two-part series of articles, this blog post focuses on how the was used to create all the configuration and deployment descriptors for the online hybrid-cloud Battleship game that featured at this year’s Red Hat Summit Keynote.  You can read the blog post  The Infinispan Operator is available from the .  Enjoy your reading!"
+  "date": "2021-06-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "And here comes 1.13.7.Final, our (most probably!) last round of bugfixes for the 1.13 release. If you are not using 1.13 already, please refer to the 1.13 migration guide. Full changelog You can get the full changelog of 1.13.7.Final on GitHub. 2.0 coming soon We will soon start a new..."
 }
