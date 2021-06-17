@@ -1,13 +1,14 @@
 {
-  "title": "Byteman 4.0.16 has been released",
-  "link": "http://bytemanblog.blogspot.com/2021/06/byteman-4016-has-been-released.html",
+  "title": "Red Hat Summit 2021 (Ask the Experts) - An open approach to solution architectures (video)",
+  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/IThWqUU8sTQ/red-hat-summit-2021-ask-the-experts-open-approach-solution-architectures-video.html",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Eric D. Schabell",
+      "avatar": null
     }
   ],
-  "date": "2021-06-16T13:38:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": " Byteman 4.0.16 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK17.    Byteman 4.0.16 removes the JBoss Modules plugin from the release, in the process removing a dependency on the jboss-modules jar. The plugin has never been fully functional on JDK9+ releases. Anyone wishing to use the plugin as is should continue to use earlier releases. Alternatively, you can revert to using the Byteman 3.0.19 which runs on JDK8- releases and includes a fully working version of the plugin.     More details are provided in the . "
+  "date": "2021-06-17T05:00:00.042Z",
+  "feed_title": "Eric D. Schabell",
+  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
+  "content": "This year the  event is a bit different as we bridge the gap from pandemic reality to hopefully a form of normalcy.   As the Red Hat Summit site explains to us, this \"...event is expanding to become an all-new, flexible conference series, consisting of a 2‑part immersive virtual experience as well as a global tour of small-scale, in-person events. This series will create collective opportunities to share experiences, innovations, and insights.\"   and the on-demand recording is available if you missed it.   The event is free, so if you have not yet done so, register and you have full access to all the recordings. Now let's take a look at how to jump straight to our session  This year I'm involved with some friends and colleagues in a few Ask The Experts sessions where you get a live session on a topic with several experts available to ask anything you like about the topic.     I've done  in April, and I'm going to be involved in the following session next week:         Solution architectures are the detailed and structured descriptions of the features, process, and behavior of a solution. It acts as the base of the solution to define, deliver, manage and operate the development process of the solution. It identifies the alternatives of the solutions and its components.   In this session, we'll highlight the process that Red Hat uses to compile and publish solution architectures for various business and technology scenarios that are based on actual use cases pertinent to our global customers and partners. It includes the key capabilities of continuous global collaboration with the engineering teams.    Date: Tuesday, Jun 15 Time: 16:30 - 17:00 CEST Speakers:   * Eric D. Schabell, Portfolio Architect Technical Director, Red Hat  * Will Nix, Senior Manager, Red Hat  * E.G Nadhan, Chief Architect and Strategist, Red Hat    I hope you enjoyed our discussions, the questions we had time to answer, and the information we shared around how we are developing our open architectures to share with you. "
 }
