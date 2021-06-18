@@ -1,0 +1,61 @@
+= This Week in JBoss - 18 June 2021
+Don Naro
+2021-06-18
+:tags: quarkus, wildfly, keycloak, kogito, infinispan, vert.x, java, narayana
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Congrats to all the teams on their hard work!
+
+[square]
+* link:https://www.keycloak.org//2021/06/keycloak-1400-released.html/[Keycloak 14.0.0] is released! This release adds Financial-grade API (FAPI) support and lots of improvements.
+* link:http://bytemanblog.blogspot.com/2021/06/byteman-4016-has-been-released.html[Byteman 4.0.16] has shipped and is now the latest version if you're running Java version 9 to 17.
+* link:https://www.wildfly.org//news/2021/06/17/WildFly24-Final-Released/[WildFly 24] is here and brings lots of awesome work. There's too much to sum up here so click the link and check out the release notes.
+* link:https://quarkus.io/blog/quarkus-2-0-0-cr3-released/[Quarkus 2.0.0.CR3] is here. Towards 2.0 final!!
+* link:https://quarkus.io/blog/quarkus-1-13-7-final-released/[Quarkus 1.13.7.Final] is available as a maintenance release.
+* link:https://vertx.io/blog/eclipse-vert-x-4-1-0/[Eclipse Vert.x 4.1.0] is available with lots of exciting features. Go download and start using it!
+* link:https://vertx.io/blog/eclipse-vert-x-3-9-8/[Eclipse Vert.x 3.9.8] is also here with numerous bug fixes.
+* link:https://jbossts.blogspot.com/2021/06/narayana-5120final-released.html[Narayana 5.12.0.Final] has been shipped. This version gives several enhancements and fixes some bugs. Go grab it!
+
+== From the community
+
+Katia and Ryan on the Infinispan team released a nice two-part series of posts that explained how they built an online game across data centers and multiple cloud providers for this year's Summit keynote demonstration.
+In the first part, link:https://developers.redhat.com/articles/2021/05/28/building-real-time-leaderboard-red-hat-data-grid-and-quarkus-hybrid-kubernetes[Building a real-time leaderboard with Infinispan and Quarkus on a hybrid Kubernetes deployment], Katia and Ryan describe how they designed and implemented various services using Infinispan and Quarkus.
+With part two, they explain how using the Infinispan Operator greatly reduced the complexity of standing up their clusters, link:https://developers.redhat.com/articles/2021/06/08/create-and-manage-red-hat-data-grid-services-hybrid-cloud[Creating and managing Infinispan services in the hybrid cloud].
+
+Tommaso Teofili's recent post, link:https://blog.kie.org/2021/06/autotuning-lime-explanations-with-few-predictions.html[Autotuning LIME explanations with few predictions], outlines how to automatically tune LIME hyperparameters to achieve more stable explanations and comes with a PR that lets you dig into all the technical aspects covered in the post.
+
+link:https://blog.kie.org/2021/06/rhpam-connectivity-to-external-amq-configurations-in-openshift.html[RHPAM connectivity to external AMQ configurations in OpenShift] by Michael Perez takes an in-depth look at connecting to an external AMQ with the aim of lowering the memory footprint for RHPAM pods as well as other deployment optimizations.
+It's an interesting read with good technical considerations to sink your teeth into so go give it a look.
+
+Over on the WildFly blog, Jeff Mesnil walks us through the process of changing logging levels for cloud-based WildFly applications on the fly.
+Take a look at Jeff's script and straightforward commands to help you easily modify logs for debugging in his post, link:https://www.wildfly.org/news/2021/06/15/change-log-level-wildfly-cloud/[How to Change Logging Level for WildFly on the Cloud].
+
+Bilgin Ibryam is back with a post on the Red Hat Developer blog titled link:https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes[Application modernization patterns with Apache Kafka, Debezium, and Kubernetes].
+I really enjoyed this one as Bilgin expertly puts application modernization in context and examines different patterns, tools, and open-source ecosystems that can help you migrate brown-field systems to more modern, event-driven services as well as design green-field services that are future proof by providing the ability to evolve over time.
+Be sure to catch up on this one if you haven't already read it.
+
+Just in time for your summer reading list the first book dedicated to Keycloak has been published, link:https://www.keycloak.org/2021/06/book.adoc[Keycloak - Identity and Access Management for Modern Applications].
+Congrats to authors Stian Thorgersen and Pedro Igor Silva.
+It's an impressive achievement and no doubt the book is full of invaluable expertise.
+
+== Evangelist's corner
+
+In our last editorial we mentioned Eric Schabell's series on a retail data framework.
+Since then Eric has obviously been hard at work as his next two posts in the series, link:https://www.schabell.org/2021/05/retail-data-framework-common-architectural-elements.html[Retail data framework - Common architectural elements] and link:https://www.schabell.org/2021/06/retail-data-framework-example-data-architecture.html[Retail data framework - Example data architecture].
+If you haven't caught up on that series yet, then I highly recommend taking a look to learn about data flows and management in a retail context.
+
+Eric has also posted the first in his next series, link:https://www.schabell.org/2021/05/cloud-adoption-an-architectural-introduction.html[Cloud adoption - An architectural introduction].
+This series is focused on proven integrations, structures, and interactions with the goal of enabling readers to implement and adopt cloud-based solutions using open-source technologies.
+I'm really excited about this series and can't wait to see what Eric brings in his next posts.
+
+== Developers on film
+
+Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week's editorial:
+
+* link:https://youtu.be/ETTMBWEBfLY[Quarkus Insights #51: Answering questions from the community]
+* link:https://youtu.be/pYhaZYX0kq4[Quarkus Insights #53: Java Memory - why should you care]
+* link:https://youtu.be/ngXii5sA_nA[Building Kubernetes Native Java with the Quarkus CLI]
