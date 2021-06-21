@@ -10,7 +10,7 @@ Hello! Welcome to another edition of the JBoss Editorial that brings you news an
 Congrats to all the teams on their hard work!
 
 [square]
-* link:https://www.keycloak.org//2021/06/keycloak-1400-released.html/[Keycloak 14.0.0] is released! This release adds Financial-grade API (FAPI) support and lots of improvements.
+* link:https://www.keycloak.org/2021/06/keycloak-1400-released[Keycloak 14.0.0] is released! This release adds Financial-grade API (FAPI) support and lots of improvements.
 * link:http://bytemanblog.blogspot.com/2021/06/byteman-4016-has-been-released.html[Byteman 4.0.16] has shipped and is now the latest version if you're running Java version 9 to 17.
 * link:https://www.wildfly.org//news/2021/06/17/WildFly24-Final-Released/[WildFly 24] is here and brings lots of awesome work. There's too much to sum up here so click the link and check out the release notes.
 * link:https://quarkus.io/blog/quarkus-2-0-0-cr3-released/[Quarkus 2.0.0.CR3] is here. Towards 2.0 final!!
