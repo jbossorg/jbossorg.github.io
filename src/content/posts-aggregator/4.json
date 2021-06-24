@@ -1,6 +1,6 @@
 {
-  "title": "Calling All Roadies for the Quarkus World Tour",
-  "link": "https://quarkus.io/blog/calling-all-roadies/",
+  "title": "Abraxas Uses Quarkus For Cutting Edge Tax App",
+  "link": "https://quarkus.io/blog/abraxas-customer-story/",
   "author": [
     {
       "name": null,
@@ -9,5 +9,5 @@
   ],
   "date": "2021-06-22T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The Quarkus World Tour kicked off in March to provide a unique, hands-on Quarkus experience for Java developers across the globe. The goal of the tour is to introduce Quarkus to Java developers and set them down the path of creating applications and participating in the community. Since the tour..."
+  "content": "Two things are certain in the life of a developer: Java and Taxes. For the past 25 years, Java has been the dominant framework for developers creating enterprise applications. During that same time, developers continue to support their respective communities and countries each pay period through taxes. What do Java..."
 }

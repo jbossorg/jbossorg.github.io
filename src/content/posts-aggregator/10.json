@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak 14.0.0 released",
-  "link": "https://www.keycloak.org//2021/06/keycloak-1400-released.html",
+  "title": "Book on Keycloak",
+  "link": "https://www.keycloak.org//2021/06/book.adoc.html",
   "author": [
     {
-      "name": null,
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
   "date": "2021-06-18T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   CLIENT POLICIES AND FINANCIAL-GRADE API (FAPI) SUPPORT  The Keycloak server has now official support for client policies and Financial-grade API (FAPI). This capability was previewed in earlier versions, but now it is more polished and properly documented. Thanks to , who did most of the work on this. Also thanks to and , who did a great deal of the work on this feature as well. Finally thanks to all the members of the for their help and feedback.   IMPROVEMENTS TO USER PROFILE SPI AND SUPPORT FOR DECLARATIVE CONFIGURATION  In this version, there were several improvements to the User Profile SPI in order to prepare the ground on how users profiles are managed in Keycloak.  One of these improvements is the support for configuring user profiles through the administration console. For more details proceed to  Thanks to the community and all the individuals involved in this effort.   IMPROVEMENTS TO OFFLINE SESSIONS  Offline session preloading has been improved and should be faster thanks to .  As a preview feature, offline session preloading can be skipped in favor of lazy loading thanks to 's efforts. This feature has to be explicitly activated in the server configuration, see Server administration guide for details.   OTHER IMPROVEMENTS   * The support for configuring maximum number of active authentication sessions.    The default value is set to 300 authentication sessions (browser tabs) per a    browser’s session   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "content": "The first ever book dedicated to Keycloak was recently launched, and is now.    The book introduces you to Keycloak, giving a good fundamental of everything you need to know to get started with Keycloak. From installing, securing applications, and deploying to production.  If you are new to Keycloak, or even if you have been using Keycloak for a while, you should consider getting yourself a copy."
 }
