@@ -1,14 +1,13 @@
 {
-  "title": "Book on Keycloak",
-  "link": "https://www.keycloak.org//2021/06/book.adoc.html",
+  "title": "An Infinispan .Net Core client over the Hot Rod protocol",
+  "link": "https://infinispan.org/blog/2021/06/21/infinispan-dotnet-core-client",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": "Vittorio Rigamonti",
       "avatar": null
     }
   ],
-  "date": "2021-06-18T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "The first ever book dedicated to Keycloak was recently launched, and is now.    The book introduces you to Keycloak, giving a good fundamental of everything you need to know to get started with Keycloak. From installing, securing applications, and deploying to production.  If you are new to Keycloak, or even if you have been using Keycloak for a while, you should consider getting yourself a copy."
+  "date": "2021-06-21T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispanners,  The Infinispan team would like to share a new project we’re working on: .  Our current .NET client is based on the C++ core implementation, which is a solution that has its pros and cons. It makes it easier to guarantee parity between the C++ and C# clients over the time, but has the drawback of tying clients to specific a architecture. In turn that complicates portability and distribution, making the release lifecycle for those clients more onerous and sluggish.  The is a 100% C# Hot Rod client designed with the aim of being portable across systems via the .Net Core platform and easier to deploy and consume via the Nuget platform.  If you are involved with the .NET Core ecosystem we hope you will find this project of interest. Entry points for the project are:   * , current status and news;   * , this will contain the same testsuite of the current project with the aim of    making it easier to compare with the .NET core client as it matures.   * , an example of project which uses the client package.   * is where the package is published.  Hope this will makes C# developers happy!  Please let us know your thoughts, a good place for them is the page.  The Infinispan Team"
 }

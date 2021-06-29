@@ -1,13 +1,13 @@
 {
-  "title": "An Infinispan .Net Core client over the Hot Rod protocol",
-  "link": "https://infinispan.org/blog/2021/06/21/infinispan-dotnet-core-client",
+  "title": "WildFly 24 S2I images have been released on quay.io",
+  "link": "https://wildfly.org//news/2021/06/22/WildFly-s2i-24-Released/",
   "author": [
     {
-      "name": "Vittorio Rigamonti",
+      "name": "Jean-François Denise",
       "avatar": null
     }
   ],
-  "date": "2021-06-21T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispanners,  The Infinispan team would like to share a new project we’re working on: .  Our current .NET client is based on the C++ core implementation, which is a solution that has its pros and cons. It makes it easier to guarantee parity between the C++ and C# clients over the time, but has the drawback of tying clients to specific a architecture. In turn that complicates portability and distribution, making the release lifecycle for those clients more onerous and sluggish.  The is a 100% C# Hot Rod client designed with the aim of being portable across systems via the .Net Core platform and easier to deploy and consume via the Nuget platform.  If you are involved with the .NET Core ecosystem we hope you will find this project of interest. Entry points for the project are:   * , current status and news;   * , this will contain the same testsuite of the current project with the aim of    making it easier to compare with the .NET core client as it matures.   * , an example of project which uses the client package.   * is where the package is published.  Hope this will makes C# developers happy!  Please let us know your thoughts, a good place for them is the page.  The Infinispan Team"
+  "date": "2021-06-22T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WILDFLY 24 S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 24 have been released on .  The S2I builder image has been upgraded with the following content:   * . This feature-pack defines some Galleon layers to provision drivers and    datasources for: MariaDB, Microsoft SQL Server, MySQL, Oracle DB and    PostgreSQL. You can learn how to configure the drivers by reading the    feature-pack .   * adapter has been upgraded to the version 13.0.1.  For a complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   HELM CHART FOR WILDFLY  has been updated to use the WildFly S2I 24.0 images.  The is a good place to start using Helm Chart with the WildFly S2I images.  Enjoy!"
 }

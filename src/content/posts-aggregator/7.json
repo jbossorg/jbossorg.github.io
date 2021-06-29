@@ -1,13 +1,14 @@
 {
-  "title": "Calling All Roadies for the Quarkus World Tour",
-  "link": "https://quarkus.io/blog/calling-all-roadies/",
+  "title": "Getting started with Red Hat Business Automation version 7.11",
+  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/f44Ha1v5S4U/getting-started-with-red-hat-business-automation-version-711.html",
   "author": [
     {
-      "name": null,
+      "name": "Eric D. Schabell",
       "avatar": null
     }
   ],
-  "date": "2021-06-22T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The Quarkus World Tour kicked off in March to provide a unique, hands-on Quarkus experience for Java developers across the globe. The goal of the tour is to introduce Quarkus to Java developers and set them down the path of creating applications and participating in the community. Since the tour..."
+  "date": "2021-06-23T05:00:00.145Z",
+  "feed_title": "Eric D. Schabell",
+  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
+  "content": "  This last week the new release of the Red Hat Business Automation products went live, spanning and with a new version 7.11.    These two products provide a lot over versatility to your developer toolbox and there are some getting started documentation and examples to be found in the above linked pages.  Over the years I've shared so around all the generations of Red Hat Business Automation products, that you might like to have a little overview of the ones that are now fully updated for use?  Below you'll find a walk through the various projects, demos, and workshops available today for you to get started with the latest and greatest of Red Hat Business Automation tools.  Let's start with the updates that are designed to show you how to get started with the business automation tooling in a hands-on exploratory fashion.     This is a true for building online retail web shop using Red Hat Decision Manager. It's designed to walk you from nothing, to installing the decision manager tooling, to building your project, leveraging a front end project, and deploying it all on your local machine.    Click on image to open workshop and view table of contents       This project is used in the above workshop to quickly get you up and running with the latest decision manager tooling. In just you're fully installed and ready to start developing your projects.          An independent project that with a Vaadin front end and rules project supporting online shopping experience. Get hands-on in just minutes with this complete project.     This is a true  for building a human resources employee rewards process using Red Hat Process Automation Manager. It's designed to walk you from nothing, to installing the process automation tooling, to building your project, and deploying it all on your local machine.  Click on image to open workshop and view table of contents      This project is used in the above workshop to quickly get you up and running with the latest process automation tooling. In just  you're fully installed and ready to start developing your projects.      After all of this we have another workshop to get a bit deeper into a real life use case outside of the normal process world.     This is another  for building a four eyes principle DevOps process project using Red Hat Process Automation Manager.  Click on image to open workshop and view table of contents       This project is with human task integration, rule integration, task forms, and features the use of a signal to add a customer contact moment for the marketing department. It installs the process automation tooling and project on your local machine in an automated fashion.     Note that all of these projects and workshops are targeting your local machine, in the next article I'll share more content that can be used in containers, operators, and on the OpenShift in a cloud native fashion.  "
 }
