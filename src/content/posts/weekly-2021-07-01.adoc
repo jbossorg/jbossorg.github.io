@@ -1,0 +1,40 @@
+= This Week in JBoss - 01 July 2021
+Jason Porter
+2021-07-01
+:tags: quarkus, DMN, Drools, Wildfly, Infinispan, microservices
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Congrats to all the teams on their hard work!
+
+[square]
+* https://infinispan.org/blog/2021/06/29/infinispan-js-client[Inifinispan Node.js Client 0.9.0] This was released last week and includes the ability for the Node.js client to connect with different SASL authentication mechanisms.
+* https://vertx.io/blog/eclipse-vert-x-4-1-1/[Eclipse Vert.x 4.1.1 released!] Mostly bug fixes, but there were a few small features implemented. Check the announcement for more details.
+* https://quarkus.io/blog/quarkus-2-0-0-final-released/[Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more]. Certainly a much anticipated release! Quarkus 2 has been in the works for months and the team is very excited for the release. A number of things have changed, so be sure to read the announcement and migration guide as you work on migrating those Quarkus apps! 
+
+== From the community
+
+Karina Varela has a post about https://developers.redhat.com/articles/2021/06/24/automating-rule-based-services-java-and-kogito[automating rule-based services with Java and Kogito] up on the Red Hat Developer Blog. The post focuses on Kogito and using it to build, package, and automate the deployment of those rule-based services on Kubernetes and OpenShift!
+
+James Falkner quickly tackles https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20[RESTEasy Reactive in Quarkus 2.0] over on the Red Hat Developer Blog. With the release of Quarkus 2.0 there are a number of things that have improved. Using REST in a reactive way is one of them. Quarkus 2.0 utilizes Eclipse Vert.x 4 and does some optimizations at build time to further increase performance of REST services.
+
+If you're using Red Hat 3scale API Management and have a need to use WebSockets, be sure to check out Srikanth Kalluru's https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management[blog post] for a quick three step walk through of how to get it done!
+
+Mauro Vocale has a three part series, part four is not out yet, about moving Java programs to the cloud. https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee[Part one] introduces you to the legacy application and gets it up and running on OpenShift. This gets you familiar with what the application does and what to expect from further refactorings in subsequent posts. In https://developers.redhat.com/articles/2021/06/28/making-java-programs-cloud-ready-part-2-upgrade-legacy-java-application-jakarta[part two] the application will move from Java 8 to Java 11, JBoss EAP 7.3 and Jakarta EE. Lastly, in https://developers.redhat.com/articles/2021/06/30/making-java-programs-cloud-ready-part-3-integrate-microprofile-services[part three] the application will be moved to microservices. Additional monitoring tools will be introduced including Prometheus and Jaeger. The application will be updated for handling restarts, health checks, and other configuration settings.
+
+Over in the BPM arena, there are three posts to take a look at: https://blog.kie.org/2021/06/custom-logic-in-bpmn.html[Custom logic in BPMN] by Kirill Gaevksii, https://blog.kie.org/2021/07/how-to-start-contributing-to-drools-executable-model.html[How to start contributing to Drools executable model] where Luca Molteni discusses getting your feet with contributing to Drools's "Executable Model Compiler". Lastly, Matteo Mortari discusses https://blog.kie.org/2021/06/intelligent-kafka-message-routing-using-drools-dmn-engine-and-apache-camel.html[using Drools DMN and Apache Camel to intelligently route Kafka messages]. It includes a video as well as various examples and code to really sink your teeth into.
+
+Wildfly 24.0.0.Final includes a preview of Jakarta EE 9.1 features. Jeff Mesnil discusses https://www.wildfly.org//news/2021/07/01/wildfly-preview-bootable-jar/[how to try these features out using a bootable jar]. There's also a section about getting up and running using OpenShift!
+
+== Developers on film
+
+Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week's editorial:
+
+* https://www.youtube.com/watch?v=JOv1K_wj6Vo[Quarkus Insights #54: Kotlin on Quarkus]
+* https://www.youtube.com/watch?v=WyeaF2pk8Ec[Quarkus Insights #55: Quarkus 2.0 Launch]
+* https://www.youtube.com/watch?v=HQHjrf3i91Q[KIE Live #36: How to play with DMN]
+* https://www.youtube.com/watch?v=pj8or38w2eQ[KIE Live #37: How to work with dashboards layouts]
+
