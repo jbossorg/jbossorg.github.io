@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan Node.js client supports authentication",
-  "link": "https://infinispan.org/blog/2021/06/29/infinispan-js-client",
+  "title": "Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more",
+  "link": "https://quarkus.io/blog/quarkus-2-0-0-final-released/",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-06-29T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "NODE.JS CLIENT 0.9.0  Infinispan Node.js client version 0.9.0 was released last week with added support for different SASL authentication mechanisms. Up to now, our Node.js client could connect to Infinispan Server security realms with disabled authentication.   DIGEST-MD5  Uses the MD5 hashing algorithm in addition to nonces to encrypt credentials.   SCRAM  Uses salt values in addition to hashing algorithms and nonce values to encrypt credentials. Hot Rod endpoints support SCRAM-SHA-1, SCRAM-SHA-256, SCRAM-SHA-384, SCRAM-SHA-512 hashing algorithms, in order of strength.   EXTERNAL  Uses client certificates to provide valid identities to Infinispan Server and enable encryption.   OAUTHBEARER  Uses tokens obtained via an OAuth 2.0 provider to securely connect to Infinispan Server.   PLAIN:  Sends credentials in plain text (unencrypted) over the wire in a way that is similar to HTTP BASIC authentication.  Warning To secure Infinispan credentials, you should use PLAIN authentication only in combination with TLS encryption.   RUN THE INFINISPAN SERVER  Run the Infinispan Server with Docker or Podman  docker run -it -p 11222:11222 -e USER=\"admin\" -e PASS=\"password\" quay.io/infinispan/server:12.1  podman run -it -p 11222:11222 -e USER=\"admin\" -e PASS=\"password\" --net=host quay.io/infinispan/server:12.1  Important If you are using Docker for Mac, there is a known limitation. You will need to and run the server manually.  Run the Infinispan Server from the file system  ./bin/cli.sh user create admin -p password ./bin/server.sh   CREATE A CACHE FROM INFINISPAN CONSOLE  Access the Infinispan Console in and create a text based cache, named it 'my-cache' with the provided configuration.  Connect to Infinispan  {   \"distributed-cache\": {     \"mode\": \"SYNC\",     \"encoding\": {       \"media-type\": \"text/plain\"     },     \"statistics\": true   } }   USE THE NODE.JS CLIENT IN YOUR APPLICATION  Add the dependency to your project.  package.json  \"dependencies\": { \"infinispan\": \"^0.9.0\" }  Configure the Infinispan Node.js client to connect with authentication and then check the created cache entry from the console.  application.js  var connected = infinispan.client({port: 11222, host: '127.0.0.1'}, {     cacheName: 'my-cache',     authentication: {         enabled: true,         saslMechanism: 'DIGEST-MD5',         userName: 'admin',         password: 'password'     } });  connected.then(function (client) {     return client.put('key', 'value')     .finally(function() {     return client.disconnect();   }); });   TO GO FURTHER  Full client documentation is now available in the .  Jira tracker for this client is available ."
+  "date": "2021-06-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The Quarkus team is proud to announce the availability of the Final release of Quarkus 2.0. This version has been a gigantic effort to bring Quarkus to a whole new level, while keeping its roots: fast boot, low memory usage and developer joy. A big thank you to everyone involved..."
 }
