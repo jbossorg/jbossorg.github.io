@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more",
-  "link": "https://quarkus.io/blog/quarkus-2-0-0-final-released/",
+  "title": "Eclipse Vert.x 4.1.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-1",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-06-30T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The Quarkus team is proud to announce the availability of the Final release of Quarkus 2.0. This version has been a gigantic effort to bring Quarkus to a whole new level, while keeping its roots: fast boot, low memory usage and developer joy. A big thank you to everyone involved..."
+  "date": "2021-07-01T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.1.1 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
