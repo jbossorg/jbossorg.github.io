@@ -1,4 +1,6 @@
-# JBoss.org Site
+## JBoss.org Site
+<p align="center">
+<img height="200" width ="200" src = "
 
 ## Two Ways To Add A Post
 
