@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2, RESTEasy 4.6 fixes and more",
-  "link": "https://resteasy.github.io/2021/07/06/resteasy-4.6.2.Final/",
+  "title": "Quarkus 2.0.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-0-1-final-released/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-06T00:45:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-07-07T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.0.1.Final, our first maintenance release on top of 2.0. It is a safe upgrade for anyone already using 2.0.0.Final. If you are not using 2.0 already, please refer to the 2.0 migration guide. Full changelog You can get the full changelog of 2.0.1.Final on GitHub. Come..."
 }
