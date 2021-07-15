@@ -26,6 +26,8 @@ feeds:
   - url: https://vertx.io/feed/atom.xml
   - url: https://blog.ramon-gordillo.dev/index.xml
   - url: https://jbossts.blogspot.com/feeds/posts/default
+  - url: https://jasondl.ee/redhat.atom
+    avatar: https://www.libravatar.org/avatar/288e8cf0ad8e4548383bccbb8431b870efd48ffcc2cd2049eda834f66d13b03d?s=80
 
 # end of list
 
