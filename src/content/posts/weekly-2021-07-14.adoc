@@ -1,6 +1,6 @@
-= This Week in JBoss - 15 July 2021
+= This Week in JBoss - 14 July 2021
 Paul Robinson
-2021-07-15
+2021-07-14
 :tags: quarkus, DMN, Drools, Wildfly, transactions, narayana, kie
 
 Welcome to this edition of the JBoss Editorial bringing you news and updates from the community.
