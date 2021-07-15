@@ -1,0 +1,40 @@
+= This Week in JBoss - 15 July 2021
+Paul Robinson
+2021-07-15
+:tags: quarkus, DMN, Drools, Wildfly, transactions, narayana, kie
+
+Welcome to this edition of the JBoss Editorial bringing you news and updates from the community.
+
+== From the community
+
+In https://jbossts.blogspot.com/2021/07/narayana-lra-update.html[this post] the Narayana team begins a new blog series on Long Running Actions, a compensation-based approach to transactions.
+
+The KIE Tooling team https://blog.kie.org/2021/07/instantaneous-feedback-loop-for-dmn-authoring-with-dmn-runner.html[announce] the new DMN Runner on http://dmn.new[dmn/new].
+
+Gabriele Cardosi provides a concrete example of a recommendation engine based on top of PMML in https://blog.kie.org/2021/07/shopping-recommendations-in-pmml.html[Shopping recommendations in PMML].
+
+Luca Molteni teaches us https://blog.kie.org/2021/07/how-to-start-contributing-to-drools-executable-model.html[How to start contributing to Drools Executable Model]
+
+Eric Schabell continues his blog series on Cloud Adoption with a https://www.schabell.org/2021/06/cloud-adoption-example-adoption-architeccture.html[an Example adoption architecture].
+
+Read this post by Jeff Mesnil to learn how to https://www.wildfly.org//news/2021/07/01/wildfly-preview-bootable-jar/[Run WildFly Preview of Jakarta EE 9.1 with Bootable Jar].
+
+
+
+== Developers on film
+
+We don't just publish blog posts! Here's some recordings of live community events that happened over the past 2 weeks.
+
+* https://www.youtube.com/watch?v=n6D6a4G6ozg[Quarkus Insights #56: Quarkus Configuration]
+* https://www.youtube.com/watch?v=e_kwOJE2vQo&[Quarkus Insights #57: Quarkus CLI]
+* https://www.youtube.com/watch?v=BIZHbsDAhm4[KIE Live #38: Destroy wrong beliefs and run real processes]
+* https://www.youtube.com/watch?v=u3KbGjEkkDM[KIE Live #39: Migrating Drools to the cloud with Kogito: a step by step path]
+
+
+== Releases
+
+[square]
+* https://quarkus.io/blog/quarkus-2-0-2-final-released/[Quarkus 2.0.2.Final] The second bug-fix release to the recent, huge https://quarkus.io/blog/quarkus-2-0-0-final-released/[Quarkus 2.0 release].
+* https://blog.kie.org/2021/07/kogito-tooling-0-11-0-released.html[Kogito Tooling 0.11.0] Several bug fixes and improvements, including the new DMN Runner on https://dmn.new/[dmn.new].
+* https://resteasy.github.io/2021/07/08/resteasy-4.7.0.Final/[RESTEasy 4.7.0.Final]. Including a https://docs.jboss.org/resteasy/docs/4.7.0.Final/userguide/html/RESTEasy_Embedded_Container.html#d4e2922[Reactor-Netty server adaptor], Better support for Java 16 and the up and coming Java 17 release and https://issues.redhat.com/browse/RESTEASY-2943[Support for reactive publishers] for the HTTP client.
+* http://www.davsclaus.com/2021/07/apache-camel-311-whats-new.html[Apache Camel 3.11]. The next long term support release of Camel. See the blog post for what's new since 3.10.
