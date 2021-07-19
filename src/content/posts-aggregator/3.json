@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #10",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-10/",
+  "title": "Kogito 1.8.0 released!",
+  "link": "http://feeds.athico.com/~r/droolsatom/~3/f9UPat8eHJM/kogito-1-8-0-released.html",
   "author": [
     {
-      "name": null,
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2021-07-16T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Ok… it’s been a while since our last newsletter but we’ve been busy working on a new format. We’re moved to an email subscription model starting with Issue #10. Our goal is to allow folks to sign up and get the cream of the crop articles delivered to their inbox..."
+  "date": "2021-07-19T14:07:32.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.8.0 release is now available! This goes hand in hand with and.  From a feature point of view, we included a series of new features and bug fixes, including:   * Infinispan required version has been upgrade to 12.1.4, including Data Index    and Jobs services  * New runtime persistence addon using generic JDBC Driver.  * Jobs Service support for persistence using MongoDB   * Data Index Service support for persistence using PostgreSQL   * We now have a dedicated extension for Kogito Processes    (kogito-quarkus-processes) on Quarkus Runtimes in addition to the platform    extension (kogito-quarkus)  * It is now possible to use application.properties to provide Drools knowledge    builder properties  * Monitoring dashboards now report the version of Kogito runtime so that it is    possible to filter by version  * Support for Boundary Error Events   BREAKING CHANGES   * The add-ons have been restructured! Please to know more about it. You will    need to update your dependencies   KNOWN ISSUES   * Our team have identified an issue ) that currently prevents the usage of the    different persistent addons on Quarkus native images.  For more details head to the complete.  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.11.0 artifacts are available at the.  A detailed changelog for 1.8.0 can be found in.  New to Kogito? Check out our website. Click the \"Get Started\" button.  The post appeared first on .  "
 }
