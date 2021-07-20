@@ -1,13 +1,13 @@
 {
-  "title": "Instantaneous Feedback Loop for DMN Authoring with DMN Runner",
-  "link": "https://blog.kie.org/2021/07/instantaneous-feedback-loop-for-dmn-authoring-with-dmn-runner.html",
+  "title": "Quarkus 2.0.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-0-2-final-released/",
   "author": [
     {
-      "name": "Eder Ignatowicz",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-12T05:00:00.000Z",
-  "feed_title": "KIE Community",
-  "content": "We’ve been exploring ways to augment the developer experience for our editors on the KIE Tooling team. Today, I’m proud to announce the release of our DMN Runner on . We hope it will transform your DMN Authoring experience. Let’s see it in action:   INSTANTANEOUS FEEDBACK LOOP  An essential piece of a seamless authoring experience is an instantaneous feedback loop. A feedback loop on asset authoring happens when some portion of or all asset input is captured, analyzed, and used to provide insight to improve a future users’ authoring experience.  Providing such instantaneous feedback is crucial to a fluid authoring experience. But what does this mean for DMN authoring?  AUTOMATIC FORM GENERATION  On every change of your DMN model, the DMN runner introspects it and automatically generates the input form for your DMN execution. The data that you input on it will be later used on the execution loop.  AUTOMATIC DMN EVALUATION  As soon as the DMN runner is connected to your dmn.new session, on every change of your DMN model, we will combine your DMN model and your form input and evaluate it on the DMN Engine.  The awesome part of this workflow is that it is really fast, looking almost instantaneous. See it in action:  AUTOMATIC DMN VALIDATION  Another cool feature of DMN Runner is that together with DMN evaluation, we also validate your DMN models. Take a look at it:   HOW TO START TO USE IT?  It’s super simple. Go to and click on the ‘DMN Runner’ button and follow our wizard.  The DMN runner is part of the KIE Tooling Extended Services Desktop application, and we provide binaries for all the platforms.  After installing, dmn.new will automatically connect to your local environment and augment it, providing a much more fluid experience for your authoring!  The post appeared first on ."
+  "date": "2021-07-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.0.2.Final because we like symmetry (and also because we had a couple of bugfixes to publish). It is a safe upgrade for anyone already using 2.0. If you are not using 2.0 already, please refer to the 2.0 migration guide. Full changelog You can get the..."
 }
