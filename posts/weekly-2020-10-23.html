@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This week in JBoss - 23rd October 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="news, weekly_update, weekly_editorial, kafka, quarkus, infinispan, keycloak, openshift, micrometer, microprofile, mutiny, codeready">
+      <h1>This week in JBoss - 23rd October 2020</h1>
+      
+    <p class="preamble"><p>Welcome to another edition of the JBoss Editorial where we bring you articles and news from across the JBoss Community of projects.</p></p>
+<div class="sect1">
+<h2 id="_micrometer_is_recommended_for_metrics_with_quarkus_1_9">Micrometer is recommended for metrics with Quarkus 1.9</h2>
+<div class="sectionbody">
+<p>In <a href="https://quarkus.io/blog/micrometer-metrics/">this post</a>, Ken explains why the Quarkus team are now reccomending the use of the Micrometer Quarkus extension over the previous Eclipse MicroProfile Metrics extension.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kafka_how_to_fail_gracefully">Kafka - How to fail gracefully</h2>
+<div class="sectionbody">
+<p>Failures are inevitable.
+There is nothing we can do about that, and that also applies to Kafka applications.
+Your application may contain a faulty component misbehaving once in a while, or unable to process a specific Kafka record.
+In <a href="https://quarkus.io/blog/kafka-failure-strategy/">this post</a>, Clement explains how to manage these failures.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_use_mobile_numbers_for_user_authentication_in_keycloak">Use mobile numbers for user authentication in Keycloak</h2>
+<div class="sectionbody">
+<p>In <a href="https://developers.redhat.com/blog/2020/10/23/use-mobile-numbers-for-user-authentication-in-keycloak/">this post</a> Siddhartha De explains how to extend Keycloak to use mobile-based authentication.
+The post explains the need for mobile-authentication and shows, hands on, how to use the Keycloak service provider interface to create this extension.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_securely_connect_quarkus_and_red_hat_data_grid_on_red_hat_openshift">Securely connect Quarkus and Red Hat Data Grid on Red Hat OpenShift</h2>
+<div class="sectionbody">
+<p>Continuing on the theme of security, James Falkner explains (<a href="https://developers.redhat.com/blog/2020/10/15/securely-connect-quarkus-and-red-hat-data-grid-on-red-hat-openshift/">here</a>) how to secure applications deployed on Red Hat OpenShift that use the <a href="https://quarkus.io/guides/infinispan-client">Quarkus Data Grid Extension</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_creating_a_payments_architecture">Creating a Payments Architecture</h2>
+<div class="sectionbody">
+<p>Eric continues his blog series looking at how Cloud technologies are changing the way we architect and deliver software, in particular how these technologies will apply to the Payment Services industry.
+This week Eric describes a <a href="https://www.schabell.org/2020/10/payments-architecture-financial-calculations-example.html">Financial Calculations Example</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mutiny_how_does_retry_retries">Mutiny - How does retry&#8230;&#8203; retries?</h2>
+<div class="sectionbody">
+<p>Clement was recently helping a community Quarkus user understand how to retry asynchronous operations with Mutiny.
+In doing so, he realised it was not all that simple to understand, and so he created <a href="https://quarkus.io/blog/uni-retry/">this blog post</a> so that the whole community could benefit from his explanation.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_codeready_containers_building_a_cloud_native_human_resources_process">CodeReady Containers - Building a Cloud-Native Human Resources Process</h2>
+<div class="sectionbody">
+<p>In <a href="https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html">this blog post</a> Eric talks you through how to install process automation developer tooling into a running Openshift Container platform.
+You can also refer to one of <a href="https://gitlab.com/redhatdemocentral/ocp-install-demo">Eric&#8217;s previous posts</a> for details on how to easily get Openshift Container Platform running on your local machine.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_releases">New Releases</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The <a href="https://quarkus.io/">Quarkus team</a> have announced the release of <a href="https://quarkus.io/blog/quarkus-1-9-0-final-released/">Quarkus 1.9</a> and <a href="https://quarkus.io/blog/intellij-quarkus-tools-1.2.0/">Quarkus Tools for IntelliJ 1.2.0</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/paul-robinson.png"></pfe-avatar>
+        <span>Paul Robinson</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
