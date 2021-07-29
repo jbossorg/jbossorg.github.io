@@ -1,6 +1,6 @@
 {
-  "title": "Separating RESTEasy Spring And Microprofile Components Into Independent Subprojects.",
-  "link": "https://resteasy.github.io/2021/07/29/separate-spring-and-microprofile/",
+  "title": "Quarkus 2.1.0.Final released - Dev Service for Keycloak, Reactive SQL Server extension, Kotlin 1.5",
+  "link": "https://quarkus.io/blog/quarkus-2-1-0-final-released/",
   "author": [
     {
       "name": null,
@@ -8,6 +8,6 @@
     }
   ],
   "date": "2021-07-29T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "Today, we release Quarkus 2.1.0.Final which includes a lot of refinements and improvements and a couple of new features: Dev Service for Keycloak Reactive Microsoft SQL Server extension Upgrade to Kotlin 1.5 Migration Guide To migrate from 2.0, please refer to our migration guide. What’s new? Dev Service for Keycloak..."
 }
