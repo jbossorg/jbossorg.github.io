@@ -1,13 +1,13 @@
 {
-  "title": "Separating RESTEasy Spring And Microprofile Components Into Independent Subprojects.",
-  "link": "https://resteasy.github.io/2021/07/29/separate-spring-and-microprofile/",
+  "title": "Platforms and Streams: a new way to discover Quarkus extensions",
+  "link": "https://quarkus.io/blog/quarkus-2x-platform-quarkiverse-registry/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-29T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-07-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Co-authored by Erin Schnabel Platforms and Streams: a new way to discover Quarkus extensions As you may have seen from recent Quarkus Insights episodes (#48, #55 and #57, specifically), we’ve made a number of changes to our tools in the 2.x stream to improve the developer experience. When 2.0 was..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Importing and Reusing DMN Models in Red Hat Decision Manager",
-  "link": "http://feeds.athico.com/~r/droolsatom/~3/2oCeTPPJwg4/reusing-dmn-models.html",
+  "title": "Quarkus 2.1.0.Final released - Dev Service for Keycloak, Reactive SQL Server extension, Kotlin 1.5",
+  "link": "https://quarkus.io/blog/quarkus-2-1-0-final-released/",
   "author": [
     {
-      "name": "Sadhana Nandakumar",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-28T01:52:40.000Z",
-  "feed_title": "KIE Community",
-  "content": "Decision Model and Notation (DMN) is a standard established by the Object Management Group (OMG) for describing and modeling operational decisions. DMN decision models can be shared between DMN-compliant platforms and across organizations so that business analysts and business rules developers are unified in designing and implementing DMN decision services. Reusing a DMN model in the scope of a larger decision flow is a common requirement.  did a  earlier this year on this topic. In this presentation, he walks through how we can achieve model reuse through the concept of DMN Decision Service. This article explains the same concept in a step by step manner with a sample use case.  A decision service is an invocable function, with well-defined inputs and outputs, that is published as a service for invocation. The decision service can be invoked similarly to a Business Knowledge Model (BKM) node from within the model itself if necessary. The standard usage of the decision service node is for it to be leveraged for re-use from an external application or a business process.  The decision service allows for reusability by providing an interface for invocation from another DMN model. To know more about how to implement reusable decisions, check out for a step by step explanation with an example.  The post appeared first on .  "
+  "date": "2021-07-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we release Quarkus 2.1.0.Final which includes a lot of refinements and improvements and a couple of new features: Dev Service for Keycloak Reactive Microsoft SQL Server extension Upgrade to Kotlin 1.5 Migration Guide To migrate from 2.0, please refer to our migration guide. What’s new? Dev Service for Keycloak..."
 }
