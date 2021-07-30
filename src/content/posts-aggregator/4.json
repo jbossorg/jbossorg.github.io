@@ -9,5 +9,5 @@
   ],
   "date": "2021-07-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Co-authored by Erin Schnabel Platforms and Streams: a new way to discover Quarkus extensions As you may have seen from recent Quarkus Insights episodes (#48, #55 and #57, specifically), we’ve made a number of changes to our tools in the 2.x stream to improve the developer experience. When 2.0 was..."
+  "content": "Co-authored by Erin Schnabel As you may have seen from recent Quarkus Insights episodes (#48, #55 and #57, specifically), we’ve made a number of changes to our tools in the 2.x stream to improve the developer experience. When 2.0 was released, a few sharp-eyed Quarkus CLI users spotted some new..."
 }
