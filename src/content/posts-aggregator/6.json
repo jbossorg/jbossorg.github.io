@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.1.0.Final released - Dev Service for Keycloak, Reactive SQL Server extension, Kotlin 1.5",
-  "link": "https://quarkus.io/blog/quarkus-2-1-0-final-released/",
+  "title": "Platforms and Streams: a new way to discover Quarkus extensions",
+  "link": "https://quarkus.io/blog/quarkus-2x-platform-quarkiverse-registry/",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-29T00:00:00.000Z",
+  "date": "2021-07-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we release Quarkus 2.1.0.Final which includes a lot of refinements and improvements and a couple of new features: Dev Service for Keycloak Reactive Microsoft SQL Server extension Upgrade to Kotlin 1.5 Migration Guide To migrate from 2.0, please refer to our migration guide. What’s new? Dev Service for Keycloak..."
+  "content": "Co-authored by Erin Schnabel As you may have seen from recent Quarkus Insights episodes (#48, #55 and #57, specifically), we’ve made a number of changes to our tools in the 2.x stream to improve the developer experience. When 2.0 was released, a few sharp-eyed Quarkus CLI users spotted some new..."
 }
