@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 24.0.1 is released!",
-  "link": "https://wildfly.org//news/2021/07/28/WildFly2401-Released/",
+  "title": "Quarkus 2.1.0.Final released - Dev Service for Keycloak, Reactive SQL Server extension, Kotlin 1.5",
+  "link": "https://quarkus.io/blog/quarkus-2-1-0-final-released/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-28T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 24.0.1.Final is now available .  It’s been about six weeks since the WildFly 24 release, so we’ve done a small bug fix update, WildFly 24.0.1. This includes an update to WildFly Preview.  The full list of issues resolved in WildFly 24.0.1 is available . Issues resolved in the WildFly Core update included with WildFly 24.0.1 are available .  Enjoy!"
+  "date": "2021-07-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we release Quarkus 2.1.0.Final which includes a lot of refinements and improvements and a couple of new features: Dev Service for Keycloak Reactive Microsoft SQL Server extension Upgrade to Kotlin 1.5 Migration Guide To migrate from 2.0, please refer to our migration guide. What’s new? Dev Service for Keycloak..."
 }

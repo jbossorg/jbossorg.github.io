@@ -1,13 +1,14 @@
 {
-  "title": "Separating RESTEasy Spring And Microprofile Components Into Independent Subprojects.",
-  "link": "https://resteasy.github.io/2021/07/29/separate-spring-and-microprofile/",
+  "title": "Keycloak 15.0.0 released",
+  "link": "https://www.keycloak.org//2021/07/keycloak-1500-released.html",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-07-29T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-07-30T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   FINANCIAL-GRADE API (FAPI) IMPROVEMENTS, FAPI CIBA AND OPEN BANKING BRASIL  The Keycloak server has improved support for the Financial-grade API (FAPI). More specifically, Keycloak is now compliant with FAPI CIBA and with OpenBanking Brasil. We also have support for CIBA ping mode. Thanks to , who did most of the work on FAPI CIBA and who is continually doing a really awesome job for the Keycloak project. Also thanks to , , and , who did a great deal of the work on the FAPI compliance as well. Finally thanks to all the members of the for their help and feedback.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
