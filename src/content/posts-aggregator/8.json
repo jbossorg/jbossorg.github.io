@@ -1,14 +1,13 @@
 {
-  "title": "DevConf.US 2021 - Designing your best architecture diagrams workshop",
-  "link": "http://feedproxy.google.com/~r/schabell/jboss/~3/LMdo9vWm8Ds/devconfus-2021-designing-your-best-architecture-diagrams-workshop.html",
+  "title": "WildFly 24.0.1 S2I images have been released on quay.io",
+  "link": "https://wildfly.org//news/2021/08/05/WildFly-s2i-2401-Released/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": "Ken Wills",
       "avatar": null
     }
   ],
-  "date": "2021-08-04T14:00:00.001Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "ended their call for papers this last month and has announced acceptance for sessions to be hosted on September 2-3.   It's the 4th annual, free, Red Hat sponsored technology conference for community project and professional contributors to Free and Open Source technologies coming to a web browser near you!      There is no admission or ticket charge for DevConf.US events. However, you are . Talks, presentations and workshops will all be in English.  I had submitted a few talks and workshops and here are my acceptances that arrived this week.     Designing your best architecture diagrams (workshop)     Diagraming is one of the most important communication tools for sharing your project and architectural ideas to your colleagues and teams. In this workshop attendees are walking step-by-step through using an open source tool we host online for designing architecture diagrams like an expert. Attendees work through the following:        * open and explore the tooling in your favourite web browser  * explore the provided asset libraries for drag-and-drop designing  * learn about the three types of diagrams that make up a good design  * create your first simple logical diagram  * create your first simple schematic diagram  * create a detailed diagram  * how to export diagrams and elements from a diagram  * design tips and tricks    Each of the individual labs in this workshop are stand alone, allowing the attendee to focus on anything of interest without having to work through the previous labs. If you're looking to become more proficient in sharing your ideas, architectures, and projects visually to wider audiences you can't underestimate the value of a good diagram. Join us to learn the tips and tricks that make a good diagram such a good communication vehicle and how our tooling eases your design tasks.   The workshop is fully implemented and tested with designers and architects around the world and fine tuned to the beginning designer. Workshop is  for your previewing pleasure.  The schedule has yet to be posted, so keep an eye on the site for exact times if you'd like to attend. Hope to see you there!  "
+  "date": "2021-08-05T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WILDFLY 24.0.1 S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 24.0.1, have been released on .  For complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   HELM CHART FOR WILDFLY  The has been updated to use the WildFly S2I 24.0.1 images.  The is a good place to start using the Helm Chart with the WildFly S2I images.  Enjoy!"
 }

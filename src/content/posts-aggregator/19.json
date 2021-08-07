@@ -1,6 +1,6 @@
 {
-  "title": "Platforms and Streams: a new way to discover Quarkus extensions",
-  "link": "https://quarkus.io/blog/quarkus-2x-platform-quarkiverse-registry/",
+  "title": "Keycloak 15.0.0 released",
+  "link": "https://www.keycloak.org//2021/07/keycloak-1500-released.html",
   "author": [
     {
       "name": null,
@@ -8,6 +8,7 @@
     }
   ],
   "date": "2021-07-30T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Co-authored by Erin Schnabel As you may have seen from recent Quarkus Insights episodes (#48, #55 and #57, specifically), we’ve made a number of changes to our tools in the 2.x stream to improve the developer experience. When 2.0 was released, a few sharp-eyed Quarkus CLI users spotted some new..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS  This release contains some important bug fixes. In addition, We would like to thank to for his contributions to the FAPI related functionalities such as JARM support and improvements in CIBA.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
