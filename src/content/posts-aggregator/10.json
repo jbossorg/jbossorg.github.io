@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.1.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-1-1-final-released/",
+  "title": "WildFly 24.0.1 S2I images have been released on quay.io",
+  "link": "https://wildfly.org//news/2021/08/05/WildFly-s2i-2401-Released/",
   "author": [
     {
-      "name": null,
+      "name": "Ken Wills",
       "avatar": null
     }
   ],
-  "date": "2021-08-04T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.1.1.Final, our first maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1.0.Final. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.1.Final on GitHub. Come..."
+  "date": "2021-08-05T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WILDFLY 24.0.1 S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 24.0.1, have been released on .  For complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   HELM CHART FOR WILDFLY  The has been updated to use the WildFly S2I 24.0.1 images.  The is a good place to start using the Helm Chart with the WildFly S2I images.  Enjoy!"
 }
