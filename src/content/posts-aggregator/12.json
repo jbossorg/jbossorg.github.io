@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 15.0.1 released",
-  "link": "https://www.keycloak.org//2021/08/keycloak-1501-released.html",
+  "title": "Kogito 1.9.1 released!",
+  "link": "https://blog.kie.org/2021/08/kogito-1-9-1-released.html",
   "author": [
     {
-      "name": null,
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2021-08-07T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS  This release contains some important bug fixes. In addition, We would like to thank to for his contributions to the FAPI related functionalities such as JARM support and improvements in CIBA.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-08-09T14:23:45.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.9.1 release is now available! This goes hand in hand with, .  From a feature point of view, we included the following bug fixes:   * – Kogito Operator Data-Index Unable to connect to Infinispan Instance  * – process-mongodb-persistence-quarkus is failing to start in native mode with    persistence  For more details head to the complete.  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.11.0 artifacts are available at the.  A detailed changelog for 1.9.1 can be found in.  New to Kogito? Check out our website. Click the \"Get Started\" button.  The post appeared first on ."
 }

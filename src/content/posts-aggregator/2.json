@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.1.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-1-2-final-released/",
+  "title": "Dynamic database pool configuration with Vert.x SQL Client",
+  "link": "https://vertx.io/blog/dynamic-db-pool-config-with-sql-client",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-08-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.1.2.Final, our second maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.2.Final on GitHub. Come..."
+  "feed_title": "Vert.x",
+  "content": "You will learn how to achieve dynamic database configuration of the Vert.x SQL Client pool"
 }
