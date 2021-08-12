@@ -1,0 +1,35 @@
+= This Week in JBoss - 11 August 2021
+Romain Pelisse
+2021-08-11
+:tags: Quarkus, DMN, Drools, Quarkys, Hybrid-cloud, kie
+
+After short pause for the summer holiday, welcome back to this new installment of the JBoss Editorial! As always, the JBoss community has been quite active and there is quite a lot to cover today, especially on hybrid cloud and Kogito. Let's dive right in!
+
+== Hybrid Cloud
+
+During the last weeks, Christina Lei did a quite interesting series of articles on hybrid cloud. After an https://wei-meilin.blogspot.com/2021/08/overview-of-making-hybrid-multi-cloud.html[overview of making hybrid cloud], she explores some in-depth topic like https://wei-meilin.blogspot.com/2021/08/hybrid-multi-cloud-dynamic-security.html[dynamic security] or https://wei-meilin.blogspot.com/2021/08/observability-in-hybrid-multi-cloud[observability]. To conclude this serie, another article covers http://wei-meilin.blogspot.com/2021/08/a-study-of-hosting-and-managing-on.html[hosting and managing on hybrid cloud].
+
+== Kogito this and Kogito that!
+
+With the new release of https://blog.kie.org/2021/08/kogito-1-9-1-released.html[Kogito 1.9.1], it's time to explore (maybe again) all the potential of this framework. And fortunately, there are a lot of in-depth articles released recently doing just that! Let's start with one on https://blog.kie.org/2021/08/how-to-capture-business-decisions-using-dmn-introduction-to-some-basic-patterns-and-their-value.html[how to capture decisions using DMN] followed by a tutorial on how to implement https://blog.kie.org/2021/08/kogito-task-deadlines.html[task's deadline] with Kogito.
+
+Once you get the hang of it, you'll want to learn how to manage your https://blog.kie.org/2021/08/four-steps-to-author-bpmn-and-dmn-assets-on-gitpod-io.html[BPMN and DMN assets on gitpod.io]. Or explore https://blog.kie.org/2021/08/event-driven-decisioning-with-amq-streams-and-kogito.html[event-driven decisinning with AMQ streams and Kogito]. If those articles have but open your appetite for the framework, you can carry on with a tutorial on https://blog.kie.org/2021/08/how-develop-better-widgets-with-showcase-appl.html[how to develop better widgets] or how to https://blog.kie.org/2021/08/add-data-from-kie-execution-server-for-authoring-dashboards.html[add data from KIE server for authoring dashboards].
+
+== Techbytes
+
+Want to learn more? Don't worry, we have few more intriguing technical articles for you:
+
+[square]
+* https://vertx.io/blog/dynamic-db-pool-config-with-sql-client/[Dynamic DB pool configuration with SQL client]
+* https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift[Modernizing applications with Camel, JS and OpenShift]
+
+== Releases
+
+As always, the JBoss community has been releasing new version at a steady stream:
+
+[square]
+* https://quarkus.io/blog/quarkus-2-1-2-final-released/[Quarkus 2.1.2 Final]
+* https://blog.kie.org/2021/08/kogito-1-9-1-released.html[Kogito 1.9.1]
+* https://www.keycloak.org//2021/08/keycloak-1501-released.html[Keycloak 15.0.1]
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
