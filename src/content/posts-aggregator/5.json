@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 2.1.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-1-3-final-released/",
+  "title": "Keycloak 15.0.2 released",
+  "link": "https://www.keycloak.org//2021/08/keycloak-1502-released.html",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-08-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.1.3.Final, our third maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.3.Final on GitHub. Come..."
+  "date": "2021-08-20T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
