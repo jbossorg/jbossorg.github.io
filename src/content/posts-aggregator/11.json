@@ -1,6 +1,6 @@
 {
-  "title": "Season 3 and 60th Insights episode",
-  "link": "https://quarkus.io/blog/60th-quarkus-insights/",
+  "title": "Keycloak 15.0.2 released",
+  "link": "https://www.keycloak.org//2021/08/keycloak-1502-released.html",
   "author": [
     {
       "name": null,
@@ -8,6 +8,7 @@
     }
   ],
   "date": "2021-08-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "After a summer break and little bit of COVID-19 delay, we will finally have the 60th(!) Quarkus Insights episode on Monday the 23rd August. For those who don’t know, Quarkus Insights is a (almost) weekly video/audio podcast where we host people from all parts of the Quarkiverse to sit down..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

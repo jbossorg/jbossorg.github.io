@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Reactive - To block or not to block",
-  "link": "https://quarkus.io/blog/resteasy-reactive-smart-dispatch/",
+  "title": "Eclipse Vert.x 4.2.0.Beta1 released!",
+  "link": "https://vertx.io/blog/eclipse-vertx-4-2-Beta1-released",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-08-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "In January 2021, the Quarkus team announced RESTEasy Reactive, a novel way to serve HTTP API in Quarkus. Since its introduction, RESTEasy Reactive adoption has been quite good, and we plan to make it the default approach to implement HTTP API shortly. But, wait a minute, what does that mean..."
+  "feed_title": "Vert.x",
+  "content": "The first beta of the upcoming Vert.x 4.2 has just been released. We consider it feature complete and invite the community to test it."
 }
