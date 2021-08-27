@@ -12,7 +12,7 @@ The post gives a nice overview of the DMN and the BPMN editors then links to som
 
 == RESTEasy Reactive in Quarkus 2.2
 
-Clement gives a very insightful look at how Quarkus and RESTEasy Reactive make your life easier when implementing HTTP APIs.
+Clément gives a very insightful look at how Quarkus and RESTEasy Reactive make your life easier when implementing HTTP APIs.
 He also explains different dispatching strategies in Quarkus 2.2, based on method signatures to intelligently decide whether methods should be called on the I/O thread or a worker thread at build time.
 
 Go read the full details in Clément's post, link:https://quarkus.io/blog/resteasy-reactive-smart-dispatch/[RESTEasy Reactive - To block or not to block] and take a look at some of the code examples he provides.
