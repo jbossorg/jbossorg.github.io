@@ -1,0 +1,51 @@
+= This Week in JBoss - 27 August 2021
+Don Naro
+2021-08-27
+:tags: quarkus, wildfly, keycloak, kogito, infinispan, vert.x, java, narayana
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Calling all Kogito DMN contributors
+
+Guilherme Carreiro brings us the second in a series of posts that guide you through contributing to Kogito's DMN editor, link:https://blog.kie.org/2021/08/dmn-editor-contributors-guide-part-2.html[DMN editor – Contributors Guide – Part 2].
+The post gives a nice overview of the DMN and the BPMN editors then links to some additional resources that guide you through the tasks of creating and testing Reactive components.
+
+== RESTEasy Reactive in Quarkus 2.2
+
+Clément gives a very insightful look at how Quarkus and RESTEasy Reactive make your life easier when implementing HTTP APIs.
+He also explains different dispatching strategies in Quarkus 2.2, based on method signatures to intelligently decide whether methods should be called on the I/O thread or a worker thread at build time.
+
+Go read the full details in Clément's post, link:https://quarkus.io/blog/resteasy-reactive-smart-dispatch/[RESTEasy Reactive - To block or not to block] and take a look at some of the code examples he provides.
+
+== Narayana LRA annotation checker
+
+The Narayana team have provided a Maven plugin that checks LRA (Long Running Actions) annotations.
+This plugin helps developers avoid errors and follow the rules of the LRA specification.
+There's also a sample Quarkus project in that shows you how to use it.
+
+You can read Ondra Chaloupka's article here: link:https://jbossts.blogspot.com/2021/08/lra-annotation-checker-maven-plugin.html[LRA annotation checker Maven plugin].
+
+== DevConf.US 2021 - Designing your best architecture diagrams workshop
+
+Over on Eric Schabell's blog, he announces the link:https://www.schabell.org/2021/07/devconfus-2021-designing-your-best-architecture-diagrams-workshop.html[Designing your best architecture diagrams] workshop that he will deliver at this year's DevConf.US on Thursday, September 2.
+Eric's workshop takes attendees through the process of using open-source tooling to design architecture diagrams like an expert.
+
+Congrats to Eric on getting the workshop accepted.
+I'm sure it will be an invaluable workshop for all those who face the challenges of communicating complex architectural designs to project teams.
+
+== Apache Camel at Kubecon EU
+
+Nicola Ferraro presented Apache Camel at the Kubecon EU conference that took place on August 19th, 2020.
+
+Nicola's presentation focused on Camel K integration with Knative with a detailed explanation and a super cool demo.
+Visit his blog to read details and watch the video at link:https://www.nicolaferraro.me/2020/09/08/serverless-integration-kubecon/[Serverless Integration on Kubernetes with Apache Camel K].
+
+== Release roundup
+
+Let's start things off this week with a look the latest releases.
+
+[square]
+* link:https://vertx.io/blog/eclipse-vertx-4-2-Beta1-released/[Eclipse Vert.x 4.2.0.Beta1]! Great to see the first beta is here!
+* link:https://quarkus.io/blog/quarkus-2-1-4-final-released/[Quarkus 2.1.4.Final] is out! Follow the link to find the 2.1 migration guide and complete list of changes.
+* link:https://blog.kie.org/2021/08/kogito-1-10-0-released.html[Kogito 1.10.0] is released alongside link:https://blog.kie.org/2021/08/kogito-tooling-0-12-0-released.html[Kogito Tooling 0.12.0] and the link:https://github.com/kiegroup/kogito-operator/releases/tag/v1.10.0[Kogito Operator and CLI Version 1.10.0]. Congrats to the entire Kogito team on all the hard work!
+* link:https://www.keycloak.org/2021/08/keycloak-1502-released[Keycloak 15.0.2] is here. Grab the download link and docs from the link.
