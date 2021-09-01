@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus Newsletter #11",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-11/",
+  "title": "Keycloak 15.0.2 released",
+  "link": "https://www.keycloak.org//2021/08/keycloak-1502-released.html",
   "author": [
     {
-      "name": "James Cobb",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2021-08-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The August Newsletter has been published! This month, check out great articles like \"3 reasons Quarkus 2.0 improves developer productivity on Linux\" and \"Bind a cloud event to Knative\". Check out Newsletter #11! Want to get newsletters in your inbox? Sign up for the newsletter using the on page form...."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
