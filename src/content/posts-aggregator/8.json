@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Reactive - To block or not to block",
-  "link": "https://quarkus.io/blog/resteasy-reactive-smart-dispatch/",
+  "title": "Quarkus 2.1.4.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-1-4-final-released/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-08-25T00:00:00.000Z",
+  "date": "2021-08-26T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In January 2021, the Quarkus team announced RESTEasy Reactive, a novel way to serve HTTP API in Quarkus. Since its introduction, RESTEasy Reactive adoption has been quite good, and we plan to make it the default approach to implement HTTP API shortly. But, wait a minute, what does that mean..."
+  "content": "We just released Quarkus 2.1.4.Final, our fourth (and probably last!) maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.4.Final..."
 }

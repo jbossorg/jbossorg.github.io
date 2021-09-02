@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.1.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-1-3-final-released/",
+  "title": "Quarkus Newsletter #11",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-11/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2021-08-19T00:00:00.000Z",
+  "date": "2021-08-20T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.1.3.Final, our third maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.3.Final on GitHub. Come..."
+  "content": "The August Newsletter has been published! This month, check out great articles like \"3 reasons Quarkus 2.0 improves developer productivity on Linux\" and \"Bind a cloud event to Knative\". Check out Newsletter #11! Want to get newsletters in your inbox? Sign up for the newsletter using the on page form...."
 }
