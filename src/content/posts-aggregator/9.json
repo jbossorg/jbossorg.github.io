@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.1.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-1-4-final-released/",
+  "title": "Quarkus 2.2.1.Final released - Hardening release",
+  "link": "https://quarkus.io/blog/quarkus-2-2-1-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-08-26T00:00:00.000Z",
+  "date": "2021-08-31T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.1.4.Final, our fourth (and probably last!) maintenance release on top of 2.1. It is a safe upgrade for anyone already using 2.1. If you are not using 2.1 already, please refer to the 2.1 migration guide. Full changelog You can get the full changelog of 2.1.4.Final..."
+  "content": "Today we announce the availability of Quarkus 2.2.1.Final, which is the result of our first hardening cycle. Indeed, for 2.2, we decided to slow down on adding new features and focus this release cycle on hardening Quarkus with 3 main focuses: Fix issues Improve usability Improve documentation Thus the list..."
 }

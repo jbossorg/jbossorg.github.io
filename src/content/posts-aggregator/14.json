@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.10.0 released!",
-  "link": "http://feeds.athico.com/~r/droolsatom/~3/mWDjcSpx7NU/kogito-1-10-0-released.html",
+  "title": "RESTEasy Reactive - To block or not to block",
+  "link": "https://quarkus.io/blog/resteasy-reactive-smart-dispatch/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2021-08-24T06:24:30.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.10.0 release is now available! This goes hand in hand with and , .  From a feature point of view, we included a series of new features and bug fixes, including:   * Introducing the new . Now you can fine tune your Kogito Spring Boot project    with the specific starter  * – ConfigMap required ownerReference as controller  * – Kogito Operator Data-Index Unable to connect to Infinispan Instance  * – It is now possible to disable the generation of REST endpoints via    properties. For example kogito.generate.rest=false disables the generation of    all the endpoints while kogito.generate.rest.decisions=false disables the    generation of the DMN endpoints (same apply to processes, rules and    predictions)   BREAKING CHANGES   * The usage of kogito.persistence.postgresql.connection.uri has been    discontinued in this release when using the Postgresql addon for Quarkus. The    same configuration can now be achieved by using the .  For more details head to the complete.  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.12.0 artifacts are available at the.  A detailed changelog for 1.10.0 can be found in.  New to Kogito? Check out our website. Click the \"Get Started\" button.  The post appeared first on .  "
+  "date": "2021-08-25T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "In January 2021, the Quarkus team announced RESTEasy Reactive, a novel way to serve HTTP API in Quarkus. Since its introduction, RESTEasy Reactive adoption has been quite good, and we plan to make it the default approach to implement HTTP API shortly. But, wait a minute, what does that mean..."
 }

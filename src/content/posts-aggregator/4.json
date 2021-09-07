@@ -1,13 +1,13 @@
 {
-  "title": "An Extension for Long Running Activities",
-  "link": "https://quarkus.io/blog/using-lra/",
+  "title": "Byteman 4.0.17 has been released",
+  "link": "http://bytemanblog.blogspot.com/2021/09/byteman-4017-has-been-released.html",
   "author": [
     {
-      "name": "Michael Musgrove",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2021-09-01T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Introduction The Quarkus LRA extension is useful for building JAX-RS services that wish to definitively agree when an interaction has finished, with either a successful outcome or an unsuccessful one. In the successful case, all participants can clean up in the knowledge that all other services will do so as..."
+  "date": "2021-09-03T14:47:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "Byteman 4.0.17 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK17.    Byteman 4.0.17 is a maintenance release which provides a few small enhancements and fixes a minor bug. More details are provided in the .   "
 }
