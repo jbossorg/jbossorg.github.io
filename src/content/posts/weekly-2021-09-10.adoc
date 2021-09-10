@@ -1,0 +1,45 @@
+= This Week in JBoss - 10 September 2021
+Don Naro
+2021-09-10
+:tags: quarkus, kogito, infinispan, vert.x, java, byteman
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Congrats to each team on completing all the hard work and thanks to all community contributors!
+
+[square]
+* link:http://bytemanblog.blogspot.com/2021/09/byteman-4017-has-been-released.html[Byteman 4.0.17]
+* link:https://vertx.io/blog/eclipse-vert-x-3-9-9/[Eclipse Vert.x 3.9.9]
+* link:https://vertx.io/blog/eclipse-vert-x-4-1-3/[Eclipse Vert.x 4.1.3]
+* link:https://infinispan.org/download/[Infinispan 13.0.0.Dev04]
+* link:https://quarkus.io/blog/quarkus-2-2-1-final-released/[Quarkus 2.2.1.Final - hardening release]
+* link:https://quarkus.io/blog/quarkus-2-2-2-final-released/[Quarkus 2.2.2.Final]
+
+== Quarkus LRA extension and microservice reliability
+
+link:https://quarkus.io/blog/using-lra/[An Extension for Long Running Activities], by Michael Musgrove
+
+Quarkus provides an `@LRA` annotations that lets you build more reliable service interactions.
+Michael's informative article breaks down the details and walks you through an example with microservices that coordinate long running actions that complete in an atomic manner.
+
+== Metadata for your BPMN nodes
+
+link:https://blog.kie.org/2021/09/leveraging-bpmn-capabilities-with-metadata.html[BPMN and Metadata – Leveraging app capabilities], by Wagner Lemos
+
+The BPMN Editor includes fields where you can add metadata to nodes, offering a versatile and flexible way to receive custom event notifications via process listeners.
+Wagner's article shows us how to control process flow with metadata, highlighting both its simplicity and usefulness.
+
+== Kogito in action
+
+link:https://blog.kie.org/2021/09/shopping-recommendations-in-pmml-kogito-at-work.html[Shopping recommendations in PMML – Kogito at Work], by Gabriele Cardosi
+
+link:https://blog.kie.org/2021/09/bringing-drools-rules-into-the-cloud-with-kogito-a-step-by-step-path.html[Bringing Drools rules into the cloud with Kogito: a step by step path], by Mario Fusco
+
+The Kogito team do an amazing job providing hands-on, practical examples for real-world use cases.
+Since our last editorial, Gabriele concludes a previous post by demonstrating how to set up a Kogito service that allows remote clients to get purchase recommendations to personalize a web shopping experience.
+
+Mario Fusco's latest entry on the Kogito blog gives a lot of food for thought and is highly recommended.
+In his article, Mario digs into migrating from Drools and start using Kogito and Quarkus.
+He shows you how to start building microservices that you can eventually deploy into Function as a Service (FaaS) environments to provide stateless rule evaluation.
