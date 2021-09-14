@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.2.1.Final released - Hardening release",
-  "link": "https://quarkus.io/blog/quarkus-2-2-1-final-released/",
+  "title": "An Extension for Long Running Activities",
+  "link": "https://quarkus.io/blog/using-lra/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Michael Musgrove",
       "avatar": null
     }
   ],
-  "date": "2021-08-31T00:00:00.000Z",
+  "date": "2021-09-01T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today we announce the availability of Quarkus 2.2.1.Final, which is the result of our first hardening cycle. Indeed, for 2.2, we decided to slow down on adding new features and focus this release cycle on hardening Quarkus with 3 main focuses: Fix issues Improve usability Improve documentation Thus the list..."
+  "content": "Introduction The Quarkus LRA extension is useful for building JAX-RS services that wish to definitively agree when an interaction has finished, with either a successful outcome or an unsuccessful one. In the successful case, all participants can clean up in the knowledge that all other services will do so as..."
 }
