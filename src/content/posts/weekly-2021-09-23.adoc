@@ -1,0 +1,51 @@
+= This Week in JBoss - 23 September 2021
+Romain Pelisse
+2021-09-23
+:tags: quarkus, kogito, openjdk, ansible, java
+
+Welcome to yet another installment of the JBoss Editorial! September is coming to an end, but it has been a pretty busy month for the JBoss community.
+
+== Quarkus
+
+Quarkus has really gone a long away since its release, only a few years ago. A testament to the fact is certainly the compelling user stories released by the project's team in the last weeks. First, we have link:https://quarkus.io/blog/logicdrop-customer-story/[How Quarkus Improved Logicdrop’s Developer Experience and Process], followed by link:https://quarkus.io/blog/adoptium-customer-story/[Eclipse Adoptium Uses Quarkus for high volume Java SE distribution API]. And we even have a nice retail business use case, with link:https://quarkus.io/blog/decathlon-user-story/[VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus]!
+
+So, if you have yet to jump onboard the Quarkus train, it's really time to do so! And, to help you do it, you can check out this nice tutorial on link:https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started[Quarkus for Spring developers: Getting started]. Once you are hooked by Quarkus, go check out the link:https://quarkus.io/newsletter/12/[Quarkus Newsletter #12]!
+
+== Kogito never stops!
+
+Kogito and its ecosystem have been quite active lately. In the last two weeks, five different articles have been released, each covering very different aspects of the project:
+
+* link:https://blog.kie.org/2021/09/automatic-connections-with-line-splicing.html[Automatic connections with Line Splicing]
+* link:https://blog.kie.org/2021/09/an-object-model-marshaller-for-all-occasions.html[An object model marshaller for all occasions]
+* link:https://blog.kie.org/2021/09/manage-processes-and-tasks-using-kogito-consoles.html[Manage Processes and Tasks using Kogito consoles]
+* link:https://blog.kie.org/2021/09/new-dmn-boxed-expression-editor-what-is-new.html[New DMN Boxed Expression Editor – What’s new?]
+* link:https://blog.kie.org/2021/09/kogito-process-eventing-add-ons.html[Kogito Process Eventing Add-ons]
+
+== OpenJDK and GC pauses
+
+After all this Quarkus and Kogito actions, if you are still looking for even more technical nitty, gritty details, you should certainly check out this article on link:https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses#thread_processing_in_java[Shenandoah in OpenJDK 17: Sub-millisecond GC pauses].
+
+== Releases, releases, releases...
+
+As always, projects of the JBoss community have been quite active and released a few exciting new versions, including a beta of Wildlfy's next major version!
+
+[square]
+* link:https://www.wildfly.org//news/2021/09/20/WildFly25-Beta-Released/[Wildfly 25 Beta released!]
+* link:https://vertx.io/blog/eclipse-vert-x-4-1-4/[Eclipse Vert.x 4.1.4 released!]
+* link:https://blog.kie.org/2021/09/kogito-1-11-0-released.html[Kogito 1.11.0 released!]
+* Ansible collection for Apache Tomcat (JWS) and Wildfly (EAP)
+** link:https://github.com/ansible-middleware/jws-ansible-playbook[JWS Collection v0.0.2]
+** link:https://github.com/ansible-middleware/ansible_collections_jcliff[Ansible Cliff Collection v0.0.10]
+
+== Decaf' - Ansible for JBoss middleware
+
+In the past months, we've been doing some hard work to ensure that JBoss software can fit as neatly as possible within an Ansible playbook. There is a still a lot to be done, but we already quite proud of to two Ansible collections we have been able to released. The first one is called, JCliff, but will be soon renamed to Wildlfy, as it aims to integrate, as smoothly as possible, the app server into Ansible. The latest version (v.0.0.10) has already a few exciting features:
+* systemd integration, a reusable role to help set up Widfly as a systemd service
+* a reusable role to install JDBC driver and their module
+* and, of course, more fine-tuning of Wildfly's subsystem thanks to the JCLiff (embedded in the collection) which allows Ansible to configure mod_cluster, sockets, JMS queues and so many other features.
+
+We also very happy about the release of JWS Collection for Ansible (v0.0.2), which allows use to quickly set up Apache Tomcat (or its counterpart, JBoss Web Server), but also provided some nice feature, like integration with systemd and common criteria (partial) compliance checking. Please check our blog entry about this link:https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible[Ansible collection for Apache Tomcat / JWS] for more details!
+
+(Given that those are projects I work on, I fully assume that this entry is a shameless plug :) )
+
+_That's all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime._
