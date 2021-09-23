@@ -1,13 +1,13 @@
 {
-  "title": "VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus.",
-  "link": "https://quarkus.io/blog/decathlon-user-story/",
+  "title": "Quarkus Newsletter #12",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-12/",
   "author": [
     {
-      "name": "Loïc Mathieu",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2021-09-13T00:00:00.000Z",
+  "date": "2021-09-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "DECATHLON is a French retailer, dedicated to sport products, with more than 1800 stores worldwide. At DECATHLON, we are convinced that sport is a source of well-being. VCStream is a new platform for streaming data across the Value Chain of DECATHLON. It allows streaming data in and out of the..."
+  "content": "The September Newsletter has been published! This month, check out great articles about Eric Deandrea’s new book \"Quarkus for Spring Developers\", RESTEasy reactive, and the use of \"Quarkus Security OPENID Connect Multi Tenacy\". Check out Newsletter #12! Want to get newsletters in your inbox? Sign up for the newsletter using..."
 }
