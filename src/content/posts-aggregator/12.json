@@ -1,14 +1,13 @@
 {
-  "title": "New Keycloak maintainer: Thomas Darimont",
-  "link": "https://www.keycloak.org//2021/09/thomas.adoc.html",
+  "title": "Eclipse Vert.x 4.1.4 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-4",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-09-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are extremely pleased to welcome as an official maintainer of Keycloak.  Thomas has contributed to Keycloak since 2015, and is well known and respected by the current maintainers, as well as the Keycloak community. He has enriched the community through practical examples, valuable discussions on mailing lists, and presenting at conferences. In addition, he has also helped with design discussions, contributed bug fixes, as well as new features.  Thomas will start by helping us with our Keycloak.X effort, with first focusing on an excellent observability story for a true cloud native experience. In addition he will help review and sponsor community contributions, engage with the community, and join in discussions around new features and capabilities.  We’re seeing more and more people getting involved in the Keycloak community, and a lot of continued commitment and contributions from large organizations to Keycloak. Thomas works for in Germany, which sees the real value of Keycloak allowing him to invest a significant portion of his time to the Keycloak project.  The Keycloak team is very exited about having Thomas join us as a maintainer, and we are looking forward to working more closely with Thomas going forward."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.1.4 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
