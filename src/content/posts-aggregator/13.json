@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.1.4 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-4",
+  "title": "How Quarkus Improved Logicdrop&#8217;s Developer Experience and Process",
+  "link": "https://quarkus.io/blog/logicdrop-customer-story/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "KimJohn Quinn",
       "avatar": null
     }
   ],
-  "date": "2021-09-17T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.1.4 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
+  "date": "2021-09-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Logicdrop provides a business automation and data intelligence platform that enables enterprises to design their own solutions and run them in the cloud. We process millions of transactions a month across a global client-base and add significant value to mission-critical processes. The developer experience plays an important a role in..."
 }
