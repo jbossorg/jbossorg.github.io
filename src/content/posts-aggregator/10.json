@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan 13.0.0.CR1",
-  "link": "https://infinispan.org/blog/2021/09/23/infinispan-13-cr1",
+  "title": "RESTEasy Announcements and Plans",
+  "link": "https://resteasy.github.io/2021/09/23/announcements-and-releases/",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-09-23T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  We’ve just released 13.0.0.CR1 which brings you several new features along with a number of enhancements and bug fixes. Here is a non-exhaustive list of Infinispan 13 has in store:   MUTABLE CACHE CONFIGURATION  You can now update cache configuration at runtime with the CLI.   IMPROVED CLUSTER UPGRADES  We’ve done quite a lot of work on rolling upgrade operations in Infinispan 13, making the process smoother from the REST API, CLI, and with our Kubernetes Operator.   RE-BALANCING OPERATIONS  Control cluster topology re-balancing from the REST API, CLI, and Console.   PERSISTENT STORAGE IMPROVEMENTS   * File-based caches stores now default to SoftIndexFileStore.   * We’ve added a new SQL cache store.   CROSS-SITE REPLICATION  For global Infinispan clusters, this release brings a number of improvements:   * Cross-site replication operations from the Console.   * Additional statistics for increased observability.   * Better logging details for cross-site cluster views.   SIMPLIFIED SERVER CLUSTER SECURITY  Infinispan Server can automatically enable SSL for the cluster transport.   QUERIES   * Added support for local query operations.   HELM CHARTS  We’ve added an Infinispan Helm chart for deploying clusters to Kubernetes.   DOCUMENTATION AND TUTORIALS  We’ve made a number of documentation improvements this release, including:   * A new guide for Hot Rod JS clients.   * Better organization and documentation for Infinispan simple tutorials.   * Replaced the Integration Guide with a dedicated guide for Spring users as    well as a guide for Hibernate caches.   * A brand new guide for Indexing and Querying.   * Overhauled and updated Configuration Guide.   * Additional JSON and YAML configuration examples."
+  "date": "2021-09-23T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
