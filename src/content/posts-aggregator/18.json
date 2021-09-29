@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 25 Beta1 S2I images have been released on quay.io",
-  "link": "https://wildfly.org//news/2021/09/23/WildFly-s2i-25Beta1-Released/",
+  "title": "Unused Beans and Why We Remove Them",
+  "link": "https://quarkus.io/blog/unused-beans/",
   "author": [
     {
-      "name": "Jean-François Denise",
+      "name": "Martin Kouba",
       "avatar": null
     }
   ],
   "date": "2021-09-23T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WILDFLY 25 BETA1 S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 25 Beta1, have been released on .  For complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   IMPORTANT CHANGES TO MENTION IN THIS BETA RELEASE  We have been evolving the s2i builder image to reflect part of the main changes that occurred in .  In particular the s2i image content is impacted by the removal of legacy security:   * Changes in the default server configuration:         * Now secured with elytron.         * Security configuration based on legacy security-realms has been removed.         * security subsystem and extension have been removed.   * Impact on SSL configuration based on environment variables:         * elytron is now used by default to configure SSL. The env variable       CONFIGURE_ELYTRON_SSL=true is no more needed.   * Impact on Keycloak integration:         * By default when configuring Keycloak OIDC and SAML adapters elytron was       already in use. Nothing changes there.         * If you were using the env variable SSO_FORCE_LEGACY_SECURITY=true to rely       on the legacy security subsystem, the server will fail to start, you will       need to remove this env variable and rely on elytron integration.   ANTICIPATING A FUTURE SUPPORT FOR OPENID CONNECT  In this new release we are deprecating the usage of the keycloak Galleon layer and automatic configuration based on  We are planning in a future release to rely on the that is providing a native support for OpenID Connect allowing to interact with Keycloak server but with also other servers compatible with the OIDC protocol.  Stay tuned!"
+  "feed_title": "Quarkus",
+  "content": "Quarkus is a build-time oriented stack, i.e. it tries to do as much as possible at build time to improve the startup time and memory usage of your application. However, it’s not always so easy and straightforward as many existing frameworks and libraries do not take this design choice into..."
 }
