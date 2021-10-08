@@ -1,0 +1,54 @@
+= This Week in JBoss - 08 October 2021
+Don Naro
+2021-10-08
+:tags: quarkus, kogito, infinispan, vert.x, java, wildfly, elytron, jbang
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Congrats on all the releases and great work from the community!
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-3-0-final-released/[Quarkus 2.3.0.Final]
+* link:https://vertx.io/blog/eclipse-vert-x-4-1-5/[Eclipse Vert.x 4.1.5]
+* link:https://infinispan.org/blog/2021/09/23/infinispan-13-cr1[Infinispan 13.0.0.CR1]
+
+
+== WildFly 25
+
+link:https://www.wildfly.org//news/2021/10/05/WildFly25-Final-Released/[WildFly 25 is released!], by Brian Stansberry
+
+It feels appropriate to call special attention to Brian's release announcement of WildFly 15.
+The entire team has done great work and Brian goes into detail about all the new features, including finishing the migration to Elytron-based security and Java SE 17 support.
+Congrats to the WildFly community on another fantastic milestone!
+
+== Elytron Hacktoberfest
+
+link:https://wildfly-security.github.io/wildfly-elytron/blog/hacktoberfest-has-begun/[Hacktoberfest Has Begun], by Farah Juma
+
+Calling all hackers!!
+WildFly Elytron is participating in this year's Hacktoberfest.
+Check out Farah's post to register and contribute to Elytron, Elytron Web, or WildFly OpenSSL repositories.
+
+== Run Decision Manager with Podman
+
+link:https://www.schabell.org/2021/10/beginners-guide-to-rhdm-local-conainter-podman.html.html[Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman], by Eric Schabell
+
+Eric's step-by-step tutorial taught me how to quickly set up a running instance of Decision Manager in a local container.
+I really enjoyed the tutorial and would recommend as a great way to introduce yourself to the world of process automation.
+
+== Authenticating to Business Central with SSH keys
+
+link:https://blog.kie.org/2021/10/business-central-ssh-key-based-authentication.html[Business Central SSH Key-Based Authentication], by Eder Ignatowicz
+
+This brief article shows you how easy it is to configure authentication with Business Central using SSH keys.
+At the end, Eder also combines JBang with JGit in a nifty way to use a different SSH keys and provides you with the code.
+
+== Quarkus Insights
+
+Get your popcorn ready and sit back to watch some Quarkus insights.
+Here are my top picks for this week's editorial:
+
+* link:https://youtu.be/2cHX8HT7Z6A[Quarkus Insights #66: SNCF migration from WildFly to Quarkus]
+* link:https://youtu.be/efPuzK2YM4I[Quarkus Insights #65: Boost Business Automation Productivity with Quarkus Dev UI]
