@@ -1,13 +1,13 @@
 {
-  "title": "Hacktoberfest Has Begun",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/hacktoberfest-has-begun/",
+  "title": "Quarkus 2.3.0.Final released - Dev Service for Neo4J, Logging with Panache, Testing CLI applications and much more",
+  "link": "https://quarkus.io/blog/quarkus-2-3-0-final-released/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Alexey Loubyansky",
+      "avatar": null
     }
   ],
-  "date": "2021-10-05T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2021-10-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we release Quarkus 2.3.0.Final which includes a lot of refinements and improvements and some new features: Dev Service for Neo4J Logging with Panache Testing support for CLI applications MongoDB Liquibase extension Support for Hibernate ORM interceptors Migration Guide To migrate from 2.2, please refer to our migration guide. What’s..."
 }
