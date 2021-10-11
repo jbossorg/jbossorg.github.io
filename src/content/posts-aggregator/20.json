@@ -1,13 +1,13 @@
 {
-  "title": "a KIE JBang! catalog",
-  "link": "https://blog.kie.org/2021/09/a-kie-jbang-catalog.html",
+  "title": "Using Open Telemetry API in your Microservices",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/?utm_source=rss&utm_medium=rss&utm_campaign=using-open-telemetry-api-in-your-microservices",
   "author": [
     {
-      "name": "Matteo Mortari",
+      "name": "admin",
       "avatar": null
     }
   ],
-  "date": "2021-09-28T09:53:34.000Z",
-  "feed_title": "KIE Community",
-  "content": "In this episode, I want to share with you about an experimental catalog to quickly operate some KIE capabilities such as DMN and FEEL, directly on the Command Line!   WHAT IS JBANG!?  JBang! is a powerful command line and shell capability, allowing you to run jsh and Java source code as a script.  JBang offers a great advantage with Java 8 compatibility and a very smart way to handle dependencies directly within the source of the scripts. You can read more about how JBang facilitates Developers, but also Students and Educators create, edit, and run self-contained source-only Java programs .  You only need JBang to be installed on your system in order to follow the steps shown in the video and summarised in this post.   DMN  You can use the jbang dmn@kiegroup alias to evaluate a  using the Drools DMN Engine:    The script takes as input a DMN mode file, and a DMN Context expressed as JSON. It produces as output a JSON of the evaluated DMN result context.  As with most common command line utilities, you can issue --help to get usage help information:  jbang dmn@kiegroup --help   CONVERTER FOR EXCEL (.XLS/.XLSX) FILES CONTAINING DMN DECISION TABLES  You can use the jbang xls2dmn@kiegroup alias to convert Excel (.xls/.xlsx) files containing  using the Drools DMN Engine experimental converter:    For more details about the Converter and the conventions to be used in the Excel file, please reference the .   FEEL  You can use the jbang feel@kiegroup alias to evaluate a  using the Drools DMN Engine.  This script takes as input a FEEL expression (as a string) and it produces a FEEL representation of the result of evaluating the expression.    This jBang alias can be very handy when you want to quickly try out some FEEL expressions, using the command line for additional fun!   CONCLUSIONS  You can reference the video embedded with this post to get an overview of how to use this JBang! catalog. Don’t forget to checkout the for the full details.  For more information on JBang, see:   *   *   Try it out today!  Go to:  Don’t forget to let us know your feedback using the channels!  The post appeared first on ."
+  "date": "2021-09-28T12:47:49.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. An example of telemetry data are metrics and logs which can then be analyzed to evaluate your application’s performance and behaviour. In the era of cloud-native applications, it is pretty common to combine polyglot architectures. This ...  The post appeared first on ."
 }
