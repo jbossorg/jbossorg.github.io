@@ -26,6 +26,7 @@ feeds:
   - url: https://vertx.io/feed/atom.xml
   - url: https://blog.ramon-gordillo.dev/index.xml
   - url: https://jbossts.blogspot.com/feeds/posts/default
+  - url: http://www.mastertheboss.com/feed/
 
 # end of list
 
