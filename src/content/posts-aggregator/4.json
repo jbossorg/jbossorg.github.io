@@ -1,13 +1,13 @@
 {
-  "title": "How to deploy WildFly Bootable jar on OpenShift",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-deploy-wildfly-bootable-jar-on-openshift/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-deploy-wildfly-bootable-jar-on-openshift",
+  "title": "How to use Microprofile Health Checks for your Services",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/managing-microprofile-health-checks/?utm_source=rss&utm_medium=rss&utm_campaign=managing-microprofile-health-checks",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-10-08T16:12:25.000Z",
+  "date": "2021-10-11T02:13:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The WildFly Bootable JAR Maven plugin allows to package both the server and your application in a bootable JAR. The Bootable jar can then be run from the command line having Java installed on your machine. In this tutorial we will learn how to deploy a Bootable Jar application on a Enterprise Kubernetes (OpenShift) environment. ...  The post appeared first on ."
+  "content": "Health checks are an essential component of all microservices applications. In this tutorial we will learn how to use the HealthCheck Microprofile API to verify the liveness and readiness of a Microservice along with the new Startup check which is available since the MP Health version 3.1. When using Microservices, it’s fundamental to be able ...  The post appeared first on ."
 }

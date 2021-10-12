@@ -1,13 +1,13 @@
 {
-  "title": "Running JBangs apps from the Catalog",
-  "link": "http://www.mastertheboss.com/java/running-jbangs-apps-from-the-catalog/?utm_source=rss&utm_medium=rss&utm_campaign=running-jbangs-apps-from-the-catalog",
+  "title": "Quarkus 2.3.0.Final released - Dev Service for Neo4J, Logging with Panache, Testing CLI applications and much more",
+  "link": "https://quarkus.io/blog/quarkus-2-3-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Alexey Loubyansky",
       "avatar": null
     }
   ],
-  "date": "2021-10-05T13:41:10.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This is the second tutorial about JBang. In the first one we covered the basics of this powerful scripting toolkit: Java scripting with JBang . We will now learn how to install Apps from its rich catalog and how to run scripts on the top of Apps. JBang comes with ability to setup jbang to ...  The post appeared first on ."
+  "date": "2021-10-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we release Quarkus 2.3.0.Final which includes a lot of refinements and improvements and some new features: Dev Service for Neo4J Logging with Panache Testing support for CLI applications MongoDB Liquibase extension Support for Hibernate ORM interceptors Migration Guide To migrate from 2.2, please refer to our migration guide. What’s..."
 }
