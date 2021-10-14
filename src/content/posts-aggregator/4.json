@@ -1,13 +1,13 @@
 {
-  "title": "Deploying `resteasy-spring` based Project Into WildFly Full Distribution",
-  "link": "https://resteasy.github.io/2021/10/13/resteasy-spring-wildfly-and-more/",
+  "title": "JBang cheatsheet (2021)",
+  "link": "http://www.mastertheboss.com/java/jbang-cheatsheet-2021/?utm_source=rss&utm_medium=rss&utm_campaign=jbang-cheatsheet-2021",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-10-13T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-10-13T12:27:46.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Here is my JBang cheatsheet which can help as a reference to code self-contained source-only Java programs with unmatched ease. Getting started with JBang Install JBang on Linux curl -Ls https://sh.jbang.dev | bash -s - app setup Create a JBang class  from a template jbang init --template=hello helloworld.java List of available JBang templates jbang template ...  The post appeared first on ."
 }
