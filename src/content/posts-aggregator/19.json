@@ -1,13 +1,13 @@
 {
-  "title": "Running JBangs apps from the Catalog",
-  "link": "http://www.mastertheboss.com/java/running-jbangs-apps-from-the-catalog/?utm_source=rss&utm_medium=rss&utm_campaign=running-jbangs-apps-from-the-catalog",
+  "title": "Eclipse Vert.x 4.1.5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-5",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-10-05T13:41:10.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This is the second tutorial about JBang. In the first one we covered the basics of this powerful scripting toolkit: Java scripting with JBang . We will now learn how to install Apps from its rich catalog and how to run scripts on the top of Apps. JBang comes with ability to setup jbang to ...  The post appeared first on ."
+  "date": "2021-10-07T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.1.5 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
