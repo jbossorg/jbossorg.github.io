@@ -1,0 +1,45 @@
+= This Week in JBoss - 21 October 2021
+Jason Porter
+2021-10-21
+:tags: quarkus, vscode, java, vertx, wildfly
+
+Welcome back to another edition of the JBoss Editorial, a bi-weekly editorial containing information about JBoss and Red Hat related news and software!
+
+== Release roundup
+
+Once again, let's thank everyone who has contributed to rolling out new releases over the past two weeks!
+
+[square]
+* https://developers.redhat.com/articles/2021/10/20/developer-workflows-using-vs-code-java-extension-10[vscode-java 1.0] - Bringing Java 17 support to VS Code!
+* https://developers.redhat.com/articles/2021/10/11/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-beta[Red Hat Software Collections 3.8]
+* https://vertx.io/blog/eclipse-vertx-4-2-CR1-released/[Eclipse Vert.x 4.2.0.CR1]
+* https://quarkus.io/blog/quarkus-2-3-1-final-released/[Quarkus 2.3.1.Final]
+* https://www.wildfly.org//news/2021/10/12/WildFly-s2i-25-Released/[Wildfly 25 s2i images]
+* https://www.wildfly.org//news/2021/10/12/bootable-jar-6.0.Final-Released/[Wildfly Bootable Jar 6.0]
+* https://infinispan.org/blog/2021/10/12/infinispan-13-final[Infinispan 13.0.0.Final]
+
+
+== WildFly
+
+This past week, the Wildfly Elytron team (a team specializing in server and client side security) participated in the https://ghc.anitab.org/programs-and-awards/open-source-day/[Open Source Day] hackathon. 
+It is an all day hackathon celebrating Open Source technologies and allowing participants to learn about Open Source and contribute to projects designed to solve real world problems.
+
+Issues in the Elytron issue tracker were triaged ahead of the event and new contributors were onboarded and taught about Git, creating and submitting pull requests, and how Open Source works.
+The event went well for the Elytron team with double the amount of PRs submitted than in the Summer Open Source Day!
+
+We'd also like to mention that in Wildfly 25 support has been added for the MicroProfile Reactive Messaging 2.0. More information and a sample application can be found within https://www.wildfly.org//news/2021/10/14/MicroProfile-Reactive-Messaging-2.0-in-WildFly-25/[the announcement].
+
+== Quarkus Videos
+
+The Quarkus team has been busy in front of the camera these last two weeks!
+Six videos have come out, including a new Quarkus Insights.
+These videos cover remote development, the DevCLI, DevUI, DevServices, and continuous testing.
+Most of these are under five minutes, why not watch them all?
+
+* https://www.youtube.com/watch?v=5FRcQ9lUhRo[Quarkus RemoteDevelopment]
+* https://www.youtube.com/watch?v=1hTMyTiiNO4[QuarkusDevCLI]
+* https://www.youtube.com/watch?v=XKsr6cX3qT4[Quarkus DevServices]
+* https://www.youtube.com/watch?v=OQWalmv72Nc[Quarkus DevUI]
+* https://www.youtube.com/watch?v=5LbYbZpsbIg[Quarkus Continuous Testing]
+* https://www.youtube.com/watch?v=oY8TtKrC_5I[Quarkus Insights #67]
+
