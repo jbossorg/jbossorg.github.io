@@ -1,13 +1,13 @@
 {
-  "title": "Developing applications with IntelliJ Idea and WildFly",
-  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/developing-applications-with-intellij-idea-and-wildfly/?utm_source=rss&utm_medium=rss&utm_campaign=developing-applications-with-intellij-idea-and-wildfly",
+  "title": "Secure WildFly applications with OpenID Connect",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/?utm_source=rss&utm_medium=rss&utm_campaign=secure-wildfly-applications-with-openid-connect",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-10-22T12:47:04.000Z",
+  "date": "2021-10-25T10:41:56.000Z",
   "feed_title": "Mastertheboss",
-  "content": "IntelliJ IDEA is a popular choice for developing Enterprise applications featuring automatic Maven and Maven integration. In this tutorial we will learn how to integrate IntelliJ with WildFly or JBoss EAP. IntelliJ IDEA assumes that all development, debugging, and testing is done on your computer and then the code is deployed to a production environment. Let’s see ...  The post appeared first on ."
+  "content": "WildFly 25 enables you to secure deployments using OpenID Connect (OIDC) without installing a Keycloak client adapter. This tutorial will show a proof of concept example of it. OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol which allows Clients to verify the identity of the End-User based on the ...  The post appeared first on ."
 }

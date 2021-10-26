@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.8.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/",
+  "title": "What's new in Vert.x 4.2",
+  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-2",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-10-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.8.0 release of Quarkus Tools for IntelliJ. This release adds support for CodeLens for REST endpoints and enhances MicroProfile Fault Tolerance and Metrics supports. Codelens When editing a resource class while the current Quarkus application is running in development mode (./mvnw compile quarkus:dev..."
+  "date": "2021-10-26T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "See an overview of all new and exciting features in Vert.x 4.2, including Java 17 supports, Vert.x Oracle Client and more."
 }

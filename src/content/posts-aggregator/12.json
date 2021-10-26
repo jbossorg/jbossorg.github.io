@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #13 - October",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-13/",
+  "title": "Eclipse Vert.x 4.2.0.CR1 released!",
+  "link": "https://vertx.io/blog/eclipse-vertx-4-2-CR1-released",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-10-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The October Newsletter has been published! This month, check out great articles to learn Quarkus Tips, Tricks and Techniques as well as Getting Started with Kubernetes-Native Java. Learn about Deploying a Quarkus GraalVM native application to IBM Cloud with GitOps. Read a great performance article for Building Native Java Apps..."
+  "date": "2021-10-20T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "The first candidate release of the upcoming Vert.x 4.2 has just been released. We consider it feature complete and invite the community to test it."
 }
