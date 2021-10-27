@@ -1,13 +1,13 @@
 {
-  "title": "How to create Quarkus Command Mode applications",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-create-quarkus-command-mode-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-create-quarkus-command-mode-applications",
+  "title": "Quarkus Newsletter #13 - October",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-13/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2021-10-18T09:36:57.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Quarkus is set of technologies to develop an entire Microservice architecture. The foundation of this architecture is typically an HTTP server, serving REST Endpoints. It is however also possible to create powerful Java scripts using Quarkus advanced sets of APIs. In this tutorial we will learn how to create standalone Quarkus applications with a bare ...  The post appeared first on ."
+  "date": "2021-10-19T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The October Newsletter has been published! This month, check out great articles to learn Quarkus Tips, Tricks and Techniques as well as Getting Started with Kubernetes-Native Java. Learn about Deploying a Quarkus GraalVM native application to IBM Cloud with GitOps. Read a great performance article for Building Native Java Apps..."
 }
