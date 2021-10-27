@@ -1,13 +1,13 @@
 {
-  "title": "Developing applications with IntelliJ Idea and WildFly",
-  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/developing-applications-with-intellij-idea-and-wildfly/?utm_source=rss&utm_medium=rss&utm_campaign=developing-applications-with-intellij-idea-and-wildfly",
+  "title": "Quarkus Tools for IntelliJ 1.8.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2021-10-22T12:47:04.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "IntelliJ IDEA is a popular choice for developing Enterprise applications featuring automatic Maven and Maven integration. In this tutorial we will learn how to integrate IntelliJ with WildFly or JBoss EAP. IntelliJ IDEA assumes that all development, debugging, and testing is done on your computer and then the code is deployed to a production environment. Let’s see ...  The post appeared first on ."
+  "date": "2021-10-25T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.8.0 release of Quarkus Tools for IntelliJ. This release adds support for CodeLens for REST endpoints and enhances MicroProfile Fault Tolerance and Metrics supports. Codelens When editing a resource class while the current Quarkus application is running in development mode (./mvnw compile quarkus:dev..."
 }

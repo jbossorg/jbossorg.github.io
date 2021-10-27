@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.8.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/",
+  "title": "Secure WildFly applications with OpenID Connect",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/?utm_source=rss&utm_medium=rss&utm_campaign=secure-wildfly-applications-with-openid-connect",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-10-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.8.0 release of Quarkus Tools for IntelliJ. This release adds support for CodeLens for REST endpoints and enhances MicroProfile Fault Tolerance and Metrics supports. Codelens When editing a resource class while the current Quarkus application is running in development mode (./mvnw compile quarkus:dev..."
+  "date": "2021-10-25T10:41:56.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly 25 enables you to secure deployments using OpenID Connect (OIDC) without installing a Keycloak client adapter. This tutorial will show a proof of concept example of it. OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol which allows Clients to verify the identity of the End-User based on the ...  The post appeared first on ."
 }
