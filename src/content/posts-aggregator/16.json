@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #13 - October",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-13/",
+  "title": "Quarkus 2.3.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-3-1-final-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-10-19T00:00:00.000Z",
+  "date": "2021-10-20T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The October Newsletter has been published! This month, check out great articles to learn Quarkus Tips, Tricks and Techniques as well as Getting Started with Kubernetes-Native Java. Learn about Deploying a Quarkus GraalVM native application to IBM Cloud with GitOps. Read a great performance article for Building Native Java Apps..."
+  "content": "Today, we released Quarkus 2.3.1.Final, a maintenance release for our 2.3 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.3. If you are not using 2.3 already, please refer to the 2.3 migration guide. Full changelog You can get the full changelog..."
 }
