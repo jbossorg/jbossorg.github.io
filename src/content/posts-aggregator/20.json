@@ -1,13 +1,13 @@
 {
-  "title": "How to create Quarkus Command Mode applications",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-create-quarkus-command-mode-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-create-quarkus-command-mode-applications",
+  "title": "Eclipse Vert.x 4.2.0.CR1 released!",
+  "link": "https://vertx.io/blog/eclipse-vertx-4-2-CR1-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-10-18T09:36:57.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Quarkus is set of technologies to develop an entire Microservice architecture. The foundation of this architecture is typically an HTTP server, serving REST Endpoints. It is however also possible to create powerful Java scripts using Quarkus advanced sets of APIs. In this tutorial we will learn how to create standalone Quarkus applications with a bare ...  The post appeared first on ."
+  "date": "2021-10-20T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "The first candidate release of the upcoming Vert.x 4.2 has just been released. We consider it feature complete and invite the community to test it."
 }
