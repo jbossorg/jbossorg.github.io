@@ -1,13 +1,13 @@
 {
-  "title": "Using distributed realm in WildFly Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm/",
+  "title": "Kogito 1.12.0 released!",
+  "link": "https://blog.kie.org/2021/10/kogito-1-12-0-released.html",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "Cristiano Nicolai",
+      "avatar": null
     }
   ],
-  "date": "2021-10-26T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2021-10-26T00:48:26.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.12.0 release is now available! This goes hand in hand with, , Operator, and CLI 1.12.0 release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Improvement in protobuf persistence generation: support for fields inherited    from parent classes and ability to disable protobuf generation  * Ability to create custom REST endpoints using Kogito incubator API  * Data Index service new Gateway API methods for handling process instances,    human tasks and jobs  * JDBC persistence addon now has been tested with Oracle and should work with    any ANSI SQL compatible storage (thanks for the contribution)  * Kogito event driven DRL: ability to trigger DRL evaluation via CloudEvent    Kafka messages  * Kogito event driven PMML: ability to trigger PMML evaluation via CloudEvent    Kafka messages  * Support for FEEL expression in BPMN Gateways  * Added BPMN validations around data input and and output types where they    should match the expected type from the target/source process variable.   BREAKING CHANGES   * Operator OLM installation, today we support OwnNamespace and SingleNamespace    install modes, however, when using OLM, AllNamesapces mode will be used.   For more details head to the complete.  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.13.0 artifacts are available at the.  A detailed changelog for 1.12.0 can be found in.  New to Kogito? Check out our website. Click the \"Get Started\" button.  The post appeared first on ."
 }
