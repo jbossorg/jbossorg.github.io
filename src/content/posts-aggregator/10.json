@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan Operator 2.2.0.Final",
-  "link": "https://infinispan.org/blog/2021/10/27/infinispan-operator-2-2-final",
+  "title": "Eclipse Vert.x 4.2.0 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-0",
   "author": [
     {
-      "name": "Ryan Emerson",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-10-27T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "We’re pleased to announce for Kubernetes and Red Hat OpenShift.  This is the first Operator release based on Infinispan 13.  Release highlights:   * Custom server configuration. Add custom configuration for Infinispan Server    using ConfigMap objects.   * Configurable number of relay nodes for cross-site replication. Relay nodes    send and receive replication requests from backup locations. You can now    increase the number of relay nodes with the sites.local.maxRelayNodes field    to achieve a better distribution of cross-site replication requests.   * TLS security for cross-site replication traffic. You can now encrypt    cross-site connections between Infinispan clusters with TLS by adding    keystore secrets and configuring the sites.local.encryption field.   * Operator SDK upgraded to v1.3.2"
+  "date": "2021-10-28T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.0 has just been released. It comes with a set of new exciting features!"
 }

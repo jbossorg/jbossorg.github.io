@@ -1,13 +1,13 @@
 {
-  "title": "Secure WildFly applications with OpenID Connect",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/?utm_source=rss&utm_medium=rss&utm_campaign=secure-wildfly-applications-with-openid-connect",
+  "title": "Using distributed realm in WildFly Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Diana Krepinska Vilkolakova",
+      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
     }
   ],
-  "date": "2021-10-25T10:41:56.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "WildFly 25 enables you to secure deployments using OpenID Connect (OIDC) without installing a Keycloak client adapter. This tutorial will show a proof of concept example of it. OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol which allows Clients to verify the identity of the End-User based on the ...  The post appeared first on ."
+  "date": "2021-10-26T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
