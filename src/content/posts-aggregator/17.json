@@ -1,13 +1,13 @@
 {
-  "title": "Using failover realm in WildFly Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/failover-realm/",
+  "title": "Quarkus Tools for IntelliJ 1.8.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "Jeff Maury",
+      "avatar": null
     }
   ],
   "date": "2021-10-25T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.8.0 release of Quarkus Tools for IntelliJ. This release adds support for CodeLens for REST endpoints and enhances MicroProfile Fault Tolerance and Metrics supports. Codelens When editing a resource class while the current Quarkus application is running in development mode (./mvnw compile quarkus:dev..."
 }
