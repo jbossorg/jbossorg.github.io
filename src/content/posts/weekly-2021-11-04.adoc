@@ -1,0 +1,62 @@
+= This Week in JBoss - 04 November 2021
+Don Naro
+2021-11-04
+:tags: quarkus, kogito, infinispan, vert.x, java, wildfly, elytron, jbang
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Congrats on all the releases and great work from the community!
+
+[square]
+* link:https://infinispan.org/blog/2021/10/27/infinispan-operator-2-2-final[Infinispan Operator 2.2.0]
+* link:https://www.wildfly.org/news/2021/11/04/WildFly2501-Released/[WildFly 25.0.1]
+* link:https://vertx.io/blog/eclipse-vert-x-4-2-1/[Eclipse Vert.x 4.2.1]
+* link:https://vertx.io/blog/eclipse-vert-x-4-2-0/[Eclipse Vert.x 4.2.0]
+* link:https://quarkus.io/blog/quarkus-2-4-1-final-released/[Quarkus 2.4.1]
+* link:https://quarkus.io/blog/quarkus-2-4-0-final-released/[Quarkus 2.4.0]
+* link:https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/[Quarkus Tools for IntelliJ 1.8.0]
+* link:https://quarkus.io/blog/quarkus-2-3-1-final-released/[Quarkus 2.3.1]
+
+
+== Keycloak.X
+
+link:https://www.keycloak.org/2021/10/keycloak-x-update[Keycloak.X Update], by Stian Thorgersen
+
+Stian's informative article takes us through the highlights and goes into detail about what's coming with Keycloak.X.
+He also shares the roadmap for all the work that lies ahead for the Keycloak team.
+It looks like some awesome changes are coming with Keycloak.X so get ready!
+
+== Kogito Public API: The Road Ahead
+
+link:https://blog.kie.org/2021/11/the-road-towards-a-kogito-public-api.html[The Road Towards a Kogito Public API], by Edoardo Vacchi
+
+Edoardo gives an overview of the principles and reasoning that he and the Kogito team have put into the design of their new public API.
+
+== WildFly S2I v2 Architecture Overview
+
+link:https://www.wildfly.org/news/2021/10/29/wildfly-s2i-v2-overview/[WildFly S2I v2 architecture overview], by Jean-François Denise
+
+This informative post describes a set of pain points that the WildFly team plan to address with a re-architecture of the S2I images.
+JF Denise goes into detail and explains the benefits of the new approach that will offer more flexibility, increased efficiency , and a greatly improved user experience.
+
+== Distributed Security Realms in Elytron
+
+link:https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm/[Using distributed realm in Elytron], by Diana Krepinska Vilkolakova
+
+Diana treats us to an overview of distributed security realms in Elytron that combine identities located across multiple security realms of any type into a single security realm.
+
+== Securing WildFly Applications with OpenID Connect
+
+link:http://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/[Secure WildFly applications with OpenID Connect], by F. Marchioni
+
+This post covers a basic example for using OpenID Connect and the elytron-oidc-client in WildFly to secure applications.
+
+== Quarkus Insights
+
+Get your popcorn ready and sit back to watch some Quarkus insights.
+Here are my top picks for this week's editorial:
+
+* link:https://youtu.be/VGAnVX1lCxg[Quarkus Insights #68: Hibernate Reactive 1.0 and Quarkus]
+* link:https://youtu.be/oY8TtKrC_5I[Quarkus Insights #67: Testing Command Mode]
