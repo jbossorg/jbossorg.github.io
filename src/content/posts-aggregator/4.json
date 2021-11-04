@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.2.1 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-1",
+  "title": "Automatically generate BPMN/DMN SVG on VS Code",
+  "link": "http://feeds.athico.com/~r/droolsatom/~3/ypnTev8MIeM/automatically-generate-bpmn-dmn-svg-on-vs-code.html",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Eder Ignatowicz",
       "avatar": null
     }
   ],
-  "date": "2021-11-03T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.2.1 has just been released. It fixes quite a few bugs that have been reported by the community"
+  "date": "2021-11-03T05:00:00.000Z",
+  "feed_title": "KIE Community",
+  "content": "To provide better integration with the KIE server and Business Central, on the , we introduced a way to, on VS Code, automatically generate SVG on each save of your BPMN and DMN Diagram. Take a look at this feature in action:   HOW TO CONFIGURE IT  To auto-generate on VS Code the SVG on each save of your BPMN and DMN diagrams; you need to add two properties to your user and workspace settings (settings.json, the VS Code configuration file):  \"kogito.bpmn.runOnSave\": \"extension.kogito.silentlyGenerateSvgBpmn\", \"kogito.dmn.runOnSave\": \"extension.kogito.silentlyGenerateSvgDmn\",  To do that, open your user and workspace settings, use the following VS Code menu command:   * On Windows/Linux – File > Preferences > Settings  * On macOS – Code > Preferences > Settings  From there, access menu Extension > BPMN (or DMN), and click on ‘Edit in settings.json’:  And finally, add the respective properties to the end of this file and save it:  If you need any further questions, please let us know in the comment section!  The post appeared first on .  "
 }
