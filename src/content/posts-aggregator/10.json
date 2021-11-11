@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 25.0.1 is released!",
-  "link": "https://wildfly.org//news/2021/11/04/WildFly2501-Released/",
+  "title": "Eclipse Vert.x 4.2.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-1",
   "author": [
     {
-      "name": "Kabir Khan",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-11-04T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 25.0.1.Final is now available .  It’s been about four weeks since the WildFly 25 release, so we’ve done a small bug fix update, WildFly 25.0.1. This includes an update to WildFly Preview.  The full list of issues resolved in WildFly 25.0.1 is available . Issues resolved in the WildFly Core updates (there were two) included with WildFly 25.0.1 are available and .  Enjoy!"
+  "date": "2021-11-03T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.1 has just been released. It fixes quite a few bugs that have been reported by the community"
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.10 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-10",
+  "title": "RESTEasy 5.0.0 Released",
+  "link": "https://resteasy.github.io/2021/11/04/resteasy-5.0.0-release/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-11-05T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.10 has just been released. It fixes quite a few bugs that have been reported by the community."
+  "date": "2021-11-04T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

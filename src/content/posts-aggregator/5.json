@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 5.0.0 Released",
-  "link": "https://resteasy.github.io/2021/11/04/resteasy-5.0.0-release/",
+  "title": "How to debug WildFly security issues",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-security/how-to-debug-wildfly-security-issues/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-debug-wildfly-security-issues",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-11-04T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-11-04T17:22:37.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will discuss how to troubleshoot WildFly security issues by enabling the right Loggers or System Properties. WildFly security framework is based on Elytron. Before WildFly 25, you could still use Picketbox legacy framework. This is however discuss in the second part of this article. To debug WildFly security issues the main ...  The post appeared first on ."
 }
