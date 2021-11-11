@@ -1,13 +1,13 @@
 {
-  "title": "Supporting HTTP Engine Registration In RESTEasy Client and RESTEasy MicroProfile Client",
-  "link": "https://resteasy.github.io/2021/11/03/http-engine/",
+  "title": "Eclipse Vert.x 4.2.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-1",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-11-03T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.1 has just been released. It fixes quite a few bugs that have been reported by the community"
 }
