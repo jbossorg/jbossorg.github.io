@@ -1,13 +1,13 @@
 {
-  "title": "Supporting HTTP Engine Registration In RESTEasy Client and RESTEasy MicroProfile Client",
-  "link": "https://resteasy.github.io/2021/11/03/http-engine/",
+  "title": "Quarkus 2.4.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-4-1-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2021-11-03T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.4.1.Final, a maintenance release for our 2.4 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.4. If you are not using 2.4 already, please refer to the 2.4 migration guide. Full changelog You can get the full changelog..."
 }
