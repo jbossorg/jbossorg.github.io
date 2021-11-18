@@ -1,0 +1,63 @@
+= This Week in JBoss - 18 November 2021
+Alex Porcelli
+2021-11-18
+:tags: quarkus, kogito, java, resteasy, camel, reactive
+
+Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-4-2-final-released/[Quarkus 2.4.2]
+* link:https://blog.kie.org/2021/11/kogito-1-13-0-released.html[Kogito 1.13.0]
+* link:https://camel.apache.org/blog/2021/11/RELEASE-3.13.0/[Camel 3.13.0]
+* link:https://camel.apache.org/blog/2021/11/camel-quarkus-release-2.4.0/[Camel Quarkus 2.4.0]
+* link:https://github.com/apache/camel-k/releases/tag/v1.7.0/[Camel K 1.7.0]
+* link:https://in.relation.to/2021/11/09/hibernate-reactive-1_1_0_Final/[Hibernate Reactive 1.1.0.Final]
+* link:https://resteasy.github.io/2021/11/04/resteasy-5.0.0-release/[RESTEasy 5.0.0]
+
+== Test-driven development with Quarkus
+
+link:https://developers.redhat.com/articles/2021/11/08/test-driven-development-quarkus[Test-driven development with Quarkus], by Eric Deandrea
+
+Eric's article provides a detailed walkthrough of how to take advantage of Quarkus continuous testing and Dev UI for test-driven development. Eric also provides a sample repository that you can use to follow along with the article.
+
+== Boost throughput with RESTEasy Reactive in Quarkus 2.
+
+link:https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22/[Boost throughput with RESTEasy Reactive in Quarkus 2.], by Daniel Oh
+
+Daniel shows how some simple changes in your REST endpoints can boost the throughput of your application using RESTEasy Reactive. He also shows how to use the Endpoint score dashboard to assess the performance of your endpoints.
+
+== Low Code Camel
+
+link:https://www.nicolaferraro.me/2021/11/03/low-code-camel/][Low Code Camel - How Kamelets enable a low code integration experience.], by Nicola Ferraro
+
+This excellent post shows how Kamelets is driving a deeper transformation towards "low code" development with Camel. Nicola Ferraro shows that you can use Kamelets directly with yaml or take advantage of the Karavan tool to design and visualize your integration flows graphically.
+
+== Getting started with Hibernate reactive on Quarkus
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-hibernate-reactive/[Getting started with Hibernate reactive on Quarkus], by F. Marchioni
+
+Reactive everywhere! In this post, F. Marchioni helps us get started with Hibernate reactive, providing a step-by-step from project creation to configuration and coding. 
+
+The post covers the "classic" Hibernate ORM, but Hibernate Reactive can also be applied to Panache.
+
+== Java LTS - perspective of a library author
+
+link:https://emmanuelbernard.com/blog/2021/11/15/java-lts/[Java LTS - perspective of a library author], by Emmanuel Bernard
+
+Oracle is proposing a change to the Java LTS lifecycle from the current 3 years for 2 years. In this post, Emmanuel Bernard put some light on the challenges, from the perspective of a library author, that such changes may bring to the complex Java ecosystem.
+
+
+== Videos
+
+YouTube is such a great platform to share knowledge, here are my top picks for this week's editorial:
+
+* link:https://youtu.be/stH_jA5f5eM[First Look at Testcontainers Cloud and Quarkus]
+* link:https://youtu.be/VGAnVX1lCxg[Quarkus Insights #69: Performance and costs of reactive libraries in Java]
+* link:https://youtu.be/C5NGczQMHu0[KIELive #51 TrustyAI: Ensuring the Fairness and Transparency of Decision Models]
+
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
