@@ -1,13 +1,14 @@
 {
-  "title": "Eclipse Vert.x 3.9.10 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-10",
+  "title": "Red Hat Summit Connect Partner Experience Dublin - Exploring Open Source Success at Scale",
+  "link": "http://www.schabell.org/2021/11/red-hat-summit-connect-partner-experience-dublin.html",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Eric D. Schabell",
       "avatar": null
     }
   ],
-  "date": "2021-11-05T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.10 has just been released. It fixes quite a few bugs that have been reported by the community."
+  "date": "2021-11-08T06:00:00.002Z",
+  "feed_title": "Eric D. Schabell",
+  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
+  "content": "The  is a one day event,  part of a new series of small-scale events, that brings the discussion of open source technology to your local cities.   The day provides updates and insights into the latest technologies and will also offer the opportunity to get hands on with Red Hat technologies.  There will be different streams of session topics that will host tech talks led by Red Hat experts and also business focused sessions delivered from industry leaders including some fantastic partner and customer stories.  I've been invited to give a session in Dublin and wanted to share the planning with you for this event in November.   At the Red Hat Summit Connect Partner Experience in Dublin will be hosted at:  Date: Wednesday 10 November 2021 Time: 2:30pm-5:45pm GMT Location: The Gibson Hotel, Point Square, North Dock, Dublin, D01 X2P2, Ireland  I've been asked to share my insights into some of our larger architectures and explore how open source can be used at scale, so I'm putting together the following session for you.         You've heard of large scale open source architectures, but have you ever wanted to take a serious look at these real life enterprise implementations that scale? This session takes attendees on a tour of multiple use cases covering enterprise challenges like integration, optimisation, cloud adoption, hybrid cloud management, and much more. Not only are these architectures interesting, but they are successful real life implementations featuring open source technologies and power many of your own online experiences. The attendee departs this session with a working knowledge of how to map general open source technologies to their solutions. Material covered is available freely online and attendees can use these solutions as starting points for aligning to their own solution architectures. Join us for an hour of power as we talk architecture shop!   Time: 3:45pm-4:15pm (local time)   and hope to see you there!  "
 }
