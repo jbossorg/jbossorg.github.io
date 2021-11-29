@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Hibernate reactive on Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-hibernate-reactive/?utm_source=rss&utm_medium=rss&utm_campaign=getting-started-with-hibernate-reactive",
+  "title": "Quarkus 2.4.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-4-2-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-11-11T19:30:19.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will introduce you to Hibernate Reactive which enables support for non-blocking database drivers and a reactive programming with Hibernate ORM. Uni and Multi streams Persistence operations are designed to use blocking IO for interaction with the database, and are therefore not appropriate for use in a reactive environment. Hibernate Reactive is the first ...  The post appeared first on ."
+  "date": "2021-11-12T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.4.2.Final, a maintenance release for our 2.4 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.4. If you are not using 2.4 already, please refer to the 2.4 migration guide. Full changelog You can get the full changelog..."
 }
