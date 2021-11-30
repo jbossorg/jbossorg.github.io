@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #14 - November",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-14/",
+  "title": "Kogito 1.13.0 released!",
+  "link": "https://blog.kie.org/2021/11/kogito-1-13-0-released.html",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2021-11-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The November Newsletter has been published! This month, you can find articles about integration testing in Quarkus, how to use Quarkus and Google Cloud functions, as well as a piece about test-driven development with Quarkus. Check out Newsletter #14! Want to get newsletters in your inbox? Sign up for the..."
+  "date": "2021-11-11T01:20:14.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.13.0 release is now available! This goes hand in hand with, , Operator, and CLI 1.13.0 release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Data Index service new Gateway API methods for handling human task comments    and attachments.  * Data Index support for storing information about human task comments and    attachments  * Fixed memory leak in Kogito process runtime  * MongoDB performance improvements with index creation for process instance ID.   BREAKING CHANGES   * quarkus-resteasy and quarkus-resteasy-jackson are now optional dependencies    of the extension. If you omit these dependencies, you will then have to    opt-out of the REST endpoint generation with kogito.generate.rest=false  * existing projects will have to explicitly put quarkus-resteasy and    quarkus-resteasy-jackson in their dependencies, or the Kogito extensions will    raise an error.   * Kogito Operator is now installed on Cluster Scope when using OLM. For more    information please take a look on .  For more details head to the complete.  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.14.0 artifacts are available at the.  A detailed changelog for 1.13.0 can be found in.  New to Kogito? Check out our website. Click the \"Get Started\" button.  The post appeared first on .  "
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Upcoming news from Java 18",
-  "link": "http://www.mastertheboss.com/java/upcoming-news-from-java-18/?utm_source=rss&utm_medium=rss&utm_campaign=upcoming-news-from-java-18",
+  "title": "Inspecting the Quarkus Native call path universe with Neo4j",
+  "link": "https://quarkus.io/blog/quarkus-native-neo4j-call-tree/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-11-29T11:09:12.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Java 18 is scheduled to be released in the first quarter of 2022. However, there’s already a list of JDK Enhancement Proposals (JEPs). In this article, we will have an overview of the most interesting ones. UTF-8 by Default – JEP 400 How to know Java’s default Character Set ? the obvious answer is via: ...  The post appeared first on ."
+  "date": "2021-11-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "This blog post is the culmination of an idea that Sanne (Grinovero) floated to me during some lunch, back at a time when we, remote engineers, would occasionally meet face to face and have the opportunity to share ideas spontaneously. I’m unsure if the lunch was in Neuchâtel or Barcelona,..."
 }
