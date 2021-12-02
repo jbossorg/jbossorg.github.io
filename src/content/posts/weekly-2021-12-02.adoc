@@ -1,0 +1,68 @@
+= This Week in JBoss - 2 December 2021
+Francesco Marchioni
+2021-12-02
+:tags: quarkus, java, camel, debezium, openshift
+
+Hello! Welcome to our first December JBoss Editorial featuring the most interesting news and updates from our community.
+
+== Release roundup
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-5-0-final-released/[Quarkus 2.5.0]
+* link:https://camel.apache.org/releases/#camel-quarkus[Camel Quarkus 2.5.0]
+
+
+== Normalize web services with Camel K and AtlasMap 
+
+link:https://developers.redhat.com/articles/2021/11/26/normalize-web-services-camel-k-and-atlasmap-part-2[Normalize web services with Camel K and AtlasMap, Part 2], by Bruno Meseguer
+
+Bruno's article is a walkthrough Camel K 's implementation step by step. It also covers how to simplify data mapping with AtlasMap, which is a data mapping solution with an interactive web-based user interface.
+
+== Saga pattern with processes and Kogito – Part 1
+
+link:https://blog.kie.org/2021/11/saga-pattern-with-processes-and-kogito-part-1.html[Saga pattern with processes and Kogito – Part 1], by Tiago Dolphine 
+
+Saga is meant to provide transaction management using a sequence of steps that could be also called local transactions. In this article Tiago shows how to apply this pattern to Kogito processes.
+
+
+== Quarkus 2.5.0.Final released - GraalVM/Mandrel 21.3 and usability improvements all over the place.
+
+link:https://quarkus.io/blog/quarkus-2-5-0-final-released/[Quarkus 2.5.0.Final released], by Guillaume Smet
+
+Announce the availability of Quarkus 2.5.0.Final which comes with the following main improvements:
+
+* Upgrade to GraalVM/Mandrel 21.3
+
+* Support for JPA entity listeners for Hibernate ORM in native mode
+
+* Ability to add HTTP headers to responses
+
+* Various usability improvements in extensions and our dev mode/testing infrastructure
+
+
+== SmallRye Stork meets Quarkus
+
+link:https://quarkus.io/blog/smallrye-stork-intro/[SmallRye Stork meets Quarkus], by Michał Szynkiewicz
+
+Michał introduces SmallRye Stork and its Quarkus integration. Stork provides a way to locate and select services. It’s simple and customizable. Stay tuned as more articles will follow up on this topic.
+
+== News from Java 18
+
+link:http://www.mastertheboss.com/java/upcoming-news-from-java-18[News from Java 18], by Francesco Marchioni
+
+Java 17 was just released in September 2021 however the Java Community Process is already working on the next release of Java with a list of cool new features. This article discusses the top picks from the JEP Process.
+
+
+
+== Free eBooks 
+
+Are you looking for a quick guide to migrating and modernizing your Java-based applications? Modernizing Enterprise Java walks you through the journey. Grab the eBook from  Natale Vinto and Markus Eisele: 
+
+* link:https://developers.redhat.com/articles/2021/11/30/modernizing-enterprise-java-cloud-native-guide-developers#[Modernizing Enterprise Java: A cloud native guide for developers ]
+ 
+ 
+
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
