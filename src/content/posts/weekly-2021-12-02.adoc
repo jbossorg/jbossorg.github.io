@@ -1,0 +1,46 @@
+= This Week in JBoss - December 2 2021
+Stefan Sitani
+2021-12-02
+:tags: quarkus, mandrel, java, resteasy, camel, reactive, openjdk, panache, hibernate
+
+Hello! Welcome to the first December edition of the JBoss Editorial that brings you news and updates from our community.
+
+== Release roundup
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-5-0-final-released/[Quarkus 2.5.0]
+
+* link:https://camel.apache.org/blog/2021/11/camel-quarkus-release-2.5.0/[Camel Quarkus 2.5.0]
+
+
+== New Book: Reactive Systems in Java
+
+link:https://www.oreilly.com/library/view/reactive-systems-in/9781492091714/[Reactive Systems in Java], by Clement Escoffier and Ken Finnigan
+
+In their new book, Clement Escoffier and Ken Finnigan take an in-depth look at reactive systems design make applications responsive, elastic, and resilient, and
+explore event-driven architectures as a flexible and composable option for designing distributed systems. Full of practical examples, their new book helps developers bring these approaches together when designing applications with Quarkus. You can order your copy of _Reactive Systems in Java_ from O'Reilly Books.
+
+
+== Normalize web services with Camel K and AtlasMap
+
+link:https://developers.redhat.com/articles/2021/11/24/normalize-web-services-camel-k-and-atlasmap-part-1[Normalize web services with Camel K and AtlasMap, Part 1] and link:https://developers.redhat.com/articles/2021/11/26/normalize-web-services-camel-k-and-atlasmap-part-2[Part 2] by Bruno Meseguer
+
+In his two-part post series, Bruno Meseguer explains the challenges of creating a front-facing API layer that standardizes access to back-end services in a containerized environment. The second part is a detailed walk-through of how Camel K can help you implement a solution to this problem, and examines how you can use the GUI provided by AtlasMap to simplify your data mappings.
+
+== Reactive REST with Quarkus made easy
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/reactive-rest-with-quarkus-made-easy/?utm_source=rss&utm_medium=rss&utm_campaign=reactive-rest-with-quarkus-made-easy[Reactive REST with Quarkus made easy] by Francesco Marchioni
+
+In his tutorial, Francesco Marchioni shows how you can use the new reactive JAX-RS implementation in Quarkus to design non-blocking REST endpoints for your web services to increase the throughput of your applications, minimize their consumption of CPU and network resources, and achieve faster response times. Francesco also looks at how you can use map exception handlers to specific JAX-RS resource classes.
+
+== Videos
+
+Here's my pick of this week's YouTube videos:
+
+* link:https://youtu.be/r8Li0n7CR2w[Quarkus Insights #72: Messaging in Quarkus with Kafka]
+* link:https://youtu.be/K9vJVy9Epqw[KIE Drop: Transaction Monitoring]
+* link:https://youtu.be/QqM9UqNBwOU[Simplify JPA implementation with Hibernate Reactive with Panache in Quarkus]
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
