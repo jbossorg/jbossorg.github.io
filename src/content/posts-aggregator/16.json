@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.5.0.Final released - GraalVM/Mandrel 21.3 and usability improvements all over the place",
-  "link": "https://quarkus.io/blog/quarkus-2-5-0-final-released/",
+  "title": "Reactive REST with Quarkus made easy",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/reactive-rest-with-quarkus-made-easy/?utm_source=rss&utm_medium=rss&utm_campaign=reactive-rest-with-quarkus-made-easy",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-11-24T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we announce the availability of Quarkus 2.5.0.Final which comes with the following main improvements: Upgrade to GraalVM/Mandrel 21.3 Support for JPA entity listeners for Hibernate ORM in native mode Ability to add HTTP headers to responses Various usability improvements in extensions and our dev mode/testing infrastructure Migration Guide To..."
+  "date": "2021-11-24T18:04:19.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Quarkus JAX RS implementation has improved a lot since its first release. Within this tutorial we will show some new features which are available in Quarkus starting from the new reactive REST paradigm. Quarkus uses SmallRye Mutiny for as main Reactive library. In our first tutorial, we have discussed how to use Mutiny to deliver ...  The post appeared first on ."
 }
