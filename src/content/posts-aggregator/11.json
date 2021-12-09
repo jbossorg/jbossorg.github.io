@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.5.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-5-1-final-released/",
+  "title": "WildFly 26 Beta1 is released!",
+  "link": "https://wildfly.org//news/2021/12/02/WildFly26-Beta-Released/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2021-12-01T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.5.1.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Full changelog You can get the full changelog..."
+  "date": "2021-12-02T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "I’m pleased to announce that the new WildFly and WildFly Preview 26.0.0.Beta1 releases are available for download at .  For more information about the changes included in this release please consult the release notes, in the meantime the developers are working hard on tasks needed to prepare the base to add support for Jakarta EE 10 as the specifications become available.   RELEASE NOTES  The release notes for the release are , with issues fixed in the underlying WildFly Core betas listed .  Please try it out and give us your feedback, while we get to work on WildFly 26 Final!  Best regards,  Darran"
 }

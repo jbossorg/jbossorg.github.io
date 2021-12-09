@@ -1,13 +1,13 @@
 {
-  "title": "Configuring Podman for Quarkus Dev Services and Testcontainers on Linux",
-  "link": "https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/",
+  "title": "Getting started with Decision Models (DMN)",
+  "link": "http://www.mastertheboss.com/uncategorised/getting-started-with-decision-models-dmn/?utm_source=rss&utm_medium=rss&utm_campaign=getting-started-with-decision-models-dmn",
   "author": [
     {
-      "name": "Michal Jurč",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the release of version 3, Podman allows the user to run a service emulating a Docker API provided on a Unix socket. This makes it possible for Testcontainers and Quarkus Dev Services to be..."
+  "date": "2021-12-09T15:19:14.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The Decision Model and Notation (DMN™) is a modelling language notation created by OMG for the specification of business decisions and business rules. In this tutorial we will have an overview of what is DMN and which are the key constructs of this language that you can use to model your Decisions that drive your ...  The post appeared first on ."
 }

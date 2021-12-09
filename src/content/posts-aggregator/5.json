@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Releases",
-  "link": "https://resteasy.github.io/2021/12/02/resteasy-releases/",
+  "title": "Configuring Podman for Quarkus Dev Services and Testcontainers on Linux",
+  "link": "https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/",
   "author": [
     {
-      "name": null,
+      "name": "Michal Jurč",
       "avatar": null
     }
   ],
-  "date": "2021-12-02T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-12-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the release of version 3, Podman allows the user to run a service emulating a Docker API provided on a Unix socket. This makes it possible for Testcontainers and Quarkus Dev Services to be..."
 }

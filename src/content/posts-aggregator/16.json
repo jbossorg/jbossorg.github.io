@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.18 has been released",
-  "link": "http://bytemanblog.blogspot.com/2021/11/byteman-4018-has-been-released.html",
+  "title": "Inspecting the Quarkus Native call path universe with Neo4j",
+  "link": "https://quarkus.io/blog/quarkus-native-neo4j-call-tree/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Galder Zamarreño",
+      "avatar": null
     }
   ],
-  "date": "2021-11-25T14:14:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.18 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK18.    Byteman 4.0.18 is a maintenance release which provides one enhancement, enabling the choice of TARGET vs TRIGGER semantics when rules inject down class or interface hierarchies. For rules of this type it is possible that the TARGET class/interface for the rule, the one named in the CLASS clause, may differ from the TRIGGER class, the subclass or interface implementation into which the rule actually gets injected. An AS TARGET clause in the rule body requests that the rule is typed lexically using TARGET class as the type for $this/$0. An AS TRIGGER clause means it is typed dynamically using the TRIGGER class as the type for $this/$0. Note that up to now Byteman has always used TRIGGER semantics and will continue to use this as the default. More details are provided in the and the latest Byteman Programmers Guide. "
+  "date": "2021-11-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "This blog post is the culmination of an idea that Sanne (Grinovero) floated to me during some lunch, back at a time when we, remote engineers, would occasionally meet face to face and have the opportunity to share ideas spontaneously. I’m unsure if the lunch was in Neuchâtel or Barcelona,..."
 }
