@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 26 Beta1 is released!",
-  "link": "https://wildfly.org//news/2021/12/02/WildFly26-Beta-Released/",
+  "title": "Website refresh and GitHub Discussions",
+  "link": "https://quarkus.io/blog/website-and-discussions/",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
   "date": "2021-12-02T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "I’m pleased to announce that the new WildFly and WildFly Preview 26.0.0.Beta1 releases are available for download at .  For more information about the changes included in this release please consult the release notes, in the meantime the developers are working hard on tasks needed to prepare the base to add support for Jakarta EE 10 as the specifications become available.   RELEASE NOTES  The release notes for the release are , with issues fixed in the underlying WildFly Core betas listed .  Please try it out and give us your feedback, while we get to work on WildFly 26 Final!  Best regards,  Darran"
+  "feed_title": "Quarkus",
+  "content": "Quarkus website got a refresh and we enabled GitHub discussions for community conversations. Website refresh We’ve refreshed the look’n’feel with more contrast on pages for better readability. Cleaned up navigation menu and made a no fuzz \"Getting Started\" section to show the absolute simplest set of steps to get started..."
 }

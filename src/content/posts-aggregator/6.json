@@ -1,13 +1,13 @@
 {
-  "title": "DMN example application with Quarkus",
-  "link": "http://www.mastertheboss.com/bpm/kogito/dmn-example-application-with-quarkus/?utm_source=rss&utm_medium=rss&utm_campaign=dmn-example-application-with-quarkus",
+  "title": "Quarkus 2.5.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-5-2-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-09T17:30:21.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In our first tutorial about DMN – Getting started with Decision Models (DMN) – we have covered the foundation of Decision Models and the key components in it. In this follow up article we will design and create an example application which exposes a simple Decision Model through Quarkus REST Services. Designing the Decision Model ...  The post appeared first on ."
+  "date": "2021-12-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.5.2.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Full changelog You can get the full changelog..."
 }
