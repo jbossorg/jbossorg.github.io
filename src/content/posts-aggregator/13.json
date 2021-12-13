@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Releases",
-  "link": "https://resteasy.github.io/2021/12/02/resteasy-releases/",
+  "title": "Quarkus Tools for IntelliJ 1.9.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.9.0/",
   "author": [
     {
-      "name": null,
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2021-12-02T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-12-03T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.9.0 release of Quarkus Tools for IntelliJ. This release adds support for Quarkus streams in the new project/module Quarkus wizard and fixes compatibilities with just released IntelliJ 2021.3. Quarkus streams When a new Quarkus project/module is to be generated, it is now possible..."
 }

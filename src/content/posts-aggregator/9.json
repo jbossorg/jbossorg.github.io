@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Decision Models (DMN)",
-  "link": "http://www.mastertheboss.com/uncategorised/getting-started-with-decision-models-dmn/?utm_source=rss&utm_medium=rss&utm_campaign=getting-started-with-decision-models-dmn",
+  "title": "Smart Scroll for BPMN/DMN Editors",
+  "link": "https://blog.kie.org/2021/12/smart-scroll-for-bpmn-admn-editors.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Wagner Lemos",
       "avatar": null
     }
   ],
-  "date": "2021-12-09T15:19:14.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The Decision Model and Notation (DMN™) is a modelling language notation created by OMG for the specification of business decisions and business rules. In this tutorial we will have an overview of what is DMN and which are the key constructs of this language that you can use to model your Decisions that drive your ...  The post appeared first on ."
+  "date": "2021-12-09T15:21:06.000Z",
+  "feed_title": "KIE Community",
+  "content": "INTRODUCING SMART SCROLL  Creating and managing BPMN/DMN resources can be a daunting task. Projects can come in many shapes and sizes and with varying levels of complexity. Consequently, being able to locate and identify nodes is of utmost importance. Focusing on easing the load of such demands, we introduce Smart Scroll for BPMN/DMN editors. Available for , this new feature enables scroll by dragging a canvas element close to a border. With it, node placement becomes a more natural task.   USING SMART SCROLL  To activate it, drag any canvas element (e.g., all nodes, bend points, and connection points) closer to the canvas border. Then, while still holding the mouse drag button, cease mouse movement. As a result, scrolling starts in the desired direction. Mind you, due to canvas limitations, scrolling beyond the origin limit (depicted by the dashed lines) is not possible.  First to the right, then to the left – Smart Scroll activation No scrolling beyond canvas origin limit – Smart Scroll limits Canvas origin limits depiction in detail – Smart Scroll limits   SCROLL BAR IMPROVEMENTS  By itself, the Smart Scroll already proves valuable. But, to stand out and give that \"just right\" feeling, other changes were necessary. Next, we discuss them and show a side-by-side comparison of old vs. new to highlight the differences.  The first change is real-time updates. In sum, there is no need to end element drag for the scrollbar to update. It happens as soon as there is drag movement. In the comparison below, pay attention to the scroll bar at the bottom.  Drag end triggers scroll bar update – Scroll bar real-time update (Old Version) Drag movement triggering scroll bar update – Scroll bar real-time update (New Version)  Next, we have canvas pan synchronization. In short, canvas pan updates the scroll bar. As a result, the scroll bar position and canvas pan are always in sync. Again focus on the scroll bar at the bottom to spot the difference.  The scroll bar is not updated – Pan Synchronization (Old Version) The scroll bar updates in sync with the canvas pan – Pan Synchronization (New Version)  Lastly, there is canvas size calculation. In brief, besides the existing elements, we also consider the visible area of the canvas. Due to this, there are no awkward jumps after dragging or scrolling.  Noticeable jumps – Canvas size calculation (Old Version) Smooth updates without jumps – Canvas size calculation (New Version)   CONCLUSION  In conclusion, high cohesion while maintaining usability was the key goal here. We hope this will help users have a better experience using our editors.  Make sure to check out our . You can stay up to date on our releases, new tools and have access to exceptional articles. Thanks for reading. See you next time.  The post appeared first on .  "
 }
