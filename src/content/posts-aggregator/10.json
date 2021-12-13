@@ -1,13 +1,13 @@
 {
-  "title": "Automating Quarkus with GitLab",
-  "link": "https://quarkus.io/blog/logicdrop-automating-quarkus-with-gitlab/",
+  "title": "Quarkus Tools for IntelliJ 1.9.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.9.0/",
   "author": [
     {
-      "name": "KimJohn Quinn",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2021-12-02T00:00:00.000Z",
+  "date": "2021-12-03T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Logicdrop provides a business automation and data intelligence platform that enables enterprises to design their own solutions and run them in the cloud. We process millions of transactions a month across a global client-base and add significant value to mission-critical processes. The Challenge Since moving to Quarkus, our productivity quickly..."
+  "content": "We are very pleased to announce the 1.9.0 release of Quarkus Tools for IntelliJ. This release adds support for Quarkus streams in the new project/module Quarkus wizard and fixes compatibilities with just released IntelliJ 2021.3. Quarkus streams When a new Quarkus project/module is to be generated, it is now possible..."
 }

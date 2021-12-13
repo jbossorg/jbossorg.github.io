@@ -1,13 +1,13 @@
 {
-  "title": "Website refresh and GitHub Discussions",
-  "link": "https://quarkus.io/blog/website-and-discussions/",
+  "title": "Automating Quarkus with GitLab",
+  "link": "https://quarkus.io/blog/logicdrop-automating-quarkus-with-gitlab/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "KimJohn Quinn",
       "avatar": null
     }
   ],
   "date": "2021-12-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quarkus website got a refresh and we enabled GitHub discussions for community conversations. Website refresh We’ve refreshed the look’n’feel with more contrast on pages for better readability. Cleaned up navigation menu and made a no fuzz \"Getting Started\" section to show the absolute simplest set of steps to get started..."
+  "content": "Logicdrop provides a business automation and data intelligence platform that enables enterprises to design their own solutions and run them in the cloud. We process millions of transactions a month across a global client-base and add significant value to mission-critical processes. The Challenge Since moving to Quarkus, our productivity quickly..."
 }
