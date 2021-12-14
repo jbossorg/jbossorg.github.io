@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.9.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.9.0/",
+  "title": "Configuring Podman for Quarkus Dev Services and Testcontainers on Linux",
+  "link": "https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "Michal Jurč",
       "avatar": null
     }
   ],
-  "date": "2021-12-03T00:00:00.000Z",
+  "date": "2021-12-06T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.9.0 release of Quarkus Tools for IntelliJ. This release adds support for Quarkus streams in the new project/module Quarkus wizard and fixes compatibilities with just released IntelliJ 2021.3. Quarkus streams When a new Quarkus project/module is to be generated, it is now possible..."
+  "content": "Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the release of version 3, Podman allows the user to run a service emulating a Docker API provided on a Unix socket. This makes it possible for Testcontainers and Quarkus Dev Services to be..."
 }
