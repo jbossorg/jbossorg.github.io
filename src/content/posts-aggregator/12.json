@@ -1,13 +1,13 @@
 {
-  "title": "DMN example application with Quarkus",
-  "link": "http://www.mastertheboss.com/bpm/kogito/dmn-example-application-with-quarkus/?utm_source=rss&utm_medium=rss&utm_campaign=dmn-example-application-with-quarkus",
+  "title": "Quarkus is NOT affected by the Log4J Vulnerability",
+  "link": "https://quarkus.io/blog/quarkus-and-CVE-2021-4428/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2021-12-09T17:30:21.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In our first tutorial about DMN – Getting started with Decision Models (DMN) – we have covered the foundation of Decision Models and the key components in it. In this follow up article we will design and create an example application which exposes a simple Decision Model through Quarkus REST Services. Designing the Decision Model ...  The post appeared first on ."
+  "date": "2021-12-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-4428 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
 }

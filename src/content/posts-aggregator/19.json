@@ -1,13 +1,13 @@
 {
-  "title": "Automating Quarkus with GitLab",
-  "link": "https://quarkus.io/blog/logicdrop-automating-quarkus-with-gitlab/",
+  "title": "RESTEasy Releases",
+  "link": "https://resteasy.github.io/2021/12/02/resteasy-releases/",
   "author": [
     {
-      "name": "KimJohn Quinn",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2021-12-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Logicdrop provides a business automation and data intelligence platform that enables enterprises to design their own solutions and run them in the cloud. We process millions of transactions a month across a global client-base and add significant value to mission-critical processes. The Challenge Since moving to Quarkus, our productivity quickly..."
+  "date": "2021-12-02T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
