@@ -1,13 +1,13 @@
 {
-  "title": "Using RESTEasy Tracing Feature With Feature Pack In WildFly",
-  "link": "https://resteasy.github.io/2021/12/13/tracing-feature/",
+  "title": "Eclipse Vert.x and Log4j 2 CVE-2021-44228",
+  "link": "https://vertx.io/blog/CVE-2021-44228",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-12-13T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "feed_title": "Vert.x",
+  "content": "A recent CVE-2021-44228 has been disclosed that affects the Log4j 2 library. The Vert.x project can optionally use Log4j but does not ship it and therefore is not affected by this CVE."
 }
