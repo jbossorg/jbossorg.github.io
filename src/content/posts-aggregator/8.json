@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan and Log4j CVE-2021-44228",
-  "link": "https://infinispan.org/blog/2021/12/13/infinispan-log4j-cve-releases",
+  "title": "How to handle Log4j CVE-2021-44228",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
   "author": [
     {
-      "name": "Tristan Tarrant",
-      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2021-12-13T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  We’ve just released , and to address the . Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.2.Final for Infinispan 13.0 and 2.1.6.Final for Infinispan 12.1. Please upgrade as soon as you can. Refer to our for versions.   WHAT’S AFFECTED  We include log4j-core in our server distributions, including the . We are fixing the issue by upgrading to Log4J 2.15.0.   MITIGATION STRATEGIES  If you cannot upgrade, there are a several you can apply. But upgrading is always the best solution."
+  "date": "2021-12-13T17:14:36.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This short articles discussed the recent flaw in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
 }
