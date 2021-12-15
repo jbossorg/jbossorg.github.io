@@ -9,5 +9,5 @@
   ],
   "date": "2021-12-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-4428 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
+  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-44228 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
 }
