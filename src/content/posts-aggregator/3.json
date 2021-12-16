@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus is not affected by the Log4J Vulnerability",
-  "link": "https://quarkus.io/blog/quarkus-and-CVE-2021-4428/",
+  "title": "Quarkus 2.5.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-5-3-final-released/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2021-12-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-44228 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
+  "content": "We just released Quarkus 2.5.3.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Full changelog You can get the full changelog..."
 }
