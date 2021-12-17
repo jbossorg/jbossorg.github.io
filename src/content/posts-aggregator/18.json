@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Decision Models (DMN)",
-  "link": "http://www.mastertheboss.com/uncategorised/getting-started-with-decision-models-dmn/?utm_source=rss&utm_medium=rss&utm_campaign=getting-started-with-decision-models-dmn",
+  "title": "DMN example application with Quarkus",
+  "link": "http://www.mastertheboss.com/bpm/kogito/dmn-example-application-with-quarkus/?utm_source=rss&utm_medium=rss&utm_campaign=dmn-example-application-with-quarkus",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-09T15:19:14.000Z",
+  "date": "2021-12-09T17:30:21.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The Decision Model and Notation (DMN™) is a modelling language notation created by OMG for the specification of business decisions and business rules. In this tutorial we will have an overview of what is DMN and which are the key constructs of this language that you can use to model your Decisions that drive your ...  The post appeared first on ."
+  "content": "In our first tutorial about DMN – Getting started with Decision Models (DMN) – we have covered the foundation of Decision Models and the key components in it. In this follow up article we will design and create an example application which exposes a simple Decision Model through Quarkus REST Services. Designing the Decision Model ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.11 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-11",
+  "title": "Quarkus 2.5.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-5-3-final-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-14T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.11 has just been released."
+  "date": "2021-12-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.5.3.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Full changelog You can get the full changelog..."
 }

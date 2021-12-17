@@ -1,13 +1,13 @@
 {
-  "title": "Using RESTEasy Tracing Feature With Feature Pack In WildFly",
-  "link": "https://resteasy.github.io/2021/12/13/tracing-feature/",
+  "title": "Infinispan and Log4j CVE-2021-44228",
+  "link": "https://infinispan.org/blog/2021/12/13/infinispan-log4j-cve-releases",
   "author": [
     {
-      "name": null,
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2021-12-13T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-12-13T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan community,  We’ve just released , and to address the . Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.2.Final for Infinispan 13.0 and 2.1.6.Final for Infinispan 12.1. Please upgrade as soon as you can. Refer to our for versions.   WHAT’S AFFECTED  We include log4j-core in our server distributions, including the . We are fixing the issue by upgrading to Log4J 2.15.0.   MITIGATION STRATEGIES  If you cannot upgrade, there are a several you can apply. But upgrading is always the best solution."
 }
