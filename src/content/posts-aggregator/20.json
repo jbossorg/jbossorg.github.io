@@ -1,13 +1,13 @@
 {
-  "title": "DMN example application with Quarkus",
-  "link": "http://www.mastertheboss.com/bpm/kogito/dmn-example-application-with-quarkus/?utm_source=rss&utm_medium=rss&utm_campaign=dmn-example-application-with-quarkus",
+  "title": "Eclipse Vert.x and Log4j 2 CVE-2021-44228",
+  "link": "https://vertx.io/blog/CVE-2021-44228",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-09T17:30:21.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In our first tutorial about DMN – Getting started with Decision Models (DMN) – we have covered the foundation of Decision Models and the key components in it. In this follow up article we will design and create an example application which exposes a simple Decision Model through Quarkus REST Services. Designing the Decision Model ...  The post appeared first on ."
+  "date": "2021-12-13T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "A recent CVE-2021-44228 has been disclosed that affects the Log4j 2 library. The Vert.x project can optionally use Log4j but does not ship it and therefore is not affected by this CVE."
 }

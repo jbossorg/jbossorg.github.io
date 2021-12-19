@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x Webauthn 4.2.2.1 and 4.1.7.1 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-2-1_and_4-1-7-1",
+  "title": "Upcoming filesystem realm encryption and integrity support in Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/upcoming-filesystem-encryption-integrity/",
   "author": [
     {
-      "name": "Paulo Lopes",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],
-  "date": "2021-12-15T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x Webauthn version 4.2.2.1 and 4.1.7.1 has just been released."
+  "date": "2021-12-17T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

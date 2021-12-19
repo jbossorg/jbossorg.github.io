@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x and Log4j 2 CVE-2021-44228",
-  "link": "https://vertx.io/blog/CVE-2021-44228",
+  "title": "Eclipse Vert.x 4.1.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-7",
   "author": [
     {
       "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-13T00:00:00.000Z",
+  "date": "2021-12-14T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "A recent CVE-2021-44228 has been disclosed that affects the Log4j 2 library. The Vert.x project can optionally use Log4j but does not ship it and therefore is not affected by this CVE."
+  "content": "Eclipse Vert.x version 4.1.7 has just been released."
 }

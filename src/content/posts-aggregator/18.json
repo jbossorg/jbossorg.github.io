@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 15.1.0 released",
-  "link": "https://www.keycloak.org/2021/12/keycloak-1510-released",
+  "title": "How to fix Log4j CVE-2021-44228",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-10T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   UPGRADE TO WILDFLY 25.0.1  Keycloak server was upgraded to use Wildfly 25.0.1.Final as the underlying container.  WildFly 25 drops support for the legacy security subsystem, which is being replaced fully by Elytron. This requires significant changes to how Keycloak is configured. Please, refer to the migration guide for more details.   UPGRADE TO QUARKUS 2.5.3  Keycloak.X Quarkus preview distribution was upgraded to Quarkus 2.5.3.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-12-13T17:14:36.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This short articles discussed the recent flaw in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Using RESTEasy Tracing Feature With Feature Pack In WildFly",
-  "link": "https://resteasy.github.io/2021/12/13/tracing-feature/",
+  "title": "Eclipse Vert.x 4.2.2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-2",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-13T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2021-12-14T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.2 has just been released."
 }

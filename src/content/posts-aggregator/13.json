@@ -1,13 +1,13 @@
 {
-  "title": "How to fix Log4j CVE-2021-44228",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
+  "title": "Quarkus is not affected by the Log4J Vulnerability",
+  "link": "https://quarkus.io/blog/quarkus-and-CVE-2021-4428/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2021-12-13T17:14:36.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This short articles discussed the recent flaw in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
+  "date": "2021-12-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-44228 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
 }
