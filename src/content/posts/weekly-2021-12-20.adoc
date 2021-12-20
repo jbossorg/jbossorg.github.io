@@ -21,6 +21,7 @@ Note that, on the bright side, link:https://quarkus.io/blog/quarkus-and-CVE-2021
 == Security concern
 
 With the nasty security vulnereablity on log4j, it's certainly time to look at some new security features coming in either Elytron or Wildly (or both):
+
 * link:https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly/[New Security Features in WildFly]
 * link:https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/[Using a JAAS realm in Elytron]
 * link:https://wildfly-security.github.io/wildfly-elytron/blog/upcoming-filesystem-encryption-integrity/[Upcoming filesystem realm encryption and integrity support in Elytron]
@@ -34,6 +35,7 @@ Always on top of the latest new feature, Quarkus offers you to link:https://deve
 == Releases, releases, releases...
 
 As always, the JBoss community has been quite actived and released quite a lot:
+
 * link:https://www.keycloak.org/2021/12/keycloak-1511-released[Keycloak 15.1.1 released]
 * link:https://www.keycloak.org/2021/12/keycloak-1600-released[Keycloak 16.0.0 released]
 * link:https://quarkus.io/blog/quarkus-2-5-3-final-released/[Quarkus 2.5.3.Final released - Maintenance release]
