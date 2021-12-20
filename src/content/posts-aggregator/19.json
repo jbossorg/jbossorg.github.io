@@ -9,5 +9,5 @@
   ],
   "date": "2021-12-13T17:14:36.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short articles discussed the recent flaw in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
+  "content": "This short articles discussed the recent flaws in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
 }
