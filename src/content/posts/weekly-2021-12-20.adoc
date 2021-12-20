@@ -15,8 +15,8 @@ Note that, on the bright side, link:https://quarkus.io/blog/quarkus-and-CVE-2021
 
 == Wildfly 26 is here!
 
-* link:https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/[Wildfly 26 has been released]
-* link:https://www.wildfly.org//news/2021/12/16/WildFly-s2i-26-Released/[WildFly 26 S2I images have been released on quay.io]
+We are quite excited to have a new major release of Wildfly : link:https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/[Wildfly 26 has been released]! Please go check it out!
+And don't forget that the link:https://www.wildfly.org//news/2021/12/16/WildFly-s2i-26-Released/[WildFly 26 S2I images have been released] too!
 
 == Security concern
 
