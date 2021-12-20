@@ -30,7 +30,7 @@ With the nasty security vulnereablity on log4j, it's certainly time to look at s
 
 == Quarkus
 
-Always on top of the latest new feature, Quarkus offers you to link:https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus[Explore Java 17 language features with Quarkus]! If you already hook to Quarkus and love how it allows you to deploy native executables, you'll probably be interested by this article on link:https://quarkus.io/blog/upx/[Compressing native executables with UPX]
+Always on top of the latest new feature, Quarkus offers you to link:https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus[Explore Java 17 language features with Quarkus]! If you already hook to Quarkus and love how it allows you to deploy native executables, you'll probably be interested by this article on link:https://quarkus.io/blog/upx/[Compressing native executables with UPX].
 
 == Releases, releases, releases...
 
