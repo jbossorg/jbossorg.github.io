@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.5.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-5-3-final-released/",
+  "title": "Eclipse Vert.x Webauthn 4.2.2.1 and 4.1.7.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-2-1_and_4-1-7-1",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Paulo Lopes",
       "avatar": null
     }
   ],
   "date": "2021-12-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.5.3.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Full changelog You can get the full changelog..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x Webauthn version 4.2.2.1 and 4.1.7.1 has just been released."
 }

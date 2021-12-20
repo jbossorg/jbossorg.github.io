@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 15.1.1 released",
-  "link": "https://www.keycloak.org/2021/12/keycloak-1511-released",
+  "title": "Compressing native executables with UPX",
+  "link": "https://quarkus.io/blog/upx/",
   "author": [
     {
-      "name": null,
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2021-12-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   UPGRADE TO WILDFLY 25.0.1  Keycloak server was upgraded to use Wildfly 25.0.1.Final as the underlying container.  WildFly 25 drops support for the legacy security subsystem, which is being replaced fully by Elytron. This requires significant changes to how Keycloak is configured. Please, refer to the migration guide for more details.  For more information on WildFly 25 refer to the .   UPGRADE TO QUARKUS 2.5.3  Keycloak.X Quarkus preview distribution was upgraded to Quarkus 2.5.3.   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-12-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "UPX is is an open-source, portable, high-performance executable packer initially created in 1996. It takes an executable as input and produces a compressed executable. Readers from a certain age may have already used UPX a long time ago when programs needed to be compressed to fit on a floppy disk...."
 }

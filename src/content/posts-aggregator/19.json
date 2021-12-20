@@ -1,13 +1,13 @@
 {
-  "title": "How to fix Log4j CVE-2021-44228",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
+  "title": "KIE & Log4j2 exploit CVE-2021-44228",
+  "link": "https://blog.kie.org/2021/12/kie-log4j2-exploit-cve-2021-44228.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Mario Fusco",
       "avatar": null
     }
   ],
-  "date": "2021-12-13T17:14:36.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This short articles discussed the recent flaws in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. As discussed in this CVE there is a flaw in certain Log4j2 versions: From 2.0.0 to version ...  The post appeared first on ."
+  "date": "2021-12-13T18:25:30.000Z",
+  "feed_title": "KIE Community",
+  "content": "2.x is a widely used Java logging framework. Unfortunately a few days ago it has been exposed to an important (“Log4Shell”, CVE-2021-44228).   The whole KIE ecosystem (Kogito, Drools, OptaPlanner and jBPM) moved to , a different logging facade with Logback as default implementation, a few years ago and it is therefore not vulnerable by CVE-2021-44228. Accordingly, our recommendation is to ensure your applications are updated to the latest community versions (at the time of writing, Drools, jBPM, KIE Workbench/Business Central and KIE Server 7.62.0.Final, Kogito 1.14.1.Final, Optaplanner 8.14.0.Final).  Therefore if you’re using KIE projects as libraries in your projects you are not affected by this problem. Note that the , only declares the Log4j2 dependency management without actually depending on it. Dashbuilder is a monitoring component included in Business Central. We are about to just in case.  In case you’re declaring and/or using Log4j2 dependency in your own KIE projects, please make sure to upgrade Log4j2 as soon as possible to version 2.15.0 which solves this problem.   We invite you to monitor this blog post, which will be updated in case of any future additional findings.  Further readings:  Update note: We found that Dashbuilder brought in log4j-core as a transitive dependency from the module uberfire-metadata-backend-elasticsearch and it has been . The latest version of KIE Workbench/Business Central containing it was 7.46.0.Final.  Update note 2: As reported , the fact that WildFly distribution, and then also KIE Workbench/Business Central one which is based on it, contains the log4j-api artifact does not have any security implication. In fact the vulnerable code is only present in the log4j-core module which is not part of the distribution.  The post appeared first on .  "
 }
