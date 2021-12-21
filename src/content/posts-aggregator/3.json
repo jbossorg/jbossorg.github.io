@@ -1,13 +1,13 @@
 {
-  "title": "How to fix Log4j CVE-2021-44228",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
+  "title": "Eclipse Vert.x 4.2.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-3",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-20T05:14:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This security bulletin discusses the recent flaws in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. At the time of writing (20 December 2021), Log4j has the following vulnerabilities: CVE-2021-44228 (CVSS:10) CVE-2021-45046 (CVSS:10) ...  The post appeared first on ."
+  "date": "2021-12-21T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.3 has just been released."
 }

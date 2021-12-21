@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.5.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-5-4-final-released/",
+  "title": "Compressing native executables with UPX",
+  "link": "https://quarkus.io/blog/upx/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
   "date": "2021-12-20T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.5.4.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Main changes Jackson 2.12.6 We upgraded to Jackson..."
+  "content": "UPX is is an open-source, portable, high-performance executable packer initially created in 1996. It takes an executable as input and produces a compressed executable. Readers from a certain age may have already used UPX a long time ago when programs needed to be compressed to fit on a floppy disk...."
 }

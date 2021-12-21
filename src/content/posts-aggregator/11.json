@@ -1,10 +1,10 @@
 {
-  "title": "Upcoming client side default SSL context provider",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/client-side-jvm-wide-default-sslcontext/",
+  "title": "New Security Features in WildFly",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
   "date": "2021-12-17T00:00:00.000Z",

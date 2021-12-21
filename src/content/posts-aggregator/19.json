@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus is not affected by the Log4J Vulnerability",
-  "link": "https://quarkus.io/blog/quarkus-and-CVE-2021-4428/",
+  "title": "Eclipse Vert.x Webauthn 4.2.2.1 and 4.1.7.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-2-1_and_4-1-7-1",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Paulo Lopes",
       "avatar": null
     }
   ],
   "date": "2021-12-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As many of you have heard, the Java community has been rocked by a widespread vulnerability in the Apache Log4J 2 logging library. You can find more details about this vulnerability in CVE-2021-44228 Since Quarkus, its extensions, and dependencies do not use the log4j version 2 core library, it is..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x Webauthn version 4.2.2.1 and 4.1.7.1 has just been released."
 }

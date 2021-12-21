@@ -1,6 +1,6 @@
 {
-  "title": "Using a JAAS realm in Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/",
+  "title": "Upcoming client side default SSL context provider",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/client-side-jvm-wide-default-sslcontext/",
   "author": [
     {
       "name": "Diana Krepinska Vilkolakova",
