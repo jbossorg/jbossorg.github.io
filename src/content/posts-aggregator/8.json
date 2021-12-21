@@ -1,13 +1,14 @@
 {
-  "title": "New Security Features in WildFly",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly/",
+  "title": "Keycloak 16.0.0 released",
+  "link": "https://www.keycloak.org/2021/12/keycloak-1600-released",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
   "date": "2021-12-17T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   UPGRADE TO WILDFLY 26.0.0  Keycloak server was upgraded to use Wildfly 26.0.0.Final as the underlying container.  For more information on WildFly 26 refer to the .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
