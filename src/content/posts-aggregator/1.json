@@ -1,13 +1,13 @@
 {
-  "title": "How to handle Exceptions in JAX-RS applications",
-  "link": "http://www.mastertheboss.com/uncategorised/how-to-handle-exceptions-in-jax-rs-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-exceptions-in-jax-rs-applications",
+  "title": "Eclipse Vert.x 3.9.12 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-12",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-21T10:02:32.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to handle Exceptions properly in RESTful Web services using JAX-RS API and some advanced options which are available with RESTEasy and Quarkus runtime. Overview of REST Exceptions As for every Java classes, REST Endpoints can throw in their code both checked Exceptions (i.e. classes extending java.lang.Exception) and unchecked (i.e. ...  The post appeared first on ."
+  "date": "2021-12-22T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.12 has just been released."
 }
