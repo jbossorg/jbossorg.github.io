@@ -1,10 +1,10 @@
 {
-  "title": "Using a JAAS realm in Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/",
+  "title": "Upcoming filesystem realm encryption and integrity support in Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/upcoming-filesystem-encryption-integrity/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "Ashpan Raskar",
+      "avatar": null
     }
   ],
   "date": "2021-12-17T00:00:00.000Z",
