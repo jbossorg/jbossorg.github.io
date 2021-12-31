@@ -1,13 +1,13 @@
 {
-  "title": "How to run WildFly on Openshift",
-  "link": "http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/?utm_source=rss&utm_medium=rss&utm_campaign=using-wildfly-on-openshift",
+  "title": "Quarkus 2.6.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-6-1-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-23T01:38:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will teach you how to run the latest version of WildFly on Openshift. We will then look at advanced options such as overriding the default server settings (WildFly 26 update). Finally, we will learn how to create a custom WildFly distribution using Galleon layers. Setting up WildFly Image Streams Openshift uses Image Streams ...  The post appeared first on ."
+  "date": "2021-12-24T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2021 has been a tremendous year for Quarkus and today we officially close our 2021 release season with the last maintenance release of the year: 2.6.1.Final is available on Maven Central and ready for consumption! It is a safe upgrade for anyone already using 2.6 and contains dozens of small..."
 }
