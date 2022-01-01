@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 15.1.1 released",
-  "link": "https://www.keycloak.org/2021/12/keycloak-1511-released",
+  "title": "Quarkus 2.5.4.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-5-4-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   UPGRADE TO WILDFLY 26.0.0  Keycloak server was upgraded to use Wildfly 26.0.0.Final as the underlying container.  For more information on WildFly 26 refer to the .   ALL RESOLVED ISSUES  The full list of resolved issues are available in   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2021-12-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.5.4.Final, a maintenance release for our 2.5 release train containing bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.5. If you are not using 2.5 already, please refer to the 2.5 migration guide. Main changes Jackson 2.12.6 We upgraded to Jackson..."
 }
