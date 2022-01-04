@@ -1,13 +1,13 @@
 {
-  "title": "Compressing native executables with UPX",
-  "link": "https://quarkus.io/blog/upx/",
+  "title": "How to fix Log4j CVE-2021-44228",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "UPX is is an open-source, portable, high-performance executable packer initially created in 1996. It takes an executable as input and produces a compressed executable. Readers from a certain age may have already used UPX a long time ago when programs needed to be compressed to fit on a floppy disk...."
+  "date": "2021-12-20T05:14:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This security bulletin discusses the recent flaws in Log4j2 library which affects some recent versions of this opensource library. Let’s see how to perform checks and mitigation actions if your Java applications are using a flawed Log4j2 version. At the time of writing (20 December 2021), Log4j has the following vulnerabilities: CVE-2021-44228 (CVSS:10) CVE-2021-45046 (CVSS:10) ...  The post appeared first on ."
 }

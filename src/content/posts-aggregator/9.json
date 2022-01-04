@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.6.0.Final released - SmallRye Reactive Messaging 3.13 and Kafka 3, programmatic API for caching, Kotlin 1.6 and a lot more!",
-  "link": "https://quarkus.io/blog/quarkus-2-6-0-final-released/",
+  "title": "Eclipse Vert.x 4.1.8 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-8",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2021-12-22T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is my great pleasure to announce the release of Quarkus 2.6.0.Final which comes with some nice changes: Some extensions moved to Quarkiverse Hub SmallRye Reactive Messaging 3.13 and Kafka 3 Programmatic API for caching Smaller image for native executables Built-in UPX compression AWT extension Kotlin 1.6 Camel 3.14 Due..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.1.8 has just been released."
 }
