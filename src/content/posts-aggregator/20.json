@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 16.1.0 released",
-  "link": "https://www.keycloak.org/2021/12/keycloak-1610-released",
+  "title": "Compressing native executables with UPX",
+  "link": "https://quarkus.io/blog/upx/",
   "author": [
     {
-      "name": null,
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
   "date": "2021-12-20T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   RELEASE NOTES   HIGHLIGHTS  UPGRADE TO WILDFLY 26.0.0  Keycloak server was upgraded to use Wildfly 26.0.0.Final as the underlying container.  For more information on WildFly 26 refer to the .   MIGRATION FROM 16.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Upgrade to WildFly 26.0.0.Final keycloak   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "feed_title": "Quarkus",
+  "content": "UPX is is an open-source, portable, high-performance executable packer initially created in 1996. It takes an executable as input and produces a compressed executable. Readers from a certain age may have already used UPX a long time ago when programs needed to be compressed to fit on a floppy disk...."
 }
