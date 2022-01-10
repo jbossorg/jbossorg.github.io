@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Infinispan data grid -the right way",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/infinispan/infinispan-tutorial-part-1/?utm_source=rss&utm_medium=rss&utm_campaign=infinispan-tutorial-part-1",
+  "title": "Quarkus 2.6.0.Final released - SmallRye Reactive Messaging 3.13 and Kafka 3, programmatic API for caching, Kotlin 1.6 and a lot more!",
+  "link": "https://quarkus.io/blog/quarkus-2-6-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-21T10:10:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Infinispan is a distributed in-memory key/value data grid. An in-memory data grid is a form of middleware that stores sets of data for use in one or more applications, primarily in memory. The data is typically distributed across grid nodes in a network. Updated with the latest version of Infinispan: – You can use Infinispan ...  The post appeared first on ."
+  "date": "2021-12-22T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is my great pleasure to announce the release of Quarkus 2.6.0.Final which comes with some nice changes: Some extensions moved to Quarkiverse Hub SmallRye Reactive Messaging 3.13 and Kafka 3 Programmatic API for caching Smaller image for native executables Built-in UPX compression AWT extension Kotlin 1.6 Camel 3.14 Due..."
 }
