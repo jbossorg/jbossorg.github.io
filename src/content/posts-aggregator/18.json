@@ -1,13 +1,13 @@
 {
-  "title": "How to handle Exceptions in JAX-RS applications",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-handle-exceptions-in-jax-rs-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-exceptions-in-jax-rs-applications",
+  "title": "Getting Started with Infinispan data grid -the right way",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/infinispan/infinispan-tutorial-part-1/?utm_source=rss&utm_medium=rss&utm_campaign=infinispan-tutorial-part-1",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-21T10:02:32.000Z",
+  "date": "2021-12-21T10:10:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to handle Exceptions properly in RESTful Web services using JAX-RS API and some advanced options which are available with RESTEasy and Quarkus runtime. Overview of REST Exceptions As for every Java classes, REST Endpoints can throw in their code both checked Exceptions (i.e. classes extending java.lang.Exception) and unchecked (i.e. ...  The post appeared first on ."
+  "content": "Infinispan is a distributed in-memory key/value data grid. An in-memory data grid is a form of middleware that stores sets of data for use in one or more applications, primarily in memory. The data is typically distributed across grid nodes in a network. Updated with the latest version of Infinispan: – You can use Infinispan ...  The post appeared first on ."
 }

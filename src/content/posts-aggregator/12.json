@@ -1,13 +1,13 @@
 {
-  "title": "How to run WildFly on Openshift",
-  "link": "http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/?utm_source=rss&utm_medium=rss&utm_campaign=using-wildfly-on-openshift",
+  "title": "Infinispan and Log4j CVE-2021-45046 CVE-2021-45105",
+  "link": "https://infinispan.org/blog/2021/12/23/infinispan-log4j-cve-releases",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Ryan Emerson",
       "avatar": null
     }
   ],
-  "date": "2021-12-23T01:38:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will teach you how to run the latest version of WildFly on Openshift. We will then look at advanced options such as overriding the default server settings (WildFly 26 update). Finally, we will learn how to create a custom WildFly distribution using Galleon layers. Setting up WildFly Image Streams Openshift uses Image Streams ...  The post appeared first on ."
+  "date": "2021-12-23T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan community,  We’ve just released , and to address the latest CVEs that affect log4j-core (, ). Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.3.Final for Infinispan 13.0 and 2.1.7.Final for Infinispan 12.1. Please upgrade as soon as you can. Refer to our for versions.   WHAT’S AFFECTED  We include log4j-core in our server distributions, including the . We are fixing the issue by upgrading to Log4J 2.17.0.   MITIGATION STRATEGIES  If you cannot upgrade, there are a several you can apply. But upgrading is always the best solution."
 }
