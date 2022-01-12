@@ -1,13 +1,14 @@
 {
-  "title": "Infinispan and Log4j CVE-2021-45046 CVE-2021-45105",
-  "link": "https://infinispan.org/blog/2021/12/23/infinispan-log4j-cve-releases",
+  "title": "Important security vulnerability discovered",
+  "link": "https://www.keycloak.org/2021/12/cve",
   "author": [
     {
-      "name": "Ryan Emerson",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2021-12-23T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  We’ve just released , and to address the latest CVEs that affect log4j-core (, ). Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.3.Final for Infinispan 13.0 and 2.1.7.Final for Infinispan 12.1. Please upgrade as soon as you can. Refer to our for versions.   WHAT’S AFFECTED  We include log4j-core in our server distributions, including the . We are fixing the issue by upgrading to Log4J 2.17.0.   MITIGATION STRATEGIES  If you cannot upgrade, there are a several you can apply. But upgrading is always the best solution."
+  "date": "2021-12-23T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "A flaw () was found in Keycloak version from 12.0.0 and before 15.1.1 which allows an attacker with any existing user account to create new default user accounts via the administrative REST API even when new user registration is disabled.  In most situations the newly created user is the equivalent of a self-registered user, and does not have the ability to receive any additional roles or groups. However, there are some vectors that are harder to reproduce, but may result in additional privileges.  We highly recommend everyone upgrade to Keycloak 15.1.1 or 16.1.0 as soon as possible. Keycloak 16.0.0 also includes the fix, but if you are not already running this version we recommend going straight to 16.1.0.  If you are unable to upgrade we recommend mitigate the issue by blocking access to the user creation REST endpoint in the interim.  This can be achieved with the following CLI commands:  bin/jboss-cli.sh --connect /subsystem=undertow/configuration=filter/expression-filter=keycloakPathOverrideUsersCreateEndpoint:add( \\   expression=\"(regex('^/auth/admin/realms/(.*)/users$') and method(POST))-> response-code(400)\" \\ ) /subsystem=undertow/server=default-server/host=default-host/filter-ref=keycloakPathOverrideUsersCreateEndpoint:add()  This will block both valid and invalid attempts at creating new users, including requests from the Keycloak admin console.  Alternatively, the path /auth/admin/realms/.*/users and method POST, or /auth/admin completely, can be blocked with a firewall.  For more information about the flaw please view and ."
 }

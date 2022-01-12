@@ -1,13 +1,13 @@
 {
-  "title": "How to run WildFly on Openshift",
-  "link": "http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/?utm_source=rss&utm_medium=rss&utm_campaign=using-wildfly-on-openshift",
+  "title": "Eclipse Vert.x 3.9.12 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-12",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2021-12-23T01:38:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will teach you how to run the latest version of WildFly on Openshift. We will then look at advanced options such as overriding the default server settings (WildFly 26 update). Finally, we will learn how to create a custom WildFly distribution using Galleon layers. Setting up WildFly Image Streams Openshift uses Image Streams ...  The post appeared first on ."
+  "date": "2021-12-22T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.12 has just been released."
 }
