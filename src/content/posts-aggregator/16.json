@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan and Log4j CVE-2021-45046 CVE-2021-45105",
-  "link": "https://infinispan.org/blog/2021/12/23/infinispan-log4j-cve-releases",
+  "title": "Quarkus 2.6.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-6-1-final-released/",
   "author": [
     {
-      "name": "Ryan Emerson",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-12-23T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  We’ve just released , and to address the latest CVEs that affect log4j-core (, ). Additionally, we have released upgraded versions of the Infinispan Operator to match the server versions: 2.2.3.Final for Infinispan 13.0 and 2.1.7.Final for Infinispan 12.1. Please upgrade as soon as you can. Refer to our for versions.   WHAT’S AFFECTED  We include log4j-core in our server distributions, including the . We are fixing the issue by upgrading to Log4J 2.17.0.   MITIGATION STRATEGIES  If you cannot upgrade, there are a several you can apply. But upgrading is always the best solution."
+  "date": "2021-12-24T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2021 has been a tremendous year for Quarkus and today we officially close our 2021 release season with the last maintenance release of the year: 2.6.1.Final is available on Maven Central and ready for consumption! It is a safe upgrade for anyone already using 2.6 and contains dozens of small..."
 }

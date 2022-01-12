@@ -1,13 +1,13 @@
 {
-  "title": "What you need to know about CVE-2021-42392",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/what-you-need-to-know-about-cve-2021-42392/?utm_source=rss&utm_medium=rss&utm_campaign=what-you-need-to-know-about-cve-2021-42392",
+  "title": "Quarkus 2.6.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-6-2-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-01-08T11:23:07.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "H2 Console in versions between 1.1.100 and 2.0.204 is vulnerable as it allows loading of custom classes from remote servers through JNDI, like the Log4Shell vulnerability. Let’s see in detail the issue and how this can affect our environment. Starting the H2 Console Firstly, let’s see the source of the issue. H2 ships with a ...  The post appeared first on ."
+  "date": "2022-01-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.6.2.Final, our second maintenance release for our 2.6 release train. It is a safe upgrade for anyone already using 2.6 and contains small bugfixes, tweaks and documentation improvements. It also brings back a working Kogito stack. Due to some infrastructure problems, the Kogito team wasn’t able..."
 }
