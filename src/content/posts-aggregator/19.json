@@ -1,6 +1,6 @@
 {
-  "title": "Eclipse Vert.x 4.1.8 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-1-8",
+  "title": "Eclipse Vert.x 3.9.12 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-12",
   "author": [
     {
       "name": "Julien Viet",
@@ -9,5 +9,5 @@
   ],
   "date": "2021-12-22T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.1.8 has just been released."
+  "content": "Eclipse Vert.x version 3.9.12 has just been released."
 }
