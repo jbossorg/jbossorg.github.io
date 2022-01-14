@@ -1,13 +1,13 @@
 {
-  "title": "How to run Quarkus applications on Kubernetes",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-run-quarkus-applications-on-kubernetes/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-run-quarkus-applications-on-kubernetes",
+  "title": "What you need to know about CVE-2021-42392",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/what-you-need-to-know-about-cve-2021-42392/?utm_source=rss&utm_medium=rss&utm_campaign=what-you-need-to-know-about-cve-2021-42392",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-01-07T09:40:39.000Z",
+  "date": "2022-01-08T11:23:07.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this article we will learn how to deploy a Quarkus application on top of a Kubernetes cluster. We will start with a minimal REST application and then we will increase its complexity. Hard requirements: A Kubernetes cluster. For the sake of this example we recommend using Minikube (See this article to get started quickly ...  The post appeared first on ."
+  "content": "H2 Console in versions between 1.1.100 and 2.0.204 is vulnerable as it allows loading of custom classes from remote servers through JNDI, like the Log4Shell vulnerability. Let’s see in detail the issue and how this can affect our environment. Starting the H2 Console Firstly, let’s see the source of the issue. H2 ships with a ...  The post appeared first on ."
 }

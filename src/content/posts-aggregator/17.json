@@ -1,13 +1,13 @@
 {
-  "title": "Java SE Bootstrap API In Jakarta REST 3.1",
-  "link": "https://resteasy.github.io/2021/12/24/bootstrap-jaxrs31/",
+  "title": "Getting started with Netty",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/netty/jboss-netty-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=jboss-netty-tutorial",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-12-24T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-01-01T03:35:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Netty is a client/server framework that provides a simplified layer over NIO networking. This makes it a good candidate to create low-level nonblocking network applications. Overview of Netty Before we begin with a practical example, let’s see the main highlights of Netty framework: Ease of use: Netty is simpler to use than plain Java NIO ...  The post appeared first on ."
 }
