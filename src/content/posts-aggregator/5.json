@@ -1,13 +1,13 @@
 {
-  "title": "Creating a Quarkus extension for AWS CloudWatch",
-  "link": "https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/",
+  "title": "Ask (Quark)us anything!",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda3/",
   "author": [
     {
-      "name": "Bennet Schulz",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
   "date": "2022-01-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Creating a Quarkus extension for AWS CloudWatch We recently had the situation that we wanted to log our Quarkus application logs to AWS CloudWatch. Basically it takes some time but is not a big deal. Adding a CloudWatch dependency, creating a Log Handler and push the logs to CloudWatch via..."
+  "content": "Time for our semi-annually Q&A session where we drive the episode using your questions! To submit questions comment on this blog or the matching post in our GitHub Discussion forum or post a tweet using the hashtag #quarkusinsights. If an existing question is of interest do upvote questions found in..."
 }
