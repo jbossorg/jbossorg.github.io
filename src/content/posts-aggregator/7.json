@@ -1,13 +1,13 @@
 {
-  "title": "How to configure Web applications request limits in WildFly",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-configure-web-applications-request-limits-in-wildfly/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-configure-web-applications-request-limits-in-wildfly",
+  "title": "RESTEasy 6.0.0 Released",
+  "link": "https://resteasy.github.io/2022/01/13/resteasy-6.0.0-release/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-01-13T14:55:14.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article you will learn which strategies you can adopt on WildFly application server to configure the maximum number of concurrent requests using either a programmatic approach (MicroProfile Fault Tolerance) or declarative one (Undertow configuration). Implementing a policy to define the number of concurrent requests is crucial to limit requests and prevent faults from ...  The post appeared first on ."
+  "date": "2022-01-13T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
