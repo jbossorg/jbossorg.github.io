@@ -1,13 +1,13 @@
 {
-  "title": "How to code a Quarkus REST Client",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-code-a-quarkus-rest-client/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-code-a-quarkus-rest-client",
+  "title": "Quarkus 2.6.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-6-3-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-01-17T14:05:39.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is a walk through Quarkus REST Client API using MicroProfile REST Client. We will develop a basic REST Endpoint and then we will set up a simple Client project with a Service interface for our REST Service. When developing REST Client API, Quarkus offers two options: JAX-RS Web Client: This is the standard ...  The post appeared first on ."
+  "date": "2022-01-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.6.3.Final with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.6. Full changelog If you are not using 2.6 already, please refer to the 2.6 migration guide. You can get the full changelog of 2.6.3.Final on GitHub...."
 }
