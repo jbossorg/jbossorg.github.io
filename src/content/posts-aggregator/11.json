@@ -1,13 +1,13 @@
 {
-  "title": "Ask (Quark)us anything!",
-  "link": "https://quarkus.io/blog/quarkus-insights-qanda3/",
+  "title": "How to configure Web applications request limits in WildFly",
+  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-configure-web-applications-request-limits-in-wildfly/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-configure-web-applications-request-limits-in-wildfly",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-01-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Time for our semi-annually Q&A session where we drive the episode using your questions! To submit questions comment on this blog or the matching post in our GitHub Discussion forum or post a tweet using the hashtag #quarkusinsights. If an existing question is of interest do upvote questions found in..."
+  "date": "2022-01-13T14:55:14.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article you will learn which strategies you can adopt on WildFly application server to configure the maximum number of concurrent requests using either a programmatic approach (MicroProfile Fault Tolerance) or declarative one (Undertow configuration). Implementing a policy to define the number of concurrent requests is crucial to limit requests and prevent faults from ...  The post appeared first on ."
 }
