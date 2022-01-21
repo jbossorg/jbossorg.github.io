@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #16 - January",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-16/",
+  "title": "Ask (Quark)us anything!",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda3/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
   "date": "2022-01-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The January Newsletter has been published! This month, you can find articles about the Java InfoQ Trend report for December 2021, how to use Quarkus with the service binding operator, how to run Qurkus applications on Kubernetes, and lessons learned migrating Spring Boot to Quarkus. Check out Newsletter #16! Want..."
+  "content": "Time for our semi-annually Q&A session where we drive the episode using your questions! To submit questions comment on this blog or the matching post in our GitHub Discussion forum or post a tweet using the hashtag #quarkusinsights. If an existing question is of interest do upvote questions found in..."
 }

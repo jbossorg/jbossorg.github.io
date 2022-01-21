@@ -1,13 +1,13 @@
 {
-  "title": "Ask (Quark)us anything!",
-  "link": "https://quarkus.io/blog/quarkus-insights-qanda3/",
+  "title": "RESTEasy 6.0.0 Released",
+  "link": "https://resteasy.github.io/2022/01/13/resteasy-6.0.0-release/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-01-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Time for our semi-annually Q&A session where we drive the episode using your questions! To submit questions comment on this blog or the matching post in our GitHub Discussion forum or post a tweet using the hashtag #quarkusinsights. If an existing question is of interest do upvote questions found in..."
+  "date": "2022-01-13T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

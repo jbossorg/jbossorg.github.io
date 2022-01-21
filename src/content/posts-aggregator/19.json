@@ -1,13 +1,13 @@
 {
-  "title": "How to run Quarkus applications on Kubernetes",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-run-quarkus-applications-on-kubernetes/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-run-quarkus-applications-on-kubernetes",
+  "title": "Quarkus 2.6.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-6-2-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-01-07T09:40:39.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will learn how to deploy a Quarkus application on top of a Kubernetes cluster. We will start with a minimal REST application and then we will increase its complexity. Hard requirements: A Kubernetes cluster. For the sake of this example we recommend using Minikube (See this article to get started quickly ...  The post appeared first on ."
+  "date": "2022-01-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.6.2.Final, our second maintenance release for our 2.6 release train. It is a safe upgrade for anyone already using 2.6 and contains small bugfixes, tweaks and documentation improvements. It also brings back a working Kogito stack. Due to some infrastructure problems, the Kogito team wasn’t able..."
 }
