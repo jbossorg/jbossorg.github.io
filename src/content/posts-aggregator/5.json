@@ -1,13 +1,13 @@
 {
-  "title": "Querying Infinispan with the new .NET core client",
-  "link": "https://infinispan.org/blog/2022/01/21/dotnet-core-query",
+  "title": "Migrating from Spring Boot to Quarkus with MTA",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/migrating-from-spring-boot-to-quarkus-with-mta/?utm_source=rss&utm_medium=rss&utm_campaign=migrating-from-spring-boot-to-quarkus-with-mta",
   "author": [
     {
-      "name": "Vittorio Rigamonti",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-01-21T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispanners and .NET Core lovers,  Time has passed, keys have been pressed and features have been implemented since we , some months ago, the new .NET core client project.  To show you our progress with the project we’ve decided to write a demo/tutorial on how you can run remote queries against Infinispan Server deployments in your .NET Core application.  The demo aims to prove the overall maturity of the client and highlight some key client features like:   * Shipping as a NuGet package, making it easy to include in C# projects.   * Using [BeetleX’s]() non-blocking core to add native support for concurrency.   * Using language-neutral data types with the Protobuf media type for    interoperability.  Want to know more go to the and try it!  We hope this is a good start to 2022 for all Infinispan C# developers!  Please let us know your thoughts. A good place to share them is the page.  The Infinispan Team"
+  "date": "2022-01-21T17:48:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will walk through a sample migration of a Spring Boot REST Application to Quarkus using Red Hat Migration Toolkit for Applications (MTA). Overview of Red Hat Migration Toolkit The Migration Toolkit for Applications (MTA) is an extensible tool which you can use to simplify the migration of several Java applications. This ...  The post appeared first on ."
 }
