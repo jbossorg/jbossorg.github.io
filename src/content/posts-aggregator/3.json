@@ -1,13 +1,14 @@
 {
-  "title": "Migrating from Spring Boot to Quarkus with MTA",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/migrating-from-spring-boot-to-quarkus-with-mta/?utm_source=rss&utm_medium=rss&utm_campaign=migrating-from-spring-boot-to-quarkus-with-mta",
+  "title": "Keycloak 16.1.1 released",
+  "link": "https://www.keycloak.org/2022/01/keycloak-1611-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-01-21T17:48:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will walk through a sample migration of a Spring Boot REST Application to Quarkus using Red Hat Migration Toolkit for Applications (MTA). Overview of Red Hat Migration Toolkit The Migration Toolkit for Applications (MTA) is an extensible tool which you can use to simplify the migration of several Java applications. This ...  The post appeared first on ."
+  "date": "2022-01-25T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 16.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
