@@ -1,0 +1,91 @@
+= This Week in JBoss - January 27th 2022
+Jonthan Vila
+2022-01-27
+:tags: quarkus, java, resteasy, camel, event-driven, mta, keycloak, wildfly, vertx, kogito, idaas
+
+Hello! Welcome to the second JBoss weekly editorial of 2022.
+Enjoy our pick of the latest news and interesting reads from around the JBoss community.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-6-3-final-released/[Quarkus 2.6.3]
+
+* link:https://www.keycloak.org/2022/01/keycloak-1611-released[Keycloak 16.1.1]
+
+* link:https://wildfly.org//news/2022/01/21/WildFly-2601-Released/[WildFly 26.0.1]
+
+* link:https://vertx.io/blog/eclipse-vert-x-4-2-4[Eclipse Vert.x 4.2.4]
+
+* link:https://resteasy.github.io/2022/01/13/resteasy-6.0.0-release/[RESTEasy 6.0.0]
+
+
+
+
+== Articles, Books, and Tutorials
+
+Check out some of the recent articles about Java, Kubernetes, Quarkus, and more...
+
+=== Event-driven predictions with Kogito
+
+link:https://blog.kie.org/2022/01/event-driven-predictions-with-kogito.html[Event-driven predictions with Kogito] by Alessandro Costa
+
+This blogpost introduces the event-driven predictions addon and is the third of my series of event-driven with Kogito posts, after the and event-driven predictions addons.
+
+=== Migrating from Spring Boot to Quarkus with MTA
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/migrating-from-spring-boot-to-quarkus-with-mta/?utm_source=rss&utm_medium=rss&utm_campaign=migrating-from-spring-boot-to-quarkus-with-mta[Migrating from Spring Boot to Quarkus with MTA] By F.Marchioni
+
+In this article we will walk through a sample migration of a Spring Boot REST Application to Quarkus using Red Hat Migration Toolkit for Applications (MTA). The Migration Toolkit for Applications (MTA) is an extensible tool which you can use to simplify the migration of several Java applications. 
+
+=== Intelligent data as a service (iDaaS) - Example HL7 and FHIR integration
+
+link:http://www.schabell.org/2022/01/idaas-example-hl7-and-fhir-integration.html[Intelligent data as a service (iDaaS) - Example HL7 and FHIR integration] by Eric D. Schabell
+
+Part 4 - Example HL7 & FHIR integration In our  from this series we talked about the example iDaaS data architecture which outlines at a higher abstraction level the solution for any healthcare organisation.
+
+=== Multi-tenancy Support for OpenID Connect Applications
+
+link:https://wildfly-security.github.io/wildfly-elytron/blog/multi-tenancy-support-openid-connect/[Multi-tenancy Support for OpenID Connect Applications] By Farah Juma
+
+Applications deployed to WildFly can be secured with OpenID Connect, without needing to use the Keycloak client adapter.
+
+WildFly 26.0.1.Final, which was just released, includes a fix for multi-tenancy support for OpenID Connect applications. This blog post gives an overview of how to configure OpenID Connect applications deployed to WildFly so they can support multi-tenancy.
+
+=== WildFly Release Plans for 2022
+
+link:https://wildfly.org//news/2022/01/21/WildFly-2022/[WildFly Release Plans for 2022] By Brian Stansberry
+
+In the Changes are coming to WildFly post last September, it was tried to give a sense of how the transition to Jakarta EE 10 was likely to impact the next few WildFly releases. With WildFly 26 out the door and our efforts for 2022 ramping up, we want to give our community on update on how we see things playing out over the course of the year.
+
+=== Camel meets KEDA
+
+link:https://www.nicolaferraro.me/2022/01/21/camel-meets-keda/[Camel meets KEDA] By Nicola Ferraro
+
+(Kubernetes Event Driven Autoscalers) is a fantastic project (currently incubating) that provides Kubernetes-based autoscalers to help applications to scale out according to the number of incoming events when they are listening to several kinds of event sources.
+
+=== Event-driven rules with Kogito
+
+link:https://blog.kie.org/2022/01/event-driven-rules-with-kogito.html[Event-driven rules with Kogito] By Alessandro Costa
+
+As part of our effort to make Kogito usable in an event-driven fashion, this article introduces a new addon: the event-driven rules addon. It is available since Kogito v1.12.0 and its behavior resembles what the event-driven decisions addon () already does for decisions.
+
+=== Red Hat Summit 2022 - Talking Architecture Shop Series
+
+link:http://www.schabell.org/2022/01/red-hat-summit-2022-talking-architecture-shop-series.html[Red Hat Summit 2022 - Talking Architecture Shop Series] By Eric D. Schabell
+
+It's that time of year again when we get the call for papers! I heard the call and thought this year would be a perfect time to go all in with sessions around our architectures based on a series of talks we've designed to showcase the various aspects we cover.
+
+=== Videos
+
+Here's my pick of this week's YouTube videos:
+
+* link:https://www.youtube.com/watch?v=K7BHG4bEloE[Simplify Data Transactions with Quarkus Dev Service for SQL Server]
+* link:https://www.youtube.com/watch?v=ChDVGuqGqUI[Quarkus Insights #77: Quarkus Renarde - a server-side web framework experiment]
+* link:https://www.youtube.com/watch?v=OS7yZJQ2Q-0[Continuous Performance Regression Testing with JfrUnit]
+
+
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
