@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 16.1.1 released",
-  "link": "https://www.keycloak.org/2022/01/keycloak-1611-released",
+  "title": "How to configure an Elytron JAAS Security Realm",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-security/how-to-configure-an-elytron-jaas-security-realm/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-configure-an-elytron-jaas-security-realm",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-01-25T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 16.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Upgrade to WildFly 26.0.1.Final keycloak   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-01-25T09:44:43.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article is a walk though the configuration of an Elytron JAAS security Realm on WildFly application server. We will shortly review how JAAS configuration works and then we will deploy an example application which leverages the JAAS Security Configuration file. JAAS in a nutshell The Java Authentication and Authorization Service (JAAS) is a security ...  The post appeared first on ."
 }
