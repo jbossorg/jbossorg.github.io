@@ -1,13 +1,13 @@
 {
-  "title": "CUSTOMIZE PATH AND NAME OF GENERATED DMN/BPMN SVGs ON VS CODE",
-  "link": "https://blog.kie.org/2022/02/customize-path-and-name-of-generated-dmn-bpmn-svgs-on-vs-code.html",
+  "title": "Running Arquillian Tests from Eclipse",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/arquillian/running-arquillian-tests-from-eclipse/?utm_source=rss&utm_medium=rss&utm_campaign=running-arquillian-tests-from-eclipse",
   "author": [
     {
-      "name": "Thiago Lugli",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-02T14:39:15.000Z",
-  "feed_title": "KIE Community",
-  "content": "To allow new automated workflows and more customizability when creating or editing .dmn/.bpmn files on VS Code, on Kogito Tooling 0.16.0, we introduced new extension settings that allow users to define where to save and what to call the generated SVG files.  Check out the example below:   AVAILABLE SETTINGS  Both DMN e BPMN Editors now have this feature, so to start using it, all you have to do is configure the new available settings:   * kogito.{dmn|bpmn}.svgFilenameTemplate  * kogito.{dmn|bpmn}.svgFilePath  For this, you will need to access the settings page on VS Code or edit your settings.json file directly:   * On Windows/Linux: File > Preferences > Settings  * On macOS: Code > Preferences > Settings  Svg Filename Template: Define the name of the generated SVG file. Note: It must not contain a sub-path, as this should be defined in the SVG File Path setting.  SVG File Path: This setting is used to define the path where the generated SVG file should be saved. Note: It must be a writable path anywhere on your file system.  For both settings, some predefined variables can be used to compose their values, as they will be replaced with the corresponding values according to the table below.   PREDEFINED VARIABLES  Let’s say you have a workspace with the following structure opened on your VS Code instance and you are editing myDecision1.dmn on the DMN Editor extension:   * myProject/    * decisions/      * myDecision1.dmn      * myDecision2.dmn    * src/      * …  These are the variables available and their respective values for the case described above:  TokenValue${workspaceFolder}/user/home/myProject${fileDirname}/user/home/myProject/decisions${fileExtname}.dmn${fileBasename}myDecision1.dmn${fileBasenameNoExtension}myDecision1  These predefined variables were based on VS Code’s , except they are only available for tasks.json and launch.json configuration files. (Support for the settings.json configuration file is being tracked on the following issues: and )   EXAMPLE OF USAGE  Using the same workspace structure detailed above we might want to save generated SVG files in the myProject/assets/decisions/.dmn/ directory with the following name: \"myDecision1.svg\". For that the settings should have the following values:  kogito.dmn.svgFilenameTemplate${fileBasenameNoExtension}.svgkogito.dmn.svgFilePath${workspaceFolder}/assets/decisions/${fileExtname}/  The same goes for BPMN files.  Feel free to leave your feedback and questions in the comment section!  The post appeared first on .  "
+  "date": "2022-02-03T10:55:33.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Have you ever wondered how to run Arquillian Integration tests without leaving your favourite IDE? Then keep reading! For the purpose of this example, we will be using Eclipse, however you can easily adapt it to any other IDE such as Idea or Visual Studio. An Arquillian Project to Test Our short demo will be ...  The post appeared first on ."
 }
