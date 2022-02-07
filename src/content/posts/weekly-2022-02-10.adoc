@@ -1,0 +1,98 @@
+= This Week in JBoss - February 10th 2022
+Pedro Silva
+2022-02-10
+:tags: quarkus, java, resteasy, camel, event-driven, mta, keycloak, wildfly, vertx, kogito, idaas
+
+Hello! Welcome to the third JBoss weekly editorial of 2022.
+Enjoy our pick of the latest news and interesting reads from around the JBoss community.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-7-0-final-released/[Quarkus 2.7.0]
+
+* link:https://blog.kie.org/2022/01/kogito-1-16-0-released.html[Kogito 1.16.0]
+
+== Articles, Books, and Tutorials
+
+Check out some of the recent articles about Java, Kubernetes, Quarkus, Keycloak and more...
+
+=== Deploy your KIE Sandbox to Openshift
+
+link:https://blog.kie.org/2022/01/deploy-your-kie-sandbox-to-openshift.html[Deploy your KIE Sandbox to Openshift] by Guilherme Caponetto
+
+The Kogito Tooling release 0.16.0 includes three container images to make it easy to deploy the KIE Sandbox to an OpenShift instance.
+
+=== KIE Sandbox: Top 7 key new features
+
+link:https://blog.kie.org/2022/02/kie-sandbox-top-7-key-new-features.html[KIE Sandbox: Top 7 key new features] by Eder Ignatowicz
+
+In the last months of 2021, the “.NEW environment” (bpmn.new, dmn.new) received a massive update, and now it's named KIE Sandbox! Dealing with complex models and collaborating with others has just become much easier. In this blog post, let's go for a walkthrough of the top new features of KIE Sandbox.
+
+=== Artemis monitoring in OpenShift
+
+link:https://blog.ramon-gordillo.dev/2022/02/artemis-monitoring-in-openshift/[Artemis monitoring in OpenShift] by Ramón Gordillo
+
+It is really simple to monitor the brokers deployed on OpenShift and show the metrics in grafana or configuring alerts based on the metrics. We are using the artemis version included in AMQ 7.9 deployed with the operator.
+
+=== Deprecation of Keycloak adapters
+
+link:https://www.keycloak.org/2022/02/adapter-deprecation[Deprecation of Keycloak adapters] by Stian Thorgersen
+
+This blog is a notice that the Keycloak will be deprecating the Keycloak Adapters.
+
+=== Running Arquillian Tests from Eclipse
+
+link:http://www.mastertheboss.com/jboss-frameworks/arquillian/running-arquillian-tests-from-eclipse/[Running Arquillian Tests from Eclipse] by F. Marchioni
+
+The blog guide you how to configure the Arquillian Tests on Eclipse.
+
+=== Reverse engineer your JBoss AS-WildFly configuration to CLI
+
+link:http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/[Reverse engineer your JBoss AS-WildFly configuration to CLI] by F. Marchioni
+
+Exporting your WildFly/JBoss EAP configuration to a CLI script is something you are going to need one day or another. No worries, the project Profile Cloner comes to rescue!
+
+=== Intelligent data as a service (iDaaS) - Example data insights
+
+link:https://www.schabell.org/2022/01/idaas-example-data-insights.html[Intelligent data as a service (iDaaS) - Example data insights] by Eric D. Schabell
+
+Part 5 - Data insights through the iDaaS insights architecture provides a different look at the architecture and gives us insights into how our healthcare solutions are performing.
+
+=== What's new for developers in Java 18?
+
+link:https://developers.redhat.com/articles/2022/01/27/whats-new-developers-java-18[What's new for developers in Java 18?] by Shaaf, Syed
+
+This article highlights some of the features that developers can look for in the upcoming Java 18 release, including the new simple web server module, a more sophisticated way to annotate your Javadocs, and the `–finalization=disabled option`, which lets you test how a Java application will behave when finalization is removed in a future release. See the end of the article for where to download Java 18 in early access builds.
+
+=== Build a bootable JAR for cloud-ready microservices
+
+link:https://developers.redhat.com/articles/2022/01/26/build-bootable-jar-cloud-ready-microservices[Build a bootable JAR for cloud-ready microservices] by Mauro Vocale
+
+This article describes how to create a bootable JAR using Red Hat JBoss Enterprise Application Platform (JBoss EAP) and Jakarta EE and incorporate useful extensions, particularly a PostgreSQL database and MicroProfile capabilities.
+
+=== Connect to an external PostgreSQL database using SSL/TLS for Red Hat's single sign-on technology
+
+link:https://developers.redhat.com/articles/2021/08/31/connect-external-postgresql-database-using-ssltls-red-hats-single-sign[Connect to an external PostgreSQL database using SSL/TLS for Red Hat's single sign-on technology] by Olivier Rivat
+
+This article shows you how to connect securely to applications and data sources using Red Hat's single sign-on technology.
+
+=== Videos
+
+Here's my pick of this week's YouTube videos:
+
+* link:https://www.youtube.com/watch?v=oeDFWjV43zk[KIE Drop - Custom Forms]
+
+* link:https://www.youtube.com/watch?v=7M0Tvlx-GTA[Quarkus Insights #78: Quarkus Example App Demo]
+
+* link:https://www.youtube.com/watch?v=ypqllaWE0DA[Migrate Spring Boot to Quarkus in 5 minutes]
+
+* link:https://www.youtube.com/watch?v=VeKVUNRyH6k[Workshop: Red Hat OpenShift Streams for Apache Kafka with Service Registry (Feb 2, 2022)]
+
+=== Books
+
+* link:https://developers.redhat.com/e-books/kubernetes-native-microservices-quarkus-and-microprofile[Kubernetes Native Microservices with Quarkus and MicroProfile]
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
