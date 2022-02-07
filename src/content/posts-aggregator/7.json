@@ -1,13 +1,13 @@
 {
-  "title": "How to externalize HTTP sessions on Infinispan",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/infinispan/how-to-externalize-http-sessions-on-infinispan/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-externalize-http-sessions-on-infinispan",
+  "title": "Quarkus 2.7.0.Final released - Quarkus CLI maturing, Interactive terminal, Oracle Reactive SQL Client...",
+  "link": "https://quarkus.io/blog/quarkus-2-7-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-02-01T17:26:59.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is a step by step guide for setting up a remote Infinispan cluster as an HTTP session store for your HTTP Sessions running on WildFly application server. You can carry out equivalent steps to externalize JBoss EAP 7 session on Red Hat Data Grid. Benefits of having external HTTP Sessions You can use ...  The post appeared first on ."
+  "date": "2022-02-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2-2-2022 would have been a perfect day to release a 2.2.2.Final version of Quarkus but we didn’t get that lucky. Today we announce the release of Quarkus 2.7.0.Final. 2.7.0.Final comes with a lot of refinements and new features: Lots of improvements for the Quarkus CLI, that has now been published..."
 }
