@@ -11,7 +11,8 @@ Enjoy our pick of the latest news and interesting reads from around the JBoss co
 Here are the releases from the JBoss Community for this edition:
 
 [square]
-* link:https://quarkus.io/blog/quarkus-2-7-0-final-released/[Quarkus 2.7.0]
+
+* link:https://quarkus.io/blog/quarkus-2-7-1-final-released/[Quarkus 2.7.1.Final]
 
 * link:https://blog.kie.org/2022/01/kogito-1-16-0-released.html[Kogito 1.16.0]
 
@@ -41,19 +42,19 @@ It is really simple to monitor the brokers deployed on OpenShift and show the me
 
 link:https://www.keycloak.org/2022/02/adapter-deprecation[Deprecation of Keycloak adapters] by Stian Thorgersen
 
-This blog is a notice that the Keycloak will be deprecating the Keycloak Adapters.
+This blog is a notice that the Keycloak project will be deprecating the Keycloak Adapters.
 
 === Running Arquillian Tests from Eclipse
 
 link:http://www.mastertheboss.com/jboss-frameworks/arquillian/running-arquillian-tests-from-eclipse/[Running Arquillian Tests from Eclipse] by F. Marchioni
 
-The blog guide you how to configure the Arquillian Tests on Eclipse.
+The blog shows you how to configure the Arquillian Tests on Eclipse.
 
 === Reverse engineer your JBoss AS-WildFly configuration to CLI
 
 link:http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/[Reverse engineer your JBoss AS-WildFly configuration to CLI] by F. Marchioni
 
-Exporting your WildFly/JBoss EAP configuration to a CLI script is something you are going to need one day or another. No worries, the project Profile Cloner comes to rescue!
+Exporting your WildFly/JBoss EAP configuration to a CLI script is something you are going to need one day or another. No worries, the project Profile Cloner comes to the rescue!
 
 === Intelligent data as a service (iDaaS) - Example data insights
 
