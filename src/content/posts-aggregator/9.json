@@ -1,13 +1,13 @@
 {
-  "title": "Running Arquillian Tests from Eclipse",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/arquillian/running-arquillian-tests-from-eclipse/",
+  "title": "Quarkus World Tour 2022 - The Road Never Ends",
+  "link": "https://quarkus.io/blog/quarkusworldtour-2022/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-02-03T10:55:33.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Have you ever wondered how to run Arquillian Integration tests without leaving your favourite IDE? Then keep reading! For the purpose of this example, we will be using Eclipse, however you can easily adapt it to any other IDE such as Idea or Visual Studio. An Arquillian Project to Test Our short demo will be ...  The post appeared first on ."
+  "date": "2022-02-04T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "For true rock stars, the road never ends. We’re bringing the band back on the road to continue bringing our unique, hands-on experience with access to Quarkus experts designed to help you get started with Java in a Kubernetes world. Whether you are a Quarkus first-timer or seasoned pro, your..."
 }
