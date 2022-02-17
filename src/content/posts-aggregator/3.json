@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Stork Service Discovery on Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-stork-service-discovery-on-quarkus/",
+  "title": "Kubernetes Service Discovery and Selection with Stork",
+  "link": "https://quarkus.io/blog/stork-kubernetes-discovery/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Aurea Munoz",
       "avatar": null
     }
   ],
-  "date": "2022-02-14T07:17:50.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In modern microservices architectures, services have dynamically assigned locations. Therefore, it’s essential to integrate Service Discovery as part of the picture. In this article you will learn how to leverage Service Discovery using Smallrye Stork framework on top of a Quarkus reactive application. Service discovery in a nutshell Before we dig into this tutorial, we ...  The post appeared first on ."
+  "date": "2022-02-17T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As we already described in the previous post, SmallRye Stork is a service discovery and client-side load-balancing framework that brings out-of-the-box integration with Kubernetes, among others. This post will explain this integration, how to configure Stork in a client-side microservice, and how it differs from the classic Kubernetes service discovery..."
 }

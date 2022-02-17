@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.2.5 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-5",
+  "title": "Getting started with Keycloak 17",
+  "link": "http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-17/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-17T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.2.5 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
+  "date": "2022-02-17T11:34:58.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article covers the updates in Keycloak 17 which now runs on top of Quarkus. The former (WildFly) distribution of Keycloak is deprecated so you should promptly start the migration process. Keycloak overview Keycloak is an Identity Provider that enables you to secure your Web applications by providing Single Sign-On (SSO) capabilities and leveraging industry ...  The post appeared first on ."
 }
