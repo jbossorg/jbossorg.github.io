@@ -1,13 +1,13 @@
 {
-  "title": "How to externalize HTTP sessions on Infinispan",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/infinispan/how-to-externalize-http-sessions-on-infinispan/",
+  "title": "How to run Keycloak with Docker",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-01T17:26:59.000Z",
+  "date": "2022-02-01T23:37:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article is a step by step guide for setting up a remote Infinispan cluster as an HTTP session store for your HTTP Sessions running on WildFly application server. You can carry out equivalent steps to externalize JBoss EAP 7 session on Red Hat Data Grid. Benefits of having external HTTP Sessions You can use ...  The post appeared first on ."
+  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
 }

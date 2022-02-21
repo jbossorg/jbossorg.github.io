@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Keycloak powered by Quarkus",
-  "link": "http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-powered-by-quarkus/",
+  "title": "Kogito 1.17.0 released!",
+  "link": "https://blog.kie.org/2022/02/kogito-1-17-0-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-02-17T11:34:58.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article covers the updates in Keycloak which now runs on top of Quarkus. The former (WildFly) distribution of Keycloak is deprecated so you should promptly start the migration process. Keycloak overview Keycloak is an Identity Provider that enables you to secure your Web applications by providing Single Sign-On (SSO) capabilities and leveraging industry standards ...  The post appeared first on ."
+  "date": "2022-02-21T08:02:01.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.17.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Data Index support to Oracle database (thanks for the contribution)  * Added use cases to examples to see the Management and Task consoles working    with PostgreSQL persistence:  and    * Serverless Workflow supports implementation  * Serverless Workflow supports implementation  * Serverless Workflow “useData” and “useResults” for events and actions.   BREAKING CHANGES   * Kogito Serverless Workflow Implementation has been upgraded to . Please    update your workflow files to align with the updated DSL.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.16.0 artifacts are available at the .  A detailed changelog for 1.17.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
