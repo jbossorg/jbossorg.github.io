@@ -1,13 +1,13 @@
 {
-  "title": "Kubernetes Service Discovery and Selection with Stork",
-  "link": "https://quarkus.io/blog/stork-kubernetes-discovery/",
+  "title": "Eclipse Vert.x 4.2.5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-5",
   "author": [
     {
-      "name": "Aurea Munoz",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2022-02-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As we already described in the previous post, SmallRye Stork is a service discovery and client-side load-balancing framework that brings out-of-the-box integration with Kubernetes, among others. This post will explain this integration, how to configure Stork in a client-side microservice, and how it differs from the classic Kubernetes service discovery..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.5 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
