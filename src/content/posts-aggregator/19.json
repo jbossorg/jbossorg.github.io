@@ -1,13 +1,13 @@
 {
-  "title": "How to run Keycloak with Docker",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
+  "title": "Quarkus 2.7.0.Final released - Quarkus CLI maturing, Interactive terminal, Oracle Reactive SQL Client...",
+  "link": "https://quarkus.io/blog/quarkus-2-7-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-02-01T23:37:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
+  "date": "2022-02-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2-2-2022 would have been a perfect day to release a 2.2.2.Final version of Quarkus but we didn’t get that lucky. Today we announce the release of Quarkus 2.7.0.Final. 2.7.0.Final comes with a lot of refinements and new features: Lots of improvements for the Quarkus CLI, that has now been published..."
 }
