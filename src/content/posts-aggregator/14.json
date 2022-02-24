@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.7.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-7-1-final-released/",
+  "title": "JSON DataSets in Dashbuilder",
+  "link": "https://blog.kie.org/2022/02/json-datasets-in-dashbuilder.html",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2022-02-08T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.7.1.Final, our first maintenance release for our 2.7 release train. It contains bugfixes and documentation improvements, but also a couple of new features, filling a few gaps. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer..."
+  "date": "2022-02-10T16:47:16.000Z",
+  "feed_title": "KIE Community",
+  "content": "Datasets providers run on the same process as Dashbuilder, which means that if you only use a specific provider, all the others are idle, as part of Dashbuilder. In addition to that, we need to maintain all providers.   In the most recent release a new dataset provider type was added: External Data Sets.  With External DataSets any JSON array can be a dataset.  Simplest dataset  Dashbuilder tries to guess the column type (LABEL, NUMBER, DATE, default type is label) and gives it a generic name. Users that want to force a type can use a more complex JSON to include column information:  Sample dataset with columns information  The source for the JSON can be an HTTP URL or a file URL, meaning that any JSON on the WEB can be used as a dataset.   The URL is the only information that the user must provide about the dataset and the whole dataset is loaded into memory each time it is accessed. If the source JSON is not changed then users can set up a cache for the dataset.  Bear in mind that only the “Data refresh every” is used by the external provider.  The URL for the dataset can be changed at runtime using Java System property dashbuilder.dataset.%s.url – replace %s with the dataset name – to point to a new dataset JSON. Users can add more rows to this new definition or change the existing rows, but do not change columns definition (type and ID) or it will result in an expected error in the reports that use the dataset.   FUTURE  Client Loading  A new feature to call datasets from the client side is in development. It will only support  HTTP URLs and users must ensure that CORS is enabled for the dashbuilder domain.  Dynamic Lookup  Currently the whole dataset is retrieved from the source. A new feature will allow users to receive the front end request (lookup) to retrieve the filtered dataset.  The post appeared first on .  "
 }
