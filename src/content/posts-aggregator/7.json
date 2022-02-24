@@ -1,13 +1,13 @@
 {
-  "title": "Kubernetes Service Discovery and Selection with Stork",
-  "link": "https://quarkus.io/blog/stork-kubernetes-discovery/",
+  "title": "Getting started with Keycloak powered by Quarkus",
+  "link": "http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-powered-by-quarkus/",
   "author": [
     {
-      "name": "Aurea Munoz",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As we already described in the previous post, SmallRye Stork is a service discovery and client-side load-balancing framework that brings out-of-the-box integration with Kubernetes, among others. This post will explain this integration, how to configure Stork in a client-side microservice, and how it differs from the classic Kubernetes service discovery..."
+  "date": "2022-02-17T11:34:58.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article covers the updates in Keycloak which now runs on top of Quarkus. The former (WildFly) distribution of Keycloak is deprecated so you should promptly start the migration process. Keycloak overview Keycloak is an Identity Provider that enables you to secure your Web applications by providing Single Sign-On (SSO) capabilities and leveraging industry standards ...  The post appeared first on ."
 }

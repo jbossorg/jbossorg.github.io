@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Keycloak powered by Quarkus",
-  "link": "http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-powered-by-quarkus/",
+  "title": "Quarkus Superheroes to the Rescue!",
+  "link": "https://quarkus.io/blog/quarkus-superheroes-to-the-rescue/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Eric Deandrea",
       "avatar": null
     }
   ],
-  "date": "2022-02-17T11:34:58.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article covers the updates in Keycloak which now runs on top of Quarkus. The former (WildFly) distribution of Keycloak is deprecated so you should promptly start the migration process. Keycloak overview Keycloak is an Identity Provider that enables you to secure your Web applications by providing Single Sign-On (SSO) capabilities and leveraging industry standards ...  The post appeared first on ."
+  "date": "2022-02-22T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Are you a developer building microservices? Do you struggle with developing and testing individual microservices that are part of a larger system? Do you want to learn about building REST-based and event-driven applications? Introduction Quarkus has excellent documentation and quickstarts to help developers become familiar with various features in the..."
 }

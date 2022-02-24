@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus World Tour 2022 - The Road Never Ends",
-  "link": "https://quarkus.io/blog/quarkusworldtour-2022/",
+  "title": "Reverse engineer your JBoss AS-WildFly configuration to CLI",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-04T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "For true rock stars, the road never ends. We’re bringing the band back on the road to continue bringing our unique, hands-on experience with access to Quarkus experts designed to help you get started with Java in a Kubernetes world. Whether you are a Quarkus first-timer or seasoned pro, your..."
+  "date": "2022-02-07T02:12:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Exporting your WildFly / JBoss EAP configuration to a CLI script is something you are going to need one day or another. No worries, the project Profile Cloner comes to rescue! (Updated to work with WildFly 26 and Java 11) I’ve cloned ProfileCloner! The original  Profile Cloner Project allows to create a clone of your ...  The post appeared first on ."
 }

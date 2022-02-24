@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Superheroes to the Rescue!",
-  "link": "https://quarkus.io/blog/quarkus-superheroes-to-the-rescue/",
+  "title": "Quarkus Newsletter #17 - February",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-17/",
   "author": [
     {
-      "name": "Eric Deandrea",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-02-22T00:00:00.000Z",
+  "date": "2022-02-23T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Are you a developer building microservices? Do you struggle with developing and testing individual microservices that are part of a larger system? Do you want to learn about building REST-based and event-driven applications? Introduction Quarkus has excellent documentation and quickstarts to help developers become familiar with various features in the..."
+  "content": "The February Newsletter has been published! This month, you can find an introduction to the new Quarkus Superheroes sample application as well as articles teaching you how to get started with Stork Service Discovery, Java Asynchronous Programming with Java, Distributed tracing with Istio, Quarkus and Jaeger, Monitoring Quarkus Prometheus and..."
 }
