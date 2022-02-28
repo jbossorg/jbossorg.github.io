@@ -1,13 +1,13 @@
 {
-  "title": "How to configure Logging with Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-configure-logging-with-quarkus/",
+  "title": "6 things you can do with JBang but you can’t with Shell",
+  "link": "http://www.mastertheboss.com/java/jbang-vs-jshell/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-02-25T11:23:11.000Z",
+  "date": "2022-02-28T13:33:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Quarkus uses the JBoss Log Manager project as facade for application logging. Therefore, the main configuration options should be familiar to JBoss/WildFly users. Let’s see how to configure most common options. Quarkus logging in a nutshell To use Logging with Quarkus you don’t need to include any extra dependency in your project. As a matter ...  The post appeared first on ."
+  "content": "Using Java as scripting language has become a popular option in the last few years thanks to the JShell tool. In this article we will learn how the JBang scripting tool can take your Java scripting power at another level. Automatic fetching of dependencies The most impressing feature of JBang is dependency management. You can ...  The post appeared first on ."
 }
