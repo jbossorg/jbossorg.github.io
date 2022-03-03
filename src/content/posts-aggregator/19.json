@@ -1,13 +1,13 @@
 {
-  "title": "Reverse engineer your JBoss AS-WildFly configuration to CLI",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/",
+  "title": "Quarkus 2.7.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-7-1-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-02-07T02:12:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Exporting your WildFly / JBoss EAP configuration to a CLI script is something you are going to need one day or another. No worries, the project Profile Cloner comes to rescue! (Updated to work with WildFly 26 and Java 11) I’ve cloned ProfileCloner! The original  Profile Cloner Project allows to create a clone of your ...  The post appeared first on ."
+  "date": "2022-02-08T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.7.1.Final, our first maintenance release for our 2.7 release train. It contains bugfixes and documentation improvements, but also a couple of new features, filling a few gaps. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer..."
 }
