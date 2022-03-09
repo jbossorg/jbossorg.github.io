@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #17 - February",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-17/",
+  "title": "Quarkus 2.7.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-7-2-final-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2022-02-23T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The February Newsletter has been published! This month, you can find an introduction to the new Quarkus Superheroes sample application as well as articles teaching you how to get started with Stork Service Discovery, Java Asynchronous Programming with Java, Distributed tracing with Istio, Quarkus and Jaeger, Monitoring Quarkus Prometheus and..."
+  "content": "It is our pleasure to announce the release of Quarkus 2.7.2.Final, our second maintenance release for our 2.7 release train. Some bugfixes are a bit more involved than what we usually include in maintenance releases, so if you encounter any issue upgrading, please report them with as many details as..."
 }
