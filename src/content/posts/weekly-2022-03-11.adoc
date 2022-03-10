@@ -1,0 +1,71 @@
+= This Week in JBoss - 11 March 2022
+Alex Porcelli
+2022-03-11
+:tags: quarkus, kogito, java, camel, hibernate, narayana, wildfly, cdi-test
+
+Happy Friday, everyone!
+
+Welcome to another edition of the JBoss Editorial that brings you news and updates from your favorite communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-7-4-final-released/[Quarkus 2.7.4] maintenance release with a new round of bugfixes and documentation improvements. This should be a safe upgrade upgrade for anyone already using 2.7.
+* link:https://quarkus.io/blog/intellij-quarkus-tools-1.10.0/[Quarkus Tools for IntelliJ 1.10.0] release that adds support for Quarkus run/debug configurations and provides several fixes (including security related!).
+* link:https://blog.kie.org/2022/03/kogito-1-18-0-released.html[Kogito 1.18.0] release includes a number of new bug fixes and new features, especially for Serverless Workflows.
+* link:https://camel.apache.org/blog/2022/03/RELEASE-3.14.2/[Camel 3.14.2 LTS] new patch release with 27 improvements and fixes.
+* link:https://in.relation.to/2022/03/09/orm-600-cr2/[Hibernate ORM 6.0.0.CR2] is expected to be the last release candidate before the 6.0 final release.
+* link:https://in.relation.to/2022/03/02/hibernate-validator-703-622-final-released/[Hibernate Validator 6.2.2.Final, 7.0.3.Final and 8.0.0.Alpha1]. Maintenance releases for Hibernate Validator 6.2 and 7.0 branches - both versions bring back support for validating java.sql.Date. The 8.0.0.Alpha1 targets specifically the upcoming Jakarta EE 10.
+
+== Testing Jakarta EE applications with CDI-test
+
+link:http://www.mastertheboss.com/java-ee/jakarta-ee/testing-jakarta-ee-applications-with-cdi-test/[Testing Jakarta EE applications with CDI-test], by Gunnar Hilling
+
+In this post, Gunnar presents the CDI-Test JUnit 5 extension, which provides a clever mechanism for unit, component, and integration Jakarta EE application tests at scale.
+
+Gunnar provides a sample repository with a fully functional application and its test so you can use it to follow along with the article.
+
+== Narayana Community Priorities
+
+link:https://jbossts.blogspot.com/2022/03/narayana-community-priorities.html[Narayana Community Priorities]
+
+This excellent post from Narayana outlines the project's near-term priorities based on the community's feedback.
+
+The topics covered by the post include Community Engagement, Java Versions, Integrating with contemporary services, Cloud strategy, and more.
+
+== Camel K Roadmap
+
+link:https://camel.apache.org/blog/2022/03/camel-k-roadmap-2022/[Camel K Roadmap], by Pasquale Congiusti
+
+One more great example of what’s planned for the project published in the open! This time Pasquale provides a comprehensive roadmap for the Camel K project for 2022.
+
+Although these plans aren’t commitments, they provide an excellent understanding of where the project is heading.
+
+== WildFly on the Cloud with Helm
+
+link:http://www.mastertheboss.com/soa-cloud/openshift/wildfly-on-the-cloud-with-helm/[WildFly on the Cloud with Helm], by Francesco Marchioni
+
+The popularity of Helm charts among developers is great. In this article, Francesco provides a step-by-step guide on how to deploy a WildFly application on OpenShift using bootable-jar and source to image.
+
+New to Helm Charts? No worries, Francesco also covers a basic Helm setup.
+
+== Editing Serverless Workflow Definitions with VSCode
+
+link:https://blog.kie.org/2022/03/editing-serverless-workflow-definitions-with-our-new-vscode-extension.html[Editing Serverless Workflow Definitions with our new VSCode Extension], by Paulo Martins
+
+Here we have Paulo introducing the new VSCode extension for Serverless Workflow provided by Red Hat, which allows users to have a side-by-side real-time preview of their workflows while editing JSON and YAML files inside VSCode.
+
+Serverless Workflow is a CNCF based specification for workflows that Kogito already supports; check this out!
+
+== Content based routing with Quarkus and Kogito
+
+link:https://blog.kie.org/2022/03/content-based-routing-with-quarkus-and-kogito.html[Content based routing with Quarkus and Kogito], by Matteo Mortari
+
+One more post about the Kogito technology! This time we have Matteo presenting a content-based router using DMN, Quarkus, Kogito, Camel, Atlas Map, Managed Kafka, and OpenShift Sandbox! Ohh my!
+
+The post is very detailed, covering content with code examples and, more interesting, a link for a youtube video where Matteo explains the concepts and shows a live demo!
+
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
