@@ -1,13 +1,13 @@
 {
-  "title": "Editing Serverless Workflow definitions with our new VSCode extension",
-  "link": "https://blog.kie.org/2022/03/editing-serverless-workflow-definitions-with-our-new-vscode-extension.html",
+  "title": "WildFly on the Cloud with Helm",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/wildfly-on-the-cloud-with-helm/",
   "author": [
     {
-      "name": "Paulo Martins",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-03-03T21:32:40.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are happy to announce the first release of our , which allows users to have a side-by-side real-time preview of their workflows while editing JSON and YAML files inside VSCode (*.sw.json, *.sw.yaml, *.sw.yml). This extension complies with the CNCF specification v0.8.   FEATURES INCLUDED  In this first release we are delivering the following features:  REAL-TIME DIAGRAM PREVIEW RENDERING  The diagram on the right side of the editor is updated on each change made, providing the user quick feedback on their modifications. If the workflow is invalid, the preview will have some transparency and be frozen since the last valid state.    AUTOMATIC SVG GENERATION  By default, the extension saves an SVG file in the same directory as the workflow file. If you want to change that, you can check the extension configuration options, where you will be able to deactivate it or customize the file name and directory where the file is saved.    AUTO-COMPLETE SUGGESTIONS  In this version, the editor provides basic auto-complete suggestions based on the specification and the expressions used in the current file.     NEXT STEPS  For the next releases, we are already working on several new features that will improve what the user can do inside the editor:  SERVICE CATALOG  Users will be able to register Open API endpoints in their environment, allowing the editor to provide augmentation options to make it easy to add new functions to the workflow.  AUTO-COMPLETE SUGGESTIONS ENHANCEMENT  Besides showing suggestions based on the specification and the current file expressions, the user will also be able to add functions and its parameters quickly by selecting suggestions linked to their service catalog.  VALIDATION  Inline detailed validation and integration with the VSCode’s Validation UI, which will provide a detailed list of errors and warnings of the workflow.  --------------------------------------------------------------------------------  That is all for now, the extension is already available at the . And stay tuned for our next releases!  The post appeared first on .  "
+  "date": "2022-03-04T10:58:22.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Helm is a package Manager that simplify the management of manifest resources you need for Kubernetes projects. In this article we will walk through an example WildFly application which we will deploy on OpenShift using Helm Charts Helm overview and setup Helm charts can simplify the complexities of dependency management for a Kubernetes project. With ...  The post appeared first on ."
 }
