@@ -1,13 +1,13 @@
 {
-  "title": "Testing Jakarta EE applications with CDI-test",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/testing-jakarta-ee-applications-with-cdi-test/",
+  "title": "Quarkus Reactive messaging with Kafka",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-reactive-messaging-with-kafka/",
   "author": [
     {
-      "name": "Gunnar Hilling",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-03-10T09:25:02.000Z",
+  "date": "2022-03-14T09:36:32.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article introduces the Testing framework CDI-Test which you can use to test JakartaEE and Microprofile applications at scale. CDI Test: why you need it First of all: We all love developing in the Java EE ecosystem. Or at least we do since version 5… Or maybe we don’t but our employers do. Partly because ...  The post appeared first on ."
+  "content": "In this article, we will learn how to create a Quarkus Reactive application which uses the SmallRye Reactive Messaging and Mutiny project to stream data from and to a Kafka cluster. Reactive messaging in a nutshell The architecture style of enterprise application has been changing in the last years. Besides the standard client-server approach we ...  The post appeared first on ."
 }
