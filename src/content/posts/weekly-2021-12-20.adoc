@@ -1,0 +1,48 @@
+= This Week in JBoss - 20 December 2021
+Romain Pelisse
+2021-12-20
+:tags: cve,log4j,quarkus,resteasy,elytron,keycloak,wildfly
+
+_Hello! With a bit of delay, here is our very last editorial of the year! Sadly, it focus point has to be the log4j vulnerability,but we also ensured there was some interesting and exciting news too. Enjoy and happy holidays!_
+
+== log4j Security vulnerabilities
+
+Sadly, we have to start our editorial with a less-than-ideal piece of news. In case, you somehow missed, be aware that some vulnerabilities have been found in Log4J. Being one of the most used Java library, it is a rather critical issue. Please take look at this article to know link:http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-handle-cve-2021-44228-in-java-applications[How to fix Log4j CVE-2021-44228].
+
+Some other projects from the JBoss community may also have been impacted. Please check any project you are currently using and see if, like link:https://blog.kie.org/2021/12/kie-log4j2-exploit-cve-2021-44228.html[KIE] or link:https://infinispan.org/blog/2021/12/13/infinispan-log4j-cve-releases[InfiniSpan], they have provided information on the impact of the vulnerability.
+
+Note that, on the bright side, link:https://quarkus.io/blog/quarkus-and-CVE-2021-4428/[Quarkus is not affected by the Log4J Vulnerability].
+
+== Wildfly 26 is here!
+
+* link:https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/[Wildfly 26 has been released]
+* link:https://www.wildfly.org//news/2021/12/16/WildFly-s2i-26-Released/[WildFly 26 S2I images have been released on quay.io]
+
+== Security concern
+
+With the nasty security vulnereablity on log4j, it's certainly time to look at some new security features coming in either Elytron or Wildly (or both):
+
+* link:https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly/[New Security Features in WildFly]
+* link:https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/[Using a JAAS realm in Elytron]
+* link:https://wildfly-security.github.io/wildfly-elytron/blog/upcoming-filesystem-encryption-integrity/[Upcoming filesystem realm encryption and integrity support in Elytron]
+* link:https://wildfly-security.github.io/wildfly-elytron/blog/client-side-jvm-wide-default-sslcontext/[Upcoming client side default SSL context provider]
+* link:https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-openid-connect/[Securing WildFly Apps with OpenID Connect]
+
+== Quarkus
+
+Always on top of the latest new feature, Quarkus offers you to link:https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus[Explore Java 17 language features with Quarkus]! If you already hook to Quarkus and love how it allows you to deploy native executables, you'll probably be interested by this article on link:https://quarkus.io/blog/upx/[Compressing native executables with UPX]
+
+== Releases, releases, releases...
+
+As always, the JBoss community has been quite actived and released quite a lot:
+
+* link:https://www.keycloak.org/2021/12/keycloak-1511-released[Keycloak 15.1.1 released]
+* link:https://www.keycloak.org/2021/12/keycloak-1600-released[Keycloak 16.0.0 released]
+* link:https://quarkus.io/blog/quarkus-2-5-3-final-released/[Quarkus 2.5.3.Final released - Maintenance release]
+* link:https://vertx.io/blog/eclipse-vert-x-4-2-2-1_and_4-1-7-1/[Eclipse Vert.x Webauthn 4.2.2.1 and 4.1.7.1 released!] along with some previous releases:
+** link:https://vertx.io/blog/eclipse-vert-x-3-9-11/[Eclipse Vert.x 3.9.11 released!]
+** link:https://vertx.io/blog/eclipse-vert-x-4-1-7/[Eclipse Vert.x 4.1.7 released!]
+** link:https://vertx.io/blog/eclipse-vert-x-4-2-2/[Eclipse Vert.x 4.2.2 released!]
+* link:https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/[Wildfly 26 is released!]
+
+_That's all for today! Please join us again next year for another round of our JBoss editorial!_

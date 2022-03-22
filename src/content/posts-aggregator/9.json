@@ -1,13 +1,13 @@
 {
-  "title": "Using The RESTEasy Galleon Feature Pack In WildFly",
-  "link": "https://resteasy.github.io/2021/11/22/feature-pack/",
+  "title": "Quarkus 2.7.4.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-7-4-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-11-22T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-03-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.7.4.Final with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer to the 2.7 migration guide. Full changelog You can get the full changelog of 2.7.4.Final on GitHub...."
 }

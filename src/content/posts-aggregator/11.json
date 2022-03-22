@@ -1,14 +1,13 @@
 {
-  "title": "Edge medical diagnosis - Architectural introduction",
-  "link": "http://www.schabell.org/2021/11/edge-medical-diagnosis-architectural-introduction.html",
+  "title": "Quarkus Tools for IntelliJ 1.10.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.10.0/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2021-11-18T06:00:00.073Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "Part 1 - Architectural introduction  The last few years we have been digging deeply into the world of architectures with a focus on presenting access to ways of mapping successful implementations for specific use cases.    It's an interesting challenge in that we have the mission of creating architectural content based on common customer adoption patterns.    That's very different from most of the traditional marketing activities usually associated with generating content for the sole purpose of positioning products for solutions. When you're basing the content on actual execution in solution delivery, you're cutting out the chuff.   What's that mean?  It means that it's going to provide you with a way to implement a solution using open source technologies by focusing on the integrations, structures and interactions that actually have been proven to work. What's not included are any vendor promises that you'll find in normal marketing content. Those promised that when it gets down to implementation crunch time, might not fully deliver on their promises.  Enter the term Portfolio Architecture.   Let's look at these architectures, how they're created and what value they provide for your solution designs.     THE PROCESS  The first step is to decide the use case to start with, which in my case had to be linked to a higher level theme that becomes the leading focus. This higher level theme is not quite boiling the ocean, but it's so broad that it's going to require some division into smaller parts.   In this case presented here is we are looking closer at the healthcare industry and we've decided to start with one we're calling the edge medical diagnosis architecture. This use case we've defined as the following:    Accelerating medical diagnosis using condition detection in medical imagery with AI/ML at medical facilities    The approach taken is to research our existing customers that have implemented solutions in this space, collect their public-facing content, research the internal implementation documentation collections from their successful engagements, and where necessary reach out to the field resources involved.    To get an idea of what these architectures look like, we refer you to the series previously discussed here:  *   *   *   *   Now on to the task at hand.     WHAT'S NEXT  The resulting content for this project targets the following three items.   * A slide deck of the architecture for use in telling the portfolio solution    story.  * Generic architectural diagrams providing the general details for the    portfolio solution.  * A write-up of the portfolio solution in a series that can be used for a    customer solution brief.  An overview of this series on edge medical diagnosis architecture:   1.   2.   3. Example predictive analysis  4. Example architecture with GitOps  Catch up on any past articles you missed by following any published links above.  Next in this series, we will take a look at the generic  for the edge medical diagnosis architecture. "
+  "date": "2022-03-08T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.10.0 release of Quarkus Tools for IntelliJ. This release adds support for Quarkus run/debug configurations and provides several fixes (including security fixes). Quarkus configurations It is possible to run or debug a Quarkus application from the IDE configurations. Select the Run → Edit..."
 }

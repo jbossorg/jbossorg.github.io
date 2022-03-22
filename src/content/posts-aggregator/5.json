@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.5.0.Final released - GraalVM/Mandrel 21.3 and usability improvements all over the place",
-  "link": "https://quarkus.io/blog/quarkus-2-5-0-final-released/",
+  "title": "Quarkus Reactive messaging with Kafka",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-reactive-messaging-with-kafka/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-11-24T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we announce the availability of Quarkus 2.5.0.Final which comes with the following main improvements: Upgrade to GraalVM/Mandrel 21.3 Support for JPA entity listeners for Hibernate ORM in native mode Ability to add HTTP headers to responses Various usability improvements in extensions and our dev mode/testing infrastructure Migration Guide To..."
+  "date": "2022-03-14T09:36:32.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article, we will learn how to create a Quarkus Reactive application which uses the SmallRye Reactive Messaging and Mutiny project to stream data from and to a Kafka cluster. Reactive messaging in a nutshell The architecture style of enterprise application has been changing in the last years. Besides the standard client-server approach we ...  The post appeared first on ."
 }

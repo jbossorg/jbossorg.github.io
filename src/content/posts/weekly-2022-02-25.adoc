@@ -1,0 +1,43 @@
+= This Week in JBoss - February 25th 2022
+Jason Porter
+2022-02-25
+:tags: 
+
+Welcome back!
+What better way to finish off the week (or start the week depending on when you read this) than by seeing what's new in the software you care about?
+As always, we have some great things happening within the community, read on below.
+
+== Releases
+
+* Quarkus 2.7.2.Final - second maintenance release for the 2.7 branch. This release features a number of bug fixes and updates to Kogito and Optaplanner. https://github.com/quarkusio/quarkus/releases/tag/2.7.2.Final[View the full changelog].
+* Kogito 1.17.0 - This release packs in new features, bug fixes and, one small breaking change. https://blog.kie.org/2022/02/kogito-1-17-0-released.html[Read about the release].
+* Eclipse Vertx 4.2.5 - The Vertx team has been hard at work bringing the number of bugs down in the 4.2 branch. They have also added the ability to intercept HttpProxy calls, and the Oracle client now has proper pooling. https://vertx.io/blog/eclipse-vert-x-4-2-5/[Find out more].
+* Keycloak 17.0.0 - A major update, too many things to list here, https://www.keycloak.org/2022/02/keycloak-1700-released[read about the release for changes].
+* Hibernate Reactive 1.1.3.Final - Biggest change here: Support for Oracle, https://in.relation.to/2022/02/11/hibernate-reactive-1_1_3_Final/[see more].
+
+=== Blogs
+
+The blog, Mastertheboss has some great posts about Quarkus:
+
+* http://www.mastertheboss.com/soa-cloud/quarkus/how-to-configure-logging-with-quarkus/[How to configure logging with Quarkus] - to get a primer on logging within Quarkus.
+* http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-powered-by-quarkus/[Getting started with Keycloak powered by Quarkus] goes along well with the recent release of Keycloak 17 since the default runtime is now Quarkus.
+* http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-stork-service-discovery-on-quarkus/[Getting started with Stork Service Discovery on Quarkus] gets you started using Stork for that all important Service Discovery bit of your MSA application.
+
+The KIE team (business and process automation space) also have three new blog posts out recently:
+
+* https://blog.kie.org/2022/02/saga-pattern-with-processes-and-kogito-part-2.html[SAGA PATTERN WITH PROCESSES AND KOGITO – PART 2] - the second part of a series using the SAGA pattern with Kogito. This one focuses on an Order fulfillment implementation.
+* https://blog.kie.org/2022/02/kie-tools-examples-implementing-a-ping-pong-view-in-angular.html[KIE TOOLS EXAMPLES – IMPLEMENTING A PING PONG VIEW IN ANGULAR] expands on creating custom views using the Envelope API using Angular instead of React.
+* https://blog.kie.org/2022/02/json-datasets-in-dashbuilder.html[JSON DATASETS IN DASHBUILDER] demonstrates how to use JSON datasets within DashBuilder and briefly touching on future directions for the tech.
+
+Those working on Quarkus have a few new things to show and say this week as well:
+
+* https://quarkus.io/blog/quarkus-superheroes-to-the-rescue/[Quarkus Superheroes to the Rescue!] walks through the full Quarkus Superheroes application including deployment, docker, dev mode, and the architecture.
+* https://quarkus.io/blog/stork-kubernetes-discovery/[Kubernetes Service Discovery and Selection with Stork] covers the same ground as the Mastertheboss blog, but in a different way using different examples. You can't go wrong with either of them.
+
+Lastly, a few blogs from other areas around the blogosphere:
+
+* https://www.keycloak.org/2022/02/dbs[Supported databases for the new Keycloak store]
+* https://www.schabell.org/2022/02/devopsdays-raleigh-2022-architecture-and-career.html[DevOpsDays Raleigh 2022 - Talking Architecture and Career]
+* https://www.redhat.com/sysadmin/podman-features-1[5 Podman features to try now]
+
+Thanks again for joining us for another week!

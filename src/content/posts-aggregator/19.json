@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #14 - November",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-14/",
+  "title": "How to configure Logging with Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-configure-logging-with-quarkus/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-11-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The November Newsletter has been published! This month, you can find articles about integration testing in Quarkus, how to use Quarkus and Google Cloud functions, as well as a piece about test-driven development with Quarkus. Check out Newsletter #14! Want to get newsletters in your inbox? Sign up for the..."
+  "date": "2022-02-25T11:23:11.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Quarkus uses the JBoss Log Manager project as facade for application logging. Therefore, the main configuration options should be familiar to JBoss/WildFly users. Let’s see how to configure most common options. Quarkus logging in a nutshell To use Logging with Quarkus you don’t need to include any extra dependency in your project. As a matter ...  The post appeared first on ."
 }

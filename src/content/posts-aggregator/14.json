@@ -1,13 +1,13 @@
 {
-  "title": "Monitoring Quarkus runtime with DevUI",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/monitoring-quarkus-runtime-with-devui/?utm_source=rss&utm_medium=rss&utm_campaign=monitoring-quarkus-runtime-with-devui",
+  "title": "WildFly on the Cloud with Helm",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/wildfly-on-the-cloud-with-helm/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2021-11-15T17:26:22.000Z",
+  "date": "2022-03-04T10:58:22.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Quarkus now includes (since version 2.3.0) a Development UI (DevUI) which allows us to monitor runtime information about your extensions. Quarkus DevUI is an experimental feature you can use to collect inner details of your Quarkus environment. You can use for different purposes such as: Application introspection, to see the list of Beans / Observers ...  The post appeared first on ."
+  "content": "Helm is a package Manager that simplify the management of manifest resources you need for Kubernetes projects. In this article we will walk through an example WildFly application which we will deploy on OpenShift using Helm Charts Helm overview and setup Helm charts can simplify the complexities of dependency management for a Kubernetes project. With ...  The post appeared first on ."
 }

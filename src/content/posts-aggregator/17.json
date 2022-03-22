@@ -1,14 +1,13 @@
 {
-  "title": "Red Hat Summit Connect and Partner Experience Dublin - Talking Architecture Shop (slides)",
-  "link": "http://www.schabell.org/2021/11/red-hat-summit-connect-and-partner-experience-slides.html",
+  "title": "Quarkus 2.7.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-7-3-final-released/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2021-11-11T17:30:00.000Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "The  and events for customers were held this week in Dublin. Each was a one day event,  part of a new series of small-scale events, that brings the discussion of open source technology to your local cities.  The days were intended to bring updates and insights into the latest technologies and also offered the opportunity to get hands on with a few Red Hat technologies.  There were different streams of session topics hosting tech talks led by Red Hat experts and also business focused sessions delivered from local industry leaders including some fantastic partner and customer stories.  I was invited to give a session at both events in Dublin this week and wanted to share the slides presented that included links to all of the available content we discussed.   As a refresh on the day, we shared our insights into our larger architectures exploring how open source can be used successfully at scale. Below you will find the slides:      Provided here as a reminder, the title and abstract:          You've heard of large scale open source architectures, but have you ever wanted to take a serious look at these real life enterprise implementations that scale? This session takes attendees on a tour of multiple use cases covering enterprise challenges like integration, optimisation, cloud adoption, hybrid cloud management, and much more. Not only are these architectures interesting, but they are successful real life implementations featuring open source technologies and power many of your own online experiences.     The attendee departs this session with a working knowledge of how to map general open source technologies to their solutions. Material covered is available freely online and attendees can use these solutions as starting points for aligning to their own solution architectures. Join us for an hour of power as we talk architecture shop!   Hope you enjoyed the session and if you were not able to attend, maybe we can meet and chat about this in person someday in the near future.  "
+  "date": "2022-03-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released a new maintenance release for our 2.7 release train: 2.7.3.Final. Thanks to all the people reporting issues, providing reproducers, fixes… , it’s really appreciated. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer to the 2.7 migration guide...."
 }
