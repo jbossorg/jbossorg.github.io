@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.7.5.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-7-5-final-released/",
+  "title": "Quarkus Newsletter #18 - March",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-18/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-03-16T00:00:00.000Z",
+  "date": "2022-03-17T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released 2.7.5.Final which, as usual, only contains bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer to the 2.7 migration guide. Full changelog You can get the full changelog of 2.7.5.Final on GitHub. Come..."
+  "content": "The March newsletter has been sent. Learn about what’s new with Java 17 and containers, read about LogicDrop and Vaadin’s path to using Quarkus, and get a look at Continuous testing with Quarkus. Additionally, you’ll get more insights into how Keycloak is ow fully cloud-native with Quarkus and learn how..."
 }
