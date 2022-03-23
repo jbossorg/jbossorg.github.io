@@ -1,0 +1,60 @@
+= This Week in JBoss - 25 March 2022
+Francesco Marchioni
+2022-03-25
+:tags: quarkus, kubernetes, java, infinispan, jakarta ee, wildfly, ansible, azure app service
+
+Happy Friday, everyone!
+
+Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-7-5-final-released/[Quarkus 2.7.5] - There is a new maintenance release with a new round of bugfixes and documentation improvements. This should be a safe upgrade upgrade for anyone already using 2.7. More details on the link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7[Migration Guide 2.7]
+* link:https://github.com/kiegroup/kogito-images/releases/tag/1.19.0[Kogito 1.19.0] - We are glad to announce that the Kogito 1.19.0 release is now available!.
+* link:https://infinispan.org/download/[Infinispan 14.0.0.Dev01] - Infinispan 14 GA is almost ready! Expect some cool features such as Redis (RESP) endpoints, new MP Metrics with Micrometer, clustering and endpoint metrics in Prometheus, FIPS compatible Infinispan Installation, Cross-site replication memory and batching improvements and Dynamic Role-Based Access Control
+
+== Write Kubernetes in Java with the Java Operator SDK (Part 2)
+
+link:https://developers.redhat.com/articles/2022/03/22/write-kubernetes-java-java-operator-sdk-part-2[Write Kubernetes in Java with the Java Operator SDK, Part 2], by Christophe Laprun
+
+In this post, Christophe teach us how to use the Java Operator SDK and its Quarkus extension to build a sample application as you take a deeper dive into writing Kubernetes Operators in Java.
+
+== Deploy Infinispan automatically with Ansible
+
+link:https://developers.redhat.com/articles/2022/03/21/deploy-infinispan-automatically-ansible[Deploy Infinispan automatically with Ansible], by Romain Pelisse
+
+In this article from Romain, you will learn how to use Ansible to cover all repetitive work to provision Infinispan. It covers everything from downloading software, preparing the environment (user, group, firewall), deploying the binary files and the configuration, setting up the service in systemd, etc.
+That's a great way to get started with Infinispan and Ansible.
+
+== Clustering support for JBoss EAP on Azure App Service (Tech Preview)
+
+link:https://developers.redhat.com/articles/2022/03/15/preview-clustering-support-jboss-eap-azure-app-service[Clustering support for JBoss EAP on Azure App Service (Tech Preview)], by James Falkner and Jason Freeberg
+
+If you want to try out a preview of JBoss EAP clustering on Azure App Service then this article is for you! The combination of JBoss EAP, a leading Jakarta EE platform, with Microsoft Azure, a leading cloud platform, gives JBoss EAP users a powerful path to the cloud.
+
+== Quarkus Newsletter #18 - March
+
+link:https://quarkus.io/blog/quarkus-newsletter-18/[Quarkus March newsletter], By James Cobb
+
+This newsletter covers what’s new with Java 17 and containers, discusses LogicDrop and Vaadin’s path to using Quarkus, and get a look at Continuous testing with Quarkus.
+
+== Quarkus Migration Tips
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-migration-tips/[Quarkus Migration Tips], by Francesco Marchioni
+
+In this article from mastertheboss.com you will learn which are the available guidelines to migrate Quarkus applications and tools that can help you to simplify your update strategy
+
+
+== Youtube video: Build & Deploy WildFly Quickstarts on OpenShift
+
+link:https://www.youtube.com/watch?v=Y2En5miRKjY[Build & Deploy WildFly Quickstarts on OpenShift], by Jeff Meslin
+
+Finally, from WildFly's youtube channel check this video by Jeff Meslin to learn how to build and deploy a quickstart
+for WildFly on OpenShift
+
+Jeff shows how to deploy the microprofile-config quickstart for WildFly on the Developer Sandbox for Red Hat OpenShift. This uses the Helm Chart for WildFly to configuring building and deploying WildFly applications.
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
