@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #18 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-18/",
+  "title": "Eclipse Vert.x 3.9.13 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-13",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2022-03-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The March newsletter has been sent. Learn about what’s new with Java 17 and containers, read about LogicDrop and Vaadin’s path to using Quarkus, and get a look at Continuous testing with Quarkus. Additionally, you’ll get more insights into how Keycloak is ow fully cloud-native with Quarkus and learn how..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.13 has just been released."
 }
