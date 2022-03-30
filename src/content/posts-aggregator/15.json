@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.13 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-13",
+  "title": ".Net Core Client version 0.0.3-beta",
+  "link": "https://infinispan.org/blog/2022/03/22/dotnetcore-0-0-3-beta",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Vittorio Rigamonti",
       "avatar": null
     }
   ],
-  "date": "2022-03-17T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.13 has just been released."
+  "date": "2022-03-22T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispanners and .NET Core lovers,  we’re pleased to annouce the new release of the .NET Core client. Release 0.0.3-beta comes with a bunch of new features:   * remote event listener.   * cluster failover configuration.   * TLS with server cert verification.   * some new hotrod operations.  Good starting point could be the . Documentation is growing up, temporarily placed .  Please let us know your thoughts. A good place to share them is the page.  The Infinispan Team"
 }
