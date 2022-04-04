@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 17.0.1 released",
-  "link": "https://www.keycloak.org/2022/03/keycloak-1701-released",
+  "title": "Quarkus migration tips (2022)",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-migration-tips/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-03-23T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 16.1  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   NEW FEATURES   * Add Reactive Keycloak-X Admin Client keycloak   ENHANCEMENTS   * Multi-arch container image for Quarkus distribution (amd64 + arm64) keycloak    dist/quarkus  * Upgrade to Infinispan 13.0.6 in Quarkus dist keycloak dist/quarkus  * Removing unnecessary code paths during startup keycloak  * Change DOCTYPE for base theme to keycloak  * Add ability to control debug suspend mode to kc scripts keycloak  * Updating proxy guide with x509 client certificate lookup keycloak docs  * Configuring providers guide keycloak  * Update Quarkus to 2.7.4 keycloak dist/quarkus  * Update Quarkus to 2.7.5 keycloak dist/quarkus   BUGS   * Favicon missing in welcome page on chrome / macos keycloak core  * Different behavior between Quarkus and Wildfly distribution: SQLException on    POST returns HTTP 201 instead 500 keycloak dist/quarkus  * Quarkus-based distribution cannot use MariaDB with Galera replication due to    XA transactions being unsupported keycloak dist/quarkus  * start-up with kc.bat outputs an error if folder name includes space keycloak  * On SQLException, invalid Content-Length header in response keycloak    dist/quarkus  * Wrong description for import/export options keycloak dist/quarkus  * Change the flush mode to auto keycloak dist/quarkus  * Can't change http-port by Keycloak/Quarkus on Windows keycloak dist/quarkus  * Keycloak admin UI drops https port if --hostname is used keycloak    dist/quarkus  * kc.sh build option \"--help-all\" not found keycloak dist/quarkus  * Update to Liquibase 4.8.0 keycloak storage  * Capacity to change hibernate dialect keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-03-23T15:33:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Quarkus is one of the most innovative Java projects, therefore it’s not a surprise there are frequent updates to it. In this article we will have a look at the available guidelines to migrate Quarkus applications and tools that can help you to simplify your update strategy. Migration Overview When planning a migration of a ...  The post appeared first on ."
 }
