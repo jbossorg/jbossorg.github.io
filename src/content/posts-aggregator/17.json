@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus migration tips (2022)",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-migration-tips/",
+  "title": "WildFly 26.1 Beta1 is released!",
+  "link": "https://wildfly.org//news/2022/03/24/WildFly26-1-Beta-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2022-03-23T15:33:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Quarkus is one of the most innovative Java projects, therefore it’s not a surprise there are frequent updates to it. In this article we will have a look at the available guidelines to migrate Quarkus applications and tools that can help you to simplify your update strategy. Migration Overview When planning a migration of a ...  The post appeared first on ."
+  "date": "2022-03-24T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "I’m pleased to announce that the new WildFly and WildFly Preview 26.1.0.Beta1 releases are available for download at .  Whilst normally at this point we would be bringing the Beta for the next major release our main branch is being used for active development for the upcoming support of Jakarta EE 10 so we are releasing a minor release in the WildFly 26 stream to bring some new features.  Here are the features specifically backported to this release.  Batch   * - JBeret: Make it possible to limit number of records retrieved via a JDBC    store  JCA   * - JCA: enable configuration of resource adapter validation log directory   * - Allow to configure module for custom validation classes  JMS   * - Add an attribute to be able to define the address_queue_scan period  MicroProfile   * - MP Config: Ability to specify root config source directory  Security   * - Automatic registration of client side / JVM wide default SSLContext   * - Add encryption support to FileSystemSecurityRealm   * - Enchance keystore CLI commands  Over the next couple of weeks we will be working on bug fixes needed for WildFly 26.1.0.Final so please try out this Beta release and let us know if you hit any bugs so we can review if we can address them.  For more information about the changes included in this release please consult the release notes.  I would like to thank everyone who has contributed to this release, especially whilst in parallel working hard on tasks needed to support Jakarta EE 10 in our future releases.   RELEASE NOTES  The release notes for the release are , with issues fixed in the underlying WildFly Core beta listed .  Please try it out and give us your feedback, while we get to work on WildFly 26.1 Final!  Best regards,  Darran"
 }
