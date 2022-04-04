@@ -1,13 +1,13 @@
 {
-  "title": "How to inspect a Thread Dump like a pro",
-  "link": "http://www.mastertheboss.com/java/how-to-inspect-a-thread-dump-like-a-pro/",
+  "title": "Quarkus Tools for Visual Studio Code - 1.10.0 release",
+  "link": "https://quarkus.io/blog/vscode-quarkus-1.10.0/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Roland Grunberg",
       "avatar": null
     }
   ],
-  "date": "2022-03-25T15:41:09.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will guide you in troubleshooting Java application by analysing a Thread dump with the instruments available in the JDK. We will also learn some tools to simplify our analysis. Java has mechanisms for analyzing the state of all threads of an application at a given time: Thread dumps. A thread dump is a ...  The post appeared first on ."
+  "date": "2022-03-28T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus Tools for Visual Studio Code 1.10.0 has been released on the VS Code Marketplace & Open VSX. For a list of all changes, please refer to the changelog. It’s been about 8 months since our last release of Quarkus Tools for VS Code. 8 months!! That’s a really long..."
 }

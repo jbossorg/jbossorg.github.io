@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Java 18",
-  "link": "http://www.mastertheboss.com/java/upcoming-news-from-java-18/",
+  "title": "WildFly 26.1 Beta S2I images have been released on quay.io",
+  "link": "https://wildfly.org//news/2022/03/29/WildFly-s2i-26-1-Beta1-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jean-François Denise",
       "avatar": null
     }
   ],
-  "date": "2022-03-26T11:09:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Java 18 is finally available for download! In this article we will learn some of the most interesting Enhancement Proposals (JEPs) which are now available in the JDK. Installing Java 18 Firstly, let’s download the Java 18 platform from https://jdk.java.net/18/ Choose the version for your Operating System. Then, unpack it on your machine and set ...  The post appeared first on ."
+  "date": "2022-03-29T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WILDFLY 26.1 BETA S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 26.1 Beta have been released on .  For complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   ANTICIPATING A FUTURE SET OF WILDFLY IMAGES  The quay.io/wildfly/wildfly-centos7 and quay.io/wildfly/wildfly-runtime-centos7 have been deprecated since WildFly 26. When building or running the server, a deprecation notice is displayed in the console.  This WildFly 26.1 Beta and the following 26.1 Final images will be the latest released in quay.io.  We have started our migration to the new WildFly S2I images that will be released for WildFly 26.1.  The new architecture is based on the and a new pair of docker images. This has provided the details of this new approach.  Stay tuned!  JF Denise"
 }

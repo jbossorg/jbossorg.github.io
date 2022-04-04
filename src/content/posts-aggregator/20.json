@@ -1,13 +1,13 @@
 {
-  "title": ".Net Core Client version 0.0.3-beta",
-  "link": "https://infinispan.org/blog/2022/03/22/dotnetcore-0-0-3-beta",
+  "title": "WildFly 26.1 Beta1 is released!",
+  "link": "https://wildfly.org//news/2022/03/24/WildFly26-1-Beta-Released/",
   "author": [
     {
-      "name": "Vittorio Rigamonti",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2022-03-22T12:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispanners and .NET Core lovers,  we’re pleased to annouce the new release of the .NET Core client. Release 0.0.3-beta comes with a bunch of new features:   * remote event listener.   * cluster failover configuration.   * TLS with server cert verification.   * some new hotrod operations.  Good starting point could be the . Documentation is growing up, temporarily placed .  Please let us know your thoughts. A good place to share them is the page.  The Infinispan Team"
+  "date": "2022-03-24T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "I’m pleased to announce that the new WildFly and WildFly Preview 26.1.0.Beta1 releases are available for download at .  Whilst normally at this point we would be bringing the Beta for the next major release our main branch is being used for active development for the upcoming support of Jakarta EE 10 so we are releasing a minor release in the WildFly 26 stream to bring some new features.  Here are the features specifically backported to this release.  Batch   * - JBeret: Make it possible to limit number of records retrieved via a JDBC    store  JCA   * - JCA: enable configuration of resource adapter validation log directory   * - Allow to configure module for custom validation classes  JMS   * - Add an attribute to be able to define the address_queue_scan period  MicroProfile   * - MP Config: Ability to specify root config source directory  Security   * - Automatic registration of client side / JVM wide default SSLContext   * - Add encryption support to FileSystemSecurityRealm   * - Enchance keystore CLI commands  Over the next couple of weeks we will be working on bug fixes needed for WildFly 26.1.0.Final so please try out this Beta release and let us know if you hit any bugs so we can review if we can address them.  For more information about the changes included in this release please consult the release notes.  I would like to thank everyone who has contributed to this release, especially whilst in parallel working hard on tasks needed to support Jakarta EE 10 in our future releases.   RELEASE NOTES  The release notes for the release are , with issues fixed in the underlying WildFly Core beta listed .  Please try it out and give us your feedback, while we get to work on WildFly 26.1 Final!  Best regards,  Darran"
 }

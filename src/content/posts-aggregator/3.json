@@ -1,13 +1,13 @@
 {
-  "title": "Qute: a Template Engine for Quarkus applications",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/qute-a-template-for-quarkus-web-applications/",
+  "title": "Vlog: Build and Deploy WildFly Quickstarts on OpenShift",
+  "link": "https://www.youtube.com/watch?v=Y2En5miRKjY",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jeff Mesnil",
       "avatar": null
     }
   ],
-  "date": "2022-04-01T17:56:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Qute is a templating engine designed specifically for Quarkus. You can use this template engine in a variety of projects but the most common use case is to provide a View to JAX-RS Resouces. There are mainly two options to use Qute with JAX-RS: Injecting the Template name in your JAX-RS Endpoint: This is the ...  The post appeared first on ."
+  "date": "2022-04-04T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
