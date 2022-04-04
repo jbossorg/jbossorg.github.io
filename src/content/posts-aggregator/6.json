@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for Visual Studio Code - 1.10.0 release",
-  "link": "https://quarkus.io/blog/vscode-quarkus-1.10.0/",
+  "title": "WildFly 26.1 Beta S2I images have been released on quay.io",
+  "link": "https://wildfly.org//news/2022/03/29/WildFly-s2i-26-1-Beta1-Released/",
   "author": [
     {
-      "name": "Roland Grunberg",
+      "name": "Jean-François Denise",
       "avatar": null
     }
   ],
-  "date": "2022-03-28T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus Tools for Visual Studio Code 1.10.0 has been released on the VS Code Marketplace & Open VSX. For a list of all changes, please refer to the changelog. It’s been about 8 months since our last release of Quarkus Tools for VS Code. 8 months!! That’s a really long..."
+  "date": "2022-03-29T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WILDFLY 26.1 BETA S2I DOCKER IMAGES  The WildFly S2I (Source-to-Image) builder and runtime Docker images for WildFly 26.1 Beta have been released on .  For complete documentation on how to use these images using S2I, OpenShift and Docker, refer to the WildFly S2I .   ANTICIPATING A FUTURE SET OF WILDFLY IMAGES  The quay.io/wildfly/wildfly-centos7 and quay.io/wildfly/wildfly-runtime-centos7 have been deprecated since WildFly 26. When building or running the server, a deprecation notice is displayed in the console.  This WildFly 26.1 Beta and the following 26.1 Final images will be the latest released in quay.io.  We have started our migration to the new WildFly S2I images that will be released for WildFly 26.1.  The new architecture is based on the and a new pair of docker images. This has provided the details of this new approach.  Stay tuned!  JF Denise"
 }
