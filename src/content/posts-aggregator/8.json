@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Cheatsheet (2022)",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-cli-cheatsheet/",
+  "title": "Qute: a Template Engine for Quarkus applications",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/qute-a-template-for-quarkus-web-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-01T09:13:00.000Z",
+  "date": "2022-04-01T17:56:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Here is a simple cheatsheet that will help you as reference guide to build your Quarkus applications. To learn how to install the Quarkus CLI we recommend to read this article: What’s new with Quarkus 2.0 and how to get started quickly). Project setup On-line project creator: https://code.quarkus.io/ Create a Quarkus basic REST project named ...  The post appeared first on ."
+  "content": "Qute is a templating engine designed specifically for Quarkus. You can use this template engine in a variety of projects but the most common use case is to provide a View to JAX-RS Resouces. There are mainly two options to use Qute with JAX-RS: Injecting the Template name in your JAX-RS Endpoint: This is the ...  The post appeared first on ."
 }
