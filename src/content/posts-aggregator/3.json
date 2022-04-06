@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.19.0 released!",
-  "link": "https://blog.kie.org/2022/04/kogito-1-19-0-released.html",
+  "title": "Riding Camel Quarkus: effortless APIs",
+  "link": "https://quarkus.io/blog/camel-quarkus-effortless-apis/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Bruno Meseguer",
       "avatar": null
     }
   ],
-  "date": "2022-04-04T13:39:08.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.19.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Serverless Workflow expression handling improvements  * Serverless Workflow event timeouts support is implemented for the and states.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.18.0 artifacts are available at the .  A detailed changelog for 1.19.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-04-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Discover Camel, the swiss-knife of integration brought to Quarkus. The example encourages API best practices, with effortless coding effort showcasing AtlasMap for data transformation. Introduction Quarkus offers an extensive collection of extensions to connect to web, data and messaging systems, providing the developer fantastic functionality at his disposal. However, in..."
 }
