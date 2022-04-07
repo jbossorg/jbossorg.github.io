@@ -1,0 +1,74 @@
+= This Week in JBoss - 07 April 2022
+Don Naro
+2022-04-07
+:tags: quarkus, kubernetes, java, infinispan, wildfly, .net core, hot rod, cloud-native, openshift, quarkus camel, apache camel, atlasmap, microservice, events
+
+Hi everyone!
+It's great to be back and bringing you another edition of the JBoss Editorial.
+As always there's a lot of exciting news and updates from JBoss communities so let's dive in.
+
+== Release roundup
+
+[square]
+* link:https://quarkus.io/blog/vscode-quarkus-1.10.0/[Quarkus Tools for Visual Studio Code 1.10.0] - Quarkus Tools for Visual Studio Code 1.10.0 is available on the link:https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus[VS Code Marketplace] and link:https://open-vsx.org/extension/redhat/vscode-quarkus[Open VSX].
+* link:https://www.wildfly.org/news/2022/03/24/WildFly26-1-Beta-Released/[WildFly 26.1 Beta1] - WildFly and WildFly Preview 26.1.0.Beta1 releases are available for download.
+* link:https://www.wildfly.org/news/2022/03/29/WildFly-s2i-26-1-Beta1-Released/[WildFly S2I builder and runtime images] - S2I images for WildFly 26.1 Beta are on link:quay.io/wildfly[quay.io/wildfly].
+* link:https://blog.kie.org/2022/04/kogito-1-19-0-released.html[Kogito 1.19.0] - Kogito 1.19.0 is now available.
+
+== .Net core client for Infinispan
+
+link:https://infinispan.org/blog/2022/03/22/dotnetcore-0-0-3-beta[Infinispan .Net Core Client], by Vittorio Rigamonti
+
+Vittorio Rigamonti has made a beta release of his .Net core client that allows access to remote caches on Infinispan clusters.
+The client provides .Net core applications with the performance benefits of in-memory data storage.
+Combined with the Protobuf data encoding Vittorio's client also gives .Net core applications data interoperability with Java applications that can access the same Infinispan caches.
+Using Protobuf with the .Net core client lets you perform remote queries as an added bonus!
+
+Go check out Vittorio's post and use his link:https://github.com/infinispan/Infinispan.Hotrod.Core/tree/main/Infinispan.Hotrod.Application[sample application] to get started coding.
+While you're at it, you might find Vittorio's other blog post on https://infinispan.org/blog/2022/01/21/dotnet-core-query[performing remote queries] useful.
+
+== Inside out event streaming with microservice architectures
+
+link:http://www.ofbizian.com/2022/04/turning-microservices-inside-out.html[Turning Microservices Inside-Out], by Bilgin Ibryam
+
+This excellent read from Bilgin starts with recent ideas about the design of relational databases and their place in the event-driven world of microservice architectures.
+Bilgin makes his point that, rather than replacing relational databases with event streams, the inside out design principle is better applied to the service level.
+Using traditional databases with an event-driven approach allows you to combine the best of both technologies but requires a deliberate focus on APIs.
+From there Bilgin explains the flow of events through outbound and inbound APIs and how a "connecting tissue" such as Debezium can help you effectively bring relational databases into event-driven microservices.
+
+== Camel Quarkus: the Swiss knife of integration
+
+link:https://quarkus.io/blog/camel-quarkus-effortless-apis/[Riding Camel Quarkus: effortless APIs], by Bruno Meseguer
+
+Bruno showcases Camel Quarkus in an extensive post that will leave anyone working on service integration how they could live without it.
+
+Using the OpenAPI specification as an example Bruno explains how to use Camel Quarkus to connect to an HTTP service and transform data in a few effortless steps.
+There's a lot to discover in his post and Bruno even walks you through a second iteration of his application in which he reduces the path to integration even further.
+
+I think by the end Bruno proves his point, that Camel Quarkus really is a Swiss knife for service integration.
+He offers a compelling look at how reducing integration overhead lowers maintenance costs and accelerates development cycles for rapid functionality growth.
+
+
+== Quickly debug and profile MySQL databases
+
+link:http://www.mastertheboss.com/jbossas/jboss-datasource/how-to-trace-jdbc-statements-performance-in-mysql/[How to trace JDBC Statements performance in MySQL], by Francesco Marchioni
+
+Francesco shows us how to quickly debug and profile SQL statements with Java applications using the MySQL JDBC driver.
+Using the WildFly CLI Francesco adds a JDBC connection to MySQL database in a container in a few simple steps.
+After creating the datasource he demonstrates the `hibernate.show_sql` option in the application's `persistence.xml`.
+Once that's done you can find all sorts of useful information about SQL statements in your logs.
+You're all set to debug and tune!
+
+== YouTube videos
+
+From unmissable demos to brilliant chat about the latest Java trends, the JBoss community has some great video content for you:
+
+* link:https://youtu.be/Y2En5miRKjY[Build & Deploy WildFly Quickstarts on OpenShift]
+* link:https://youtu.be/2gQO4_7Z5CI[Securing a WildFly application with OpenID Connect on OpenShift]
+* link:https://youtu.be/22wg8oO9xXM[Quarkus Insights #86: Vaadin & Quarkus]
+* link:https://youtu.be/saTxdw-SPGA[Quarkus Insights #85: What's new in Quarkus Kafka, REX with Loïc Mathieu]
+* link:https://youtu.be/W2QPxfEU_bw[Build your first Java Serverless Function using Quarkus Quick start]
+
+== See you next time
+
+_Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!_
