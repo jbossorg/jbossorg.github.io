@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Build and Deploy WildFly Quickstarts on OpenShift",
-  "link": "https://www.youtube.com/watch?v=Y2En5miRKjY",
+  "title": "Qute Templating Engine Support - Now Available for Quarkus Tools for Visual Studio Code",
+  "link": "https://quarkus.io/blog/vscode-quarkus-1.10.0-qute/",
   "author": [
     {
-      "name": "Jeff Mesnil",
+      "name": "Alexander Chen",
       "avatar": null
     }
   ],
   "date": "2022-04-04T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "Quarkus Tools for Visual Studio Code version 1.10.0 has been released on the VS Code Marketplace & Open VSX. If you haven’t seen the blog post on Quarkus Tools for Visual Studio Code - 1.10.0 release, we suggest you take a look at the marvelous features we’ve introduced in this..."
 }
