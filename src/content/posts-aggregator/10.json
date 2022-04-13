@@ -1,13 +1,13 @@
 {
-  "title": "Qute Templating Engine Support - Now Available for Quarkus Tools for Visual Studio Code",
-  "link": "https://quarkus.io/blog/vscode-quarkus-1.10.0-qute/",
+  "title": "Kogito 1.19.0 released!",
+  "link": "https://blog.kie.org/2022/04/kogito-1-19-0-released.html",
   "author": [
     {
-      "name": "Alexander Chen",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-04-04T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus Tools for Visual Studio Code version 1.10.0 has been released on the VS Code Marketplace & Open VSX. If you haven’t seen the blog post on Quarkus Tools for Visual Studio Code - 1.10.0 release, we suggest you take a look at the marvelous features we’ve introduced in this..."
+  "date": "2022-04-04T13:39:08.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.19.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Serverless Workflow expression handling improvements  * Serverless Workflow event timeouts support is implemented for the and states.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.18.0 artifacts are available at the .  A detailed changelog for 1.19.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
 }

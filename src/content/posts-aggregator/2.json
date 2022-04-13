@@ -1,13 +1,13 @@
 {
-  "title": "Using the default Servlet in WildFly applications",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/using-the-default-servlet-in-wildfly-applications/",
+  "title": "Eclipse Vert.x 4.2.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-7",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-04-12T14:19:06.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use the default Servlet available in Undertow Web Server for some concerns, such as directory listing or static resources serving. Most Web servers have a default Servlet available. What’s the use case for a default Servlet? You can use it mainly for two reasons: To serve static resources ...  The post appeared first on ."
+  "date": "2022-04-13T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.7 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
