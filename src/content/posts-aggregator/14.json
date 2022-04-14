@@ -1,9 +1,9 @@
 {
-  "title": "Vlog: HAL Standalone Mode",
-  "link": "https://www.youtube.com/watch?v=plf7FLsHqe4",
+  "title": "Vlog: Build and Deploy WildFly Quickstarts on OpenShift",
+  "link": "https://www.youtube.com/watch?v=Y2En5miRKjY",
   "author": [
     {
-      "name": "Harald Pehl",
+      "name": "Jeff Mesnil",
       "avatar": null
     }
   ],
