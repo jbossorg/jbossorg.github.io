@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.8.0.Final released - New REST layer by default, GraalVM 22.0 and much more!",
-  "link": "https://quarkus.io/blog/quarkus-2-8-0-final-released/",
+  "title": "Eclipse Vert.x 4.2.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-2-7",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-04-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "2.8.0.Final comes with a lot of refinements and new features: Move Assertj outside of our BOM New REST layer by default GraalVM 22.0 Support for OIDC Proof Of Key for Code Exchange (PKCE) QuarkusTransaction API Elasticsearch Dev Services And much more! Migration Guide To migrate from 2.7, please refer to..."
+  "date": "2022-04-13T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.2.7 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }

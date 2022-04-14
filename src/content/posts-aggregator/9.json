@@ -1,13 +1,13 @@
 {
-  "title": "What’s new in Jakarta EE 10",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/whats-new-in-jakarta-ee-10/",
+  "title": "Quarkus 2.8.0.Final released - New REST layer by default, GraalVM 22.0 and much more!",
+  "link": "https://quarkus.io/blog/quarkus-2-8-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-04-08T15:56:30.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Jakarta EE 10 is the first major release of Jakarta EE since the “jakarta” namespace update. Many of the component specifications are introducing Major or Minor version updates that are going to reflect in the implementation APIs. Let’s learn in this article what we can expect from the upcoming new major release. Project status Firstly, ...  The post appeared first on ."
+  "date": "2022-04-12T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2.8.0.Final comes with a lot of refinements and new features: Move Assertj outside of our BOM New REST layer by default GraalVM 22.0 Support for OIDC Proof Of Key for Code Exchange (PKCE) QuarkusTransaction API Elasticsearch Dev Services And much more! Migration Guide To migrate from 2.7, please refer to..."
 }
