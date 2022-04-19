@@ -9,5 +9,5 @@
   ],
   "date": "2022-04-19T10:40:44.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article launches you on a tour of Transaction Management in Quarkus applications by focusing on the standard declarative approach and the new programmatic transaction API. Quarkus Transactions extension Quarkus, just like other Enterprise applications, uses a Transaction Manager to coordinate and expose transactions to your applications. At its core, Quarkus uses Narayana Transaction Manager, ...  The post appeared first on ."
+  "content": "This article launches you on a tour of Transaction Management in Quarkus applications by focusing on the standard declarative approach and the new programmatic transaction API. Quarkus narayana extension Quarkus, just like other Enterprise applications, uses a Transaction Manager to coordinate and expose transactions to your applications. At its core, Quarkus uses Narayana Transaction Manager, ...  The post appeared first on ."
 }
