@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Spring And RESTEasy Spring Boot EE9 Deployment With WildFly Preview",
-  "link": "https://resteasy.github.io/2022/04/14/resteasy-spring-6-wildfly-example/",
+  "title": "Quarkus Newsletter #19 - April",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-19/",
   "author": [
     {
-      "name": null,
+      "name": "James Cobb",
       "avatar": null
     }
   ],
   "date": "2022-04-14T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "The April newsletter has been sent. It’s full of great new articles like \"Kubernetes Native Java with Quarkus\" by Jason Greene, John Clingan and Eric Deandrea. Others include:Develop and Deploy Cloud Native Java Applications at Supersonic speed, Build a REST API from the ground up with Quarkus 2.0, Building Databases..."
 }
