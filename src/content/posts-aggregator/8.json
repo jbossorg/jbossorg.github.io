@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #19 - April",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-19/",
+  "title": "New Security Features in WildFly 26.1",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly-26-1/",
   "author": [
     {
-      "name": "James Cobb",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-04-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The April newsletter has been sent. It’s full of great new articles like \"Kubernetes Native Java with Quarkus\" by Jason Greene, John Clingan and Eric Deandrea. Others include:Develop and Deploy Cloud Native Java Applications at Supersonic speed, Build a REST API from the ground up with Quarkus 2.0, Building Databases..."
+  "date": "2022-04-19T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

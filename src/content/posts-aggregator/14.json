@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.8.0.Final released - New REST layer by default, GraalVM 22.0 and much more!",
-  "link": "https://quarkus.io/blog/quarkus-2-8-0-final-released/",
+  "title": "RESTEasy Spring And RESTEasy Spring Boot EE9 Deployment With WildFly Preview",
+  "link": "https://resteasy.github.io/2022/04/14/resteasy-spring-6-wildfly-example/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-04-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "2.8.0.Final comes with a lot of refinements and new features: Move Assertj outside of our BOM New REST layer by default GraalVM 22.0 Support for OIDC Proof Of Key for Code Exchange (PKCE) QuarkusTransaction API Elasticsearch Dev Services And much more! Migration Guide To migrate from 2.7, please refer to..."
+  "date": "2022-04-14T00:00:00.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

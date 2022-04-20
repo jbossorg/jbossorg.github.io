@@ -1,13 +1,13 @@
 {
-  "title": "Using the default Servlet in WildFly applications",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/using-the-default-servlet-in-wildfly-applications/",
+  "title": "Quarkus Newsletter #19 - April",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-19/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-04-12T14:19:06.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use the default Servlet available in Undertow Web Server for some concerns, such as directory listing or static resources serving. Most Web servers have a default Servlet available. What’s the use case for a default Servlet? You can use it mainly for two reasons: To serve static resources ...  The post appeared first on ."
+  "date": "2022-04-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The April newsletter has been sent. It’s full of great new articles like \"Kubernetes Native Java with Quarkus\" by Jason Greene, John Clingan and Eric Deandrea. Others include:Develop and Deploy Cloud Native Java Applications at Supersonic speed, Build a REST API from the ground up with Quarkus 2.0, Building Databases..."
 }
