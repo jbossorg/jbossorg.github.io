@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.8.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-8-1-final-released/",
+  "title": "How to manage Transactions in Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-manage-transactions-in-quarkus/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released 2.8.1.Final which, as usual, only contains bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.8. If you are not using 2.8 already, please refer to the 2.8 migration guide. Full changelog You can get the full changelog of 2.8.1.Final on GitHub. Come..."
+  "date": "2022-04-19T10:40:44.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article launches you on a tour of Transaction Management in Quarkus applications by focusing on the standard declarative approach and the new programmatic transaction API. Quarkus narayana extension Quarkus, just like other Enterprise applications, uses a Transaction Manager to coordinate and expose transactions to your applications. At its core, Quarkus uses Narayana Transaction Manager, ...  The post appeared first on ."
 }

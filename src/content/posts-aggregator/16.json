@@ -1,13 +1,13 @@
 {
-  "title": "How to trace JDBC Statements performance in MySQL",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/how-to-trace-jdbc-statements-performance-in-mysql/",
+  "title": "What’s new in Jakarta EE 10",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/whats-new-in-jakarta-ee-10/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-06T14:30:07.000Z",
+  "date": "2022-04-08T15:56:30.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this quick article we will learn an handy option which is available in MySQL JDBC Driver to debug and profile SQL statements run by Java applications. There are several strategies to trace SQL Statements that your application is running. For example, JPA applications typically use this option to show the actual SQL Statement that ...  The post appeared first on ."
+  "content": "Jakarta EE 10 is the first major release of Jakarta EE since the “jakarta” namespace update. Many of the component specifications are introducing Major or Minor version updates that are going to reflect in the implementation APIs. Let’s learn in this article what we can expect from the upcoming new major release. Project status Firstly, ...  The post appeared first on ."
 }
