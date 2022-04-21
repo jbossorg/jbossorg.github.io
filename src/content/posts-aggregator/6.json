@@ -1,13 +1,13 @@
 {
-  "title": "Client side default SSL context provider",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/client-default-ssl-context/",
+  "title": "RESTEasy Releases",
+  "link": "https://resteasy.github.io/2022/04/19/resteasy-releases/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2022-04-19T00:00:00.000Z",
-  "feed_title": "WildFly",
+  "date": "2022-04-19T18:11:11.000Z",
+  "feed_title": "Resteasy",
   "content": ""
 }

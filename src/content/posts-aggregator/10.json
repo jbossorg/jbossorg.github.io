@@ -1,10 +1,10 @@
 {
-  "title": "New Security Features in WildFly 26.1",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly-26-1/",
+  "title": "Encrypting Pre-Existing Filesystem realms",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption-tool/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Ashpan Raskar",
+      "avatar": null
     }
   ],
   "date": "2022-04-19T00:00:00.000Z",

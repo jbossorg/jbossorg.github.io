@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Releases",
-  "link": "https://resteasy.github.io/2022/04/19/resteasy-releases/",
+  "title": "Solving problems with Quarkus extensions (1/n)",
+  "link": "https://quarkus.io/blog/solving-problems-with-extensions/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-04-19T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-04-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "This is the first post of what I hope will be a series of several articles showing how you can solve complex problems by leveraging the unique Quarkus build infrastructure and extension framework. First things first, bootstraping a Quarkus extension is easy: in one command, you can get it scaffolded..."
 }

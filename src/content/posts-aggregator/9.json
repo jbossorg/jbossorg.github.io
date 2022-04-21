@@ -1,9 +1,9 @@
 {
-  "title": "Improving readability of certificate read commands",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/improving-readability-of-alias-commands/",
+  "title": "Encrypting Filesystem realms",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption/",
   "author": [
     {
-      "name": "Bartosz Baranowski",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],

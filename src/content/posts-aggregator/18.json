@@ -1,14 +1,13 @@
 {
-  "title": "DevOpsDays Raleigh 2022 - Talking Architecture Shop (slides)",
-  "link": "http://www.schabell.org/2022/04/devopsdays-raleigh-2022-talking-architecture-shop-slides.html",
+  "title": "RESTEasy Spring And RESTEasy Spring Boot EE9 Deployment With WildFly Preview",
+  "link": "https://resteasy.github.io/2022/04/14/resteasy-spring-6-wildfly-example/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-04-13T18:00:00.005Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": "I've  that I had a talk accepted to the DevOpsDays Raleigh 2022 conference this year.   Today was the day after travel to Raleigh that we got  to chat with a room of super enthusiastic architects.  Thanks for the time and lending us your ears. Below you'll find the talk title and abstract along with the slides for your viewing pleasure.    My session is from a series called Talking Architecture Shop. This is focusing on architecture research for solutions in the DevOps domain that scale and will be co-presented with my good friend .   TALKING ARCHITECTURE SHOP - EXPLORING OPEN SOURCE DEVOPS AT SCALE   You've heard of large scale open source architectures, but have you ever wanted to take a serious look at these real life enterprise DevOps implementations that scale? This session takes attendees on a tour of multiple use cases covering DevOps challenges with hybrid cloud management with GitOps, DevOps in healthcare, and much more. Not only are these architectures interesting, but they are successful real life implementations featuring open source technologies and power many of your own online experiences. The attendee departs this session with a working knowledge of how to map general open source technologies to their solutions. Material covered is available freely online and attendees can use these solutions as starting points for aligning to their own solution architectures. Join us for an hour of power as we talk architecture shop!   "
+  "date": "2022-04-14T00:00:00.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

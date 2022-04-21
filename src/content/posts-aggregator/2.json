@@ -1,13 +1,13 @@
 {
-  "title": "Solving problems with Quarkus extensions (1/n)",
-  "link": "https://quarkus.io/blog/solving-problems-with-extensions/",
+  "title": "Getting started with Jakarta RESTful Services",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "This is the first post of what I hope will be a series of several articles showing how you can solve complex problems by leveraging the unique Quarkus build infrastructure and extension framework. First things first, bootstraping a Quarkus extension is easy: in one command, you can get it scaffolded..."
+  "date": "2022-04-21T16:44:56.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The latest release of RESTEasy (6.1.0) provides an overview of what’s coming with Jakarta RESTful Web Services 3.1. which will be a core component of Jakarta EE 10. Let’s review through this article the upcoming features using RESTEasy (6.1.0) implementation. What’s new in Jakarta RESTful Web Services 3.1 One of the top features of the ...  The post appeared first on ."
 }
