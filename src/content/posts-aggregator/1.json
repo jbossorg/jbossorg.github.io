@@ -1,13 +1,13 @@
 {
-  "title": "Create dashboards using YML with Dashbuilder",
-  "link": "https://blog.kie.org/2022/04/create-dashboards-using-yml-with-dashbuilder.html",
+  "title": "Kogito 1.20.0 released!",
+  "link": "https://blog.kie.org/2022/04/kogito-1-20-0-released.html",
   "author": [
     {
-      "name": "William Siqueira",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-04-21T21:55:00.000Z",
+  "date": "2022-04-22T01:25:16.000Z",
   "feed_title": "KIE Community",
-  "content": "Creating a dashboard using pure YML from data from any JSON document is now possible using Dashbuilder! You are not even required to install anything, just access and start your dashboard!   HOW IT WAS POSSIBLE  Dashbuilder was and the client was decoupled from the backend. With this change Dashbuilder could run on client only, without the requirement of a backend. On the client side can be used without the need of a backend.  Naturally Dashbuilder could be used as an editor for its native dashboard definition format: JSON. However, the native format requires deep technical knowledge of how Dashbuilder works, hence multiple changes were made to make the JSON friendly to humans.   The JSON support was ready, however the YAML is easy to read and is a popular format due the use with Openshift and Kubernetes, so we decided to also support YAML, which is the conversion from JSON.   Currently we have an but a new one compatible with is in development!   WHAT ABOUT DASHBUILDER AUTHORING  The old Dashbuilder Authoring is in maintenance mode, which means that it continues to be released and we will fix critical issues, but new features will prioritize the YAML editor.   HOW TO GET STARTED  A can be found in Dashbuilder documentation. We have a few samples on the as well. The example library will grow soon, so stay tuned!  The post appeared first on .  "
+  "content": "We are glad to announce that the Kogito 1.20.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * SpringBoot upgrade to version 2.6.6  * [Serverless Workflows] Implement AuthRef property for function definitions to    retrieve OpenAPI Documents  * [Serverless Workflows] Support Oauth2 for legacy REST Operations  * [Operator] Operator now supports users to define their own Kogito deployment    using a plain k8s Deployment object by annotating it with    kogito.kie.org/runtime: ‘true’.  * [Operator] Operator will now create a ConfigMap for every deployed supporting    service, e.g. Management Console, allowing users to configure it easily.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.18.0 artifacts are available at the .  A detailed changelog for 1.20.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
 }
