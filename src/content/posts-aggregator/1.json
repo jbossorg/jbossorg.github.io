@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.20.0 released!",
-  "link": "https://blog.kie.org/2022/04/kogito-1-20-0-released.html",
+  "title": "DMN Runner inputs persistence",
+  "link": "https://blog.kie.org/2022/04/dmn-runner-inputs-persistence.html",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Luiz Motta",
       "avatar": null
     }
   ],
-  "date": "2022-04-22T01:25:16.000Z",
+  "date": "2022-04-22T13:48:54.000Z",
   "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.20.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * SpringBoot upgrade to version 2.6.6  * [Serverless Workflows] Implement AuthRef property for function definitions to    retrieve OpenAPI Documents  * [Serverless Workflows] Support Oauth2 for legacy REST Operations  * [Operator] Operator now supports users to define their own Kogito deployment    using a plain k8s Deployment object by annotating it with    kogito.kie.org/runtime: ‘true’.  * [Operator] Operator will now create a ConfigMap for every deployed supporting    service, e.g. Management Console, allowing users to configure it easily.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.18.0 artifacts are available at the .  A detailed changelog for 1.20.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
+  "content": "The DMN Runner has been a fundamental part of the KIE Sandbox, and it is still evolving. In the last release, we have the pleasure to introduce a new feature that will make a huge improvement on the runner UX. The persistence of your DMN Runner inputs! Now, the KIE Sandbox saves all your inputs in your browser storage data automatically, so you don’t need to worry about losing your inputs or filing the form every time. The data will be there for you. Also, you will be able to share your inputs with your peers with the download/upload option. Let’s take a better look at it.  If you wish you can follow the same steps in this post. First of all, using the “Import from URL” feature on KIE Sandbox.  Then start the KIE Sandbox Extended Services. If you still don’t know how to do it, it’s simple! Click on the Run button, and follow the steps. It will start a local backend service on your machine. It enables some amazing features, such as the DMN Runner, and deploys on OpenShift.  This example checks if the Driver’s Current Points are bigger than 20. If so, the Driver should be suspended.  Until now, nothing has changed. Fill out the form inputs, and check the outputs.  Go back to the KIE Sandbox home, and reopen the file. The inputs you just entered will be there. Check it out.  Moreover, you can use the new options under the “Run” dropdown. The Download/Load options are straightforward. You’re going to download a JSON file containing your current inputs. If you wish, you can manually edit this JSON file, or you can share it with your peers. Lastly, the “Delete inputs” option will delete all your inputs, so be aware!  That’s it for now. Thanks for reading and stay tuned for more updates!  The post appeared first on ."
 }
