@@ -1,13 +1,13 @@
 {
-  "title": "How to manage Transactions in Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-manage-transactions-in-quarkus/",
+  "title": "RESTEasy Releases",
+  "link": "https://resteasy.github.io/2022/04/19/resteasy-releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-04-19T10:40:44.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article launches you on a tour of Transaction Management in Quarkus applications by focusing on the standard declarative approach and the new programmatic transaction API. Quarkus narayana extension Quarkus, just like other Enterprise applications, uses a Transaction Manager to coordinate and expose transactions to your applications. At its core, Quarkus uses Narayana Transaction Manager, ...  The post appeared first on ."
+  "date": "2022-04-19T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
