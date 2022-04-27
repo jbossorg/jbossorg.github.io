@@ -1,6 +1,6 @@
 {
-  "title": "Encrypting Pre-Existing Filesystem realms",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption-tool/",
+  "title": "Encrypting Filesystem realms",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption/",
   "author": [
     {
       "name": "Ashpan Raskar",

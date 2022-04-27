@@ -1,13 +1,13 @@
 {
-  "title": "Client side default SSL context provider",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/client-default-ssl-context/",
+  "title": "How to manage Transactions in Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-manage-transactions-in-quarkus/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2022-04-19T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-04-19T10:40:44.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article launches you on a tour of Transaction Management in Quarkus applications by focusing on the standard declarative approach and the new programmatic transaction API. Quarkus narayana extension Quarkus, just like other Enterprise applications, uses a Transaction Manager to coordinate and expose transactions to your applications. At its core, Quarkus uses Narayana Transaction Manager, ...  The post appeared first on ."
 }
