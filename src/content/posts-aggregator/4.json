@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.1.0.Beta2 Release",
-  "link": "https://resteasy.github.io/2022/04/26/resteasy-6.1.0.Beta2/",
+  "title": "Monitoring Quarkus JVM Mode With Cryostat",
+  "link": "https://quarkus.io/blog/monitoring-quarkus-jvm-mode-with-cryostat/",
   "author": [
     {
-      "name": null,
+      "name": "Andrew Azores",
       "avatar": null
     }
   ],
-  "date": "2022-04-26T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-04-27T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Cryostat is a profiling and monitoring tool that leverages the JDK Flight Recorder (JFR) framework already present in your Java applications running on the HotSpot JVM. Cryostat provides an in-cluster collection hub for easy and secure access to your JDK Flight Recorder data from outside the cluster. Cryostat is a..."
 }
