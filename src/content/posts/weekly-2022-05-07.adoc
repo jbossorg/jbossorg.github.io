@@ -1,0 +1,64 @@
+= This Week in JBoss - May 7th 2022
+Stefan Sitani
+2022-05-07
+:tags: quarkus, java, kubernetes, cryostat, jvm, jfr, openshift, knative, serverless
+
+Welcome to the May 7th edition of the JBoss weekly editorial.
+The last few weeks have been rich in both new releases from your favorite projects, and also new and interesting content brought to you by your favorite authors and contributors. And with the Red Hat Summit happening this week, we all have even more goodies to look forward to.
+Today, we're looking at highlights from all over the community. From Cryostat to Kafka to Knative and Quarkus, we have plenty to choose from, so sit back and enjoy this week's selection.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://camel.apache.org/blog/2022/05/RELEASE-3.14.3/[Camel 3.14.3 LTS] and link:https://camel.apache.org/blog/2022/05/RELEASE-3.11.7/[3.11.7 LTS]
+
+* link:https://camel.apache.org/blog/2022/04/camel-k-release-1-9/[Camel K 1.9.0]
+
+* link:https://debezium.io/blog/2021/12/16/debezium-1.8-final-released/[Debezium 1.9.2]
+
+* link:https://in.relation.to/2022/05/06/hibernate-orm-601-final/[Hibernate ORM 6.0.1]
+
+* https://resteasy.dev/2022/04/26/resteasy-6.1.0.Beta2/[RESTEasy 6.1.0.Beta2]
+
+* link:https://quarkus.io/blog/quarkus-2-8-3-final-released/[Quarkus 2.8.3 - Maintenance release]
+
+== Articles & Blogs
+
+=== Monitoring Quarkus JVM mode With Cryostat
+
+link:https://quarkus.io/blog/monitoring-quarkus-jvm-mode-with-cryostat/[Monitoring Quarkus JVM Mode With Cryostat] by Andrew Azores
+
+link:https://cryostat.io/[Cryostat] is a container-native implementation of JDK Flight Recorder (JFR) for monitoring the JVM performance in workloads that run on an OpenShift cluster.
+Andrew Azores walks you through installing the Cryostat Operator and setting up a Cryostat instance to monitor a Quarkus application running in JVM mode. He also adds a few educational points about Cryostat's JMX target discovery strategies and the limitations of using Cryostat to monitor Quarkus applications running in native mode.
+
+=== Use Red Hat's SSO to manage Kafka broker authorization
+
+link:https://developers.redhat.com/articles/2022/05/04/use-red-hats-sso-manage-kafka-broker-authorization#[Use Red Hat's SSO to manage Kafka broker authorization] by Ken Lee and Niti Upadhyay
+
+Ken Lee and Niti Upadhyay's post is a detailed deep dive into combining the Kafka ACL management capabilities provided by Red Hat SSO and the user and group permission management model of OpenLDAP to control publishing and consumption access of LDAP users to specific Kafka topics. The article opens with an architecture overview of the example project, and follows with up with a detailed end-to-end walkthrough of how to to get the required service up and running on OpenShift. The walkthrough steps contain extensive code examples and section providing background information. The article is accompanied by a demo video presented by Ken Lee.
+
+=== The Red Hat Cloud way: Event-driven, serverless, distributed cloud services to support modern apps
+
+link:https://developers.redhat.com/articles/2022/05/03/red-hat-cloud-way-event-driven-serverless-distributed-cloud-services-support[The Red Hat Cloud way: Event-driven, serverless, distributed cloud services to support modern apps] by Natale Vinto and Sebastien Blanc
+
+This short tie-in article for a Red Hat Summit 2022 talk by Natale Vinto and Sebastien Blanc sets stage for the speakers' presentation on the future of cloud-native development with Red Hat's Cloud Services and Application Services portfolios. Natale and Sebastien will take you on a journey of developing a microservice-based application with Red Hat OpenShift Streams for Apache Kafka and Developer Sandbox for OpenShift that supports serverless, event-driven, on-demand workloads and can adapt to a wide range of purposes. including IoT, edge computing, and big data analytics. If you missed this talk at this years Summit, be sure to catch the recording.
+
+=== Comparing Distributed Transaction Patterns for Microservices
+
+link:http://www.ofbizian.com/2022/05/comparing-distributed-transaction.html[Comparing Distributed Transaction Patterns for Microservices] by Bilgin Ibryam
+
+Drawing on his vast experience wit working on customer projects as a Solution Architect, Bilgin invites you along on a deep-dive into the technical challenges of using distributed transactions to write data to multiple systems of record in microservice-based applications. He lays out four proven design approaches to making your app write predictably into multiple data storage resources and evaluates the benefits and drawback of each one, in terms of complexity, robustness, and scalability. Bilgin includes multiple examples and references to these patters as they are used in real-world enterprise applications today.
+
+=== Videos
+
+This week there was plenty of fresh content to choose from, so pleas enjoy some of my top video picks:
+
+* link:https://youtu.be/CfDI0XsdxA0[Quarkus Renarde: an old-school Web framework with today's touch]
+* link:https://youtu.be/vbLRO8xJWy8[Quarkus Insights #87: Keycloak Quarkus Distribution]
+* link:https://youtu.be/MwJB93hhHak[Quarkus Insights #88: Quarkus Scheduler]
+* link:https://youtu.be/2hmBVhquZzQ[Distributed Tracing Integration with OpenTelemetry, Knative, and Quarkus]
+* link:https://youtu.be/LJ7m7Q4nR3U[Event-driven Autoscaling on Kubernetes: Use case 1 - HPA with Kafka]
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
