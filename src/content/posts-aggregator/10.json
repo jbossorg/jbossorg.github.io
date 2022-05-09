@@ -1,13 +1,13 @@
 {
-  "title": "Monitoring Quarkus JVM Mode With Cryostat",
-  "link": "https://quarkus.io/blog/monitoring-quarkus-jvm-mode-with-cryostat/",
+  "title": "Getting started with ZGC Garbage collector",
+  "link": "http://www.mastertheboss.com/java/getting-started-with-zgc-garbage-collector/",
   "author": [
     {
-      "name": "Andrew Azores",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-27T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Cryostat is a profiling and monitoring tool that leverages the JDK Flight Recorder (JFR) framework already present in your Java applications running on the HotSpot JVM. Cryostat provides an in-cluster collection hub for easy and secure access to your JDK Flight Recorder data from outside the cluster. Cryostat is a..."
+  "date": "2022-04-27T15:33:10.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will discuss the Java ZGC garbage collector and how you can configure and use it to meet your needs in modern Java applications. What is the Java ZGC? The Java ZGC is a scalable low latency garbage collector that is production-ready since Java 15. The ZGC Collector is designed to minimize GC pauses, ...  The post appeared first on ."
 }
