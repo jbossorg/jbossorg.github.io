@@ -1,14 +1,13 @@
 {
-  "title": "London OpenShift User Group - Talking Architecture Shop",
-  "link": "http://www.schabell.org/2022/05/london-openshift-user-group-talking-architecture-shop.html",
+  "title": "Quarkus 2.9.0.Final released - WebAuthn extension, Compression support for Reactive Routes and RESTEasy Reactive and much more...",
+  "link": "https://quarkus.io/blog/quarkus-2-9-0-final-released/",
   "author": [
     {
-      "name": "Eric D. Schabell",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-05-10T15:00:00.013Z",
-  "feed_title": "Eric D. Schabell",
-  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
-  "content": " My second trip this year takes me to London for some fun later this week at Devoxx UK 2022 and a chance to speak with our customers at the London OpenShift User Group.    As the , Tuesday 10th May we have a special meeting of the London OpenShift User Group featuring:   * Enterprise Portfolio Architecture - the open source way  * Uncover the genius within your ranks - A live stream of the Keynote    presentation from Red Hat Summit in Boston featuring Paul Cormier (President    and CEO), Stefanie Chiras (Senior VP) and Matt Hicks (Executive VP)    Below you'll find the slides from my talk.    The event kicks off with a welcome and then I'll present the following, with slides included here for your viewing pleasure:   TALKING ARCHITECTURE SHOP - EXPLORING OPEN SOURCE SUCCESS AT SCALE  You've heard of large scale open source architectures, but have you ever wanted to take a serious look at these real life enterprise implementations that scale? This session takes attendees on a tour of multiple use cases covering enterprise challenges like integration, optimisation, cloud adoption, hybrid cloud management, healthcare, retail, manufacturing, financial services, and much more. Not only are these architectures interesting, but they are successful real life implementations featuring open source technologies and power many of your own online experiences. The attendee departs this session with a working knowledge of how to map general open source technologies to their solutions. Material covered is available freely online and attendees can use these solutions as starting points for aligning to their own solution architectures.    Thanks for the time and lending me your ears!  "
+  "date": "2022-05-11T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.9, which comes packed with new features: WebAuthn extension Compression support for Reactive Routes and RESTEasy Reactive Support for Confluent Schema Registry Support for Back channel logout Kotlin and Scala upgrade And much more… Migration Guide To migrate from 2.8, please refer to our migration guide...."
 }

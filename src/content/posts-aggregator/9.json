@@ -1,13 +1,13 @@
 {
-  "title": "How to use Camel extensions in Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-camel-extensions-in-quarkus-applications/",
+  "title": "Setting Task Priority as an Mvel Expression",
+  "link": "https://blog.kie.org/2022/05/setting-task-priority-as-an-mvel-expression.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jaime Enriquez Parada",
       "avatar": null
     }
   ],
-  "date": "2022-05-02T16:37:24.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Camel is the open source swiss knife framework for integration, with over 300 components allowing the integration between external systems. In this article we will learn how to use Camel extensions for Quarkus to build powerful Java Integrations. Using Camel with Quarkus Firstly, let’s see which extensions you need to develop Camel applications with Quarkus. ...  The post appeared first on ."
+  "date": "2022-05-05T17:39:15.000Z",
+  "feed_title": "KIE Community",
+  "content": "In the recent release of Business Central 7.67 as well as Kogito Channels 0.18, a change has been made to Task priority. Before the value could only be set using an Integer, but turns out a more useful way had been requested by users where they needed the value to be set as a Mvel expression #{value}.  As you can see in the image below, this was the way it was set before. The value was validated to be an integer.  Previous Version  As you can see in the image below, this field now accepts values other than Integer where you can set the value as a Mvel expression.  New Version New version  Hope you find this new functionality useful.  The post appeared first on .  "
 }

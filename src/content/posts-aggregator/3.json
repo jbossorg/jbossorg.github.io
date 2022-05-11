@@ -1,13 +1,13 @@
 {
-  "title": "Simple external resources Testing with Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/simple-external-resources-testing-with-quarkus/",
+  "title": "Vlog: WildFly Datasource configuration on OpenShift",
+  "link": "https://www.youtube.com/watch?v=4acHNgSdwFk",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Yeray Borges",
       "avatar": null
     }
   ],
-  "date": "2022-05-10T08:30:25.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This is the second tutorial about Quarkus Testing. In this article we will learn how to test Quarkus applications that require Integration tests with external resources such as Databases, Messaging Brokers, Identity Servers and more. Overview of Quarkus Testing Firstly, we recommend checking this tutorial to have an overview of Quarkus Testing: How to Test ...  The post appeared first on ."
+  "date": "2022-05-11T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

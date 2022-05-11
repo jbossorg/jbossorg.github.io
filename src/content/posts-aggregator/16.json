@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.1.0.Beta2 Release",
-  "link": "https://resteasy.github.io/2022/04/26/resteasy-6.1.0.Beta2/",
+  "title": "Getting started with ZGC Garbage collector",
+  "link": "http://www.mastertheboss.com/java/getting-started-with-zgc-garbage-collector/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-04-26T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-04-27T15:33:10.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will discuss the Java ZGC garbage collector and how you can configure and use it to meet your needs in modern Java applications. What is the Java ZGC? The Java ZGC is a scalable low latency garbage collector that is production-ready since Java 15. The ZGC Collector is designed to minimize GC pauses, ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "DMN Runner inputs persistence",
-  "link": "https://blog.kie.org/2022/04/dmn-runner-inputs-persistence.html",
+  "title": "Quarkus 2.8.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-8-2-final-released/",
   "author": [
     {
-      "name": "Luiz Motta",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-04-22T13:48:54.000Z",
-  "feed_title": "KIE Community",
-  "content": "The DMN Runner has been a fundamental part of the KIE Sandbox, and it is still evolving. In the last release, we have the pleasure to introduce a new feature that will make a huge improvement on the runner UX. The persistence of your DMN Runner inputs! Now, the KIE Sandbox saves all your inputs in your browser storage data automatically, so you don’t need to worry about losing your inputs or filing the form every time. The data will be there for you. Also, you will be able to share your inputs with your peers with the download/upload option. Let’s take a better look at it.  If you wish you can follow the same steps in this post. First of all, using the “Import from URL” feature on KIE Sandbox.  Then start the KIE Sandbox Extended Services. If you still don’t know how to do it, it’s simple! Click on the Run button, and follow the steps. It will start a local backend service on your machine. It enables some amazing features, such as the DMN Runner, and deploys on OpenShift.  This example checks if the Driver’s Current Points are bigger than 20. If so, the Driver should be suspended.  Until now, nothing has changed. Fill out the form inputs, and check the outputs.  Go back to the KIE Sandbox home, and reopen the file. The inputs you just entered will be there. Check it out.  Moreover, you can use the new options under the “Run” dropdown. The Download/Load options are straightforward. You’re going to download a JSON file containing your current inputs. If you wish, you can manually edit this JSON file, or you can share it with your peers. Lastly, the “Delete inputs” option will delete all your inputs, so be aware!  That’s it for now. Thanks for reading and stay tuned for more updates!  The post appeared first on .  "
+  "date": "2022-04-26T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released 2.8.2.Final which, as usual, only contains bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.8. If you are not using 2.8 already, please refer to the 2.8 migration guide. Full changelog You can get the full changelog of 2.8.2.Final on GitHub. Come..."
 }

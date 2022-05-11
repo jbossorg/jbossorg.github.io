@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.8.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-8-2-final-released/",
+  "title": "RESTEasy 6.1.0.Beta2 Release",
+  "link": "https://resteasy.github.io/2022/04/26/resteasy-6.1.0.Beta2/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-04-26T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released 2.8.2.Final which, as usual, only contains bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.8. If you are not using 2.8 already, please refer to the 2.8 migration guide. Full changelog You can get the full changelog of 2.8.2.Final on GitHub. Come..."
+  "date": "2022-04-26T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
