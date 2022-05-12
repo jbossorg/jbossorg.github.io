@@ -1,13 +1,13 @@
 {
-  "title": "What's new in Vert.x 4.3",
-  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-3",
+  "title": "Quarkus Newsletter #20 - May",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-20/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
   "date": "2022-05-12T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "See an overview of all new and exciting features in Vert.x 4.3, including ... and more."
+  "feed_title": "Quarkus",
+  "content": "The May newsletter is out! Read the great article \"Native Java in the Real World\" describing how Microservices on Kubernetes are the business case sweet spot for native Java because they have the most significant framework and Java runtime overhead. As well as How to use Camel extensions for Quarkus..."
 }
