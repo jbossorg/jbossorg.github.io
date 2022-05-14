@@ -9,5 +9,5 @@
   ],
   "date": "2022-05-12T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "See an overview of all new and exciting features in Vert.x 4.3, including ... and more."
+  "content": "See an overview of all new and exciting features in Vert.x 4.3, including Web Client URL templates, JSON schema improvements, more compression algorithms, dynamic codec lookup, and more."
 }
