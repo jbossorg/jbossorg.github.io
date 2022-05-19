@@ -1,13 +1,13 @@
 {
-  "title": "Setting Task Priority as an Mvel Expression",
-  "link": "https://blog.kie.org/2022/05/setting-task-priority-as-an-mvel-expression.html",
+  "title": "Quarkus 2.8.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-8-3-final-released/",
   "author": [
     {
-      "name": "Jaime Enriquez Parada",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-05-05T17:39:15.000Z",
-  "feed_title": "KIE Community",
-  "content": "In the recent release of Business Central 7.67 as well as Kogito Channels 0.18, a change has been made to Task priority. Before the value could only be set using an Integer, but turns out a more useful way had been requested by users where they needed the value to be set as a Mvel expression #{value}.  As you can see in the image below, this was the way it was set before. The value was validated to be an integer.  Previous Version  As you can see in the image below, this field now accepts values other than Integer where you can set the value as a Mvel expression.  New Version New version  Hope you find this new functionality useful.  The post appeared first on .  "
+  "date": "2022-05-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We just released Quarkus 2.8.3.Final which is the third and probably last maintenance release for our 2.8 release train. 2.9.0.Final will be released next week. It is a safe upgrade for anyone already using 2.8. If you are not using 2.8 already, please refer to the 2.8 migration guide. Full..."
 }

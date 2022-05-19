@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.21.0 released!",
-  "link": "https://blog.kie.org/2022/05/kogito-1-21-0-released.html",
+  "title": "Quinoa - A Quarkus extension to create Modern UI with no hassle",
+  "link": "https://quarkus.io/blog/quinoa-modern-ui-with-no-hassle/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Andy Damevin",
       "avatar": null
     }
   ],
-  "date": "2022-05-17T11:06:25.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.21.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * New source files add-on that allows you to download the source files (.bpmn,    .bpmn2, .json, and .yaml).  * New Jobs integration add-on based on Messaging / Kafka  * OAuth2 support on Serveless Workflow OpenAPI   BREAKING CHANGES   * Persistence add-ons for Spring Boot runtime have been updated with a new    Maven Artifact Id, for more details see .  * Codegen maven step should be disable or there is a likely chance openapi in    SWF will stop working (Quarkiverse integration is enabled with codegen maven    step and is still in experimental phase, some specs are working, but others    not)  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.19.0 artifacts are available at the .  A detailed changelog for 1.21.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
+  "date": "2022-05-19T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quinoa… To be honest I wasn’t really a fan at first, but then my wife made them in a bowl like a salad with avocado and raw salmon. Now I really enjoy it with a touch of soy sauce. Let’s not digress too much, I am not here to talk..."
 }
