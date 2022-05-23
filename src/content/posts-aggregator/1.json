@@ -1,13 +1,13 @@
 {
-  "title": "How to consume Quarkus REST Services with React",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-consume-quarkus-rest-services-with-react/",
+  "title": "WildFly custom caches configuration for Stateful Beans",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-05-20T14:16:54.000Z",
+  "date": "2022-05-23T02:46:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "ReactJS is a popular and widely used Javascript library for building rich user interfaces. this article shows how to consume Rest Services from a Quarkus application in a simple React front-end. Getting started with React To get started with ReactJS, you are going to need NPM (or Yarn, alternatively). Let’s use NPM for this example. ...  The post appeared first on ."
+  "content": "This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server. What is a Stateful cache Stateful session beans are conversational components that preserve their state contained in instance variables. Each stateful bean that is instantiated is stored in a ...  The post appeared first on ."
 }
