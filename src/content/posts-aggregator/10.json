@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.9.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-9-1-final-released/",
+  "title": "Kogito 1.21.0 released!",
+  "link": "https://blog.kie.org/2022/05/kogito-1-21-0-released.html",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-05-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is my pleasure to announce the availability of Quarkus 2.9.1.Final, the first maintenance release of our 2.9 release. It is a safe upgrade for anyone already using 2.9. If you are not using 2.9 already, please refer to the 2.9 migration guide. Full changelog You can get the full..."
+  "date": "2022-05-17T11:06:25.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.21.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * New source files add-on that allows you to download the source files (.bpmn,    .bpmn2, .json, and .yaml).  * New Jobs integration add-on based on Messaging / Kafka  * OAuth2 support on Serveless Workflow OpenAPI   BREAKING CHANGES   * Persistence add-ons for Spring Boot runtime have been updated with a new    Maven Artifact Id, for more details see .  * Codegen maven step should be disable or there is a likely chance openapi in    SWF will stop working (Quarkiverse integration is enabled with codegen maven    step and is still in experimental phase, some specs are working, but others    not)  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.19.0 artifacts are available at the .  A detailed changelog for 1.21.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
 }
