@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.19 has been released",
-  "link": "http://bytemanblog.blogspot.com/2022/05/byteman-4019-has-been-released.html",
+  "title": "Eclipse Vert.x 4.3.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-1",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Julien Viet",
+      "avatar": null
     }
   ],
-  "date": "2022-05-24T12:26:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.19 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK19.    Byteman 4.0.19 is a maintenance release which enables Byteman to be used with JDK19 releases. It also contains two small performance and documentation enhancements. More details are provided in the and the latest Byteman Programmers Guide."
+  "date": "2022-05-25T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.1 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }
