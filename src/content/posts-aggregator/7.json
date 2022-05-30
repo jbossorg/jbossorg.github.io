@@ -1,13 +1,13 @@
 {
-  "title": "How to consume Quarkus REST Services with React",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-consume-quarkus-rest-services-with-react/",
+  "title": "Byteman 4.0.19 has been released",
+  "link": "http://bytemanblog.blogspot.com/2022/05/byteman-4019-has-been-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2022-05-20T14:16:54.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "ReactJS is a popular and widely used Javascript library for building rich user interfaces. this article shows how to consume Rest Services from a Quarkus application in a simple React front-end. Getting started with React To get started with ReactJS, you are going to need NPM (or Yarn, alternatively). Let’s use NPM for this example. ...  The post appeared first on ."
+  "date": "2022-05-24T12:26:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.19 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK19.    Byteman 4.0.19 is a maintenance release which enables Byteman to be used with JDK19 releases. It also contains two small performance and documentation enhancements. More details are provided in the and the latest Byteman Programmers Guide."
 }

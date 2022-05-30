@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.9.0.Final released - WebAuthn extension, Compression support for Reactive Routes and RESTEasy Reactive and much more...",
-  "link": "https://quarkus.io/blog/quarkus-2-9-0-final-released/",
+  "title": "What's new in Vert.x 4.3",
+  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-3",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-05-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.9, which comes packed with new features: WebAuthn extension Compression support for Reactive Routes and RESTEasy Reactive Support for Confluent Schema Registry Support for Back channel logout Kotlin and Scala upgrade And much more… Migration Guide To migrate from 2.8, please refer to our migration guide...."
+  "date": "2022-05-12T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "See an overview of all new and exciting features in Vert.x 4.3, including Web Client URL templates, JSON schema improvements, more compression algorithms, dynamic codec lookup, and more."
 }

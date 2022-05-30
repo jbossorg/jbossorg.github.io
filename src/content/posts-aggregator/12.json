@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.9.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-9-1-final-released/",
+  "title": "Quinoa - A Quarkus extension to create Modern UI with no hassle",
+  "link": "https://quarkus.io/blog/quinoa-modern-ui-with-no-hassle/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Andy Damevin",
       "avatar": null
     }
   ],
-  "date": "2022-05-17T00:00:00.000Z",
+  "date": "2022-05-19T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "It is my pleasure to announce the availability of Quarkus 2.9.1.Final, the first maintenance release of our 2.9 release. It is a safe upgrade for anyone already using 2.9. If you are not using 2.9 already, please refer to the 2.9 migration guide. Full changelog You can get the full..."
+  "content": "Quinoa… To be honest I wasn’t really a fan at first, but then my wife made them in a bowl like a salad with avocado and raw salmon. Now I really enjoy it with a touch of soy sauce. Let’s not digress too much, I am not here to talk..."
 }

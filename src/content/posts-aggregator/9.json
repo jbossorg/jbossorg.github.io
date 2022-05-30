@@ -1,13 +1,13 @@
 {
-  "title": "Quinoa - A Quarkus extension to create Modern UI with no hassle",
-  "link": "https://quarkus.io/blog/quinoa-modern-ui-with-no-hassle/",
+  "title": "Quarkus Tools for IntelliJ 1.11.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/",
   "author": [
     {
-      "name": "Andy Damevin",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2022-05-19T00:00:00.000Z",
+  "date": "2022-05-23T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quinoa… To be honest I wasn’t really a fan at first, but then my wife made them in a bowl like a salad with avocado and raw salmon. Now I really enjoy it with a touch of soy sauce. Let’s not digress too much, I am not here to talk..."
+  "content": "We are very pleased to announce the 1.11.0 release of Quarkus Tools for IntelliJ. This release adds support for Qute templates but also align with LSP4MP 0.4.0 and quarkus-ls 0.11.1. Qute templates When a Quarkus project has Qute in the classpath, editing a Qute template (HTML / JSON / YAML..."
 }

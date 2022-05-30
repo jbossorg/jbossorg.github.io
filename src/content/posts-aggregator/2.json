@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.1 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-1",
+  "title": "How to run WildFly on Openshift",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-05-25T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.1 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
+  "date": "2022-05-30T00:38:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we will learn how to build and deploy applications using Helm Charts. Then, we will learn how to use the S2I legacy approach which relies on ImageStreams and Templates. WildFly Cloud deployments There are two main strategies ...  The post appeared first on ."
 }

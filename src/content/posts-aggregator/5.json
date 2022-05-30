@@ -1,13 +1,13 @@
 {
-  "title": "WildFly custom caches configuration for Stateful Beans",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/",
+  "title": "Eclipse Vert.x 4.3.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-1",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-05-23T02:46:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server. What is a Stateful cache Stateful session beans are conversational components that preserve their state contained in instance variables. Each stateful bean that is instantiated is stored in a ...  The post appeared first on ."
+  "date": "2022-05-25T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.1 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features"
 }

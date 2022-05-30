@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.11.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/",
+  "title": "Quarkus 2.9.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-9-2-final-released/",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-05-23T00:00:00.000Z",
+  "date": "2022-05-25T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.11.0 release of Quarkus Tools for IntelliJ. This release adds support for Qute templates but also align with LSP4MP 0.4.0 and quarkus-ls 0.11.1. Qute templates When a Quarkus project has Qute in the classpath, editing a Qute template (HTML / JSON / YAML..."
+  "content": "Today, we released Quarkus 2.9.2.Final, our second maintenance release for 2.9. It comes with a bunch of fixes and documentation improvements. It is a safe upgrade for anyone already using 2.9 and is highly recommended. If you are not using 2.9 already, please refer to the 2.9 migration guide. Full..."
 }
