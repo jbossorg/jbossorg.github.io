@@ -1,13 +1,13 @@
 {
-  "title": "How to consume Quarkus REST Services with React",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-consume-quarkus-rest-services-with-react/",
+  "title": "Quarkus Tools for IntelliJ 1.11.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2022-05-20T14:16:54.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "ReactJS is a popular and widely used Javascript library for building rich user interfaces. this article shows how to consume Rest Services from a Quarkus application in a simple React front-end. Getting started with React To get started with ReactJS, you are going to need NPM (or Yarn, alternatively). Let’s use NPM for this example. ...  The post appeared first on ."
+  "date": "2022-05-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.11.0 release of Quarkus Tools for IntelliJ. This release adds support for Qute templates but also align with LSP4MP 0.4.0 and quarkus-ls 0.11.1. Qute templates When a Quarkus project has Qute in the classpath, editing a Qute template (HTML / JSON / YAML..."
 }
