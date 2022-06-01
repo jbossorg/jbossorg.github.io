@@ -1,0 +1,83 @@
+= This Week in JBoss - June 2nd 2022
+Pedro Silva
+2022-06-02
+:tags: quarkus, java, keycloak, infinispan, vert.x, byteman, openshift, rhel, openshift_streams, kafka
+
+Welcome to the June 2nd edition of the JBoss weekly editorial. Enjoy our pick of the latest news and interesting reads from around the JBoss community.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://quarkus.io/blog/quarkus-2-9-2-final-released/[Quarkus 2.9.2.Final released - Maintenance release]
+
+* link:https://infinispan.org/blog/2022/05/30/infinispan-14[Infinispan 14.0.0.Dev03]
+
+* link:https://vertx.io/blog/eclipse-vert-x-4-3-1[Eclipse Vert.x 4.3.1 released!]
+
+* link:http://bytemanblog.blogspot.com/2022/05/byteman-4019-has-been-released.html[Byteman 4.0.19 has been released]
+* link:https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/[Quarkus Tools for IntelliJ 1.11.0 released!]
+
+== Articles & Blogs
+
+=== New Keycloak certifications
+link:https://www.keycloak.org/2022/05/oidc-certifications.html[New Keycloak certifications] by Marek Posolda
+
+We are glad to announce new certifications for Keycloak related to the OpenID Connect and FAPI! In the previous post, we announced certification of Keycloak 15.0.2 with the FAPI and Brazil Open Banking. This is a follow-up of this post with the announcement of the additional certifications.
+
+=== How to run WildFly on Openshift
+
+link:http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift[How to run WildFly on Openshift] by F.Marchioni
+
+This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we learn how to build and deploy applications using Helm Charts. Then we learn how to use the S2I legacy approach which relies on ImageStreams and Templates.
+
+=== WildFly custom caches configuration for Stateful Beans
+
+link:http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/t[WildFly custom caches configuration for Stateful Beans] by F.Marchioni
+
+This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server.
+
+=== How to consume Quarkus REST Services with React
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/how-to-consume-quarkus-rest-services-with-react/[How to consume Quarkus REST Services with React] by F.Marchioni
+
+ReactJS is a popular and widely used Javascript library for building rich user interfaces. This article shows how to consume Rest Services from a Quarkus application in a simple React frontend.
+
+=== How to install command-line tools on a Mac
+
+link:https://developers.redhat.com/articles/2022/05/23/how-install-command-line-tools-mac[How to install command-line tools on a Mac] by Varsha Sharma
+
+macOS imposes strict limitations on the places from which you can download commands. Many of the Linux-related tools you want to use come from sites other than the App Store, so you have to change your preferences in macOS to use the commands. In this article, Varsha shows how to install a command that is not from the App Store, using the popular Helm client as an example.
+
+=== What's new in Red Hat Enterprise Linux 9
+
+link:https://developers.redhat.com/articles/2022/05/18/whats-new-red-hat-enterprise-linux-9[What's new in Red Hat Enterprise Linux 9] by Nikhil Mungale and Alex Krikos
+
+RHEL 9 is designed to meet the needs of the hybrid cloud environment and can run your code efficiently in a number of environments.
+
+=== How intelligent applications can benefit from streams processing technology (Apache Kafka)
+
+link:https://www.redhat.com/en/blog/how-intelligent-applications-can-benefit-streams-processing-technology-apache-kafka[How intelligent applications can benefit from streams processing technology (Apache Kafka)] by Jennifer Vargas
+
+The creation and delivery of intelligent and stream-based applications requires having a robust streaming platform that can support ingesting and transforming large amounts of data at a fast pace. Red Hat OpenShift Streams for Apache Kafka can support enterprise organizations in solving digital experiences challenges.
+
+=== Videos
+
+This week there was plenty of fresh content to choose from, so please enjoy some of my top video picks:
+
+[square]
+
+* link:https://www.youtube.com/watch?v=NmkAymnuK1c[Integrating Loom in Quarkus | DevNation Tech Talk]
+
+* link:https://www.youtube.com/watch?v=Nnh_DuzA3BM[Hibernate Search with Quarkus]
+
+* link:https://www.youtube.com/watch?v=fCNwxPDGt7Q[Service Discovery with SmallRye Stork and Quarkus]
+
+* link:https://www.youtube.com/watch?v=hCkk1lIA6OY[Use Red Hat's SSO to manage Kafka broker authorization]
+
+* link:https://www.youtube.com/watch?v=k1SJG0XKs1U[Event-driven Autoscaling on Kubernetes: Use case 2 - KEDA with Kafka]
+
+* link:https://www.youtube.com/watch?v=Q3_3KiUV-UQ[Event-driven Autoscaling on Kubernetes: Use case 3 - Knative with Kafka]
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial!_
