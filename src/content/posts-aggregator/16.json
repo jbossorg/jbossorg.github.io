@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 26.1.1 is released!",
-  "link": "https://wildfly.org//news/2022/05/19/WildFly2611-Released/",
+  "title": "Quinoa - A Quarkus extension to create Modern UI with no hassle",
+  "link": "https://quarkus.io/blog/quinoa-modern-ui-with-no-hassle/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": "Andy Damevin",
       "avatar": null
     }
   ],
   "date": "2022-05-19T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 26.1.1.Final is now available .  It’s been about five weeks since the WildFly 26.1 release, so we’ve done a small bug fix update, WildFly 26.1.1. This includes an update to WildFly Preview.  The full list of issues resolved in WildFly 26.1.1 is available . Issues resolved in the WildFly Core update included with WildFly 26.1.1 are available .  Note that the release artifacts are available in public maven in the but at the time of writing we’re aware of some issues with syncing artifacts from there to Maven Central, so there may be some delays before the 26.1.1.Final artifacts can be resolved from there.  Enjoy!"
+  "feed_title": "Quarkus",
+  "content": "Quinoa… To be honest I wasn’t really a fan at first, but then my wife made them in a bowl like a salad with avocado and raw salmon. Now I really enjoy it with a touch of soy sauce. Let’s not digress too much, I am not here to talk..."
 }

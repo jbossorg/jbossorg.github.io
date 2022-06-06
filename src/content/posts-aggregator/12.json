@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.11.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/",
+  "title": "WildFly custom caches configuration for Stateful Beans",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-05-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.11.0 release of Quarkus Tools for IntelliJ. This release adds support for Qute templates but also align with LSP4MP 0.4.0 and quarkus-ls 0.11.1. Qute templates When a Quarkus project has Qute in the classpath, editing a Qute template (HTML / JSON / YAML..."
+  "date": "2022-05-23T02:46:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server. What is a Stateful cache Stateful session beans are conversational components that preserve their state contained in instance variables. Each stateful bean that is instantiated is stored in a ...  The post appeared first on ."
 }
