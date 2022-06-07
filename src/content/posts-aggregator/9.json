@@ -1,14 +1,13 @@
 {
-  "title": "New Keycloak certifications",
-  "link": "https://www.keycloak.org/2022/05/oidc-certifications",
+  "title": "How to run WildFly on Openshift",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/",
   "author": [
     {
-      "name": "Marek Posolda",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-05-30T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are glad to announce new certifications for Keycloak related to the and ! In the , we announced certification of Keycloak 15.0.2 with the FAPI and Brazil Open Banking. This is a follow-up of this post with the announcement of the additional certifications. Here are the details:   * Keycloak 18.0.0 is re-certified as OpenID Connect Provider. We already    obtained certification for the OpenID Connect protocol a long time ago with    the Keycloak 2.3.0. We now re-certified all the existing configurations    (Basic, Implicit, Hybrid, Config, Dynamic) with latest Keycloak 18.0.0 and    added certification as a Form Post OP. See the for the details.   * Keycloak 18.0.0 is certified as OpenID Connect Logout Provider with all    logout profiles (RP-Initiated OP, Session OP, Front-Channel OP, Backchannel    OP). See the for the details.   * Keycloak 15.0.2 is certified as , which is the extension based on existing    FAPI 1 Advanced Final certification, which Keycloak already obtained before.    See the for the details.  This milestone was achieved due the hard work of the awesome Keycloak community, who contributed lots of features related to OpenID Connect Protocol, OpenID Connect Logout and FAPI. The special Thanks go to the , who helped a lot with the FAPI and OpenID Connect related features and especially to , who is doing an awesome job for the Keycloak project."
+  "date": "2022-05-30T00:38:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we will learn how to build and deploy applications using Helm Charts. Then, we will learn how to use the S2I legacy approach which relies on ImageStreams and Templates. WildFly Cloud deployments There are two main strategies ...  The post appeared first on ."
 }
