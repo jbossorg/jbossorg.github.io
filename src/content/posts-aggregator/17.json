@@ -1,13 +1,13 @@
 {
-  "title": "WildFly custom caches configuration for Stateful Beans",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/",
+  "title": "Byteman 4.0.19 has been released",
+  "link": "http://bytemanblog.blogspot.com/2022/05/byteman-4019-has-been-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2022-05-23T02:46:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server. What is a Stateful cache Stateful session beans are conversational components that preserve their state contained in instance variables. Each stateful bean that is instantiated is stored in a ...  The post appeared first on ."
+  "date": "2022-05-24T12:26:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.19 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK19.    Byteman 4.0.19 is a maintenance release which enables Byteman to be used with JDK19 releases. It also contains two small performance and documentation enhancements. More details are provided in the and the latest Byteman Programmers Guide."
 }

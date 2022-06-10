@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Interview with Farah Juma",
-  "link": "https://www.youtube.com/watch?v=3qT5wf57vDg",
+  "title": "Creating Quarkus applications using IntelliJ IDEA",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/creating-quarkus-projects-using-intellij-idea/",
   "author": [
     {
-      "name": "Stefano Maestri",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-06-06T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-06-06T05:22:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial introduces you to JetBrains IntelliJ Quarkus plugin which lets you bootstrap and develop Quarkus projects in the simplest and most productive way. Today, there is a wealth of plugins available to develop applications with Quarkus (including Visual Studio, Eclipse, Eclipse Che and IntelliJ Idea). This article focuses on IntelliJ Plugin for Quarkus which ...  The post appeared first on ."
 }
