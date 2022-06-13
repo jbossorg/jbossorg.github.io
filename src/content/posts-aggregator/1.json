@@ -1,13 +1,13 @@
 {
-  "title": "How to validate Jakarta REST parameters",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-validate-jakarta-rest-endpoint-values/",
+  "title": "Quick JBang Scripting With IntelliJ Idea",
+  "link": "http://www.mastertheboss.com/java/quick-jbang-scripting-with-intellij/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-06-10T16:08:56.000Z",
+  "date": "2022-06-13T07:29:26.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article is a walk through the available options to perform validation of REST Endpoint parameters using Jakarta EE. We will show both Bean validation and Entity validation of a REST Service endpoint. The Jakarta Bean Validation specification allows to define some validation rules, from some built-in on a single field to complex customer rules. ...  The post appeared first on ."
+  "content": "This quick article shows how to install and use JBang’s IntelliJ Idea plugin to create JBang projects and scripts in no time. Firstly, to get started quickly with JBang, we recommend having a look at this article: JBang: Create Java scripts like a pro Next, let’s see how to install JBang Plugin on IntelliJ Idea ...  The post appeared first on ."
 }
