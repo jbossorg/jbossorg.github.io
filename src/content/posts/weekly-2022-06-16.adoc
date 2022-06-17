@@ -1,4 +1,4 @@
-= This Week in JBoss - June 2nd 2022
+= This Week in JBoss - June 16nd 2022
 Jason Porter
 2022-06-16
 :tags: keycloak, infinispan, kogito, jbang, jakarta ee, quarkus, wildfly,
