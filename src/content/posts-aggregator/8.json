@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #21 - June",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-21/",
+  "title": "Quick JBang Scripting With IntelliJ Idea",
+  "link": "http://www.mastertheboss.com/java/quick-jbang-scripting-with-intellij/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-06-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The June newsletter has some great new Quarkus articles. Learn how Banco do Brazil used Quarkus to create a new system to integrate with other financial institutions that participate in the Brazilian Open Banking environment. Get technical on how to configure Podman for Quarkus Dev Services and Testcontainers on Linux..."
+  "date": "2022-06-13T07:29:26.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This quick article shows how to install and use JBang’s IntelliJ Idea plugin to create JBang projects and scripts in no time. Firstly, to get started quickly with JBang, we recommend having a look at this article: JBang: Create Java scripts like a pro Next, let’s see how to install JBang Plugin on IntelliJ Idea ...  The post appeared first on ."
 }

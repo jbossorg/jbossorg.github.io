@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 18.0.1 released",
-  "link": "https://www.keycloak.org/2022/06/keycloak-1801-released",
+  "title": "Using Qute with templates from a database",
+  "link": "https://quarkus.io/blog/qute-templates-from-db/",
   "author": [
     {
-      "name": null,
+      "name": "Gwenneg Lepage",
       "avatar": null
     }
   ],
-  "date": "2022-06-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 17.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   NEW FEATURES   * Admin Client for Jakarta EE keycloak   ENHANCEMENTS   * Add `majorMinorVersion` to global asciidoc context keycloak-web  * Upgrade to WildFly 26.1.1 keycloak  * Allow setting the admin hostname keycloak dist/quarkus  * Provide a separate guide for configuring the server truststore keycloak    dist/quarkus   BUGS   * v17/Quarkus Charset issue with LinkedIn IdP keycloak dist/quarkus  * Theme resources are not loaded correctlyusing quarking when having multiple    providers keycloak dist/quarkus  * Keycloak is ignoring custom infinispan config keycloak docs  * Wrong encoding used for container keycloak dist/quarkus  * Admin Console not showing under circumstances keycloak dist/quarkus  * Invalid link to using a reverse proxy in hostname guide keycloak docs  * Unable to provide own JGROUPS config stack. keycloak dist/quarkus  * Keycloak v18.0.0 fails to import realm when directories are present in    data/import location keycloak  * Frontend url from wrong realm used in password update mails from admin panel    keycloak dist/quarkus  * RealmRepresentation API link in operator guide leads to 404 + api is not    using same version as all other places. keycloak docs  * Make sure Operator correctly correctly configures proxy and HTTP hostname    keycloak operator  * Avoiding unnecessary roundtrips to the database when evaluating permissions    keycloak authorization-services  * Keycloak server fails to start when using different named schema keycloak    dist/quarkus  * Ingress creation loop keycloak operator   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-06-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Introduction I’m part of a Red Hat team that created a multitenant notifications service which sends the notifications from many Red Hat Hybrid Cloud Console apps (the tenants). Our service can be used to send several kinds of notifications, including emails. Each tenant can create as many email templates as..."
 }
