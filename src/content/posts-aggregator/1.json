@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 18.0.2 released",
-  "link": "https://www.keycloak.org/2022/06/keycloak-1802-released",
+  "title": "How to build GraphQL applications with Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-build-graphql-applications-with-quarkus/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-06-24T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 17.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * New admin console inaccessible keycloak admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-06-27T07:13:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "GraphQL is an open-source query and data manipulation language for APIs. This article shows how to create and deploy a sample application using a Quarkus Runtime What is GraphQL? GraphQL is Query language for reading and mutating data in APIs. As a back-end developer, GraphQL provides a type system where you can describe a schema ...  The post appeared first on ."
 }
