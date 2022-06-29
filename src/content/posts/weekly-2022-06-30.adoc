@@ -1,0 +1,74 @@
+= This Week in JBoss - June 30th 2022
+Stefan Sitani
+2022-06-30
+:tags: quarkus, java, kubernetes, openshift, security, xss, golang, go, javascript, graphql
+
+Hello and welcome to JBoss Editorial June 30th edition! We are nearing the end of the second week of summer, and most of us are already looking forward to our vacation plans.
+And while for some the next 2 months will be a time to relax, slow down, and take things a little easy, progress and innovation never really stop!
+So for those of you interested in the latest and the greatest that your favorite project have to offer, here are this week's highlights from around the JBoss community.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://camel.apache.org/blog/2022/06/camel-quarkus-release-2.10.0/[Camel Quarkus 2.10.0]
+
+* link:https://debezium.io/blog/2022/06/21/debezium-1-9-4-final-released/[Debezium 1.9.4.Final]
+
+* link:https://www.keycloak.org/2022/06/keycloak-1802-released[Keycloak 18.0.2]
+
+* link:https://blog.kie.org/2022/06/kogito-1-23-0-released.html[Kogito 1.23.0]
+
+* link:https://github.com/smallrye/smallrye-mutiny/releases/tag/1.6.0[Mutiny 1.6.0]
+
+* link:https://quarkus.io/blog/quarkus-2-10-0-final-released/[Quarkus 2.10.0]
+
+
+== Articles & Blogs
+
+=== How to convert a web application to Software-as-a-Service
+
+link:https://developers.redhat.com/articles/2022/06/16/how-convert-web-application-software-service#[How to convert a web application to Software-as-a-Service] by Bob Reselman
+
+Bob Reselman delves into the "brownfield" approach to redeveloping your web application into a SaaS platform.
+Starting off with a well-laid out example business scenario, Bob walks you through the key steps of the process from analyzing your business logic patterns, separating configuration from code, picking an appropriate service architecture, to leveraging the benefits offered by containerization and Kubernetes to ensure that you'll always be able to scale your services to match the growth of your business.
+
+=== Multi-cloud storage strategies for SaaS applications
+
+link:https://developers.redhat.com/articles/2022/06/23/multi-cloud-storage-strategies-saas-applications#[Multi-cloud storage strategies for SaaS applications] by Michael Hrivnak
+
+In the fourth entry to the ongoing link:https://developers.redhat.com/articles/2022/05/18/saas-architecture-checklist-kubernetes[_SaaS architecture checklist_] blog series Michael Hrivnak compares software-defined storage (SDS) technologies that help developers create optimized data storage solutions for use in multi-tenant cloud environments.
+The first part of Michael's article deals with the broader technical consideration of how SDS can help developers minimize platform-specific development work, followed by an overview of Red Hat's current cloud storage technology offerings. In the latter section, Michael provides some insight into combining these offerings to create solutions that provide customers with self-scaling, self-managed, low-latency data storage capabilities.
+
+
+=== Cross-site scripting: Explanation and prevention with Go
+
+link:https://developers.redhat.com/articles/2022/06/28/cross-site-scripting-explanation-and-prevention-go#[Cross-site scripting: Explanation and prevention with Go] by Sandipan Roy
+
+Cross-site scripting (XSS) attacks have recently become a topic of interest among application security experts in the cloud native developer community. In his tutorial, Sandipan breaks down the mechanism of executing an XSS attack using malicious JavaScript elements and follows up by outlining 3 strategies for coding in Go that you can use to protect your applications against different types of XSS attacks (Sandipan mentions Stored, Reflected and DOM-based XSS attacks).
+The tutorial is richly supplemented by code examples and plenty of additional information context.
+Even though this article is a little outside our usual focus area, it is definitely worth a read, especially for those of you interested in buffing up your application security knowledge.
+
+=== How to build GraphQL applications with Quarkus
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/how-to-build-graphql-applications-with-quarkus/[How to build GraphQL applications with Quarkus] by Francesco Marchioni
+
+In a follow-up to his link:http://www.mastertheboss.com/eclipse/eclipse-microservices/getting-started-with-graphql-using-java-applications/[earlier article] about GraphQL on WildFly, Francesco is back with another tutorial, this time about GraphQL and Quarkus.
+The article opens with a brief discussion of the advantages that GraphQL's schema based data access model has over REST APIs. Francesco  then moves on to showing how you can use link:https://code.quarkus.io[code.quarkus.io] to create a Quarkus application that supports GraphQL using the MicroProfile-compliant SmallRye GraphQL extensions. The test of the tutorial is a step-by-step guide to writing the service class of the application and a GraphQL API class that handles the Query and Mutation operations supported by GraphQL. At this point, Francesco offers a bit of comparison between the different ways that data access operations work in GraphQL as opposed to REST.
+The tutorial ends with sections detailing how you can test your applications using either the GraphQL UI provided by the extension, or the SmallRye MicroProfile GraphQL client API.
+In a manner typical of most of Francesco's tutorials, this one also contains a link to a repository with the code for this example project.
+And those of you interested in learning more about GraphQL in Quarkus, check out _Quarkus Insights_ episode #93. you can find the link for it in the _Videos_ section of this week's editorial.
+
+== Videos
+
+This week there was plenty of fresh content to choose from, so pleas enjoy some of my top video picks:
+
+* link:https://youtu.be/qqztCp5Bvbg[Quarkus Insights #94: Scientific Games meets Quarkus]
+* link:https://youtu.be/PHWOzzusfrY[Quarkus Insights #93: The Latest with GraphQL and Quarkus]
+* link:https://youtu.be/w5SBQpAQ8m8[Using Minecraft as an Observability Client: A demo by Holly Cummins]
+* link:https://youtu.be/00g-gBIYpsU[Quinoa: A modern Quarkus UI with no hassles: DevNation talk by Andy Damevin]
+* link:https://youtu.be/LhTR_ECSaAo[Debugging natively compiled Java code with NativeJDB: A demo by Ansu Varghese]
+* link:https://youtu.be/4HI8bVd8JFc[JNation.PT 2022: All Quarkus Track Sessions Recorded]
+
+_That's all for today! Please join us again in two weeks for another round of our JBoss editorial! Stay safe and enjoy your summer vacation!_
