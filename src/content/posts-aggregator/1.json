@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.23.0 released!",
-  "link": "https://blog.kie.org/2022/06/kogito-1-23-0-released.html",
+  "title": "Debugging natively compiled Java code with NativeJDB",
+  "link": "https://quarkus.io/blog/nativejdb-debugger-for-native-images/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Mandana Vaziri",
       "avatar": null
     }
   ],
-  "date": "2022-06-28T08:38:11.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.23.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Added endpoint to get source file content from a specific workflow  * Added the get workflow source to the data index gateway API.  * Token propagation support for OpenAPI extension  * Runtime persistence now allows using Java serialization instead of protobuf    definitions  * gRPC operation type to Serverless functions   BREAKING CHANGES   * Source files add-on rest endpoint URL have been changed from    ‘/management/process/{Id}/sources’ to    ‘/management/processes/{processId}/sources’ to be aligned with the other    management rest endpoints.  * Removed deprecated add-ons, for a mapping of new artifact id visit .  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.20.0 artifacts are available at the .  A detailed changelog for 1.23.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
+  "date": "2022-06-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Co-authored by: Ansu Varghese, Research Software Engineer, IBM In collaboration with: Max Andersen, Dimitris Andreadis, Andrew Dinn, Stuart Douglas, Jason Greene, David Grove, David Lloyd, Thomas Qvarnstrom, Foivos Zakkak, Galder Zamarreno (IBM Research and Red Hat) Quarkus is a cloud-native Java development framework, which allows Java code to be mapped..."
 }
