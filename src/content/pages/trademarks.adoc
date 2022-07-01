@@ -60,7 +60,7 @@ ModeShape +
 Narayana +
 Nodeshift +
 Nodyn +
-Optaplanner +
+OptaPlanner +
 Overard +
 Overlord +
 Papaki +
