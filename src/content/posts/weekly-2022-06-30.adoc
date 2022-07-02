@@ -58,11 +58,11 @@ In a follow-up to his link:http://www.mastertheboss.com/eclipse/eclipse-microser
 The article opens with a brief discussion of the advantages that GraphQL's schema based data access model has over REST APIs. Francesco  then moves on to showing how you can use link:https://code.quarkus.io[code.quarkus.io] to create a Quarkus application that supports GraphQL using the MicroProfile-compliant SmallRye GraphQL extensions. The test of the tutorial is a step-by-step guide to writing the service class of the application and a GraphQL API class that handles the Query and Mutation operations supported by GraphQL. At this point, Francesco offers a bit of comparison between the different ways that data access operations work in GraphQL as opposed to REST.
 The tutorial ends with sections detailing how you can test your applications using either the GraphQL UI provided by the extension, or the SmallRye MicroProfile GraphQL client API.
 In a manner typical of most of Francesco's tutorials, this one also contains a link to a repository with the code for this example project.
-And those of you interested in learning more about GraphQL in Quarkus, check out _Quarkus Insights_ episode #93. you can find the link for it in the _Videos_ section of this week's editorial.
+And those of you interested in learning more about GraphQL in Quarkus, check out _Quarkus Insights_ episode #93. You can find the link to it in the _Videos_ section of this week's editorial.
 
 == Videos
 
-This week there was plenty of fresh content to choose from, so pleas enjoy some of my top video picks:
+This week there was plenty of fresh content to choose from, so please enjoy some of my top video picks:
 
 * link:https://youtu.be/qqztCp5Bvbg[Quarkus Insights #94: Scientific Games meets Quarkus]
 * link:https://youtu.be/PHWOzzusfrY[Quarkus Insights #93: The Latest with GraphQL and Quarkus]
