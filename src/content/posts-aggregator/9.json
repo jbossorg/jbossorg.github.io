@@ -1,13 +1,13 @@
 {
-  "title": "Using Qute with templates from a database",
-  "link": "https://quarkus.io/blog/qute-templates-from-db/",
+  "title": "Quarkus 2.10.0.Final released - Preliminary work on Loom's virtual threads and various refinements all over the place",
+  "link": "https://quarkus.io/blog/quarkus-2-10-0-final-released/",
   "author": [
     {
-      "name": "Gwenneg Lepage",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-06-21T00:00:00.000Z",
+  "date": "2022-06-22T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Introduction I’m part of a Red Hat team that created a multitenant notifications service which sends the notifications from many Red Hat Hybrid Cloud Console apps (the tenants). Our service can be used to send several kinds of notifications, including emails. Each tenant can create as many email templates as..."
+  "content": "New month, new Quarkus feature release, you know the drill: Quarkus 2.10.0.Final has landed. This version is a mix of exploratory work and refinements on existing extensions: Preliminary work on Loom’s virtual threads GraphQL non-blocking support Kubernetes service binding support for Reactive SQL Clients CacheKeyGenerator for cache extension And much..."
 }
