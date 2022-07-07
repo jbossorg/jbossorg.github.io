@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.22.1 released!",
-  "link": "https://blog.kie.org/2022/06/kogito-1-22-1-released.html",
+  "title": "Vlog: WildFly gRPC",
+  "link": "https://www.youtube.com/watch?v=UYSNM9Dy5M4",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Harald Pehl",
       "avatar": null
     }
   ],
-  "date": "2022-06-08T01:23:46.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.22.1 release is now available! This goes hand in hand with , release.  From a feature point of view, we included a series of new features and bug fixes, including:   * Added support for models including collections at Data Index service  * Support to access HTTP headers in Serverless Workflows started using REST.  * Debug logger for processes in quarkus dev mode   BREAKING CHANGES   * Codegen maven step should be disable or there is a likely chance openapi in    Serverless Workflow will stop working (Quarkiverse integration is enabled    with codegen maven step and is still in experimental phase, some specs are    working, but others not)    * To disable this experimental change, please remove the maven goals      “generate-code” and “generate-code-tests” from the Quarkus Maven Plugin in      your pom.xml file. This will keep the old OpenAPI integration feature in      place.   If you want to use the experimental feature, please add the goals mentioned above to your pom.xml file. The properties now must be changed to \"quarkus.rest-client.<class fqdn>.url\". The class FQDN can be found in \"target/generated-code/open-api-stream\". In the package \"api\" you will find the generated REST stubs that you need to use to properly configure the extension. Please for more information and the .  In the next version we will support version (also see the ), which will favor the Quarkus REST Client integration and will make it easy to properly configure this integration.   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.19.0 artifacts are available at the .  A detailed changelog for 1.22.0 can be found in as well as for .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
+  "date": "2022-06-09T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
