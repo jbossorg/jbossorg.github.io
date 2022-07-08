@@ -1,13 +1,13 @@
 {
-  "title": "Securing Jakarta Enterprise Beans with mutual TLS authentication",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ejb-over-tls/",
+  "title": "Quarkus 2.10.0.Final released - Preliminary work on Loom's virtual threads and various refinements all over the place",
+  "link": "https://quarkus.io/blog/quarkus-2-10-0-final-released/",
   "author": [
     {
-      "name": "Cameron Rodriguez",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-06-21T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-06-22T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "New month, new Quarkus feature release, you know the drill: Quarkus 2.10.0.Final has landed. This version is a mix of exploratory work and refinements on existing extensions: Preliminary work on Loom’s virtual threads GraphQL non-blocking support Kubernetes service binding support for Reactive SQL Clients CacheKeyGenerator for cache extension And much..."
 }
