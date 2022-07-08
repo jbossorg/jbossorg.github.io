@@ -1,13 +1,13 @@
 {
-  "title": "Debugging natively compiled Java code with NativeJDB",
-  "link": "https://quarkus.io/blog/nativejdb-debugger-for-native-images/",
+  "title": "Quarkus 2.10.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-10-2-final-released/",
   "author": [
     {
-      "name": "Mandana Vaziri",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-06-29T00:00:00.000Z",
+  "date": "2022-07-06T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Co-authored by: Ansu Varghese, Research Software Engineer, IBM In collaboration with: Max Andersen, Dimitris Andreadis, Andrew Dinn, Stuart Douglas, Jason Greene, David Grove, David Lloyd, Thomas Qvarnstrom, Foivos Zakkak, Galder Zamarreno (IBM Research and Red Hat) Quarkus is a cloud-native Java development framework, which allows Java code to be mapped..."
+  "content": "Summer is here but we keep releasing Quarkus at a steady pace: today, we released Quarkus 2.10.2.Final, the second maintenance release of our 2.10 release train. It is a safe upgrade for anyone already using 2.10. If you are not using 2.10 already, please refer to the 2.10 migration guide...."
 }
