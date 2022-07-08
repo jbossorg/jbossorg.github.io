@@ -1,13 +1,13 @@
 {
-  "title": "Using Qute with templates from a database",
-  "link": "https://quarkus.io/blog/qute-templates-from-db/",
+  "title": "Securing Jakarta Enterprise Beans with mutual TLS authentication",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ejb-over-tls/",
   "author": [
     {
-      "name": "Gwenneg Lepage",
+      "name": "Cameron Rodriguez",
       "avatar": null
     }
   ],
   "date": "2022-06-21T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Introduction I’m part of a Red Hat team that created a multitenant notifications service which sends the notifications from many Red Hat Hybrid Cloud Console apps (the tenants). Our service can be used to send several kinds of notifications, including emails. Each tenant can create as many email templates as..."
+  "feed_title": "WildFly",
+  "content": ""
 }
