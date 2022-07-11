@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 18.0.1 released",
-  "link": "https://www.keycloak.org/2022/06/keycloak-1801-released",
+  "title": "Using Qute with templates from a database",
+  "link": "https://quarkus.io/blog/qute-templates-from-db/",
   "author": [
     {
-      "name": null,
+      "name": "Gwenneg Lepage",
       "avatar": null
     }
   ],
-  "date": "2022-06-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 17.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * New admin console inaccessible keycloak admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-06-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Introduction I’m part of a Red Hat team that created a multitenant notifications service which sends the notifications from many Red Hat Hybrid Cloud Console apps (the tenants). Our service can be used to send several kinds of notifications, including emails. Each tenant can create as many email templates as..."
 }
