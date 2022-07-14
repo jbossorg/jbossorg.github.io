@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #18 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-18/",
+  "title": "10 IntelliJ Idea Tips to boost your productivity",
+  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/10-intellij-idea-tips-to-boost-your-productivity/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-03-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The March newsletter has been sent. Learn about what’s new with Java 17 and containers, read about LogicDrop and Vaadin’s path to using Quarkus, and get a look at Continuous testing with Quarkus. Additionally, you’ll get more insights into how Keycloak is ow fully cloud-native with Quarkus and learn how..."
+  "date": "2022-07-12T17:52:51.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article contains a collection of trips and tricks that are available in Jet Brains‘ IntelliJ Idea to take your productivity at the next level. Run anything (Ctrl + Ctrl) Run anything is an universal action that you can use to perform certain tasks much faster. Invoking it is as easy as double-pressing Ctrl. By ...  The post appeared first on ."
 }

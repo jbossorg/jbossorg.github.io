@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 2.7.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-7-3-final-released/",
+  "title": "Keycloak 18.0.2 released",
+  "link": "https://www.keycloak.org/2022/06/keycloak-1802-released",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-03-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released a new maintenance release for our 2.7 release train: 2.7.3.Final. Thanks to all the people reporting issues, providing reproducers, fixes… , it’s really appreciated. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer to the 2.7 migration guide...."
+  "date": "2022-06-24T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 17.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * New admin console inaccessible keycloak admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

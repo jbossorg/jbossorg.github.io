@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.7.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-7-4-final-released/",
+  "title": "Vlog: Encrypting a Filesystem Realm",
+  "link": "https://www.youtube.com/watch?v=1K92tit2uCk",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],
-  "date": "2022-03-09T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released Quarkus 2.7.4.Final with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone already using 2.7. If you are not using 2.7 already, please refer to the 2.7 migration guide. Full changelog You can get the full changelog of 2.7.4.Final on GitHub...."
+  "date": "2022-07-07T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

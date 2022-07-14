@@ -1,0 +1,29 @@
+= This Week in JBoss - June 16nd 2022
+Jason Porter
+2022-06-16
+:tags: keycloak, infinispan, kogito, jbang, jakarta ee, quarkus, wildfly,
+
+Welcome back!
+Here's some great content at the start of summer, and just like always, some releases!
+
+We hope you have had a great week and are looking forward to summer.
+
+== Releases, releases, releases!
+
+* https://www.keycloak.org/2022/06/keycloak-1801-released[Keycloak 18.0.1] - The first bug fix release on the 18 branch is out. There are some minor enhancements and one new feature. Check the link for all the issues resolved in this release.
+* https://blog.kie.org/2022/06/kogito-1-22-1-released.html[Kogito 1.22.1] - Another minor release, though it does have one small breaking change. Be sure to look at that and adjust your pom files accordingly.
+
+== Articles & Blogs
+
+* https://infinispan.org/blog/2022/06/14/infinispan-14-indexing-query-news[Infinispan 14 indexing and query news] - With development of Infinispan 14 ongoing, Fabio Massimo Ercoli wanted to highlight some changes to indexing and searching. tl;dr: Hibernate annotations will be replaced with new Infinispan annotations. There are some other implications, so be sure to take a look.
+* http://www.mastertheboss.com/java/quick-jbang-scripting-with-intellij/[Quick JBang Scripting With IntelliJ Idea] - Are you using IntelliJ Idea as your Java IDE? Take a look at the JBang integration plugin and what it allows you to do. You'll be surprised at how much it can help.
+* http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-validate-jakarta-rest-endpoint-values/[How to validate Jakarta REST parameters] - Using Bean Validation with JAX-RS is powerful. You can use built-in validations to ease development and extend to create your own custom validations for entities. No more having to write trivial `if` statements to check if the provided data is valid.
+* https://blog.kie.org/2022/06/creating-tabs-using-dashbuilder%ef%bf%bc.html[Creating Tabs Using Dashbuilder] - Nikhil Dewoolkar walks you through how to create tabs in Dashbuilder, a great alternative to some other dashboard projects.
+
+== Videos
+
+* https://www.youtube.com/watch?v=UYSNM9Dy5M4[Introducing gRPC support in WildFly]
+* https://www.youtube.com/watch?v=ya8To5V1QUU[Quarkus Insights #92: Quinoa... Quarkus Modern UI with no hassles]
+
+Have a great week!
+

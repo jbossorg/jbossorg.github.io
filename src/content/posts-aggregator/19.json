@@ -1,13 +1,13 @@
 {
-  "title": "How to configure Logging with Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-configure-logging-with-quarkus/",
+  "title": "Quarkus 2.10.0.Final released - Preliminary work on Loom's virtual threads and various refinements all over the place",
+  "link": "https://quarkus.io/blog/quarkus-2-10-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-02-25T11:23:11.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Quarkus uses the JBoss Log Manager project as facade for application logging. Therefore, the main configuration options should be familiar to JBoss/WildFly users. Let’s see how to configure most common options. Quarkus logging in a nutshell To use Logging with Quarkus you don’t need to include any extra dependency in your project. As a matter ...  The post appeared first on ."
+  "date": "2022-06-22T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "New month, new Quarkus feature release, you know the drill: Quarkus 2.10.0.Final has landed. This version is a mix of exploratory work and refinements on existing extensions: Preliminary work on Loom’s virtual threads GraphQL non-blocking support Kubernetes service binding support for Reactive SQL Clients CacheKeyGenerator for cache extension And much..."
 }

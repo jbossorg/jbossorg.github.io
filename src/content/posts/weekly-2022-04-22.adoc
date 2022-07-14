@@ -1,0 +1,56 @@
+= This Week in JBoss - 22 April 2022
+Jason Porter
+2022-04-22
+:tags: quarkus, wildfly, resteasy, red hat summit, keycloak, kogito, elytron, dashbuilder
+
+Welcome back!
+Amazing how quickly two weeks can fly by isn't it?
+We have some great things for you this week including releases, tidbits from the blogoshpere, and information about Red Hat Summit 2022!
+
+== Release roundup
+
+Let's jump right into what has been released over the past couple of weeks:
+
+* https://blog.kie.org/2022/04/kogito-1-20-0-released.html[Kogito 1.20.0] - Updates including tooling, images, operator, and the CLI.
+* https://www.keycloak.org/2022/04/keycloak-1800-released[Keycloak 18.0.0] - A new admin console preview, new Operator preview, client secret rotation, session limits per user, etc. Lots of great new features and additions!
+* https://resteasy.dev/2022/04/19/resteasy-releases/[RESTEasy 6.1.0.Beta1] - First release to implement Jakarta RESTful Web Services 3.1, updates to RESTEasy CDI allowing injection of certain types, and an `SeBootstrap` API implementation.
+* https://www.wildfly.org/news/2022/04/14/WildFly261-Final-Released/[Wildfly 26.1.Final] - Honestly, too many things to list here, take a look at the blog post including new features, how to run on Java 17, and links to additional information.
+* https://quarkus.io/blog/quarkus-2-8-1-final-released/[Quarkus 2.8.1.Final] - First maintenance release of the 2.8 branch, it contains only bug fixes
+
+== KIE Related Posts
+
+The KIE team (jBPM, Drools, Optaplanner, Kogito) has had some interesting posts the last couple of weeks:
+
+* https://blog.kie.org/2022/04/create-dashboards-using-yml-with-dashbuilder.html[Create Dashboards Using YML with Dashbuilder] - Building data visualizations using only YAML and JSON datasets is possible and easy to do.
+* https://blog.kie.org/2022/04/integrating-drools-dmn-engine-with-ibm-open-prediction-service.html[Integrating Drools DMN Engine with IBM Open Prediction Service] - An interesting combination of two open source projects. This showcases the power of integrating predictive models and decision models.
+* https://blog.kie.org/2022/04/defeasible-reasoning-drools-and-truth-maintenance-system.html[Defeasible Reasoning, Drools and Truth Maintenance System] - Be sure to examine your truth statements and keep them up to date when dealing with rules that depend on criteria to remain truthful.
+
+== Quarkus Bits
+
+Quarkus always has interesting things going on, and these past weeks are no exception:
+
+* https://quarkus.io/blog/solving-problems-with-extensions/[Solving problems with Quarkus extensions (1/n)] - Guillaume talks about breaking down complex problems and how to solve them using Quarkus extensions. This should be the first in a number of articles showcasing the power of Quarkus extensions.
+* http://www.mastertheboss.com/soa-cloud/quarkus/how-to-manage-transactions-in-quarkus/[How to manage Transactions in Quarkus] - Quarkus supports both declarative and programmatic transaction management. Francesco Marchioni showcases both approaches here.
+* https://developers.redhat.com/articles/2022/04/21/add-security-quarkus-application-using-red-hats-sso[Add security to a Quarkus application using Red Hat's SSO] - Olivier Rivat explains how to leverage Red Hat's SSO product to add security in your Quarkus application using OpenID Connect (OICD) and how to test it in the browser and via the CLI.
+
+== Wildfly Buzzings
+
+Wildfly continues strong with a number of posts:
+
+* https://www.wildfly.org//news/2022/04/20/WildFly-s2i-v2-Released/[WildFly S2I new architecture is final!] - If you're deploying Wildfly in the cloud, take a look at new and easier ways to create your container images, and how to shrink them!
+* https://wildfly-security.github.io/wildfly-elytron/blog/client-default-ssl-context/[Client side default SSL context provider] - You can now get access to a JVM wide `SSLContext` using Elytron. Dive into the blog post for examples.
+* Do you need to encrypt your file system realm? Elytron has just what you need. Take a look at these two posts: https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption/[Encrypting Filesystem realms] and https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption-tool/[Encrypting Pre-Existing Filesystem realms].
+
+== Getting enough REST
+
+While it may not be one of the sexiest technologies, REST is used all over for communication and microservices.
+Take a look at two posts to get going if you're new to RESTEasy: http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/[Getting started with Jakarta RESTful Services] and https://resteasy.dev/2022/04/14/resteasy-spring-6-wildfly-example/[RESTEasy Spring And RESTEasy Spring Boot EE9 Deployment With WildFly Preview].
+
+== Red Hat Summit 2022
+
+Red Hat Summit 2022 is happening May 10th and 11th.
+It will be a hybrid event.
+Take a look at the https://www.redhat.com/en/summit[Red Hat Summit page] for more information.
+There will be great information, talks, events, and tech for everyone who attends either virtually or in person.
+We're looking forward to seeing you there!
+

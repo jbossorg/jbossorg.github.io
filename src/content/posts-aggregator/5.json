@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Reactive messaging with Kafka",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-reactive-messaging-with-kafka/",
+  "title": "Kogito 1.24.0 released!",
+  "link": "https://blog.kie.org/2022/07/kogito-1-24-0-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-03-14T09:36:32.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article, we will learn how to create a Quarkus Reactive application which uses the SmallRye Reactive Messaging and Mutiny project to stream data from and to a Kafka cluster. Reactive messaging in a nutshell The architecture style of enterprise application has been changing in the last years. Besides the standard client-server approach we ...  The post appeared first on ."
+  "date": "2022-07-08T06:38:35.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.24.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Persistence support for Process versions  * Allow users to set up the configuration key for open API properties by    setting  kogito.sw.operationIdStrategy. If none of the predefined approaches    are suitable, users can define their own config key by using UriDefinitions    extension. Possible values for the new property are:    * FILE_NAME:  use the last element of the spec uri path.    * FULL_URI:  use the full uri path to generate the key.    * FUNCTION_NAME:  use the workflow id and the function name that references      the spec uri    * SPEC_TITLE: use specification title  * Added the new kogito-quarkus-serverless-workflow-devui for Serverless    Workflow testing  * PostgreSQL persistence addon to support correlation   BREAKING CHANGES   * The swf-quarkus-extension module had its artifactId changed to    kogito-quarkus-serverless-workflow-devui  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.20.0 artifacts are available at the .  A detailed changelog for 1.24.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on .  "
 }
