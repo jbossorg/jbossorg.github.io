@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.23.0 released!",
-  "link": "https://blog.kie.org/2022/06/kogito-1-23-0-released.html",
+  "title": "Quarkus 2.10.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-10-1-final-released/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-06-28T08:38:11.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.23.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Added endpoint to get source file content from a specific workflow  * Added the get workflow source to the data index gateway API.  * Token propagation support for OpenAPI extension  * Runtime persistence now allows using Java serialization instead of protobuf    definitions  * gRPC operation type to Serverless functions   BREAKING CHANGES   * Source files add-on rest endpoint URL have been changed from    ‘/management/process/{Id}/sources’ to    ‘/management/processes/{processId}/sources’ to be aligned with the other    management rest endpoints.  * Removed deprecated add-ons, for a mapping of new artifact id visit .  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.20.0 artifacts are available at the .  A detailed changelog for 1.23.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-06-29T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.10.1.Final, the first maintenance release of our 2.10 release train. It is a safe upgrade for anyone already using 2.10. If you are not using 2.10 already, please refer to the 2.10 migration guide. Full changelog You can get the full changelog of 2.10.1.Final on GitHub...."
 }
