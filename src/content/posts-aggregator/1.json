@@ -1,13 +1,13 @@
 {
-  "title": "Kogito Serverless Workflow GitHub Extension released!",
-  "link": "https://blog.kie.org/2022/07/new-github-extension-released.html",
+  "title": "Ask (Quark)us anything!",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda4/",
   "author": [
     {
-      "name": "Ajay Jaganathan",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2022-07-18T12:06:21.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are very happy to announce the release of our Kogito Serverless Workflow Editor for GitHub extension in the .   HOW TO INSTALL THE EXTENSION?  A prerequisite is to have installed.  You can install the extension in two ways:   1. Go to the and click on the Add to Chrome.  2. Go to the page, download and extract the     chrome_extension_serverless_workflow_editor_VERSION.zip. Then in Google     Chrome go to Customize and control → Settings → Extensions → Load unpacked     and open the dist folder.   WHAT DOES THE EXTENSION DO?  You can use the Serverless Workflow editor to edit the  files in the code editor and view the Serverless Workflow diagram in the diagram visualizer.   WHAT ARE ITS FEATURES?   * Dynamically updates the diagram as you edit the code.  * Saves the workflow diagram as .svg file in the workspace.  * Auto-completes the code based on context.  * Validates the code to provide an error free experience.  Here is a quick video of the extension at work:  Working with the Kogito Serverless Workflow Editor for GitHub extension  For more information on the extension, take a look at our awesome !  Please do let us know your feedback so that we can continue improving the extension.  Thanks to all the awesome engineers who helped us to achieve this!!  Stay tuned to get more updates on the extension!  The post appeared first on ."
+  "date": "2022-07-19T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Our fourth semi-annually Q&A session is happening. We meant to do it this week but a case of covid made us take a small break! Instead we will do it on the coming Monday. To submit questions comment on this blog or the matching post in our GitHub Discussion forum..."
 }
