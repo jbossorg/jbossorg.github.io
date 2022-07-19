@@ -1,13 +1,13 @@
 {
-  "title": "How to export and import Realms in Keycloak",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
+  "title": "10 IntelliJ Idea Tips to boost your productivity",
+  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/10-intellij-idea-tips-to-boost-your-productivity/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-07-10T09:30:00.000Z",
+  "date": "2022-07-12T17:52:51.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. Realm Set up Firstly, if you are new to Keycloak and Quarkus, we recommend checking this article which covers the basics: Getting started with Keycloak powered by Quarkus A Keycloak Realm is a space where ...  The post appeared first on ."
+  "content": "This article contains a collection of trips and tricks that are available in Jet Brains‘ IntelliJ Idea to take your productivity at the next level. Run anything (Ctrl + Ctrl) Run anything is an universal action that you can use to perform certain tasks much faster. Invoking it is as easy as double-pressing Ctrl. By ...  The post appeared first on ."
 }
