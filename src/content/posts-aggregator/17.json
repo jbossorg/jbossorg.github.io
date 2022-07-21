@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Encrypting a Filesystem Realm",
-  "link": "https://www.youtube.com/watch?v=1K92tit2uCk",
+  "title": "Eclipse Vert.x 4.3.2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-2",
   "author": [
     {
-      "name": "Ashpan Raskar",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2022-07-07T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.2 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features. In addition it provides support for virtual threads incubation project."
 }
