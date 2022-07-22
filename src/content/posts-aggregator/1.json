@@ -9,5 +9,5 @@
   ],
   "date": "2022-07-27T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "[JEP 425: Virtual threads](https://openjdk.org/jeps/425) aka _Loom_ is coming to the Java Platform as a preview in Java 19. The Vert.x project is launching an incubator project to experiment with virtual threads."
+  "content": "JEP 425: Virtual threads aka Loom is coming to the Java Platform as a preview in Java 19. The Vert.x team is launching an incubator project to experiment with virtual threads."
 }
