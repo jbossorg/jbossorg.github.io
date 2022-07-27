@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with JSF 4.0 on WildFly 27",
-  "link": "http://www.mastertheboss.com/java-ee/jsf/getting-started-with-jsf-4-0-on-wildfly-27/",
+  "title": "How to select the \"right\" service with Stork?",
+  "link": "https://quarkus.io/blog/stork-load-balancing/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2022-07-14T16:40:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article contains a preview of Jakarta Faces 4.0 which is an MVC framework for building user interface with Jakarta EE 10. To get started with Jakarta EE 10, you need to download the latest release of WildFly 27 which you can use to preview Jakarta EE 10 features. At the time of writing, the ...  The post appeared first on ."
+  "date": "2022-07-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The essence of distributed systems resides in the interaction between services. In modern architectures, you often have multiple instances of your service to share the load or improve the resilience by redundancy. But, when you have all these instances, how do you select the best one? That’s where Stork helps...."
 }
