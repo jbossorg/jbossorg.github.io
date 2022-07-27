@@ -1,13 +1,13 @@
 {
-  "title": "How to use Java Mission Control to monitor Java apps",
-  "link": "http://www.mastertheboss.com/java/how-to-use-java-mission-control-to-monitor-java-apps/",
+  "title": "Quarkus 2.11.1.Final and 2.10.4.Final released - Fixing CVE-2022-2466, new Redis Client API, more customization for some core extensions and more",
+  "link": "https://quarkus.io/blog/quarkus-2-11-1-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-07-25T07:37:43.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is whirlwind tour across the Java Flight Recorder (JFR) and the Java Mission Control (JMC) suite. At the end of it, you will be able to monitor, collect diagnostic data and profile any running Java application. What is Java Flight Recorder? Firstly, why do we need another tool to monitor Java ? As ...  The post appeared first on ."
+  "date": "2022-07-27T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released both Quarkus 2.11.1.Final and Quarkus 2.10.4.Final. Quarkus 2.11.1.Final is, despite its name, the first 2.11 release. Both versions are fixing CVE-2022-2466 in the SmallRye GraphQL server extension (for real this time). Unfortunately, the previous fix introduced in 2.10.3.Final and the non-released 2.11.0.Final was incomplete and the issue..."
 }

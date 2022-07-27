@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #22 - July",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-22/",
+  "title": "Getting started with JSF 4.0 on WildFly 27",
+  "link": "http://www.mastertheboss.com/java-ee/jsf/getting-started-with-jsf-4-0-on-wildfly-27/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-07-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The July newsletter is out with some great new Quarkus related technical articles. Learn about \"Kafka Streams and Quarkus: Real-Time Processing Events\" by Alex Soto and Michael Redlich. Get a better understanding of resilience deisgn patters in the \"Resilient microservices with Quarkus and Kotlin - Design Patterns\" article by Felicia..."
+  "date": "2022-07-14T16:40:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article contains a preview of Jakarta Faces 4.0 which is an MVC framework for building user interface with Jakarta EE 10. To get started with Jakarta EE 10, you need to download the latest release of WildFly 27 which you can use to preview Jakarta EE 10 features. At the time of writing, the ...  The post appeared first on ."
 }

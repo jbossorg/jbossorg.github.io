@@ -1,13 +1,13 @@
 {
-  "title": "How to export and import Realms in Keycloak",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
+  "title": "Quarkus Newsletter #22 - July",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-22/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-07-10T09:30:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. Realm Set up Firstly, if you are new to Keycloak and Quarkus, we recommend checking this article which covers the basics: Getting started with Keycloak powered by Quarkus A Keycloak Realm is a space where ...  The post appeared first on ."
+  "date": "2022-07-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The July newsletter is out with some great new Quarkus related technical articles. Learn about \"Kafka Streams and Quarkus: Real-Time Processing Events\" by Alex Soto and Michael Redlich. Get a better understanding of resilience deisgn patters in the \"Resilient microservices with Quarkus and Kotlin - Design Patterns\" article by Felicia..."
 }

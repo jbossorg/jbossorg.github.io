@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Releases",
-  "link": "https://resteasy.github.io/2022/07/21/resteasy-releases/",
+  "title": "Vert.x virtual threads incubator",
+  "link": "https://vertx.io/blog/vertx-virtual-threads-incubator",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-07-21T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-07-27T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "JEP 425: Virtual threads aka Loom is coming to the Java Platform as a preview in Java 19. The Vert.x team is launching an incubator project to experiment with virtual threads."
 }
