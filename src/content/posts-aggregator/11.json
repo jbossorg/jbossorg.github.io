@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.10.3.Final released - Fixes CVE-2022-2466",
-  "link": "https://quarkus.io/blog/quarkus-2-10-3-final-released/",
+  "title": "Ask (Quark)us anything No. 4!",
+  "link": "https://quarkus.io/blog/quarkus-insights-qanda4/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
   "date": "2022-07-19T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "2.10.0.CR1 introduced a major security issue known as CVE-2022-2466 in the SmallRye GraphQL server extension and all the 2.10.x releases are affected (together with 2.11.0.CR1). 2.10.3.Final fixes it and the fix will also be included in the upcoming 2.11.0.Final. You are only affected by this issue if you are exposing..."
+  "content": "Our fourth semi-annually Q&A session is happening. We meant to do it this week but a case of covid made us take a small break! Instead we will do it on the coming Monday. To submit questions comment on this blog or the matching post in our GitHub Discussion forum..."
 }
