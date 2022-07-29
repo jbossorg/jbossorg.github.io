@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 19.0.1 released",
-  "link": "https://www.keycloak.org/2022/07/keycloak-1901-released",
+  "title": "KIE Community welcomes IBM Business Automation",
+  "link": "https://blog.kie.org/2022/07/ibm-rht.html",
   "author": [
     {
-      "name": null,
+      "name": "Mark Proctor",
       "avatar": null
     }
   ],
-  "date": "2022-07-29T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 18.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Set `resourcesVersionSeed` when using ConcurrentHashMap storage keycloak    storage  * Installation error - You have an error in your SQL syntax keycloak    dist/quarkus  * Documentation fixes in configuring keycloak page keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-07-29T10:58:58.000Z",
+  "feed_title": "KIE Community",
+  "content": "Alex Porcelli and I (Mark Proctor) are very pleased to announce IBM is joining Red Hat in the KIE community. This is a great opportunity to partner as we continue making innovative software for business automation and fostering a tradition of openness and inclusion in the open source arena.   We’re excited by the opportunities that lay ahead of us, and we wanted to reassure people that being true to Open Source roots remains integral to who we are and where we will go.  As part of this transition, Alex and other members of the Red Hat team have joined the IBM Business Automation organization. From Alex:  I’m thrilled and honored to join the IBM Business Automation organization, following my passion for the great PAM and DM open-source technologies. I’m also excited with the opportunity to continue collaborating with my friends and colleagues from Red Hat and the KIE community!   WHAT THIS MEANS FOR THE COMMUNITY  Two leaders in their respective places are joining together and bringing their expertise to the KIE community: IBM, with leadership in the business automation space, and Red Hat with leadership within open source. The KIE community will continue to expand and grow bringing in new contributors, expertise, and solutions. Red Hat and IBM plan to work together on the upstream projects, and we invite everyone else interested to join us to make these projects even better. We are also exploring moving the technologies to a Foundation as a means to make collaboration easier and allow for a wider network of collaborators. Community websites will be updated soon and the existing community channels (zulip and google groups) remain.   WHAT THIS MEANS FOR END USERS AND CUSTOMERS  Red Hat plans to work with IBM within the KIE community to provide Kogito as a shared foundational set of cloud-native technologies for event-driven architectures for rules, workflow and optimization – building on and comprising of Knative, Quarkus, jBPM, Drools and Optaplanner.   To align with Red Hat’s strategic direction for Kubernetes and OpenShift, as part of its work within Kogito, Red Hat will focus on Service Orchestration and Application Logic for OpenShift developers. A key aspect of this is Red Hat’s championing of CNCF’s Serverless Workflow specification.   IBM intends to introduce additional capabilities within the KIE community to appeal to the broader open-source Business Automation audience. They plan to continue investing in OMG specifications, specifically BPMN and DMN. In addition, they plan to combine the KIE cloud-native decisions and workflow with the OMG specs into their recently announced  standalone Open Source offerings.      Mark Proctor & Alex Porcelli   The post appeared first on ."
 }
