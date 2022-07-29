@@ -10,5 +10,5 @@
   "date": "2022-07-27T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 18.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Installation error - You have an error in your SQL syntax keycloak   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "content": "To download the release go to .   MIGRATION FROM 18.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Set `resourcesVersionSeed` when using ConcurrentHashMap storage keycloak    storage  * Installation error - You have an error in your SQL syntax keycloak    dist/quarkus  * Documentation fixes in configuring keycloak page keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
