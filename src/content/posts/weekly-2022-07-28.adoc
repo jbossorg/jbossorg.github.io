@@ -40,7 +40,7 @@ Managing SSL certificates for your cloud native apps can sometimes get a little 
 
 === New HTTP clients, a Java generator, and more in Fabric8 6.0.0
 
-link:https://developers.redhat.com/articles/2022/07/15/new-http-clients-java-generator-and-more-fabric8-600[New HTTP clients, a Java generator, and more in Fabric8 6.0.0] by Andrea Peruffo and Steven Havwkins
+link:https://developers.redhat.com/articles/2022/07/15/new-http-clients-java-generator-and-more-fabric8-600[New HTTP clients, a Java generator, and more in Fabric8 6.0.0] by Andrea Peruffo and Steven Hawkins
 
 The Fabric8 Kubernetes client has been making cloud-native development with Java easier for years. After more than five months of intensive work, the release of Fabric8 6.0.0 brings a host of innovative features and capabilities to the core components and utilities in the Fabric8 suite. Steven Hawkins and Andrea Peruffo show off some the coolest features and important bugfixes that the new release has to offer. Check out their article to see the highlights
 
@@ -62,7 +62,7 @@ Since we are in middle of vacation season, there isn't as much new content comin
 Please enjoy this week's video picks:
 
 * link:https://youtu.be/kdasoBPOWUQ[Quarkus Insights #96: Quarkus Q&A]
-* link:https://[Kube by Example #13 with Travis Nielsen]
+* link:https://youtu.be/2gdbMtl1tak[Kube by Example Insider #13 with Travis Nielsen]
 * link:https://youtu.be/1K92tit2uCk[Demo: _Encrypting an Elytron Filesystem Realm_ by Ashpan Raskar]
 
 _That's all for today! Please stay tuned for the next editorial, stay safe, and enjoy the rest of the vacation season!_
