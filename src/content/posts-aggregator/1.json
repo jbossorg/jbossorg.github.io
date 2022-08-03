@@ -1,13 +1,14 @@
 {
-  "title": "Kogito 1.25.0 released!",
-  "link": "https://blog.kie.org/2022/08/kogito-1-25-0-released.html",
+  "title": "New Keycloak maintainer: Václav Muzikář",
+  "link": "https://www.keycloak.org/2022/08/vaclav",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Bruno Oliveira",
       "avatar": null
     }
   ],
-  "date": "2022-08-03T04:14:14.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.25.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Improved support of gRCP to Json Mapping. Now Kogito is following  * Adding HTTP error codes handling.   * Fixed memory leak when running processes with rules in BusinesRuleTask  * Serverless Workflow codestart for Quarkus   KNOWN ISSUE(S)   * Kogito Builder cannot build from assets with Quarkus Kogito was released with    Quarkus 2.11.0.Final artifacts but the Quarkus platform, due to CVE issues, .    And, when building from asset files (BPMN, DMN, DRL), the Kogito Builder    image  is guessing  directly the Quarkus version from the    org.kie.kogito:kogito-build-parent:${KOGITO_VERSION} artifact, which will    return the 2.11.0.Final version and thus fail due to missing platform.    Workaround is to set the QUARKUS_VERSION `build-env` option with the CLI or    directly into the KogitoBuild environment.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.21.0 artifacts are available at the .  A detailed changelog for 1.25.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-08-04T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We are pleased to welcome as an official maintainer of Keycloak.  Vašek has consistently collaborated to the success of Keycloak since 2015 when he joined Red Hat. He is known for his various contributions to our test suite, the Quickstarts, integration tests for the Node.js Adapter, improvements in the new Account Console, security auditing of our REST Account API, enhancement to our pipelines and also the maintenance and development of Keycloak Operator. Now he is coordinating the efforts on Cloud-Native development which includes the new Quarkus distribution and the new Operator.  He has shown his commitment to the Keycloak community collaborating on design discussions, participating in GitHub discussions, reviewing pull-requests, answering questions on the Keycloak mailing lists, contributing to new features, bug fixes and triaging GitHub issues.  The Keycloak team is very excited to welcome Vašek as our new maintainer and long-time contributor."
 }
