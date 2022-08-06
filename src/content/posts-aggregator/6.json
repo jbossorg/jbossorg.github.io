@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.1.0.Final Release",
-  "link": "https://resteasy.github.io/2022/08/02/resteasy-6.1.0-release/",
+  "title": "Kogito 1.25.0 released!",
+  "link": "https://blog.kie.org/2022/08/kogito-1-25-0-released.html",
   "author": [
     {
-      "name": null,
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-08-02T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-08-03T04:14:14.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.25.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Improved support of gRCP to Json Mapping. Now Kogito is following  * Adding HTTP error codes handling.   * Fixed memory leak when running processes with rules in BusinesRuleTask  * Serverless Workflow codestart for Quarkus   KNOWN ISSUE(S)   * Kogito Builder cannot build from assets with Quarkus Kogito was released with    Quarkus 2.11.0.Final artifacts but the Quarkus platform, due to CVE issues, .    And, when building from asset files (BPMN, DMN, DRL), the Kogito Builder    image  is guessing  directly the Quarkus version from the    org.kie.kogito:kogito-build-parent:${KOGITO_VERSION} artifact, which will    return the 2.11.0.Final version and thus fail due to missing platform.    Workaround is to set the QUARKUS_VERSION `build-env` option with the CLI or    directly into the KogitoBuild environment.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.21.0 artifacts are available at the .  A detailed changelog for 1.25.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
