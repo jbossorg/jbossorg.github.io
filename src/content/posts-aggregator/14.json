@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 19.0.0 released",
-  "link": "https://www.keycloak.org/2022/07/keycloak-1900-released",
+  "title": "How to run Java Mission Control in Eclipse",
+  "link": "http://www.mastertheboss.com/java/how-to-run-java-mission-control-in-eclipse/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-07-27T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 18.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Set `resourcesVersionSeed` when using ConcurrentHashMap storage keycloak    storage  * Installation error - You have an error in your SQL syntax keycloak    dist/quarkus  * Documentation fixes in configuring keycloak page keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-07-27T15:02:27.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article continues our learning through the Java Mission Control (JMC) tool. Within it, we will learn how to run JMC as standalone application or as Eclipse IDE plugin. Firstly, if you are new to Java Mission Control, we recommend checking this article for a brief introduction to it: How to use Java Mission Control ...  The post appeared first on ."
 }

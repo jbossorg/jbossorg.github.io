@@ -1,13 +1,13 @@
 {
-  "title": "How to use Java Mission Control to monitor Java apps",
-  "link": "http://www.mastertheboss.com/java/how-to-use-java-mission-control-to-monitor-java-apps/",
+  "title": "Vert.x virtual threads incubator",
+  "link": "https://vertx.io/blog/vertx-virtual-threads-incubator",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-07-25T07:37:43.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is whirlwind tour across the Java Flight Recorder (JFR) and the Java Mission Control (JMC) suite. At the end of it, you will be able to monitor, collect diagnostic data and profile any running Java application. What is Java Flight Recorder? Firstly, why do we need another tool to monitor Java ? As ...  The post appeared first on ."
+  "date": "2022-07-27T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "JEP 425: Virtual threads aka Loom is coming to the Java Platform as a preview in Java 19. The Vert.x team is launching an incubator project to experiment with virtual threads."
 }
