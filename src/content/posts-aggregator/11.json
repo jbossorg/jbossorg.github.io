@@ -1,13 +1,13 @@
 {
-  "title": "Serverless Drools in 3 steps: Kogito, Quarkus, Kubernetes and Knative!",
-  "link": "https://blog.kie.org/2022/08/serverless-drools-in-3-steps-kogito-quarkus-kubernetes-and-knative.html",
+  "title": "RESTEasy 6.1.0.Final Release",
+  "link": "https://resteasy.github.io/2022/08/02/resteasy-6.1.0-release/",
   "author": [
     {
-      "name": "Matteo Mortari",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-08-02T09:38:23.000Z",
-  "feed_title": "KIE Community",
-  "content": "This short tutorial walks you through the configuration and deployment of a simple serverless application, including autoscaling with scale to zero, thanks to , , OpenShift Serverless with Kubernetes and !   STEP 1: DROOLS APP CREATION WITH CODE.QUARKUS.IO  To generate the application as shown in the video, you can use this link:  The link will automatically populate for you the basic extensions needed to follow this tutorial.   STEP 2: MAINTAIN CONFIGURATION  In the application.properties file, you need to maintain a couple of required configuration, following this guideline:  quarkus.kubernetes.deployment-target=knative  quarkus.container-image.registry=quay.io quarkus.container-image.group=<your own account>  You may decide for the Container Image Registry to opt instead for docker.io or similar, and you will need to configure .   STEP 3: DEPLOY YOUR DROOLS SERVERLESS APP 🚀  To deploy on Kubernetes, my preference is to deliberately publish a Container Image on a Registry; to follow this strategy, you just need to issue a couple of commands on the terminal.  The first command will produce a Container Image for our Drools serverless application, and publish it on the Registry:  mvn clean package -Dquarkus.container-image.push=true  Then, the second command will effectively deploy that image on the OpenShift cluster:  kubectl apply -f target/kubernetes/knative.yml  Thanks to Knative, we have autoscaling including autoscale-to-zero, as it’s shown in the video!  Autoscale to zero in action, for the Drools serverless app   BONUS: SWAGGER UI OPENAPI  If you want to use Swagger UI and the OpenAPI web based GUI in your deployed app, simply add quarkus-smallrye-openapi in the , and then maintain the application.properties configuration:  quarkus.swagger-ui.always-include=true   WANT TO LEARN MORE?  We hope you enjoyed this lighthearted tutorial 😄  Did you know that formal training is available from Red Hat? teaches you how to develop, deploy, and auto-scale event driven serverless applications on the Red Hat OpenShift Container Platform. Read the course page to .   CONCLUSIONS  We have create a simple Drools serverless app with just 3 steps thanks to Kogito and Quarkus; then, thanks to OpenShift Serverless based on Kubernetes and Knative capabilities, we have autoscaling applied, including scale-to-zero.  You can use your own Kubernetes cluster while following this tutorial, but don’t forget you can use a free to replicate all the steps exactly as shown in the video!  If you enjoyed this simple tutorial, you might be also interested to read this other guide on using the Drools for content based routing on Kafka, using Quarkus and too! Check it out .  Questions? Let us know your feedback by leaving a comment below! 👋  The post appeared first on ."
+  "date": "2022-08-02T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
