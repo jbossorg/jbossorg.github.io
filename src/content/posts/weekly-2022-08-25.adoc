@@ -1,0 +1,55 @@
+= This Week in JBoss - 25 August 2022
+Pedro Silva
+2022-08-25
+:tags: quarkus, kubernetes, java, jakarta, infinispan, wildfly, cloud-native, openshift, kogito, drools, keycloak
+
+Hi everyone!
+It's great to be back and bringing you another edition of the JBoss Editorial.
+As always there's a lot of exciting news and updates from JBoss communities so let's dive in.
+
+== Release roundup
+
+[square]
+
+* link:https://quarkus.io/blog/quarkus-2-11-3-final-released/[Quarkus 2.11.3.Final released - Fix for CVE-2022-2466 and other bugfixes]
+
+== Hola, 你好, こんにちは Quarkus
+
+link:https://quarkus.io/blog/l10n-of-quarkusio/[Hola, 你好, こんにちは Quarkus], by Max Rydahl Andersen
+
+Since the launch of Japanese link:http://ja.quarkus.io/[ja.quarkus.io], we got contributors translating the website into (simplified) Chinese at link:http://cn.quarkus.io[cn.quarkus.io] and recently we added Spanish at link:http://es.quarkus.io[es.quarkus.io] too. These sites are now accessible via the drop-down "globe" menu in the top-right corner.
+
+== Using RHOSAK from WildFly
+
+link:https://www.wildfly.org/news/2022/08/19/RHOSAK/[Using RHOSAK from WildFly], by Kabir Khan
+
+In this post Kabir shows how to write a simple application which sends and receives messages to/from a Kafka instance using **RHOSAK**. RHOSAK - Red Hat OpenShift Streams for Apache Kafka, is a cloud service hosted by Red Hat which makes setting up, managing, and scaling Apache Kafka instances very easy 
+
+== Getting started with AtlasMap
+
+link:http://www.mastertheboss.com/java/getting-started-with-atlasmap/[Getting started with AtlasMap], by Francesco Marchioni
+
+In this article, Francesco shows the basics of the AtlasMap data mapping solution. He also covers the basic set up of the Web UI and how to use it to create a minimal mapping file. Finally, he discusses two simple ways to use AtlasMap in your Java projects.
+
+== Optimize loops with long variables in Java
+
+link:https://developers.redhat.com/articles/2022/08/25/optimize-loops-long-variables-java#why_optimization_was_added_for_long_variables[Optimize loops with long variables in Java], by Roland Westrelin
+
+The just-in-time (JIT) compiler in OpenJDK improves Java performance through a number of optimizations, particularly in loops. Until recently, many optimizations worked only when the loop index was an int variable. In this article, Roland shows how the HotSpot virtual machine was upgraded to add the same optimizations for long variables.
+
+== A DMN FEEL HANDBOOK
+
+link:https://blog.kie.org/2022/08/a-dmn-feel-handbook.html[A DMN FEEL handbook], by Matteo Mortari
+
+In this announcement, Matteo introduces an (experimental) DMN FEEL handbook, a helpful companion for your DMN modeling activities! You can access the FEEL handbook at link:https://kiegroup.github.io/dmn-feel-handbook/#dmn-feel-handbook[DMN FEEL handbook]
+
+== YouTube videos
+
+From unmissable demos to brilliant chat about the latest Java trends, the JBoss community has some great video content for you:
+
+* link:https://www.youtube.com/watch?v=lLyVDqVK8cE[Quarkus Insights #99: Using Quarkus CodeStarts]
+* link:https://www.youtube.com/watch?v=7Q34Za79g18[Kubernetes Master Class - Avoiding configuration drift with Argo CD]
+
+== See you next time
+
+_Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!_
