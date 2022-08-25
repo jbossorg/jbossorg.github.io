@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.11.2.Final released - CVE-2022-2466 is still ongoing",
-  "link": "https://quarkus.io/blog/quarkus-2-11-2-final-released/",
+  "title": "Eclipse Vert.x 4.3.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-3",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-08-08T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We thought we got to the bottom of CVE-2022-2466, a security issue we have with GraphQL services since 2.10 was released, but this one keeps on giving. This issue is only of importance to you if you are exposing GraphQL services using the quarkus-smallrye-graphql extension. Consuming GraphQL services is fine...."
+  "date": "2022-08-09T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.3 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features. In addition it provides support for virtual threads incubation project."
 }
