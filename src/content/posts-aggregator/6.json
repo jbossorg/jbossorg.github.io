@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with AtlasMap",
-  "link": "http://www.mastertheboss.com/java/getting-started-with-atlasmap/",
+  "title": "Quarkus Newsletter #23 - August",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-23/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-08-16T16:39:32.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is a whirlwind tour of AtlasMap Data transformation API and User Interface. We will learn how to use its editor to define mapping rules and how to use them in a sample Java Integration project. Data transformation is the process of converting data from one format or structure into another format or structure. ...  The post appeared first on ."
+  "date": "2022-08-17T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The August Quarkus Newletter has been released! What’s new this month? Plenty! Get a great understanding of OpenTelemetry with Eric Deandrea’s article \"OpenTelemetry: A Quarkus Superheroes demo of Observability\". Get the good and bad experiences of a developer jumping into the deep end on a project with María Arias de..."
 }
