@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.3 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-3",
+  "title": "Infinispan 14.0.0.CR1",
+  "link": "https://infinispan.org/blog/2022/08/09/infinispan-14",
   "author": [
     {
-      "name": "Julien Viet",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2022-08-09T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.3 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features. In addition it provides support for virtual threads incubation project."
+  "date": "2022-08-09T12:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan community,  Infinispan 14 candidate release 1 is here! Here is your chance to verify your application against our latest and greatest and tell us if things are working as expected or if there are any showstoppers we should address before tagging the final release.   AARCH64 IMAGES  We are now building images for AArch64 (aka ARM64) by default, which allow you to run Infinispan on Apple Silicon, Amazon Graviton and other ARM CPU platforms without resorting to emulation.   PROTOBUF ONEOF SUPPORT  Protostream has been updated to support ProtoBuf 3’s oneof keyword.   CONSOLE  When creating a new cache, it’s now possible to choose the key/value types from the list of available protobuf schemas.   CLI  The CLI can now connect to a server secured with client certificate authentication. The config command now supports the keystore and keystore-password to persist the client certificate configuration. Additionally, the new config reset command offers a quick way to reset all configuration properties to their default values.   RELEASE NOTES  You can look at the to see what has changed.  Get them from our ."
 }
