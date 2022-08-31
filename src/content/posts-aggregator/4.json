@@ -1,13 +1,13 @@
 {
-  "title": "How to implement Kafka Serializers and Deserializers?",
-  "link": "https://quarkus.io/blog/kafka-serde/",
+  "title": "Building Java Enterprise applications using MongoDB",
+  "link": "http://www.mastertheboss.com/cool-stuff/mongodb/building-java-enteprise-applications-using-mongodb/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-08-30T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "When your application writes a record into a Kafka topic or when it consumes a record from a Kafka topic, a mechanism of serialization and deserialization happens. The serialization process transforms the business objects you want to send to Kafka into bytes. The deserialization process is the opposite. It receives..."
+  "date": "2022-08-30T16:28:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use MongoDB NoSQL database in the context of an Enterprise application. For the purpose of this example, we will deploy an example application on a Jakarta EE application server. The most common way to connect to MongoDB from Java Enterprise applications is by means of the MongoDB Java ...  The post appeared first on ."
 }

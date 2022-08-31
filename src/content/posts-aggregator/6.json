@@ -1,13 +1,13 @@
 {
-  "title": "Testing with Awaitility made simple",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/testing-with-awaitility-made-simple/",
+  "title": "How to implement Kafka Serializers and Deserializers?",
+  "link": "https://quarkus.io/blog/kafka-serde/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2022-08-26T15:44:54.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The Awaitility library introduces a functional style usage to express expectations of an asynchronous system in a concise and easy to read manner. Let’s have a deep dive into it with this tutorial. Overview of Awaitility Awaitility (as the name says) checks expectations based on a timing condition. Here is a basic example of it: ...  The post appeared first on ."
+  "date": "2022-08-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "When your application writes a record into a Kafka topic or when it consumes a record from a Kafka topic, a mechanism of serialization and deserialization happens. The serialization process transforms the business objects you want to send to Kafka into bytes. The deserialization process is the opposite. It receives..."
 }
