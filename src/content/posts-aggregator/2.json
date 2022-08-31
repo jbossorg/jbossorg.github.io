@@ -1,13 +1,13 @@
 {
-  "title": "How to implement Kafka Serializers and Deserializers?",
-  "link": "https://quarkus.io/blog/kafka-serde/",
+  "title": "Generate Helm charts manifests with Quarkus Helm",
+  "link": "https://quarkus.io/blog/quarkus-helm/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "Jose Carvajal",
       "avatar": null
     }
   ],
   "date": "2022-08-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "When your application writes a record into a Kafka topic or when it consumes a record from a Kafka topic, a mechanism of serialization and deserialization happens. The serialization process transforms the business objects you want to send to Kafka into bytes. The deserialization process is the opposite. It receives..."
+  "content": "Helm is the most popular package manager that finds, shares, and deploys software built for Kubernetes. To configure Java applications for distribution through Helm, you need to package them as Helm charts containing all the necessary metadata and resource definitions and this can be a very tedious task. The good..."
 }
