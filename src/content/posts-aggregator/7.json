@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.12.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.12.0/",
+  "title": "Kogito 1.26.0 released!",
+  "link": "https://blog.kie.org/2022/08/kogito-1-26-0-released.html",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-08-26T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.12.0 release of Quarkus Tools for IntelliJ. This release improves the Quarkus wizard and Quarkus run experience but also aligns with LSP4MP 0.5.0 and quarkus-ls 0.12.1. Improved Quarkus wizard The Quarkus wizard can be used from File → New → Module → Quarkus...."
+  "date": "2022-08-26T03:00:57.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.26.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Default value for enumerations in GRPC is included in response if property    kogito.grpc.enum.includeDefault is set to true  * Changing rejection handler policy for event executor thread. Rather than    executing task in the same thread (which might lead to blocking exception),    the emitter is stopped while the executor service is full  * Avoiding creation of unneeded process instances when workflow json input    schema validation fails.   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.22.0 artifacts are available at the .  A detailed changelog for 1.26.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
