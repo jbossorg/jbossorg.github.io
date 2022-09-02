@@ -1,13 +1,13 @@
 {
-  "title": "Generate Helm charts manifests with Quarkus Helm",
-  "link": "https://quarkus.io/blog/quarkus-helm/",
+  "title": "Building Java Enterprise applications using MongoDB",
+  "link": "http://www.mastertheboss.com/cool-stuff/mongodb/building-java-enteprise-applications-using-mongodb/",
   "author": [
     {
-      "name": "Jose Carvajal",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-08-30T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Helm is the most popular package manager that finds, shares, and deploys software built for Kubernetes. To configure Java applications for distribution through Helm, you need to package them as Helm charts containing all the necessary metadata and resource definitions and this can be a very tedious task. The good..."
+  "date": "2022-08-30T16:28:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use MongoDB NoSQL database in the context of an Enterprise application. For the purpose of this example, we will deploy an example application on a Jakarta EE application server. The most common way to connect to MongoDB from Java Enterprise applications is by means of the MongoDB Java ...  The post appeared first on ."
 }
