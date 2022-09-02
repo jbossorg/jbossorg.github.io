@@ -1,13 +1,13 @@
 {
-  "title": "Hola, 你好, こんにちは Quarkus",
-  "link": "https://quarkus.io/blog/l10n-of-quarkusio/",
+  "title": "Quarkus Tools for IntelliJ 1.12.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.12.0/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2022-08-25T00:00:00.000Z",
+  "date": "2022-08-26T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Since the launch of Japanese ja.quarkus.io, we got contributors translating the website into (simplified) Chinese at cn.quarkus.io and recently we added Spanish at es.quarkus.io too. These sites are now accessible via the drop-down \"globe\" menu in the top-right corner. I find it amazing and want to thank the ~30 contributors..."
+  "content": "We are very pleased to announce the 1.12.0 release of Quarkus Tools for IntelliJ. This release improves the Quarkus wizard and Quarkus run experience but also aligns with LSP4MP 0.5.0 and quarkus-ls 0.12.1. Improved Quarkus wizard The Quarkus wizard can be used from File → New → Module → Quarkus...."
 }
