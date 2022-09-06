@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #23 - August",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-23/",
+  "title": "a DMN FEEL handbook",
+  "link": "https://blog.kie.org/2022/08/a-dmn-feel-handbook.html",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Matteo Mortari",
       "avatar": null
     }
   ],
-  "date": "2022-08-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The August Quarkus Newletter has been released! What’s new this month? Plenty! Get a great understanding of OpenTelemetry with Eric Deandrea’s article \"OpenTelemetry: A Quarkus Superheroes demo of Observability\". Get the good and bad experiences of a developer jumping into the deep end on a project with María Arias de..."
+  "date": "2022-08-18T07:10:49.000Z",
+  "feed_title": "KIE Community",
+  "content": " a DMN FEEL handbook “promotion” video 🙂  We’re introducing an (experimental) DMN FEEL handbook, an helpful companion for your DMN modeling activities!  You can access this new helpful resource at the following URL: .  Key features include:   * FEEL built-in functions organised by category  * tested and integrated FEEL examples  * Responsive design: easily access on Mobile, Tablet and Desktop from your    favourite browser!  …and many more!   IMPLEMENTATION DETAILS  For the technically curious, this section will highlight some of the technical implementation choices for the realisation of this handbook.  If you want to just use this handbook, you are free to skip this section! 🙂  The framework used to render this handbook is called ; it’s very convenient to use it when, in general, you want a neat API documented with use-cases and examples. This makes it a perfect framework candidate to build a technical manual of a very specific aspect –the FEEL expression language of DMN. Naturally we’re keeping Antora for the general documentation of Drools, which is more powerful for the user-manuals and modularising content.  Then, in order to CI the FEEL snippets and examples in the handbook, we’re leveraging the awesome ! As you can see in the Java_script source () we’re parsing the content of the Markdown file to search for codeblocks related to FEEL. Each codeblock related to FEEL is then evaluated, to make sure it does not error or misbehave.  This allowed us to catch small typos, which we corrected in the main docs. I got the inspiration to implement this approach by reading the Rust manual. If you are familiar with that book, you will likely recognise where :).  Finally, we integrated the JBang! tests with CI with a , and then we serve the content via GitHub Pages.   CONCLUSIONS  Don’t forget to checkout this DMN FEEL handbook today!    Do you like it? Feedback? Let us know!  The post appeared first on ."
 }
