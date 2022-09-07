@@ -1,13 +1,13 @@
 {
-  "title": "Solving problems with Quarkus extensions (2/n)",
-  "link": "https://quarkus.io/blog/solving-problems-with-extensions-2/",
+  "title": "Generate Helm charts manifests with Quarkus Helm",
+  "link": "https://quarkus.io/blog/quarkus-helm/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Jose Carvajal",
       "avatar": null
     }
   ],
   "date": "2022-08-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are all good: 2 posts make a series! If you haven’t looked at the first post of this series, I invite you to read it! Problem of the day: A library is using the @Inject annotation to handle its internal injection and, when used on beans, that will conflict..."
+  "content": "Helm is the most popular package manager that finds, shares, and deploys software built for Kubernetes. To configure Java applications for distribution through Helm, you need to package them as Helm charts containing all the necessary metadata and resource definitions and this can be a very tedious task. The good..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Top 5 Reasons To Join Us At Open Source Day",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/top-five-reasons-to-join-elytron-open-source-day/",
+  "title": "Bearer Token Support for the Elytron OIDC Client Subsystem",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/bearer-only-support-openid-connect/",
   "author": [
     {
       "name": "Farah Juma",
       "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-08-31T00:00:00.000Z",
+  "date": "2022-09-01T00:00:00.000Z",
   "feed_title": "WildFly",
   "content": ""
 }
