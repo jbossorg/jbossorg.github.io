@@ -1,14 +1,13 @@
 {
-  "title": "The future of Keycloak Operator CRs",
-  "link": "https://www.keycloak.org/2022/09/operator-crs",
+  "title": "Quarkus 2.12.1.Final released - Fixes a performance regression",
+  "link": "https://quarkus.io/blog/quarkus-2-12-1-final-released/",
   "author": [
     {
-      "name": "Václav Muzikář",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-09-02T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "A while back, we have a new Operator rewritten from scratch to provide the best experience for the Quarkus distribution. While the is now deprecated and , the is already available as a preview, see the .  One of the most common concerns around the new Operator is the current lack of the CRDs for managing Keycloak resources, such as realm, users and clients, in a cloud-native way. One of the key aspects of the new Operator will be redesign of managing these Keycloak resources via CRs and git-ops. This new approach will leverage the and future immutability options, making the CRs the declarative single source of truth. In comparison to the legacy Operator, this will bring high robustness, reliability, and predictability to the whole solution.  Before we would consider operator ready for leveraging CRs, we expect completing several features including but not limited to:   * File store (expected in Keycloak 20) to persist data in a file instead of DB.   * Read-only possibilities for administration REST API, UI Console and other    interfaces. This is required for the new immutability concept which will be    used to ensure any data coming from the CRs (and subsequently from the file    store) are read-only from all interfaces.  All of this is critical to proper CRs implementation, hence the new Operator is currently missing the CRDs for managing Keycloak resources. The missing CRDs will be added once Keycloak has the necessary support for it, which is currently expected in Keycloak 21.  We have prepared a few options to alleviate the situation with missing CRDs in ."
+  "date": "2022-09-07T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "2.12.1.Final is the first maintenance release of the 2.12 release train. If you have already upgraded to 2.12, we highly recommend this upgrade as it fixes, amongst other things, a performance regression introduced in Quarkus 2.12.0.Final. It is a safe upgrade for anyone using 2.12. Migration Guide If you are..."
 }
