@@ -1,0 +1,36 @@
+= This Week in JBoss - 08 September 2022
+Jason Porter
+2022-09-08
+:tags: quarkus, wildfly, java, wildfly, kogito, hibernate
+
+Welcome back, glad to have you back with us this week!
+Progress continues to happen at JBoss, and Red Hat.
+We have some releases, blogs, and a couple of videos as well.
+
+== Releases
+
+* https://quarkus.io/blog/quarkus-2-12-0-final-released/[Quarkus 2.12.0] - GraalVM/Mandrel 22.2, Kotlin 1.7, Smallrye Config SecretKeys, and SQL Server JDBC Driver update
+* https://quarkus.io/blog/quarkus-2-12-1-final-released/[Quarkus 2.12.1] - A performance regression fix
+* https://in.relation.to/2022/09/08/hibernate-orm-613-final/[Hibernate ORM 6.1.3] - Maintenance release
+* https://in.relation.to/2022/08/30/hibernate-orm-5611-final/[Hibernate ORM 5.6.11] - Maintenance release (includes performance fixes)
+* https://blog.kie.org/2022/09/kogito-1-27-0-released.html[Kogito 1.27.0] - New feature release
+* https://www.wildfly.org//news/2022/08/31/WildFly2612-Released/[Wildfly 26.1.2] - Maintenance release
+
+== Blogs
+
+* https://blog.kie.org/2022/09/monitoring-quarkus-applications-with-dashbuilder.html[Monitoring Quarkus Applications With Dashbuilder] - Building dashboards using DashBuilder
+* https://quarkus.io/blog/redis-api-intro/[Introducing the new Redis API - How to cache with Redis?]
+* https://www.keycloak.org/2022/09/operator-crs[The future of Keycloak Operator CRs] - Looking at the new way of managing Keycloak resources
+* https://wildfly-security.github.io/wildfly-elytron/blog/bearer-only-support-openid-connect/[Bearer Token Support for the Elytron OIDC Client Subsystem] - Learn how to update your application to support Bearer Tokens using OIDC (OpenID Connect)
+* https://wildfly-security.github.io/wildfly-elytron/blog/top-five-reasons-to-join-elytron-open-source-day/[Top 5 Reasons To Join Us At Open Source Day] - September 16 is Open Source Day! Wildfly Electron was selected as a project for this day long hackathon
+* http://www.mastertheboss.com/cool-stuff/mongodb/building-java-enteprise-applications-using-mongodb/[Building Java Enterprise applications using MongoDB] - Dig into MongoDB in a Jakarta EE Application
+* https://developers.redhat.com/articles/2022/08/25/optimize-loops-long-variables-java[Optimize loops with long variables in Java] - A look into JVM loop optimizations 
+
+== Videos
+
+* https://www.youtube.com/watch?v=NJglcdL9m7A[Quarkus Insights #100: EDDI chatbot goes cloud-native with Quarkus]
+
+== Until next time!
+
+Everyone stay safe out there, and we look forward to seeing you in two weeks for our next edition!
+
