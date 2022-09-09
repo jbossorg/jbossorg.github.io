@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.11.3.Final released - Fix for CVE-2022-2466 and other bugfixes",
-  "link": "https://quarkus.io/blog/quarkus-2-11-3-final-released/",
+  "title": "Hola, 你好, こんにちは Quarkus",
+  "link": "https://quarkus.io/blog/l10n-of-quarkusio/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2022-08-24T00:00:00.000Z",
+  "date": "2022-08-25T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "2.11.3.Final is our third maintenance release for the 2.11 release train. It is a safe upgrade for anyone using 2.11. Among other issues, it fixes CVE-2022-2466 that was affected our quarkus-smallrye-graphql extension. Migration Guide If you are not already using 2.11, please refer to our migration guide. Full changelog You..."
+  "content": "Since the launch of Japanese ja.quarkus.io, we got contributors translating the website into (simplified) Chinese at cn.quarkus.io and recently we added Spanish at es.quarkus.io too. These sites are now accessible via the drop-down \"globe\" menu in the top-right corner. I find it amazing and want to thank the ~30 contributors..."
 }

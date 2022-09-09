@@ -1,13 +1,13 @@
 {
-  "title": "Solving problems with Quarkus extensions (2/n)",
-  "link": "https://quarkus.io/blog/solving-problems-with-extensions-2/",
+  "title": "How to implement Kafka Serializers and Deserializers?",
+  "link": "https://quarkus.io/blog/kafka-serde/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
   "date": "2022-08-30T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are all good: 2 posts make a series! If you haven’t looked at the first post of this series, I invite you to read it! Problem of the day: A library is using the @Inject annotation to handle its internal injection and, when used on beans, that will conflict..."
+  "content": "When your application writes a record into a Kafka topic or when it consumes a record from a Kafka topic, a mechanism of serialization and deserialization happens. The serialization process transforms the business objects you want to send to Kafka into bytes. The deserialization process is the opposite. It receives..."
 }

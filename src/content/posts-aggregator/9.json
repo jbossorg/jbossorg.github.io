@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 26.1.2 is released!",
-  "link": "https://wildfly.org//news/2022/08/31/WildFly2612-Released/",
+  "title": "Top 5 Reasons To Join Us At Open Source Day",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/top-five-reasons-to-join-elytron-open-source-day/",
   "author": [
     {
-      "name": "Brian Stansberry",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
   "date": "2022-08-31T00:00:00.000Z",
   "feed_title": "WildFly",
-  "content": "WildFly 26.1.2.Final is now available .  This is a bug fix release. The full list of issues resolved in WildFly 26.1.2 is available . Issues resolved in the WildFly Core update included with WildFly 26.1.2 are available .  As I’ve discussed in various posts that touch on , beginning with the upcoming WildFly 27 release WildFly releases will no longer support Java SE 8, Jakarta EE 8 and MicroProfile 4.1. We’ll be moving on to Jakarta EE 10 and a minimum SE requirement of SE 11. We realize that moving applications to EE 10 will involve effort for our users, so we wanted to provide an extra bug fix release beyond the usual micro we produce about a month after each feature release. WildFly 26.1.2 is that release. My expectation is this will be the last WildFly release that supports SE 8 and EE 8.  As part of this release we’ve also do a 26.1.2 release of .  Thank you for your continued support of WildFly. We’d love to hear your feedback at the ."
+  "content": ""
 }
