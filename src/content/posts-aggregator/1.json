@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.0.Beta1 Release",
-  "link": "https://resteasy.github.io/2022/09/08/resteasy-6.2.0.Beta1-release/",
+  "title": "How to spot Java bugs with SpotBugs",
+  "link": "http://www.mastertheboss.com/java/how-to-spot-java-bugs-with-spotbugs/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-09-08T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-09-12T07:47:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will introduce you to SpotBugs utility project that can assist you to spot Java “bug patterns” in your code which are likely to turn into runtime bugs. Getting started with SpotBugs Firstly, let’s see how SpotBugs works. This tool uses defines a set of Bug patterns that will be scanned in your code ...  The post appeared first on ."
 }
