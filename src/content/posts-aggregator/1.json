@@ -1,13 +1,13 @@
 {
-  "title": "How to spot Java bugs with SpotBugs",
-  "link": "http://www.mastertheboss.com/java/how-to-spot-java-bugs-with-spotbugs/",
+  "title": "Quarkus adoption by APHP (Assistance Publique des Hôpitaux de Paris)",
+  "link": "https://quarkus.io/blog/aphp-user-story/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-09-12T07:47:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will introduce you to SpotBugs utility project that can assist you to spot Java “bug patterns” in your code which are likely to turn into runtime bugs. Getting started with SpotBugs Firstly, let’s see how SpotBugs works. This tool uses defines a set of Bug patterns that will be scanned in your code ...  The post appeared first on ."
+  "date": "2022-09-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "APHP L’Assistance Publique - Hôpitaux de Paris, AP-HP is an internationally oriented university hospital center. Some numbers (2020) : 38 Hospitals 1 public healthcare service working 24/7 6,9 million patients 100 000 health professionals taking care of our patients - including nearly 12 200 doctors, 4 000 interns, over 53..."
 }
