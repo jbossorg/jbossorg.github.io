@@ -1,13 +1,13 @@
 {
-  "title": "Testing with Awaitility made simple",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/testing-with-awaitility-made-simple/",
+  "title": "Solving problems with Quarkus extensions (2/n)",
+  "link": "https://quarkus.io/blog/solving-problems-with-extensions-2/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-08-26T15:44:54.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The Awaitility library introduces a functional style usage to express expectations of an asynchronous system in a concise and easy to read manner. Let’s have a deep dive into it with this tutorial. Overview of Awaitility Awaitility (as the name says) checks expectations based on a timing condition. Here is a basic example of it: ...  The post appeared first on ."
+  "date": "2022-08-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are all good: 2 posts make a series! If you haven’t looked at the first post of this series, I invite you to read it! Problem of the day: A library is using the @Inject annotation to handle its internal injection and, when used on beans, that will conflict..."
 }
