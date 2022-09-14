@@ -1,13 +1,13 @@
 {
-  "title": "Building Java Enterprise applications using MongoDB",
-  "link": "http://www.mastertheboss.com/cool-stuff/mongodb/building-java-enteprise-applications-using-mongodb/",
+  "title": "WildFly 26.1.2 is released!",
+  "link": "https://wildfly.org//news/2022/08/31/WildFly2612-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Brian Stansberry",
       "avatar": null
     }
   ],
-  "date": "2022-08-30T16:28:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use MongoDB NoSQL database in the context of an Enterprise application. For the purpose of this example, we will deploy an example application on a Jakarta EE application server. The most common way to connect to MongoDB from Java Enterprise applications is by means of the MongoDB Java ...  The post appeared first on ."
+  "date": "2022-08-31T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 26.1.2.Final is now available .  This is a bug fix release. The full list of issues resolved in WildFly 26.1.2 is available . Issues resolved in the WildFly Core update included with WildFly 26.1.2 are available .  As I’ve discussed in various posts that touch on , beginning with the upcoming WildFly 27 release WildFly releases will no longer support Java SE 8, Jakarta EE 8 and MicroProfile 4.1. We’ll be moving on to Jakarta EE 10 and a minimum SE requirement of SE 11. We realize that moving applications to EE 10 will involve effort for our users, so we wanted to provide an extra bug fix release beyond the usual micro we produce about a month after each feature release. WildFly 26.1.2 is that release. My expectation is this will be the last WildFly release that supports SE 8 and EE 8.  As part of this release we’ve also do a 26.1.2 release of .  Thank you for your continued support of WildFly. We’d love to hear your feedback at the ."
 }
