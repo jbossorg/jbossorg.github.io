@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.12.2.Final released",
-  "link": "https://quarkus.io/blog/quarkus-2-12-2-final-released/",
+  "title": "Creating cache with wizard - Infinispan 14",
+  "link": "https://infinispan.org/blog/2022/09/12/infinispan-14-console-wizard",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Dipanshu Gupta",
       "avatar": null
     }
   ],
   "date": "2022-09-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We just released 2.12.2.Final, with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone using 2.12. Migration Guide If you are not already using 2.12, please refer to our migration guide. Full changelog You can get the full changelog of 2.12.2.Final on GitHub. Come..."
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan Community,  An effective and concise way to create a cache with Infinispan Console is here. Creating a cache will now be effortless and user-centric with a wizard based intuitive approach.  With the series of prompts, now user can create a cache just by selecting configuration.   CHOOSE YOUR METHOD  Enter a unique name for the cache and choose your desired way to create it.  Two options to create a cache are:   1. Manually Adding JSON/YAML/XML configuration   2. Wizard based selection of configuration    If the user already has a JSON/YAML/XML file then it is preferable to go with the first option and directly edit the file.    But in case you are looking to create a cache from scratch then Wizard based cache creation is the best way to go ahead. This blog talks in detail about the Wizard based method.   BUILD CONFIGURATION  BASIC OPTIONS  Selecting “Build cache configuration” will land on the below page containing a series of prompts or options to create your cache.    Every option has a default value selected beforehand with tooltips providing brief information about each option.    INFINISPAN CAPABILITIES  In this step, we select features and configure basic options for the cache.  The following features can be selected:   1. Bounded   2. Indexed   3. Authorization   4. Persistence   5. Transactional   6. Backups    Selecting a feature will provide basic options for that feature. Some fields are marked mandatory in order to move to the next step.  If the required details are not filled in, a warning will be displayed at the top.    After providing the required details, you can move to the next step.    More than one feature can be selected and each feature’s availability is checked. If the feature is disabled, a warning is displayed and the user can not go ahead. In such a scenario, the user can either remove that feature completely or make changes to the server.    CACHE TUNING  Last step in configuring the cache allows the user to tweak advanced options.    On selecting a certain feature, its advanced configurations can be added.     REVIEW CONFIGURATION  The configurations selected earlier are reviewed.    The JSON configuration is presented inside a code editor, which can be modified by the user.  Cache will be created on clicking the \"Create\" button and user will land on the Data distribution page.  The user can also download this configuration in JSON, YAML, or XML format.  "
 }
