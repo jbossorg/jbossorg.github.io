@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #24 - September",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-24/",
+  "title": "Quarkus 2.12.2.Final released",
+  "link": "https://quarkus.io/blog/quarkus-2-12-2-final-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2022-09-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Time for the September Newsletter. Learn how to manage the same data in different forms to avoid dual writes and data loss with \"Debezium and Quarkus: Change Data Capture Patterns to Avoid Dual-Writes Problems\" by Alex Soto and Michael Redlich. Check out part 3 of Heiko Rupp’s series on how..."
+  "content": "We just released 2.12.2.Final, with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone using 2.12. Migration Guide If you are not already using 2.12, please refer to our migration guide. Full changelog You can get the full changelog of 2.12.2.Final on GitHub. Come..."
 }
