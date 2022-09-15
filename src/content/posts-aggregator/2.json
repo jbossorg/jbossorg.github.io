@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Jakarta RESTful Services",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/",
+  "title": "How to implement a job queue with Redis",
+  "link": "https://quarkus.io/blog/redis-job-queue/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2022-09-14T16:44:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The latest release of RESTEasy (6.1.0) provides an implementation for Jakarta RESTful Web Services 3.1. which is a core component of Jakarta EE 10. Let’s review through this article which are the core features of Jakarta Rest Services. What’s new in Jakarta RESTful Web Services 3.1 The Jakarta RESTful Web Services 3.1 specification (part of ...  The post appeared first on ."
+  "date": "2022-09-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "In how to cache with Redis, we implemented a simple cache backed by Redis. That’s just one use case of Redis. Redis is also used as a messaging server to implement the processing of background jobs or other kinds of messaging tasks. This post explores implementing this pattern with Quarkus..."
 }
