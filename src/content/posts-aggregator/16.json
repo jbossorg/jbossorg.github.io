@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.12.0.Final released - GraalVM/Mandrel 22.2, Kotlin 1.7",
-  "link": "https://quarkus.io/blog/quarkus-2-12-0-final-released/",
+  "title": "Bearer Token Support for the Elytron OIDC Client Subsystem",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/bearer-only-support-openid-connect/",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-08-31T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus 2.12 is a relatively small release, with most development happening in August and all. But it still comes with a lot of documentation improvements, fixes and enhancements, most notably: Upgrade to GraalVM/Mandrel 22.2 Upgrade to Kotlin 1.7 SmallRye Config SecretKeys support Microsoft SQL Server JDBC driver update Migration Guide..."
+  "date": "2022-09-01T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
