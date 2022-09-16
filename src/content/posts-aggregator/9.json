@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus adoption by APHP (Assistance Publique des Hôpitaux de Paris)",
-  "link": "https://quarkus.io/blog/aphp-user-story/",
+  "title": "Quarkus Newsletter #24 - September",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-24/",
   "author": [
     {
-      "name": "Jean-Yves Terrien",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
   "date": "2022-09-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "About APHP L’Assistance Publique - Hôpitaux de Paris, AP-HP is an internationally oriented university hospital center. Some numbers (2020) : 38 Hospitals 1 public healthcare service working 24/7 6,9 million patients 100 000 health professionals taking care of our patients - including nearly 12 200 doctors, 4 000 interns, over..."
+  "content": "Time for the September Newsletter. Learn how to manage the same data in different forms to avoid dual writes and data loss with \"Debezium and Quarkus: Change Data Capture Patterns to Avoid Dual-Writes Problems\" by Alex Soto and Michael Redlich. Check out part 3 of Heiko Rupp’s series on how..."
 }
