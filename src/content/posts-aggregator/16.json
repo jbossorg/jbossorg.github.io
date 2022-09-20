@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.12.1.Final released - Fixes a performance regression",
-  "link": "https://quarkus.io/blog/quarkus-2-12-1-final-released/",
+  "title": "Introducing the new Redis API - How to cache with Redis?",
+  "link": "https://quarkus.io/blog/redis-api-intro/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
   "date": "2022-09-07T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "2.12.1.Final is the first maintenance release of the 2.12 release train. If you have already upgraded to 2.12, we highly recommend this upgrade as it fixes, amongst other things, a performance regression introduced in Quarkus 2.12.0.Final. It is a safe upgrade for anyone using 2.12. Migration Guide If you are..."
+  "content": "In Quarkus 2.11, we introduced a new API to interact with Redis. The Redis DataSource APIs aim to be simpler, more extensive, and type-safe. Under the hood, it uses a performant, non-blocking client (that you can also use if you prefer low-level APIs). In this post, we will introduce this..."
 }
