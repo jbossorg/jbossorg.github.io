@@ -1,0 +1,50 @@
+= This Week in JBoss - 22 September 2022
+Romain Pelisse
+2022-09-22
+:tags: quarkus,resteasy,kie,keycloak,wildfly
+
+_Hi everyone and welcome to the latest installment of JBoss editorial! Today's stars of the show: Quarkus and KIE (Kogito/Drools)_
+
+== Quarkus
+
+Quarkus is quite busy this month! Just yesterday, the project released link:https://quarkus.io/blog/quarkus-2-12-3-final-released/[Quarkus 2.12.3.Final], the third round of bugfixes and performance enhance of for the 2.12, which we mentioned in our previous editorial. But that not all, its tooling also got some love by the release of link:https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/[Quarkus Tools for IntelliJ 1.13.0 released!].
+
+Beyond the publication of new sofware and bugfixes, James Cobb also took the time to publish the 24th installment of the link:https://quarkus.io/newsletter/24/[Quarkus Newsletter], a must-read for anyone who wants to follow or play with Quarkus! And to this point, an interesting new player has join the project's community: link:https://quarkus.io/blog/aphp-user-story/[Quarkus adoption by APHP (Assistance Publique des Hôpitaux de Paris)]!
+
+Of course, if you are already familiar with Quarkus, you may want something more technical to quelsch your thirst and Clément Escoffier has just the article for you: link:https://quarkus.io/blog/redis-job-queue/[How to implement a job queue with Redis].
+
+== KIE
+
+KIE community has been quite active too in the last days and produced quite an amount of interesting articles about their technology. First, we'll suggest you'll dive into this one about link:https://blog.kie.org/2022/09/creating-your-first-cloud-agnostic-serverless-application-with-java.html[Creating your first cloud-agnostic serverless application with Java]. It's a good place to start!
+
+Another one, called link:https://blog.kie.org/2022/09/new-visualizer-for-the-serverless-workflow-editor.html[New visualizer for the Serverless Workflow Editor] provides a nice overview of this new tool and we'll certainly to learn more about it and use it. If you are more interested into technicals details and implementation, in you are also in luck, there is a rather detailed overview of the link:https://blog.kie.org/2022/09/efesto-refactoring-technical-details.html[Efesto refactoring].
+
+Wait, that's not all! Check out this article, and the video it links to, named link:https://blog.kie.org/2022/09/transparent-ml-integrating-drools-with-aix360.html[Transparent ML, integrating Drools with AIX360]!
+
+== Techbytes
+
+If KIE and Quarkus have been the most prolific of the last two weeks, there is still a few more articles, coming from other projects, that you may want to check out:
+* link:http://www.mastertheboss.com/java/how-to-spot-java-bugs-with-spotbugs/[How to spot Java bugs with SpotBugs]
+* link:http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/[Getting started with Jakarta RESTful Services]
+* link:https://infinispan.org/blog/2022/09/12/infinispan-14-console-wizard[Creating cache with wizard - Infinispan 14]
+* link:https://www.wildfly.org//news/2022/09/14/Remote-dev-watch/[Remote dev-watch development with WildFly Jar Maven Plugin]
+* link:https://blog.kie.org/2022/09/multiple-repositories-pull-request-chaos-crawl-them-all-in-one-single-place.html[Multiple repositories Pull Request chaos, crawl them all in one single place]
+
+== Releases, releases, releases...
+
+As always, the JBoss community has been quite active and a few projects published new version in the last two weeks:
+
+* Quarkus
+** link:https://quarkus.io/blog/quarkus-2-5-3-final-released/[Quarkus 2.12.2.Final released] followed by link:https://quarkus.io/blog/quarkus-2-12-3-final-released/[Quarkus 2.12.3.Final released]
+** link:https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/[Quarkus Tools for IntelliJ 1.13.0 released!]
+* link:https://resteasy.dev/2022/09/08/resteasy-6.2.0.Beta1-release/[RESTEasy 6.2.0.Beta1 Release]
+* link:https://www.keycloak.org/2022/09/keycloak-1902-released[Keycloak 19.0.2 released]
+
+== Decaf'
+
+Feeling too jittery? Enough Java for now? Have a refreshed with those two nexts articles about **regular expressions**:
+
+* link:https://developers.redhat.com/articles/2022/09/14/beginners-guide-regular-expressions-grep
+* link:https://developers.redhat.com/articles/2022/09/16/regex-how-quantifiers-pattern-collections-and-word-boundaries
+
+_That's all for today! Please join us again next year for another round of our JBoss editorial!_
