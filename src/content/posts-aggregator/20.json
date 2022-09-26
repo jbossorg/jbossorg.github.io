@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.27.0 released!",
-  "link": "https://blog.kie.org/2022/09/kogito-1-27-0-released.html",
+  "title": "RESTEasy 6.2.0.Beta1 Release",
+  "link": "https://resteasy.github.io/2022/09/08/resteasy-6.2.0.Beta1-release/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-09-07T12:42:31.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.27.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Adding patch http method for process instance. This allows partial updates of    the process model.   * Variable change events are more specific, only the changed value of the    Workflow model is published rather than the whole object  * Kogito now supports injection of multiple WorkItemHandlerConfig instances  * Fix ArrayNode merging to replace the whole array. This prevents duplication    of values.   * Clone procedure performance has been improved.     * Exceptions thrown by an action can be stored into a process variable for    BPMN.    KNOWN ISSUE(S)   * Quarkus SVG addon fails to compile in native mode, see  * WorkItemNotFoundException when running OpenAPI generated client in dev mode,    see  * ClassNotFoundException in enum persistence  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.22.0 artifacts are available at the .  A detailed changelog for 1.27.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-09-08T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
