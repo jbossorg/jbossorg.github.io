@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.0.Final Release",
-  "link": "https://resteasy.github.io/2022/09/23/resteasy-6.2.0.Final-release/",
+  "title": "Jakarta Persistence 3.1 new features",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-persistence-3-1-new-features/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-09-23T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-09-27T10:12:40.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial introduces Jakarta Persistence API 3.1 as a standard for management of persistence and O/R mapping in Java environments. We will discuss the headlines with a simple example that you can test on a Jakarta EE 10 runtime. New features added in Jakarta Persistence 3.1 There are several new features available in Jakarta Persistence ...  The post appeared first on ."
 }
