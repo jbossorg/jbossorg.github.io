@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with Jakarta RESTful Services",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/",
+  "title": "FAQ for New Contributors",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/frequently-asked-questions-new-contributors/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-09-14T16:44:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The latest release of RESTEasy (6.1.0) provides an implementation for Jakarta RESTful Web Services 3.1. which is a core component of Jakarta EE 10. Let’s review through this article which are the core features of Jakarta Rest Services. What’s new in Jakarta RESTful Web Services 3.1 The Jakarta RESTful Web Services 3.1 specification (part of ...  The post appeared first on ."
+  "date": "2022-09-15T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
