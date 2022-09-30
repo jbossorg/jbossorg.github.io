@@ -1,13 +1,14 @@
 {
-  "title": "FAQ for New Contributors",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/frequently-asked-questions-new-contributors/",
+  "title": "New Keycloak maintainer: Michal Hajas",
+  "link": "https://www.keycloak.org/2022/09/mhajas",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Stian Thorgersen",
+      "avatar": null
     }
   ],
-  "date": "2022-09-15T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-09-16T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We are pleased to welcome as an official maintainer of Keycloak.  Michal has been with the Keycloak project since September 2015, and since that period has to almost every component of Keycloak - core server, authorization services, adapters, javascript, code auto-generation, legacy operator - either by review or code contribution.  Since his first involvement, he has steadily contributed code, currently . Lately, he has designed and co-developed Hot Rod storage and has been instrumental in overall establishing the new map storage.  He reviews community contributions and offers help to finalize PRs, as well as participates in community discussions and issue triaging. He understands and respects the code of conduct, and in reviews helps maintaining it."
 }

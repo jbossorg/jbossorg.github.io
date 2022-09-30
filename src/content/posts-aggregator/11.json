@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Tools for IntelliJ 1.13.0 released!",
-  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/",
+  "title": "Quarkus 2.12.3.Final released",
+  "link": "https://quarkus.io/blog/quarkus-2-12-3-final-released/",
   "author": [
     {
-      "name": "Jeff Maury",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-09-20T00:00:00.000Z",
+  "date": "2022-09-21T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We are very pleased to announce the 1.13.0 release of Quarkus Tools for IntelliJ. This release improves the Qute developer experience. Improved Qute developer experience InlayHint support InlayHint is a new feature. It allows to add inline information about parameters and variables. This is very useful for Qute templates to..."
+  "content": "Today, we released Quarkus 2.12.3.Final, with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone using 2.12. Migration Guide If you are not already using 2.12, please refer to our migration guide. Full changelog You can get the full changelog of 2.12.3.Final on GitHub...."
 }
