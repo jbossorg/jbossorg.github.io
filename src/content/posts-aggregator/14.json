@@ -1,14 +1,13 @@
 {
-  "title": "New Keycloak maintainer: Michal Hajas",
-  "link": "https://www.keycloak.org/2022/09/mhajas",
+  "title": "Quarkus Tools for IntelliJ 1.13.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2022-09-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are pleased to welcome as an official maintainer of Keycloak.  Michal has been with the Keycloak project since September 2015, and since that period has to almost every component of Keycloak - core server, authorization services, adapters, javascript, code auto-generation, legacy operator - either by review or code contribution.  Since his first involvement, he has steadily contributed code, currently . Lately, he has designed and co-developed Hot Rod storage and has been instrumental in overall establishing the new map storage.  He reviews community contributions and offers help to finalize PRs, as well as participates in community discussions and issue triaging. He understands and respects the code of conduct, and in reviews helps maintaining it."
+  "date": "2022-09-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.13.0 release of Quarkus Tools for IntelliJ. This release improves the Qute developer experience. Improved Qute developer experience InlayHint support InlayHint is a new feature. It allows to add inline information about parameters and variables. This is very useful for Qute templates to..."
 }
