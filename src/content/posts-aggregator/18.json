@@ -1,13 +1,13 @@
 {
-  "title": "How to implement a job queue with Redis",
-  "link": "https://quarkus.io/blog/redis-job-queue/",
+  "title": "FAQ for New Contributors",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/frequently-asked-questions-new-contributors/",
   "author": [
     {
-      "name": "Clement Escoffier",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
   "date": "2022-09-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "In how to cache with Redis, we implemented a simple cache backed by Redis. That’s just one use case of Redis. Redis is also used as a messaging server to implement the processing of background jobs or other kinds of messaging tasks. This post explores implementing this pattern with Quarkus..."
+  "feed_title": "WildFly",
+  "content": ""
 }
