@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.12.3.Final released",
-  "link": "https://quarkus.io/blog/quarkus-2-12-3-final-released/",
+  "title": "New visualizer for the Serverless Workflow Editor",
+  "link": "https://blog.kie.org/2022/09/new-visualizer-for-the-serverless-workflow-editor.html",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Roger Palleja",
       "avatar": null
     }
   ],
-  "date": "2022-09-21T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.12.3.Final, with a new round of bugfixes and documentation improvements. It is a safe upgrade for anyone using 2.12. Migration Guide If you are not already using 2.12, please refer to our migration guide. Full changelog You can get the full changelog of 2.12.3.Final on GitHub...."
+  "date": "2022-09-21T00:08:57.000Z",
+  "feed_title": "KIE Community",
+  "content": "We’re happy to announce that a new diagram visualizer for the domain has been released, as part of the kogito tooling 0.23.0, and It becomes as default for the .  Kogito – Serverless Workflow Editor – VSCode extension  If you are not familiar with the kogito tooling and its extensions, please refer to the guide first.  A part from the previous capabilities of the editor, this new diagram visualizer provides a bunch of additional features to help users during the authoring of their workflows, such as:   * Automatic workflow reloading    It dynamically reloads the workflow’s visualization, once any change is being    done in the JSON declaration text panel.      * Error Handling    In case the workflow’s JSON declaration is not valid (thus the workflow    cannot be automatically reloaded), the editor presents the latest valid    visualization for the workflow, and also an icon appears on the top right    corner:    On mouse over the error icon, it  displays the cause of the error as well, by    showing a user friendly message. Once the diagram is valid again, the error    icon will disappear, and the visualization will be properly updated.       * State navigation    Once an state is being selected in the diagram visualizer (by clicking on    it), the editor automatically navigates to the line, in the JSON declaration,    where the state is being defined.   * Mediators    Users are able to play with mediators either by using the mouse, or by using    the available buttons in the mediators bar:            * Auto-fit to diagram size: It fits the diagram to the actual viewport size    * Zoom: Scales the viewport accordingly (also available by using mouse      mediators, please see the keybindings page)    * Panning: Translates the viewport accordingly (only available by using mouse      mediators, please see the keybindings page)   * Export  workflow to SVG  From the technical perspective, just mention it is based on , and it relies on Canvas as the main rendering technology.  Please keep posted on further updates, new features and improvements coming soon!  The post appeared first on ."
 }
