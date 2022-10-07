@@ -22,7 +22,7 @@ As always there's a lot of exciting news and updates from JBoss communities so l
 
 link:https://infinispan.org/blog/2022/09/29/infinispan-14[Infinispan 14 Final release announcement], by Tristan Tarrant
 
-UFOs, beer, a RESP endpoint, FIPs support for remote caches, a wizard that takes makes creating complex cache configuration a breeze, what's not to love?
+UFOs, beer, a RESP endpoint, FIPs support for remote caches, a wizard that makes creating complex cache configuration a breeze, what's not to love?
 From Tristan's release announcement it certainly sounds like there are a lot of great new features and capabilities to help establish the Infinispan project as the default choice for open-source, in-memory caching.
 Congrats again to the Infinispan team on all the amazing work!
 
