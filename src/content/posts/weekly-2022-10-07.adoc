@@ -5,7 +5,7 @@ Don Naro
 
 Hi everyone!
 It's great to be back and bringing you another edition of the JBoss Editorial.
-As always there's a lot of exciting news and updates from JBoss communities so let's dive in.
+As always there's a lot of exciting news and updates from JBoss communities, so let's dive in.
 
 == Release roundup
 
