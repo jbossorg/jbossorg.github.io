@@ -1,13 +1,13 @@
 {
-  "title": "Jakarta Persistence 3.1 new features",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-persistence-3-1-new-features/",
+  "title": "Quarkus 2.13.0.Final released - Cross site request forgery prevention filter, Kafka Dev UI",
+  "link": "https://quarkus.io/blog/quarkus-2-13-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-09-27T10:12:40.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial introduces Jakarta Persistence API 3.1 as a standard for management of persistence and O/R mapping in Java environments. We will discuss the headlines with a simple example that you can test on a Jakarta EE 10 runtime. New features added in Jakarta Persistence 3.1 There are several new features available in Jakarta Persistence ...  The post appeared first on ."
+  "date": "2022-09-28T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We don’t have a ton of big new features in Quarkus 2.13.0.Final but it comes with a ton of small enhancements that should improve your overall experience with Quarkus. It still comes with some exciting stuff: Cross Site Request Forgery (CSRF) prevention filter for RESTEasy Reactive (well, security is not..."
 }
