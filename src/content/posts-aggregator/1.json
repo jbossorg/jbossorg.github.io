@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.1.Final Release",
-  "link": "https://resteasy.github.io/2022/10/10/resteasy-6.2.1.Final-release/",
+  "title": "Byteman 4.0.20 has been released",
+  "link": "http://bytemanblog.blogspot.com/2022/10/byteman-4020-has-been-released.html",
   "author": [
     {
-      "name": null,
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2022-10-10T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-10-12T10:37:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.20 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK20.    Byteman 4.0.20 is a maintenance release which enables Byteman to be used with JDK20 releases. It also contains two small bug fixes. More details are provided in the and the latest ."
 }

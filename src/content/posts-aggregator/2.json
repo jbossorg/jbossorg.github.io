@@ -1,13 +1,13 @@
 {
-  "title": "Jakarta MVC made simple",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/",
+  "title": "RESTEasy 6.2.1.Final Release",
+  "link": "https://resteasy.github.io/2022/10/10/resteasy-6.2.1.Final-release/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-10-06T16:50:36.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses how to get started with Jakarta Model-View-Controller (MVC) to build Web applications using this well-known Web pattern in a Jakarta EE application. Model-View-Controller in a nutshell Model-View-Controller (MVC) is a popular pattern in Web frameworks to build HTML applications. In this framework, the model handles to the application’s data, the view handles ...  The post appeared first on ."
+  "date": "2022-10-10T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
