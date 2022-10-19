@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #25 - October",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-25/",
+  "title": "Byteman 4.0.20 has been released",
+  "link": "http://bytemanblog.blogspot.com/2022/10/byteman-4020-has-been-released.html",
   "author": [
     {
-      "name": "James Cobb",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2022-10-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It’s that time of the month… time for the latest Quarkus newsletter! \"Tutorial: Build a Quarkus web app with Azure App Service on Linux and PostgreSQL\" walks you through the process of building, configuring, deploying, and scaling Java web apps on Azure. Vamil Kumar’s article; \"Service discovery using SmallRye Stork..."
+  "date": "2022-10-12T10:37:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.20 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK20.    Byteman 4.0.20 is a maintenance release which enables Byteman to be used with JDK20 releases. It also contains two small bug fixes. More details are provided in the and the latest ."
 }

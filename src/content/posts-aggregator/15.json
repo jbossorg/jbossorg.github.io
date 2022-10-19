@@ -1,13 +1,13 @@
 {
-  "title": "How to run Keycloak with Docker",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
+  "title": "KIE Tools Highlights &#8211; Q3",
+  "link": "https://blog.kie.org/2022/10/kie-tools-highlights-q3.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Eder Ignatowicz",
       "avatar": null
     }
   ],
-  "date": "2022-10-01T22:37:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
+  "date": "2022-10-03T05:00:00.000Z",
+  "feed_title": "KIE Community",
+  "content": "Some days ago, we just launched KIE Tools and wrap-up the deliverables of our team for the third quarter. The main goal of this milestone was to expand the Serverless Workflow tooling to provide the best developer experience for the Serverless Logic ecosystem, with highlights to the new Serverless Workflow visualization!  This post will give a quick overview of the most important deliverables of this quarter. I hope you enjoy it!   MODERNIZE SERVERLESS WORKFLOW VISUALIZATION  In partnership with Red Hat UX Team, we are happy to announce that we just released a new diagram visualizer for the Serverless Workflow based on .  This new visualization improves the user experience authoring Serverless Workflows, with a much better look and feel, and a lot of additional features like state navigation, error handling, and automatic workflow reloading. See this for full details.   SERVERLESS WORKFLOW PLUG-IN FOR KNATIVE CLI  Serverless Workflow provides a plug-in named kn-plugin-workflow for Knative CLI, enabling you to quickly set up a local workflow project using the command line. See our for more information.  Our plug-in is now included by default in the client, allowing users of this CLI to create and use workflow commands without the need to install any additional plug-in.   CUSTOM DASHBOARDS ON DEV UI  Besides our default Dashboard on Quarkus Dev UI, users now can have custom dashboards based on . Check out this video:     DASHBUILDER SAMPLES  Almost every week, we push new samples from our Dashbuilder samples repository. This month’s highlight is William’s , which allows us to visualize data from Quarkus or even embed dashboards in my Quarkus application.   You can check it running live .   KOGITO SERVERLESS WORKFLOW GUIDES  Our team also wrote a lot of guides to Kogito Serverless Workflow .   You can start exploring by checking out the .   WHAT IS IN PROGRESS?  We have several initiatives in R&D and in progress, including:   * Expand Knative developer experience, allowing users to create, run and deploy    single file workflows without Java dependencies;  * Reach feature parity between JSON and YAML text editing experiences, enabling    a rich edit experience on YAML-based workflows;  * Native integration of Serverless workflow with Ansible, Kaoto and RHODS;  * More improvements for Dev UI;  * Standalone embeddable Serverless Workflow editor;  * Improve auto completion experience, to make it easier to invoke a service or    orchestrate and event, i.e. to create specific states like operation and    async;  * Serverless Logic Web Tools UX Redesign;  * Dashbuilder VS Code extension;   THANK YOU TO EVERYONE INVOLVED!  I would like to thank everyone involved with this release, from the excellent KIE Tooling Engineers to the lifesavers QEs and the UX people that help us look awesome!  The post appeared first on ."
 }
