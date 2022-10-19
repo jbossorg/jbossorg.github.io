@@ -1,13 +1,13 @@
 {
-  "title": "Hacktoberfest Has Started",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/hacktoberfest/",
+  "title": "Quarkus Newsletter #25 - October",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-25/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "James Cobb",
+      "avatar": null
     }
   ],
-  "date": "2022-10-07T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-10-11T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It’s that time of the month… time for the latest Quarkus newsletter! \"Tutorial: Build a Quarkus web app with Azure App Service on Linux and PostgreSQL\" walks you through the process of building, configuring, deploying, and scaling Java web apps on Azure. Vamil Kumar’s article; \"Service discovery using SmallRye Stork..."
 }
