@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.28.0 released!",
-  "link": "https://blog.kie.org/2022/10/kogito-1-28-0-released.html",
+  "title": "Jakarta MVC made simple",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-06T09:25:20.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.28.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * You can now define Serverless Workflow custom type operations using addons.    See the example .  * Binary cloud event format is supported for any SmallRye connector which    outputs CloudEvent Metadata (which includes HTTP and Kafka)   BREAKING CHANGES   * Metadata is no longer supported to define custom type serverless workflow    functions. You should use type custom and operation prefix, as per .  * HTTP listener on path / for cloud event consumption has been removed. You    need to explicitly add http connector configuration to your project   * To fix the failing application, you should add these two lines to    application.properties     mp.messaging.incoming.kogito_incoming_stream.connector=quarkus-http              mp.messaging.incoming.kogito_incoming_stream.path=/   * As a consequence of this change, you can no longer consume CloudEvents both    for http or kafka over the same SmallRye channel.   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.23.0 artifacts are available at the .  A detailed changelog for 1.28.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-10-06T16:50:36.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to get started with Jakarta Model-View-Controller (MVC) to build Web applications using this well-known Web pattern in a Jakarta EE application. Model-View-Controller in a nutshell Model-View-Controller (MVC) is a popular pattern in Web frameworks to build HTML applications. In this framework, the model handles to the application’s data, the view handles ...  The post appeared first on ."
 }
