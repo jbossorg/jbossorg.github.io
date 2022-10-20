@@ -1,0 +1,27 @@
+= This Week in JBoss - 20 October 2022
+Jason Porter
+2022-10-20
+:tags: kogito, drools, quarkus, resteasy, byteman, wildfly
+
+Welcome back everyone!
+We're here with another JBoss Editorial, highlighting some of the great work done in the community and within Red Hat as it relates to middleware.
+Like always, we have some news from the blogosphere and releases.
+No new videos out this week.
+Let's get started!
+
+== Releases
+
+* https://blog.kie.org/2022/10/kogito-1-29-0-released.html[Kogito 1.29.0.Final] - Mostly a bug fix release, but there are some breaking changes, please review before upgrading
+* https://blog.kie.org/2022/10/drools-8-final-toward-a-modular-and-cloud-native-rule-engine.html[Drools 8] - A brand new major release for Drools! This is great news for everyone. New features abound, and migrations as well. Be sure to check it out and read about everything that is new.
+* https://quarkus.io/blog/quarkus-2-13-2-final-released/[Quarkus 2.13.2.Final] - Bug fixes and documentation improvements abound in this release. If you're on 2.13, be sure to upgrade!
+* https://resteasy.dev/2022/10/10/resteasy-6.2.1.Final-release/[RESTEasy 6.2.1.Final] - Some bug fixes, mostly component upgrades
+* http://bytemanblog.blogspot.com/2022/10/byteman-4020-has-been-released.html[Byteman 4.0.20] - This release works all the way up to JDK 20, and also includes a couple of bug fixes!
+
+== Blogs
+
+* http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-artemis-messaging-in-a-bootable-jar/[How to run Artemis Messaging in a Bootable Jar] - If you're running a Wildfly application as a bootable jar, you'll want to take note of this. Running your application as a bootable jar is a great way to get started moving towards containers, or even building a container around the bootable jar.
+* https://quarkus.io/blog/quarkus-newsletter-25/[Quarkus Newsletter 25] - If you're looking to catch up with what is happening in Quarkus, look no further. James Cobb gives us a great rundown of things happening in the Quarkus community.
+* https://wildfly-security.github.io/wildfly-elytron/hacktoberfest/[Hacktoberfest] - There's still time to get involved in Hacktoberfest! Be sure to check it out and join others in building better Open Source Software.
+
+Thanks everyone for visiting, we hope to see you back next time!
+
