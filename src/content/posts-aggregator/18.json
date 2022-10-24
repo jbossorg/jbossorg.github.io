@@ -1,13 +1,13 @@
 {
-  "title": "How to run Keycloak with Docker",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
+  "title": "Eclipse Vert.x 4.3.4 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-4",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-10-01T22:37:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
+  "date": "2022-10-03T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.4 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features. In addition it provides support for virtual threads incubation project."
 }

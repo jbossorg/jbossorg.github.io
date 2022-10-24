@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 2.13.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-13-1-final-released/",
+  "title": "Keycloak 19.0.3 released",
+  "link": "https://www.keycloak.org/2022/10/keycloak-1903-released",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2022-10-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "2.13.1.Final is the first maintenance release of the 2.13 release train. It comes with a bunch of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. If you are not already using 2.13, please refer to our migration guide. Full changelog You can..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 18.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * AdminV2 not using admin hostname keycloak-ui admin/ui  * Clear expired events errors keycloak storage  * CryptoIntegration fails to init on WebSphere Liberty keycloak  * keycloak 19 legacy: unable to deploy war-packaged user storage provider    keycloak storage  * Missing variable declaration in AuthZ JS keycloak adapter/javascript  * Browser-based flows not working properly due to 3rd party cookie policies on    Firefox keycloak core   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
