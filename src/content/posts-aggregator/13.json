@@ -1,13 +1,13 @@
 {
-  "title": "Hacktoberfest Has Started",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/hacktoberfest/",
+  "title": "RESTEasy 6.2.1.Final Release",
+  "link": "https://resteasy.github.io/2022/10/10/resteasy-6.2.1.Final-release/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2022-10-07T00:00:00.000Z",
-  "feed_title": "WildFly",
+  "date": "2022-10-10T18:11:11.000Z",
+  "feed_title": "Resteasy",
   "content": ""
 }

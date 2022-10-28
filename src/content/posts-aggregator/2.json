@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.14 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-14",
+  "title": "How to configure distributed EJB Timers",
+  "link": "http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-25T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.14 has just been released."
+  "date": "2022-10-27T18:20:32.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Do you need to scale your EJB Timers at its bests ? WildFly 27 supports a new mechanism for storing your Timers in a cluster: distributed EJB Timers. In this article we will learn how to configure it in no time. EJB Timers overview The default Timer implementation of EJB Timers before WildFly 27 relies ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to configure distributed EJB Timers",
-  "link": "http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/",
+  "title": "Announcing Dashbuilder VSCode extension",
+  "link": "https://blog.kie.org/2022/10/announcing-dashbuilder-vscode-extension.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2022-10-27T18:20:32.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Do you need to scale your EJB Timers at its bests ? WildFly 27 supports a new mechanism for storing your Timers in a cluster: distributed EJB Timers. In this article we will learn how to configure it in no time. EJB Timers overview The default Timer implementation of EJB Timers before WildFly 27 relies ...  The post appeared first on ."
+  "date": "2022-10-28T20:42:52.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Dashbuilder has been released! With this extension you can create dashboards using YAML files on local VS Code, VS Code Web (github.dev) and also published on marketplace. The extension can also be downloaded as part of .   HOW TO CREATE DASHBOARDS WITH DASHBUILDER?  Dashbuilder supports YAML and JSON dashboards definitions. To learn more about it you can check our , the from Dashbuilder website and an article from Manaswini Das about . To create dashboards you can use the or the new VSCode extension.   DASHBUILDER EXTENSION VS CODE INSTALLATION  To install dashbuilder editor on VS Code go to the “Extensions” and search for “dashbuilder”. Click on install and you should be able to edit dashboards using YAML (.dash.yaml) or JSON (.dash.json).  Once installed, open a dashbuilder definition file with text editor and Dashbuilder editor should be opened on the side.   Dashbuilder extension is also available on VS Code web, you just have to install the extension.   CONCLUSION  In this post we announced the Dashbuilder VS Code extension. We hope to improve the editor for next releases with content assist, editor augmentation and more, so stay tuned!  The post appeared first on ."
 }
