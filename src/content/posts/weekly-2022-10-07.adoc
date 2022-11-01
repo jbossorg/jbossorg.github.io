@@ -1,0 +1,75 @@
+= This Week in JBoss - 07 October 2022
+Don Naro
+2022-10-07
+:tags: quarkus, java, jakarta, infinispan, wildfly, cloud-native, kogito, drools, keycloak, dmn, persistence
+
+Hi everyone!
+It's great to be back and bringing you another edition of the JBoss Editorial.
+As always there's a lot of exciting news and updates from JBoss communities, so let's dive in.
+
+== Release roundup
+
+[square]
+
+* link:https://infinispan.org/blog/2022/09/29/infinispan-14[Infinispan 14.0.0.Final]
+* link:https://vertx.io/blog/eclipse-vert-x-4-3-4/[Eclipse Vert.x 4.3.4]
+* link:https://resteasy.dev/2022/09/23/resteasy-6.2.0.Final-release/[RESTEasy 6.2.0.Final]
+* link:https://quarkus.io/blog/quarkus-2-13-0-final-released/[Quarkus 2.13.0.Final] and link:https://quarkus.io/blog/quarkus-2-13-1-final-released/[Quarkus 2.13.1.Final]
+* link:https://www.wildfly.org/news/2022/09/29/WildFly26-Beta-Released/[WildFly 27 Beta]
+* link:https://www.keycloak.org/2022/10/keycloak-1903-released[Keycloak 19.0.3]
+
+== The Flying Saucer release is here
+
+link:https://infinispan.org/blog/2022/09/29/infinispan-14[Infinispan 14 Final release announcement], by Tristan Tarrant
+
+UFOs, beer, a RESP endpoint, FIPs support for remote caches, a wizard that makes creating complex cache configuration a breeze, what's not to love?
+From Tristan's release announcement it certainly sounds like there are a lot of great new features and capabilities to help establish the Infinispan project as the default choice for open-source, in-memory caching.
+Congrats again to the Infinispan team on all the amazing work!
+
+== Jakarta MVC in a nutshell
+
+link:http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/[Jakarta MVC made simple], by Francesco Marchioni
+
+Francesco provides a crisp introduction to the Model-View-Controller (MVC) framework for building HTTP applications and delves into where the MVC API sits within the Jakarta ecosystem.
+In his post, Francesco provides code samples for an MVC app that show how to perform standard operations.
+
+It's a solid resource for anyone interested in the MVC pattern.
+Francesco even provides his link:https://github.com/fmarchioni/mastertheboss/tree/master/web/ee-mvc-demo[ee-mvc-demo] source to play around with.
+
+== Rounding up Jakarta Persistence 3.1
+
+link:http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-persistence-3-1-new-features/[Jakarta Persistence 3.1 new features], by Francesco Marchioni
+
+In another blog post, Francesco takes us on a tour of Jakarta Persistence 3.1.
+Using the Jakarta EE 10 runtime and the WildFly 27 Preview release, Francesco shows us how to use `java.util.UUID` to automatically generate a Primary Key and other cool JPQL functions.
+Francesco shows us how to extract the numeric parts from a given date and do some other interesting Math, Date, and Time functions.
+
+Once again, Francesco provides his source for us to try out.
+You can find it in the link:https://github.com/fmarchioni/mastertheboss/tree/master/jpa/uuid-demo[uuid-demo] repository.
+
+== Troubleshooting Drools memory issues
+
+link:https://blog.kie.org/2022/09/drools-trouble-shooting-memory-issues.html[Drools trouble-shooting: Memory issues], by Toshiya Kobayashi
+
+Toshiya runs down memory issues frequently encountered in Drools troubleshooting.
+Dividing them into three categories - long-term memory leaks, OOM errors when building rules, and OOM errors executing KieSession - Toshiya expertly explains how to solve each memory issue.
+
+== Comparing Choices in DMN Modeling
+
+link:https://blog.kie.org/2022/10/comparing-choices-in-modeling-dmn.html[Comparing Choices in DMN Modeling], by Eder Ignatowicz
+
+Eder highlights a recent comparative analysis, by Keith Swenson, of TrisoTech DMN Modeler, Camunda, Red Hat Drools Workbench, and KIE Sandbox.
+I think it's worth reading Eder's post for yourself.
+Should you need convincing, I offer this snippet from Keith's feedback on KIE tools:
+
+"... if you want practical experience with DMN models and running the models, go right to KIE Sandbox. It works."
+
+== YouTube videos
+
+Be sure to check out link:https://youtu.be/MQR1SLJVpgM[Quarkus Insights #103: Debezium and Quarkus, A Match Made in Heaven?] if you haven't already.
+
+And don't forget to tune in on *October 17* for https://youtu.be/-gyJ6JoHxlc[Quarkus Insights #105: Discover the new Quarkus Redis API]
+
+== See you next time
+
+_Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!_

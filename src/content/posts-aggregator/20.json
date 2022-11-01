@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.10.0.Final released - Preliminary work on Loom's virtual threads and various refinements all over the place",
-  "link": "https://quarkus.io/blog/quarkus-2-10-0-final-released/",
+  "title": "Quarkus 2.13.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-13-1-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-06-22T00:00:00.000Z",
+  "date": "2022-10-06T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "New month, new Quarkus feature release, you know the drill: Quarkus 2.10.0.Final has landed. This version is a mix of exploratory work and refinements on existing extensions: Preliminary work on Loom’s virtual threads GraphQL non-blocking support Kubernetes service binding support for Reactive SQL Clients CacheKeyGenerator for cache extension And much..."
+  "content": "2.13.1.Final is the first maintenance release of the 2.13 release train. It comes with a bunch of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. If you are not already using 2.13, please refer to our migration guide. Full changelog You can..."
 }

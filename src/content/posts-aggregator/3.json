@@ -1,13 +1,13 @@
 {
-  "title": "10 IntelliJ Idea Tips to boost your productivity",
-  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/10-intellij-idea-tips-to-boost-your-productivity/",
+  "title": "Using Open Telemetry API in your Microservices",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-07-12T17:52:51.000Z",
+  "date": "2022-10-28T12:47:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article contains a collection of trips and tricks that are available in Jet Brains‘ IntelliJ Idea to take your productivity at the next level. Run anything (Ctrl + Ctrl) Run anything is an universal action that you can use to perform certain tasks much faster. Invoking it is as easy as double-pressing Ctrl. By ...  The post appeared first on ."
+  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. This article shows an example of how you can send and capture telemetry data with a Jakarta EE 10 application server such as WildFly. In the era of cloud-native applications, it is pretty common to combine ...  The post appeared first on ."
 }

@@ -1,0 +1,68 @@
+= This Week in JBoss - July 28th 2022
+Stefan Sitani
+2022-07-28
+:tags: quarkus, java, kubernetes, openshift, dekorate, operators, gitops, security, fabric8, jfr, performance, monitoring, jvm
+
+Hello, everyone. Welcome to the latest edition of _This Week in JBoss_. We are in the middle of summer, but our favorite projects keep coming up with cool new releases, dev tips, and demos. Take a look at the JBoss community content highlights from the past 2 weeks.
+
+== Releases, releases, releases!
+
+Here are the releases from the JBoss Community for this edition:
+
+[square]
+* link:https://camel.apache.org/blog/2022/07/camel-quarkus-release-2.11.0[Camel Quarkus 2.11.0]
+
+* link:https://debezium.io/releases/2.0/[Debezium 2.0.0 Beta 1]
+
+* link:https://docs.drools.org/7.73.0.Final/drools-docs/html_single/index.html[Drools 7.73.0]
+
+* link:https://blog.marcnuri.com/fabric8-kubernetes-client-6-0-0[Fabric8 Kubernetes Client 6.0.0]
+
+* link:https://www.keycloak.org/2022/07/keycloak-1901-released[Keycloak 19.0.1]
+
+* link:https://www.optaplanner.org/download/releaseNotes/releaseNotes8.html[OptaPlanner 8.25.0]
+
+* link:https://quarkus.io/blog/quarkus-2-11-1-final-released/[Quarkus 2.11.1 and Quarkus 2.10.4]
+
+* link:https://resteasy.dev/2022/07/21/resteasy-releases/#[RESTEasy 6.0.3, 5.0.4, and 4.7.7]
+
+* link:https://strimzi.io/blog/2022/07/27/what-is-new-in-strimzi-0.30.0/[Strimzi 0.30.0]
+
+* link:https://www.wildfly.org/downloads/[WildFly 27 Alpha 3]
+
+== Articles & Blogs
+
+=== Secure Kubernetes certificates with cert-manager and Dekorate
+
+link:https://developers.redhat.com/articles/2022/07/19/secure-kubernetes-certificates-cert-manager-and-dekorate[Secure Kubernetes certificates with cert-manager and Dekorate] by Jose Carvajal Hilario, Anna-Maria Mihalceanu, and Charles Moulliard.
+
+Managing SSL certificates for your cloud native apps can sometimes get a little tricky. link:https://cert-manager.io/[Cert-manager],  a popular tool for cloud-native certificate management helps makes this task a lot easier. But before they can start using it, developers need to deal with creating custom resources that cert-manager requires. Enter link:https://dekorate.io/[Dekorate], the tool that significantly decreases the complexity of managing custom resource for Kubernetes and OpenShift. This walkthrough demonstrates how Dekorate automatically creates cert-manager custom resources from annotations in your code. You can then install these resources in a project on your cluster and use them to secure the REST endpoints of your application with TLS. The article provides rich code examples for every step, and also an example application project based on Spring Boot that you can use to follow along with the walkthrough.
+
+=== New HTTP clients, a Java generator, and more in Fabric8 6.0.0
+
+link:https://developers.redhat.com/articles/2022/07/15/new-http-clients-java-generator-and-more-fabric8-600[New HTTP clients, a Java generator, and more in Fabric8 6.0.0] by Andrea Peruffo and Steven Hawkins
+
+The Fabric8 Kubernetes client has been making cloud-native development with Java easier for years. After more than five months of intensive work, the release of Fabric8 6.0.0 brings a host of innovative features and capabilities to the core components and utilities in the Fabric8 suite. Steven Hawkins and Andrea Peruffo show off some the coolest features and important bugfixes that the new release has to offer. Check out their article to see the highlights
+
+=== How to use Java Mission Control to monitor Java apps
+
+link:http://www.mastertheboss.com/java/how-to-use-java-mission-control-to-monitor-java-apps/[How to use Java Mission Control to monitor Java apps] by Francesco Marchioni
+
+Those of you with an interest in monitoring the performance of your Java apps will find Francesco's post especially informative. The article focuses on Java Flight Recorder (JFR), a JVM monitoring tool that also powers the recently released link:https://cryostat.io/[Cryostat] project. In addition to offering  insights into the JFR user experience compared to competing tools like JConosle and VisualVM (which he covered in earlier articles), Francesco also provides a quickstart guide for spinning up JFR with Java Mission Control to monitor a Wildfly server.
+
+=== SaaS security in Kubernetes environments: A layered approach
+
+link:https://developers.redhat.com/articles/2022/07/27/saas-security-kubernetes-environments-layered-approach#[SaaS security in Kubernetes environments: A layered approach] by Alex Kubacki
+
+In his most recent article, Alex Kubacki analyzes recommended practices for securing software-as-a-service applications. Opening with the argument that if you want to truly secure your applications, you must secure every layer of your application stack (all the way from the hardware to the container network interface), Alex moves on to break down the security concerns specific to each layer. He gives particular attention to the cluster and networking layers, where he highlights the benefits of recently released projects, including Advanced Cluster Security for Kubernetes and the more recent networking security innovations in OpenShift.
+
+== Videos
+
+Since we are in middle of vacation season, there isn't as much new content coming out as the rest of the year. Still, there is definitely enough to choose from.
+Please enjoy this week's video picks:
+
+* link:https://youtu.be/kdasoBPOWUQ[Quarkus Insights #96: Quarkus Q&A]
+* link:https://youtu.be/2gdbMtl1tak[Kube by Example Insider #13 with Travis Nielsen]
+* link:https://youtu.be/1K92tit2uCk[Demo: _Encrypting an Elytron Filesystem Realm_ by Ashpan Raskar]
+
+_That's all for today! Please stay tuned for the next editorial, stay safe, and enjoy the rest of the vacation season!_

@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.2 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-2",
+  "title": "Quarkus 2.13.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-13-3-final-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-07-07T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.2 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features. In addition it provides support for virtual threads incubation project."
+  "date": "2022-10-19T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.13.3.Final with a new round of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. Especially since it fixes a Jackson CVE (even if you probably are not affected by the CVE, better be safe). If you are not..."
 }

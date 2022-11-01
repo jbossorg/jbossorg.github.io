@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.10.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-10-1-final-released/",
+  "title": "RESTEasy 6.2.1.Final Release",
+  "link": "https://resteasy.github.io/2022/10/10/resteasy-6.2.1.Final-release/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-06-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.10.1.Final, the first maintenance release of our 2.10 release train. It is a safe upgrade for anyone already using 2.10. If you are not using 2.10 already, please refer to the 2.10 migration guide. Full changelog You can get the full changelog of 2.10.1.Final on GitHub...."
+  "date": "2022-10-10T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

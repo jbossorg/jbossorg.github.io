@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.10.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-10-2-final-released/",
+  "title": "Byteman 4.0.20 has been released",
+  "link": "http://bytemanblog.blogspot.com/2022/10/byteman-4020-has-been-released.html",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2022-07-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Summer is here but we keep releasing Quarkus at a steady pace: today, we released Quarkus 2.10.2.Final, the second maintenance release of our 2.10 release train. It is a safe upgrade for anyone already using 2.10. If you are not using 2.10 already, please refer to the 2.10 migration guide...."
+  "date": "2022-10-12T10:37:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.20 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK20.    Byteman 4.0.20 is a maintenance release which enables Byteman to be used with JDK20 releases. It also contains two small bug fixes. More details are provided in the and the latest ."
 }

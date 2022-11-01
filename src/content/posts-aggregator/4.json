@@ -1,13 +1,13 @@
 {
-  "title": "How to export and import Realms in Keycloak",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
+  "title": "How to configure distributed EJB Timers",
+  "link": "http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-07-10T09:30:00.000Z",
+  "date": "2022-10-27T18:20:32.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. Realm Set up Firstly, if you are new to Keycloak and Quarkus, we recommend checking this article which covers the basics: Getting started with Keycloak powered by Quarkus A Keycloak Realm is a space where ...  The post appeared first on ."
+  "content": "Do you need to scale your EJB Timers at its bests ? WildFly 27 supports a new mechanism for storing your Timers in a cluster: distributed EJB Timers. In this article we will learn how to configure it in no time. EJB Timers overview The default Timer implementation of EJB Timers before WildFly 27 relies ...  The post appeared first on ."
 }

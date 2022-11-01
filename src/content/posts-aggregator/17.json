@@ -1,13 +1,13 @@
 {
-  "title": "How to build GraphQL applications with Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-build-graphql-applications-with-quarkus/",
+  "title": "Jakarta MVC made simple",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-06-27T07:13:00.000Z",
+  "date": "2022-10-06T16:50:36.000Z",
   "feed_title": "Mastertheboss",
-  "content": "GraphQL is an open-source query and data manipulation language for APIs. This article shows how to create and deploy a sample application using a Quarkus Runtime What is GraphQL? GraphQL is Query language for reading and mutating data in APIs. As a back-end developer, GraphQL provides a type system where you can describe a schema ...  The post appeared first on ."
+  "content": "This article discusses how to get started with Jakarta Model-View-Controller (MVC) to build Web applications using this well-known Web pattern in a Jakarta EE application. Model-View-Controller in a nutshell Model-View-Controller (MVC) is a popular pattern in Web frameworks to build HTML applications. In this framework, the model handles to the application’s data, the view handles ...  The post appeared first on ."
 }
