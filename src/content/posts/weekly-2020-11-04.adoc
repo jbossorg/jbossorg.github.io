@@ -12,7 +12,7 @@ Here is another edition of the JBoss Editorial with exciting news and updates fr
 Here are the most recent releases for this edition:
 
 [square]
-* link:https://quarkus.io/blog/quarkus-2-13-3-final-released/[Quarkus 2.13.3] - There is a new maintenance release with a new round of bugfixes and documentation improvements. This is a recommended upgrade since it fixes a the link:https://nvd.nist.gov/vuln/detail/CVE-2022-42003[CVE-2022-42003] Denial of Service (DoS) vulnerability Jackson  (. Check here the full link:https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final[change log]
+* link:https://quarkus.io/blog/quarkus-2-13-3-final-released/[Quarkus 2.13.3] - There is a new maintenance release with a new round of bugfixes and documentation improvements. This is a recommended upgrade since it fixes the link:https://nvd.nist.gov/vuln/detail/CVE-2022-42003[CVE-2022-42003] Denial of Service (DoS) vulnerability Jackson  (. Check here the full link:https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final[change log]
 
 * link:https://camel.apache.org/download/[Camel 3.18.0] - Apache Camel 3.18.3 it's available. A new LTS release with 52 new features, improvements and fixes. This release supports Java 11 and 17 and upgrades the BOMs to Spring boot 2.7.5. The artifacts are published and ready for you to download from the Central Maven repository. For more details please take a look at the link:https://camel.apache.org/releases/release-3.18.3/[release notes]   
 
