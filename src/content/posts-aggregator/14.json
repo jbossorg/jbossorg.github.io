@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #25 - October",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-25/",
+  "title": "Open Source Day 2022 Recap",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ghc22-open-source-day-recap/",
   "author": [
     {
-      "name": "James Cobb",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-10-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It’s that time of the month… time for the latest Quarkus newsletter! \"Tutorial: Build a Quarkus web app with Azure App Service on Linux and PostgreSQL\" walks you through the process of building, configuring, deploying, and scaling Java web apps on Azure. Vamil Kumar’s article; \"Service discovery using SmallRye Stork..."
+  "date": "2022-10-14T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

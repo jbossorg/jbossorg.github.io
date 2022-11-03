@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.13.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-13-1-final-released/",
+  "title": "Jakarta MVC made simple",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "2.13.1.Final is the first maintenance release of the 2.13 release train. It comes with a bunch of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. If you are not already using 2.13, please refer to our migration guide. Full changelog You can..."
+  "date": "2022-10-06T16:50:36.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to get started with Jakarta Model-View-Controller (MVC) to build Web applications using this well-known Web pattern in a Jakarta EE application. Model-View-Controller in a nutshell Model-View-Controller (MVC) is a popular pattern in Web frameworks to build HTML applications. In this framework, the model handles to the application’s data, the view handles ...  The post appeared first on ."
 }

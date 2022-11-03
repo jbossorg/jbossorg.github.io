@@ -1,13 +1,13 @@
 {
-  "title": "How to run Artemis Messaging in a Bootable Jar",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-artemis-messaging-in-a-bootable-jar/",
+  "title": "How to configure distributed EJB Timers",
+  "link": "http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-19T16:26:51.000Z",
+  "date": "2022-10-27T18:20:32.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article is a walk-through the new embedded-activemq layer which allows to run the Artemis MQ Server in a WildFly Bootable Jar. WildFly Bootable Jar allows to run Jakarta EE applications as runnable Jar applications, which include the required subsystems as Galleon layers. You can learn more about WildFly bootable Jar in this article: Turn ...  The post appeared first on ."
+  "content": "Do you need to scale your EJB Timers at its bests ? WildFly 27 supports a new mechanism for storing your Timers in a cluster: distributed EJB Timers. In this article we will learn how to configure it in no time. EJB Timers overview The default Timer implementation of EJB Timers before WildFly 27 relies ...  The post appeared first on ."
 }
