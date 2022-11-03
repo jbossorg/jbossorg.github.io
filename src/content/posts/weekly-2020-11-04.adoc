@@ -53,7 +53,7 @@ Debugging camel Routes can also be done within Sublime text editor. Just a few d
 
 == How Kamelets simplify Camel integrations on Kubernetes
 
-link:https://developers.redhat.com/articles/2022/10/24/ansible-automates-jws-updates-upgrades[How Kamelets simplify Camel integrations on Kubernetes], by 
+link:https://developers.redhat.com/articles/2022/11/01/how-kamelets-simplify-camel-integrations-kubernetes[How Kamelets simplify Camel integrations on Kubernetes], by 
 Mohammadi Iram
 
 Camel K is a lightweight integration framework based on Apache Camel that runs natively on Kubernetes to create serverless and microservice architectures. Learn about the advantages and types of Kamelets configuration files which simplify connections to external systems.
