@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.1.Final Release",
-  "link": "https://resteasy.github.io/2022/10/10/resteasy-6.2.1.Final-release/",
+  "title": "Quarkus Newsletter #25 - October",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-25/",
   "author": [
     {
-      "name": null,
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-10-10T18:11:11.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-10-11T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It’s that time of the month… time for the latest Quarkus newsletter! \"Tutorial: Build a Quarkus web app with Azure App Service on Linux and PostgreSQL\" walks you through the process of building, configuring, deploying, and scaling Java web apps on Azure. Vamil Kumar’s article; \"Service discovery using SmallRye Stork..."
 }
