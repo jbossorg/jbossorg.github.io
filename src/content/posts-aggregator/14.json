@@ -1,6 +1,6 @@
 {
-  "title": "Quarkus 2.13.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-13-4-final-released/",
+  "title": "Quarkus 2.13.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-13-3-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
@@ -9,5 +9,5 @@
   ],
   "date": "2022-10-19T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.13.4.Final with a new round of bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.13. If you are not already using 2.13, please refer to our migration guide. GraalVM/Mandrel upgrade We don’t usually upgrade GraalVM/Mandrel in a micro release but GraalVM/Mandrel..."
+  "content": "Today, we released Quarkus 2.13.3.Final with a new round of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. Especially since it fixes a Jackson CVE (even if you probably are not affected by the CVE, better be safe). If you are not..."
 }
