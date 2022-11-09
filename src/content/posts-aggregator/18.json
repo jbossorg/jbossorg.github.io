@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.20 has been released",
-  "link": "http://bytemanblog.blogspot.com/2022/10/byteman-4020-has-been-released.html",
+  "title": "Open Source Day 2022 Recap",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ghc22-open-source-day-recap/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-10-12T10:37:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.20 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK20.    Byteman 4.0.20 is a maintenance release which enables Byteman to be used with JDK20 releases. It also contains two small bug fixes. More details are provided in the and the latest ."
+  "date": "2022-10-14T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
