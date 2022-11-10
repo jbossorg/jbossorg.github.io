@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.14.0.Final released - Jandex 3, new Redis commands, caching annotations for Infinispan",
-  "link": "https://quarkus.io/blog/quarkus-2-14-0-final-released/",
+  "title": "Starting Quarkus 3",
+  "link": "https://quarkus.io/blog/road-to-quarkus-3/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2022-11-09T00:00:00.000Z",
+  "date": "2022-11-10T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.14.0.Final with a lot of new features and small improvements all over the place: Upgrade to Jandex 3 Include quarkus-opentelemetry-exporter-otlp into quarkus-opentelemetry Additional Redis commands RESTEasy Reactive: multipart form improvements Support for caching annotations for Infinispan Improved Kotlin support for Hibernate Reactive with Panache Support embedding..."
+  "content": "Quarkus 3 will continue the tradition of propelling Java development forward by moving fast and keep bringing a cutting-edge user experience with the latest technologies. We are happy to make a first Quarkus 3 Alpha available for users to try out and extension writers to integrate with so that we..."
 }

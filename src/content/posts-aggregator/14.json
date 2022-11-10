@@ -1,13 +1,14 @@
 {
-  "title": "Announcing Dashbuilder VSCode extension",
-  "link": "https://blog.kie.org/2022/10/announcing-dashbuilder-vscode-extension.html",
+  "title": "Keycloak 20.0.0 released",
+  "link": "https://www.keycloak.org/2022/11/keycloak-2000-released",
   "author": [
     {
-      "name": "William Siqueira",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-10-28T20:42:52.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Dashbuilder has been released! With this extension you can create dashboards using YAML files on local VS Code, VS Code Web (github.dev) and also published on marketplace. The extension can also be downloaded as part of .   HOW TO CREATE DASHBOARDS WITH DASHBUILDER?  Dashbuilder supports YAML and JSON dashboards definitions. To learn more about it you can check our , the from Dashbuilder website and an article from Manaswini Das about . To create dashboards you can use the or the new VSCode extension.   DASHBUILDER EXTENSION VS CODE INSTALLATION  To install dashbuilder editor on VS Code go to the “Extensions” and search for “dashbuilder”. Click on install and you should be able to edit dashboards using YAML (.dash.yaml) or JSON (.dash.json).  Once installed, open a dashbuilder definition file with text editor and Dashbuilder editor should be opened on the side.   Dashbuilder extension is also available on VS Code web, you just have to install the extension.   CONCLUSION  In this post we announced the Dashbuilder VS Code extension. We hope to improve the editor for next releases with content assist, editor augmentation and more, so stay tuned!  The post appeared first on ."
+  "date": "2022-11-01T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Weird characters when saving Authenticators config keycloak-ui    section/authentication  * NullPointerException when importing a json keycloak import-export  * JPA Map store JDBC transactions not rolled back on Hibernate transaction    rollback when running in Quarkus keycloak storage  * kc.bat fails with ClassNotFoundException keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

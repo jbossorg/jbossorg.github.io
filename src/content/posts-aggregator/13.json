@@ -1,13 +1,13 @@
 {
-  "title": "Grace Hopper Celebration Recap",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ghc22-recap/",
+  "title": "An Introduction to the RESTEasy SeBootstrap Usage",
+  "link": "https://resteasy.github.io/2022/11/01/sebootstrap-usage/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2022-10-31T00:00:00.000Z",
-  "feed_title": "WildFly",
+  "date": "2022-11-01T00:00:00.000Z",
+  "feed_title": "Resteasy",
   "content": ""
 }
