@@ -1,13 +1,13 @@
 {
-  "title": "An Introduction to the RESTEasy SeBootstrap Usage",
-  "link": "https://resteasy.github.io/2022/11/01/sebootstrap-usage/",
+  "title": "Quarkus 2.13.4.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-13-4-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-11-01T00:00:00.000Z",
-  "feed_title": "Resteasy",
-  "content": ""
+  "date": "2022-11-07T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.13.4.Final with a new round of bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.13. If you are not already using 2.13, please refer to our migration guide. GraalVM/Mandrel upgrade We don’t usually upgrade GraalVM/Mandrel in a micro release but GraalVM/Mandrel..."
 }

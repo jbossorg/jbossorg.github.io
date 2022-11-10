@@ -1,13 +1,13 @@
 {
-  "title": "How to run Artemis Messaging in a Bootable Jar",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-artemis-messaging-in-a-bootable-jar/",
+  "title": "Eclipse Vert.x 3.9.14 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-14",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-10-19T16:26:51.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is a walk-through the new embedded-activemq layer which allows to run the Artemis MQ Server in a WildFly Bootable Jar. WildFly Bootable Jar allows to run Jakarta EE applications as runnable Jar applications, which include the required subsystems as Galleon layers. You can learn more about WildFly bootable Jar in this article: Turn ...  The post appeared first on ."
+  "date": "2022-10-25T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.14 has just been released."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.13.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-13-3-final-released/",
+  "title": "How to run Artemis Messaging in a Bootable Jar",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-artemis-messaging-in-a-bootable-jar/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.13.3.Final with a new round of bugfixes and documentation improvements. It is a recommended and safe upgrade for anyone already using 2.13. Especially since it fixes a Jackson CVE (even if you probably are not affected by the CVE, better be safe). If you are not..."
+  "date": "2022-10-19T16:26:51.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article is a walk-through the new embedded-activemq layer which allows to run the Artemis MQ Server in a WildFly Bootable Jar. WildFly Bootable Jar allows to run Jakarta EE applications as runnable Jar applications, which include the required subsystems as Galleon layers. You can learn more about WildFly bootable Jar in this article: Turn ...  The post appeared first on ."
 }
