@@ -1,13 +1,14 @@
 {
-  "title": "Using Open Telemetry API in your Microservices",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/",
+  "title": "Keycloak 20.0.1 released",
+  "link": "https://www.keycloak.org/2022/11/keycloak-2001-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-10-28T12:47:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. This article shows an example of how you can send and capture telemetry data with a Jakarta EE 10 application server such as WildFly. In the era of cloud-native applications, it is pretty common to combine ...  The post appeared first on ."
+  "date": "2022-11-01T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Weird characters when saving Authenticators config keycloak-ui    section/authentication  * NullPointerException when importing a json keycloak import-export  * JPA Map store JDBC transactions not rolled back on Hibernate transaction    rollback when running in Quarkus keycloak storage  * kc.bat fails with ClassNotFoundException keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

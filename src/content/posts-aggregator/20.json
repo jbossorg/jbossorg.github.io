@@ -1,13 +1,13 @@
 {
-  "title": "KOGITO 1.29.0 RELEASED!",
-  "link": "https://blog.kie.org/2022/10/kogito-1-29-0-released.html",
+  "title": "Eclipse Vert.x 3.9.14 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-14",
   "author": [
     {
-      "name": "Ricardo Zanini",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-10-19T13:07:47.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.29.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * workflowdata property is no longer needed to start a process (OpenAPI    documentation has been properly updated to reflect this)  * OpenAPI documentation is properly generated when an application defines    several workflows.   * New custom marshaller/unmarshaller policy.   * New kogito-events-core dependency, which contains event related classes that    were located in kogito-services and classes located in kogito-events-api    which depends on Jackson. As a consequence of this refactor,    kogito-events-api no longer depends on Jackson and kogito services dependency    no longer contains event related classes.   * CloneHelper class works in native mode.   * Kogito Serverless Workflow Chrome Extension now uses by default the new    visualization.   BREAKING CHANGES   * ProcessDataEvent class constructors have been refactored, keeping only the    empty constructor and all arguments constructor. Therefore, any code outside    Kogito using the removed constructor will fail to compile. The alternative is    to use an empty constructor plus setters or the all arguments constructor,    filling the gaps with nulls.   * If a pom.xml file explicitly imports kogito-events-api and kogito services    dependencies, it probably needs to be updated to replace them with    kogito-events-core.    For more details, head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.24.0 artifacts are available at the.  A detailed changelog for 1.29.0 can be found in . New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-10-25T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 3.9.14 has just been released."
 }

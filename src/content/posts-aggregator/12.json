@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 20.0.1 released",
-  "link": "https://www.keycloak.org/2022/11/keycloak-2001-released",
+  "title": "20k+ active users of BPMN VS Code Extension",
+  "link": "https://blog.kie.org/2022/11/20k-active-users-of-bpmn-vs-code-extension.html",
   "author": [
     {
-      "name": null,
+      "name": "Eder Ignatowicz",
       "avatar": null
     }
   ],
-  "date": "2022-11-01T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Weird characters when saving Authenticators config keycloak-ui    section/authentication  * NullPointerException when importing a json keycloak import-export  * JPA Map store JDBC transactions not rolled back on Hibernate transaction    rollback when running in Quarkus keycloak storage  * kc.bat fails with ClassNotFoundException keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-11-02T05:00:00.000Z",
+  "feed_title": "KIE Community",
+  "content": "Last month, we reached an important milestone for our community: 20k+ active users for our BPMN VS Code Extension.  It has been a long road since our first prototype in . After several releases and incremental iterations, we are proud to develop the most popular for VS Code.  Under the hood, the BPMN editor is based on Stunner. Stunner is a library for building web applications that provide visualization and authoring capabilities for representing knowledge domains. Soon, Roger will write a series of blog posts that deep dive into how Stunner works behind the scenes.  I want to thank everyone involved over those years with the BPMN editor, from the excellent KIE Tools Engineers(highlights to Roger and Stunner team) to the lifesavers QEs and the UX people that helped us look awesome!  The post appeared first on ."
 }
