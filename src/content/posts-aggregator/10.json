@@ -1,13 +1,13 @@
 {
-  "title": "Using Open Telemetry API in your Microservices",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/",
+  "title": "Grace Hopper Celebration Recap",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ghc22-recap/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-10-28T12:47:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. This article shows an example of how you can send and capture telemetry data with a Jakarta EE 10 application server such as WildFly. In the era of cloud-native applications, it is pretty common to combine ...  The post appeared first on ."
+  "date": "2022-10-31T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.14 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-14",
+  "title": "Using Open Telemetry API in your Microservices",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-25T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.14 has just been released."
+  "date": "2022-10-28T12:47:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. This article shows an example of how you can send and capture telemetry data with a Jakarta EE 10 application server such as WildFly. In the era of cloud-native applications, it is pretty common to combine ...  The post appeared first on ."
 }
