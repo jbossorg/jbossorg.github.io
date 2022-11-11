@@ -1,6 +1,6 @@
 {
-  "title": "Keycloak 20.0.0 released",
-  "link": "https://www.keycloak.org/2022/11/keycloak-2000-released",
+  "title": "An Introduction to the RESTEasy SeBootstrap Usage",
+  "link": "https://resteasy.github.io/2022/11/01/sebootstrap-usage/",
   "author": [
     {
       "name": null,
@@ -8,7 +8,6 @@
     }
   ],
   "date": "2022-11-01T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Weird characters when saving Authenticators config keycloak-ui    section/authentication  * NullPointerException when importing a json keycloak import-export  * JPA Map store JDBC transactions not rolled back on Hibernate transaction    rollback when running in Quarkus keycloak storage  * kc.bat fails with ClassNotFoundException keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "feed_title": "Resteasy",
+  "content": ""
 }
