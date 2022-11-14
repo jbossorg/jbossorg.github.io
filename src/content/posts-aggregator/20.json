@@ -1,13 +1,13 @@
 {
-  "title": "How to configure distributed EJB Timers",
-  "link": "http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/",
+  "title": "Using Open Telemetry API in your Microservices",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/using-open-telemetry-api-in-your-microservices/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-10-27T18:20:32.000Z",
+  "date": "2022-10-28T12:47:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Do you need to scale your EJB Timers at its bests ? WildFly 27 supports a new mechanism for storing your Timers in a cluster: distributed EJB Timers. In this article we will learn how to configure it in no time. EJB Timers overview The default Timer implementation of EJB Timers before WildFly 27 relies ...  The post appeared first on ."
+  "content": "OpenTelemetry is a collection of APIs, SDKs, tools you can use to instrument, generate, capture and export telemetry data. This article shows an example of how you can send and capture telemetry data with a Jakarta EE 10 application server such as WildFly. In the era of cloud-native applications, it is pretty common to combine ...  The post appeared first on ."
 }
