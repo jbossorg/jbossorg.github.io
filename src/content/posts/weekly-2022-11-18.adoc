@@ -1,0 +1,54 @@
+= This Week in JBoss - November, 18 2022
+Francesco Marchioni
+2022-11-18
+:tags: quarkus, java, jakarta ee, wildfly, camel, kamelets, debezium
+
+Happy Friday, everyone!
+
+Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities. In this release under the spotlight yu will see several articles about the new WildFly 27 release.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+
+* link:https://quarkus.io/blog/quarkus-2-14-1-final-released/[Quarkus 2.14.1.Final] - Quarkus 2.14.1.Final maintenance release is now available with some bugfixes and documentation improvements on top of our 2.14.0.Final release.
+
+* link:https://camel.apache.org/blog/2022/11/camel-quarkus-release-2.14.0/[Camel Quarkus 2.14.0 Released] - This new release aligns with Camel 3.19.0 and Quarkus 2.14.0.Final. It brings new extensions CloudEvents, Knative and DSL modeline. Many thanks to all contributors and issue reporters!
+
+* link:https://github.com/wildfly-extras/wildfly-jar-maven-plugin/[WildFly Bootable JAR 8.1 Released] - The 8.1.0.Final version of the WildFly Bootable JAR Maven plugin has been released with many additions to simplify the development of Jakarta EE 10
+
+* link:https://debezium.io/blog/2022/11/10/debezium-2-1-alpha1-released/[Debezium 2.1.0.Alpha1] - Although still an Alpha release, we recommend Debezium users to check this early preview release which includes quite a number of bug fixes but also some noteworthy improvements
+
+== Updates on WildFly Docker Images
+
+link:https://www.wildfly.org/news/2022/11/10/wildfly-docker-temurin/[Updates on WildFly Docker Images], by Jeff Mesnil.
+
+This article from Jeff shows how the new WildFly Docker images enable highly requested features such as ARM architecture, multiple JDK versions, on top of base images that are frequently updated to fix OS and JDK vulnerabilities
+
+
+== Distributed Jakarta Timers in WildFly
+
+link:https://www.wildfly.org/news/2022/11/10/DistributedJakartaEnterpriseBeanTimers/[Distributed Jakarta Timers in WildFly], by Paul Ferraro
+
+One more article about the distributed TimerService implementation that improves the scalability and efficiency of Jakarta EJB timers in a cluster by leveraging Infinispan for both timer availability/persistence and distribution of timer scheduling.
+
+
+
+== Enabling Integrity on Filesystem realms
+
+link:https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity/[Enabling Integrity on Filesystem realms] , by
+By Ashpan Raskar
+
+Another great article from Ashpan about Elytron Realms. In this one, he discusses how you can add integrity checking to your FileSystem Realm by using a public-private key pair.
+
+== Getting started with gRPC article series
+
+http://www.mastertheboss.com/java/getting-started-with-grpc-on-java/[Getting started with gRPC article], by Francesco Marchioni
+
+I have recently added a two-article series about the gRPC framework which allows connecting services across data centers using high-performance Remote Procedure Calls (RPC). In this article, you will learn the building blocks of this framework and how to code a Java application using gRPC. In the follow up article, link:http://www.mastertheboss.com/soa-cloud/quarkus/grpc-made-easy-with-quarkus/[gRPC made easy with Quarkus] you can learn how Quarkus simplifies the creation and test of gRPC applications using quarkus-grpc extension.
+
+
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
