@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.14.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-14-1-final-released/",
+  "title": "Quarkus Newsletter #26 - November",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-26/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-11-16T00:00:00.000Z",
+  "date": "2022-11-17T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.14.1.Final with some bugfixes and documentation improvements on top of our 2.14.0.Final release. It is a recommended upgrade for anyone already using 2.14. If you are not already using 2.14, please refer to our migration guide. GraalVM/Mandrel upgrade We don’t usually upgrade GraalVM/Mandrel in a micro..."
+  "content": "Yep, you guessed it, it’s time for the November Quarkus newsletter! Learn about the 2024 Observability roadmap with Roberto Cortez’s article. Read about making web applications more resilient against certain types of fraud with Erik Costlow’s \"Quarkus Defends REST APIs against Attack\" article. Watch a cool video to see how..."
 }

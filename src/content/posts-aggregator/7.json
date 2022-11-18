@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Git Tips on Upstream Repositories and Merge Conflicts",
-  "link": "https://www.youtube.com/watch?v=v5d6x3kT7lU",
+  "title": "KOGITO 1.30.0 RELEASED!",
+  "link": "https://blog.kie.org/2022/11/kogito-1-30-0-released.html",
   "author": [
     {
-      "name": "Cameron Rodriguez",
+      "name": "Tiago Dolphine",
       "avatar": null
     }
   ],
-  "date": "2022-11-14T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-11-14T11:10:16.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.30.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Event State timeout  * Allow specifying different event marshallers per channel  * Start event is not behaving as expected when exclusive is false  * New Avro marshallers/unmarshallers addon  * Build SWF examples images with Jib  * Group all Jobs service JDBC flavors on one container image  * Verify that Kaniko is able to push on Kubernetes internal registry  * Deprecate Github Showcase Example  * Serverless Operator: Setup Nightly pipeline  * Update quarkus-openapi-generator to 0.12.0  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found.  * Kogito images are available on.  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the.  A detailed changelog for 1.30.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
