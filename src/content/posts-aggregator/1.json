@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Alpha1 released - First iteration of our Jakarta EE 10 stream",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/",
+  "title": "Eclipse Vert.x 4.354 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-5",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2022-11-18T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Last week, Max Andersen explained our plans for Quarkus 3 and Jakarta EE 10. I published yesterday a more detailed blog post explaining how we are building the Quarkus 3 stream. It is now time to announce Quarkus 3.0.0.Alpha1 which is the first iteration of our Quarkus 3 stream. A..."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.5 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features."
 }
