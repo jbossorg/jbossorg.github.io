@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with gRPC on Java",
-  "link": "http://www.mastertheboss.com/java/getting-started-with-grpc-on-java/",
+  "title": "Vlog: Git Tips on Upstream Repositories and Merge Conflicts",
+  "link": "https://www.youtube.com/watch?v=v5d6x3kT7lU",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cameron Rodriguez",
       "avatar": null
     }
   ],
-  "date": "2022-11-10T17:08:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is an introduction to gRPC framework which allows to connect services across data centers using high performance Remote Procedure Calls (RPC). To learn the building blocks of this framework, we will show how to create and test your first gRPC application in Java. Overview of gRPC Firstly, some basic concepts: in gRPC, a ...  The post appeared first on ."
+  "date": "2022-11-14T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
