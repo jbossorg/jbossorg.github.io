@@ -38,8 +38,7 @@ One more article about the distributed TimerService implementation that improves
 
 == Enabling Integrity on Filesystem realms
 
-link:https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity/[Enabling Integrity on Filesystem realms] , by
-By Ashpan Raskar
+link:https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity/[Enabling Integrity on Filesystem realms], by Ashpan Raskar
 
 Another great article from Ashpan about Elytron Realms. In this one, he discusses how you can add integrity checking to your FileSystem Realm by using a public-private key pair.
 
