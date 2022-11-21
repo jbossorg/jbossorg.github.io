@@ -5,7 +5,7 @@ Francesco Marchioni
 
 Happy Friday, everyone!
 
-Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities. In this release under the spotlight yu will see several articles about the new WildFly 27 release.
+Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities. In this release under the spotlight you will see several articles about the new WildFly 27 release.
 
 == Release roundup
 
