@@ -1,13 +1,13 @@
 {
-  "title": "Starting Quarkus 3",
-  "link": "https://quarkus.io/blog/road-to-quarkus-3/",
+  "title": "Enabling Integrity on Filesystem realms",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],
   "date": "2022-11-10T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus 3 will continue the tradition of propelling Java development forward by moving fast and keep bringing a cutting-edge user experience with the latest technologies. We are happy to make a first Quarkus 3 Alpha available for users to try out and extension writers to integrate with so that we..."
+  "feed_title": "WildFly",
+  "content": ""
 }
