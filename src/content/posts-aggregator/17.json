@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Bootable JAR 8.1 is released!",
-  "link": "https://wildfly.org//news/2022/11/10/bootable-jar-8.1.Final-Released/",
+  "title": "Starting Quarkus 3",
+  "link": "https://quarkus.io/blog/road-to-quarkus-3/",
   "author": [
     {
-      "name": "Jean-François Denise",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
   "date": "2022-11-10T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "The 8.1.0.Final version of the has been released.  For people who are not familiar with the WildFly Bootable JAR, I strongly recommend that you read this that covers it in detail.  This plugin version is to be used when building WildFly Bootable JAR for WildFly 27 (that has just been ).  The latest documentation of the plugin can be found .   NEW FEATURES AND EXAMPLES   JDK11 DEPENDENCY  When packaging an application with WildFly bootable JAR Maven plugin, JDK11 is now required as the minimal JDK version.   EXAMPLES EVOLVED TO JAKARTA EE 10  The have been evolved to depend on Jakarta EE 10 specification that WildFly 27 now supports.   REMOTE DEV WATCH  Emmanuel Hugonnet described this new feature in bog post when it was first released in the 8.0.0.Alpha2 plugin release.   DEV WATCH IMPROVEMENTS  IGNORE TRANSIENT FILES  This allows you to ignore some file updates that were initiating a repackaging/redeploy of your application. Hidden files and files ending with '~' (generally created by your IDE) are now ignored by default. You can use the plugin option ignorePatterns to ignore more files.  WATCH MULTIPLE SOURCE DIRECTORIES  This has been reported by the community.  The watcher now looks for directory paths defined in the ${project.compileSourceRoots} property. In case you are using maven-build-helper plugin to add more sources to be compiled, call mvn process-sources wildfly-jar:dev-watch to have the extra source roots to be watched.  OPTIMIZED WATCH OF WEB FILES  This has been reported by the community.  Updating html, xhtml, jsp, css files no more implies a redeploy of the application. Any change done to these files is immediately reflected in the deployed application. You can use the web-extensions plugin option in order to identify files that should benefit from this feature.  DEPRECATION OF THE KEYCLOAK OIDC CLIENT ADAPTERS  The WildFly client adapters for keycloak have been deprecated. This covers it in detail.  The usage of the Galleon feature-pack has been replaced by the elytron-oidc-client Galleon layer defined by WildFly. The is superseded by the one.   TO CONCLUDE  Finally we would really appreciate if if you would keep us posted with your feedback and new requirements. (You can log these as new .) This will help us evolve the WildFly Bootable JAR experience in the right direction.  Thank-you!  JF Denise"
+  "feed_title": "Quarkus",
+  "content": "Quarkus 3 will continue the tradition of propelling Java development forward by moving fast and keep bringing a cutting-edge user experience with the latest technologies. We are happy to make a first Quarkus 3 Alpha available for users to try out and extension writers to integrate with so that we..."
 }

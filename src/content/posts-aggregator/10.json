@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Git Tips on Upstream Repositories and Merge Conflicts",
-  "link": "https://www.youtube.com/watch?v=v5d6x3kT7lU",
+  "title": "gRPC made easy with Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/grpc-made-easy-with-quarkus/",
   "author": [
     {
-      "name": "Cameron Rodriguez",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-14T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-11-14T19:06:50.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to create applications with the gRPC framework and Quarkus. We will reuse the sample Service definition from first Java gRPC application and run it as Quarkus REST application. Defining the gRPC Service Firstly, we recommend reading this article for an introduction to the gRPC framework: Getting started with gRPC on Java ...  The post appeared first on ."
 }
