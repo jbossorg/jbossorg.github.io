@@ -1,13 +1,13 @@
 {
-  "title": "Starting Quarkus 3",
-  "link": "https://quarkus.io/blog/road-to-quarkus-3/",
+  "title": "Introduction to working on/with Jakarta EE Specifications for WildFly users",
+  "link": "https://wildfly.org//news/2022/11/10/wildfly-jakartaee/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Scott Marlow",
       "avatar": null
     }
   ],
   "date": "2022-11-10T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus 3 will continue the tradition of propelling Java development forward by moving fast and keep bringing a cutting-edge user experience with the latest technologies. We are happy to make a first Quarkus 3 Alpha available for users to try out and extension writers to integrate with so that we..."
+  "feed_title": "WildFly",
+  "content": "REASONS TO GET INVOLVED WITH THE JAKARTA EE SPECIFICATION TEAMS  You are a developer that uses the WildFly (Jakarta EE) application server to create/update applications that meet your users needs. Reason #1 is to participate in developing future Jakarta EE releases. From adding a new feature to a specification, to implementing that new feature. You can also help by adding TCK tests for new features as well.  Whether you contribute a small or large amount of time, every contribution helps!  The more that you participate in the Jakarta EE communities, the more you will understand how Jakarta EE releases are done.  Sign the when you are ready to contribute a pull request. You will want to sign the ECA with the same email address as the one associated with your github account that you use for creating Jakarta EE pull requests.   BROWSING/JOINING THE VARIOUS JAKARTA EE MAILING LISTS   WHY JOIN THE VARIOUS JAKARTA EE SPECIFICATION MAILING LISTS?   1. Participate in discussions about each of the specifications.   2. Learn of opportunities to contribute changes to the next Jakarta EE release.   3. Be ready to ask questions on the subscribed email lists.           * lists all of the mailing lists. Note that each mailing list is archived        in a web browsable format.           *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *            *    ACCESSING THE SPECIFICATION DOCUMENTS (PDF/HTML) FOR VARIOUS SPECIFICATIONS   BROWSE THE PAGE.  The page contains many useful subpages, such as the with all the technology specifications (html/pdf document that describes the specification, javadoc). For example  Another example, shows the various releases of Jakarta RESTful Web Services but also note the which shows you interesting information about that project such as . The project committers are responsible for reviewing/merging pull requests (e.g. changes) to the Specification repository.  Another important page to note is the which has the .  You should fork a few of the various Jakarta EE Specification repositories such as which contain the source for the Jakarta RESTful Web Services API and SPEC documents. Forking a repository on means creating a copy of a repo in your personal github account. You can make EE Specification improvements with your fork and create a pull request for the upstream (original) repo that you forked.  The next blog will give more details about contributing to Jakarta EE and how that can help WildFly + you.  We’d love to hear feedback from you at the , the next blog in this series will try to answer any questions you post in response."
 }
