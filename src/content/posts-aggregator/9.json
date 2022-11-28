@@ -1,13 +1,13 @@
 {
-  "title": "Our (bumpy) road to Jakarta EE 10",
-  "link": "https://quarkus.io/blog/our-bumpy-road-to-jakarta-ee-10/",
+  "title": "Quarkus 3.0.0.Alpha1 released - First iteration of our Jakarta EE 10 stream",
+  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-11-17T00:00:00.000Z",
+  "date": "2022-11-18T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quarkus has been relatively silent on the Jakarta EE front until a few weeks ago, compared to some other frameworks who announced early clear plans with timelines. That doesn’t mean we were not actively preparing the transition and we have been incredibly busy making it a reality. Most of you..."
+  "content": "Last week, Max Andersen explained our plans for Quarkus 3 and Jakarta EE 10. I published yesterday a more detailed blog post explaining how we are building the Quarkus 3 stream. It is now time to announce Quarkus 3.0.0.Alpha1 which is the first iteration of our Quarkus 3 stream. A..."
 }

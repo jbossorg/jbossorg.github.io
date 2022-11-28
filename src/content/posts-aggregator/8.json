@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Alpha1 released - First iteration of our Jakarta EE 10 stream",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/",
+  "title": "Introducing The Java Batch Processing API And JBeret Implementation",
+  "link": "https://jberet.github.io/jberet-intro/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "阿男",
       "avatar": null
     }
   ],
   "date": "2022-11-18T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Last week, Max Andersen explained our plans for Quarkus 3 and Jakarta EE 10. I published yesterday a more detailed blog post explaining how we are building the Quarkus 3 stream. It is now time to announce Quarkus 3.0.0.Alpha1 which is the first iteration of our Quarkus 3 stream. A..."
+  "feed_title": "WildFly",
+  "content": ""
 }
