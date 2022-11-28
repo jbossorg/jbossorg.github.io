@@ -1,13 +1,13 @@
 {
-  "title": "Reactive CRUD Performance: A Case Study",
-  "link": "https://quarkus.io/blog/reactive-crud-performance-case-study/",
+  "title": "Quarkus 2.14.2.Final and 2.13.5.Final released - Fix for CVE-2022-4116",
+  "link": "https://quarkus.io/blog/quarkus-2-14-2-final-released/",
   "author": [
     {
-      "name": "John O'Hara",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-11-23T23:00:00.000Z",
+  "date": "2022-11-28T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We were approached for comment about the relative performance of Quarkus for a reactive CRUD workload. This is a good case study into performance test design and some of the considerations required and hurdles that need to be overcome. What methodology can we derive for ensuring that the test we..."
+  "content": "Today, we are announcing the release of Quarkus 2.14.2.Final and Quarkus 2.13.5.Final. Both releases fix CVE-2022-4116 which has been rated as severity high. This fix also hardens CORS handling, including changing 200 OK to 403 FORBIDDEN when a CORS request is rejected because of an invalid origin. It is highly..."
 }
