@@ -1,13 +1,13 @@
 {
-  "title": "WildFly: How to rollback CLI changes",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-script/wildfly-how-to-rollback-cli-changes/",
+  "title": "Quarkus Tools for IntelliJ 1.14.0 released!",
+  "link": "https://quarkus.io/blog/intellij-quarkus-tools-1.14.0/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jeff Maury",
       "avatar": null
     }
   ],
-  "date": "2022-11-22T12:50:43.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this short article we will learn how to rollback WildFly Command Line commands after their execution in order to restore the original XML configuration. WildFly Configuration History The key concept is that WildFly uses the JBOSS_HOME/standalone/configuration/standalone_xml_history folder to store configuration changes. Within this folder you will find the current configuration history, the configuration history ...  The post appeared first on ."
+  "date": "2022-11-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We are very pleased to announce the 1.14.0 release of Quarkus Tools for IntelliJ. This release adds support for CodeActions and Quick Fixes. CodeActions / Quick Fixes When an error is detected on one of your Quarkus project files, it is highlighted in the source editor (for instance when you..."
 }
