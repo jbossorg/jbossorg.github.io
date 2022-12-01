@@ -1,0 +1,45 @@
+= This Week in JBoss - December, 1st 2022
+Romain Pelisse
+2022-12-01
+:tags: quarkus, java, jakarta ee, wildfly, ansible, kogito, drools
+
+_Happy December!_
+
+_Welcome to our new installment of JBoss Editorial! As the end of the year is near, we are packing as much goodness in this issue as possible, for you to have some passionating reading material to enjoy next to your Christmas tree._
+
+== Quarkus, still going strong
+
+On top of the recent releases, of the past few weeks, the Quarkus community took the time to publish an article to present the link:https://quarkus.io/blog/quarkus-support-for-aws-lambda-snapstart/[Quarkus for AWS Lambda Snapstart]. If you have any interest in Quarkus or cloud development, this is certainly a must read!
+
+Last, but not the least, two more, deep articles about Quarkus : one on link:https://quarkus.io/blog/reactive-crud-performance-case-study/[Reactive CRUD performance case study] and the other on link:https://quarkus.io/blog/redis-job-queue-reloaded/[Redis Job Queue - Reloaded] (a followup on Clément's previous article on link:https://quarkus.io/blog/redis-job-queue/[How to implement a job queue with Redis].
+
+== A good time to learn new (or old) things
+
+The last two weeks have seen the release of some introductions and presentations articles that are worth mentioning. The first one, my favorite because it talks about an unsung hero of the Wildfly ecosystem, is about : link:https://jberet.github.io/jberet-intro/[Introducing The Java Batch Processing API And JBeret Implementation]. If you have no idea what this is about, please go check it out, this is bound to make your life easier!
+
+After this is definitely this humble article entitled link:http://www.mastertheboss.com/java-ee/jakarta-ee/a-maven-starter-for-jakarta-ee-projects/[A Maven starter for Jakarta EE projects]. Indeed, Maven has been at the heart of Java (and thus JBoss) technology for a long while now (around two decades), so such an introduction, for newcomers and experienced developers alike, is certainly nice to see.
+
+== Techbytes
+
+If you need something more involved than a quickstarter, there are two articles coming from the Kogito and Drools ecosystem: link:https://blog.kie.org/2022/11/kogito-serverless-workflow-event-formats.html[Kogito serverless workflow event formats] and link:https://blog.kie.org/2022/11/drools-reactive-messaging-processing.html[Drools reactive messaging processing].
+
+== Ansible support for JBoss runtimes
+
+It's not strictly speaking JBoss community, but I'm too proud of this baby of mine to keep quiet about it. Since over a year, I've been part of an initiative to provide better integration between the automation tool Ansible and many of the middleware solutions being developed by the JBoss Community. We are quite to already have Ansible collections (extension for Ansible) that ease the setup of link:https://github.com/ansible-middleware/wildfly[Wildfly], link:https://github.com/ansible-middleware/infinispan[Infinispan], link:https://github.com/ansible-middleware/keycloak[Keycloak], and link:https://github.com/ansible-middleware/amq[AMQ Broker].
+
+We also provide, for the community, a collection for link:https://github.com/ansible-middleware/jws[Red Hat JBoss Web Server (JWS)] and we are very proud and happy to announce that this collection is now also offered, as tech preview, as part of the last release of Red Hat JWS 5.7: link:https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.7/html/red_hat_ansible_certified_content_collection_1.2_for_red_hat_jboss_web_server_release_notes/index[Red Hat Ansible Certified Content Collection 1.2 for Red Hat JBoss Web Server].
+
+If you are curious about the potential of those collections and how Ansible can help when you deploy JBoss runtimes, please check this (awesome) demo on link:https://events.experiences.redhat.com/widget/redhat/rhaf22/SessionCatalog2022/session/16579300056760019EPY[Ansible Fest Session Catalog: Managing your Red Hat Middleware estate from the edge to the cloud with Ansible].
+
+== Releases, releases, releases...
+
+Releasing is crucial for Open Source project and releasing often is certainly the mark of healthy one, so it comes with no surprises that the last two weeks have already seen their fair share of releases:
+
+* link:https://quarkus.io/blog/quarkus-2-14-2-final-released/[Quarkus 2.13.5.Final and 2.14.2.Final] including a fix for link:https://access.redhat.com/security/cve/cve-2022-4116[CVE-2022-4116].
+* link:https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/[Quarkus 3.0.0.Alpha1] a first iteration of the Jakarta 10, check it out!
+* link:https://quarkus.io/blog/intellij-quarkus-tools-1.14.0/[Quarkus Tools for IntelliJ 1.14.0]
+* link:https://vertx.io/blog/eclipse-vert-x-4-3-5/[Eclipse Vert.x 4.3.5]
+* link:https://galaxy.ansible.com/middleware_automation/infinispan[Ansible Collection for Infinispan 1.1.1]
+* link:https://galaxy.ansible.com/middleware_automation/jws[Ansible Collection for JWS 1.2.3]
+
+_That's all folks! Please join us again in two weeks for another installment of our JBoss editorial!_
