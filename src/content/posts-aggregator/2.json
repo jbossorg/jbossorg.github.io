@@ -1,13 +1,13 @@
 {
-  "title": "A Maven starter for Jakarta EE projects",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/a-maven-starter-for-jakarta-ee-projects/",
+  "title": "Quarkus 2.14.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-14-3-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-11-29T13:05:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This short article will teach you how to kickstart a simple Jakarta EE project using a Maven archetype that includes the basic building blocks for developing an application. The Jakarta Eclipse starter The Jakarta EE starter is available in two flavours: Next, let’s run the above command and check the outcome: The built-in application includes ...  The post appeared first on ."
+  "date": "2022-12-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.14.3.Final with a new round of bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.14. If you are not already using 2.14, please refer to our migration guide. Full changelog You can get the full changelog of 2.14.3.Final on GitHub. Come..."
 }
