@@ -1,14 +1,13 @@
 {
-  "title": "FIPS 140-2 experimental support",
-  "link": "https://www.keycloak.org/2022/11/fips",
+  "title": "Quarkus Newsletter #26 - November",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-26/",
   "author": [
     {
-      "name": "Marek Posolda",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-11-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are glad to announce that latest Keycloak 20 release contains experimental support for FIPS 140-2!  The is a set of requirements for cryptography modules, which needs to be met for the software used by U.S. governments and related parties. The FIPS compliant software should use only secure cryptography algorithms allowed by the FIPS specification and must use them in a secured way. Keycloak does not directly implement any cryptography algorithms, however it internally needs to use lots of cryptography functionalities. For this purpose, Keycloak mostly relies on the and 3rd party libraries for implementing cryptography related functionality - especially the .  FIPS support is usually enabled at the OS level. For example, during installation of , you can enable kernel flag during OS installation to make sure that your OS is FIPS compliant. When FIPS is enabled at the OS level, it means that various packages including OpenJDK are also set to be FIPS compliant and are pre-configured to rely on FIPS approved functions. For example java.security configuration file is pre-configured to contain only FIPS compliant security providers.  The FIPS support in Keycloak means that the Keycloak server can run on the FIPS compliant OS with FIPS compliant Java. It also means that the Keycloak server is FIPS compliant and can be used by parties, which strictly require FIPS 140-2 support. Even if you do not use the FIPS enabled OS, you can still try the FIPS enabled Keycloak server by using custom java.security file with only BouncyCastle-FIPS security providers configured as described in the instructions below in the step 4.  Thanks to , who contributed parts of this feature. Also, thanks to and for their initial prototype effort, which was used as an inspiration.   INSTRUCTIONS  Instructions for how to try FIPS support in Keycloak are .   CONCLUSION  We will be happy for you to try Keycloak FIPS integration and share your ! Also you can report any .  The known limitation in the BCFIPS non-approved mode include:   * Possible issues when using SAML clients and SAML Identity providers   * Kerberos/SPNEGO authenticator does not work   * X.509 client certificate authentication may not work for both users and    clients  In BCFIPS approved mode (more strict mode), more limitations exist such as:   * User passwords must be at least 14 characters long. You should set a password    policy for your realm to be 14 characters to avoid issues during    registration/authentication of users   * Keystore/truststore must be of type bcfks because neither jks and    `pkcs12`work. This is a restriction of BCFIPS approved mode   * Some warnings in the server.log at startup"
+  "date": "2022-11-17T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Yep, you guessed it, it’s time for the November Quarkus newsletter! Learn about the 2024 Observability roadmap with Roberto Cortez’s article. Read about making web applications more resilient against certain types of fraud with Erik Costlow’s \"Quarkus Defends REST APIs against Attack\" article. Watch a cool video to see how..."
 }
