@@ -1,13 +1,13 @@
 {
-  "title": "Redis Job Queue - Reloaded",
-  "link": "https://quarkus.io/blog/redis-job-queue-reloaded/",
+  "title": "WildFly: How to rollback CLI changes",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-script/wildfly-how-to-rollback-cli-changes/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-22T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "In How to implement a job queue with Redis, we explained how to implement a job queue mechanism with Redis and the new Redis API from Quarkus. The approach explored in that blog post had a significant flaw: if the execution of a job failed, the request was lost and..."
+  "date": "2022-11-22T12:50:43.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this short article we will learn how to rollback WildFly Command Line commands after their execution in order to restore the original XML configuration. WildFly Configuration History The key concept is that WildFly uses the JBOSS_HOME/standalone/configuration/standalone_xml_history folder to store configuration changes. Within this folder you will find the current configuration history, the configuration history ...  The post appeared first on ."
 }

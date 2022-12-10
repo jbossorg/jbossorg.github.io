@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus support for AWS Lambda SnapStart",
-  "link": "https://quarkus.io/blog/quarkus-support-for-aws-lambda-snapstart/",
+  "title": "Quarkus 2.14.2.Final and 2.13.5.Final released - Fix for CVE-2022-4116",
+  "link": "https://quarkus.io/blog/quarkus-2-14-2-final-released/",
   "author": [
     {
-      "name": "Shaaf",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2022-11-28T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Quarkus support for AWS Lambda SnapStart Amazon Web Services (AWS) announced the SnapStart feature for AWS Lambda. SnapStart for Java reduces startup latency for Java-based functions running on AWS Lambda, and Quarkus supports it from day one! Quarkus is supersonic subatomic Java with a focus on cloud-native applications. The idea..."
+  "content": "Today, we are announcing the release of Quarkus 2.14.2.Final and Quarkus 2.13.5.Final. Both releases fix CVE-2022-4116 which has been rated as severity high. This fix also hardens CORS handling, including changing 200 OK to 403 FORBIDDEN when a CORS request is rejected because of an invalid origin. It is highly..."
 }
