@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.6 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-6",
+  "title": "Revised edition of WildFly books now available!",
+  "link": "http://www.mastertheboss.com/articles/news/revised-edition-of-wildfly-books-now-available/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-09T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.6 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features."
+  "date": "2022-12-10T11:59:16.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Fresh take on WildFly Administration Guide and Practical Enterprise Application development. Both books are now Jakarta EE 10 ready! WildFly 27 has just been released featuring lots of new features and Compatibility Certification for Jakarta EE 10. I’m thrilled to announce that the books “WildFly Administration Guide” and “Practical Enterprise Application development” are now on ...  The post appeared first on ."
 }
