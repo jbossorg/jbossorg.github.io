@@ -1,13 +1,13 @@
 {
-  "title": "A Maven starter for Jakarta EE projects",
-  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/a-maven-starter-for-jakarta-ee-projects/",
+  "title": "Vlog: Filesystem Realm Integrity",
+  "link": "https://www.youtube.com/watch?v=Tzd9GTr8kwE",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],
-  "date": "2022-11-29T13:05:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This short article will teach you how to kickstart a simple Jakarta EE project using a Maven archetype that includes the basic building blocks for developing an application. The Jakarta Eclipse starter The Jakarta EE starter is available in two flavours: Next, let’s run the above command and check the outcome: The built-in application includes ...  The post appeared first on ."
+  "date": "2022-12-07T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

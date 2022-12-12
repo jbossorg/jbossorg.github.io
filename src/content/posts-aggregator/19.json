@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Alpha1 released - First iteration of our Jakarta EE 10 stream",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/",
+  "title": "Redis Job Queue - Reloaded",
+  "link": "https://quarkus.io/blog/redis-job-queue-reloaded/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2022-11-18T00:00:00.000Z",
+  "date": "2022-11-22T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Last week, Max Andersen explained our plans for Quarkus 3 and Jakarta EE 10. I published yesterday a more detailed blog post explaining how we are building the Quarkus 3 stream. It is now time to announce Quarkus 3.0.0.Alpha1 which is the first iteration of our Quarkus 3 stream. A..."
+  "content": "In How to implement a job queue with Redis, we explained how to implement a job queue mechanism with Redis and the new Redis API from Quarkus. The approach explored in that blog post had a significant flaw: if the execution of a job failed, the request was lost and..."
 }
