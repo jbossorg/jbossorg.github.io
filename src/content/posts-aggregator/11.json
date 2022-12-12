@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus support for AWS Lambda SnapStart",
-  "link": "https://quarkus.io/blog/quarkus-support-for-aws-lambda-snapstart/",
+  "title": "A Maven starter for Jakarta EE projects",
+  "link": "http://www.mastertheboss.com/java-ee/jakarta-ee/a-maven-starter-for-jakarta-ee-projects/",
   "author": [
     {
-      "name": "Shaaf",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-28T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus support for AWS Lambda SnapStart Amazon Web Services (AWS) announced the SnapStart feature for AWS Lambda. SnapStart for Java reduces startup latency for Java-based functions running on AWS Lambda, and Quarkus supports it from day one! Quarkus is supersonic subatomic Java with a focus on cloud-native applications. The idea..."
+  "date": "2022-11-29T13:05:15.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This short article will teach you how to kickstart a simple Jakarta EE project using a Maven archetype that includes the basic building blocks for developing an application. The Jakarta Eclipse starter The Jakarta EE starter is available in two flavours: Next, let’s run the above command and check the outcome: The built-in application includes ...  The post appeared first on ."
 }

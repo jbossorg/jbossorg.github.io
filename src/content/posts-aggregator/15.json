@@ -1,13 +1,13 @@
 {
-  "title": "WildFly: How to rollback CLI changes",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-script/wildfly-how-to-rollback-cli-changes/",
+  "title": "Reactive CRUD Performance: A Case Study",
+  "link": "https://quarkus.io/blog/reactive-crud-performance-case-study/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "John O'Hara",
       "avatar": null
     }
   ],
-  "date": "2022-11-22T12:50:43.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this short article we will learn how to rollback WildFly Command Line commands after their execution in order to restore the original XML configuration. WildFly Configuration History The key concept is that WildFly uses the JBOSS_HOME/standalone/configuration/standalone_xml_history folder to store configuration changes. Within this folder you will find the current configuration history, the configuration history ...  The post appeared first on ."
+  "date": "2022-11-23T23:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We were approached for comment about the relative performance of Quarkus for a reactive CRUD workload. This is a good case study into performance test design and some of the considerations required and hurdles that need to be overcome. What methodology can we derive for ensuring that the test we..."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Introducing The Java Batch Processing API And JBeret Implementation",
-  "link": "https://jberet.github.io/jberet-intro/",
+  "title": "WildFly: How to rollback CLI changes",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-script/wildfly-how-to-rollback-cli-changes/",
   "author": [
     {
-      "name": "阿男",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-18T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-11-22T12:50:43.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this short article we will learn how to rollback WildFly Command Line commands after their execution in order to restore the original XML configuration. WildFly Configuration History The key concept is that WildFly uses the JBOSS_HOME/standalone/configuration/standalone_xml_history folder to store configuration changes. Within this folder you will find the current configuration history, the configuration history ...  The post appeared first on ."
 }

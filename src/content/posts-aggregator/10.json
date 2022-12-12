@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.14.2.Final and 2.13.5.Final released - Fix for CVE-2022-4116",
-  "link": "https://quarkus.io/blog/quarkus-2-14-2-final-released/",
+  "title": "Quarkus 2.14.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-14-3-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-11-28T00:00:00.000Z",
+  "date": "2022-12-06T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we are announcing the release of Quarkus 2.14.2.Final and Quarkus 2.13.5.Final. Both releases fix CVE-2022-4116 which has been rated as severity high. This fix also hardens CORS handling, including changing 200 OK to 403 FORBIDDEN when a CORS request is rejected because of an invalid origin. It is highly..."
+  "content": "Today, we released Quarkus 2.14.3.Final with a new round of bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.14. If you are not already using 2.14, please refer to our migration guide. Full changelog You can get the full changelog of 2.14.3.Final on GitHub. Come..."
 }

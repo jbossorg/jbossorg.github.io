@@ -1,13 +1,13 @@
 {
-  "title": "Our (bumpy) road to Jakarta EE 10",
-  "link": "https://quarkus.io/blog/our-bumpy-road-to-jakarta-ee-10/",
+  "title": "Eclipse Vert.x 4.3.5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-5",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-11-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus has been relatively silent on the Jakarta EE front until a few weeks ago, compared to some other frameworks who announced early clear plans with timelines. That doesn’t mean we were not actively preparing the transition and we have been incredibly busy making it a reality. Most of you..."
+  "date": "2022-11-18T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.5 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features."
 }
