@@ -1,13 +1,13 @@
 {
-  "title": "Reactive CRUD Performance: A Case Study",
-  "link": "https://quarkus.io/blog/reactive-crud-performance-case-study/",
+  "title": "Quarkus support for AWS Lambda SnapStart",
+  "link": "https://quarkus.io/blog/quarkus-support-for-aws-lambda-snapstart/",
   "author": [
     {
-      "name": "John O'Hara",
+      "name": "Shaaf",
       "avatar": null
     }
   ],
-  "date": "2022-11-23T23:00:00.000Z",
+  "date": "2022-11-28T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We were approached for comment about the relative performance of Quarkus for a reactive CRUD workload. This is a good case study into performance test design and some of the considerations required and hurdles that need to be overcome. What methodology can we derive for ensuring that the test we..."
+  "content": "Quarkus support for AWS Lambda SnapStart Amazon Web Services (AWS) announced the SnapStart feature for AWS Lambda. SnapStart for Java reduces startup latency for Java-based functions running on AWS Lambda, and Quarkus supports it from day one! Quarkus is supersonic subatomic Java with a focus on cloud-native applications. The idea..."
 }
