@@ -1,13 +1,13 @@
 {
-  "title": "Using JBeret With Quarkus",
-  "link": "https://jberet.github.io/jberet-quarkus/",
+  "title": "Eclipse Vert.x 4.3.6 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-6",
   "author": [
     {
-      "name": "阿男",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2022-12-09T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.6 has just been released. It fixes quite a few bugs that have been reported by the community and provides a couple of features."
 }
