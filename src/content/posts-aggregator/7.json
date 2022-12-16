@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.31.0 released!",
-  "link": "https://blog.kie.org/2022/12/kogito-1-31-0-released.html",
+  "title": "RESTEasy Releases",
+  "link": "https://resteasy.github.io/2022/12/13/resteasy-releases/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-12-12T01:49:18.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.31.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.14 integration  * First alpha version of the  * New OpenAPI Callback example within Serverless Workflows  * Sysout custom type now supports hardcoded strings (before it was only    supporting expressions)   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the .  A detailed changelog for 1.31.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-12-13T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }

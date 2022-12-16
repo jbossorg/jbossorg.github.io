@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 20.0.2 released",
-  "link": "https://www.keycloak.org/2022/12/keycloak-2002-released",
+  "title": "Quarkus 2.15.0.Final released - AWS Lambda SnapStart, new gRPC extension, and a lot more",
+  "link": "https://quarkus.io/blog/quarkus-2-15-0-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-12-13T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Expiration for Admin Events keycloak   BUGS   * KC Operator Test WatchedSecretsTest.testSecretsAreWatched is unstable    keycloak operator  * Error in Core? ( Clients Client details Dedicated scopes): Cannot read    properties of undefined (reading 'helpText') keycloak admin/ui  * NPE in theme.getName() via getMainPage keycloak core  * Failed to run scheduled task ClearExpiredAdminEvents Oracle keycloak storage  * Flaky test:    OpenshiftClientStorageTest.testCodeGrantFlowWithServiceAccountUsingOAuthRedirectReference    keycloak testsuite  * SAMLFilterServletAdapterTest fails on Oracle keycloak storage  * Internal pipelines don't tests run for OracleDB or other database keycloak    storage  * clientID are base64 encoded in state uri param with non URI friendly base64    keycloak storage   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2022-12-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is our pleasure to announce the release of Quarkus 2.15.0.Final, the last minor release of 2022. As usual, it comes with bugfixes and small enhancements all over the place together with more important changes: Support for AWS Lambda SnapStart Move gRPC extension to new Vert.x gRPC implementation Federation support..."
 }

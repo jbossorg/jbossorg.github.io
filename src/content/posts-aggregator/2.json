@@ -1,13 +1,13 @@
 {
-  "title": "How to run Spring Boot applications on WildFly",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/",
+  "title": "WildFly 27.0.1 is released!",
+  "link": "https://wildfly.org//news/2022/12/16/WildFly2701-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Brian Stansberry",
       "avatar": null
     }
   ],
-  "date": "2022-12-14T08:41:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This updated article shows how to deploy Spring Boot 3 / Spring Boot 2 applications on top of WildFly application server as Web application archives (war). We will start by setting up the application with Spring Boot Initializr. Then, we will apply the configuration changes to deploy the application on WildFly. Spring Boot offers a ...  The post appeared first on ."
+  "date": "2022-12-16T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 27.0.1.Final is now available .  It’s been about five weeks since the WildFly 27 release, so we’ve done a small bug fix update, WildFly 27.0.1. This includes an update to WildFly Preview.  The full list of issues resolved in WildFly 27.0.1 is available . Issues resolved in the WildFly Core update included with WildFly 27.0.1 is available .  Enjoy!"
 }

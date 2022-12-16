@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.15.0.Final released - AWS Lambda SnapStart, new gRPC extension, and a lot more",
-  "link": "https://quarkus.io/blog/quarkus-2-15-0-final-released/",
+  "title": "How to run Spring Boot applications on WildFly",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 2.15.0.Final, the last minor release of 2022. As usual, it comes with bugfixes and small enhancements all over the place together with more important changes: Support for AWS Lambda SnapStart Move gRPC extension to new Vert.x gRPC implementation Federation support..."
+  "date": "2022-12-14T08:41:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This updated article shows how to deploy Spring Boot 3 / Spring Boot 2 applications on top of WildFly application server as Web application archives (war). We will start by setting up the application with Spring Boot Initializr. Then, we will apply the configuration changes to deploy the application on WildFly. Spring Boot offers a ...  The post appeared first on ."
 }
