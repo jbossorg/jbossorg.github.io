@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.14.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-14-3-final-released/",
+  "title": "How to run OpenTelemetry with WildFly Bootable Jar",
+  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-opentelemetry-with-wildfly-bootable-jar/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.14.3.Final with a new round of bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.14. If you are not already using 2.14, please refer to our migration guide. Full changelog You can get the full changelog of 2.14.3.Final on GitHub. Come..."
+  "date": "2022-12-06T13:35:14.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use the OpenTelemetry API in a sample REST Service which uses WildFly Bootable jar technology as runtime. An overview of OpenTelemetry OpenTelemetry is a set of APIs and libraries that provide a vendor-neutral and open standard for observability in cloud-native applications. It allows developers to instrument their code ...  The post appeared first on ."
 }

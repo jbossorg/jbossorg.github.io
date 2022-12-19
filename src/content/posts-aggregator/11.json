@@ -1,13 +1,13 @@
 {
-  "title": "Revised edition of WildFly books now available!",
-  "link": "http://www.mastertheboss.com/articles/news/revised-edition-of-wildfly-books-now-available/",
+  "title": "Kogito 1.31.0 released!",
+  "link": "https://blog.kie.org/2022/12/kogito-1-31-0-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2022-12-10T11:59:16.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Fresh take on WildFly Administration Guide and Practical Enterprise Application development. Both books are now Jakarta EE 10 ready! WildFly 27 has just been released featuring lots of new features and Compatibility Certification for Jakarta EE 10. I’m thrilled to announce that the books “WildFly Administration Guide” and “Practical Enterprise Application development” are now on ...  The post appeared first on ."
+  "date": "2022-12-12T01:49:18.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.31.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.14 integration  * First alpha version of the  * New OpenAPI Callback example within Serverless Workflows  * Sysout custom type now supports hardcoded strings (before it was only    supporting expressions)   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the .  A detailed changelog for 1.31.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
