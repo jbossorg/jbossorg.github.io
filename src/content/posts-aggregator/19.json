@@ -1,13 +1,13 @@
 {
-  "title": "How to run OpenTelemetry with WildFly Bootable Jar",
-  "link": "http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-opentelemetry-with-wildfly-bootable-jar/",
+  "title": "Vlog: Filesystem Realm Integrity",
+  "link": "https://www.youtube.com/watch?v=Tzd9GTr8kwE",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Ashpan Raskar",
       "avatar": null
     }
   ],
-  "date": "2022-12-06T13:35:14.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use the OpenTelemetry API in a sample REST Service which uses WildFly Bootable jar technology as runtime. An overview of OpenTelemetry OpenTelemetry is a set of APIs and libraries that provide a vendor-neutral and open standard for observability in cloud-native applications. It allows developers to instrument their code ...  The post appeared first on ."
+  "date": "2022-12-07T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
