@@ -1,13 +1,13 @@
 {
-  "title": "Introducing the jBPM Maven archetypes",
-  "link": "http://www.mastertheboss.com/bpm/jbpm5/jbpm-5-and-maven-example-project/",
+  "title": "Getting started with jBPM Script Tasks",
+  "link": "http://www.mastertheboss.com/bpm/jbpm6/getting-started-with-jbpm-script-tasks/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-19T16:44:00.000Z",
+  "date": "2022-12-20T08:33:18.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we will be taking a closer look at the jBPM Maven archetype for Spring Boot – a feature that is sure to kick start the way you create your jBPM projects. A jBPM Project running with Spring Boot is typically made of the following sub-projects: After this premise, let’s see how we ...  The post appeared first on ."
+  "content": "Script tasks allow you to execute custom scripts or code snippets as part of a jBPM process flow. This can be useful for performing complex calculations, accessing external data sources, or integrating with other systems. In this tutorial, we will look at how to create and use script tasks in jBPM. Prerequisites To follow this ...  The post appeared first on ."
 }
