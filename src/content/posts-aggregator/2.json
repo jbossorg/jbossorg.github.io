@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with jBPM Script Tasks",
-  "link": "http://www.mastertheboss.com/bpm/jbpm6/getting-started-with-jbpm-script-tasks/",
+  "title": "Quarkus 2.15.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-15-1-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-12-20T08:33:18.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Script tasks allow you to execute custom scripts or code snippets as part of a jBPM process flow. This can be useful for performing complex calculations, accessing external data sources, or integrating with other systems. In this tutorial, we will look at how to create and use script tasks in jBPM. Prerequisites To follow this ...  The post appeared first on ."
+  "date": "2022-12-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is the end of the year (again) and here comes our last release of the year, 2.15.1.Final. We had 9 minor releases this year (starting with 2.7 in February) and so many micros. We made tremendous progress on Quarkus itself and the activity in the ecosystem of extensions has..."
 }
