@@ -1,13 +1,13 @@
 {
-  "title": "Ask Me Anything with the WildFly Elytron Team",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ask-me-anything/",
+  "title": "How to run Spring Boot applications on WildFly",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2022-12-14T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-12-14T08:41:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This updated article shows how to deploy Spring Boot 3 / Spring Boot 2 applications on top of WildFly application server as Web application archives (war). We will start by setting up the application with Spring Boot Initializr. Then, we will apply the configuration changes to deploy the application on WildFly. Spring Boot offers a ...  The post appeared first on ."
 }

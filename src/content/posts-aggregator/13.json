@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.15.0.Final released - AWS Lambda SnapStart, new gRPC extension, and a lot more",
-  "link": "https://quarkus.io/blog/quarkus-2-15-0-final-released/",
+  "title": "Ask Me Anything with the WildFly Elytron Team",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ask-me-anything/",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
   "date": "2022-12-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 2.15.0.Final, the last minor release of 2022. As usual, it comes with bugfixes and small enhancements all over the place together with more important changes: Support for AWS Lambda SnapStart Move gRPC extension to new Vert.x gRPC implementation Federation support..."
+  "feed_title": "WildFly",
+  "content": ""
 }
