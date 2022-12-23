@@ -1,13 +1,14 @@
 {
-  "title": "Kogito 1.31.0 released!",
-  "link": "https://blog.kie.org/2022/12/kogito-1-31-0-released.html",
+  "title": "Keycloak 20.0.2 released",
+  "link": "https://www.keycloak.org/2022/12/keycloak-2002-released",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2022-12-12T01:49:18.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.31.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.14 integration  * First alpha version of the  * New OpenAPI Callback example within Serverless Workflows  * Sysout custom type now supports hardcoded strings (before it was only    supporting expressions)   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the .  A detailed changelog for 1.31.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2022-12-13T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Expiration for Admin Events keycloak   BUGS   * KC Operator Test WatchedSecretsTest.testSecretsAreWatched is unstable    keycloak operator  * Error in Core? ( Clients Client details Dedicated scopes): Cannot read    properties of undefined (reading 'helpText') keycloak admin/ui  * NPE in theme.getName() via getMainPage keycloak core  * Failed to run scheduled task ClearExpiredAdminEvents Oracle keycloak storage  * Flaky test:    OpenshiftClientStorageTest.testCodeGrantFlowWithServiceAccountUsingOAuthRedirectReference    keycloak testsuite  * SAMLFilterServletAdapterTest fails on Oracle keycloak storage  * Internal pipelines don't tests run for OracleDB or other database keycloak    storage  * clientID are base64 encoded in state uri param with non URI friendly base64    keycloak storage   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
