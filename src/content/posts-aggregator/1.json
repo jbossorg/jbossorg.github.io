@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.31.1 released!",
-  "link": "https://blog.kie.org/2022/12/kogito-1-31-1-released.html",
+  "title": "Announcing Dashbuilder Quarkus Extension",
+  "link": "https://blog.kie.org/2022/12/announcing-dashbuilder-quarkus-extension.html",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2022-12-23T00:52:22.000Z",
+  "date": "2022-12-23T16:53:23.000Z",
   "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.31.1 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.15 integration  * Upgraded Drools to version 8.31.1 to align with newly release    drools-drl-quarkus-extension Quarkus extension, for more information, visit    the following .  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the .  A detailed changelog for 1.31.1 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "content": "We are glad to announce that we released the ! You can now render dashboards directly in your Quarkus app!   INSTALLATION  To start using this extension simply add the following dependency to your quarkus app pom.xml:  <dependency> <groupId>io.quarkiverse.dashbuilder</groupId> <artifactId>quarkus-dashbuilder</artifactId> <version>0.26.0</version> </dependency> Then your *.dash.(yaml|yml|json) files will be available in /dashboards web context.   CONFIGURATION  You can map specific dashboard files using the system property quarkus.dashbuilder.dashboards and change the dashboards web context using quarkus.dashbuilder.path:   EXAMPLES  We also have three examples ready for use:   * Hello World: This is the simplest example where the dashboards run on the    client and use an inline dataset. Remember that datasets can be any JSON    Array declared directly in the dataset or coming from a URL. Learn more about    it in the article .   * Metrics: Datasets can also have a pre-processing for some specific formats.    This is the case for . In this example we consume Quarkus Micrometer    metrics.    * DataSet: It is also possible to consume data generated from the Quarkus    application. In this example we build a real time chart from data coming from    a Quarkus endpoint.   LEARN MORE ABOUT DASHBUILDER DEVELOPMENT  is a tool for building dashboards and data visualizations. It runs entirely on client and you can develop dashboards using YAML on the or using the .   Links to learn more:   *   *   * s   CONCLUSION  In this article we announced the Dashbuilder Quarkus extension. We have plans for a better editor developer experience and new Dashbuilder features, so stay tuned!  The post appeared first on ."
 }

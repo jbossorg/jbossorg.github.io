@@ -1,13 +1,13 @@
 {
-  "title": "Stargate selects Quarkus for its V2 implementation",
-  "link": "https://quarkus.io/blog/stargate-selects-quarkus-for-its-v2-implementation/",
+  "title": "How to test Jakarta Faces with HTMLUnit and Arquillian",
+  "link": "http://www.mastertheboss.com/java-ee/jsf/how-to-test-jakarta-faces-with-htmlunit-and-arquillian/",
   "author": [
     {
-      "name": "Eric Deandrea",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "This article gives a brief overview of Stargate, why it needed to change, and why Quarkus was chosen for its next implementation. See the references section for additional links to more detailed information. What is Stargate? Stargate, created in 2020, is a data API gateway that transforms Apache Cassandra, an..."
+  "date": "2022-12-19T07:38:07.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will walk through the HTMLUnit library to learn how to test Web applications. You can combine HTMLUnit with Arquillian to test Jakarta Faces applications with ease. What is HTML Unit? HTMLUnit is a Java-based testing tool that allows developers to automate testing of web applications. It simulates a web browser, allowing ...  The post appeared first on ."
 }
