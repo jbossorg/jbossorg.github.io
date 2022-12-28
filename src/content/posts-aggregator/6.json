@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.15.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-15-1-final-released/",
+  "title": "AMA Recap",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ask-me-anything-recap/",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2022-12-21T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is the end of the year (again) and here comes our last release of the year, 2.15.1.Final. We had 9 minor releases this year (starting with 2.7 in February) and so many micros. We made tremendous progress on Quarkus itself and the activity in the ecosystem of extensions has..."
+  "date": "2022-12-22T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
