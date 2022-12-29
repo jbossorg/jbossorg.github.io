@@ -1,13 +1,13 @@
 {
-  "title": "How to test REST Services with RestAssured",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-test-rest-services-with-restassured/",
+  "title": "Understanding JPA Entity life cycle",
+  "link": "http://www.mastertheboss.com/java-ee/jpa/understanding-jpa-entity-life-cycle/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-27T16:25:27.000Z",
+  "date": "2022-12-28T11:24:50.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we will be discussing REST Assured framework to Test JAX-RS Web services. This tutorial is designed for RESTAssured beginners, but even experienced users may find some useful tips and tricks. RestAssured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs. It allows you ...  The post appeared first on ."
+  "content": "This article discusses the life cycle of Entity objects in JPA Applications. Understanding the different stages that an Entity goes through is crucial for proper understanding of the JPA framework. The JPA Entity Lifecycle refers to the stages that an entity (a Java object representing a database record) goes through during its existence in a ...  The post appeared first on ."
 }

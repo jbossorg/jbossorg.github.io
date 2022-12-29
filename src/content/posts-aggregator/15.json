@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #27 - December",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-27/",
+  "title": "WildFly 27.0.1 is released!",
+  "link": "https://wildfly.org//news/2022/12/16/WildFly2701-Released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Brian Stansberry",
       "avatar": null
     }
   ],
-  "date": "2022-12-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "The year is fast coming to a close so it’s time for the December newsletter! Learn some common inner-loop development cycle challenges and solutions in Eric Deandrea’s \"Kubernetes-native inner loop development with Quarkus\" article. Find out Pierre Guimon’s approach for migrating a substantial Spring boot code base application to Quarkus..."
+  "date": "2022-12-16T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 27.0.1.Final is now available .  It’s been about five weeks since the WildFly 27 release, so we’ve done a small bug fix update, WildFly 27.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 27.0.1:  BUGS   * [] - Wrong exception handling by ManagedScheduledExecutorService.schedule(… )   * [] - Cannot persist ejb timers into database   * [] - Distributed TimerService fails when cache is configured with jdbc-store   * [] - Custom mail providers are not loaded   * [] - NoSuchElementException during scale up under load   * [] - Messaging - Transaction remained in prepared state after failover   * [] - NPE throws from WSEndpointMetrics  COMPONENT UPGRADES   * [] - Upgrade RESTEasy Spring to 3.0.0.Final   * [] - Upgrade Bootable JAR to 8.1.0.Final   * [] - Upgrade Woodstox from 6.2.8 to 6.4.0 (resolves CVE-2022-40152)   * [] - Update protobuf to 3.19.6 (resolves CVE-2022-3171)   * [] - Upgrade artemis-wildfly-integration to 1.0.7   * [] - Upgrade to Xerces 2.12.0.SP05   * [] - Upgrade HAL to 3.6.5.Final (WildFly 27.0.1.Final)   * [] - Upgrade WildFly Core to 19.0.1.Final   * [] - Upgrade CXF from 3.5.2-jbossorg-3 to 3.5.2-jbossorg-4 (resolves    CVE-2022-46364)  Issues resolved in the WildFly Core update included with WildFly 27.0.1 were:  BUGS   * [] - Unbound SocketChannels do not correctly register with    SocketBindingManager   * [] - Socket binding \"bind-address\" and \"bind-port\" runtime attributes throw    NPE if network channel is unbound   * [] - Wildfly does not start when non-ascii chars are used in configuration   * [] - Disable YAML deserialization in the YAML Configuration Extension  COMPONENT UPGRADES   * [] - Upgrade byteman to 4.0.20   * [] - Upgrade Jandex to 3.0.3   * [] - Upgrade Bootable JAR to 8.1.0.Final   * [] - Upgrade sshd-common from 2.8.0 to 2.9.2 to address CVE-2022-45047  Enjoy!"
 }
