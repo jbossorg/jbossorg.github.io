@@ -1,13 +1,13 @@
 {
-  "title": "How to enable Two-factor authentication in Keycloak",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-enable-two-factor-authentication-in-keycloak/",
+  "title": "How to create a custom Keycloak Theme",
+  "link": "http://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-29T10:34:17.000Z",
+  "date": "2022-12-31T10:54:11.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this article, we will explain how to enable Two Phase Authentication (2FA) with Keycloak. We will learn how to include the 2FA in the standard authentication flow and how to enforce it for a single user. Two-factor authentication (2FA) is an additional layer of security that requires users to provide an additional form of ...  The post appeared first on ."
+  "content": "Keycloak themes are a powerful way to customize the appearance and behavior of a Keycloak installation. In this article we will learn how to create a custom Keycloak theme with a baisc CSS knowledge. Keycloak Themes in a nutshell Firstly, a Keycloak theme is a set of resources that defines the look and feel of ...  The post appeared first on ."
 }
