@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.7 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-7",
+  "title": "Getting started with jBPM Script Tasks",
+  "link": "http://www.mastertheboss.com/bpm/jbpm6/getting-started-with-jbpm-script-tasks/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-20T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.7 has just been released. It fixes quite a few bugs that have been reported by the communit."
+  "date": "2022-12-20T08:33:18.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Script tasks allow you to execute custom scripts or code snippets as part of a jBPM process flow. This can be useful for performing complex calculations, accessing external data sources, or integrating with other systems. In this tutorial, we will look at how to create and use script tasks in jBPM. Prerequisites To follow this ...  The post appeared first on ."
 }
