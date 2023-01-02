@@ -9,5 +9,5 @@
   ],
   "date": "2023-01-02T15:52:04.000Z",
   "feed_title": "Mastertheboss",
-  "content": "When running a Java application in a Docker container, it is important to properly configure the Java Virtual Machine (JVM) memory settings to ensure that the application has enough memory to run correctly. If you don’t specify a value for the --memory flag when starting a Docker container, the container will be given an automatic ...  The post appeared first on ."
+  "content": "When running a Java application in a Docker container, it is important to properly configure the JVM memory settings. This is essential to ensure that the application has enough memory to run correctly. If you don’t specify a value for the --memory flag when starting a Docker container, the container will be given an automatic ...  The post appeared first on ."
 }
