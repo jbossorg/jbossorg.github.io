@@ -1,13 +1,13 @@
 {
-  "title": "Ask Me Anything with the WildFly Elytron Team",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ask-me-anything/",
+  "title": "Quarkus Newsletter #27 - December",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-27/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "James Cobb",
+      "avatar": null
     }
   ],
-  "date": "2022-12-14T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-12-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The year is fast coming to a close so it’s time for the December newsletter! Learn some common inner-loop development cycle challenges and solutions in Eric Deandrea’s \"Kubernetes-native inner loop development with Quarkus\" article. Find out Pierre Guimon’s approach for migrating a substantial Spring boot code base application to Quarkus..."
 }

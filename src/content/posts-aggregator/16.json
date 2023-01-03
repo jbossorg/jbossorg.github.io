@@ -1,13 +1,13 @@
 {
-  "title": "Stargate selects Quarkus for its V2 implementation",
-  "link": "https://quarkus.io/blog/stargate-selects-quarkus-for-its-v2-implementation/",
+  "title": "Introducing the jBPM Maven archetypes",
+  "link": "http://www.mastertheboss.com/bpm/jbpm5/jbpm-5-and-maven-example-project/",
   "author": [
     {
-      "name": "Eric Deandrea",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "This article gives a brief overview of Stargate, why it needed to change, and why Quarkus was chosen for its next implementation. See the references section for additional links to more detailed information. What is Stargate? Stargate, created in 2020, is a data API gateway that transforms Apache Cassandra, an..."
+  "date": "2022-12-19T16:44:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will be taking a closer look at the jBPM Maven archetype for Spring Boot – a feature that is sure to kick start the way you create your jBPM projects. A jBPM Project running with Spring Boot is typically made of the following sub-projects: After this premise, let’s see how we ...  The post appeared first on ."
 }
