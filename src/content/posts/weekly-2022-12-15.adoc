@@ -1,6 +1,6 @@
-= This Week in JBoss - November, 18 2022
+= This Week in JBoss - December, 15th 2022
 Pedro Silva
-2022-11-18
+2022-12-15
 :tags: quarkus, java, jakarta ee, wildfly, camel, kamelets, debezium
 
 _Welcome to our new installment of JBoss Editorial! It is almost Christmas, so you can read the best news regarding JBoss world before open the Christmas gift under the tree._
@@ -9,7 +9,7 @@ _Welcome to our new installment of JBoss Editorial! It is almost Christmas, so y
 
 It was a great two week with many releases! Enjoy the new features and improvements on our products
 
-* link:https://resteasy.dev/2022/12/13/resteasy-releases/[RESTEasy Releases (6.2.2 and 5.0.5)] 
+* link:https://resteasy.dev/2022/12/13/resteasy-releases/[RESTEasy Releases (6.2.2 and 5.0.5)]
 * link:https://www.keycloak.org/2022/12/keycloak-2002-released[Keycloak 20.0.2]
 * link:https://blog.kie.org/2022/12/kogito-1-31-0-released.html[Kogito 1.31.0]
 * link:https://vertx.io/blog/eclipse-vert-x-4-3-6[Eclipse Vert.x 4.3.6]
