@@ -1,13 +1,13 @@
 {
-  "title": "Understanding JPA Entity life cycle",
-  "link": "http://www.mastertheboss.com/java-ee/jpa/understanding-jpa-entity-life-cycle/",
+  "title": "How to enable Two-factor authentication in Keycloak",
+  "link": "http://www.mastertheboss.com/keycloak/how-to-enable-two-factor-authentication-in-keycloak/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-28T11:24:50.000Z",
+  "date": "2022-12-29T10:34:17.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses the life cycle of Entity objects in JPA Applications. Understanding the different stages that an Entity goes through is crucial for proper understanding of the JPA framework. The JPA Entity Lifecycle refers to the stages that an entity (a Java object representing a database record) goes through during its existence in a ...  The post appeared first on ."
+  "content": "In this article, we will explain how to enable Two Phase Authentication (2FA) with Keycloak. We will learn how to include the 2FA in the standard authentication flow and how to enforce it for a single user. Two-factor authentication (2FA) is an additional layer of security that requires users to provide an additional form of ...  The post appeared first on ."
 }
