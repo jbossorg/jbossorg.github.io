@@ -1,13 +1,13 @@
 {
-  "title": "Solving java.lang.OutOfMemoryError: java heap space",
-  "link": "http://www.mastertheboss.com/java/solving-java-lang-outofmemoryerror-java-heap-space/",
+  "title": "How to configure Java Memory in a Docker Container",
+  "link": "http://www.mastertheboss.com/soa-cloud/docker/how-to-configure-java-memory-in-a-docker-container/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-02T14:30:07.000Z",
+  "date": "2023-01-02T15:52:04.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article goes through the most common Java OutOfMemory Error, which happens when you saturate the Java Heap Memory. Within this article we will show how to fix this error depending if you are an application user or an application developer. The Java Heap Space is the area of memory where the Java objects reside. ...  The post appeared first on ."
+  "content": "When running a Java application in a Docker container, it is important to properly configure the JVM memory settings. This is essential to ensure that the application has enough memory to run correctly. If you don’t specify a value for the --memory flag when starting a Docker container, the container will be given an automatic ...  The post appeared first on ."
 }
