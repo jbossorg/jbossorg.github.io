@@ -1,13 +1,13 @@
 {
-  "title": "How to create a custom Keycloak Theme",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/",
+  "title": "How to access Keycloak H2 Database",
+  "link": "http://www.mastertheboss.com/keycloak/how-to-access-keycloak-h2-database/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-31T10:54:11.000Z",
+  "date": "2023-01-01T11:54:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak themes are a powerful way to customize the appearance and behavior of a Keycloak installation. In this article we will learn how to create a custom Keycloak theme with a baisc CSS knowledge. Keycloak Themes in a nutshell Firstly, a Keycloak theme is a set of resources that defines the look and feel of ...  The post appeared first on ."
+  "content": "Keycloak stores its data in an embedded H2 database by default, which is a lightweight and easy-to-use database that ships in the the Keycloak distribution. In this article, we will discuss how to access the Keycloak H2 database and perform common tasks such as deleting an user. By the end of this article, you will ...  The post appeared first on ."
 }
