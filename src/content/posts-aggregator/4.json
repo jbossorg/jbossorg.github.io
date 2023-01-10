@@ -1,13 +1,13 @@
 {
-  "title": "Introduction to Maven Daemon (mvnd)",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/jboss-maven/introduction-to-maven-daemon-mvnd/",
+  "title": "How to solve the error java.net.SocketException: Connection reset",
+  "link": "http://www.mastertheboss.com/java/how-to-solve-the-error-java-net-socketexception-connection-reset/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-04T09:49:03.000Z",
+  "date": "2023-01-06T09:06:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Maven Daemon (mvnd) is a background process that can speed up Maven builds by keeping a daemon process running in the background. This allows Maven to start up faster, as it does not have to initialize the build process from scratch for each build. In this tutorial, we will cover how to install and configure ...  The post appeared first on ."
+  "content": "A SocketException Connection reset is one of the most common Runtime errors you can find in Java applications. As the name implies, it happens during a network connection which terminates abruptly. In this tutorial we will teach you which is the best action plan to find the root cause of the issue. What is a ...  The post appeared first on ."
 }

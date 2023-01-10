@@ -1,13 +1,13 @@
 {
-  "title": "Comparing OpenID Connect with OAuth 2.0",
-  "link": "http://www.mastertheboss.com/keycloak/comparing-openid-connect-with-oauth-2-0/",
+  "title": "Migrating a Service from JBoss ESB to Apache Camel",
+  "link": "http://www.mastertheboss.com/articles/jboss-esb/migrating-a-service-from-jboss-esb-to-apache-camel/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-03T13:53:42.000Z",
+  "date": "2023-01-03T14:38:08.000Z",
   "feed_title": "Mastertheboss",
-  "content": "OpenID Connect (OIDC) and OAuth 2.0 are two popular protocols you can use for authorization and authentication on the web. Both protocols allow users to securely access resources, but they work in different ways and have different use cases. In this tutorial, we’ll compare OIDC and OAuth 2.0 to help you understand the key differences ...  The post appeared first on ."
+  "content": "If you have a service running on JBoss ESB and are looking to migrate to a different platform, Apache Camel can be a good choice. Camel is a widely-used, open-source integration framework that allows you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based Fluent API, Spring XML, and ...  The post appeared first on ."
 }

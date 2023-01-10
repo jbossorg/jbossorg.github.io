@@ -1,13 +1,13 @@
 {
-  "title": "Announcing Dashbuilder Quarkus Extension",
-  "link": "https://blog.kie.org/2022/12/announcing-dashbuilder-quarkus-extension.html",
+  "title": "How to enable Two-factor authentication in Keycloak",
+  "link": "http://www.mastertheboss.com/keycloak/how-to-enable-two-factor-authentication-in-keycloak/",
   "author": [
     {
-      "name": "William Siqueira",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-12-23T16:53:23.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that we released the ! You can now render dashboards directly in your Quarkus app!   INSTALLATION  To start using this extension simply add the following dependency to your quarkus app pom.xml:   <dependency>   <groupId>io.quarkiverse.dashbuilder</groupId>   <artifactId>quarkus-dashbuilder</artifactId>   <version>0.26.1</version> </dependency>   Then your *.dash.(yaml|yml|json) files will be available in /dashboards web context.   CONFIGURATION  You can map specific dashboard files using the system property quarkus.dashbuilder.dashboards and change the dashboards web context using quarkus.dashbuilder.path:   EXAMPLES  We also have three examples ready for use:   * Hello World: This is the simplest example where the dashboards run on the    client and use an inline dataset. Remember that datasets can be any JSON    Array declared directly in the dataset or coming from a URL. Learn more about    it in the article .   * Metrics: Datasets can also have a pre-processing for some specific formats.    This is the case for . In this example we consume Quarkus Micrometer    metrics.    * DataSet: It is also possible to consume data generated from the Quarkus    application. In this example we build a real time chart from data coming from    a Quarkus endpoint.   LEARN MORE ABOUT DASHBUILDER DEVELOPMENT  is a tool for building dashboards and data visualizations. It runs entirely on client and you can develop dashboards using YAML on the or using the .   Links to learn more:   *   *   * s   CONCLUSION  In this article we announced the Dashbuilder Quarkus extension. We have plans for a better editor developer experience and new Dashbuilder features, so stay tuned!  The post appeared first on ."
+  "date": "2022-12-29T10:34:17.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article, we will explain how to enable Two Phase Authentication (2FA) with Keycloak. We will learn how to include the 2FA in the standard authentication flow and how to enforce it for a single user. Two-factor authentication (2FA) is an additional layer of security that requires users to provide an additional form of ...  The post appeared first on ."
 }

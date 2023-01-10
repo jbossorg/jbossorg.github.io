@@ -1,13 +1,13 @@
 {
-  "title": "Stargate selects Quarkus for its V2 implementation",
-  "link": "https://quarkus.io/blog/stargate-selects-quarkus-for-its-v2-implementation/",
+  "title": "Eclipse Vert.x 4.3.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-7",
   "author": [
     {
-      "name": "Eric Deandrea",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2022-12-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "This article gives a brief overview of Stargate, why it needed to change, and why Quarkus was chosen for its next implementation. See the references section for additional links to more detailed information. What is Stargate? Stargate, created in 2020, is a data API gateway that transforms Apache Cassandra, an..."
+  "date": "2022-12-20T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.3.7 has just been released. It fixes quite a few bugs that have been reported by the communit."
 }

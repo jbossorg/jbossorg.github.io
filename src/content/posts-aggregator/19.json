@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.3.7 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-3-7",
+  "title": "Quarkus 2.15.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-15-1-final-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2022-12-20T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.3.7 has just been released. It fixes quite a few bugs that have been reported by the communit."
+  "date": "2022-12-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is the end of the year (again) and here comes our last release of the year, 2.15.1.Final. We had 9 minor releases this year (starting with 2.7 in February) and so many micros. We made tremendous progress on Quarkus itself and the activity in the ecosystem of extensions has..."
 }
