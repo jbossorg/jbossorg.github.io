@@ -1,13 +1,13 @@
 {
-  "title": "AMA Recap",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/ask-me-anything-recap/",
+  "title": "Kogito 1.31.1 released!",
+  "link": "https://blog.kie.org/2022/12/kogito-1-31-1-released.html",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Cristiano Nicolai",
+      "avatar": null
     }
   ],
-  "date": "2022-12-22T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2022-12-23T00:52:22.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.31.1 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.15 integration  * Upgraded Drools to version 8.31.1 to align with newly release    drools-drl-quarkus-extension Quarkus extension, for more information, visit    the following .  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.25.0 artifacts are available at the .  A detailed changelog for 1.31.1 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
