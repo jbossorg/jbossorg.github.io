@@ -1,13 +1,13 @@
 {
-  "title": "How to access Keycloak H2 Database",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-access-keycloak-h2-database/",
+  "title": "DevOps interview questions",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/devops-interview-questions/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-01T11:54:06.000Z",
+  "date": "2023-01-01T13:14:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak stores its data in an embedded H2 database by default, which is a lightweight and easy-to-use database that ships in the the Keycloak distribution. In this article, we will discuss how to access the Keycloak H2 database and perform common tasks such as deleting an user. By the end of this article, you will ...  The post appeared first on ."
+  "content": "Preparing for the DevOps interview This is a list of DevOps interview questions which include some general and abstract questions and some more technical questions which a DevOps candidate might be requested in an interview. What is DevOps ? Devops is in a nutshell a cultural movement which aims to remove through collaboration and communication ...  The post appeared first on ."
 }
