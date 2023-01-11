@@ -1,13 +1,13 @@
 {
-  "title": "DevOps interview questions",
-  "link": "http://www.mastertheboss.com/soa-cloud/openshift/devops-interview-questions/",
+  "title": "How to configure Java Memory in a Docker Container",
+  "link": "http://www.mastertheboss.com/soa-cloud/docker/how-to-configure-java-memory-in-a-docker-container/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-01T13:14:00.000Z",
+  "date": "2023-01-02T15:52:04.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Preparing for the DevOps interview This is a list of DevOps interview questions which include some general and abstract questions and some more technical questions which a DevOps candidate might be requested in an interview. What is DevOps ? Devops is in a nutshell a cultural movement which aims to remove through collaboration and communication ...  The post appeared first on ."
+  "content": "When running a Java application in a Docker container, it is important to properly configure the JVM memory settings. This is essential to ensure that the application has enough memory to run correctly. If you don’t specify a value for the --memory flag when starting a Docker container, the container will be given an automatic ...  The post appeared first on ."
 }

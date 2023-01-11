@@ -1,13 +1,13 @@
 {
-  "title": "How to configure Java Memory in a Docker Container",
-  "link": "http://www.mastertheboss.com/soa-cloud/docker/how-to-configure-java-memory-in-a-docker-container/",
+  "title": "Comparing OpenID Connect with OAuth 2.0",
+  "link": "http://www.mastertheboss.com/keycloak/comparing-openid-connect-with-oauth-2-0/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-02T15:52:04.000Z",
+  "date": "2023-01-03T13:53:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "When running a Java application in a Docker container, it is important to properly configure the JVM memory settings. This is essential to ensure that the application has enough memory to run correctly. If you don’t specify a value for the --memory flag when starting a Docker container, the container will be given an automatic ...  The post appeared first on ."
+  "content": "OpenID Connect (OIDC) and OAuth 2.0 are two popular protocols you can use for authorization and authentication on the web. Both protocols allow users to securely access resources, but they work in different ways and have different use cases. In this tutorial, we’ll compare OIDC and OAuth 2.0 to help you understand the key differences ...  The post appeared first on ."
 }
