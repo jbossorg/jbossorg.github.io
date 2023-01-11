@@ -1,13 +1,13 @@
 {
-  "title": "How to do a Database dump of H2 DB",
-  "link": "http://www.mastertheboss.com/java-ee/jpa/how-to-dump-an-h2-database/",
+  "title": "Quarkus 2.15.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-15-3-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-09T10:18:34.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Using the H2 Database is a common option when developing application prototypes. Once challenge is that, if you are using it as in-memory embedded H2 database , you cannot access the database from outside the JVM. A simple trick is to create a dump of the database, to check the data in all tables In ...  The post appeared first on ."
+  "date": "2023-01-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 2.15.3.Final, our third maintenance release for Quarkus 2.15. As usual it comes with bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.15. If you are not already using 2.15, please refer to our migration guide. Full changelog You can get the..."
 }

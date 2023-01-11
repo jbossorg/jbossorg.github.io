@@ -1,13 +1,13 @@
 {
-  "title": "DevOps interview questions",
-  "link": "http://www.mastertheboss.com/soa-cloud/openshift/devops-interview-questions/",
+  "title": "Solving java.lang.OutOfMemoryError: java heap space",
+  "link": "http://www.mastertheboss.com/java/solving-java-lang-outofmemoryerror-java-heap-space/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-01T13:14:00.000Z",
+  "date": "2023-01-02T14:30:07.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Preparing for the DevOps interview This is a list of DevOps interview questions which include some general and abstract questions and some more technical questions which a DevOps candidate might be requested in an interview. What is DevOps ? Devops is in a nutshell a cultural movement which aims to remove through collaboration and communication ...  The post appeared first on ."
+  "content": "This article goes through the most common Java OutOfMemory Error, which happens when you saturate the Java Heap Memory. Within this article we will show how to fix this error depending if you are an application user or an application developer. The Java Heap Space is the area of memory where the Java objects reside. ...  The post appeared first on ."
 }
