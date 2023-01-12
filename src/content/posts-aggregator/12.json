@@ -1,13 +1,13 @@
 {
-  "title": "Migrating a Service from JBoss ESB to Apache Camel",
-  "link": "http://www.mastertheboss.com/articles/jboss-esb/migrating-a-service-from-jboss-esb-to-apache-camel/",
+  "title": "Quarkus 2.15.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-15-2-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-03T14:38:08.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "If you have a service running on JBoss ESB and are looking to migrate to a different platform, Apache Camel can be a good choice. Camel is a widely-used, open-source integration framework that allows you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based Fluent API, Spring XML, and ...  The post appeared first on ."
+  "date": "2023-01-04T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The Quarkus team wishes you a happy new year, and with the new year comes a new Quarkus release, 2.15.2.Final. This version contains bugfixes and documentation improvements for our 2.15 release train. It is a recommended upgrade for anyone already using 2.15. If you are not already using 2.15, please..."
 }

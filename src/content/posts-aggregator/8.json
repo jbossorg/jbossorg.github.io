@@ -1,13 +1,13 @@
 {
-  "title": "How to assert Exceptions in JUnit",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/how-to-assert-exceptions-in-junit/",
+  "title": "How to do a Database dump of H2 DB",
+  "link": "http://www.mastertheboss.com/java-ee/jpa/how-to-dump-an-h2-database/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-04T09:54:00.000Z",
+  "date": "2023-01-09T10:18:34.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JUnit 5 provides several ways to assert that a certain exception is thrown in a @Test method. In this tutorial, we will show you how to use assert Exceptions using JUnit5 and JUnit4 Tests. In order to assert that your JUnit 5 Test throws an Exception, you can rely on the following assertions: The assertThrows() ...  The post appeared first on ."
+  "content": "Using the H2 Database is a common option when developing application prototypes. Once challenge is that, if you are using it as in-memory embedded H2 database , you cannot access the database from outside the JVM. A simple trick is to create a dump of the database, to check the data in all tables In ...  The post appeared first on ."
 }
