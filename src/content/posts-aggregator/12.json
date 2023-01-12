@@ -1,13 +1,13 @@
 {
-  "title": "Introduction to Maven Daemon (mvnd)",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/jboss-maven/introduction-to-maven-daemon-mvnd/",
+  "title": "How to assert Exceptions in JUnit",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/how-to-assert-exceptions-in-junit/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-04T09:49:03.000Z",
+  "date": "2023-01-04T09:54:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Maven Daemon (mvnd) is a background process that can speed up Maven builds by keeping a daemon process running in the background. This allows Maven to start up faster, as it does not have to initialize the build process from scratch for each build. In this tutorial, we will cover how to install and configure ...  The post appeared first on ."
+  "content": "JUnit 5 provides several ways to assert that a certain exception is thrown in a @Test method. In this tutorial, we will show you how to use assert Exceptions using JUnit5 and JUnit4 Tests. In order to assert that your JUnit 5 Test throws an Exception, you can rely on the following assertions: The assertThrows() ...  The post appeared first on ."
 }

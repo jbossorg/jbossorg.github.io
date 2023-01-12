@@ -1,13 +1,13 @@
 {
-  "title": "How to solve the error java.net.SocketException: Connection reset",
-  "link": "http://www.mastertheboss.com/java/how-to-solve-the-error-java-net-socketexception-connection-reset/",
+  "title": "How to do a Database dump of H2 DB",
+  "link": "http://www.mastertheboss.com/java-ee/jpa/how-to-dump-an-h2-database/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-06T09:06:57.000Z",
+  "date": "2023-01-09T10:18:34.000Z",
   "feed_title": "Mastertheboss",
-  "content": "A SocketException Connection reset is one of the most common Runtime errors you can find in Java applications. As the name implies, it happens during a network connection which terminates abruptly. In this tutorial we will teach you which is the best action plan to find the root cause of the issue. What is a ...  The post appeared first on ."
+  "content": "Using the H2 Database is a common option when developing application prototypes. Once challenge is that, if you are using it as in-memory embedded H2 database , you cannot access the database from outside the JVM. A simple trick is to create a dump of the database, to check the data in all tables In ...  The post appeared first on ."
 }
