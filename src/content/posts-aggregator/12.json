@@ -1,13 +1,13 @@
 {
-  "title": "How to assert Exceptions in JUnit",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/how-to-assert-exceptions-in-junit/",
+  "title": "How to solve the error java.net.SocketException: Connection reset",
+  "link": "http://www.mastertheboss.com/java/how-to-solve-the-error-java-net-socketexception-connection-reset/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-04T09:54:00.000Z",
+  "date": "2023-01-06T09:06:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JUnit 5 provides several ways to assert that a certain exception is thrown in a @Test method. In this tutorial, we will show you how to use assert Exceptions using JUnit5 and JUnit4 Tests. In order to assert that your JUnit 5 Test throws an Exception, you can rely on the following assertions: The assertThrows() ...  The post appeared first on ."
+  "content": "A SocketException Connection reset is one of the most common Runtime errors you can find in Java applications. As the name implies, it happens during a network connection which terminates abruptly. In this tutorial we will teach you which is the best action plan to find the root cause of the issue. What is a ...  The post appeared first on ."
 }
