@@ -1,13 +1,13 @@
 {
-  "title": "JUnit 5 Made Easy",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-junit/",
+  "title": "JUnit 5 Cheatsheet (2023)",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/junit-5-cheatsheet/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-11T16:09:45.000Z",
+  "date": "2023-01-11T16:51:23.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JUnit 5 is a powerful testing framework for Java developers, allowing you to write and run repeatable, automated tests for your code. With its clear and expressive syntax, JUnit 5 makes it easy to write tests for a wide range of scenarios and use cases, from simple unit tests to complex integration tests. In this ...  The post appeared first on ."
+  "content": "This article contains a JUnit 5 Cheatsheet which you can use as handy reference to build your JUnit 5 Jupiter Tests in Java. Maven Dependencies: Here is the list of dependencies you have to include in your pom.xml according to the latest JUnit version (): <dependencies> <dependency> <groupId>org.junit.jupiter</groupId> <artifactId>junit-jupiter-api</artifactId> <version></version> <scope>test</scope> </dependency> <dependency> <groupId>org.junit.jupiter</groupId> <artifactId>junit-jupiter-engine</artifactId> ...  The post appeared first on ."
 }
