@@ -1,13 +1,13 @@
 {
-  "title": "Modern Java interview questions (2023)",
-  "link": "http://www.mastertheboss.com/java/modern-java-interview-questions/",
+  "title": "JUnit 5 Made Easy",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-junit/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-11T09:25:33.000Z",
+  "date": "2023-01-11T16:09:45.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Are you going for a Java Interview ? This article contains a list of Interview Questions which are covering modern aspects of Java, such as Functional programming, Stream API, new IO API and much more. Java Records What is a Java Record and how it compares with a Java Class? A record is a concise ...  The post appeared first on ."
+  "content": "JUnit 5 is a powerful testing framework for Java developers, allowing you to write and run repeatable, automated tests for your code. With its clear and expressive syntax, JUnit 5 makes it easy to write tests for a wide range of scenarios and use cases, from simple unit tests to complex integration tests. In this ...  The post appeared first on ."
 }
