@@ -1,13 +1,13 @@
 {
-  "title": "How to list Maven local artifacts using JBang",
-  "link": "http://www.mastertheboss.com/java/how-to-list-maven-local-artifacts-using-jbang/",
+  "title": "Solving “Could not find MessageBodyWriter for response object of type”",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/solving-could-not-find-messagebodywriter-for-response-object-of-type/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-12T11:06:14.000Z",
+  "date": "2023-01-12T15:46:33.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Listing the available artifacts in your Maven local repository generally requires a Maven project. In this article we will show how to create a simple JBang script to list all dependencies for an artifact in your local Maven repository. Firstly, install JBang in your environment: Then, if you are new to JBang, I’d recommend checking ...  The post appeared first on ."
+  "content": "This article discusses the steps to solve the error “org.jboss.resteasy.core.NoMessageBodyWriterFoundFailure: Could not find MessageBodyWriter for response object of type” that you can have at runtime in a REST application. The Problem This error message is indicating that the RESTEasy framework (which is a JAX-RS implementation for Java) is unable to find a suitable “MessageBodyWriter” for ...  The post appeared first on ."
 }
