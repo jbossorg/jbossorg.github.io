@@ -1,13 +1,13 @@
 {
-  "title": "How to list Maven local artifacts using JBang",
-  "link": "http://www.mastertheboss.com/java/how-to-list-maven-local-artifacts-using-jbang/",
+  "title": "How to Cache the Response with RestEasy",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-cache-the-response-with-resteasy/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-12T11:06:14.000Z",
+  "date": "2023-01-13T08:35:35.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Listing the available artifacts in your Maven local repository generally requires a Maven project. In this article we will show how to create a simple JBang script to list all dependencies for an artifact in your local Maven repository. Firstly, install JBang in your environment: Then, if you are new to JBang, I’d recommend checking ...  The post appeared first on ."
+  "content": "Resteasy is a popular Java framework for building RESTful web services. One of its features is the ability to cache HTTP responses using the @Cache and @NoCache annotations. Caching REST Response To use the @Cache annotation, you need to add it to a method that returns an HTTP response. The annotation takes a few parameters ...  The post appeared first on ."
 }

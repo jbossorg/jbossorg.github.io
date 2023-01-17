@@ -1,13 +1,13 @@
 {
-  "title": "JUnit 5 Made Easy",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-junit/",
+  "title": "How to wait in Java with Awaitility",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/testing-with-awaitility-made-simple/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-11T16:09:45.000Z",
+  "date": "2023-01-12T10:48:19.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JUnit 5 is a powerful testing framework for Java developers, allowing you to write and run repeatable, automated tests for your code. With its clear and expressive syntax, JUnit 5 makes it easy to write tests for a wide range of scenarios and use cases, from simple unit tests to complex integration tests. In this ...  The post appeared first on ."
+  "content": "The Awaitility library introduces a functional style usage to express expectations of an asynchronous system in a concise and easy to read manner. Let’s have a deep dive into it with this tutorial. Waiting in Java properly In order to make a pause during the execution of Java code you can use two main approaches: ...  The post appeared first on ."
 }

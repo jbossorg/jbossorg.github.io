@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #28 - January",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-28/",
+  "title": "How to validate Database connections in JBoss / WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/how-to-automatically-reconnect-to-the-database-in-wildfly/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "A fresh new year is a perfect time for some fresh new articles in the Quarkus Newsletter. \"Fine-grained authorization for Quarkus microservices\" by Raffaele Spazzoli is a great article describing a solution we call fine-grained authorization and uses Quarkus to implement Relationship-Based Access Control (ReBAC) in the manner of Google..."
+  "date": "2023-01-16T11:59:30.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial discusses how to validate database connections using in WildFly so that you can manage reconnection to the database in case of temporary failures. Connection Validation in a nutshell A datasource connection validation helps to ensure that the connections to the database are still valid. The strategy behind connection vaidation is to periodically test ...  The post appeared first on ."
 }

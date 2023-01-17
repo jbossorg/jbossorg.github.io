@@ -1,13 +1,13 @@
 {
-  "title": "JUnit 5 Cheatsheet (2023)",
-  "link": "http://www.mastertheboss.com/various-stuff/testing-java/junit-5-cheatsheet/",
+  "title": "How to list Maven local artifacts using JBang",
+  "link": "http://www.mastertheboss.com/java/how-to-list-maven-local-artifacts-using-jbang/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-11T16:51:23.000Z",
+  "date": "2023-01-12T11:06:14.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article contains a JUnit 5 Cheatsheet which you can use as handy reference to build your JUnit 5 Jupiter Tests in Java. Maven Dependencies: Here is the list of dependencies you have to include in your pom.xml according to the latest JUnit version (): <dependencies> <dependency> <groupId>org.junit.jupiter</groupId> <artifactId>junit-jupiter-api</artifactId> <version></version> <scope>test</scope> </dependency> <dependency> <groupId>org.junit.jupiter</groupId> <artifactId>junit-jupiter-engine</artifactId> ...  The post appeared first on ."
+  "content": "Listing the available artifacts in your Maven local repository generally requires a Maven project. In this article we will show how to create a simple JBang script to list all dependencies for an artifact in your local Maven repository. Firstly, install JBang in your environment: Then, if you are new to JBang, I’d recommend checking ...  The post appeared first on ."
 }
