@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Simple Logging Facade (SLF4J)",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/getting-started-with-simple-logging-facade-slf4j/",
+  "title": "How to configure SLF4J in WildFly applications",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-configure-slf4j-in-wildfly-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-17T12:47:53.000Z",
+  "date": "2023-01-17T13:15:59.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Simple Logging Facade for Java (SLF4J) is a logging facade that provides a unified interface for various logging frameworks, such as log4j, java.util.logging, and Logback. It allows for the decoupling of the application code from the underlying logging framework, making it easier to change the logging framework without modifying the application code. Here is a ...  The post appeared first on ."
+  "content": "In this tutorial, we will discuss how to use Simple Logging Facade for Java (SLF4J) with Wildfly application server. SLF4J is a logging facade that provides a unified interface for various logging frameworks, such as log4j, java.util.logging, and Logback. It allows for the decoupling of the application code from the underlying logging framework, making it ...  The post appeared first on ."
 }

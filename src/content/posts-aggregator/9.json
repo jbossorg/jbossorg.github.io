@@ -1,13 +1,13 @@
 {
-  "title": "How to validate Database connections in JBoss / WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/how-to-automatically-reconnect-to-the-database-in-wildfly/",
+  "title": "Configure Hibernate Connection Pool",
+  "link": "http://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/configure-a-connection-pool-with-hibernate/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-16T11:59:30.000Z",
+  "date": "2023-01-17T08:15:43.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial discusses how to validate database connections using in WildFly so that you can manage reconnection to the database in case of temporary failures. Connection Validation in a nutshell A datasource connection validation helps to ensure that the connections to the database are still valid. The strategy behind connection vaidation is to periodically test ...  The post appeared first on ."
+  "content": "This article discusses how to configure a JDBC Connection Pool in Hibernate applications covering both Hibernate managed applications and Hibernate Native applications. A JDBC connection pool is a set of connections to a database that are created and maintained by an application, rather than creating a new connection each time it needs to interact with ...  The post appeared first on ."
 }
