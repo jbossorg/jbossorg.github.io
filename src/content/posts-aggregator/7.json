@@ -1,13 +1,13 @@
 {
-  "title": "How to use Log4j2 in your WildFly applications",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-use-log4j2-in-your-wildfly-applications/",
+  "title": "Using REST Services to upload and download files",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/resteasy/using-rest-services-to-manage-download-and-upload-of-files/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-17T15:16:53.000Z",
+  "date": "2023-01-17T18:07:32.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Log4j2 is the latest major release of the popular Logging Framework. In this tutorial we will learn how to include Log4j2 configuration file and use it in your deployments running on WildFly. Overview of Log4j2 Log4j2 is a powerful logging library, developed by Apache, that provides advanced features such as: Asynchronous Logging: Log4j2 allows for ...  The post appeared first on ."
+  "content": "This REST Service tutorial is a quick guide for handling files upload and download using REST Services. We will create and test a Rest Service to upload and download files using JAX-RS API. Finally, we will show how to build a JUnit 5 Test to test files uploading using RESTEasy Client API. Uploading and Downloading ...  The post appeared first on ."
 }
