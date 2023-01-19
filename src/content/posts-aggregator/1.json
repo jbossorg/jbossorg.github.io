@@ -1,13 +1,13 @@
 {
-  "title": "How do I know the WSDL URL of my Web Service ?",
-  "link": "http://www.mastertheboss.com/java-ee/jboss-web-services/how-do-i-know-the-wsdl-url-of-my-web-service/",
+  "title": "Getting started with Quarkus 3",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-quarkus-3/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-19T08:58:55.000Z",
+  "date": "2023-01-19T12:47:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to find the SOAP Web Service WSDL URL, so that you can quickly test your SOAP Web Service. SOAP Web Service overview Firstly, let’s deploy a sample SOAP Web Service on JBoss EAP or WildFly. If you inspect the server.log file, you will see that the Logger org.jboss.ws.cxf.metadata ...  The post appeared first on ."
+  "content": "This article introduces some of the new features of the upcoming Quarkus 3 release which is, at the time of writing, in Alpha state. We will cover the main highlights and some tools you can use to upgrade existing Quarkus applications. Quarkus 3 highlights Firstly, let’s discuss Quarkus 3 main highlights: An example Quarkus 3 ...  The post appeared first on ."
 }
