@@ -1,13 +1,13 @@
 {
-  "title": "How to run Keycloak with Docker",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
+  "title": "How to solve “Too many Open Files” in Java applications",
+  "link": "http://www.mastertheboss.com/java/hot-to-solve-the-too-many-open-files-error-in-java-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T15:27:02.000Z",
+  "date": "2023-01-19T07:32:19.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
+  "content": "Scenario: Your application log displays the error message “Too many Open Files“. As a result, application requests are failing and you need to restart the application. In some cases, you also need to reboot your machine. Facts: The JVM console (or log file) contains the following error: java.io.FileNotFoundException: filename (Too many open files) at java.io.FileInputStream.open(Native ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to configure SLF4J in WildFly applications",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-configure-slf4j-in-wildfly-applications/",
+  "title": "How to use Log4j2 in your WildFly applications",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-use-log4j2-in-your-wildfly-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-17T13:15:59.000Z",
+  "date": "2023-01-17T15:16:53.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we will discuss how to use Simple Logging Facade for Java (SLF4J) with Wildfly application server. SLF4J is a logging facade that provides a unified interface for various logging frameworks, such as log4j, java.util.logging, and Logback. It allows for the decoupling of the application code from the underlying logging framework, making it ...  The post appeared first on ."
+  "content": "Log4j2 is the latest major release of the popular Logging Framework. In this tutorial we will learn how to include Log4j2 configuration file and use it in your deployments running on WildFly. Overview of Log4j2 Log4j2 is a powerful logging library, developed by Apache, that provides advanced features such as: Asynchronous Logging: Log4j2 allows for ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to access WildFly Admin Console",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-access-wildfly-admin-console/",
+  "title": "How to run Keycloak with Docker",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T10:01:44.000Z",
+  "date": "2023-01-18T15:27:02.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short tutorial will teach you how to access WildFly Admin Console also known as WildFly Management Console. WildFly Admin Console Default URL The default URL for WildFly Management Console is http://localhost:9990. Upon installation, you cannot connect to WildFly Management Console because there is no default Admin user for the Management Console. To add a ...  The post appeared first on ."
+  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
 }

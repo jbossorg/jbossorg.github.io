@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.32.0 released!",
-  "link": "https://blog.kie.org/2023/01/kogito-1-32-0-released.html",
+  "title": "How to configure SLF4J in WildFly applications",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-configure-slf4j-in-wildfly-applications/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-17T12:38:34.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.32.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.15 integration  * Integration with Flyway for PostgreSQL data migration for process runtime    persistence in the following addons:    kogito-addons-quarkus-persistence-postgresql and    kogito-addons-springboot-persistence-postgresql.  * Data Index Integration with Flyway for PostgreSQL persistence.   * Sleep parameter can be used in action to define the time periods that the    workflow execution should sleep before/after executing the function. It needs    to be used as mentioned in the Specification .   BREAKING CHANGES   * Removed kogito.persistence.auto.ddl property for PostgreSQL persistence    addons ( kogito-addons-quarkus-persistence-postgresql and    kogito-addons-springboot-persistence-postgresql ). Please refer to using    Flyway integration in order to handle database creation.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.26.0 artifacts are available at the .  A detailed changelog for 1.32.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-01-17T13:15:59.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will discuss how to use Simple Logging Facade for Java (SLF4J) with Wildfly application server. SLF4J is a logging facade that provides a unified interface for various logging frameworks, such as log4j, java.util.logging, and Logback. It allows for the decoupling of the application code from the underlying logging framework, making it ...  The post appeared first on ."
 }
