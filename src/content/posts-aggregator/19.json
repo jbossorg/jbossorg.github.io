@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.15.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-15-2-final-released/",
+  "title": "Quarkus 2.15.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-15-3-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-04T00:00:00.000Z",
+  "date": "2023-01-10T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "The Quarkus team wishes you a happy new year, and with the new year comes a new Quarkus release, 2.15.2.Final. This version contains bugfixes and documentation improvements for our 2.15 release train. It is a recommended upgrade for anyone already using 2.15. If you are not already using 2.15, please..."
+  "content": "Today, we released Quarkus 2.15.3.Final, our third maintenance release for Quarkus 2.15. As usual it comes with bugfixes and documentation improvements. It is a recommended upgrade for anyone already using 2.15. If you are not already using 2.15, please refer to our migration guide. Full changelog You can get the..."
 }

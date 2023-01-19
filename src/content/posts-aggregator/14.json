@@ -1,13 +1,13 @@
 {
-  "title": "Exceptional rules, with Drools and Kogito",
-  "link": "https://blog.kie.org/2023/01/exceptional-rules-with-drools-and-kogito.html",
+  "title": "Configure Hibernate Connection Pool",
+  "link": "http://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/configure-a-connection-pool-with-hibernate/",
   "author": [
     {
-      "name": "Matteo Mortari",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-14T12:18:01.000Z",
-  "feed_title": "KIE Community",
-  "content": "Managing exceptional rules is easy, thanks to Drools and Kogito!  In this use-case, we have a base business process and a default knowledge base with rules, which can be overridden by specific entities or departments as needed.  We actually have several architectural options we could implement!  The simplest architectural option I can think about, draws inspiration from this book by Alan Fish:  “Knowledge Automation: How to Implement Decision Management in Business Processes” Book by Alan N. Fish  which is a great book by the way if you also want to understand the main ideas prequel to the DMN standard!  Exceptional rules using only DMN  In a decision node in DMN, we check if any exception is applicable, and we collect the exceptions in a list.   * If the exception list is empty, we apply the default knowledge and rules.  * Otherwise, we apply the rules related to the most relevant exceptions from    the list.  You may substitute the BKM nodes with Decision Service, say coming from other DMN models!  Another option is to model this with a combination of BPMN and DMN and rules, the idea is similar:  Managing exceptional rules with BPMN and DMN  The default branch applies the default knowledge base and would be followed, unless in the predetermination task we have evaluated we must follow one of the exceptional types of branches.  A final option would be to deploy each knowledge base –the default one, the different exceptional ones– each as its own Kogito microservice on a cloud native environment such as Kubernetes:  Then, you can orchestrate them using a Serverless Workflow, which will be in charge of invoking the needed cloud-native decision service.  As you have seen, managing exceptional rules is easy, thanks to Drools and Kogito!  The post appeared first on ."
+  "date": "2023-01-17T08:15:43.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to configure a JDBC Connection Pool in Hibernate applications covering both Hibernate managed applications and Hibernate Native applications. A JDBC connection pool is a set of connections to a database that are created and maintained by an application, rather than creating a new connection each time it needs to interact with ...  The post appeared first on ."
 }
