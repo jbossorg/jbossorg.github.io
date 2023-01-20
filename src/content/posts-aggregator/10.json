@@ -1,13 +1,13 @@
 {
-  "title": "Solving java.lang.OutOfMemoryError: Metaspace error",
-  "link": "http://www.mastertheboss.com/java/solving-java-lang-outofmemoryerror-metaspace-error/",
+  "title": "How to access WildFly Admin Console",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-access-wildfly-admin-console/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T08:22:55.000Z",
+  "date": "2023-01-18T10:01:44.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The java.lang.OutOfMemoryError: Metaspace indicates that the amount of native memory allocated for Java class metadata is exausted. Let’s how this issue can be solved in standalone applications and cloud applications. In general terms, the more classes you are loading into the JVM, the more memory will be consumed by the metaspace. In Java 8 and ...  The post appeared first on ."
+  "content": "This short tutorial will teach you how to access WildFly Admin Console also known as WildFly Management Console. WildFly Admin Console Default URL The default URL for WildFly Management Console is http://localhost:9990. Upon installation, you cannot connect to WildFly Management Console because there is no default Admin user for the Management Console. To add a ...  The post appeared first on ."
 }
