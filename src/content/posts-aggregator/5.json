@@ -1,13 +1,13 @@
 {
-  "title": "How to solve java.lang.OutOfMemoryError: unable to create new native thread",
-  "link": "http://www.mastertheboss.com/jbossas/monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread/",
+  "title": "How do I know the WSDL URL of my Web Service ?",
+  "link": "http://www.mastertheboss.com/java-ee/jboss-web-services/how-do-i-know-the-wsdl-url-of-my-web-service/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-19T07:38:27.000Z",
+  "date": "2023-01-19T08:58:55.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In Java you can stumble upon two kinds of Out of Memory errors: The java.lang.OutOfMemoryError Java heap space error : the application tried to allocate more data into the heap space area, but there is not enough room for it.  Although there might be plenty of memory available on your machine, you have hit the ...  The post appeared first on ."
+  "content": "In this tutorial we will learn how to find the SOAP Web Service WSDL URL, so that you can quickly test your SOAP Web Service. SOAP Web Service overview Firstly, let’s deploy a sample SOAP Web Service on JBoss EAP or WildFly. If you inspect the server.log file, you will see that the Logger org.jboss.ws.cxf.metadata ...  The post appeared first on ."
 }

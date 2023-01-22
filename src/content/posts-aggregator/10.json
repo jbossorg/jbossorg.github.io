@@ -1,13 +1,13 @@
 {
-  "title": "How to access WildFly Admin Console",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-access-wildfly-admin-console/",
+  "title": "How to configure SSL/HTTPS on WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-security/complete-tutorial-for-configuring-ssl-https-on-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T10:01:44.000Z",
+  "date": "2023-01-18T10:51:49.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short tutorial will teach you how to access WildFly Admin Console also known as WildFly Management Console. WildFly Admin Console Default URL The default URL for WildFly Management Console is http://localhost:9990. Upon installation, you cannot connect to WildFly Management Console because there is no default Admin user for the Management Console. To add a ...  The post appeared first on ."
+  "content": "This is a complete tutorial about configuring SSL/HTTPS support for JBoss EAP / WildFly application server. Generally speaking, to configure SSL/HTTPS you can either use the pure JSSE implementation (and the keytool utility) or a native implementation such as OpenSSL. We will cover at first the JSSE implementation with keytool. Later we will show how ...  The post appeared first on ."
 }
