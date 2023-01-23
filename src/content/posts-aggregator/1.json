@@ -1,13 +1,13 @@
 {
-  "title": "Comparing Jackson vs JSONB",
-  "link": "http://www.mastertheboss.com/java-ee/json/comparing-jackson-vs-jsonb/",
+  "title": "Quarkus 3.0.0.Alpha3 released - Third iteration of our Jakarta EE 10 stream",
+  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha3-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-22T19:06:02.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "JSON-B and Jackson are both libraries that can be used for parsing and generating JSON data in Java. However, they have some differences in their functionality and usage. This tutorial will discuss them in detail. Jackson and JSON-B in a nutshell Firstly, if you are new to JSON parsing, let’s give an overview to these ...  The post appeared first on ."
+  "date": "2023-01-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As you might know by now, we started a Quarkus 3.0 effort last year and we are continuing this effort, which was described here, here, here, and here. Quarkus 3.0.0.Alpha3 is the third iteration of this work. On the Jakarta EE 10 front, it doesn’t bring anything new, except for..."
 }
