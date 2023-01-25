@@ -1,13 +1,13 @@
 {
-  "title": "How to create a Java JMS Client for Artemis",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/activemq/how-to-create-a-java-jms-client-for-artemis/",
+  "title": "REST Crud Application using Quarkus and Vue.js",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-24T14:36:04.000Z",
+  "date": "2023-01-25T15:01:05.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to write an example Java JMS Client for an Artemis MQ server. We will cover both the configuration of the address in Artemis and a simple Java Client. When working with JMS, destinations such as queues and topics are typically located using JNDI (Java Naming and Directory Interface). The ...  The post appeared first on ."
+  "content": "This article shows how to run a Quarkus 3 application using Jakarta REST Service and a Vue.js front-end. The example application will wrap the CRUD method of the endpoint with equivalent Vue.js functions. Let’s get started ! Pre-requisites: You should be familiar with REST Services and VueJS Web interfaces. If you are new to that, ...  The post appeared first on ."
 }
