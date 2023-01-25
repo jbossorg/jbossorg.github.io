@@ -1,13 +1,13 @@
 {
-  "title": "How to Start, Stop and Restart WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-stop-and-restart-wildfly/",
+  "title": "How to solve “Too many Open Files” in Java applications",
+  "link": "http://www.mastertheboss.com/java/hot-to-solve-the-too-many-open-files-error-in-java-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T17:35:10.000Z",
+  "date": "2023-01-19T07:32:19.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This guide contains some tips to teach you how to start, stop, restart WildFly application server. By the end of this tutorial, you will be able to effectively manage the lifecycle of your Wildfly server as needed. First of all, WildFly can be run in two modes: Standalone mode and Domain mode. Booting WildFly in ...  The post appeared first on ."
+  "content": "Scenario: Your application log displays the error message “Too many Open Files“. As a result, application requests are failing and you need to restart the application. In some cases, you also need to reboot your machine. Facts: The JVM console (or log file) contains the following error: java.io.FileNotFoundException: filename (Too many open files) at java.io.FileInputStream.open(Native ...  The post appeared first on ."
 }

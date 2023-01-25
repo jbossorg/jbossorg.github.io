@@ -1,13 +1,13 @@
 {
-  "title": "How to solve “Too many Open Files” in Java applications",
-  "link": "http://www.mastertheboss.com/java/hot-to-solve-the-too-many-open-files-error-in-java-applications/",
+  "title": "How to solve java.lang.OutOfMemoryError: unable to create new native thread",
+  "link": "http://www.mastertheboss.com/jbossas/monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-19T07:32:19.000Z",
+  "date": "2023-01-19T07:38:27.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Scenario: Your application log displays the error message “Too many Open Files“. As a result, application requests are failing and you need to restart the application. In some cases, you also need to reboot your machine. Facts: The JVM console (or log file) contains the following error: java.io.FileNotFoundException: filename (Too many open files) at java.io.FileInputStream.open(Native ...  The post appeared first on ."
+  "content": "In Java you can stumble upon two kinds of Out of Memory errors: The java.lang.OutOfMemoryError Java heap space error : the application tried to allocate more data into the heap space area, but there is not enough room for it.  Although there might be plenty of memory available on your machine, you have hit the ...  The post appeared first on ."
 }
