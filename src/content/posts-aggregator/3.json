@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.0.Final released - Redis time series and preloading, support for XDS in gRPC",
-  "link": "https://quarkus.io/blog/quarkus-2-16-0-final-released/",
+  "title": "REST Crud Application using Quarkus and Vue.js",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today we released Quarkus 2.16.0.Final with several improvements, bugfixes and documentation refinements. Major changes are: Support for time series operations and preloading data in the Redis extension Support for custom exception handling and XDS in the gRPC extension More flexibility for the Cache extension configuration Several security-related improvements focused on..."
+  "date": "2023-01-25T15:01:05.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article shows how to run a Quarkus 3 application using Jakarta REST Service and a Vue.js front-end. The example application will wrap the CRUD method of the endpoint with equivalent Vue.js functions. Let’s get started ! Pre-requisites: You should be familiar with REST Services and VueJS Web interfaces. If you are new to that, ...  The post appeared first on ."
 }
