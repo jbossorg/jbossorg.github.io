@@ -1,13 +1,13 @@
 {
-  "title": "How to run Keycloak with Docker",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
+  "title": "How to Start, Stop and Restart WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-stop-and-restart-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T15:27:02.000Z",
+  "date": "2023-01-18T17:35:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
+  "content": "This guide contains some tips to teach you how to start, stop, restart WildFly application server. By the end of this tutorial, you will be able to effectively manage the lifecycle of your Wildfly server as needed. First of all, WildFly can be run in two modes: Standalone mode and Domain mode. Booting WildFly in ...  The post appeared first on ."
 }

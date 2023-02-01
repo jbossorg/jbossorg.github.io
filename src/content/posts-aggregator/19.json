@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 26.1.3 is released",
-  "link": "https://wildfly.org//news/2023/01/18/WildFly2613-Released/",
+  "title": "How to run Keycloak with Docker",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-with-docker/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 26.1.3.Final is now available .  We’ve received requests from members of our community to address a recent . The WildFly project generally doesn’t continue to produce bug-fix releases for older versions once a new major or minor release is out. But we recognize that the transition to WildFly 27 and EE 10 is likely to take our users longer than it does for most releases, so given the severity of we decided to do an additional limited payload bug fix release for the 26.1 series.  The following issues were resolved in 26.1.3:  COMPONENT UPGRADES   * - Upgrade Jackson Databind 2.12.7.1 (addresses and )   * - Upgrade CXF from 3.4.7 to 3.4.10 (addresses )   * - Upgrade jaxb-ri to 2.3.3-b02-jbossorg-2  TASKS   * - Default to instead of to resolve XML Binding TCK failures  Thank you for your support of WildFly."
+  "date": "2023-01-18T15:27:02.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services. Docker Images for Keycloak are available on the quay.io Docker repository. In this tutorial we will learn how to run it with Docker, using some common environment parameters. Available Keycloak distributions The Keycloak Docker Image for is available in this ...  The post appeared first on ."
 }
