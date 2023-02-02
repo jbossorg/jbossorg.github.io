@@ -1,13 +1,13 @@
 {
-  "title": "REST Crud Application using Quarkus and Vue.js",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js/",
+  "title": "First Virtual Technical Exploration for IBM Business Automation Manager Open Edition on February 8 (EMEA time-zone)",
+  "link": "https://blog.kie.org/2023/01/first-virtual-technical-exploration-for-ibm-business-automation-manager-open-edition-on-february-8-emea-time-zone.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Reinhold Engelbrecht",
       "avatar": null
     }
   ],
-  "date": "2023-01-25T15:01:05.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article shows how to run a Quarkus 3 application using Jakarta REST Service and a Vue.js front-end. The example application will wrap the CRUD method of the endpoint with equivalent Vue.js functions. Let’s get started ! Pre-requisites: You should be familiar with REST Services and VueJS Web interfaces. If you are new to that, ...  The post appeared first on ."
+  "date": "2023-01-26T15:54:14.000Z",
+  "feed_title": "KIE Community",
+  "content": "Karina Varela and myself would like to invite you to this free technical exploration (with hands-on labs) on IBM Business Automation Manager Open Edition (BAM) which is the new name for the former Red Hat PAM/DM products that have recently moved to the IBM Business Automation portfolio.  After this session, you will have a good understanding of what this transition means for you. At the same time, you will get familiar with Kogito and design, build and deploy a simple Kogito automation project in OpenShift. The event that is targeted at an European, Middle East and Africa audience. It is also a good chance to get any questions related to the transition answered.  You will need to have your computer at hand for accessing the hands-on labs in the IBM Cloud (any operating system, just browser access is needed). As we expect a high interest in this technical exploration and the number of participants is limited due to the hands-on exercises, please fast to secure your seat.     AGENDA (STARTING AT 9:30 CET)   * IBM Business Automation Manager Open Edition – What the Product Transition    Means for You  * Overview of cloud-native business automation with Kogito  * Hands-on lab: From modelling to testing and deploying a business automation    in OpenShift  * Demo: Extending the solution with Robotic Process Automation (RPA)  * Some other Business Automation capabilities complimenting IBM Business    Automation Manager Open Edition  * Closing   INSTRUCTORS   * Fadi Sandakly, Nigel Crowther, Reinhold Engelbrecht – IBM Business Automation    Technical Sales EMEA     The post appeared first on ."
 }
