@@ -1,14 +1,13 @@
 {
-  "title": "Apache Kafka Landscape",
-  "link": "http://www.ofbizian.com/2023/01/apache-kafka-landscape.html",
+  "title": "Quarkus 3.0.0.Alpha3 released - Third iteration of our Jakarta EE 10 stream",
+  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha3-released/",
   "author": [
     {
-      "name": "Unknown",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-20T08:33:00.005Z",
-  "feed_title": "OFBizian",
-  "feed_avatar": "https://www.gravatar.com/avatar/279246bd111a7c211134179eddb94afa?s=50",
-  "content": " * ACTIVE APACHE KAFKA PROJECTS LIST:    * SELF-SERVICE FORM TO ADD A PROJECT:   Before joining to work on the project, I was a product manager at Red Hat. At Red Hat, I had the opportunity to with with exceptional teams on projects such as Debezium, Data Virtualization, Apicurio, Apache Camel, and Strimzi, and helped build Red Hat's . Kafka is more than just a fast message broker, it is a comprehensive ecosystem of various complementary management and development tools and managed services. Through my learning, , and exploration of the vast , I compiled a list of over 120 active Kafka projects I encountered. Here is a sneak peek some of these projects, with the full data set available in the provided .   Apache Kafka landscape projects  The projects are organized into main categories of the Kafka ecosystem, including Kafka distributions, stream processors, client libraries, connectors, schema registry, replicator, rest proxy, and management tools. Each project includes information on its license, programming language, and deployment types. Additionally, statistics such as GitHub stars or downloads are provided too, but it should be noted that these might have become outdated. A simple report generated from the list is available for reference.   Apache Kafka project stats  Discovering other active projects within the Apache Kafka ecosystem can be time-consuming. However, the data provided here is available for you to explore and use as you desire, saving you time and effort. If you wish to add any additional projects, tools, or services related to Apache Kafka, use the provided .  If you found this content useful, share and help spread this list to others in the Kafka universe. I hope to see you at this year. If my talk is accepted 🤞, I will be discussing the topic of creating \"Polyglot Microservices with Dapr and Kafka\" in more detail. "
+  "date": "2023-01-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As you might know by now, we started a Quarkus 3.0 effort last year and we are continuing this effort, which was described here, here, here, and here. Quarkus 3.0.0.Alpha3 is the third iteration of this work. On the Jakarta EE 10 front, it doesn’t bring anything new, except for..."
 }

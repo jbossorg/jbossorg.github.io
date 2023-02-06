@@ -1,13 +1,13 @@
 {
-  "title": "H2 Database Tutorial and expert Tips",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/h2-database-tutorial/",
+  "title": "Comparing Jackson vs JSONB",
+  "link": "http://www.mastertheboss.com/java-ee/json/comparing-jackson-vs-jsonb/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-20T07:46:35.000Z",
+  "date": "2023-01-22T19:06:02.000Z",
   "feed_title": "Mastertheboss",
-  "content": "H2 DB is an open source lightweight Database written in Java. It ships in JBoss EAP and WildFly application server to speed up developing and testing Java applications. Let’s have a look to the main configuration options and how to create an example application using the H2 DB. What is H2 database? Firstly, let’s see ...  The post appeared first on ."
+  "content": "JSON-B and Jackson are both libraries that can be used for parsing and generating JSON data in Java. However, they have some differences in their functionality and usage. This tutorial will discuss them in detail. Jackson and JSON-B in a nutshell Firstly, if you are new to JSON parsing, let’s give an overview to these ...  The post appeared first on ."
 }

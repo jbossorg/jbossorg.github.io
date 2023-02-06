@@ -1,13 +1,13 @@
 {
-  "title": "How to set the SameSite attribute in Java Web applications",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-set-the-samesite-attribute-in-java-web-applications/",
+  "title": "How to print logs in JSON format in WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-print-logs-in-json-format-in-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-06T07:43:46.000Z",
+  "date": "2023-02-06T09:32:44.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short article describes how you can set the SameSite property in HTTP Cookies for Web applications, with special focus on WildFly‘s Web server, which is Undertow. What is SameSite ? SameSite is a property that you can set in HTTP cookies to avoid false cross-site request (CSRF) attacks in web applications: When SameSite is ...  The post appeared first on ."
+  "content": "This article discusses the configuration you can apply in WildFly to enable logging in JSON format. We will learn how to do that natively in WildFly or using a Log4j custom configuration. Strategies for logging in JSON There are several use cases in which logging in JSON format can be useful. For example: Use cases ...  The post appeared first on ."
 }

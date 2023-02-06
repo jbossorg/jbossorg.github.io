@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Alpha3 released - Third iteration of our Jakarta EE 10 stream",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha3-released/",
+  "title": "How to create a Java JMS Client for Artemis",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/activemq/how-to-create-a-java-jms-client-for-artemis/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As you might know by now, we started a Quarkus 3.0 effort last year and we are continuing this effort, which was described here, here, here, and here. Quarkus 3.0.0.Alpha3 is the third iteration of this work. On the Jakarta EE 10 front, it doesn’t bring anything new, except for..."
+  "date": "2023-01-24T14:36:04.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to write an example Java JMS Client for an Artemis MQ server. We will cover both the configuration of the address in Artemis and a simple Java Client. When working with JMS, destinations such as queues and topics are typically located using JNDI (Java Naming and Directory Interface). The ...  The post appeared first on ."
 }

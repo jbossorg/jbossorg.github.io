@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.0.Final released - Redis time series and preloading, support for XDS in gRPC",
-  "link": "https://quarkus.io/blog/quarkus-2-16-0-final-released/",
+  "title": "First Virtual Technical Exploration for IBM Business Automation Manager Open Edition on February 8 (EMEA time-zone)",
+  "link": "https://blog.kie.org/2023/01/first-virtual-technical-exploration-for-ibm-business-automation-manager-open-edition-on-february-8-emea-time-zone.html",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Reinhold Engelbrecht",
       "avatar": null
     }
   ],
-  "date": "2023-01-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today we released Quarkus 2.16.0.Final with several improvements, bugfixes and documentation refinements. Major changes are: Support for time series operations and preloading data in the Redis extension Support for custom exception handling and XDS in the gRPC extension More flexibility for the Cache extension configuration Several security-related improvements focused on..."
+  "date": "2023-01-26T15:54:14.000Z",
+  "feed_title": "KIE Community",
+  "content": "Karina Varela and myself would like to invite you to this free technical exploration (with hands-on labs) on IBM Business Automation Manager Open Edition (BAM) which is the new name for the former Red Hat PAM/DM products that have recently moved to the IBM Business Automation portfolio.  After this session, you will have a good understanding of what this transition means for you. At the same time, you will get familiar with Kogito and design, build and deploy a simple Kogito automation project in OpenShift. The event that is targeted at an European, Middle East and Africa audience. It is also a good chance to get any questions related to the transition answered.  You will need to have your computer at hand for accessing the hands-on labs in the IBM Cloud (any operating system, just browser access is needed). As we expect a high interest in this technical exploration and the number of participants is limited due to the hands-on exercises, please fast to secure your seat.     AGENDA (STARTING AT 9:30 CET)   * IBM Business Automation Manager Open Edition – What the Product Transition    Means for You  * Overview of cloud-native business automation with Kogito  * Hands-on lab: From modelling to testing and deploying a business automation    in OpenShift  * Demo: Extending the solution with Robotic Process Automation (RPA)  * Some other Business Automation capabilities complimenting IBM Business    Automation Manager Open Edition  * Closing   INSTRUCTORS   * Fadi Sandakly, Nigel Crowther, Reinhold Engelbrecht – IBM Business Automation    Technical Sales EMEA     The post appeared first on ."
 }

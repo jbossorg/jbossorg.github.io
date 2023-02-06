@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-1-final-released/",
+  "title": "How to use a Datasource in Quarkus",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-01T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 2.16.1.Final, our first maintenance release for the 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. For people using Micrometer, the format used to export metrics has changed in 2.16 (for the Prometheus format),..."
+  "date": "2023-02-02T10:13:18.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Agroal is a connection pool implementation that can be used with Quarkus to manage database connections. In this tutorial, we will go over how to use the DataSource in a Quarkus application. First, you’ll need to add the Agroal extension to your Quarkus application. You can do this by adding the following dependency to your ...  The post appeared first on ."
 }

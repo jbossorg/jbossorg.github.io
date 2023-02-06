@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Native adopts Adaptive GC policy",
-  "link": "https://quarkus.io/blog/native-adopts-adaptive-gc-policy/",
+  "title": "REST Crud Application using Quarkus and Vue.js",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/jax-rs-crud-application-using-quarkus-and-vue-js/",
   "author": [
     {
-      "name": "Galder Zamarreño",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Starting with Quarkus 2.13.6.Final, the native runtime garbage collection policy switched in order to provide more consistent and predictable runtime performance. This blog post tells the story of this switch. Sometime in 2022 while carrying out some native runtime performance benchmarking we observed that, in constant load plain text benchmarks,..."
+  "date": "2023-01-25T15:01:05.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article shows how to run a Quarkus 3 application using Jakarta REST Service and a Vue.js front-end. The example application will wrap the CRUD method of the endpoint with equivalent Vue.js functions. Let’s get started ! Pre-requisites: You should be familiar with REST Services and VueJS Web interfaces. If you are new to that, ...  The post appeared first on ."
 }

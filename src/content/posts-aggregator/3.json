@@ -1,13 +1,13 @@
 {
-  "title": "How to use a Datasource in Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
+  "title": "How to set the SameSite attribute in Java Web applications",
+  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-set-the-samesite-attribute-in-java-web-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-02T10:13:18.000Z",
+  "date": "2023-02-06T07:43:46.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Agroal is a connection pool implementation that can be used with Quarkus to manage database connections. In this tutorial, we will go over how to use the DataSource in a Quarkus application. First, you’ll need to add the Agroal extension to your Quarkus application. You can do this by adding the following dependency to your ...  The post appeared first on ."
+  "content": "This short article describes how you can set the SameSite property in HTTP Cookies for Web applications, with special focus on WildFly‘s Web server, which is Undertow. What is SameSite ? SameSite is a property that you can set in HTTP cookies to avoid false cross-site request (CSRF) attacks in web applications: When SameSite is ...  The post appeared first on ."
 }

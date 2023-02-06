@@ -1,13 +1,13 @@
 {
-  "title": "How do I know the WSDL URL of my Web Service ?",
-  "link": "http://www.mastertheboss.com/java-ee/jboss-web-services/how-do-i-know-the-wsdl-url-of-my-web-service/",
+  "title": "H2 Database Tutorial and expert Tips",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/h2-database-tutorial/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-19T08:58:55.000Z",
+  "date": "2023-01-20T07:46:35.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to find the SOAP Web Service WSDL URL, so that you can quickly test your SOAP Web Service. SOAP Web Service overview Firstly, let’s deploy a sample SOAP Web Service on JBoss EAP or WildFly. If you inspect the server.log file, you will see that the Logger org.jboss.ws.cxf.metadata ...  The post appeared first on ."
+  "content": "H2 DB is an open source lightweight Database written in Java. It ships in JBoss EAP and WildFly application server to speed up developing and testing Java applications. Let’s have a look to the main configuration options and how to create an example application using the H2 DB. What is H2 database? Firstly, let’s see ...  The post appeared first on ."
 }

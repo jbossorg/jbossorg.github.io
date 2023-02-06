@@ -1,13 +1,13 @@
 {
-  "title": "New Feature: Dashbuilder editor with IntelliSense capabilities",
-  "link": "https://blog.kie.org/2023/02/new-feature-dashbuilder-editor-with-intellisense-capabilities.html",
+  "title": "Keycloak tutorial for beginners",
+  "link": "http://www.mastertheboss.com/keycloak/introduction-to-keycloak/",
   "author": [
     {
-      "name": "Ajay Jaganathan",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-01T14:02:58.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are pleased to announce that the dashbuilder editor now ships with auto-complete capabilities! This enhances the user experience by providing suggestions and helps to reduce the errors made while authoring the dashbuilder specification.   Let’s go through the new features in the below section:   AUTO-COMPLETE SUGGESTIONS:  While typing out a particular word or pressing ctrl+space, the editor provides the list of possible values for that particular context. The user can select the appropriate one from the list of possible values and automatically complete it. If any required field is missing, it also prompts the user with error messages. Below is a short video of the auto-complete capability in action.  Autocomplete while authoring   CREATING A SAMPLE DASHBUILDER SPECIFICATION(CODE LENS):  When starting with an empty file, the editor provides a code lens to auto-fill the file with a sample dashbuilder specification. This gives the user some boilerplate code to start authoring the specification. Below is a sample video of the code lens feature in action.  Codelens in action   CONCLUSION  These features are implemented to reduce the complexity of authoring a dashboard and the errors made while doing it. These features are available in all of our extensions! Stay tuned to learn more about the new features planned for .  The post appeared first on ."
+  "date": "2023-02-02T16:15:12.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Keycloak is an Identity and Access Management Server for Modern Applications and Services. In this Keycloak tutorial we will learn how to set up Keycloak and configure it to authenticate/authorize Enterprise applications. Keycloak update (2023) Keycloak is available in two distributions: Legacy distribution (which uses WildFly as runtime engine). Quarkus distribution (which uses Quarkus as ...  The post appeared first on ."
 }

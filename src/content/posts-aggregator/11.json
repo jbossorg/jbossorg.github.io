@@ -1,13 +1,13 @@
 {
-  "title": "How to create a Java JMS Client for Artemis",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/activemq/how-to-create-a-java-jms-client-for-artemis/",
+  "title": "Quarkus 2.16.0.Final released - Redis time series and preloading, support for XDS in gRPC",
+  "link": "https://quarkus.io/blog/quarkus-2-16-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-24T14:36:04.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to write an example Java JMS Client for an Artemis MQ server. We will cover both the configuration of the address in Artemis and a simple Java Client. When working with JMS, destinations such as queues and topics are typically located using JNDI (Java Naming and Directory Interface). The ...  The post appeared first on ."
+  "date": "2023-01-25T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today we released Quarkus 2.16.0.Final with several improvements, bugfixes and documentation refinements. Major changes are: Support for time series operations and preloading data in the Redis extension Support for custom exception handling and XDS in the gRPC extension More flexibility for the Cache extension configuration Several security-related improvements focused on..."
 }

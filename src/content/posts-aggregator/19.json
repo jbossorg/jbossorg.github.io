@@ -1,13 +1,13 @@
 {
-  "title": "How to solve java.lang.OutOfMemoryError: unable to create new native thread",
-  "link": "http://www.mastertheboss.com/jbossas/monitoring/how-to-solve-javalangoutofmemoryerror-unable-to-create-new-native-thread/",
+  "title": "Getting started with Quarkus 3",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-quarkus-3/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-19T07:38:27.000Z",
+  "date": "2023-01-19T12:47:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In Java you can stumble upon two kinds of Out of Memory errors: The java.lang.OutOfMemoryError Java heap space error : the application tried to allocate more data into the heap space area, but there is not enough room for it.  Although there might be plenty of memory available on your machine, you have hit the ...  The post appeared first on ."
+  "content": "This article introduces some of the new features of the upcoming Quarkus 3 release which is, at the time of writing, in Alpha state. We will cover the main highlights and some tools you can use to upgrade existing Quarkus applications. Quarkus 3 highlights Firstly, let’s discuss Quarkus 3 main highlights: An example Quarkus 3 ...  The post appeared first on ."
 }
