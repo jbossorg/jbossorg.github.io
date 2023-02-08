@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 26.1.3 is released",
-  "link": "https://wildfly.org//news/2023/01/18/WildFly2613-Released/",
+  "title": "Getting started with Quarkus 3",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-quarkus-3/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-01-18T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 26.1.3.Final is now available .  We’ve received requests from members of our community to address a recent . The WildFly project generally doesn’t continue to produce bug-fix releases for older versions once a new major or minor release is out. But we recognize that the transition to WildFly 27 and EE 10 is likely to take our users longer than it does for most releases, so given the severity of we decided to do an additional limited payload bug fix release for the 26.1 series.  The following issues were resolved in 26.1.3:  COMPONENT UPGRADES   * - Upgrade Jackson Databind 2.12.7.1 (addresses and )   * - Upgrade CXF from 3.4.7 to 3.4.10 (addresses )   * - Upgrade jaxb-ri to 2.3.3-b02-jbossorg-2  TASKS   * - Default to instead of to resolve XML Binding TCK failures  Thank you for your support of WildFly."
+  "date": "2023-01-19T12:47:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article introduces some of the new features of the upcoming Quarkus 3 release which is, at the time of writing, in Alpha state. We will cover the main highlights and some tools you can use to upgrade existing Quarkus applications. Quarkus 3 highlights Firstly, let’s discuss Quarkus 3 main highlights: An example Quarkus 3 ...  The post appeared first on ."
 }
