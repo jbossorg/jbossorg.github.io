@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Native adopts Adaptive GC policy",
-  "link": "https://quarkus.io/blog/native-adopts-adaptive-gc-policy/",
+  "title": "Quarkus 2.16.0.Final released - Redis time series and preloading, support for XDS in gRPC",
+  "link": "https://quarkus.io/blog/quarkus-2-16-0-final-released/",
   "author": [
     {
-      "name": "Galder Zamarreño",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2023-01-25T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Starting with Quarkus 2.13.6.Final, the native runtime garbage collection policy switched in order to provide more consistent and predictable runtime performance. This blog post tells the story of this switch. Sometime in 2022 while carrying out some native runtime performance benchmarking we observed that, in constant load plain text benchmarks,..."
+  "content": "Today we released Quarkus 2.16.0.Final with several improvements, bugfixes and documentation refinements. Major changes are: Support for time series operations and preloading data in the Redis extension Support for custom exception handling and XDS in the gRPC extension More flexibility for the Cache extension configuration Several security-related improvements focused on..."
 }
