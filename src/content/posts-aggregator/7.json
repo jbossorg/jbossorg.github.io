@@ -1,13 +1,13 @@
 {
-  "title": "Keycloak tutorial for beginners",
-  "link": "http://www.mastertheboss.com/keycloak/introduction-to-keycloak/",
+  "title": "How to set the SameSite attribute in Java Web applications",
+  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-set-the-samesite-attribute-in-java-web-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-02T16:15:12.000Z",
+  "date": "2023-02-06T07:43:46.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak is an Identity and Access Management Server for Modern Applications and Services. In this Keycloak tutorial we will learn how to set up Keycloak and configure it to authenticate/authorize Enterprise applications. Keycloak update (2023) Keycloak is available in two distributions: Legacy distribution (which uses WildFly as runtime engine). Quarkus distribution (which uses Quarkus as ...  The post appeared first on ."
+  "content": "This short article describes how you can set the SameSite property in HTTP Cookies for Web applications, with special focus on WildFly‘s Web server, which is Undertow. What is SameSite ? SameSite is a property that you can set in HTTP cookies to avoid false cross-site request (CSRF) attacks in web applications: When SameSite is ...  The post appeared first on ."
 }
