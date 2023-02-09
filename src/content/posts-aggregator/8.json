@@ -1,13 +1,13 @@
 {
-  "title": "How to set the SameSite attribute in Java Web applications",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-set-the-samesite-attribute-in-java-web-applications/",
+  "title": "How to compress logs in WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-compress-logs-in-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-06T07:43:46.000Z",
+  "date": "2023-02-06T09:12:23.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short article describes how you can set the SameSite property in HTTP Cookies for Web applications, with special focus on WildFly‘s Web server, which is Undertow. What is SameSite ? SameSite is a property that you can set in HTTP cookies to avoid false cross-site request (CSRF) attacks in web applications: When SameSite is ...  The post appeared first on ."
+  "content": "This article shows how to enable logs compression in WildFly by setting the appropriate suffix in your Periodic Rotating File Handler. In the second part of this tutorial we will learn how to compress logs using Log4j instead. Compressing Logs natively with WildFly Logs are an essential part of any software application, as they help ...  The post appeared first on ."
 }
