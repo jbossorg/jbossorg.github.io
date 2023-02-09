@@ -1,0 +1,78 @@
+= This Week in JBoss - 26 January 2023
+Pedro Silva
+2023-08-02
+:tags: serverless, dashbuilder, keycloak, vertx, wildfly, openshift
+
+Hi everyone!
+
+It's great to be back and bringing you the 2nd edition of the JBoss Editorial of 2023.
+We have a lot of exciting news and updates from JBoss world, so enjoy.
+
+== Releases, releases, releases...
+
+* link:https://vertx.io/blog/eclipse-vert-x-4-3-8/[Eclipse Vert.x 4.3.8 released!]
+* link:https://quarkus.io/blog/quarkus-2-16-2-final-released/[Quarkus 2.16.2.Final released - Maintenance release]
+
+== Serverless workflow validations
+
+link:https://blog.kie.org/2023/01/serverless-workflow-validations.html/[Serverless workflow validations] by Saravana Balaji
+
+Writing a Serverless Workflow that matches with the specification's rules and schema can require some documentation reading, which demands a few hours. In this article Saravana show how to implement a validation mechanism on Serverless Workflow Editor, that checks JSON and YAML files against Serverless Workflow specifications schema and also provides some custom validations in addition to it.
+
+== New Feature: Dashbuilder Editor With Intellisense Capabilities
+
+link:https://blog.kie.org/2023/02/new-feature-dashbuilder-editor-with-intellisense-capabilities.html[New Feature: Dashbuilder Editor With Intellisense Capabilities] by  Ajay Jaganathan
+
+In this great blog post Ajay introduces the new dashboard feature that now have auto-complete capabilities. This provides the user experience by providing suggestions and helps to reduce the errors made while authoring the dashbuilder specification. 
+
+== Synchronize Your Kie Sandbox Workspace With Bitbucket Or Github
+
+link:https://blog.kie.org/2023/02/synchronize-your-kie-sandbox-workspace-with-bitbucket-or-github.html[Synchronize Your Kie Sandbox Workspace With Bitbucket Or Github] by Jan Stastny
+
+Here is the news, KIE Sandbox now brings the possibility to synchronize your changes not only with GitHub, but also Bitbucket.
+
+== How JBoss EAP 8-Beta makes deployment on OpenShift easier
+
+link:https://developers.redhat.com/articles/2023/02/08/how-jboss-eap-8-beta-makes-deployment-openshift-easier[How JBoss EAP 8-Beta makes deployment on OpenShift easier] by Philip Hayes
+
+The new version of Red Hat JBoss EAP 8-Beta introduced changes to the provisioning and configuration of JBoss EAP application images on Red Hat OpenShift. In this great article, Philip shows the easiest way to put the EAP 8-Beta on the cloud using Openshift.
+
+== How to use a Datasource in Quarkus
+
+link:http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/[How to use a Datasource in Quarkus] by F.Marchioni
+
+If you need to know how to use a Datasource in Quarkus using Agroal, here is a great article to learn about it. Enjoy the reading.
+
+== Keycloak tutorial for beginners
+
+link:http://www.mastertheboss.com/keycloak/introduction-to-keycloak/[Keycloak tutorial for beginners] by F.Marchioni
+
+In this tutorial, Marchioni show the first steps on the Keycloak world. You will know how to start and configure the Keycloak based on Wildfly and also, the Keycloak based on Quarkus.
+
+== How to compress logs in WildFly
+
+link:http://www.mastertheboss.com/jbossas/jboss-log/how-to-compress-logs-in-wildfly/[How to compress logs in WildFly] by F.Marchioni
+
+This article shows how to enable logs compression in WildFly by setting the appropriate suffix in your Periodic Rotating File Handler. In the second part of this tutorial we will learn how to compress logs using Log4j instead.
+
+== How to print logs in JSON format in WildFly
+
+link:http://www.mastertheboss.com/jbossas/jboss-log/how-to-print-logs-in-json-format-in-wildfly/[How to print logs in JSON format in WildFly] by F.Marchioni
+
+If you need to use JSON format on your Wildfly logs, you would like to read this another great Marchioni tutorial.
+
+== DataCater uses Quarkus to make Data Streaming more accessible
+
+link:https://quarkus.io/blog/datacater-uses-quarkus-to-make-data-streaming-accessible/[DataCater uses Quarkus to make Data Streaming more accessible] by Stefan Sprenger
+
+This article gives a brief overview of the data streaming platform DataCater, discusses how we moved from Scala Play! and Kafka Streams to Quarkus, and presents why we think that Quarkus is an exceptional framework for developing cloud-native Java applications.
+
+== YouTube videos
+
+Definitely catch the replay of link:https://www.youtube.com/watch?v=95GsShVW6rY&list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2[Quarkus Insights #116: Continuous delivery with Quarkus Helm and ArgoCD] if you haven't already watched it.
+
+== Decaf'
+
+If you want to learn more about AI on Openshit, you need to know the link:https://ai-on-openshift.io/[AI ON Opensfhit] with demos, patterns, and other Machine Learn, MLOps, and AI stuff. You also may want to more about MLOps and Open Data Hub project. Open Data Hub (ODH) is an open source project that provides open source AI tools for running large and distributed AI workloads on the OpenShift Container Platform. So, go ahead and read the link:https://opendatahub.io/news/2023-02-06/docs-datascienceprojects.html[new Open Data Hub documentation].
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
