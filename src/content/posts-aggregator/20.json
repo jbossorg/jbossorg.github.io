@@ -1,13 +1,13 @@
 {
-  "title": "How to create a Java JMS Client for Artemis",
-  "link": "http://www.mastertheboss.com/jboss-frameworks/activemq/how-to-create-a-java-jms-client-for-artemis/",
+  "title": "Quarkus Native adopts Adaptive GC policy",
+  "link": "https://quarkus.io/blog/native-adopts-adaptive-gc-policy/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Galder Zamarreño",
       "avatar": null
     }
   ],
-  "date": "2023-01-24T14:36:04.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to write an example Java JMS Client for an Artemis MQ server. We will cover both the configuration of the address in Artemis and a simple Java Client. When working with JMS, destinations such as queues and topics are typically located using JNDI (Java Naming and Directory Interface). The ...  The post appeared first on ."
+  "date": "2023-01-25T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Starting with Quarkus 2.13.6.Final, the native runtime garbage collection policy switched in order to provide more consistent and predictable runtime performance. This blog post tells the story of this switch. Sometime in 2022 while carrying out some native runtime performance benchmarking we observed that, in constant load plain text benchmarks,..."
 }
