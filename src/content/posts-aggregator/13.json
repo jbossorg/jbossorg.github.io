@@ -1,13 +1,13 @@
 {
-  "title": "How to use a Datasource in Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
+  "title": "Keycloak tutorial for beginners",
+  "link": "http://www.mastertheboss.com/keycloak/introduction-to-keycloak/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-02T10:13:18.000Z",
+  "date": "2023-02-02T16:15:12.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Agroal is a connection pool implementation that can be used with Quarkus to manage database connections. In this tutorial, we will go over how to use the DataSource in a Quarkus application. First, you’ll need to add the Agroal extension to your Quarkus application. You can do this by adding the following dependency to your ...  The post appeared first on ."
+  "content": "Keycloak is an Identity and Access Management Server for Modern Applications and Services. In this Keycloak tutorial we will learn how to set up Keycloak and configure it to authenticate/authorize Enterprise applications. Keycloak update (2023) Keycloak is available in two distributions: Legacy distribution (which uses WildFly as runtime engine). Quarkus distribution (which uses Quarkus as ...  The post appeared first on ."
 }
