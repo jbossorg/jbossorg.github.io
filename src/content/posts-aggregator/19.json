@@ -1,13 +1,13 @@
 {
-  "title": "First Virtual Technical Exploration for IBM Business Automation Manager Open Edition on February 8 (EMEA time-zone)",
-  "link": "https://blog.kie.org/2023/01/first-virtual-technical-exploration-for-ibm-business-automation-manager-open-edition-on-february-8-emea-time-zone.html",
+  "title": "Quarkus 2.16.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-16-1-final-released/",
   "author": [
     {
-      "name": "Reinhold Engelbrecht",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-01-26T15:54:14.000Z",
-  "feed_title": "KIE Community",
-  "content": "Karina Varela and myself would like to invite you to this free technical exploration (with hands-on labs) on IBM Business Automation Manager Open Edition (BAM) which is the new name for the former Red Hat PAM/DM products that have recently moved to the IBM Business Automation portfolio.  After this session, you will have a good understanding of what this transition means for you. At the same time, you will get familiar with Kogito and design, build and deploy a simple Kogito automation project in OpenShift. The event that is targeted at an European, Middle East and Africa audience. It is also a good chance to get any questions related to the transition answered.  You will need to have your computer at hand for accessing the hands-on labs in the IBM Cloud (any operating system, just browser access is needed). As we expect a high interest in this technical exploration and the number of participants is limited due to the hands-on exercises, please fast to secure your seat.     AGENDA (STARTING AT 9:30 CET)   * IBM Business Automation Manager Open Edition – What the Product Transition    Means for You  * Overview of cloud-native business automation with Kogito  * Hands-on lab: From modelling to testing and deploying a business automation    in OpenShift  * Demo: Extending the solution with Robotic Process Automation (RPA)  * Some other Business Automation capabilities complimenting IBM Business    Automation Manager Open Edition  * Closing   INSTRUCTORS   * Fadi Sandakly, Nigel Crowther, Reinhold Engelbrecht – IBM Business Automation    Technical Sales EMEA     The post appeared first on ."
+  "date": "2023-02-01T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 2.16.1.Final, our first maintenance release for the 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. For people using Micrometer, the format used to export metrics has changed in 2.16 (for the Prometheus format),..."
 }

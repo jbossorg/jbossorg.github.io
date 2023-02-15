@@ -1,13 +1,13 @@
 {
-  "title": "Express Hibernate Queries as Type-Safe Java Streams",
-  "link": "https://quarkus.io/blog/jpastreamer-extension/",
+  "title": "Quarkus Newsletter #29 - February",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-29/",
   "author": [
     {
-      "name": "Julia Gustafsson",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-02-10T00:00:00.000Z",
+  "date": "2023-02-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Writing Hibernate queries using the Criteria API can be anything but intuitive and comes at the expense of wordiness. In this article, you will learn how the JPAStreamer Quarkus extension facilitates type-safe Hibernate queries without unnecessary complexity. As much as the JPA Criteria builder is expressive, JPA queries are often..."
+  "content": "Read the February newletter to get the latest articles, blogs and insights on Quarkus. Read \"Deploy serverless Java apps with Quarkus on Azure Functions\" to learn about Quarkus Funqy and its built-in support for the Azure Functions HTTP trigger for Java by Glenn Gailey, Christopher McClister, Daniel Oh, Carolyn McSharry,..."
 }

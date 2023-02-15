@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-2-final-released/",
+  "title": "DataCater uses Quarkus to make Data Streaming more accessible",
+  "link": "https://quarkus.io/blog/datacater-uses-quarkus-to-make-data-streaming-accessible/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Stefan Sprenger",
       "avatar": null
     }
   ],
   "date": "2023-02-09T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.16.2.Final, our second maintenance release for the 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. If you are not already using 2.16, please refer to our migration guide. Full changelog You can..."
+  "content": "This article gives a brief overview of the data streaming platform DataCater, discusses how we moved from Scala Play! and Kafka Streams to Quarkus, and presents why we think that Quarkus is an exceptional framework for developing cloud-native Java applications. What is DataCater? DataCater is a real-time, cloud-native data pipeline..."
 }

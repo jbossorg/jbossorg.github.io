@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.33.0 released!",
-  "link": "https://blog.kie.org/2023/02/kogito-1-33-0-released.html",
+  "title": "How to initialize an Array in Java in 4 simple ways",
+  "link": "http://www.mastertheboss.com/java/4-ways-to-initialize-an-array-in-java/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-13T00:58:30.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.33.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Quarkus 2.16 integration  * Infinispan upgrade to version 14.0.4  * Keycloack upgrade to version 20.0.2  * New Data Index addons that allow running indexing capabilities as part of    Kogito runtimes. For more details, visit the complete .  This includes the    following new addons as Quarkus extensions:    * kogito-addons-quarkus-data-index-infinispan    * kogito-addons-quarkus-data-index-mongodb    * kogito-addons-quarkus-data-index-inmemory    * Kogito-addons-quarkus-data-index-postgresql  * Integration with AsyncAPI quarkiverse extension  * Flyway added to help migrate Data Index schema based on Oracle database with    Kogito upgrade.  * Serverless Workflow can now integrate with Camel Routes defined within the    same Maven project. See this blog post for more information.   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.26.0 artifacts are available at the .  A detailed changelog for 1.33.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-02-15T07:17:47.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses about array initialization in Java, showing multiple ways to initialize an array, some of them you probably don’t know! How to declare an array in Java Firstly, some background. Java classifies types as primitive types, user-defined types, and array types. An array type is a region of memory that stores values in ...  The post appeared first on ."
 }

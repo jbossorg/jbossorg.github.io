@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #29 - February",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-29/",
+  "title": "Apache Maven Faqs for Java Developers",
+  "link": "http://www.mastertheboss.com/jboss-frameworks/jboss-maven/apache-maven-faqs/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read the February newletter to get the latest articles, blogs and insights on Quarkus. Read \"Deploy serverless Java apps with Quarkus on Azure Functions\" to learn about Quarkus Funqy and its built-in support for the Azure Functions HTTP trigger for Java by Glenn Gailey, Christopher McClister, Daniel Oh, Carolyn McSharry,..."
+  "date": "2023-02-15T07:13:02.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Welcome to our tutorial on Apache Maven FAQs! Apache Maven is a popular build automation tool used for Java projects. It helps developers manage project dependencies, build, test, and deploy projects. In this tutorial, we will cover some frequently asked questions about Maven and provide helpful answers and explanations. Overview of Apache Maven Apache Maven ...  The post appeared first on ."
 }
