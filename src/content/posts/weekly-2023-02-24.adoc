@@ -1,0 +1,36 @@
+= This Week in JBoss - 08 September 2022
+Jason Porter
+2023-02-24
+:tags: quarkus, kogito, vertx, drools, cloudevents, hibernate
+
+Welocme back everyone!
+I don't know about where you happen to be, but where I'm living, we had the second largest snow storm in recorded weather history.
+I've been digging out my driveway and front door for a couple of days.
+Needless to say, it has been a bit cold here.
+
+Also, my thoughts go out to those affected by the war between Russia and Ukraine, on this one year anniversary.
+Please stay as safe as you can.
+
+== Releases
+
+* https://blog.kie.org/2023/02/kogito-1-33-0-released.html[Kogito 1.33.0] - This release includes some version bumps, further integrations, and of course, some bug fixes.
+* https://vertx.io/blog/eclipse-vert-x-4-3-8/[Eclipse Vert.x 4.3.8] - Mostly a bug fix release, but if you're running Vert.x on Windows, it contains a fix for https://github.com/vert-x3/vertx-web/security/advisories/GHSA-53jx-vvf9-4x38[CVE-2023-24815].
+* https://quarkus.io/blog/quarkus-2-16-2-final-released/[Quarkus 2.16.2.Final] - Some bugfixes and documentation improvements mostly.
+
+== Blogs
+
+* https://blog.kie.org/2023/02/cloudevents-labeling-and-classification-with-drools.html[Cloudevents Labeling and Classification with Drools] - Matteo demos using declarative logic, persistence, eventing, and other tech to efficiently label and store Cloudevents.
+* https://quarkus.io/blog/datacater-uses-quarkus-to-make-data-streaming-accessible/[DataCater uses Quarkus to make Data Streaming more accessible] - Stefan explores DataCater and their reasoning in chosing to use Quarkus to replace their usage of Play! framework in reworking their data pipeline.
+* https://quarkus.io/blog/jpastreamer-extension/[Express Hibernate Queries as Type-Safe Java Streams] - Julia discusses the library `JPAStreamer.` It allows you to write persistence queries in a more stream-like manner and also making the queries performant.
+* https://blog.kie.org/2023/02/serverless-workflow-integration-camel-routes.html[Serverless Workflow Integration with Camel Routes] - Ricardo demonstrates the integration of Camel Routes with Kogito Serverless Workflow.
+* https://quarkus.io/newsletter/29/[Quarkus Newsletter #29] - Monthly Quarkus Newsletter for more Quarkus related information
+* http://www.mastertheboss.com/jboss-frameworks/jboss-maven/apache-maven-faqs/[Apache Maven Faqs for Java Developers] - If you're new to Apache Maven, or simply have some questions, this quick FAQ may help you out.
+
+== Videos
+
+* https://www.youtube.com/watch?v=H9yK0xnExeA[Quarkus Insights 118]
+
+== Until next time!
+
+Again, everyone stay safe, and I hope that your tests stay green!
+
