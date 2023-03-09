@@ -1,4 +1,4 @@
-= This Week in JBoss - 14th September 2023
+= This Week in JBoss - 24th February 2023
 Jason Porter
 2023-02-24
 :tags: quarkus, kogito, vertx, drools, cloudevents, hibernate
