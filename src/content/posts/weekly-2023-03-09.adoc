@@ -3,7 +3,7 @@ Romain Pelisse
 2023-03-10
 :tags: quarkus, kogito, vertx, ansible, container, kafka
 
-__Welcome to another installment of our JBoss editorial! And without any further ado, let's jump right into it._
+_Welcome to another installment of our JBoss editorial! And without any further ado, let's jump right into it._
 
 == Releases
 
