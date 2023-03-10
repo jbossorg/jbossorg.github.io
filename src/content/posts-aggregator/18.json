@@ -1,13 +1,13 @@
 {
-  "title": "New Feature: Dashbuilder editor with IntelliSense capabilities",
-  "link": "https://blog.kie.org/2023/02/new-feature-dashbuilder-editor-with-intellisense-capabilities.html",
+  "title": "Kubernetes-Native Development with Quarkus and Eclipse JKube",
+  "link": "https://quarkus.io/blog/kubernetes-native-development-with-quarkus-and-eclipse-jkube/",
   "author": [
     {
-      "name": "Ajay Jaganathan",
+      "name": "Eric Deandrea",
       "avatar": null
     }
   ],
-  "date": "2023-02-01T14:02:58.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are pleased to announce that the dashbuilder editor now ships with auto-complete capabilities! This enhances the user experience by providing suggestions and helps to reduce the errors made while authoring the dashbuilder specification.   Let’s go through the new features in the below section:   AUTO-COMPLETE SUGGESTIONS:  While typing out a particular word or pressing ctrl+space, the editor provides the list of possible values for that particular context. The user can select the appropriate one from the list of possible values and automatically complete it. If any required field is missing, it also prompts the user with error messages. Below is a short video of the auto-complete capability in action.  Autocomplete while authoring   CREATING A SAMPLE DASHBUILDER SPECIFICATION(CODE LENS):  When starting with an empty file, the editor provides a code lens to auto-fill the file with a sample dashbuilder specification. This gives the user some boilerplate code to start authoring the specification. Below is a sample video of the code lens feature in action.  Codelens in action   CONCLUSION  These features are implemented to reduce the complexity of authoring a dashboard and the errors made while doing it. These features are available in all of our extensions! Stay tuned to learn more about the new features planned for .  The post appeared first on ."
+  "date": "2023-02-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Table of Contents Introduction What is Eclipse JKube Remote Development? Eclipse JKube Remote Development and Quarkus Wrap-Up This article explains what Eclipse JKube Remote Development is and how can it help developers build Kubernetes-native applications with Quarkus. Introduction As mentioned in my previous article, Kubernetes-native inner loop development with Quarkus,..."
 }

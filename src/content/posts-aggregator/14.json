@@ -1,13 +1,13 @@
 {
-  "title": "How to compress logs in WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-compress-logs-in-wildfly/",
+  "title": "JBang: Create Java scripts like a pro",
+  "link": "http://www.mastertheboss.com/java/java-scripting-with-jbang/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-06T09:12:23.000Z",
+  "date": "2023-02-26T09:00:09.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article shows how to enable logs compression in WildFly by setting the appropriate suffix in your Periodic Rotating File Handler. In the second part of this tutorial we will learn how to compress logs using Log4j instead. Compressing Logs natively with WildFly Logs are an essential part of any software application, as they help ...  The post appeared first on ."
+  "content": "JBang is a scripting tool which allows to run Java application with minimal set up, without the need of having a project configuration. In this tutorial we will learn how to use it to run a simple Java application and then we will be looking at a more complex example, which starts a Quarkus application. ...  The post appeared first on ."
 }

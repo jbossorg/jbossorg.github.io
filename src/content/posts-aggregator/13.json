@@ -1,13 +1,13 @@
 {
-  "title": "How to print logs in JSON format in WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-log/how-to-print-logs-in-json-format-in-wildfly/",
+  "title": "8 Things you can do with JBang but you can’t with Shell",
+  "link": "http://www.mastertheboss.com/java/jbang-vs-jshell/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-06T09:32:44.000Z",
+  "date": "2023-02-26T09:12:35.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses the configuration you can apply in WildFly to enable logging in JSON format. We will learn how to do that natively in WildFly or using a Log4j custom configuration. Strategies for logging in JSON There are several use cases in which logging in JSON format can be useful. For example: Use cases ...  The post appeared first on ."
+  "content": "Using Java as scripting language has become a popular option in the last few years thanks to the JShell tool. In this article we will learn how the JBang scripting tool can take your Java scripting power at another level. Automatic fetching of dependencies The most impressing feature of JBang is dependency management. You can ...  The post appeared first on ."
 }

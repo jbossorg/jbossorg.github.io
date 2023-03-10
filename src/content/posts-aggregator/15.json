@@ -1,13 +1,13 @@
 {
-  "title": "How to set the SameSite attribute in Java Web applications",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-set-the-samesite-attribute-in-java-web-applications/",
+  "title": "Quarkus Reactive REST made easy",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/reactive-rest-with-quarkus-made-easy/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-06T07:43:46.000Z",
+  "date": "2023-02-25T10:10:09.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This short article describes how you can set the SameSite property in HTTP Cookies for Web applications, with special focus on WildFly‘s Web server, which is Undertow. What is SameSite ? SameSite is a property that you can set in HTTP cookies to avoid false cross-site request (CSRF) attacks in web applications: When SameSite is ...  The post appeared first on ."
+  "content": "Quarkus JAX RS implementation has improved a lot since its first release. Within this tutorial we will show some new features which are available in Quarkus starting from the new reactive REST paradigm. Quarkus uses SmallRye Mutiny for as main Reactive library. In our first tutorial, we have discussed how to use Mutiny to deliver ...  The post appeared first on ."
 }

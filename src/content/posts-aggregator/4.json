@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #29 - February",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-29/",
+  "title": "Openshift Cheatsheet for DevOps",
+  "link": "http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read the February newletter to get the latest articles, blogs and insights on Quarkus. Read \"Deploy serverless Java apps with Quarkus on Azure Functions\" to learn about Quarkus Funqy and its built-in support for the Azure Functions HTTP trigger for Java by Glenn Gailey, Christopher McClister, Daniel Oh, Carolyn McSharry,..."
+  "date": "2023-03-06T14:05:59.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article you will find a comprehensive Openshift Container Platform cheat sheet for System Administrators and Developers. Login and Configuration Firstly, let’s check the most common commands for Login and Configuration in OpenShift: #login with a user oc login https://192.168.99.100:8443 -u developer -p developer #login as system admin oc login -u system:admin #User Information ...  The post appeared first on ."
 }

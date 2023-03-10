@@ -1,13 +1,14 @@
 {
-  "title": "How to use a Datasource in Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
+  "title": "Keycloak 21.0.0 released",
+  "link": "https://www.keycloak.org/2023/02/keycloak-2100-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-02-02T10:13:18.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Agroal is a connection pool implementation that can be used with Quarkus to manage database connections. In this tutorial, we will go over how to use the DataSource in a Quarkus application. First, you’ll need to add the Agroal extension to your Quarkus application. You can do this by adding the following dependency to your ...  The post appeared first on ."
+  "date": "2023-02-23T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 20.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Duplicated set-cookie headers sent causing issues with proxies keycloak    authentication  * MigrateT021_0_0 fails with NPE if adminTheme is not configured explictly    keycloak core  * When upgrading from v20.0.2 to v21.0.0 I get a NPE on Theme keycloak core   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

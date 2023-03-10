@@ -1,13 +1,13 @@
 {
-  "title": "How to initialize an Array in Java in 4 simple ways",
-  "link": "http://www.mastertheboss.com/java/4-ways-to-initialize-an-array-in-java/",
+  "title": "Improvements to the GraphQL-Java integration",
+  "link": "https://vertx.io/blog/vertx-web-graphql-java-improvements",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Thomas Segismont",
       "avatar": null
     }
   ],
-  "date": "2023-02-15T07:17:47.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses about array initialization in Java, showing multiple ways to initialize an array, some of them you probably don’t know! How to declare an array in Java Firstly, some background. Java classifies types as primitive types, user-defined types, and array types. An array type is a region of memory that stores values in ...  The post appeared first on ."
+  "date": "2023-03-09T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Vert.x 4.4 ships several improvements to the GraphQL-Java integration."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "DataCater uses Quarkus to make Data Streaming more accessible",
-  "link": "https://quarkus.io/blog/datacater-uses-quarkus-to-make-data-streaming-accessible/",
+  "title": "Eclipse Vert.x 4.4.0 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-0",
   "author": [
     {
-      "name": "Stefan Sprenger",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-02-09T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "This article gives a brief overview of the data streaming platform DataCater, discusses how we moved from Scala Play! and Kafka Streams to Quarkus, and presents why we think that Quarkus is an exceptional framework for developing cloud-native Java applications. What is DataCater? DataCater is a real-time, cloud-native data pipeline..."
+  "date": "2023-03-02T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.0 has just been released. It comes with a set of new exciting features!"
 }

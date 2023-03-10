@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-1-final-released/",
+  "title": "Using MicroProfile OpenAPI with RESTEasy",
+  "link": "https://resteasy.dev/2023/02/20/resteasy-microprofile-openapi/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2023-02-01T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 2.16.1.Final, our first maintenance release for the 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. For people using Micrometer, the format used to export metrics has changed in 2.16 (for the Prometheus format),..."
+  "date": "2023-02-23T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

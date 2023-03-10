@@ -1,13 +1,14 @@
 {
-  "title": "Express Hibernate Queries as Type-Safe Java Streams",
-  "link": "https://quarkus.io/blog/jpastreamer-extension/",
+  "title": "The Ultimate Beginners Guide to Rules and Processes",
+  "link": "http://www.schabell.org/2023/03/ultimate-beginners-guide-to-rules-and-processes.html",
   "author": [
     {
-      "name": "Julia Gustafsson",
+      "name": "Eric D. Schabell",
       "avatar": null
     }
   ],
-  "date": "2023-02-10T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Writing Hibernate queries using the Criteria API can be anything but intuitive and comes at the expense of wordiness. In this article, you will learn how the JPAStreamer Quarkus extension facilitates type-safe Hibernate queries without unnecessary complexity. As much as the JPA Criteria builder is expressive, JPA queries are often..."
+  "date": "2023-03-03T06:00:00.005Z",
+  "feed_title": "Eric D. Schabell",
+  "feed_avatar": "https://www.gravatar.com/avatar/c4b562a3796ce4736927992c6daa4567?s=50",
+  "content": "  There are so many ways and so much content out there to get you started with open source rules and process automation tooling by Red Hat, so where do you start?     The goal of this guide is to provide you with a learning path through this content as a way to get started from download, to installation, to quick starts, to hands-on workshops, and all the way to using this technology for your cloud-native development projects.   You'll walk away from this guide with a learning path mapped out through content that's enjoyable to work with and can help you get started on your rules and process automation projects today.  There is a way to start from the beginning and walk a path to rules and process automation proficiency, outlined as follows:     1. Choosing the rules or process automation path  2. Obtain the tooling (downloads)  3. Quick start projects (installs, cloud-native, demos)  4. Published content collections  5. Video collections  6. Free hands-on workshops    To get started on your learning path just  below:      "
 }

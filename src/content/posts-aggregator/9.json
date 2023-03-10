@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-2-final-released/",
+  "title": "Q1 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.github.io/2023/03/01/resteasy-releases/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-02-09T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 2.16.2.Final, our second maintenance release for the 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. If you are not already using 2.16, please refer to our migration guide. Full changelog You can..."
+  "date": "2023-03-01T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
