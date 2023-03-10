@@ -1,13 +1,14 @@
 {
-  "title": "Kubernetes-Native Development with Quarkus and Eclipse JKube",
-  "link": "https://quarkus.io/blog/kubernetes-native-development-with-quarkus-and-eclipse-jkube/",
+  "title": "Keycloak 21.0.0 released",
+  "link": "https://www.keycloak.org/2023/02/keycloak-2100-released",
   "author": [
     {
-      "name": "Eric Deandrea",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2023-02-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Table of Contents Introduction What is Eclipse JKube Remote Development? Eclipse JKube Remote Development and Quarkus Wrap-Up This article explains what Eclipse JKube Remote Development is and how can it help developers build Kubernetes-native applications with Quarkus. Introduction As mentioned in my previous article, Kubernetes-native inner loop development with Quarkus,..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 20.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Duplicated set-cookie headers sent causing issues with proxies keycloak    authentication  * MigrateT021_0_0 fails with NPE if adminTheme is not configured explictly    keycloak core  * When upgrading from v20.0.2 to v21.0.0 I get a NPE on Theme keycloak core   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

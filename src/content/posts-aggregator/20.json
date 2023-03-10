@@ -1,13 +1,13 @@
 {
-  "title": "Using MicroProfile OpenAPI with RESTEasy",
-  "link": "https://resteasy.dev/2023/02/20/resteasy-microprofile-openapi/",
+  "title": "Kubernetes-Native Development with Quarkus and Eclipse JKube",
+  "link": "https://quarkus.io/blog/kubernetes-native-development-with-quarkus-and-eclipse-jkube/",
   "author": [
     {
-      "name": "阿男",
+      "name": "Eric Deandrea",
       "avatar": null
     }
   ],
   "date": "2023-02-23T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "Table of Contents Introduction What is Eclipse JKube Remote Development? Eclipse JKube Remote Development and Quarkus Wrap-Up This article explains what Eclipse JKube Remote Development is and how can it help developers build Kubernetes-native applications with Quarkus. Introduction As mentioned in my previous article, Kubernetes-native inner loop development with Quarkus,..."
 }
