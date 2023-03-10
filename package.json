@@ -35,7 +35,7 @@
     "fs-extra": "^9.0.1",
     "html-to-text": "^6.0.0",
     "jsdom": "^16.4.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "typescript": "^3.9.7",
     "yaml": "^1.10.0"
   }
