@@ -1,13 +1,13 @@
 {
-  "title": "JBang: Create Java scripts like a pro",
-  "link": "http://www.mastertheboss.com/java/java-scripting-with-jbang/",
+  "title": "8 Things you can do with JBang but you can’t with Shell",
+  "link": "http://www.mastertheboss.com/java/jbang-vs-jshell/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-26T09:00:09.000Z",
+  "date": "2023-02-26T09:12:35.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JBang is a scripting tool which allows to run Java application with minimal set up, without the need of having a project configuration. In this tutorial we will learn how to use it to run a simple Java application and then we will be looking at a more complex example, which starts a Quarkus application. ...  The post appeared first on ."
+  "content": "Using Java as scripting language has become a popular option in the last few years thanks to the JShell tool. In this article we will learn how the JBang scripting tool can take your Java scripting power at another level. Automatic fetching of dependencies The most impressing feature of JBang is dependency management. You can ...  The post appeared first on ."
 }
