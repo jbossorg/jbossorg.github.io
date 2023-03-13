@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.34.0 released!",
-  "link": "https://blog.kie.org/2023/02/kogito-1-34-0-released.html",
+  "title": "Quarkus Reactive REST made easy",
+  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/reactive-rest-with-quarkus-made-easy/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-23T14:28:34.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.34.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * [] Let Kogito Serverless Workflow Image Builder default to quarkus dev mode  * [KOGITO-8489] Async API now support using the same channel for    publishing/subscribing  * [KOGITO-7982] Terminate=true is no longer needed in the end state for a    workflow containing event states.  * [KOGITO-8249] Added workflow timeout support  * [KOGITO-8499] End state can now publish several events rather than one.  * [KOGITO-8330] ForEach state properly supports subprocess actions, passing the    iteration param to them.   * [] Enhance dataindex for custom support to Primitive Datatypes    Long/Float/Double  * [] Job Service New Public API including runtime addons  * [] Camel Routes integration in Serverless Workflow. To know more, see this .    KNOWN ISSUES   * Kogito Operator does not handle new Keycloak Operator, see  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.26.0 artifacts are available at the .  A detailed changelog for 1.34.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-02-25T10:10:09.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Quarkus JAX RS implementation has improved a lot since its first release. Within this tutorial we will show some new features which are available in Quarkus starting from the new reactive REST paradigm. Quarkus uses SmallRye Mutiny for as main Reactive library. In our first tutorial, we have discussed how to use Mutiny to deliver ...  The post appeared first on ."
 }
