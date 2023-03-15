@@ -1,13 +1,13 @@
 {
-  "title": "8 Things you can do with JBang but you can’t with Shell",
-  "link": "http://www.mastertheboss.com/java/jbang-vs-jshell/",
+  "title": "How to solve javax.net.ssl.SSLHandshakeException",
+  "link": "http://www.mastertheboss.com/java/how-to-solve-javax-net-ssl-sslhandshakeexception/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-02-26T09:12:35.000Z",
+  "date": "2023-02-26T14:56:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Using Java as scripting language has become a popular option in the last few years thanks to the JShell tool. In this article we will learn how the JBang scripting tool can take your Java scripting power at another level. Automatic fetching of dependencies The most impressing feature of JBang is dependency management. You can ...  The post appeared first on ."
+  "content": "If you’re encountering the “handshake_failure through SSLHandshakeException” error, it means there is an issue with the SSL/TLS handshake between the client and server. This can be caused by a variety of reasons such as outdated SSL/TLS protocol version, missing SSL/TLS certificates, or incorrect SSL/TLS configurations. To connect securely to a server, you first need to ...  The post appeared first on ."
 }
