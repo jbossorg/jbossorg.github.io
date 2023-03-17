@@ -1,13 +1,13 @@
 {
-  "title": "Configuring OpenId Authorization with Keycloak",
-  "link": "http://www.mastertheboss.com/keycloak/configuring-openid-authorization-with-keycloak/",
+  "title": "Q1 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.github.io/2023/03/01/resteasy-releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-03-01T16:50:13.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "OpenID Connect is a widely-used authentication protocol that allows users to authenticate themselves to a relying party (RP) website or application using their existing credentials from an identity provider (IDP). While OpenID Connect is primarily an authentication protocol, it also provides some support for authorization through the use of client resources and policies. In this ...  The post appeared first on ."
+  "date": "2023-03-01T18:11:11.000Z",
+  "feed_title": "Resteasy",
+  "content": ""
 }
