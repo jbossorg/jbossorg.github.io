@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 20.0.1 released",
-  "link": "https://www.keycloak.org/2022/11/keycloak-2001-released",
+  "title": "Configuring OpenId Authorization with Keycloak",
+  "link": "http://www.mastertheboss.com/keycloak/configuring-openid-authorization-with-keycloak/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-01T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 19.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * Weird characters when saving Authenticators config keycloak-ui    section/authentication  * NullPointerException when importing a json keycloak import-export  * JPA Map store JDBC transactions not rolled back on Hibernate transaction    rollback when running in Quarkus keycloak storage  * kc.bat fails with ClassNotFoundException keycloak dist/quarkus   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2023-03-01T16:50:13.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "OpenID Connect is a widely-used authentication protocol that allows users to authenticate themselves to a relying party (RP) website or application using their existing credentials from an identity provider (IDP). While OpenID Connect is primarily an authentication protocol, it also provides some support for authorization through the use of client resources and policies. In this ...  The post appeared first on ."
 }

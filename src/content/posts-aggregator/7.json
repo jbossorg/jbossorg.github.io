@@ -1,13 +1,13 @@
 {
-  "title": "Enabling Integrity on Filesystem realms",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity/",
+  "title": "Infinispan 14.0.7.Final",
+  "link": "https://infinispan.org/blog/2023/03/13/infinispan-14",
   "author": [
     {
-      "name": "Ashpan Raskar",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2022-11-10T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-03-13T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "We rarely do announcements for micro-releases, but 14.0.7.Final is a bit special, because it finally adds support for Spring 6 and Spring Boot 3.   SPRING FRAMEWORK 6 AND SPRING BOOT 3  We now ship components to support Spring Framework 6 and Spring Boot 3:  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-embedded</artifactId>    <version>14.0.7.Final</version> </dependency>  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-remote</artifactId>    <version>14.0.7.Final</version> </dependency>   IMPORTANT SIFS FIXES  This release also includes very important fixes to the Soft-Index File Store (SIFS), which is our default file-store implementation: if you use it for your persistent caches you should really upgrade !   RELEASE NOTES   FEATURE REQUEST   *    *    BUG   *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    TASK   *    *    *    COMPONENT UPGRADE   *    *    *    *    *    *    *    *    ENHANCEMENT   *    *    *    *    *    *    *    RELEASE NOTES  You can look at the to see what has changed since our latest CR.]  Get them from our .]"
 }

@@ -1,0 +1,59 @@
+= This Week in JBoss - December, 15th 2022
+Pedro Silva
+2022-12-15
+:tags: quarkus, java, jakarta ee, wildfly, camel, kamelets, debezium
+
+_Welcome to our new installment of JBoss Editorial! It is almost Christmas, so you can read the best news regarding JBoss world before open the Christmas gift under the tree._
+
+== Releases, releases, releases...
+
+It was a great two week with many releases! Enjoy the new features and improvements on our products
+
+* link:https://resteasy.dev/2022/12/13/resteasy-releases/[RESTEasy Releases (6.2.2 and 5.0.5)]
+* link:https://www.keycloak.org/2022/12/keycloak-2002-released[Keycloak 20.0.2]
+* link:https://blog.kie.org/2022/12/kogito-1-31-0-released.html[Kogito 1.31.0]
+* link:https://vertx.io/blog/eclipse-vert-x-4-3-6[Eclipse Vert.x 4.3.6]
+* link:https://quarkus.io/blog/quarkus-3-0-0-alpha2-released/[Quarkus 3.0.0.Alpha2]
+* link:https://quarkus.io/blog/quarkus-2-14-3-final-released/[Quarkus 2.14.3.Final]
+
+== Revised edition of WildFly books now available!
+
+link:http://www.mastertheboss.com/articles/news/revised-edition-of-wildfly-books-now-available/[Revised edition of WildFly books now available!] by F.Marchioni
+
+Here is the news, the **WildFly Administration Guide** and **Practical Enterprise Application development** are now Jakarta EE 10 ready!
+
+== Filesystem Realm Integrity
+
+link:https://www.youtube.com/watch?v=Tzd9GTr8kwE[Filesystem Realm Integrity] by Ashpan Raskar
+
+It is great video from Ashpan about Elytron Realms. He provides an introduction to using integrity verification in filesystem realms, a new feature added in WildFly 27.
+
+== New WildFly S2I and Runtime Multi-arch Images
+
+On this article Denise provides details regarding the new S2I and runtime multi-arch images.
+
+link:https://wildfly.org//news/2022/12/10/wildfly-s2i-images-rename-multi-archs/[New WildFly S2I and Runtime Multi-arch Images] by Jean-François Denise
+
+== Using JBeret With Quarkus
+
+link:https://jberet.github.io/jberet-quarkus/[Using JBeret With Quarkus] by Wei Nan Li
+
+JBeret is a Java and Jakarta EE Batch Processing that implements the Jakarta Batch API specification, and on this article Wei Nan Li describes how to integrate the JBeret with Quarkus.
+
+== Integrate Red Hat Process Automation Manager with Springboot
+
+link:https://blog.kie.org/2022/12/integrate-red-hat-process-automation-manager-with-springboot.html[Integrate Red Hat Process Automation Manager with Springboot] by Archana Krishnan
+
+Another great Archana article describes how to integrate the **Red Hat Process Automation Manager** with **Springboot** on Openshift 4.10.
+
+== How to run OpenTelemetry with WildFly Bootable Jar
+
+link:http://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-run-opentelemetry-with-wildfly-bootable-jar/[How to run OpenTelemetry with WildFly Bootable Jar] by by F.
+
+OpenTelemetry is a set of APIs and libraries that provide a vendor-neutral and open standard for observability in cloud-native applications. On this another article, Marchioni will teach you how to use the OpenTelemetry API in a sample REST Service which uses WildFly Bootable jar technology as runtime.
+
+== Decaf'
+
+We have also interesting stuff outside the Java world, like the link:https://developers.redhat.com/articles/2022/12/01/top-linux-resources-2022[Top Linux resources of 2022] where Heiker Medina shows the best Red Hat Enterprise Linux content of 2022. In the other hand on link:https://developers.redhat.com/articles/2022/12/06/top-kubernetes-and-openshift-resources-2022[Top Kubernetes and OpenShift resources of 2022] Medina shows the best of Microservices, Kubernetes, Openshit and Container. Talking about Openshift, on link:https://www.youtube.com/watch?v=2eK9xLUwtrs[In the Clouds (E32) | 10 Years of Red Hat OpenShift, and Cloud 2022 Roundup] video, Stu and Joe talk about the 10 Years of Red Hat OpenShift (kudos to Openshift)! Finally, the link:https://developers.redhat.com/cheat-sheets/git-cheat-sheet?[Git Cheat Sheet] new version was relealed with more tips to use Git.
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_

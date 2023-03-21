@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with gRPC on Java",
-  "link": "http://www.mastertheboss.com/java/getting-started-with-grpc-on-java/",
+  "title": "Quarkus Newsletter #30 - March",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-30/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2022-11-10T17:08:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is an introduction to gRPC framework which allows to connect services across data centers using high performance Remote Procedure Calls (RPC). To learn the building blocks of this framework, we will show how to create and test your first gRPC application in Java. Overview of gRPC Firstly, some basic concepts: in gRPC, a ...  The post appeared first on ."
+  "date": "2023-03-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It’s time for the March newletter so you can read the latest articles, blogs and insights on Quarkus. Get a deeper understanding of what developers can expect in the final version 3.0 with this InfoQ article \"Road to Quarkus 3: Bets on the Flow API for Mutiny 2.0, Updates to..."
 }

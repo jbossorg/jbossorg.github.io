@@ -1,13 +1,13 @@
 {
-  "title": "gRPC made easy with Quarkus",
-  "link": "http://www.mastertheboss.com/soa-cloud/quarkus/grpc-made-easy-with-quarkus/",
+  "title": "How to live reload applications on WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-live-reload-applications-on-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2022-11-14T19:06:50.000Z",
+  "date": "2023-03-17T07:38:45.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses how to create applications with the gRPC framework and Quarkus. We will reuse the sample Service definition from first Java gRPC application and run it as Quarkus REST application. Defining the gRPC Service Firstly, we recommend reading this article for an introduction to the gRPC framework: Getting started with gRPC on Java ...  The post appeared first on ."
+  "content": "In this article we will discuss how to use WildFly Maven plugin to automate the redeployment of applications on WildFly when you apply some changes to the application class files. What is WildFly Maven plugin WildFly Maven Plugin is a plugin for Apache Maven that provides a set of goals to manage and deploy applications ...  The post appeared first on ."
 }

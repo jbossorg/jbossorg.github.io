@@ -1,0 +1,32 @@
+= This Week in JBoss - 10th March 2023
+Romain Pelisse
+2023-03-10
+:tags: quarkus, kogito, vertx, ansible, container, kafka
+
+_Welcome to another installment of our JBoss editorial! And without any further ado, let's jump right into it._
+
+== Releases
+
+As always, the JBoss community has been quite active and released a steady stream of new versions:
+
+* https://blog.kie.org/2023/02/kogito-1-34-0-released.html[Kogito 1.34.0 released!]
+* https://vertx.io/blog/eclipse-vert-x-4-4-0/[Eclipse Vert.x 4.4.0 released!]
+* https://quarkus.io/blog/quarkus-3-0-0-alpha5-released/[Quarkus 3.0.0.Alpha5]
+* https://quarkus.io/blog/quarkus-2-16-4-final-released/[Quarkus 2.16.4.Final released]
+* https://galaxy.ansible.com/middleware_automation/keycloak[Ansible collection for Keyloak 1.1.1 released!]
+* https://galaxy.ansible.com/middleware_automation/amq_streams[Ansible collection for AMQ Streams (Kafka) 0.0.2 released!]
+* https://galaxy.ansible.com/middleware_automation/amq[Ansible collection for AMQ 1.3.0 released!]
+
+== Vert.x
+
+With https://vertx.io/blog/eclipse-vert-x-4-4-0/[Vert.x 4.4.0 recently released], it's a good opportunity to learn https://vertx.io/blog/whats-new-in-vert-x-4-4/[what's new in this version], discover https://vertx.io/blog/vertx-web-graphql-java-improvements/[Improvements to the GraphQL-Java integration] or how to migrate https://vertx.io/blog/from-vert-x-3-to-vert-x-4/[from Vert.x 3 to 4].
+
+== Kafka
+
+If you want to catch up with Kafka, last's week https://developers.redhat.com/blog/2023/03/01/kafka-monthly-digest-february-2023[Kafka Monthly Digest] is for you! And you also want to dig further with this article on https://developers.redhat.com/articles/2023/03/08/configuring-knative-broker-apache-kafka[configuring Knative Broker for Apache Kafka] or this https://developers.redhat.com/articles/2023/02/16/comparison-activemq-and-kafka[comparaison between ActiveMQ and Kafka]. Also worth mentioning, we just released an https://galaxy.ansible.com/middleware_automation/amq_streams:[Ansible collection to automate Kafka deployment using Ansible].
+
+== Decaf'
+
+Two more article before we end this installment. First, one on https://developers.redhat.com/articles/2023/03/07/overhauling-memory-tuning-openjdk-containers-updates[Overhauling memory tuning in OpenJDK containers], certainly a topic interesting to anyone deploying Java app inside containers. The second one is from yours truly, it's about using Ansible to set up and configure https://developers.redhat.com/articles/2023/02/20/automate-your-sso-ansible-and-keycloak[your own SSO with Keycloak]. I hope you'll enjoy it! And that note...
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
