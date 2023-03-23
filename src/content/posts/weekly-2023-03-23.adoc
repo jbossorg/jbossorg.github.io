@@ -1,7 +1,7 @@
 = This Week in JBoss - March, 23 2023
 Francesco Marchioni
 2022-03-23
-:tags: quarkus, java, jakarta ee, wildfly, camel, kamelets, debezium
+:tags: quarkus, java, wildfly, camel, ansible, infinispan, strimzi
 
 Happy Friday, everyone!
 
@@ -27,7 +27,7 @@ link:https://www.wildfly.org/news/2022/11/10/wildfly-docker-temurin/[A tutorial 
 This article discusses the ease of getting started with Ansible Middleware Collections and installing the Red Hat Ansible Automation Platform. It describes a tutorial that demonstrates how to configure a WildFly instance using Ansible in six steps, starting with preparing a local machine with the necessary tooling and deploying an instance of WildFly using the WildFly collection provided by the Ansible Middleware.
 
 
-== Udates on WildFly Maven Plugin
+== Updates on WildFly Maven Plugin
 
 link:https://www.wildfly.org/news/2023/03/09/WildFly-Maven-Plugin/[WildFly Maven Plugin], by James R. Perkins
 
