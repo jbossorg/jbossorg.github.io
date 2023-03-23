@@ -1,0 +1,55 @@
+= This Week in JBoss - March, 23 2023
+Francesco Marchioni
+2022-03-23
+:tags: quarkus, java, jakarta ee, wildfly, camel, kamelets, debezium
+
+Happy Friday, everyone!
+
+Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+
+* link:https://infinispan.org/blog/2023/03/13/infinispan-14/[Infinispan 14.0.7] - Although it's just a minor release update, there is an important update in it: the support for Spring 6 and Spring Boot 3 is finally available! Check the blog post for more news about this release.
+
+* link:https://quarkus.io/blog/quarkus-3-0-0-alpha6-released/[Quarkus 3.0.0.Alpha6 released] - This new minor release continues the path to the upcoming Quarkus version. Besides, it contains an enhancements to export OpenTelemetry data via JDBC.
+
+* link:https://camel.apache.org/blog/2023/03/RELEASE-4.0.0-M2/[Camel RELEASE 4.0.0-M2 available] - The Camel community announces the availability of Camel 4.0.0-M2, the second milestone towards a new 4.0.0 major release which comes with 75 new features and improvements.
+
+
+== A tutorial on Middleware Automation Collections
+
+link:https://www.wildfly.org/news/2022/11/10/wildfly-docker-temurin/[A tutorial on Middleware Automation Collections], by Harsha Cherukuri.
+
+This article discusses the ease of getting started with Ansible Middleware Collections and installing the Red Hat Ansible Automation Platform. It describes a tutorial that demonstrates how to configure a WildFly instance using Ansible in six steps, starting with preparing a local machine with the necessary tooling and deploying an instance of WildFly using the WildFly collection provided by the Ansible Middleware.
+
+
+== Udates on WildFly Maven Plugin
+
+link:https://www.wildfly.org/news/2023/03/09/WildFly-Maven-Plugin/[WildFly Maven Plugin], by James R. Perkins
+
+The wildfly-maven-plugin now includes a dev goal that functions similarly to the run goal, but with the added feature of monitoring source files for changes. In the event of any changes, the plugin automatically rebuilds and redeploys the WAR. This page documents the latest addition which is available in the version 4.1.0.Beta3 of the wildfly-maven-plugin.
+
+Besides, you can check this step-by-step guide on link:http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-live-reload-applications-on-wildfly/[how to enable live reload] of WildFly applications using the dev goal.
+
+
+
+== Getting started with Camel K
+
+link:http://www.masterspringboot.com/camel/getting-started-with-camel-k-tutorial/[Getting started with Camel-k], by Francesco Marchioni
+
+Camel K is a lightweight integration framework built from Apache Camel K that runs natively in the cloud on OpenShift. If you want to get started with it in less than 5 minutes, than this is the article for you!
+
+ 
+
+== Video: What's new in Strimzi 0.34.0
+
+link:https://strimzi.io/blog/2023/03/20/what-is-new-in-strimzi-0.34.0/[What's new in Strimzi 0.34.0], by Jakub Scholz
+
+Strimzi 0.34.0 has been released with multiple new features and improvements such as Stable Pod names in Connect. This video will give you an heads up about the new release in just 3 minutes!
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
+
