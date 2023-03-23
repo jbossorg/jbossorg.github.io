@@ -1,13 +1,13 @@
 {
-  "title": "Improvements to the GraphQL-Java integration",
-  "link": "https://vertx.io/blog/vertx-web-graphql-java-improvements",
+  "title": "What&#8217;s new in Dashbuilder 0.27.0?",
+  "link": "https://blog.kie.org/2023/03/whats-new-in-dashbuilder-0-27-0.html",
   "author": [
     {
-      "name": "Thomas Segismont",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2023-03-09T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Vert.x 4.4 ships several improvements to the GraphQL-Java integration."
+  "date": "2023-03-10T11:40:46.000Z",
+  "feed_title": "KIE Community",
+  "content": "was released yesterday (March 8th, 2023) and it comes with very interesting new features. Let’s explore the new release in this post!   NEW SAMPLES SCREEN  A new sample screen allows Dashbuilder to render dashboards from a remote or local repository. A sample is a dashboard that users can try without installing on their Dashbuilder. The samples’ screen can be accessed when no dashboard is available.  You can see the samples’ screen in action in our , but soon you will hear about it because it will be part of .   AUTOCOMPLETE AND SYNTAX CHECK  Dashbuilder now supports autocomplete and syntax verification in and !   CONTROLLED CONCURRENT DATASET ACCESS  Now dashbuilder unifies HTTP requests when multiple displayers try to access the same dataset. In practice if you have X displayers on a page, it used to result in X HTTP requests, now Dashbuilder makes a single request for all displayers.   BUG FIXES  Fixed navigation between dashboards: It is possible to have more than one dashboard on the same dashbuilder installation. The navigation between dashboards now refreshes the page, making it easier to navigate between dashboards;  Dark mode in components: Victory Charts and Table external components now supports dark mode;  Dark mode in VSCode: Dark mode is now fixed in VSCode extension   CONCLUSION  In this post we shared the new features and improvements in Dashbuilder 0.27.0! Stay tuned for more dashbuilder news.  The post appeared first on ."
 }
