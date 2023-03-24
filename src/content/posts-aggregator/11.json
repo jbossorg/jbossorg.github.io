@@ -1,13 +1,13 @@
 {
-  "title": "How to use Keycloak Admin REST API",
-  "link": "http://www.mastertheboss.com/keycloak/how-to-use-keycloak-admin-rest-api/",
+  "title": "Infinispan 14.0.7.Final",
+  "link": "https://infinispan.org/blog/2023/03/13/infinispan-14",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2023-03-10T16:42:44.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The Keycloak REST Admin API is a Web service Endpoint that allows you to manage Keycloak programmatically. It provides endpoints for creating, updating, and deleting Keycloak entities such as users, groups, clients, roles, and realms. You can use any programming language that supports HTTP requests to interact with the API. Pre-requisite: If you are new ...  The post appeared first on ."
+  "date": "2023-03-13T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "We rarely do announcements for micro-releases, but 14.0.7.Final is a bit special, because it finally adds support for Spring 6 and Spring Boot 3.   SPRING FRAMEWORK 6 AND SPRING BOOT 3  We now ship components to support Spring Framework 6 and Spring Boot 3:  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-embedded</artifactId>    <version>14.0.7.Final</version> </dependency>  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-remote</artifactId>    <version>14.0.7.Final</version> </dependency>   IMPORTANT SIFS FIXES  This release also includes very important fixes to the Soft-Index File Store (SIFS), which is our default file-store implementation: if you use it for your persistent caches you should really upgrade !   RELEASE NOTES   FEATURE REQUEST   *    *    BUG   *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    TASK   *    *    *    COMPONENT UPGRADE   *    *    *    *    *    *    *    *    ENHANCEMENT   *    *    *    *    *    *    *    RELEASE NOTES  You can look at the to see what has changed since our latest CR.]  Get them from our .]"
 }
