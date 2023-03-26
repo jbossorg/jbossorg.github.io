@@ -1,13 +1,13 @@
 {
-  "title": "Find out the JBoss version you are running",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/find-out-the-jboss-version-you-are-running/",
+  "title": "How to filter through a JSON Document using Java 8 Stream API",
+  "link": "http://www.mastertheboss.com/java-ee/json/how-to-filter-through-a-json-document-using-java-8-stream-api/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T07:43:39.000Z",
+  "date": "2023-03-26T07:58:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to find the version of WildFly or JBoss EAP that you are running. As we will see in a minute, there are multiple ways to find it however not all might be available in your scenario. Therefore, it’s good to know all the options you have. Let’s assume that ...  The post appeared first on ."
+  "content": "Filtering through a JSON document using Java 8 Stream API involves converting the JSON document into a stream of objects and then using the filter method to select the objects that match a given condition. Here are the steps to filter through a JSON document using Java 8 Stream API. Plain Java Streams filtering Java ...  The post appeared first on ."
 }

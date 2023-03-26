@@ -1,13 +1,13 @@
 {
-  "title": "How to debug remotely WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/how-to-debug-remotely-wildfly/",
+  "title": "Find out the JBoss version you are running",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/find-out-the-jboss-version-you-are-running/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-25T19:26:42.000Z",
+  "date": "2023-03-26T07:43:39.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Do you want to learn how to remotely debug WildFly using IntelliJ, Visual Studio or Eclipse? in this tutorial we will show all the steps to get started in minutes! Setting up WildFly Debugging a remotely running Java application is an important skill for any developer. In order to activate remote debug in WildFly, you ...  The post appeared first on ."
+  "content": "This article will teach you how to find the version of WildFly or JBoss EAP that you are running. As we will see in a minute, there are multiple ways to find it however not all might be available in your scenario. Therefore, it’s good to know all the options you have. Let’s assume that ...  The post appeared first on ."
 }

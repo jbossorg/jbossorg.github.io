@@ -1,13 +1,13 @@
 {
-  "title": "How to filter through a JSON Document using Java 8 Stream API",
-  "link": "http://www.mastertheboss.com/java-ee/json/how-to-filter-through-a-json-document-using-java-8-stream-api/",
+  "title": "How to install WildFly application server",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/installing-wildfly-on-windows/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T07:58:54.000Z",
+  "date": "2023-03-26T08:06:58.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Filtering through a JSON document using Java 8 Stream API involves converting the JSON document into a stream of objects and then using the filter method to select the objects that match a given condition. Here are the steps to filter through a JSON document using Java 8 Stream API. Plain Java Streams filtering Java ...  The post appeared first on ."
+  "content": "This tutorial covers how to install WildFly application server on Linux and Windows machines. First off, you need to download a JDK which is supported by WildFly. Then, we will download and unzip the application server. Installing Java Firstly, if you are not sure which JDK to download, check this article: Choosing the right JDK ...  The post appeared first on ."
 }
