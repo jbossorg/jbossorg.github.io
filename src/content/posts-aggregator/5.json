@@ -1,13 +1,13 @@
 {
-  "title": "How to set and load Properties in WildFly ?",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
+  "title": "Examples of jboss-deployment-structure.xml",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/practical-examples-of-jboss-deployment-structure-xml/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:47:27.000Z",
+  "date": "2023-03-26T10:29:15.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
+  "content": "This tutorial contains some examples of how to configure the file jboss-deployment-structure.xml . This file allows to fine tune the modules of your applications running on WildFly. The advantage of using this file (compared to the Manifest’s entry) is that you can define dependencies across top-level deployments and subdeployments. Basic sample of jboss-deployment-structure.xml Here is ...  The post appeared first on ."
 }

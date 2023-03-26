@@ -1,13 +1,13 @@
 {
-  "title": "Examples of jboss-deployment-structure.xml",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/practical-examples-of-jboss-deployment-structure-xml/",
+  "title": "Developing with IntelliJ Idea and WildFly",
+  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/developing-applications-with-intellij-idea-and-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T10:29:15.000Z",
+  "date": "2023-03-26T13:29:46.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial contains some examples of how to configure the file jboss-deployment-structure.xml . This file allows to fine tune the modules of your applications running on WildFly. The advantage of using this file (compared to the Manifest’s entry) is that you can define dependencies across top-level deployments and subdeployments. Basic sample of jboss-deployment-structure.xml Here is ...  The post appeared first on ."
+  "content": "This tutorial will give you an headstart about developing Enterprise applications with IntelliJ IDEA and WildFly. We will cover how to manage the integration with the application server and how to debug applications. Developing applications with IntelliJ Idea and WildFly is a popular choice for many Java developers. IntelliJ Idea is a powerful integrated development environment ...  The post appeared first on ."
 }
