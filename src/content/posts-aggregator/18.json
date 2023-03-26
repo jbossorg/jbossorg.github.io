@@ -1,13 +1,13 @@
 {
-  "title": "Improvements to the GraphQL-Java integration",
-  "link": "https://vertx.io/blog/vertx-web-graphql-java-improvements",
+  "title": "How to use Keycloak Admin REST API",
+  "link": "http://www.mastertheboss.com/keycloak/how-to-use-keycloak-admin-rest-api/",
   "author": [
     {
-      "name": "Thomas Segismont",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-09T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Vert.x 4.4 ships several improvements to the GraphQL-Java integration."
+  "date": "2023-03-10T16:42:44.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The Keycloak REST Admin API is a Web service Endpoint that allows you to manage Keycloak programmatically. It provides endpoints for creating, updating, and deleting Keycloak entities such as users, groups, clients, roles, and realms. You can use any programming language that supports HTTP requests to interact with the API. Pre-requisite: If you are new ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #30 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-30/",
+  "title": "Quarkus 3.0.0.Alpha6 released",
+  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha6-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-03-14T00:00:00.000Z",
+  "date": "2023-03-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "It’s time for the March newletter so you can read the latest articles, blogs and insights on Quarkus. Get a deeper understanding of what developers can expect in the final version 3.0 with this InfoQ article \"Road to Quarkus 3: Bets on the Flow API for Mutiny 2.0, Updates to..."
+  "content": "A week after Alpha5, we are releasing Quarkus 3.0.0.Alpha6. While Alpha5 came with major changes such as the upgrade to Hibernate ORM 6, Alpha6 is a smaller release packed with bugfixes, enhancements, and improvements to our upgrade process. What’s new Among all the bugfixes and enhancements, two are worth mentioning..."
 }

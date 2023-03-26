@@ -1,13 +1,13 @@
 {
-  "title": "Find out the JBoss version you are running",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/find-out-the-jboss-version-you-are-running/",
+  "title": "How to install WildFly application server",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/installing-wildfly-on-windows/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T07:43:39.000Z",
+  "date": "2023-03-26T08:06:58.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to find the version of WildFly or JBoss EAP that you are running. As we will see in a minute, there are multiple ways to find it however not all might be available in your scenario. Therefore, it’s good to know all the options you have. Let’s assume that ...  The post appeared first on ."
+  "content": "This tutorial covers how to install WildFly application server on Linux and Windows machines. First off, you need to download a JDK which is supported by WildFly. Then, we will download and unzip the application server. Installing Java Firstly, if you are not sure which JDK to download, check this article: Choosing the right JDK ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Beta1 released",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-beta1-released/",
+  "title": "Debugging RestAssured Tests",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/debugging-restassured-tests/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the availability of Quarkus 3.0.0.Beta1. We plan to release Quarkus 3.0.0.CR1 next week so now is a good time for testing the migration of your applications to Quarkus 3 (see below for more information about upgrading). Among a lot of bugfixes and small enhancements,..."
+  "date": "2023-03-24T16:45:58.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "When you run REST Assured tests, you may encounter errors such as failing assertions, incorrect responses, or unexpected behaviors. This article explains some techniques that can help you identify the root cause of these errors and fix them quickly. By debugging your tests, you can see what’s happening under the hood and find the issues ...  The post appeared first on ."
 }
