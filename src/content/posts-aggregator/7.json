@@ -1,13 +1,13 @@
 {
-  "title": "How to set and load Properties in WildFly ?",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
+  "title": "Choosing the right JDK for WildFly and JBoss EAP 7",
+  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/choosing-the-jdk-for-wildfly-and-jboss-eap-7/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:47:27.000Z",
+  "date": "2023-03-26T09:50:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
+  "content": "This tutorial discusses the recommended JDK versions to be used for WildFly and JBoss Enterprise Application Platform (EAP) and how to set the Java version for it. The modularization of the JVM that began with Java 9 had a significant impact on a complex server like WildFly, particularly in the areas of classloading and reflection, ...  The post appeared first on ."
 }
