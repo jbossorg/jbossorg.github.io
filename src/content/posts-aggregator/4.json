@@ -1,13 +1,13 @@
 {
-  "title": "How to install WildFly application server",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/installing-wildfly-on-windows/",
+  "title": "Choosing the right JDK for WildFly and JBoss EAP 7",
+  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/choosing-the-jdk-for-wildfly-and-jboss-eap-7/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T08:06:58.000Z",
+  "date": "2023-03-26T09:50:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial covers how to install WildFly application server on Linux and Windows machines. First off, you need to download a JDK which is supported by WildFly. Then, we will download and unzip the application server. Installing Java Firstly, if you are not sure which JDK to download, check this article: Choosing the right JDK ...  The post appeared first on ."
+  "content": "This tutorial discusses the recommended JDK versions to be used for WildFly and JBoss Enterprise Application Platform (EAP) and how to set the Java version for it. The modularization of the JVM that began with Java 9 had a significant impact on a complex server like WildFly, particularly in the areas of classloading and reflection, ...  The post appeared first on ."
 }
