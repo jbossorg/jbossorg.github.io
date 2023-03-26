@@ -1,13 +1,13 @@
 {
-  "title": "Infinispan 14.0.7.Final",
-  "link": "https://infinispan.org/blog/2023/03/13/infinispan-14",
+  "title": "Dashbuilder Quarkus Extension 0.27.0",
+  "link": "https://blog.kie.org/2023/03/dashbuilder-quarkus-extension-0-27-0.html",
   "author": [
     {
-      "name": "Tristan Tarrant",
-      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
+      "name": "William Siqueira",
+      "avatar": null
     }
   ],
-  "date": "2023-03-13T00:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "We rarely do announcements for micro-releases, but 14.0.7.Final is a bit special, because it finally adds support for Spring 6 and Spring Boot 3.   SPRING FRAMEWORK 6 AND SPRING BOOT 3  We now ship components to support Spring Framework 6 and Spring Boot 3:  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-embedded</artifactId>    <version>14.0.7.Final</version> </dependency>  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-remote</artifactId>    <version>14.0.7.Final</version> </dependency>   IMPORTANT SIFS FIXES  This release also includes very important fixes to the Soft-Index File Store (SIFS), which is our default file-store implementation: if you use it for your persistent caches you should really upgrade !   RELEASE NOTES   FEATURE REQUEST   *    *    BUG   *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    TASK   *    *    *    COMPONENT UPGRADE   *    *    *    *    *    *    *    *    ENHANCEMENT   *    *    *    *    *    *    *    RELEASE NOTES  You can look at the to see what has changed since our latest CR.]  Get them from our .]"
+  "date": "2023-03-14T20:55:27.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that Dashbuilder Quarkus Extension 0.27.0 is out with multiple improvements. In this article we are going to share the new features and you can see a little about it on our Quarkus insights session:     NEW SAMPLES SCREEN  Dashbuilder now provides a new samples screen that will allow users to start from a sample dashboard to build their own.    The Samples screen allows users to try a dashboard and add to their project if they want to. It will be only available in development mode, but they can be part of the final jar by setting the property quarkus.dashbuilder.include-samples to true.   By default the link to the samples screen is displayed only if users do not have dashboards. When the user has dashboards then the samples UI can be access from DEV UI:   PROPERTIES  It is possible to set a dashboard property using application.properties. If you have a property in dashboard you can set the value for that property using quarkus.dashbuilder.properties.{dashboard name}.{property name}=value  Users can also declare quarkus properties in the dashboard. For example, the property quarkus.http.cors  can be read directly from the YAML dashboard by declaring a property with the same name.   KIE TOOLS 0.27.0 RELEASE  This version brings Dashbuilder 0.27.0 with VSCode extension release and many other improvements which you can see on the announcement post:   INSTALLATION  To install the latest version just update the dependency version to 0.27.0      <dependency>        <groupId>io.quarkiverse.dashbuilder</groupId>        <artifactId>quarkus-dashbuilder</artifactId>        <version>999-SNAPSHOT</version>      </dependency>   CONCLUSION  Dashbuilder Quarkus Extension 0.27.0 is out and you can try it right now! Stay tuned for new features and let us know if you have any questions.  The post appeared first on ."
 }

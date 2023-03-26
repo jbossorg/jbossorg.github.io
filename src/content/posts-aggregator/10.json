@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #30 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-30/",
+  "title": "How to live reload applications on WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-live-reload-applications-on-wildfly/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It’s time for the March newletter so you can read the latest articles, blogs and insights on Quarkus. Get a deeper understanding of what developers can expect in the final version 3.0 with this InfoQ article \"Road to Quarkus 3: Bets on the Flow API for Mutiny 2.0, Updates to..."
+  "date": "2023-03-17T07:38:45.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will discuss how to use WildFly Maven plugin to automate the redeployment of applications on WildFly when you apply some changes to the application class files. What is WildFly Maven plugin WildFly Maven Plugin is a plugin for Apache Maven that provides a set of goals to manage and deploy applications ...  The post appeared first on ."
 }
