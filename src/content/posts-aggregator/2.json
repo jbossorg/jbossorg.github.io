@@ -1,13 +1,13 @@
 {
-  "title": "How to solve Failed to start service jboss.deployment.unit",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-solve-failed-to-start-service-jboss-deployment-unit/",
+  "title": "WildFly Connection Pool configuration made easy",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/jboss-datasource-configuration/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T13:17:24.000Z",
+  "date": "2023-03-27T15:51:29.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this short article we will learn how to solve a common error which you can hit at deployment time: “failed to start service jboss.deployment.unit”. Understanding the deployment failure The “Failed to start service jboss.deployment.unit” error in WildFly typically occurs when there is an issue with the deployment of an application or module. When WildFly ...  The post appeared first on ."
+  "content": "WildFly uses a pool of Database Connection objects to  your applications. A Connection Pool is a way to reduce the cost of opening and closing Database connections by maintaining a Pool of Database connections. In this article we will learn how to configure WildFly Connection Pool in an optimal way. WildFly handles a pool of ...  The post appeared first on ."
 }
