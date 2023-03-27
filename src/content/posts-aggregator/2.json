@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Connection Pool configuration made easy",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/jboss-datasource-configuration/",
+  "title": "3 ways to set a Query timeout for JPA / Hibernate applications",
+  "link": "http://www.mastertheboss.com/hibernate-jpa/jpa-configuration/3-ways-to-set-a-query-timeout-for-jpa-hibernate-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T15:51:29.000Z",
+  "date": "2023-03-27T16:17:36.000Z",
   "feed_title": "Mastertheboss",
-  "content": "WildFly uses a pool of Database Connection objects to  your applications. A Connection Pool is a way to reduce the cost of opening and closing Database connections by maintaining a Pool of Database connections. In this article we will learn how to configure WildFly Connection Pool in an optimal way. WildFly handles a pool of ...  The post appeared first on ."
+  "content": "In JPA (Java Persistence API) and Hibernate applications, queries can sometimes take a long time to execute, especially when working with large data sets. To avoid long-running queries, it’s important to set a query timeout, which limits the maximum amount of time that a query is allowed to run before it times out. In this ...  The post appeared first on ."
 }

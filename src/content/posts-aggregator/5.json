@@ -1,13 +1,13 @@
 {
-  "title": "Troubleshooting OutOfMemoryError: Direct buffer memory",
-  "link": "http://www.mastertheboss.com/java/troubleshooting-outofmemoryerror-direct-buffer-memory/",
+  "title": "How to increase the Transaction Timeout in JBoss / WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-increase-the-transaction-timeout-in-jboss-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T12:49:13.000Z",
+  "date": "2023-03-27T13:07:44.000Z",
   "feed_title": "Mastertheboss",
-  "content": "An OutOfMemoryError: Direct buffer memory is a common error that Java developers encounter when working with applications that use large amounts of direct memory. Direct memory is allocated outside of the Java heap, and allows storing data that is needed by native libraries or I/O operations. In this tutorial, we will explore some common causes ...  The post appeared first on ."
+  "content": "Transaction timeout in WildFly / JBoss can be configured in the transactions subsystem or at EJB level. When the transaction is configured in the transactions subsystem it will be the default transaction timeout for all JTA transactions. When configured at EJB level, the timeout will be specific of that EJB. Configuring Transaction timeout in the ...  The post appeared first on ."
 }
