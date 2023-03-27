@@ -1,13 +1,13 @@
 {
-  "title": "How to increase the Transaction Timeout in JBoss / WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-increase-the-transaction-timeout-in-jboss-wildfly/",
+  "title": "How to solve Failed to start service jboss.deployment.unit",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-solve-failed-to-start-service-jboss-deployment-unit/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T13:07:44.000Z",
+  "date": "2023-03-27T13:17:24.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Transaction timeout in WildFly / JBoss can be configured in the transactions subsystem or at EJB level. When the transaction is configured in the transactions subsystem it will be the default transaction timeout for all JTA transactions. When configured at EJB level, the timeout will be specific of that EJB. Configuring Transaction timeout in the ...  The post appeared first on ."
+  "content": "In this short article we will learn how to solve a common error which you can hit at deployment time: “failed to start service jboss.deployment.unit”. Understanding the deployment failure The “Failed to start service jboss.deployment.unit” error in WildFly typically occurs when there is an issue with the deployment of an application or module. When WildFly ...  The post appeared first on ."
 }

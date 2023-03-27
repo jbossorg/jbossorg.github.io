@@ -1,13 +1,13 @@
 {
-  "title": "Managing Keycloak user metadata and custom attributes",
-  "link": "http://www.mastertheboss.com/keycloak/managing-keycloak-user-metadata-and-custom-attributes/",
+  "title": "What is the difference between JBoss EAP and WildFly?",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-eap/what-is-the-difference-between-jboss-eap-wildfly-and-jboss-as/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T14:10:10.000Z",
+  "date": "2023-03-26T14:15:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Each user that is stored in Keycloak can store basic Metadata information such as name and email. Besides that, you can store arbitrary user attributes, also called Custom Attributes. In this tutorial, we will show an example application which retrieves User Metadata and Custom Attributes for a Keycloak Realm. This tutorial assumes that you are ...  The post appeared first on ."
+  "content": "This article will help you in understanding the difference between WildFly / JBoss AS / JBoss EAP which all refer to the Java Enterprise application server created by the JBoss Team. Firstly, the generic term JBoss or JBoss AS refers to the first name of the Community version Java application server. If you are looking ...  The post appeared first on ."
 }
