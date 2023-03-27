@@ -1,13 +1,13 @@
 {
-  "title": "How to tune the performance of Java 11 HttpClients",
-  "link": "http://www.mastertheboss.com/java/how-to-tune-the-performance-of-java-11-httpclients/",
+  "title": "How to solve Failed to start service jboss.deployment.unit",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-solve-failed-to-start-service-jboss-deployment-unit/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T11:08:41.000Z",
+  "date": "2023-03-27T13:17:24.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The Java 11 HttpClient API provides a lot of configuration options that you can use to tune its performance. In this tutorial, we will explore some of the most important ones. Connection Pooling Connection pooling is a technique that allows you to reuse existing connections instead of creating new ones for each request. This can ...  The post appeared first on ."
+  "content": "In this short article we will learn how to solve a common error which you can hit at deployment time: “failed to start service jboss.deployment.unit”. Understanding the deployment failure The “Failed to start service jboss.deployment.unit” error in WildFly typically occurs when there is an issue with the deployment of an application or module. When WildFly ...  The post appeared first on ."
 }

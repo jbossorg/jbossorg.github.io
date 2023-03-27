@@ -1,13 +1,13 @@
 {
-  "title": "What is the difference between JBoss EAP and WildFly?",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-eap/what-is-the-difference-between-jboss-eap-wildfly-and-jboss-as/",
+  "title": "How to change WildFly Management Console Password",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-set-wildfly-admin-console-password/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T14:15:42.000Z",
+  "date": "2023-03-27T12:40:29.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will help you in understanding the difference between WildFly / JBoss AS / JBoss EAP which all refer to the Java Enterprise application server created by the JBoss Team. Firstly, the generic term JBoss or JBoss AS refers to the first name of the Community version Java application server. If you are looking ...  The post appeared first on ."
+  "content": "The WildFly Management Console is a web-based administration tool that allows you to manage and configure the server. It is important to keep your WildFly Management Console password secure, and change it periodically to prevent unauthorized access. Here’s a tutorial on how to change the WildFly Management password: The passwords for WildFly management users are, ...  The post appeared first on ."
 }

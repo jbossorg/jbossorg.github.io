@@ -1,13 +1,13 @@
 {
-  "title": "How to Add an User in WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-script/wildfly-how-to-add-an-user/",
+  "title": "Keycloak OpenID Authentication with WildFly",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T13:19:07.000Z",
+  "date": "2023-03-26T18:21:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "If you are an administrator of a Wildfly server, you may need to add new users to the server for authentication and authorization purposes. This short tutorial will teach you how to Add a management user with WildFly Application Server. The add-user.sh script is a command-line tool that allows you to add new users to ...  The post appeared first on ."
+  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
 }

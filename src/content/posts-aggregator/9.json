@@ -1,13 +1,13 @@
 {
-  "title": "Choosing the right JDK for WildFly and JBoss EAP 7",
-  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/choosing-the-jdk-for-wildfly-and-jboss-eap-7/",
+  "title": "Managing Keycloak user metadata and custom attributes",
+  "link": "http://www.mastertheboss.com/keycloak/managing-keycloak-user-metadata-and-custom-attributes/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:50:06.000Z",
+  "date": "2023-03-26T14:10:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial discusses the recommended JDK versions to be used for WildFly and JBoss Enterprise Application Platform (EAP) and how to set the Java version for it. The modularization of the JVM that began with Java 9 had a significant impact on a complex server like WildFly, particularly in the areas of classloading and reflection, ...  The post appeared first on ."
+  "content": "Each user that is stored in Keycloak can store basic Metadata information such as name and email. Besides that, you can store arbitrary user attributes, also called Custom Attributes. In this tutorial, we will show an example application which retrieves User Metadata and Custom Attributes for a Keycloak Realm. This tutorial assumes that you are ...  The post appeared first on ."
 }

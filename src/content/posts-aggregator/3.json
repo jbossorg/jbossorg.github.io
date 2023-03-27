@@ -1,13 +1,13 @@
 {
-  "title": "Keycloak OpenID Authentication with WildFly",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
+  "title": "Troubleshooting OutOfMemoryError: Direct buffer memory",
+  "link": "http://www.mastertheboss.com/java/troubleshooting-outofmemoryerror-direct-buffer-memory/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T18:21:57.000Z",
+  "date": "2023-03-27T12:49:13.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
+  "content": "An OutOfMemoryError: Direct buffer memory is a common error that Java developers encounter when working with applications that use large amounts of direct memory. Direct memory is allocated outside of the Java heap, and allows storing data that is needed by native libraries or I/O operations. In this tutorial, we will explore some common causes ...  The post appeared first on ."
 }
