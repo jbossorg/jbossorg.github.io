@@ -1,13 +1,13 @@
 {
-  "title": "How to install WildFly application server",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/installing-wildfly-on-windows/",
+  "title": "How to set and load Properties in WildFly ?",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T08:06:58.000Z",
+  "date": "2023-03-26T09:47:27.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial covers how to install WildFly application server on Linux and Windows machines. First off, you need to download a JDK which is supported by WildFly. Then, we will download and unzip the application server. Installing Java Firstly, if you are not sure which JDK to download, check this article: Choosing the right JDK ...  The post appeared first on ."
+  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Keycloak OpenID Authentication with WildFly",
-  "link": "http://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
+  "title": "Writing high performance Apache HTTP Clients",
+  "link": "http://www.mastertheboss.com/java/writing-high-performance-java-http-client-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T18:21:57.000Z",
+  "date": "2023-03-27T08:40:59.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
+  "content": "When it comes to consuming HTTP resources in Java applications, Apache HTTP Client is a popular choice for developers due to its ease of use, flexibility, and robustness. In this article, we will explore how to write a high-performance Java HTTP client using the Apache HTTP Client library. Out of the box, Apache HTTP Client ...  The post appeared first on ."
 }
