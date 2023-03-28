@@ -1,13 +1,13 @@
 {
-  "title": "How to tune the performance of Java 11 HttpClients",
-  "link": "http://www.mastertheboss.com/java/how-to-tune-the-performance-of-java-11-httpclients/",
+  "title": "Choosing the right JDK for WildFly and JBoss EAP 7",
+  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/choosing-the-jdk-for-wildfly-and-jboss-eap-7/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T11:08:41.000Z",
+  "date": "2023-03-26T09:50:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The Java 11 HttpClient API provides a lot of configuration options that you can use to tune its performance. In this tutorial, we will explore some of the most important ones. Connection Pooling Connection pooling is a technique that allows you to reuse existing connections instead of creating new ones for each request. This can ...  The post appeared first on ."
+  "content": "This tutorial discusses the recommended JDK versions to be used for WildFly and JBoss Enterprise Application Platform (EAP) and how to set the Java version for it. The modularization of the JVM that began with Java 9 had a significant impact on a complex server like WildFly, particularly in the areas of classloading and reflection, ...  The post appeared first on ."
 }

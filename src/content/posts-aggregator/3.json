@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Connection Pool configuration made easy",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-datasource/jboss-datasource-configuration/",
+  "title": "Writing high performance Apache HTTP Clients",
+  "link": "http://www.mastertheboss.com/java/writing-high-performance-java-http-client-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T15:51:29.000Z",
+  "date": "2023-03-27T08:40:59.000Z",
   "feed_title": "Mastertheboss",
-  "content": "WildFly uses a pool of Database Connection objects to  your applications. A Connection Pool is a way to reduce the cost of opening and closing Database connections by maintaining a Pool of Database connections. In this article we will learn how to configure WildFly Connection Pool in an optimal way. WildFly handles a pool of ...  The post appeared first on ."
+  "content": "When it comes to consuming HTTP resources in Java applications, Apache HTTP Client is a popular choice for developers due to its ease of use, flexibility, and robustness. In this article, we will explore how to write a high-performance Java HTTP client using the Apache HTTP Client library. Disambiguation: This article discusses about the performance ...  The post appeared first on ."
 }

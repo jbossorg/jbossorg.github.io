@@ -1,13 +1,13 @@
 {
-  "title": "How to increase the Transaction Timeout in JBoss / WildFly",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-increase-the-transaction-timeout-in-jboss-wildfly/",
+  "title": "Managing Keycloak user metadata and custom attributes",
+  "link": "http://www.mastertheboss.com/keycloak/managing-keycloak-user-metadata-and-custom-attributes/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T13:07:44.000Z",
+  "date": "2023-03-26T14:10:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Transaction timeout in WildFly / JBoss can be configured in the transactions subsystem or at EJB level. When the transaction is configured in the transactions subsystem it will be the default transaction timeout for all JTA transactions. When configured at EJB level, the timeout will be specific of that EJB. Configuring Transaction timeout in the ...  The post appeared first on ."
+  "content": "Each user that is stored in Keycloak can store basic Metadata information such as name and email. Besides that, you can store arbitrary user attributes, also called Custom Attributes. In this tutorial, we will show an example application which retrieves User Metadata and Custom Attributes for a Keycloak Realm. This tutorial assumes that you are ...  The post appeared first on ."
 }

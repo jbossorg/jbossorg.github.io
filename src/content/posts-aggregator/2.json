@@ -1,13 +1,13 @@
 {
-  "title": "3 ways to set a Query timeout for JPA / Hibernate applications",
-  "link": "http://www.mastertheboss.com/hibernate-jpa/jpa-configuration/3-ways-to-set-a-query-timeout-for-jpa-hibernate-applications/",
+  "title": "How to tune the performance of Java 11 HttpClients",
+  "link": "http://www.mastertheboss.com/java/how-to-tune-the-performance-of-java-11-httpclients/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T16:17:36.000Z",
+  "date": "2023-03-27T11:08:41.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In JPA (Java Persistence API) and Hibernate applications, queries can sometimes take a long time to execute, especially when working with large data sets. To avoid long-running queries, it’s important to set a query timeout, which limits the maximum amount of time that a query is allowed to run before it times out. In this ...  The post appeared first on ."
+  "content": "The Java 11 HttpClient API provides a lot of configuration options that you can use to tune its performance. In this tutorial, we will explore some of the most important ones. Connection Pooling Connection pooling is a technique that allows you to reuse existing connections instead of creating new ones for each request. This can ...  The post appeared first on ."
 }

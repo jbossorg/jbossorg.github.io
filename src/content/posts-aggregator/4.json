@@ -1,13 +1,13 @@
 {
-  "title": "How to solve Failed to start service jboss.deployment.unit",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-deploy/how-to-solve-failed-to-start-service-jboss-deployment-unit/",
+  "title": "Keycloak OpenID Authentication with WildFly",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T13:17:24.000Z",
+  "date": "2023-03-26T18:21:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this short article we will learn how to solve a common error which you can hit at deployment time: “failed to start service jboss.deployment.unit”. Understanding the deployment failure The “Failed to start service jboss.deployment.unit” error in WildFly typically occurs when there is an issue with the deployment of an application or module. When WildFly ...  The post appeared first on ."
+  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
 }
