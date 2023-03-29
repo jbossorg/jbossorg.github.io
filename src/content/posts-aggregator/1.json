@@ -1,13 +1,14 @@
 {
-  "title": "How to configure CORS on WildFly",
-  "link": "http://www.mastertheboss.com/web/jboss-web-server/how-to-configure-cors-on-wildfly/",
+  "title": "Update on deprecation of Keycloak adapters",
+  "link": "https://www.keycloak.org/2023/03/adapter-deprecation-update",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T19:57:30.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "If you are running your web applications on WildFly, you can configure CORS to allow cross-domain requests. In this article, we will go through the steps to configure CORS on WildFly. What is a Cross Resource Sharing (CORS)? Cross-Origin Resource Sharing (CORS) is a security mechanism that allows web applications to make requests to a ...  The post appeared first on ."
+  "date": "2023-03-29T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "In 2022 we announced the deprecation of , with a plan to stop delivering most adapters in .  As we have not been able to make sufficient progress on finding alternatives and work on supporting material to help migrating away from Keycloak adapters we are extending the life of the Keycloak adapters.  The plan is still to eventually stop delivering bespoke Keycloak adapters in the future, but we will do this in a more gradual process than previous laid out.  We still strongly belive that the community as a whole are better served in the long run by us focusing more on the Keycloak server with full compliance and support for specifications such as OAuth 2.0 and OpenID Connect, and adding support for additional relevant extensions to the specifications.  We also believe by leaving the integration for various programming languages and frameworks to the relevant communities, the end result will be more extensive support, with more features and abilities, and last but not least better integrations and easy of use.   OAUTH 2.0 AND OPENID CONNECT ADAPTERS   JAVA  For Java applications there is now more than ever wide-spread support for OpenID Connect, where some examples include:   * [Jakarta Security 3.0] - OpenID Connect support in Jakarta EE 10   * [Elytron OIDC] - OpenID Connect support in WildFly   * [Quarkus OIDC] - OpenID Connect support for Quarkus applications   * [Spring Security] - OAuth and OpenID Connect support in Spring   * [Pac4j] - The Java security framework to protect all your web applications    and web services  Neither of these have support for Keycloak Authorization Services though, which is why we are planning to introduce a generic Java client libraries for Authorization Services that can be leveraged with other OpenID Connect client libraries. Expect this to be delivered in Keycloak 22.  The Keycloak Java adapters will remain for a while though, at least towards the end of the year, but likely not be removed until early 2024. At the same time don’t expect the adapters to be updated in terms of adding new features, enhancements, or supporting newer versions of Tomcat, Jetty, WildFly, or Spring.   NODE.JS  We are still investigating alternatives for Node.js, so plan is available for those one just yet. Expect more information to come later in the year. Regardless of the alternative we will deliver support for Keycloak Authorization Services to Node.js.  The Keycloak Node.js adapter will remain, at least towards the end of the year, but likely not be removed until early 2024.   CLIENT-SIDE JAVASCRIPT  For now the Keycloak client-side JavaScript adapter remains, but we are looking into alternatives as well as the potential of completely overhauling our current adapter and continue maintaining and delivering this adapter.   SAML 2.0  We are planning to continue supporting SAML 2.0 for WildFly and JBoss EAP in the long run, but support for Tomcat and Jetty are likely to be removed relatively soon."
 }

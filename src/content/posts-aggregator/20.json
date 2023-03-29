@@ -1,13 +1,13 @@
 {
-  "title": "What&#8217;s new in Dashbuilder 0.27.0?",
-  "link": "https://blog.kie.org/2023/03/whats-new-in-dashbuilder-0-27-0.html",
+  "title": "Infinispan 14.0.7.Final",
+  "link": "https://infinispan.org/blog/2023/03/13/infinispan-14",
   "author": [
     {
-      "name": "William Siqueira",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2023-03-10T11:40:46.000Z",
-  "feed_title": "KIE Community",
-  "content": "was released yesterday (March 8th, 2023) and it comes with very interesting new features. Let’s explore the new release in this post!   NEW SAMPLES SCREEN  A new sample screen allows Dashbuilder to render dashboards from a remote or local repository. A sample is a dashboard that users can try without installing on their Dashbuilder. The samples’ screen can be accessed when no dashboard is available.  You can see the samples’ screen in action in our , but soon you will hear about it because it will be part of .   AUTOCOMPLETE AND SYNTAX CHECK  Dashbuilder now supports autocomplete and syntax verification in and !   CONTROLLED CONCURRENT DATASET ACCESS  Now dashbuilder unifies HTTP requests when multiple displayers try to access the same dataset. In practice if you have X displayers on a page, it used to result in X HTTP requests, now Dashbuilder makes a single request for all displayers.   BUG FIXES  Fixed navigation between dashboards: It is possible to have more than one dashboard on the same dashbuilder installation. The navigation between dashboards now refreshes the page, making it easier to navigate between dashboards;  Dark mode in components: Victory Charts and Table external components now supports dark mode;  Dark mode in VSCode: Dark mode is now fixed in VSCode extension   CONCLUSION  In this post we shared the new features and improvements in Dashbuilder 0.27.0! Stay tuned for more dashbuilder news.  The post appeared first on ."
+  "date": "2023-03-13T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "We rarely do announcements for micro-releases, but 14.0.7.Final is a bit special, because it finally adds support for Spring 6 and Spring Boot 3.   SPRING FRAMEWORK 6 AND SPRING BOOT 3  We now ship components to support Spring Framework 6 and Spring Boot 3:  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-embedded</artifactId>    <version>14.0.7.Final</version> </dependency>  <dependency>    <groupId>org.infinispan</groupId>    <artifactId>infinispan-spring-boot3-starter-remote</artifactId>    <version>14.0.7.Final</version> </dependency>   IMPORTANT SIFS FIXES  This release also includes very important fixes to the Soft-Index File Store (SIFS), which is our default file-store implementation: if you use it for your persistent caches you should really upgrade !   RELEASE NOTES   FEATURE REQUEST   *    *    BUG   *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    *    TASK   *    *    *    COMPONENT UPGRADE   *    *    *    *    *    *    *    *    ENHANCEMENT   *    *    *    *    *    *    *    RELEASE NOTES  You can look at the to see what has changed since our latest CR.]  Get them from our .]"
 }
