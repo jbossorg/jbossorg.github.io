@@ -1,13 +1,13 @@
 {
-  "title": "Choosing the right JDK for WildFly and JBoss EAP 7",
-  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/choosing-the-jdk-for-wildfly-and-jboss-eap-7/",
+  "title": "How to debug remotely WildFly",
+  "link": "http://www.mastertheboss.com/jbossas/wildfly-8/how-to-debug-remotely-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:50:06.000Z",
+  "date": "2023-03-25T19:26:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial discusses the recommended JDK versions to be used for WildFly and JBoss Enterprise Application Platform (EAP) and how to set the Java version for it. The modularization of the JVM that began with Java 9 had a significant impact on a complex server like WildFly, particularly in the areas of classloading and reflection, ...  The post appeared first on ."
+  "content": "Do you want to learn how to remotely debug WildFly using IntelliJ, Visual Studio or Eclipse? in this tutorial we will show all the steps to get started in minutes! Setting up WildFly Debugging a remotely running Java application is an important skill for any developer. In order to activate remote debug in WildFly, you ...  The post appeared first on ."
 }

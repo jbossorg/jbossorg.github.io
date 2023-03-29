@@ -1,13 +1,13 @@
 {
-  "title": "How to set and load Properties in WildFly ?",
-  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
+  "title": "Debugging RestAssured Tests",
+  "link": "http://www.mastertheboss.com/various-stuff/testing-java/debugging-restassured-tests/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:47:27.000Z",
+  "date": "2023-03-24T16:45:58.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
+  "content": "When you run REST Assured tests, you may encounter errors such as failing assertions, incorrect responses, or unexpected behaviors. This article explains some techniques that can help you identify the root cause of these errors and fix them quickly. By debugging your tests, you can see what’s happening under the hood and find the issues ...  The post appeared first on ."
 }

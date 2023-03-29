@@ -1,13 +1,13 @@
 {
-  "title": "Developing with IntelliJ Idea and WildFly",
-  "link": "http://www.mastertheboss.com/eclipse/intellij-idea/developing-applications-with-intellij-idea-and-wildfly/",
+  "title": "How to set and load Properties in WildFly ?",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T13:29:46.000Z",
+  "date": "2023-03-26T09:47:27.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial will give you an headstart about developing Enterprise applications with IntelliJ IDEA and WildFly. We will cover how to manage the integration with the application server and how to debug applications. Developing applications with IntelliJ Idea and WildFly is a popular choice for many Java developers. IntelliJ Idea is a powerful integrated development environment ...  The post appeared first on ."
+  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
 }
