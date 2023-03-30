@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #30 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-30/",
+  "title": "Dashbuilder Quarkus Extension 0.27.0",
+  "link": "https://blog.kie.org/2023/03/dashbuilder-quarkus-extension-0-27-0.html",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2023-03-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It’s time for the March newletter so you can read the latest articles, blogs and insights on Quarkus. Get a deeper understanding of what developers can expect in the final version 3.0 with this InfoQ article \"Road to Quarkus 3: Bets on the Flow API for Mutiny 2.0, Updates to..."
+  "date": "2023-03-14T20:55:27.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that Dashbuilder Quarkus Extension 0.27.0 is out with multiple improvements. In this article we are going to share the new features and you can see a little about it on our Quarkus insights session:     NEW SAMPLES SCREEN  Dashbuilder now provides a new samples screen that will allow users to start from a sample dashboard to build their own.    The Samples screen allows users to try a dashboard and add to their project if they want to. It will be only available in development mode, but they can be part of the final jar by setting the property quarkus.dashbuilder.include-samples to true.   By default the link to the samples screen is displayed only if users do not have dashboards. When the user has dashboards then the samples UI can be access from DEV UI:   PROPERTIES  It is possible to set a dashboard property using application.properties. If you have a property in dashboard you can set the value for that property using quarkus.dashbuilder.properties.{dashboard name}.{property name}=value  Users can also declare quarkus properties in the dashboard. For example, the property quarkus.http.cors  can be read directly from the YAML dashboard by declaring a property with the same name.   KIE TOOLS 0.27.0 RELEASE  This version brings Dashbuilder 0.27.0 with VSCode extension release and many other improvements which you can see on the announcement post:   INSTALLATION  To install the latest version just update the dependency version to 0.27.0      <dependency>        <groupId>io.quarkiverse.dashbuilder</groupId>        <artifactId>quarkus-dashbuilder</artifactId>        <version>999-SNAPSHOT</version>      </dependency>   CONCLUSION  Dashbuilder Quarkus Extension 0.27.0 is out and you can try it right now! Stay tuned for new features and let us know if you have any questions.  The post appeared first on ."
 }
