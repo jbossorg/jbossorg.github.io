@@ -1,13 +1,13 @@
 {
-  "title": "Managing Keycloak user metadata and custom attributes",
-  "link": "http://www.mastertheboss.com/keycloak/managing-keycloak-user-metadata-and-custom-attributes/",
+  "title": "Keycloak OpenID Authentication with WildFly",
+  "link": "http://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T14:10:10.000Z",
+  "date": "2023-03-26T18:21:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Each user that is stored in Keycloak can store basic Metadata information such as name and email. Besides that, you can store arbitrary user attributes, also called Custom Attributes. In this tutorial, we will show an example application which retrieves User Metadata and Custom Attributes for a Keycloak Realm. This tutorial assumes that you are ...  The post appeared first on ."
+  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
 }
