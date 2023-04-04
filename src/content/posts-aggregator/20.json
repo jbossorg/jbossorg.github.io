@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.Alpha6 released",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-alpha6-released/",
+  "title": "How to live reload applications on WildFly",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-deploy/how-to-live-reload-applications-on-wildfly/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "A week after Alpha5, we are releasing Quarkus 3.0.0.Alpha6. While Alpha5 came with major changes such as the upgrade to Hibernate ORM 6, Alpha6 is a smaller release packed with bugfixes, enhancements, and improvements to our upgrade process. What’s new Among all the bugfixes and enhancements, two are worth mentioning..."
+  "date": "2023-03-17T07:38:45.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will discuss how to use WildFly Maven plugin to automate the redeployment of applications on WildFly when you apply some changes to the application class files. What is WildFly Maven plugin WildFly Maven Plugin is a plugin for Apache Maven that provides a set of goals to manage and deploy applications ...  The post appeared first on ."
 }
