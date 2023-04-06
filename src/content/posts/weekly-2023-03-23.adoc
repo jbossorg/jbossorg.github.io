@@ -1,6 +1,6 @@
 = This Week in JBoss - March, 23 2023
 Francesco Marchioni
-2022-03-23
+2023-03-23
 :tags: quarkus, java, wildfly, camel, ansible, infinispan, strimzi
 
 Happy Friday, everyone!
