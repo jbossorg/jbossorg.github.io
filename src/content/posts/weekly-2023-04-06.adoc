@@ -1,0 +1,49 @@
+= This Week in JBoss - April, 06 2023
+Don Naro
+2023-03-23
+:tags: quarkus, vertx, java, wildfly, keycloak
+
+Hi, how are you? Welcome back to another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+
+* link:https://quarkus.io/blog/quarkus-3-0-0-cr1-released/[Quarkus 3.0.0 CR1] and link:https://quarkus.io/blog/quarkus-3-0-0-cr2-released/[Quarkus 3.0.0 CR2]
+* link:https://vertx.io/blog/eclipse-vert-x-4-4-1/[Eclipse Vert.x 4.4.1]
+* link:https://www.keycloak.org/2023/03/keycloak-2102-released[Keycloak 21.0.2]
+* link:https://www.wildfly.org//news/2023/03/30/WildFly28-Beta-Released/[WildFly 28 Beta1]
+
+== Debugging RestAssured Tests
+
+link:https://www.mastertheboss.com/various-stuff/testing-java/debugging-restassured-tests/[Debugging RestAssured Tests], by Francesco Marchioni
+
+Anyone running REST Assured tests has probably run into errors such as failing assertions or incorrect responses.
+If that is the case for you, then this article from Francesco will no doubt be valuable as he explains some solid techniques for debugging that quickly identify root causes and save you time getting things fixed.
+
+== Extending the life of Keycloak adapters
+
+link:https://www.keycloak.org/2023/03/adapter-deprecation-update[Update on deprecation of Keycloak adapters], by Stian Thorgersen
+
+Following up on the announcement to deprecate Keycloak adapters, Stian has provided an udpate on what the future holds for the adapters.
+
+== Cross resource sharing on WildFly
+
+link:http://www.mastertheboss.com/web/jboss-web-server/how-to-configure-cors-on-wildfly/[How to configure CORS on WildFly], by Francesco Marchioni
+
+Francesco delivers another insightful tutorial that quickly gets WildFly set up for cross-domain requests.
+
+== Video corner
+
+Check out some recent awesome YouTube videos from the community.
+
+* link:https://youtu.be/i8nHKmGxGuM[Getting Started with Accessing Your Application Portfolio]
+* link:https://www.youtube.com/live/82NjJ7gDzv0[Quarkus Insights #124: 1000 ways to deploy Quarkus]
+* link:https://www.youtube.com/live/cU-2witNthQ[Quarkus Insights #123: 10 things I like about Quarkus]
+* link:https://youtu.be/3zzkGiVW7p8[Getting started with Ansible for Application Services]
+* link:https://youtu.be/HKcrtQuWimY[Boosting Engineering Efficiency with OpenTelemetry, Keptn & Tyk]
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
+
