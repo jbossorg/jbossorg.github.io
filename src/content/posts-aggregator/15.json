@@ -1,13 +1,13 @@
 {
-  "title": "How to debug remotely WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/wildfly-8/how-to-debug-remotely-wildfly/",
+  "title": "How to filter through a JSON Document using Java 8 Stream API",
+  "link": "http://www.mastertheboss.com/java-ee/json/how-to-filter-through-a-json-document-using-java-8-stream-api/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-25T19:26:42.000Z",
+  "date": "2023-03-26T07:58:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Do you want to learn how to remotely debug WildFly using IntelliJ, Visual Studio or Eclipse? in this tutorial we will show all the steps to get started in minutes! Setting up WildFly Debugging a remotely running Java application is an important skill for any developer. In order to activate remote debug in WildFly, you ...  The post appeared first on ."
+  "content": "Filtering through a JSON document using Java 8 Stream API involves converting the JSON document into a stream of objects and then using the filter method to select the objects that match a given condition. Here are the steps to filter through a JSON document using Java 8 Stream API. Plain Java Streams filtering Java ...  The post appeared first on ."
 }

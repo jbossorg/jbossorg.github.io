@@ -1,13 +1,13 @@
 {
-  "title": "How to filter through a JSON Document using Java 8 Stream API",
-  "link": "https://www.mastertheboss.com/java-ee/json/how-to-filter-through-a-json-document-using-java-8-stream-api/",
+  "title": "How to set and load Properties in WildFly ?",
+  "link": "http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T07:58:54.000Z",
+  "date": "2023-03-26T09:47:27.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Filtering through a JSON document using Java 8 Stream API involves converting the JSON document into a stream of objects and then using the filter method to select the objects that match a given condition. Here are the steps to filter through a JSON document using Java 8 Stream API. Plain Java Streams filtering Java ...  The post appeared first on ."
+  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
 }
