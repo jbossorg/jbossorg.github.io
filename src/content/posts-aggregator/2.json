@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #31 - April",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-31/",
+  "title": "Byteman 4.0.21 has been released",
+  "link": "http://bytemanblog.blogspot.com/2023/04/byteman-4021-has-been-released.html",
   "author": [
     {
-      "name": "James Cobb",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2023-04-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It’s time for the April Newsletter. Read Willem Meints’s article \"Quarkus: Jave revisited!\" where shares his experience with Java using Quarkus after a long hiatus. Learn why Sebastian Daschner thinks Quarkus is a great choice for Enterprise Java in his great video. Learn how to deploy a Quarkus application to..."
+  "date": "2023-04-14T10:55:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.21 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK21.    Byteman 4.0.21 is a maintenance release which enables Byteman to be used with JDK21 releases. It also contains one  small bug fixes and a feature enhancement. More details are provided in the and the latest ."
 }
