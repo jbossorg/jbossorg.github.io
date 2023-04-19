@@ -1,6 +1,6 @@
 {
   "title": "Using The RESTEasy Tracing Feature In WildFly",
-  "link": "https://resteasy.github.io/2023/04/19/tracing-feature-in-wildfly/",
+  "link": "https://resteasy.dev/2023/04/19/tracing-feature-in-wildfly/",
   "author": [
     {
       "name": null,
@@ -8,6 +8,6 @@
     }
   ],
   "date": "2023-04-19T00:00:00.000Z",
-  "feed_title": "Resteasy",
+  "feed_title": "RESTEasy",
   "content": ""
 }
