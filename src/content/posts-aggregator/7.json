@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.0.CR2 released",
-  "link": "https://quarkus.io/blog/quarkus-3-0-0-cr2-released/",
+  "title": "How to configure WildFly with YAML files",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-configure-wildfly-with-yaml-files/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-04-05T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.0.0.CR2, our last step before building the 3.0.0.Final bits. Please try it with your applications, the update is easy in a lot of cases, and report any problem to us by creating a GitHub issue. To upgrade your application to Quarkus 3.0, see the instructions below...."
+  "date": "2023-04-11T12:40:48.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly 28 includes support for YAML configuration which is offers a more flexible approach in some use cases. In this tutorial we will discuss which are the best scenarios where YAML configuration is a perfect fit and how to configure WildFly to use YAML files Why YAML Files? One of the main advantages of YAML ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Writing high performance Apache HTTP Clients",
-  "link": "https://www.mastertheboss.com/java/writing-high-performance-java-http-client-applications/",
+  "title": "How to configure CORS on WildFly",
+  "link": "https://www.mastertheboss.com/web/jboss-web-server/how-to-configure-cors-on-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-27T08:40:59.000Z",
+  "date": "2023-03-27T19:57:30.000Z",
   "feed_title": "Mastertheboss",
-  "content": "When it comes to consuming HTTP resources in Java applications, Apache HTTP Client is a popular choice for developers due to its ease of use, flexibility, and robustness. In this article, we will explore how to write a high-performance Java HTTP client using the Apache HTTP Client library. Disambiguation: This article discusses about the performance ...  The post appeared first on ."
+  "content": "If you are running your web applications on WildFly, you can configure CORS to allow cross-domain requests. In this article, we will go through the steps to configure CORS on WildFly. What is a Cross Resource Sharing (CORS)? Cross-Origin Resource Sharing (CORS) is a security mechanism that allows web applications to make requests to a ...  The post appeared first on ."
 }

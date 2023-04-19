@@ -1,13 +1,13 @@
 {
-  "title": "Managing Keycloak user metadata and custom attributes",
-  "link": "https://www.mastertheboss.com/keycloak/managing-keycloak-user-metadata-and-custom-attributes/",
+  "title": "Writing high performance Apache HTTP Clients",
+  "link": "https://www.mastertheboss.com/java/writing-high-performance-java-http-client-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T14:10:10.000Z",
+  "date": "2023-03-27T08:40:59.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Each user that is stored in Keycloak can store basic Metadata information such as name and email. Besides that, you can store arbitrary user attributes, also called Custom Attributes. In this tutorial, we will show an example application which retrieves User Metadata and Custom Attributes for a Keycloak Realm. This tutorial assumes that you are ...  The post appeared first on ."
+  "content": "When it comes to consuming HTTP resources in Java applications, Apache HTTP Client is a popular choice for developers due to its ease of use, flexibility, and robustness. In this article, we will explore how to write a high-performance Java HTTP client using the Apache HTTP Client library. Disambiguation: This article discusses about the performance ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to set and load Properties in WildFly ?",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-inject-system-properties-into-jboss/",
+  "title": "Keycloak OpenID Authentication with WildFly",
+  "link": "https://www.mastertheboss.com/keycloak/keycloak-oauth2-example-with-rest-application/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-03-26T09:47:27.000Z",
+  "date": "2023-03-26T18:21:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will cover how to load System Properties or Application Properties running on WildFly Application Server. We will also discuss how to set System Properties when running WildFly in a Kubernetes environment. In a Bare Metal installation of WildFly, there are mainly three strategies to load Properties: Add the System Properties as ...  The post appeared first on ."
+  "content": "Keycloak is an open-source identity and access management solution that supports OpenID Connect and OAuth 2.0 protocols. In this tutorial we will learn how to configure a Keycloak Realm and use as OpenID Client an application running on WildFly. Before we get started, we need to learn some terms we will use in this article: ...  The post appeared first on ."
 }
