@@ -1,0 +1,51 @@
+= This Week in JBoss - April, 20 2023
+Pedro Silva
+2023-04-20
+:tags: quarkus, java, wildfly, keycloak, byteman, kie-server
+
+Wow! "it's another edition of the JBoss Editorial!" We are bringing exciting news and updates from your JBoss communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+
+* link:http://bytemanblog.blogspot.com/2023/04/byteman-4021-has-been-released.html[Byteman 4.0.21 has been released]
+* link:https://blog.kie.org/2023/04/kogito-1-36-0-released.html[Kogito 1.36.0 released!]
+* link:https://www.keycloak.org/2023/04/keycloak-2110-released[Keycloak 21.1.0 released]
+* https://quarkus.io/blog/vscode-quarkus-1.13.0-released/[New Features for Qute Templating Engine Support in Quarkus Tools for Visual Studio Code 1.13.0]
+
+=== How to configure WildFly with YAML files
+
+link:https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-configure-wildfly-with-yaml-files/[How to configure WildFly with YAML files] by F.Marchioni
+
+WildFly 28 includes support for YAML configuration which offers a more flexible approach in some use cases. In this tutorial we will discuss which are the best scenarios where YAML configuration is a perfect fit and how to configure WildFly to use YAML files.
+
+=== An Introduction To Server Connector for IntelliJ
+
+link:https://www.wildfly.org//news/2023/04/13/intellij-server-connector/[An Introduction To Server Connector for IntelliJ] by rstryker
+
+Server Connector for IntelliJ, also known as IntelliJ-rsp, is a tool for acquiring, locating, installing, starting, stopping, and deloying artifacts to Application Servers like WildFly and EAP. In this article, the author gives us an introduction into IntelliJ-rsp.
+
+=== Using The RESTEasy Tracing Feature In WildFly
+
+link:https://resteasy.dev/2023/04/19/tracing-feature-in-wildfly/[Using The RESTEasy Tracing Feature In WildFly] by Wei Nan Li
+
+The RESTEasy tracing feature has been integrated into WildFly since its version 28. In this article, Wei focuses on the usage of this feature in WildFly.
+
+=== How to Trace requests with RestEasy
+
+link:https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-trace-requests-with-resteasy/[How to Trace requests with RestEasy] by F.Marchioni
+
+In addition to Wei Nan Li article's https://resteasy.dev/2023/04/19/tracing-feature-in-wildfly/[Using The RESTEasy Tracing Feature In WildFly], you can read F. Marchioni's text regarding the how to trace requests with RestEasy.
+
+
+== Video corner
+
+Check out some recent awesome YouTube videos from the community.
+
+* link:https://www.youtube.com/watch?v=1leA_MvEoFU&list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2[Quarkus Insights #126: Quarkus to build better services]
+* link:https://www.youtube.com/watch?v=EFQRSlAiz3k&list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2&index=2[Quarkus Insights #125: What's new with the Dev UI]
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
