@@ -14,7 +14,7 @@ Here are the most recent releases for this edition:
 * link:http://bytemanblog.blogspot.com/2023/04/byteman-4021-has-been-released.html[Byteman 4.0.21 has been released]
 * link:https://blog.kie.org/2023/04/kogito-1-36-0-released.html[Kogito 1.36.0 released!]
 * link:https://www.keycloak.org/2023/04/keycloak-2110-released[Keycloak 21.1.0 released]
-* https://quarkus.io/blog/vscode-quarkus-1.13.0-released/[New Features for Qute Templating Engine Support in Quarkus Tools for Visual Studio Code 1.13.0]
+* link:https://quarkus.io/blog/vscode-quarkus-1.13.0-released/[New Features for Qute Templating Engine Support in Quarkus Tools for Visual Studio Code 1.13.0]
 
 === How to configure WildFly with YAML files
 
