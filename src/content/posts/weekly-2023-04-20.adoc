@@ -3,7 +3,7 @@ Pedro Silva
 2023-04-20
 :tags: quarkus, java, wildfly, keycloak, byteman, kie-server
 
-Wow! "it's another edition of the JBoss Editorial!" We are bringing exciting news and updates from your JBoss communities.
+Wow! "It's another edition of the JBoss Editorial!" We are bringing exciting news and updates from your JBoss communities.
 
 == Release roundup
 
