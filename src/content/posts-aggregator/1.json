@@ -1,13 +1,14 @@
 {
-  "title": "How to Trace requests with RestEasy",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-trace-requests-with-resteasy/",
+  "title": "Keycloak 21.1.1 released",
+  "link": "https://www.keycloak.org/2023/04/keycloak-2111-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-04-20T11:30:45.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "When working with RESTful web services, it is often useful to be able to trace requests to better understand what is happening. Fortunately, this is relatively easy to do with WildFly and Resteasy. In this article, we will look at how to configure tracing for REST requests using an enhancement available in WildFly 28. There ...  The post appeared first on ."
+  "date": "2023-04-26T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 21.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * SAML2 Client Signing Keys Config does not accept PEM import keycloak admin/ui  * ClientPolicies: Deserialization of `MultivaluedString ` config property    doesn't work properly between new admin-ui and backend keycloak admin/ui  * Trusted Hosts configuration in Client Registration Policy not working    keycloak admin/ui  * When editing JS policy, the text area with \"Code\" should be read-only    keycloak admin/ui  * UI glitches in Users - Groups - Join Group keycloak admin/ui  * Declarative user profile attribute options validator is not added correctly    keycloak admin/ui  * Sessions displayed multiple times keycloak admin/ui  * Installation of keycloak-js fails with npm and yarn keycloak    adapter/javascript  * Documentation doesn't have versions set properly keycloak docs  * `.\\kc.bat start-dev` on Windows failed to start in 21.1.0 keycloak    dist/quarkus  * Upgrade from 21.0.2 to 21.1.0 fails on oracle db keycloak storage  * Keycloak Quarkus Server dependency broken keycloak dependencies  * Not possible to override default or built-in providers keycloak core  * Validators not saved when creating new User profile -> Attribute keycloak    admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

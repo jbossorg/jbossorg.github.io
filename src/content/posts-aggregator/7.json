@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.21 has been released",
-  "link": "http://bytemanblog.blogspot.com/2023/04/byteman-4021-has-been-released.html",
+  "title": "Kogito 1.36.0 released!",
+  "link": "https://blog.kie.org/2023/04/kogito-1-36-0-released.html",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Cristiano Nicolai",
+      "avatar": null
     }
   ],
-  "date": "2023-04-14T10:55:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.21 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK21.    Byteman 4.0.21 is a maintenance release which enables Byteman to be used with JDK21 releases. It also contains one  small bug fixes and a feature enhancement. More details are provided in the and the latest ."
+  "date": "2023-04-18T13:12:34.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.36.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Added support for CloudEvents to Serverless Workflow Knative custom function  * Implement action condition on Serverless Workflow  * Job Service embedded Quarkus extension  * Added Workflow executor. This allows  embedded execution of workflows in a    standard JVM.   * Added first draft of Workflow definition fluent API. This allows    programmatically defining workflows.   * Added support for OnOverflow annotation. This allows users to control event    publisher overflow policy through application properties.   * Fixed bug that prevents using JQ expressions in arrays.    For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.27.0 artifacts are available at the .  A detailed changelog for 1.36.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
