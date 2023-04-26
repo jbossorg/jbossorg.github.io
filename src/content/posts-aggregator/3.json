@@ -1,13 +1,13 @@
 {
-  "title": "How to Trace requests with RestEasy",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-trace-requests-with-resteasy/",
+  "title": "Quarkus 3.0, our new major release, is here!",
+  "link": "https://quarkus.io/blog/quarkus-3-0-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-04-20T11:30:45.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "When working with RESTful web services, it is often useful to be able to trace requests to better understand what is happening. Fortunately, this is relatively easy to do with WildFly and Resteasy. In this article, we will look at how to configure tracing for REST requests using an enhancement available in WildFly 28. There ...  The post appeared first on ."
+  "date": "2023-04-26T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus 3.0 is the result of a lot of work and dedication from the community. Quarkus continues to be an Open Source stack to write Java applications offering unparalleled startup time, memory footprint, and developer experience. The development of Quarkus 3 started last year on March 18, 2022, with the..."
 }
