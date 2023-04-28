@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.21 has been released",
-  "link": "http://bytemanblog.blogspot.com/2023/04/byteman-4021-has-been-released.html",
+  "title": "Using The RESTEasy Tracing Feature In WildFly",
+  "link": "https://resteasy.dev/2023/04/19/tracing-feature-in-wildfly/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2023-04-14T10:55:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.21 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK21.    Byteman 4.0.21 is a maintenance release which enables Byteman to be used with JDK21 releases. It also contains one  small bug fixes and a feature enhancement. More details are provided in the and the latest ."
+  "date": "2023-04-19T00:00:00.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
