@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 21.1.1 released",
-  "link": "https://www.keycloak.org/2023/04/keycloak-2111-released",
+  "title": "Using Dashbuilder with Google Spreadsheets",
+  "link": "https://blog.kie.org/2023/04/using-dashbuilder-with-google-spreadsheets.html",
   "author": [
     {
-      "name": null,
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2023-04-26T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 21.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * SAML2 Client Signing Keys Config does not accept PEM import keycloak admin/ui  * ClientPolicies: Deserialization of `MultivaluedString ` config property    doesn't work properly between new admin-ui and backend keycloak admin/ui  * Trusted Hosts configuration in Client Registration Policy not working    keycloak admin/ui  * When editing JS policy, the text area with \"Code\" should be read-only    keycloak admin/ui  * UI glitches in Users - Groups - Join Group keycloak admin/ui  * Declarative user profile attribute options validator is not added correctly    keycloak admin/ui  * Sessions displayed multiple times keycloak admin/ui  * Installation of keycloak-js fails with npm and yarn keycloak    adapter/javascript  * Documentation doesn't have versions set properly keycloak docs  * `.\\kc.bat start-dev` on Windows failed to start in 21.1.0 keycloak    dist/quarkus  * Upgrade from 21.0.2 to 21.1.0 fails on oracle db keycloak storage  * Keycloak Quarkus Server dependency broken keycloak dependencies  * Not possible to override default or built-in providers keycloak core  * Validators not saved when creating new User profile -> Attribute keycloak    admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2023-04-26T17:04:45.000Z",
+  "feed_title": "KIE Community",
+  "content": "can read from JSON and CSV contents. The only requirement is to make the file accessible to the machine where Dashbuilder is running. The issues you may face are:   * : To solve CORS issue you need to use a web proxy to access the service or    correctly configure CORS headers;  * : To solve this you can have a backend with authentication setup or include    headers in the dataset declaration  - uuid: my_dataset   url: http://acme.org/myfile.csv       headers:     Authorization: Bearer {token}  For Google spreadsheets we don’t have to worry about CORS or authentication as long as the document is published on the internet.    STEPS TO READ A GOOGLE SPREADSHEET  FROM DASHBUILDER   * Publish the document on the internet: The document must be public on the    internet, so make it sure that you publish it with the option Anyone with the    link. Here’s how it looks like in Portuguese:   * Now you need the sheet ID. It is what will allow us to get the same sheet    output in CSV format. In our example here’s the ID:     * Use the ID on this URL template. You can also specify a sheet name if you    want    In our example here’s the final URL:     * Now you can use the sheet from Dashbuilder. Just remember that for CSVs the    first row is skipped. Here’s a sample dashboard which you can use to get    started:  properties:   sheet_id: 1XuyPTyrjMFXQ1ey6Bg9AEcrpwZ60CnLQVEs4-DEDrcc datasets:    - uuid: sheet      url: https://docs.google.com/spreadsheets/d/${sheet_id}/gviz/tq?tqx=out:csv pages:    - components:          - settings:                type: BARCHART                lookup:                    uuid: sheet      You can edit this same example using our .   CONCLUSION  Dashbuilder can easily integrate with Google Spreadsheet and other documents available on the internet. Stay tuned for more Dashbuilder tutorials and articles!  The post appeared first on ."
 }
