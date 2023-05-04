@@ -1,13 +1,14 @@
 {
-  "title": "Support for TLS/SSL in TCP",
-  "link": "http://belaban.blogspot.com/2023/04/support-for-tlsssl-in-tcp.html",
+  "title": "New Keycloak maintainer: Sebastian Schuster",
+  "link": "https://www.keycloak.org/2023/05/maintainer-sschu",
   "author": [
     {
-      "name": "Bela Ban",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2023-04-28T07:37:00.000Z",
-  "feed_title": "Belas Blog",
-  "content": "In version 5.2.15 (to be released soon), TLS can be enabled in TCP via a simple configuration change:   <TCP      tls.enabled=\"true\"      tls.client_auth=\"NEED\"      tls.keystore_path=\"good-server.jks\"      tls.keystore_password=\"password\"      tls.keystore_alias=\"server\" ... />   This installs an SSLSocketFactory into TCP, creating SSLSockets instead of Sockets and SSLServerSockets instead of ServerSockets.   This is an alternative to SYM_ENCRYPT.   Details can be found in [1].    Cheers,      [1]  "
+  "date": "2023-05-02T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We are pleased to welcome as an official maintainer of Keycloak.  Sebastian has contributed to Keycloak since 2019, when he convinced his company Bosch to use Keycloak for identity and access management. He has been active in the community providing help, taking part in discussions and contributing. Behind him, there is a whole team at Bosch providing more than 60 contributions over the last years in various areas. The declarative user profile was the most prominent feature contributed.  His company allows him to dedicate a considerable amount of time for Keycloak to help review contributions and reports and get involved in discussions. Since Sebastian has got experience operating Keycloak on a wide scale over several years, he will focus on topics around cloud-native and Keycloak operations like observability.  Not only will Sebastian on his own bring a lot of value to Keycloak, but he will also serve as an integration point for Bosch to enable more contributions from his team, allowing them to contribute more value to Keycloak in the future."
 }

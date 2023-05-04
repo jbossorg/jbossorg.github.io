@@ -1,13 +1,14 @@
 {
-  "title": "New Features for Qute Templating Engine Support in Quarkus Tools for Visual Studio Code 1.13.0",
-  "link": "https://quarkus.io/blog/vscode-quarkus-1.13.0-released/",
+  "title": "Keycloak 21.1.0 released",
+  "link": "https://www.keycloak.org/2023/04/keycloak-2110-released",
   "author": [
     {
-      "name": "Jessica He",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-04-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus Tools for Visual Studio Code 1.13.0 has been released on the VS Code Marketplace and Open VSX. This release focuses on Qute Templating Engine Support by introducing support for more sections and improving template validation. New Features Notable Qute features included in Quarkus Tools for Visual Studio Code 1.13.0..."
+  "date": "2023-04-20T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 21.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   BUGS   * SAML2 Client Signing Keys Config does not accept PEM import keycloak admin/ui  * ClientPolicies: Deserialization of `MultivaluedString ` config property    doesn't work properly between new admin-ui and backend keycloak admin/ui  * Trusted Hosts configuration in Client Registration Policy not working    keycloak admin/ui  * When editing JS policy, the text area with \"Code\" should be read-only    keycloak admin/ui  * UI glitches in Users - Groups - Join Group keycloak admin/ui  * Declarative user profile attribute options validator is not added correctly    keycloak admin/ui  * Sessions displayed multiple times keycloak admin/ui  * Installation of keycloak-js fails with npm and yarn keycloak    adapter/javascript  * Documentation doesn't have versions set properly keycloak docs  * `.\\kc.bat start-dev` on Windows failed to start in 21.1.0 keycloak    dist/quarkus  * Upgrade from 21.0.2 to 21.1.0 fails on oracle db keycloak storage  * Keycloak Quarkus Server dependency broken keycloak dependencies  * Not possible to override default or built-in providers keycloak core  * Validators not saved when creating new User profile -> Attribute keycloak    admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }
