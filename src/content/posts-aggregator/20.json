@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.6.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-6-final-released/",
+  "title": "Quarkus 3.0.0.CR2 released",
+  "link": "https://quarkus.io/blog/quarkus-3-0-0-cr2-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-04-04T00:00:00.000Z",
+  "date": "2023-04-05T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We released Quarkus 2.16.6.Final, the fsixthifth maintenance release of our 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. If you are not already using 2.16, please refer to our migration guide. Full changelog You can get..."
+  "content": "Today, we released Quarkus 3.0.0.CR2, our last step before building the 3.0.0.Final bits. Please try it with your applications, the update is easy in a lot of cases, and report any problem to us by creating a GitHub issue. To upgrade your application to Quarkus 3.0, see the instructions below...."
 }
