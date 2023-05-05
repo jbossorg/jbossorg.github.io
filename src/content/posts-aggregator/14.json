@@ -1,13 +1,13 @@
 {
-  "title": "New Features for Qute Templating Engine Support in Quarkus Tools for Visual Studio Code 1.13.0",
-  "link": "https://quarkus.io/blog/vscode-quarkus-1.13.0-released/",
+  "title": "Using The RESTEasy Tracing Feature In WildFly",
+  "link": "https://resteasy.dev/2023/04/19/tracing-feature-in-wildfly/",
   "author": [
     {
-      "name": "Jessica He",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2023-04-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus Tools for Visual Studio Code 1.13.0 has been released on the VS Code Marketplace and Open VSX. This release focuses on Qute Templating Engine Support by introducing support for more sections and improving template validation. New Features Notable Qute features included in Quarkus Tools for Visual Studio Code 1.13.0..."
+  "date": "2023-04-20T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
