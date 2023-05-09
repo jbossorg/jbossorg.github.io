@@ -1,13 +1,13 @@
 {
-  "title": "How to run Spring Boot applications on WildFly",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/",
+  "title": "MEF and Sofis use Quarkus as core component of a new innovative architecture",
+  "link": "https://quarkus.io/blog/ministry-of-economy-finance-uruguay-adopts-quarkus/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Fabricio Gregorio",
       "avatar": null
     }
   ],
-  "date": "2023-05-06T07:09:05.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This updated (May 2023) article shows how to deploy Spring Boot 3 / Spring Boot 2 applications on top of WildFly application server as Web application archives (war). We will start by setting up the application with Spring Boot Initializr. Then, we will apply the configuration changes to deploy the application on WildFly. Spring Boot ...  The post appeared first on ."
+  "date": "2023-05-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "About us The Ministry of Economy and Finance (MEF) of Uruguay is a government ministry. Website: https://www.gub.uy/ministerio-economia-finanzas Sofis Solutions is a company with more than 18 years of experience in the digital transformation of Latin American organizations and technological inclusion. Focuses mainly on projects for the development of digital government..."
 }
