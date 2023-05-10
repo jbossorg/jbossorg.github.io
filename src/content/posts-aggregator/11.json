@@ -1,13 +1,13 @@
 {
-  "title": "Support for TLS/SSL in TCP",
-  "link": "http://belaban.blogspot.com/2023/04/support-for-tlsssl-in-tcp.html",
+  "title": "Monitoring Made Easy: How to Use Micrometer API",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/monitoring-made-easy-how-to-use-micrometer-api/",
   "author": [
     {
-      "name": "Bela Ban",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-04-28T07:37:00.000Z",
-  "feed_title": "Belas Blog",
-  "content": "In version 5.2.15 (to be released soon), TLS can be enabled in TCP via a simple configuration change:   <TCP      tls.enabled=\"true\"      tls.client_auth=\"NEED\"      tls.keystore_path=\"good-server.jks\"      tls.keystore_password=\"password\"      tls.keystore_alias=\"server\" ... />   This installs an SSLSocketFactory into TCP, creating SSLSockets instead of Sockets and SSLServerSockets instead of ServerSockets.   This is an alternative to SYM_ENCRYPT.   Details can be found in [1].    Cheers,      [1]  "
+  "date": "2023-04-28T14:42:58.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Micrometer is a metrics instrumentation library for Java applications. It provides a simple facade over the instrumentation clients for a number of popular monitoring systems. In this tutorial, we will learn how to use Micrometer API in a Jakarta EE application with WildFly or a Quarkus application. Firstly, we will cover the Micrometer configuration using ...  The post appeared first on ."
 }
