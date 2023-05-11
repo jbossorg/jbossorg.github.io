@@ -1,13 +1,13 @@
 {
-  "title": "Using Custom Principals with Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/using-custom-principals-with-elytron/",
+  "title": "Quarkus 3.0, our new major release, is here!",
+  "link": "https://quarkus.io/blog/quarkus-3-0-final-released/",
   "author": [
     {
-      "name": "Cameron Rodriguez",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-04-25T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-04-26T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus 3.0 is the result of a lot of work and dedication from the community. Quarkus continues to be an Open Source stack to write Java applications offering unparalleled startup time, memory footprint, and developer experience. The development of Quarkus 3 started last year on March 18, 2022, with the..."
 }
