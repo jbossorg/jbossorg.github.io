@@ -1,13 +1,13 @@
 {
-  "title": "MEF and Sofis use Quarkus as core component of a new innovative architecture",
-  "link": "https://quarkus.io/blog/ministry-of-economy-finance-uruguay-adopts-quarkus/",
+  "title": "Quarkus 3.0.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-0-3-final-released/",
   "author": [
     {
-      "name": "Fabricio Gregorio",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-05-09T00:00:00.000Z",
+  "date": "2023-05-10T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "About us The Ministry of Economy and Finance (MEF) of Uruguay is a government ministry. Website: https://www.gub.uy/ministerio-economia-finanzas Sofis Solutions is a company with more than 18 years of experience in the digital transformation of Latin American organizations and technological inclusion. Focuses mainly on projects for the development of digital government..."
+  "content": "We released Quarkus 3.0.3.Final, the second maintenance release of our 3.0 release train (as our first public release for 3.0 was 3.0.1.Final). As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.0. If you are not already using 3.0, please refer..."
 }
