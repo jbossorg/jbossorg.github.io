@@ -1,13 +1,13 @@
 {
-  "title": "How to Trace requests with RestEasy",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-trace-requests-with-resteasy/",
+  "title": "Using Custom Principals with Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/using-custom-principals-with-elytron/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cameron Rodriguez",
       "avatar": null
     }
   ],
-  "date": "2023-04-20T11:30:45.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "When working with RESTful web services, it is often useful to be able to trace requests to better understand what is happening. Fortunately, this is relatively easy to do with WildFly and Resteasy. In this article, we will look at how to configure tracing for REST requests using an enhancement available in WildFly 28. There ...  The post appeared first on ."
+  "date": "2023-04-25T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

@@ -1,13 +1,13 @@
 {
-  "title": "What&#8217;s new in Dashbuilder 0.28.0",
-  "link": "https://blog.kie.org/2023/05/whats-new-in-dashbuilder-0-28-0.html",
+  "title": "6 Challenges in your Monolith to Microservices transition",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/6-challenges-in-your-monolith-to-microservices-transition/",
   "author": [
     {
-      "name": "William Siqueira",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-05-05T17:39:58.000Z",
-  "feed_title": "KIE Community",
-  "content": "Kie Tools 0.28.0 is out and with it we have multiple improvements to Dashbuilder. Let’s explore it!   INSTALLATION  The new editor is live in and the VSCode extension is already available on the .  For users just update the dashbuilder-client dependency version to  0.28.0.   DASHBUILDER SAMPLES  We organized Dashbuilder samples in the repository. Notice you can also access examples directly from .   DASHBUILDER CLEANUP AND BACKEND REMOVAL  Dashbuilder Authoring and Dashbuilder Runtime App were removed on this version. The reason is that Dashbuilder Runtime is now focused on YAML development and users who need a backend to produce datasets can make use of .  As the consequence we removed 238k lines of code and made Dashbuilder faster and smaller:   * Java classes from 3088 to 1546  * Dashbuilder client bundle from 21mb to 18mb  * Main Javascript reduction from 1.8mb to 1.3mb (with gzip)  * Main Load time reduction from ~1.1s to ~900ms   ERROR MESSAGES AND USER FEEDBACK IMPROVEMENTS  Continuing Dashbuilder user feedback improvements, my colleague Kumar Aditya made 3 great improvements:   * Improve unreachable URLs error message.    * Improve dataset parsing error message   * Show a message when a displayer configuration is invalid. Dashbuilder used to    ignore the displayer with bad configuration, now it shows the cause for the    bad configuration.   DATASET IMPROVEMENTS  Important improvements were made to Dashbuilder datasets   * Dataset columns: Now dashbuilder set the LABEL as the default type for    columns and it is able to retrieve columns name from Metrics or CSVs  * Accumulate Flag: Datasets now can keep data in the memory if accumulate flag    is true. This is especially important when reading metrics without Prometheus    and having a displayer with auto update, then the metric values are kept in    memory and you can display it any way you want. Learn more about it in the    that introduced the accumulate flag  * CSV parser: The CSV parser had minor fixes and the only currently known    limitation is regarding quoted fields with line break.    CONCLUSION  The 0.28.0 release is a great milestone for Dashbuilder! The backend removal was important not only for performance reasons, but also for code maintenance because now we have less classes to maintain and evolve 🙂   The post appeared first on ."
+  "date": "2023-05-07T16:11:55.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Over the past few years, Microservices architecture has been all the rage in the software development world. Teams have been breaking their applications down into smaller, independent services with the promise of increased scalability, agility, and easier maintenance. However, as time passes, some teams are realizing that Microservices may not be the right fit for ...  The post appeared first on ."
 }

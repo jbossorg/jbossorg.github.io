@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.7.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-7-final-released/",
+  "title": "How to run Spring Boot applications on WildFly",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/spring/spring-boot-hello-world-on-wildfly/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-05-05T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 2.16.6.Final, the seventh maintenance release of our 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. If you are not already using 2.16, please refer to our migration guide. Full changelog You can get..."
+  "date": "2023-05-06T07:09:05.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This updated (May 2023) article shows how to deploy Spring Boot 3 / Spring Boot 2 applications on top of WildFly application server as Web application archives (war). We will start by setting up the application with Spring Boot Initializr. Then, we will apply the configuration changes to deploy the application on WildFly. Spring Boot ...  The post appeared first on ."
 }
