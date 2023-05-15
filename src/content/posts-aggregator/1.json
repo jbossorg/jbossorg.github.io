@@ -1,13 +1,13 @@
 {
-  "title": "Podman Desktop: A Beginner’s Guide to Containerization",
-  "link": "https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/",
+  "title": "Using Pact and Quarkus to Tame Microservices Testing",
+  "link": "https://quarkus.io/blog/pact-and-quarkus-3/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Holly Cummins",
       "avatar": null
     }
   ],
-  "date": "2023-05-12T08:47:50.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Podman is a popular containerization tool that allows users to manage containers, images, and other related resources. The Podman Desktop Tool is an easy-to-use graphical interface for managing Podman containers on your desktop. In this tutorial, we’ll go over how to use the Podman Desktop Tool to manage WildFly container image, covering some of its ...  The post appeared first on ."
+  "date": "2023-05-15T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "In a microservices architecture, making sure each microservices works is (relatively) easy. The microservices are usually small, and easy to test. But how do you make sure the microservices work together? How do you know if the system as a whole works? One answer is contract testing. Contract testing gives..."
 }
