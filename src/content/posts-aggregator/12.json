@@ -1,13 +1,13 @@
 {
-  "title": "6 Challenges in your Monolith to Microservices transition",
-  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/6-challenges-in-your-monolith-to-microservices-transition/",
+  "title": "MEF and Sofis use Quarkus as core component of a new innovative architecture",
+  "link": "https://quarkus.io/blog/ministry-of-economy-finance-uruguay-adopts-quarkus/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Fabricio Gregorio",
       "avatar": null
     }
   ],
-  "date": "2023-05-07T16:11:55.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Over the past few years, Microservices architecture has been all the rage in the software development world. Teams have been breaking their applications down into smaller, independent services with the promise of increased scalability, agility, and easier maintenance. However, as time passes, some teams are realizing that Microservices may not be the right fit for ...  The post appeared first on ."
+  "date": "2023-05-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "About us The Ministry of Economy and Finance (MEF) of Uruguay is a government ministry. Website: https://www.gub.uy/ministerio-economia-finanzas Sofis Solutions is a company with more than 18 years of experience in the digital transformation of Latin American organizations and technological inclusion. Focuses mainly on projects for the development of digital government..."
 }
