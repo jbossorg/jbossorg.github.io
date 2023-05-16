@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 3.0.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-0-2-final-released/",
+  "title": "Keyconf 23",
+  "link": "https://www.keycloak.org/2023/05/keyconf-23",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Marek Posolda",
       "avatar": null
     }
   ],
   "date": "2023-05-04T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.0.2.Final, the first maintenance release of our 3.0 release train (as our first public release for 3.0 was 3.0.1.Final). As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.0. If you are not already using 3.0, please refer..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We would like to invite you to the Keycloak conference Keyconf 23!  The event will take place on June 16 in London. The details about this event together with the links for free registration are !  The Keyconf conference takes place the day after the conference. If you are interested in security in general, this is a good opportunity to join the both conferences."
 }
