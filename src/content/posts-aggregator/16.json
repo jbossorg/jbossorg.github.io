@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.7.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-7-final-released/",
+  "title": "What&#8217;s new in Dashbuilder 0.28.0",
+  "link": "https://blog.kie.org/2023/05/whats-new-in-dashbuilder-0-28-0.html",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "William Siqueira",
       "avatar": null
     }
   ],
-  "date": "2023-05-05T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 2.16.6.Final, the seventh maintenance release of our 2.16 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 2.16. If you are not already using 2.16, please refer to our migration guide. Full changelog You can get..."
+  "date": "2023-05-05T17:39:58.000Z",
+  "feed_title": "KIE Community",
+  "content": "Kie Tools 0.28.0 is out and with it we have multiple improvements to Dashbuilder. Let’s explore it!   INSTALLATION  The new editor is live in and the VSCode extension is already available on the .  For users just update the dashbuilder-client dependency version to  0.28.0.   DASHBUILDER SAMPLES  We organized Dashbuilder samples in the repository. Notice you can also access examples directly from .   DASHBUILDER CLEANUP AND BACKEND REMOVAL  Dashbuilder Authoring and Dashbuilder Runtime App were removed on this version. The reason is that Dashbuilder Runtime is now focused on YAML development and users who need a backend to produce datasets can make use of .  As the consequence we removed 238k lines of code and made Dashbuilder faster and smaller:   * Java classes from 3088 to 1546  * Dashbuilder client bundle from 21mb to 18mb  * Main Javascript reduction from 1.8mb to 1.3mb (with gzip)  * Main Load time reduction from ~1.1s to ~900ms   ERROR MESSAGES AND USER FEEDBACK IMPROVEMENTS  Continuing Dashbuilder user feedback improvements, my colleague Kumar Aditya made 3 great improvements:   * Improve unreachable URLs error message.    * Improve dataset parsing error message   * Show a message when a displayer configuration is invalid. Dashbuilder used to    ignore the displayer with bad configuration, now it shows the cause for the    bad configuration.   DATASET IMPROVEMENTS  Important improvements were made to Dashbuilder datasets   * Dataset columns: Now dashbuilder set the LABEL as the default type for    columns and it is able to retrieve columns name from Metrics or CSVs  * Accumulate Flag: Datasets now can keep data in the memory if accumulate flag    is true. This is especially important when reading metrics without Prometheus    and having a displayer with auto update, then the metric values are kept in    memory and you can display it any way you want. Learn more about it in the    that introduced the accumulate flag  * CSV parser: The CSV parser had minor fixes and the only currently known    limitation is regarding quoted fields with line break.    CONCLUSION  The 0.28.0 release is a great milestone for Dashbuilder! The backend removal was important not only for performance reasons, but also for code maintenance because now we have less classes to maintain and evolve 🙂   The post appeared first on ."
 }
