@@ -42,7 +42,7 @@ In this blog post, Matteo shares the results of a technical exploration of bring
 
  
 
-== Podman Desktop Beginners' Guide
+== Podman Desktop Beginner's Guide
 
 link:https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/[Podman Desktop Guide], by Francesco Marchioni
 
