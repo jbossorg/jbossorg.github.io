@@ -46,7 +46,7 @@ In this blog post, Matteo shares the results of a technical exploration of bring
 
 link:https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/[Podman Desktop Guide], by Francesco Marchioni
 
-In this tutorial, I'm introducing the Podman desktop UI which simplifies the usage and management of Container images. As an example, we will learn how to pull, start and monitor WildFly Container image with just a few clicks!
+In this tutorial, I'm introducing the Podman desktop UI which simplifies the usage and management of container images. As an example, we will learn how to pull, start, and monitor a WildFly Container image with just a few clicks!
 
 == What’s new in Red Hat’s migration toolkit for applications 6.1
 
