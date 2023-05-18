@@ -38,7 +38,7 @@ This article showcases the latest JBoss EAP quick start, specifically created to
 
 link:https://blog.kie.org/2023/05/integrate-excel-with-drools-on-openshift-with-knative-and-quarkus.html[Integrate Excel with Drools on OpenShift with Knative and Quarkus], by Matteo Mortari
 
-In this blog post, Matteo shares the results of a technical exploration of bringing together and connecting different technologies and platforms. At the end of the day, he combined things like regular spreadsheet applications (like Excel), serverless platforms (Knative on OpenShift), and our rule engine Drools to see how they could work together.
+In this blog post, Matteo shares the results of a technical exploration of bringing together different technologies and platforms. At the end of the day, he combined things like regular spreadsheet applications (like Excel), serverless platforms (Knative on OpenShift), and our rule engine Drools to see how they could work together.
 
  
 
