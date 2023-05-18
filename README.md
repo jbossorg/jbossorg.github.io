@@ -1,4 +1,6 @@
-# JBoss.org Site
+## JBoss.org Site
+<p align="center">
+<img height="100" width ="100" src = "https://github.com/PrathmeshMutke/jbossorg.github.io/blob/188bda9f3875a323652b26647d35d26a9d4f6fbf/JBoss_logo.svg"></IMG>
 
 ## Two Ways To Add A Post
 
