@@ -52,7 +52,7 @@ In this tutorial, I'm introducing the Podman desktop UI which simplifies the usa
 
 link:https://developers.redhat.com/articles/2023/05/10/whats-new-red-hats-migration-toolkit-applications-61[What’s new in Red Hat’s migration toolkit for applications 6.1], by Yashwanth Maheshwaram
 
-Red Hat Migration Toolkit is an essential tool to simplify the upgrade or migration of a large set of Enterprise applications. Stay updated with the latest news (video included) in this article.
+Red Hat Migration Toolkit is an essential tool to simplify the upgrade or migration of a large set of enterprise applications. This article gives you an update with the latest news and includes a great demo video.
 
 _That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
 
