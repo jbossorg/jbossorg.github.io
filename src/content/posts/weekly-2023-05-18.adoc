@@ -1,0 +1,58 @@
+= This Week in JBoss - May, 15 2023
+Francesco Marchioni
+2023-05-15
+:tags: quarkus, java, wildfly, camel, strimzi, podman
+
+Happy Friday, everyone!
+
+Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.
+
+== Release roundup
+
+Here are the most recent releases for this edition:
+
+[square]
+
+* link:https://quarkus.io/blog/quarkus-3-0-3-final-released/[Quarkus 3.0.3.Final released] - The Quarkus Team released Quarkus 3.0.3.Final, as part of the second maintenance release of our 3.0 release train. This release  contains bugfixes and documentation improvements.
+
+* link:https://blog.kie.org/2023/05/kogito-1-37-0-released.html[Kogito 1.37 released] - The new Kogito release features enhancements in the flow actions, workflow definitions logging and service discovery.
+
+* link:https://camel.apache.org/releases/release-4.0.0-M3/[Camel RELEASE 4.0.0-M3 available] - The Camel community announces the availability of Camel 4.0.0-M3, the third milestone towards a new 4.0.0 major release which comes with 155 new features and improvements.
+
+
+== Exactly-once semantics with Kafka transactions
+
+link:https://strimzi.io/blog/2023/05/03/kafka-transactions/[Exactly-once semantics with Kafka transactions], by Federico Valeri.
+
+Kafka transactions play a vital role in guaranteeing the reliability and integrity of data, making them a pivotal component of the Kafka platform. Nevertheless, these benefits are accompanied by a trade-off in terms of decreased throughput and added latency, necessitating potential adjustments. Neglecting to monitor transactions that remain unresolved can adversely affect the availability of the service. This article sheds some light on this topic.
+
+
+== How to use the new OpenShift quick starts to deploy JBoss EAP
+
+link:https://developers.redhat.com/articles/2023/05/15/how-use-new-openshift-quick-starts-deploy-jboss-eap[How to use the new OpenShift quick starts to deploy JBoss EAP], by Philip Hayes
+
+This article showcases the latest JBoss EAP quick start, specifically created to assist developers who are already familiar with conventional JBoss EAP deployments. Its purpose is to provide a comprehensive walkthrough on constructing and deploying application images on OpenShift. The quick start offers valuable guidance on utilizing Helm to generate the necessary build configs, deployment configs, and external routes for building and deploying JBoss EAP applications on OpenShift.
+
+
+== Integrate Excel with Drools on OpenShift with Knative and Quarkus
+
+link:https://blog.kie.org/2023/05/integrate-excel-with-drools-on-openshift-with-knative-and-quarkus.html[Integrate Excel with Drools on OpenShift with Knative and Quarkus], by Matteo Mortari
+
+In this blog post, Matteo shares the results of a technical exploration of bringing together different technologies and platforms. At the end of the day, he combined things like regular spreadsheet applications (like Excel), serverless platforms (Knative on OpenShift), and our rule engine Drools to see how they could work together.
+
+ 
+
+== Podman Desktop Beginner's Guide
+
+link:https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/[Podman Desktop Guide], by Francesco Marchioni
+
+In this tutorial, I'm introducing the Podman desktop UI which simplifies the usage and management of container images. As an example, we will learn how to pull, start, and monitor a WildFly Container image with just a few clicks!
+
+== What’s new in Red Hat’s migration toolkit for applications 6.1
+
+link:https://developers.redhat.com/articles/2023/05/10/whats-new-red-hats-migration-toolkit-applications-61[What’s new in Red Hat’s migration toolkit for applications 6.1], by Yashwanth Maheshwaram
+
+Red Hat Migration Toolkit is an essential tool to simplify the upgrade or migration of a large set of enterprise applications. This article gives you an update with the latest news and includes a great demo video.
+
+_That's all folks! Please join us again in two weeks for another round of our JBoss editorial!_
+
