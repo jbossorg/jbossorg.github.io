@@ -1,13 +1,13 @@
 {
-  "title": "Using Visual Studio to develop and manage WildFly",
-  "link": "https://www.mastertheboss.com/eclipse/jboss-tools/using-visual-studio-to-develop-and-manage-wildfly/",
+  "title": "WildFly 28.0.1 is released!",
+  "link": "https://wildfly.org//news/2023/05/23/WildFly2801-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2023-05-22T09:13:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Visual Studio Community Edition is completely free IDE for individual developers. Despite being free, it provides a rich set of features and capabilities comparable to the paid editions of Visual Studio. In this article we will learn how to use it to develop applications on top of WildFly application Server. Harness the Advantages of Visual ...  The post appeared first on ."
+  "date": "2023-05-23T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 28.0.1.Final is now available .  It’s been about five weeks since the WildFly 28 release, so we’ve done a small bug fix update, WildFly 28.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 28.0.1:  BUGS   * [] - todo-backend QS has outdated Readme instructions   * [] - Add missing org.jboss.vfs to RESTEasy Spring deployments   * [] - todo-backend Readme OpenShift instructions results in a non-functional    QS app   * [] - LRA causes a failure in the ContextPropagationTestCase   * [] - ExpirationMetaData.isExpired() test does not conform to logic in    LocalScheduler   * [] - Add java.base/java.net package to recommended client side JPMS settings   * [] - The JaxrsIntegrationProcessor should not attempt to get the RESTEasy    configuration when not a REST deployment.  COMPONENT UPGRADES   * [] - Upgrade to Smallrye opentelemetry 2.3.2   * [] - Upgrade RESTEasy to 6.2.4.Final   * [] - Upgrade xalan to 2.7.3 (CVE-2022-34169)   * [] - Upgrade jose4j to 0.9.3   * [] - WildFly Core to 20.0.2.Final  Issues resolved in the WildFly Core update included with WildFly 28.0.1 were:  BUGS   * [] - Changes to json-formatter meta-data never take effect   * [] - module java.base does not \"opens java.net\" to unnamed module  TASKS   * [] - Add back the org.jboss.vfs module as a dependency on deployments  COMPONENT UPGRADES   * [] - CVE-2022-1259 Upgrade Undertow to 2.3.6.Final  Enjoy!"
 }
