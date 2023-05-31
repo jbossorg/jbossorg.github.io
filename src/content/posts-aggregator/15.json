@@ -1,13 +1,13 @@
 {
-  "title": "Using Pact and Quarkus to Tame Microservices Testing",
-  "link": "https://quarkus.io/blog/pact-and-quarkus-3/",
+  "title": "Quarkus Newsletter #32 - May",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-32/",
   "author": [
     {
-      "name": "Holly Cummins",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
   "date": "2023-05-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In a microservices architecture, making sure each microservices works is (relatively) easy. The microservices are usually small, and easy to test. But how do you make sure the microservices work together? How do you know if the system as a whole works? One answer is contract testing. Contract testing gives..."
+  "content": "The May newsletter has beens sent. Get a deep dive into the Quarkus 3 release. Learn how to implement built-in and custom Role-Based Access Control (RBAC) in Quarkus to ensure secure REST API access with the \"Implementing RBAC in Quarkus\" article by Aashreya Shankar. Read about \"Dynamic Data Processing Using..."
 }

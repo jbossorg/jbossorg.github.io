@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 3.9.16 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-3-9-16",
+  "title": "Podman Desktop: A Beginner’s Guide to Containerization",
+  "link": "https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-05-12T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 3.9.16 has just been released which fixes CVE-2023-32081"
+  "date": "2023-05-12T08:47:50.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Podman is a popular containerization tool that allows users to manage containers, images, and other related resources. The Podman Desktop Tool is an easy-to-use graphical interface for managing Podman containers on your desktop. In this tutorial, we’ll go over how to use the Podman Desktop Tool to manage WildFly container image, covering some of its ...  The post appeared first on ."
 }
