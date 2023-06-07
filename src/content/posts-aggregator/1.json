@@ -1,13 +1,13 @@
 {
-  "title": "SOAP Web Services with Quarkus made easy",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/soap-web-services-with-quarkus-made-easy/",
+  "title": "Eclipse Vert.x 4.4.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-3",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-06-06T12:38:41.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this step-by-step guide we will learn how to code, run and test SOAP web services using the Quarkus CXF Extensions. We will first learn how to deploy a simple SOAP Web services and then we will consume it with different Clients such as SOAP UI, Java Client or a Camel CXF Consumer. Prerequisites Before ...  The post appeared first on ."
+  "date": "2023-06-07T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.3 has just been released. It fixes a few bugs that have been reported by the community"
 }
