@@ -1,13 +1,13 @@
 {
-  "title": "Configuring the Digest Mechanism to Make Use of Additional Algorithms",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/specify-http-digest-algorithms/",
+  "title": "Q2 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.dev/2023/05/16/resteasy-releases/",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2023-05-16T00:00:00.000Z",
-  "feed_title": "WildFly",
+  "date": "2023-05-16T04:11:11.000Z",
+  "feed_title": "RESTEasy",
   "content": ""
 }
