@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-0-4-final-released/",
+  "title": "gRPC and WildFly - Part II",
+  "link": "https://resteasy.dev/2023/05/30/grpc-in-wildfly-pt2/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-05-25T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.0.4.Final, the third maintenance release of our 3.0 release train (as our first public release for 3.0 was 3.0.1.Final). As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.0. If you are not already using 3.0, please refer..."
+  "date": "2023-05-30T00:00:00.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }

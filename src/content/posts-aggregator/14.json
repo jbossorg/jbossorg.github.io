@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.38.0 released!",
-  "link": "https://blog.kie.org/2023/05/kogito-1-38-0-released.html",
+  "title": "WildFly 28.0.1 is released!",
+  "link": "https://wildfly.org//news/2023/05/23/WildFly2801-Released/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2023-05-22T05:42:46.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.38.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Data Index addons that allow running indexing capabilities as part of Kogito    runtimes, incorporate now the interaction with the Job Service embedded    Quarkus extension.  * Rocksdb persistence quarkus add-on  * Serverless Workflow embedded executor dependency list has been substantially    reduced.  * Added support for full GVK to Knative custom function  * Added support for existing “quarkus.flyway.locations” values   For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.28.0 artifacts are available at the .  A detailed changelog for 1.38.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-05-23T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 28.0.1.Final is now available .  It’s been about five weeks since the WildFly 28 release, so we’ve done a small bug fix update, WildFly 28.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 28.0.1:  BUGS   * [] - todo-backend QS has outdated Readme instructions   * [] - Add missing org.jboss.vfs to RESTEasy Spring deployments   * [] - todo-backend Readme OpenShift instructions results in a non-functional    QS app   * [] - LRA causes a failure in the ContextPropagationTestCase   * [] - ExpirationMetaData.isExpired() test does not conform to logic in    LocalScheduler   * [] - Add java.base/java.net package to recommended client side JPMS settings   * [] - The JaxrsIntegrationProcessor should not attempt to get the RESTEasy    configuration when not a REST deployment.  COMPONENT UPGRADES   * [] - Upgrade to Smallrye opentelemetry 2.3.2   * [] - Upgrade RESTEasy to 6.2.4.Final   * [] - Upgrade xalan to 2.7.3 (CVE-2022-34169)   * [] - Upgrade jose4j to 0.9.3   * [] - WildFly Core to 20.0.2.Final  Issues resolved in the WildFly Core update included with WildFly 28.0.1 were:  BUGS   * [] - Changes to json-formatter meta-data never take effect   * [] - module java.base does not \"opens java.net\" to unnamed module  TASKS   * [] - Add back the org.jboss.vfs module as a dependency on deployments  COMPONENT UPGRADES   * [] - CVE-2022-1259 Upgrade Undertow to 2.3.6.Final  Enjoy!"
 }

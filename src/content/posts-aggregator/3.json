@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.3 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-3",
+  "title": "Eclipse Vert.x JDBC Client 4.4.3.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-jdbc-client-4-3-3-1",
   "author": [
     {
       "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-06-07T00:00:00.000Z",
+  "date": "2023-06-08T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.3 has just been released. It fixes a few bugs that have been reported by the community"
+  "content": "Eclipse Vert.x JDBC Client version 4.4.3.1 has just been released."
 }

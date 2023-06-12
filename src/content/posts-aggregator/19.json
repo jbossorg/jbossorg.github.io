@@ -1,13 +1,13 @@
 {
-  "title": "Configuring the Digest Mechanism to Make Use of Additional Algorithms",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/specify-http-digest-algorithms/",
+  "title": "Kogito 1.37.0 released!",
+  "link": "https://blog.kie.org/2023/05/kogito-1-37-0-released.html",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": "Cristiano Nicolai",
+      "avatar": null
     }
   ],
-  "date": "2023-05-16T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-05-16T10:42:39.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.37.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * ForEach state actions now can access the result of the previous action within    the same iteration by using $WORKFLOW.prevActionResult. This allows action    chaining in SWF loops.  * When a task is not found, the GET rest API method now returns 404.   * New APIs to read and write a workflow definition from a yaml/json file  * Sysout custom action now uses S4LJ rather than System.out. It optionally    allows setting up the log level by adding it to the operation string.   * Service Discovery property expansion now supports the simplified format    knative:<namespace>/<serviceName>  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.28.0 artifacts are available at the .  A detailed changelog for 1.37.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
