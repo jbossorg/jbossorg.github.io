@@ -1,13 +1,13 @@
 {
-  "title": "gRPC and WildFly - Part II",
-  "link": "https://resteasy.dev/2023/05/30/grpc-in-wildfly-pt2/",
+  "title": "Quarkus 3.1.0.Final released - Programmatic creation of Reactive REST Clients, Kotlin 1.8.21 and more",
+  "link": "https://quarkus.io/blog/quarkus-3-1-0-final-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-05-30T00:00:00.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-05-31T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It has been a month since we released Quarkus 3.0 and it is our pleasure to announce Quarkus 3.1.0.Final. As usual, it comes with a lot of improvements all over the place. Major changes are: Provide new API to programmatically create Reactive REST Clients Introduce a way to set headers..."
 }
