@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Testcontainers for Java",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-testcontainers-for-java/",
+  "title": "Java 21 Unnamed Classes and Instance Main Methods",
+  "link": "https://www.mastertheboss.com/java/java-21-unnamed-classes-and-instance-main-methods/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-12T15:04:48.000Z",
+  "date": "2023-06-13T10:38:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Introduction In modern software development, it is crucial to write robust and reliable tests to ensure the quality of your applications. One essential aspect of testing is dealing with dependencies, such as databases or external services. Testcontainers is an excellent Java library that provides lightweight, disposable containers for running dependencies during tests. In this tutorial, ...  The post appeared first on ."
+  "content": "Java 21 introduces two language core features: Unnamed Java Classes and a new launch protocol which allows running Java classes in a simpler format. In this article we will cover in detail these new features explaining how they can simplify your daily Java coding. Java 21 introduces two core features that will simplify the coding ...  The post appeared first on ."
 }
