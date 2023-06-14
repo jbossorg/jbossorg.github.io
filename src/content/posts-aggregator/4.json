@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.39.0 released!",
-  "link": "https://blog.kie.org/2023/06/kogito-1-39-0-released.html",
+  "title": "gRPC and WildFly - Part II: Exposing Jakarta RESTFul Web Services to gRPC",
+  "link": "https://resteasy.dev/2023/06/11/grpc-in-wildfly-pt2/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-06-09T12:23:04.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.39.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * User can now send a custom CloudEvent ID in Serverless Workflow Knative    custom functions  * Users can now override default behavior of Java service custom type  (which    creates object instance using reflection and default constructor)  when using    embedded serverless workflow execution (so they can, for example, use a    spring boot bean)   * Fixed bug that prevent task deadlines functionality to work  * Fixed issue on data translation when using RestWorkItemHandler within a for    each state  * [SW Operator] Update Serverless Operator to use CNCF go-sdk model  * Fixed bug that prevents sending Process, UserTask, and Variable events in    knative eventing.  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.29.0 artifacts are available at the .  A detailed changelog for 1.39.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-06-11T00:00:00.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
