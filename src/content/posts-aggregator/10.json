@@ -1,13 +1,13 @@
 {
-  "title": "KeyCloak Social Login Step-by-Step guide",
-  "link": "https://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/",
+  "title": "Quarkus 3.1.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-1-1-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-05-31T06:25:35.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Are you looking to enhance your application’s user authentication process? Configuring social login in Keycloak can provide a seamless and convenient login experience for your users. In this comprehensive tutorial, we will guide you through the step-by-step process of setting up social login in Keycloak, leveraging Google Identity Provider as an example. So let’s get ...  The post appeared first on ."
+  "date": "2023-06-07T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.1.1.Final, the first maintenance release of our 3.1 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.1. If you are not already using 3.1, please refer to the Quarkus 3.1 migration guide. And if you..."
 }

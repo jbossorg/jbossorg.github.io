@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #33 - June",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-33/",
+  "title": "Quarkus 3.1.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-1-2-final-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-06-13T00:00:00.000Z",
+  "date": "2023-06-16T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Check out the June Newsletter. Read \"A Guide to the Quarkus 3 Azure Functions Extension: Bootstrap Java Microservices with Ease\" by Daniel Oh & Erik Costlow and to learn how Quarkus integrates Java microservices into Azure Functions with an improved developer experience. Check out \"Quarkus: Java revisited!\" by Willem Meints..."
+  "content": "We released Quarkus 3.1.2.Final, the second maintenance release of our 3.1 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.1. If you are not already using 3.1, please refer to the Quarkus 3.1 migration guide. And if you..."
 }

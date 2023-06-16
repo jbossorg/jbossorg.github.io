@@ -1,13 +1,13 @@
 {
-  "title": "gRPC and WildFly - Part II: Exposing Jakarta RESTFul Web Services to gRPC",
-  "link": "https://resteasy.dev/2023/06/11/grpc-in-wildfly-pt2/",
+  "title": "Quarkus Newsletter #33 - June",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-33/",
   "author": [
     {
-      "name": null,
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-06-11T00:00:00.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-06-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Check out the June Newsletter. Read \"A Guide to the Quarkus 3 Azure Functions Extension: Bootstrap Java Microservices with Ease\" by Daniel Oh & Erik Costlow and to learn how Quarkus integrates Java microservices into Azure Functions with an improved developer experience. Check out \"Quarkus: Java revisited!\" by Willem Meints..."
 }

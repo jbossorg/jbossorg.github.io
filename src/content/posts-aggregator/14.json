@@ -1,13 +1,13 @@
 {
-  "title": "MicroProfile LRA: A Comprehensive Guide",
-  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/microprofile-lra-a-comprehensive-guide/",
+  "title": "Migration to Quarkus 3.0 is a breeze",
+  "link": "https://quarkus.io/blog/quarkus-3-upgrade/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Martin Kouba",
       "avatar": null
     }
   ],
-  "date": "2023-05-24T21:01:14.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In today’s distributed and microservices-based architectures, ensuring data consistency and coordination across multiple services can be challenging. This is where MicroProfile LRA (Long Running Actions) comes into play. In this tutorial, we will explore the fundamentals of MicroProfile LRA, how to use it effectively, and compare it with other standards such as distributed transactions. What ...  The post appeared first on ."
+  "date": "2023-05-25T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus 3 is out and we encourage our users to upgrade their applications to experience the best Quarkus ever! The team worked hard to deliver a lot of new features and performance improvements. But of course, there are also some breaking changes. The migration guide describes all the important changes..."
 }

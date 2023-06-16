@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.0.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-0-4-final-released/",
+  "title": "Quarkus 3.1.0.Final released - Programmatic creation of Reactive REST Clients, Kotlin 1.8.21 and more",
+  "link": "https://quarkus.io/blog/quarkus-3-1-0-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-05-25T00:00:00.000Z",
+  "date": "2023-05-31T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.0.4.Final, the third maintenance release of our 3.0 release train (as our first public release for 3.0 was 3.0.1.Final). As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.0. If you are not already using 3.0, please refer..."
+  "content": "It has been a month since we released Quarkus 3.0 and it is our pleasure to announce Quarkus 3.1.0.Final. As usual, it comes with a lot of improvements all over the place. Major changes are: Provide new API to programmatically create Reactive REST Clients Introduce a way to set headers..."
 }
