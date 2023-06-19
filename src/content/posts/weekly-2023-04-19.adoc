@@ -1,0 +1,15 @@
+= This Week in JBoss - June 19, 2023
+Don Naro
+2023-04-19
+
+Hello to our dear JBoss community.
+We, the editorial team, have noticed a downward trend in our readership and have made the decision to no longer carry on.
+There are many great blogs out there and the JBoss community of projects is producing a lot of great content for you to learn from.
+However, with the steady decline in our editorial views, we no longer feel the effort we put into distilling the blogs and tutorials is having the sort of impact that we would hope.
+Writing up the editorials is more work than you might expect and takes a good chunk of time that we could devote to doing our actual jobs or hacking on code.
+
+It has been a great ride and we wish you all the best.
+We thought about doing a sort of highlight reel to round up some of our favourite blog posts and moments doing the editorial, but realized probably no one is going to read it.
+So let's stop shouting into the void and carry on building cool stuff.
+
+Thanks for everything and goodbye.
