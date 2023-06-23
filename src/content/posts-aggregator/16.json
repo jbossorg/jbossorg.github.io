@@ -1,13 +1,13 @@
 {
-  "title": "KeyCloak Social Login Step-by-Step guide",
-  "link": "https://www.mastertheboss.com/keycloak/google-social-login-with-keycloak/",
+  "title": "SOAP Web Services with Quarkus made easy",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/soap-web-services-with-quarkus-made-easy/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-05-31T06:25:35.000Z",
+  "date": "2023-06-06T12:38:41.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Are you looking to enhance your application’s user authentication process? Configuring social login in Keycloak can provide a seamless and convenient login experience for your users. In this comprehensive tutorial, we will guide you through the step-by-step process of setting up social login in Keycloak, leveraging Google Identity Provider as an example. So let’s get ...  The post appeared first on ."
+  "content": "In this step-by-step guide we will learn how to code, run and test SOAP web services using the Quarkus CXF Extensions. We will first learn how to deploy a simple SOAP Web services and then we will consume it with different Clients such as SOAP UI, Java Client or a Camel CXF Consumer. Prerequisites Before ...  The post appeared first on ."
 }
