@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.4 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-4",
+  "title": "Dev productivity - Quarkus CLI",
+  "link": "https://quarkus.io/blog/quarkus-cli/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Ioannis Canellos",
       "avatar": null
     }
   ],
-  "date": "2023-06-22T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.4 has just been released. It fixes a few bugs that have been reported by the community"
+  "date": "2023-06-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "People hardly realize that the Quarkus CLI was available from the first public release of Quarkus back in 2019. It originally only allowed project creation and extension manipulation. The following command shows the list of supported commands: quarkus --help Usage: quarkus [] These are the common quarkus commands used..."
 }
