@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Testcontainers for Java",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-testcontainers-for-java/",
+  "title": "Quarkus Newsletter #33 - June",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-33/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-06-12T15:04:48.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Introduction In modern software development, it is crucial to write robust and reliable tests to ensure the quality of your applications. One essential aspect of testing is dealing with dependencies, such as databases or external services. Testcontainers is an excellent Java library that provides lightweight, disposable containers for running dependencies during tests. In this tutorial, ...  The post appeared first on ."
+  "date": "2023-06-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Check out the June Newsletter. Read \"A Guide to the Quarkus 3 Azure Functions Extension: Bootstrap Java Microservices with Ease\" by Daniel Oh & Erik Costlow and to learn how Quarkus integrates Java microservices into Azure Functions with an improved developer experience. Check out \"Quarkus: Java revisited!\" by Willem Meints..."
 }
