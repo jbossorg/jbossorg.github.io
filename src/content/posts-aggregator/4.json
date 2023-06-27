@@ -1,13 +1,13 @@
 {
-  "title": "Dev productivity - Quarkus CLI",
-  "link": "https://quarkus.io/blog/quarkus-cli/",
+  "title": "Quarkus Native with Podman for Windows",
+  "link": "https://quarkus.io/blog/podman-for-windows/",
   "author": [
     {
-      "name": "Ioannis Canellos",
+      "name": "Karm Michal Babacek",
       "avatar": null
     }
   ],
-  "date": "2023-06-23T00:00:00.000Z",
+  "date": "2023-06-26T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "People hardly realize that the Quarkus CLI was available from the first public release of Quarkus back in 2019. It originally only allowed project creation and extension manipulation. The following command shows the list of supported commands: quarkus --help Usage: quarkus [] These are the common quarkus commands used..."
+  "content": "Developers who use Windows workstations might face the challenge of running Linux-native workflows. One way to achieve this is by using Podman, a container engine that provides a command line capability to run Linux containers. Podman supports running containers both as \"rootful\" and as \"rootless\", with the latter being the..."
 }
