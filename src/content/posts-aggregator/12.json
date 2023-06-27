@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #33 - June",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-33/",
+  "title": "Java 21 Unnamed Classes and Instance Main Methods",
+  "link": "https://www.mastertheboss.com/java/java-21-unnamed-classes-and-instance-main-methods/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Check out the June Newsletter. Read \"A Guide to the Quarkus 3 Azure Functions Extension: Bootstrap Java Microservices with Ease\" by Daniel Oh & Erik Costlow and to learn how Quarkus integrates Java microservices into Azure Functions with an improved developer experience. Check out \"Quarkus: Java revisited!\" by Willem Meints..."
+  "date": "2023-06-13T10:38:54.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Java 21 introduces two language core features: Unnamed Java Classes and a new launch protocol which allows running Java classes in a simpler format. In this article we will cover in detail these new features explaining how they can simplify your daily Java coding. Java 21 introduces two core features that will simplify the coding ...  The post appeared first on ."
 }
