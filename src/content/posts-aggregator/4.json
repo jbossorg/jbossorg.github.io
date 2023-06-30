@@ -1,13 +1,13 @@
 {
-  "title": "Parsing PDF in Java made simple",
-  "link": "https://www.mastertheboss.com/java/parsing-pdf-in-java-made-simple/",
+  "title": "New update! SWF dev UI diagram",
+  "link": "https://blog.kie.org/2023/06/new-update-swf-dev-ui-diagram.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Ajay Jaganathan",
       "avatar": null
     }
   ],
-  "date": "2023-06-27T10:14:37.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "When it comes to parsing PDF files in Java, two popular libraries stand out: Apache Tika and Apache PDFBox. Both libraries provide powerful features for working with PDF documents, but they have different approaches and trade-offs. In this article, we will explore how to parse a PDF using each library and compare their pros and ...  The post appeared first on ."
+  "date": "2023-06-27T13:04:50.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are pleased to announce that the serverless workflow dev UI now supports colored nodes based on the path the workflow has taken for execution.   HOW TO VIEW THE DIAGRAM?  To view the diagram, the easiest method is to use the awesome set of examples that we have . In my video below, I will be using the serverless-workflow-compensation-quarkus example.   PREREQUISITES:   * Java 11+ installed  * Maven 3.8.6+ installed  * Docker installed  To start the example run the command: mvn clean package quarkus:dev  This will start all the necessary services to start the example.  Once all the services are started, you can visit the .  To start a workflow instance, you can use the following command in the terminal:   curl -X POST -H 'Content-Type:application/json' -H 'Accept:application/json' -d '{\"shouldCompensate\": true}' http://localhost:8080/compensation   Click on the workflow instances under the Serverless Workflow Tools card.  This will navigate you to the workflow instances page, where you can see the list of workflow instances available.  Click on the Workflow Error example to get navigated to the workflow details page. You can see the diagram with colored nodes being rendered in the Serverless Workflow Diagram card.  A detailed explanation is available in the video attached below.  colored nodes in dev ui  As you can see in the video, the compensation example has different paths being executed depending on the shouldCompensate boolean value. When there is an error in the workflow execution, that node is shown in Red color.   CONCLUSION  This diagram helps the user understand and visualize the path taken by the workflow execution, thereby improving the user experience in the dev UI.  Stay tuned for more exciting updates in the dev UI!!!  The post appeared first on ."
 }
