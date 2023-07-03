@@ -1,6 +1,7 @@
 = This Week in JBoss - July 03, 2023
 Don Naro
 2023-07-03
+:tags: jboss, farewell
 
 Hello to our dear JBoss community.
 We, the editorial team, have noticed a downward trend in our readership and have made the decision to no longer carry on.
