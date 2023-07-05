@@ -1,13 +1,13 @@
 {
-  "title": "Camel Routes support in Serverless Workflow Editors",
-  "link": "https://blog.kie.org/2023/07/camel-routes-support-in-serverless-workflow-editors.html",
+  "title": "Quarkus 3.2.0.Final released - New security features, @QuarkusComponentTest",
+  "link": "https://quarkus.io/blog/quarkus-3-2-0-final-released/",
   "author": [
     {
-      "name": "Saravana Balaji",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-07-03T12:49:44.000Z",
-  "feed_title": "KIE Community",
-  "content": "The Serverless Workflow Editor now offers autocomplete features for functions and events via Catalog Explorer. In my previous blog posts, we saw how and support OpenAPI and AsyncAPI specifications.The same feature now works with Camel Routes as well. While editing Serverless Workflow files, you can register Camel Routes and pass them as functions. These functions will be available on the Serverless Workflow Editor’s Service Catalog Explorer. This article explains how that works.  A Camel Route is a set of processing steps that are applied to a message as it travels from a source to a destination.  A Route typically consists of a series of processing steps that are connected in a linear sequence.  At this point, Camel Routes are supported by KIE Serverless Workflow VS Code extension and soon the feature will be available on Web Tools as well.   INSTALLING THE EXTENSION  To proceed further, you will need and the .  There are several ways to download and install the KIE Serverless Workflow VS Code extension   1. Download it from the .  2. Launch VS Code Quick Open (Ctrl+P), paste the following commands, and press     enter:     * ext install kie-group.swf-vscode-extension;  3. Click on the Extensions icon in the Activity Bar on the side of VS Code,     search and install.     *    CAMEL ROUTE SAMPLE  After installing the KIE Serverless Workflow VS Code Extension, open your Serverless Workflow project on your workspace and create a folder named “routes” inside the “main/properties” folder.  If you have a Camel Routes file, you can place it there. This folder must only contain files that have Camel Routes content. This will be automatically read by the extension and populated on the editor.  You can also copy the below sample content and paste it on a file that you can create inside the routes folder.  - from:     uri: direct:numberToWords     steps:       - bean:           beanType: java.math.BigInteger           method: valueOf       - setHeader:             name: operationName             constant: NumberToWords       - toD:           uri: cxf://example.com?serviceClass=com.dataaccess.webservicesserver.NumberConversionSoapType&wsdlURL=/wsdl/numberconversion.wsdl   CAMEL ROUTES AUTOCOMPLETE  Once you have the file containing Camel Routes in place, the editor is intelligent enough to automatically read through the files and parse the Camel Routes.  Here is a short demo showing how it works.    Notice the new custom function with a new operation type. The operation is a URI scheme composed by the constant “camel:”, the “direct:” endpoint, and its name. The Serverless Workflow Editor only supports producing messages to a endpoint at this time. This function can be referenced in other definitions like state or events.  To explore and understand the Serverless Workflow Editor with the help of samples, you can try out sample projects from.  That’s all for now! There are more exciting features coming up in this space, stay tuned!  The post appeared first on ."
+  "date": "2023-07-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is our pleasure to announce the release of Quarkus 3.2.0.Final. Even if we will maintain 2.16 for a few months still, we encourage all our users to start their migration journey to Quarkus 3. Major changes are: Various new security features The ability to test CDI components with @QuarkusComponentTest..."
 }

@@ -1,13 +1,14 @@
 {
-  "title": "New update! SWF dev UI diagram",
-  "link": "https://blog.kie.org/2023/06/new-update-swf-dev-ui-diagram.html",
+  "title": "Survey - Cross-Site Replication in Keycloak",
+  "link": "https://www.keycloak.org/2023/06/crossdc-survey",
   "author": [
     {
-      "name": "Ajay Jaganathan",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2023-06-27T13:04:50.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are pleased to announce that the serverless workflow dev UI now supports colored nodes based on the path the workflow has taken for execution.   HOW TO VIEW THE DIAGRAM?  To view the diagram, the easiest method is to use the awesome set of examples that we have . In my video below, I will be using the serverless-workflow-compensation-quarkus example.   PREREQUISITES:   * Java 11+ installed  * Maven 3.8.6+ installed  * Docker installed  To start the example run the command: mvn clean package quarkus:dev  This will start all the necessary services to start the example.  Once all the services are started, you can visit the .  To start a workflow instance, you can use the following command in the terminal:   curl -X POST -H 'Content-Type:application/json' -H 'Accept:application/json' -d '{\"shouldCompensate\": true}' http://localhost:8080/compensation   Click on the workflow instances under the Serverless Workflow Tools card.  This will navigate you to the workflow instances page, where you can see the list of workflow instances available.  Click on the Workflow Error example to get navigated to the workflow details page. You can see the diagram with colored nodes being rendered in the Serverless Workflow Diagram card.  A detailed explanation is available in the video attached below.  colored nodes in dev ui  As you can see in the video, the compensation example has different paths being executed depending on the shouldCompensate boolean value. When there is an error in the workflow execution, that node is shown in Red color.   CONCLUSION  This diagram helps the user understand and visualize the path taken by the workflow execution, thereby improving the user experience in the dev UI.  Stay tuned for more exciting updates in the dev UI!!!  The post appeared first on ."
+  "date": "2023-06-30T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "The Keycloak and Infinispan engineering teams are working together to bring Cross-Site Replication (CSR) to a fully supported state in future Keycloak releases, with Active/Passive support and Active/Active support.  We would like to gather inputs on your expectations, requirements, use-cases and sizing of the target deployment environments for the CSR feature. Thanks in advance for filling out this survey form to help us better plan and deliver this feature.  If your are interested in Active/Passive or Active/Active deployments of Keycloak please fill in ."
 }

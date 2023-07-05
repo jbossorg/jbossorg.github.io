@@ -1,13 +1,13 @@
 {
-  "title": "Java 21 Unnamed Classes and Instance Main Methods",
-  "link": "https://www.mastertheboss.com/java/java-21-unnamed-classes-and-instance-main-methods/",
+  "title": "Dev productivity - Quarkus CLI",
+  "link": "https://quarkus.io/blog/quarkus-cli/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Ioannis Canellos",
       "avatar": null
     }
   ],
-  "date": "2023-06-13T10:38:54.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Java 21 introduces two language core features: Unnamed Java Classes and a new launch protocol which allows running Java classes in a simpler format. In this article we will cover in detail these new features explaining how they can simplify your daily Java coding. Java 21 introduces two core features that will simplify the coding ...  The post appeared first on ."
+  "date": "2023-06-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "People hardly realize that the Quarkus CLI was available from the first public release of Quarkus back in 2019. It originally only allowed project creation and extension manipulation. The following command shows the list of supported commands: quarkus --help Usage: quarkus [] These are the common quarkus commands used..."
 }

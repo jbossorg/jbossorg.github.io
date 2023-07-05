@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Testcontainers for Java",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-testcontainers-for-java/",
+  "title": "Eclipse Vert.x 4.4.4 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-4",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-06-12T15:04:48.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Introduction In modern software development, it is crucial to write robust and reliable tests to ensure the quality of your applications. One essential aspect of testing is dealing with dependencies, such as databases or external services. Testcontainers is an excellent Java library that provides lightweight, disposable containers for running dependencies during tests. In this tutorial, ...  The post appeared first on ."
+  "date": "2023-06-22T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.4 has just been released. It fixes a few bugs that have been reported by the community"
 }

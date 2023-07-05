@@ -1,13 +1,13 @@
 {
-  "title": "gRPC and WildFly - Part II: Exposing Jakarta RESTFul Web Services to gRPC",
-  "link": "https://resteasy.dev/2023/06/11/grpc-in-wildfly-pt2/",
+  "title": "Designing Quarkus Front-Ends with Vaadin made easy",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/designing-quarkus-front-ends-with-vaadin-made-easy/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-11T00:00:00.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-06-20T08:26:55.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Vaadin Flow provides a comprehensive set of UI components and tools for creating rich and interactive user interfaces, while Quarkus offers a lightweight and efficient Java framework for developing cloud-native applications. In this article, we will explore how to combine the strengths of Vaadin and Quarkus to build web applications with ease. What is Vaadin? ...  The post appeared first on ."
 }

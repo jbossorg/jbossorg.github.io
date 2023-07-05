@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.4 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-4",
+  "title": "Parsing PDF in Java made simple",
+  "link": "https://www.mastertheboss.com/java/parsing-pdf-in-java-made-simple/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-22T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.4 has just been released. It fixes a few bugs that have been reported by the community"
+  "date": "2023-06-27T10:14:37.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "When it comes to parsing PDF files in Java, two popular libraries stand out: Apache Tika and Apache PDFBox. Both libraries provide powerful features for working with PDF documents, but they have different approaches and trade-offs. In this article, we will explore how to parse a PDF using each library and compare their pros and ...  The post appeared first on ."
 }

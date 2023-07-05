@@ -1,13 +1,13 @@
 {
-  "title": "Migrating from Java 8 to Java 17 with OpenRewrite",
-  "link": "https://www.mastertheboss.com/java/migrating-from-java-8-to-java-17-with-openrewrite/",
+  "title": "Kogito 1.40.1 released!",
+  "link": "https://blog.kie.org/2023/07/kogito-1-40-1-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2023-07-03T12:07:29.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will discuss on how to migrate Java applications from Java 8 to Java 17 using the OpenRewrite migration plugin. At the end of this tutorial, you will learn which are most common challenges that you can face when upgrading to Java 17 Java 8 to Java 17 challenges In pure project ...  The post appeared first on ."
+  "date": "2023-07-04T13:41:52.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.40.1 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Start CloudEvent attributes and extensions are accessible as    KogitoProcessContext.headers().   * Character “-” is supported in serverless workflow identifier string.   * If there is a parsing error in one of the BPMN/SWF resources, the build    procedure can continue if kogito.codegen.process.failOnError property is set    to false.  * Logging improvements.    * When a message publishing failure is detected, a log is printed.    * If sysout or script custom type are missing a mandatory attribute, a more      user friendly exception is thrown.   * Added SSL support for REST custom type.   * Embedded Serverless Workflow executor. Kafka support    * Added CallbackState.    * Added EventState.     * Added event publishing.   * Fix issue when constant string specified as message of Sysout action is a    single word.    * Swagger documentation is properly generated when the output schema is    present.  * SWF Project (single file) to CR generator  * Implement the Knative Addressable interface in dev profile  * Enforce ConfigMap mount path for files referenced by the function definition  * Cannot create Workflow on Openshift if spec.platform.registry is set  * Do not fail the Dev mode Container Image if the workflow is invalid  * KSW Discovery – You need to define a KubernetesServiceCatalog implementation  * Add dataindex to usecase example working with knative eventing  * Allow Data-index to consume different kind of eventing  * Avoided Data Index warnings about OpenAPI duplicated operationIds  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.30.0 artifacts are available at the .  A detailed changelog for 1.40.0 can be found in as well as .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }

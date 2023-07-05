@@ -1,14 +1,13 @@
 {
-  "title": "Survey - Cross-Site Replication in Keycloak",
-  "link": "https://www.keycloak.org/2023/06/crossdc-survey",
+  "title": "Migrating from Java 8 to Java 17 with OpenRewrite",
+  "link": "https://www.mastertheboss.com/java/migrating-from-java-8-to-java-17-with-openrewrite/",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-30T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "The Keycloak and Infinispan engineering teams are working together to bring Cross-Site Replication (CSR) to a fully supported state in future Keycloak releases, with Active/Passive support and Active/Active support.  We would like to gather inputs on your expectations, requirements, use-cases and sizing of the target deployment environments for the CSR feature. Thanks in advance for filling out this survey form to help us better plan and deliver this feature.  If your are interested in Active/Passive or Active/Active deployments of Keycloak please fill in ."
+  "date": "2023-07-03T12:07:29.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will discuss on how to migrate Java applications from Java 8 to Java 17 using the OpenRewrite migration plugin. At the end of this tutorial, you will learn which are most common challenges that you can face when upgrading to Java 17 Java 8 to Java 17 challenges In pure project ...  The post appeared first on ."
 }
