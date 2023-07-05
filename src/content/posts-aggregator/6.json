@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 3.1.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-1-3-final-released/",
+  "title": "Keycloak 21.1.2 released",
+  "link": "https://www.keycloak.org/2023/06/keycloak-2112-released",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-06-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.1.3.Final, the third maintenance release of our 3.1 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.1. If you are not already using 3.1, please refer to the Quarkus 3.1 migration guide. And if you..."
+  "date": "2023-06-28T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   RELEASE NOTES   CHANGES IN VALIDATING SCHEMES FOR VALID REDIRECT URIS  If an application client is using non http(s) custom schemes, from now on the validation requires that a valid redirect pattern explicitly allows that scheme. Example patterns for allowing custom scheme are custom:/test, custom:/test/* or custom:*. For security reasons a general pattern like * does not cover them anymore.   MIGRATION FROM 21.0  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Avoid using user property mapper when resolving root user attributes keycloak   BUGS   * Issue with \"User-Initiated Action Lifespan\" keycloak admin/ui  * Vulnerable packages and or dependencies found in keycloak 21.0.1 quarkus    distribution keycloak dist/quarkus  * CVE-2022-1471 keycloak dependencies  * Cannot set initial password for new users when using a custom UserFederation    keycloak  * SAML Encryption: Missing Support for http://www.w3.org/2009/xmlenc11#rsa-oaep    keycloak saml  * Keycloak issues on edge and after chrome upgarde to 112 (with experimental    features) keycloak oidc  * Enabling Dynamic Scope missing in UI keycloak admin/ui  * Incorrect function is used in 'keycloak-admin-client' library in getToken    function keycloak adapter/javascript  * Saving client admin-cli in master realm gives a javascript error keycloak    admin/ui  * Paginating on the group tree view doesn't work keycloak admin/ui  * Dropdown options on Documentation pointing to 21.1 endpoint instead of latest    and throwing 404 when clicking on it. keycloak docs  * Keycloak 21.1.1: Paging and filtering not working in \"Assign roles\" popup for    Groups keycloak admin/ui  * Keycloak 21.1.1: filter on Sessions gets stuck keycloak admin/ui  * Processing of env variable references in config file broken keycloak    dist/quarkus  * LDAP Mapper Action Menu Error keycloak admin/ui  * Event-Type: \"User info request error\" does not work keycloak admin/ui  * Create new user UI: username is not marked with an asterisk keycloak admin/ui  * role filter has no effect on roles list keycloak admin/ui  * required fields don't show errors when user profile is enabled keycloak    account/ui  * OTP devices are not shown in the admin UI keycloak admin/ui  * Test `InternationalizationTest` fails in CI keycloak testsuite  * Deleting a client scope in the Admin UI should redirect to the list of    ClientScopes keycloak admin/ui  * SAML Protocol Mapper's NameIDFormat is null keycloak admin/ui  * Headers is not defined keycloak admin/client-js  * Fix for certificate revalidation keycloak   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

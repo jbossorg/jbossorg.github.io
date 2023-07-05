@@ -1,13 +1,14 @@
 {
-  "title": "Parsing PDF in Java made simple",
-  "link": "https://www.mastertheboss.com/java/parsing-pdf-in-java-made-simple/",
+  "title": "New Keycloak maintainer: Alexander Schwartz",
+  "link": "https://www.keycloak.org/2023/06/alexander-schwartz",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Bruno Oliveira",
       "avatar": null
     }
   ],
-  "date": "2023-06-27T10:14:37.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "When it comes to parsing PDF files in Java, two popular libraries stand out: Apache Tika and Apache PDFBox. Both libraries provide powerful features for working with PDF documents, but they have different approaches and trade-offs. In this article, we will explore how to parse a PDF using each library and compare their pros and ...  The post appeared first on ."
+  "date": "2023-06-27T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We’re delighted to announce as an official maintainer of Keycloak.  Alexander started contributing to Keycloak in 2015. He applied it in several customer installations and is maintaining the Dropwizard module for Keycloak. In January 2022, he joined Red Hat. Since then, he has contributed to Keycloak’s store and documentation and is the key contributor to the Keycloak benchmark project. He helped with Keycloak’s submission to CNCF, and represented Keycloak at KubeCon Amsterdam in April 2023.   He has shown his commitment to the Keycloak community by collaborating on design discussions, participating in GitHub discussions, reviewing pull-requests, answering questions on the Keycloak mailing lists, contributing to new features, bug fixes and triaging GitHub issues.  The Keycloak team is very excited to welcome Alexander as our new maintainer and long-time contributor."
 }

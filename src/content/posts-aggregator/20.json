@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #33 - June",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-33/",
+  "title": "Eclipse Vert.x JDBC Client 4.4.3.1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-jdbc-client-4-3-3-1",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-06-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Check out the June Newsletter. Read \"A Guide to the Quarkus 3 Azure Functions Extension: Bootstrap Java Microservices with Ease\" by Daniel Oh & Erik Costlow and to learn how Quarkus integrates Java microservices into Azure Functions with an improved developer experience. Check out \"Quarkus: Java revisited!\" by Willem Meints..."
+  "date": "2023-06-08T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x JDBC Client version 4.4.3.1 has just been released."
 }

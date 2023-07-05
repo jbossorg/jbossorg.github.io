@@ -1,13 +1,13 @@
 {
-  "title": "Dev productivity - Quarkus CLI",
-  "link": "https://quarkus.io/blog/quarkus-cli/",
+  "title": "Designing Quarkus Front-Ends with Vaadin made easy",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/designing-quarkus-front-ends-with-vaadin-made-easy/",
   "author": [
     {
-      "name": "Ioannis Canellos",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-06-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "People hardly realize that the Quarkus CLI was available from the first public release of Quarkus back in 2019. It originally only allowed project creation and extension manipulation. The following command shows the list of supported commands: quarkus --help Usage: quarkus [] These are the common quarkus commands used..."
+  "date": "2023-06-20T08:26:55.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Vaadin Flow provides a comprehensive set of UI components and tools for creating rich and interactive user interfaces, while Quarkus offers a lightweight and efficient Java framework for developing cloud-native applications. In this article, we will explore how to combine the strengths of Vaadin and Quarkus to build web applications with ease. What is Vaadin? ...  The post appeared first on ."
 }

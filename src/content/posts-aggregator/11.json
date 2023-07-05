@@ -1,13 +1,13 @@
 {
-  "title": "What&#8217;s new in Dashbuilder 0.30.0",
-  "link": "https://blog.kie.org/2023/06/whats-new-in-dashbuilder-0-30-0.html",
+  "title": "Eclipse Vert.x 4.4.4 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-4",
   "author": [
     {
-      "name": "William Siqueira",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-06-26T23:56:34.000Z",
-  "feed_title": "KIE Community",
-  "content": "Kie Tools 0.30.0 is out and with it we have multiple improvements to . This post also includes Dashbuilder 0.29.0.  In this article we will explore the main features, but you can also check the release notes for version and .   INSTALLATION  The new editor is live in  and the VSCode extension is already available on the .  For  users just update the dashbuilder-client dependency version to  0.30.0.   NEW EDITOR  This KIE Tooling release highlight is the new interface for the Web Editor! It comes with a new which includes dashboards:   DATASETS  Datasets are an important part of Dashbuilder. In this release we have multiple improvements related to datasets:   GLOBAL DATASET  You can declare global datasets that can have its values overridden by the local declaration. This can specially useful when we have multiple datasets that share the same configuration such as cache or url.   TYPES  Dataset now may have a type. With this we can easily consume some known sources of data and not be required to transform the data, it will done internally in Dashbuilder. For example, if you are consuming from Prometheus query API you just have to declare the dataset with \"type\" prometheus and it will work!   QUERY PARAMETERS  A dataset can have a separated declaration for query parameters. Using the field \"query\" you can declare a map with parameters that will be added to the query parameters for the dataset URL.   JOIN  A new field \"join\" allow users to join other datasets into a single result. This is specially important to prometheus datasets because allow users to join two different metrics result into a single dataset. The join also adds a new column with the dataset uuid and it can be used as series in a XY chart. Important to notice that the joined datasets must have compatible columns (same type of columns in each position), otherwise the join fails!   NEW COMPONENTS  A few new components were added to this release, let’s talk about them.   MARKDOWN  It is possible to use markdown language. It is an alternative to html component. Markdown are easier to read and write and you still can apply CSS properties to it using the properties map. To use this component just add a markdown declaration followed by the markdown content.   PANEL  A collapsible panel is now available. With it you can embed pages but with a title that can be collapsed. The panel title is always the page name, you just have to use the following component declaration: panel: page name   TIMESERIES  The timeseries is now an internal component and it works like the old external component: it accepts three columns, the first has the series, the second the timestamp and the last the value. This makes it compatible with Prometheus queries.   GENERAL IMPROVEMENTS  This version also brings a few more improvements to Dashbuilder:   * Column settings support for timeseries and meter charts;  * Updated the metrics dashboard deployed from  * Metrics datasets now prevent problems with NaN  * Cleanup of outdated files   CONCLUSION  In this article we described another exciting new release for Dashbuilder! The goal of this release was to make Dashbuilder a better tool for monitoring services, hence a new post will cover Prometheus dashboards with Dashbuilder.  The post appeared first on ."
+  "date": "2023-06-22T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.4 has just been released. It fixes a few bugs that have been reported by the community"
 }
