@@ -1,6 +1,6 @@
 {
-  "title": "Quarkus 3.2.0.Final released - New security features, @QuarkusComponentTest",
-  "link": "https://quarkus.io/blog/quarkus-3-2-0-final-released/",
+  "title": "Quarkus 2.16.8.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-16-8-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
@@ -9,5 +9,5 @@
   ],
   "date": "2023-07-05T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 3.2.0.Final. Even if we will maintain 2.16 for a few months still, we encourage all our users to start their migration journey to Quarkus 3. Major changes are: Various new security features The ability to test CDI components with @QuarkusComponentTest..."
+  "content": "As mentioned in previous blog posts, we encourage all our users to upgrade to Quarkus 3. However we understand the migration can require some time so we will continue to maintain 2.16.x for a while. Today, we released Quarkus 2.16.8.Final, the eighth maintenance release of our 2.16 release train. As..."
 }
