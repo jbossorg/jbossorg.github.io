@@ -1,13 +1,14 @@
 {
-  "title": "Long-Term Support (LTS) for Quarkus",
-  "link": "https://quarkus.io/blog/lts-releases/",
+  "title": "Authorization Survey",
+  "link": "https://www.keycloak.org/2023/07/authorization-survey",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "Alec Henninger",
       "avatar": null
     }
   ],
   "date": "2023-07-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We’re thrilled to announce the introduction of Long-Term Support (LTS) releases for Quarkus. We aim to strike a balance between our regular high-paced release cycle and the needs of users who require more stability and predictability. LTS releases offer an opportunity for our community to enjoy a version of Quarkus,..."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Services dedicated to authorization are evolving rapidly. There is a steady establishment of policy languages, purpose-built for authorization, as well as a growing number of implementations of Google’s \"Zanzibar\" whitepaper, their .  To better understand how we should evolve Keycloak Authorization Services in this context, we’d appreciate the opportunity to learn more about the Keycloak communities' authorization use cases and experience, regardless of whether you’ve used Keycloak Authorization Services before or if you use a different service for access management.  Please consider filling out to help shape Keycloak’s future authorization experience."
 }
