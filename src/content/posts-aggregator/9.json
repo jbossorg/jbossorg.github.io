@@ -1,13 +1,13 @@
 {
-  "title": "Develop a REST application using Jakarta EE and AngularJS",
-  "link": "https://www.mastertheboss.com/web/angularjs/develop-a-rest-application-using-wildfly-and-angularjs/",
+  "title": "Explore a new way of testing CDI components in Quarkus",
+  "link": "https://quarkus.io/blog/quarkus-component-test/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Martin Kouba",
       "avatar": null
     }
   ],
-  "date": "2023-07-09T08:30:47.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we will walk through the process of developing an AngularJS frontend for a REST server application. AngularJS is a popular JavaScript framework that simplifies the development of dynamic web applications. We will assume that you have basic knowledge of HTML, CSS, and JavaScript. Prerequisites To keep this tutorial simple, we will not ...  The post appeared first on ."
+  "date": "2023-07-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The Quarkus component model is built on top of CDI. However, writing unit tests for beans without a running CDI container is often a tedious work. Without the container services up and running, all the work has to be done manually. First of all, no dependency injection is performed. Furthermore,..."
 }
