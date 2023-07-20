@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak 22.0.1 released",
-  "link": "https://www.keycloak.org/2023/07/keycloak-2201-released",
+  "title": "Top 20 Must-Read Software Trends Reports for 2023",
+  "link": "http://www.ofbizian.com/2023/07/top-20-must-read-software-reports.html",
   "author": [
     {
-      "name": null,
+      "name": "Unknown",
       "avatar": null
     }
   ],
-  "date": "2023-07-18T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   MIGRATION FROM 21.1  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Revisit Pod-Template in Keycloak CR keycloak operator  * Support configurable custom Identity Providers keycloak  * [REG 21->22] Error messages on kc build keycloak dist/quarkus   BUGS   * Accessibility/Clients List: Minor Issues keycloak admin/ui  * `keycloakCRName` and `realm` are no longer marked as required in    KeycloakRealmImport CRD keycloak operator  * Version 22.0.0 not started in dev mode and build mode keycloak dist/quarkus  * Migration for 22.0.0 is missing from the documentation keycloak docs  * Broken links to quickstarts in documentation keycloak docs  * Account V3 Missing translate Refresh keycloak account/ui  * Keycloak is storing error events even if storing events is disabled keycloak    storage  * Fixing broken JSON translation files keycloak admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
+  "date": "2023-07-18T23:23:00.015Z",
+  "feed_title": "OFBizian",
+  "feed_avatar": "https://www.gravatar.com/avatar/279246bd111a7c211134179eddb94afa?s=50",
+  "content": "In the rapidly evolving software industry, keeping up with new trends, tools, and best practices can be time-consuming. With so much information available, where do you start, and what sources can you trust? I've curated a list of reports that I follow to stay informed and ahead of the curve. These provide insights into everything from programming languages to DevOps, cloud strategy, and security. If you're interested in the latest trends and fascinating posts I come across,  or check out my latest writing on industry trends over at the . I share anything I find insightful and worth reading in the world of cloud and distributed systems.    Here are the top 20 reports for 2023 I came across so far:    ReportPublisherTIOBERedMonkStack OverflowInfoQInfoQPostmanDataDogThoughtworksO'ReillyHashiCorpRed HatPuppetLabsVmwareDenoAirByteDatabricksGithubRapidAPICNCFGoogle    While these reports offer valuable insights, it's important to keep in mind that they can be opinionated. The key to effectively leveraging these resources lies in cross-verifying trends from multiple sources and using them only as a guide for direction rather than absolute truths.   Are there any reports that should be on this list? Tag me on Twitter and I'll include them, subject to my checks I'm always keen to explore new sources! Found this list helpful? Go ahead,   Call to action: Are you a user? Your experience is valuable! Contribute your insights and shape the"
 }
