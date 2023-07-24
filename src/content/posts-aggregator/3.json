@@ -1,14 +1,13 @@
 {
-  "title": "Top 20 Must-Read Software Trends Reports for 2023",
-  "link": "http://www.ofbizian.com/2023/07/top-20-must-read-software-reports.html",
+  "title": "Quarkus 3.2.1.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-1-final-released/",
   "author": [
     {
-      "name": "Unknown",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-07-18T23:23:00.016Z",
-  "feed_title": "OFBizian",
-  "feed_avatar": "https://www.gravatar.com/avatar/279246bd111a7c211134179eddb94afa?s=50",
-  "content": "In the rapidly evolving software industry, keeping up with new trends, tools, and best practices can be time-consuming. With so much information available, where do you start, and what sources can you trust? I've curated a list of reports that I follow to stay informed and ahead of the curve. These provide insights into everything from programming languages to DevOps, cloud strategy, and security. If you're interested in the latest trends and fascinating posts I come across,  or check out my latest writing on industry trends over at the . I share anything I find insightful and worth reading in the world of cloud and distributed systems.    Here are the top 20 reports for 2023 I came across so far:    ReportPublisherTIOBERedMonkStack OverflowInfoQInfoQPostmanDataDogThoughtworksO'ReillyHashiCorpRed HatPuppetLabsVmwareDenoAirByteDatabricksGithubRapidAPICNCFGoogle    While these reports offer valuable insights, it's important to keep in mind that they can be opinionated. The key to effectively leveraging these resources lies in cross-verifying trends from multiple sources and using them only as a guide for direction rather than absolute truths.   Are there any reports that should be on this list? Tag me on Twitter and I'll include them, subject to my checks I'm always keen to explore new sources! Found this list helpful? Go ahead,   Call to action: Are you a user? Your experience is valuable! Contribute your insights and shape the"
+  "date": "2023-07-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.2.1.Final, the first maintenance release of our 3.2 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.1, but if you are using OpenAPI and/or Swagger UI, please have look below. If you are not..."
 }
