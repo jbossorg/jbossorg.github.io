@@ -1,13 +1,13 @@
 {
-  "title": "Use JFR to profile and monitor native executables",
-  "link": "https://quarkus.io/blog/profile-and-monitor-native-executables-with-jfr/",
+  "title": "How to upgrade WildFly JSF version with Galleon",
+  "link": "https://www.mastertheboss.com/java-ee/jsf/how-to-upgrade-wildfly-jsf-version-with-galleon/",
   "author": [
     {
-      "name": "Robert Toyonaga",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-24T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus native executables offer many benefits such as even faster start-up time and low footprint. However, one major drawback is that such native binaries can be less observable. The good news is that you can still use JDK Flight Recorder (JFR) when running your Quarkus applications as native executables. Native..."
+  "date": "2023-07-24T08:10:31.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to add MyFaces 4 (or newer) support to your WildFly installation using Galleon features pack. At the end of it, you will be able to complete the upgrade of your JSF implementation in no time! Choosing a different JSF Implementation in WildFly Out of the box, WildFly ships with ...  The post appeared first on ."
 }

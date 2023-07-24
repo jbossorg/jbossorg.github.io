@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.2.1.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-2-1-final-released/",
+  "title": "Use JFR to profile and monitor native executables",
+  "link": "https://quarkus.io/blog/profile-and-monitor-native-executables-with-jfr/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Robert Toyonaga",
       "avatar": null
     }
   ],
-  "date": "2023-07-20T00:00:00.000Z",
+  "date": "2023-07-24T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.2.1.Final, the first maintenance release of our 3.2 release train. As usual, it contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.1, but if you are using OpenAPI and/or Swagger UI, please have look below. If you are not..."
+  "content": "Quarkus native executables offer many benefits such as even faster start-up time and low footprint. However, one major drawback is that such native binaries can be less observable. The good news is that you can still use JDK Flight Recorder (JFR) when running your Quarkus applications as native executables. Native..."
 }
