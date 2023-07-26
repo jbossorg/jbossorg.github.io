@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus Newsletter #34 - July",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-34/",
+  "title": "Keycloak 22.0.1 released",
+  "link": "https://www.keycloak.org/2023/07/keycloak-2201-released",
   "author": [
     {
-      "name": "James Cobb",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-07-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read \"Quarkus 3.2.0.Final released - New security features, @QuarkusComponentTest\" by Guillaume Smet\" to learn about major changes like; various new security features, the ability to test CDI components with @QuarkusComponentTest and new build time analytics. Kevin Dubois' article \"Managing Java containers with Quarkus and Podman Desktop\" shows how to build..."
+  "date": "2023-07-18T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   MIGRATION FROM 21.1  Before you upgrade remember to backup your database. If you are not on the previous release refer to for a complete list of migration changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Revisit Pod-Template in Keycloak CR keycloak operator  * Support configurable custom Identity Providers keycloak  * [REG 21->22] Error messages on kc build keycloak dist/quarkus   BUGS   * Accessibility/Clients List: Minor Issues keycloak admin/ui  * `keycloakCRName` and `realm` are no longer marked as required in    KeycloakRealmImport CRD keycloak operator  * Version 22.0.0 not started in dev mode and build mode keycloak dist/quarkus  * Migration for 22.0.0 is missing from the documentation keycloak docs  * Broken links to quickstarts in documentation keycloak docs  * Account V3 Missing translate Refresh keycloak account/ui  * Keycloak is storing error events even if storing events is disabled keycloak    storage  * Fixing broken JSON translation files keycloak admin/ui   UPGRADING  Before you upgrade remember to backup your database and check the for anything that may have changed."
 }

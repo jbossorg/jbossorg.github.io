@@ -1,13 +1,13 @@
 {
-  "title": "On the Road to CDI Compatibility",
-  "link": "https://quarkus.io/blog/on-the-road-to-cdi-compatibility/",
+  "title": "How to run standalone Jakarta Batch Jobs",
+  "link": "https://www.mastertheboss.com/java-ee/batch-api/running-batch-jobs-in-j2se-applications/",
   "author": [
     {
-      "name": "Ladislav Thon",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Ever since the very first days of Quarkus, the days that are now covered by the blissful fog of oblivion and the survivors only talk about them after a few pints of beer, dependency injection container was an integral part of the envisioned framework. And not just any dependency injection..."
+  "date": "2023-07-14T10:16:48.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Jakarta Batch, formerly known as Java Batch, is a specification that provides a standardized approach for implementing batch processing in Java applications. It offers a robust and scalable framework for executing large-scale, long-running, and data-intensive tasks. In this tutorial, we will explore the process of running Jakarta Batch Jobs as standalone Java applications, discussing the ...  The post appeared first on ."
 }

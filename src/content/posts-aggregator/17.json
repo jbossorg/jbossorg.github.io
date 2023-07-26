@@ -1,13 +1,13 @@
 {
-  "title": "Long-Term Support (LTS) for Quarkus",
-  "link": "https://quarkus.io/blog/lts-releases/",
+  "title": "Develop a REST application using Jakarta EE and AngularJS",
+  "link": "https://www.mastertheboss.com/web/angularjs/develop-a-rest-application-using-wildfly-and-angularjs/",
   "author": [
     {
-      "name": "Max Rydahl Andersen",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We’re thrilled to announce the introduction of Long-Term Support (LTS) releases for Quarkus. We aim to strike a balance between our regular high-paced release cycle and the needs of users who require more stability and predictability. LTS releases offer an opportunity for our community to enjoy a version of Quarkus,..."
+  "date": "2023-07-09T08:30:47.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will walk through the process of developing an AngularJS frontend for a REST server application. AngularJS is a popular JavaScript framework that simplifies the development of dynamic web applications. We will assume that you have basic knowledge of HTML, CSS, and JavaScript. Prerequisites To keep this tutorial simple, we will not ...  The post appeared first on ."
 }

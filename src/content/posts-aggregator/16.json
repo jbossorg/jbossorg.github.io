@@ -1,14 +1,13 @@
 {
-  "title": "Authorization Survey",
-  "link": "https://www.keycloak.org/2023/07/authorization-survey",
+  "title": "Explore a new way of testing CDI components in Quarkus",
+  "link": "https://quarkus.io/blog/quarkus-component-test/",
   "author": [
     {
-      "name": "Alec Henninger",
+      "name": "Martin Kouba",
       "avatar": null
     }
   ],
-  "date": "2023-07-06T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Services dedicated to authorization are evolving rapidly. There is a steady establishment of policy languages, purpose-built for authorization, as well as a growing number of implementations of Google’s \"Zanzibar\" whitepaper, their .  To better understand how we should evolve Keycloak Authorization Services in this context, we’d appreciate the opportunity to learn more about the Keycloak communities' authorization use cases and experience, regardless of whether you’ve used Keycloak Authorization Services before or if you use a different service for access management.  Please consider filling out to help shape Keycloak’s future authorization experience."
+  "date": "2023-07-10T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The Quarkus component model is built on top of CDI. However, writing unit tests for beans without a running CDI container is often a tedious work. Without the container services up and running, all the work has to be done manually. First of all, no dependency injection is performed. Furthermore,..."
 }

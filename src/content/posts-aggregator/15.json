@@ -1,13 +1,13 @@
 {
-  "title": "Develop a REST application using Jakarta EE and AngularJS",
-  "link": "https://www.mastertheboss.com/web/angularjs/develop-a-rest-application-using-wildfly-and-angularjs/",
+  "title": "Securing WildFly Management Console with Keycloak",
+  "link": "https://www.mastertheboss.com/keycloak/securing-wildfly-management-console-with-keycloak/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-09T08:30:47.000Z",
+  "date": "2023-07-10T10:05:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we will walk through the process of developing an AngularJS frontend for a REST server application. AngularJS is a popular JavaScript framework that simplifies the development of dynamic web applications. We will assume that you have basic knowledge of HTML, CSS, and JavaScript. Prerequisites To keep this tutorial simple, we will not ...  The post appeared first on ."
+  "content": "WildFly 29 introduces the ability to secure WildFly Management Console with KeyCloak OpenID Connect Clients. In this article we will go through the steps you need to configure WildFly elytron-oidc-client subsystem and the Keycloak Realm. By the end of it, you will learn how to secure your WildFly Management Console with Keycloak OpenID Connect. Prerequisites ...  The post appeared first on ."
 }

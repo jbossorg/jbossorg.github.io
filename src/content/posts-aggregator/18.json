@@ -1,13 +1,14 @@
 {
-  "title": "Infinispan 15.0.0.Dev02",
-  "link": "https://infinispan.org/blog/2023/07/05/infinispan-15dev02",
+  "title": "Authorization Survey",
+  "link": "https://www.keycloak.org/2023/07/authorization-survey",
   "author": [
     {
-      "name": "Tristan Tarrant",
-      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
+      "name": "Alec Henninger",
+      "avatar": null
     }
   ],
-  "date": "2023-07-05T00:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Infinispan 15.0.0.Dev02 marks the beginning of a new development cycle, and there are a number of notable changes that we are making that deserve a detailed post.   BYE BYE, JAVA EE, HELLO JAKARTA EE  We’ve made the decision to drop Java EE support completely and focus solely on . For 14.0 we provided artifacts for both, but we believe the time has come to move on. All of the leading application servers (like and ) as well as the most important stacks (like and ) have adopted Jakarta EE, so we’ve decided it was time for us to make the move too.   JCACHE CHANGES  The choice to drop Java EE directly impacts our JCache provider implementation. The JCache API (aka JSR 107) is essentially in maintenance mode: it was never adopted by Java EE and there are a number of obstacles (mostly legal) that prevent it from moving to Jakarta EE. We understand the need to have an implementation agnostic caching API, so we are going to continue supporting our JCache provider, but we will drop those parts which require Java EE, most notably the javax.cache.annotation package. Hopefully a modern caching API will emerge as part of Jakarta EE.   DROPPING SPRING 5 / SPRING BOOT 2 SUPPORT  Dropping Java EE also means having to drop Spring 5 and Spring Boot 2 support.   QUARKUS  We’ve merged our Quarkus components (embedded, CLI and server) into the main repository and have upgraded them to Quarkus 3.0. Our continues to be part of the Quarkus ecosystem.   SECURITY MANAGER  The Java Security Manager has been . It was designed mostly for sandboxing Java applets, but it was somehow (wrongly) co-opted as a way to implement similar functionality for normal Java applications. It was slow and cumbersome, and we’re glad to see it go. Luckily, the removal of SecurityManager support from Infinispan does not affect its authentication and authorization capabilities.   JAVA 17 AND 21  Starting with Infinispan 15, we will baseline on JDK 17 and also offer support for JDK 21, including virtual threads.   BUT WHAT IF I RELY ON JAVAEE, SPRING 5, SPRING BOOT 2 AND JCACHE ANNOTATIONS ?  Don’t worry, we have you covered for quite some time, as we will continue to support Infinispan 14.0 for quite a while, with security patches, bug fixes and improvements that we can backport.   OTHER FEATURES AND TENTATIVE RELEASE DATE  What you can expect to see in Infinispan 15:   * many improvements to our Redis-compatible endpoint, including many more    commands   * a completely overhauled endpoint with support for authentication and the    binary protocol   * improved performance across the board, with particular focus on the remote    endpoints and clustering   * CDC integration, courtesy of our friends over at   * Much more!  We hope to have the final release of Infinispan 15 ready for consumption by the end of the year and we will be making regular development releases.  Get them from our .]"
+  "date": "2023-07-06T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Services dedicated to authorization are evolving rapidly. There is a steady establishment of policy languages, purpose-built for authorization, as well as a growing number of implementations of Google’s \"Zanzibar\" whitepaper, their .  To better understand how we should evolve Keycloak Authorization Services in this context, we’d appreciate the opportunity to learn more about the Keycloak communities' authorization use cases and experience, regardless of whether you’ve used Keycloak Authorization Services before or if you use a different service for access management.  Please consider filling out to help shape Keycloak’s future authorization experience."
 }
