@@ -1,13 +1,13 @@
 {
-  "title": "On the Road to CDI Compatibility",
-  "link": "https://quarkus.io/blog/on-the-road-to-cdi-compatibility/",
+  "title": "Quarkus Newsletter #34 - July",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-34/",
   "author": [
     {
-      "name": "Ladislav Thon",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-07-12T00:00:00.000Z",
+  "date": "2023-07-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Ever since the very first days of Quarkus, the days that are now covered by the blissful fog of oblivion and the survivors only talk about them after a few pints of beer, dependency injection container was an integral part of the envisioned framework. And not just any dependency injection..."
+  "content": "Read \"Quarkus 3.2.0.Final released - New security features, @QuarkusComponentTest\" by Guillaume Smet\" to learn about major changes like; various new security features, the ability to test CDI components with @QuarkusComponentTest and new build time analytics. Kevin Dubois' article \"Managing Java containers with Quarkus and Podman Desktop\" shows how to build..."
 }
