@@ -1,14 +1,13 @@
 {
-  "title": "Authorization Survey",
-  "link": "https://www.keycloak.org/2023/07/authorization-survey",
+  "title": "Develop a REST application using Jakarta EE and AngularJS",
+  "link": "https://www.mastertheboss.com/web/angularjs/develop-a-rest-application-using-wildfly-and-angularjs/",
   "author": [
     {
-      "name": "Alec Henninger",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-06T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Services dedicated to authorization are evolving rapidly. There is a steady establishment of policy languages, purpose-built for authorization, as well as a growing number of implementations of Google’s \"Zanzibar\" whitepaper, their .  To better understand how we should evolve Keycloak Authorization Services in this context, we’d appreciate the opportunity to learn more about the Keycloak communities' authorization use cases and experience, regardless of whether you’ve used Keycloak Authorization Services before or if you use a different service for access management.  Please consider filling out to help shape Keycloak’s future authorization experience."
+  "date": "2023-07-09T08:30:47.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will walk through the process of developing an AngularJS frontend for a REST server application. AngularJS is a popular JavaScript framework that simplifies the development of dynamic web applications. We will assume that you have basic knowledge of HTML, CSS, and JavaScript. Prerequisites To keep this tutorial simple, we will not ...  The post appeared first on ."
 }
