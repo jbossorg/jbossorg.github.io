@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.2.2.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-2-2-final-released/",
+  "title": "How to upgrade WildFly JSF version with Galleon",
+  "link": "https://www.mastertheboss.com/java-ee/jsf/how-to-upgrade-wildfly-jsf-version-with-galleon/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-24T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.2.2.Final, the second maintenance release of our 3.2 release train. We released 3.2.1.Final a few days ago but two annoying regressions were spotted before we announced it so we decided to not announce it and release a 3.2.2.Final right away. These two releases contains mostly bugfixes..."
+  "date": "2023-07-24T08:10:31.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to add MyFaces 4 (or newer) support to your WildFly installation using Galleon features pack. At the end of it, you will be able to complete the upgrade of your JSF implementation in no time! Choosing a different JSF Implementation in WildFly Out of the box, WildFly ships with ...  The post appeared first on ."
 }

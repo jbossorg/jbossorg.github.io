@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.41.0 released!",
-  "link": "https://blog.kie.org/2023/07/kogito-1-41-0-released.html",
+  "title": "Quarkus 3.2.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-3-final-released/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-07-31T11:29:40.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.41.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Serverless Workflow Python support. See    * Upgrade Serverless Workflow SDK Java to 4.0.4  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.30.0 artifacts are available at the .  A detailed changelog for 1.41.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-08-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "August is upon us but we are still steadily publishing new Quarkus releases. Today, we released Quarkus 3.2.3.Final, the third maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. Note that this version upgrades Hibernate Search to 6.2 as we wanted..."
 }
