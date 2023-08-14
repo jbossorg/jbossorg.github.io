@@ -1,13 +1,13 @@
 {
-  "title": "Remote EJB Client for Batch Application",
-  "link": "http://jberet.org/remote-ejb-batch/",
+  "title": "Use JFR to profile and monitor native executables",
+  "link": "https://quarkus.io/blog/profile-and-monitor-native-executables-with-jfr/",
   "author": [
     {
-      "name": "Cheng Fang",
+      "name": "Robert Toyonaga",
       "avatar": null
     }
   ],
-  "date": "2023-07-21T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-07-24T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus native executables offer many benefits such as even faster start-up time and low footprint. However, one major drawback is that such native binaries can be less observable. The good news is that you can still use JDK Flight Recorder (JFR) when running your Quarkus applications as native executables. Native..."
 }

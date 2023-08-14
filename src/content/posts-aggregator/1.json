@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.2.4.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-2-4-final-released/",
+  "title": "Quarkus Newsletter #35 - August",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-35/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-08-11T00:00:00.000Z",
+  "date": "2023-08-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.2.4.Final, the fourth maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. If you are not already using 3.2, please refer to the Quarkus 3.2 migration guide. And if you are not already using 3.0, please refer..."
+  "content": "Read Ladislav Thon’s article \"On the Road to CDI Compatibility\" to learn about the long road to make Quarkus compatible with CDI Lite. An Elsevier software engineer (Neil Stevens) writes about how to use Quarkus to improve Java functions with AWS Lambda in \"Elsevier Tech: Writing a native Java Lambda..."
 }

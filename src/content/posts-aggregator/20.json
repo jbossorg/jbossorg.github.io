@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #34 - July",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-34/",
+  "title": "How to run standalone Jakarta Batch Jobs",
+  "link": "https://www.mastertheboss.com/java-ee/batch-api/running-batch-jobs-in-j2se-applications/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read \"Quarkus 3.2.0.Final released - New security features, @QuarkusComponentTest\" by Guillaume Smet\" to learn about major changes like; various new security features, the ability to test CDI components with @QuarkusComponentTest and new build time analytics. Kevin Dubois' article \"Managing Java containers with Quarkus and Podman Desktop\" shows how to build..."
+  "date": "2023-07-14T10:16:48.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Jakarta Batch, formerly known as Java Batch, is a specification that provides a standardized approach for implementing batch processing in Java applications. It offers a robust and scalable framework for executing large-scale, long-running, and data-intensive tasks. In this tutorial, we will explore the process of running Jakarta Batch Jobs as standalone Java applications, discussing the ...  The post appeared first on ."
 }

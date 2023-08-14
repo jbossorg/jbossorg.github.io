@@ -1,13 +1,13 @@
 {
-  "title": "How to Upload and Download Files with a Servlet",
-  "link": "https://www.mastertheboss.com/java-ee/servlet-30/uploading-a-file-with-a-servlet/",
+  "title": "Quarkus 2.16.9.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-16-9-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-07-30T08:50:59.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will illustrate how to upload files using the Jakarta Servlet API. We will also learn how to use a Servlet to download a File that is available remotely on the Server. Uploading Files with a Servlet By using Jakarta Servlet API it is pretty simple to upload a File without the need of ...  The post appeared first on ."
+  "date": "2023-07-31T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "As mentioned in previous blog posts, we encourage all our users to upgrade to Quarkus 3 (it is an easy task with quarkus update). However we understand the migration can require some time so we will continue to maintain 2.16.x for a while. Today, we released Quarkus 2.16.9.Final, the ninth..."
 }
