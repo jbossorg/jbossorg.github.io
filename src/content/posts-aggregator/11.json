@@ -1,13 +1,13 @@
 {
-  "title": "Analysing Quarkus Native startup RSS consumption",
-  "link": "https://quarkus.io/blog/native-startup-rss-troubleshooting/",
+  "title": "How to Upload and Download Files with a Servlet",
+  "link": "https://www.mastertheboss.com/java-ee/servlet-30/uploading-a-file-with-a-servlet/",
   "author": [
     {
-      "name": "Galder Zamarreño",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-07-27T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "During the development of Quarkus 2.13, we discovered that there was a startup degradation in native mode. One of the key aspects of this degradation was that RSS consumption on start up had gone up by about 10-15% compared to Quarkus 2.7. In this blog post you will learn how..."
+  "date": "2023-07-30T08:50:59.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will illustrate how to upload files using the Jakarta Servlet API. We will also learn how to use a Servlet to download a File that is available remotely on the Server. Uploading Files with a Servlet By using Jakarta Servlet API it is pretty simple to upload a File without the need of ...  The post appeared first on ."
 }
