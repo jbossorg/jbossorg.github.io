@@ -1,13 +1,13 @@
 {
-  "title": "Securing the WildFly Management Console with OpenID Connect",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-management-console-oidc/",
+  "title": "Quarkus 3.2.2.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-2-final-released/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Guillaume Smet",
+      "avatar": null
     }
   ],
   "date": "2023-07-24T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.2.2.Final, the second maintenance release of our 3.2 release train. We released 3.2.1.Final a few days ago but two annoying regressions were spotted before we announced it so we decided to not announce it and release a 3.2.2.Final right away. These two releases contains mostly bugfixes..."
 }
