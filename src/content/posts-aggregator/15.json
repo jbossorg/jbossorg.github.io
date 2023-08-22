@@ -1,13 +1,13 @@
 {
-  "title": "How to upgrade WildFly JSF version with Galleon",
-  "link": "https://www.mastertheboss.com/java-ee/jsf/how-to-upgrade-wildfly-jsf-version-with-galleon/",
+  "title": "Analysing Quarkus Native startup RSS consumption",
+  "link": "https://quarkus.io/blog/native-startup-rss-troubleshooting/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Galder Zamarreño",
       "avatar": null
     }
   ],
-  "date": "2023-07-24T08:10:31.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to add MyFaces 4 (or newer) support to your WildFly installation using Galleon features pack. At the end of it, you will be able to complete the upgrade of your JSF implementation in no time! Choosing a different JSF Implementation in WildFly Out of the box, WildFly ships with ...  The post appeared first on ."
+  "date": "2023-07-27T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "During the development of Quarkus 2.13, we discovered that there was a startup degradation in native mode. One of the key aspects of this degradation was that RSS consumption on start up had gone up by about 10-15% compared to Quarkus 2.7. In this blog post you will learn how..."
 }

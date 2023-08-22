@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #35 - August",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-35/",
+  "title": "PrimeFaces on Quarkus made simple",
+  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-on-quarkus-made-simple/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read Ladislav Thon’s article \"On the Road to CDI Compatibility\" to learn about the long road to make Quarkus compatible with CDI Lite. An Elsevier software engineer (Neil Stevens) writes about how to use Quarkus to improve Java functions with AWS Lambda in \"Elsevier Tech: Writing a native Java Lambda..."
+  "date": "2023-08-15T07:57:42.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "PrimeFaces is a renowned open-source UI component library for JSF-based web applications. It provides an extensive set of rich, customizable UI components that simplify the process of building feature-rich and visually appealing user interfaces. In this article we will learn how to integrate its library in Quarkus applications. This is the second round of article ...  The post appeared first on ."
 }
