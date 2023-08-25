@@ -1,13 +1,13 @@
 {
-  "title": "How to create Jobs in Kubernetes",
-  "link": "https://www.mastertheboss.com/soa-cloud/openshift/how-to-create-jobs-in-kubernetes/",
+  "title": "Quarkus 3.3.0 released - OpenTelemetry improvements, Reactive Messaging Pulsar extension",
+  "link": "https://quarkus.io/blog/quarkus-3-3-0-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-08-22T12:52:25.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses how to automate Tasks in Kubernetes and OpenShift using Jobs and Cron Jobs. We will show some example on how to create and manage them. Then, we will discuss the best practices about using Jobs in Kubernetes. In a Kubernetes environment, you can use Jobs to automate tasks that need to run ...  The post appeared first on ."
+  "date": "2023-08-23T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "It is our pleasure to announce the release of Quarkus 3.3.0. The first thing you will notice in this release is that we dropped the .Final suffix. This suffix was introduced to make sure final releases were sorted properly compared to alphas, beta and candidate releases, at a time where..."
 }

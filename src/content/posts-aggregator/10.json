@@ -1,13 +1,13 @@
 {
-  "title": "PrimeFaces with Jakarta EE 10 made simple",
-  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-with-jakarta-ee-10-made-simple/",
+  "title": "DMN boxed expression editor improvements",
+  "link": "https://blog.kie.org/2023/08/dmn-boxed-expression-editor-improvements.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jozef Marko",
       "avatar": null
     }
   ],
-  "date": "2023-08-04T17:54:53.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will discuss how to create and deploy a Jakarta EE 10 application that uses Primefaces as Jakarta Faces implementation. We will build a sample application that will run in microservice-style as WildFly Bootable JAR. PrimeFaces extends Jakarta Faces by providing a wide range of rich and customizable UI components that are ...  The post appeared first on ."
+  "date": "2023-08-08T14:11:16.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are happy to announce another set of improvements to our boxed expression editor. As we unveiled recently in the , we try to improve the boxed expression editor continuously. Described features from this article will be available with release. So let’s have a look at them in more detail.   AUTOCOMPLETION  Autocompletion appears automatically as the user starts to type the text of the expression. These autocompletion are filtered to match the typed text. As an alternative, the user can invoke autocompletion simply by pressing Ctrl + Spacebar (the shortcut may differ on various platforms).   BEFORE AND NOW  Older versions of the DMN boxed expression editor suggested a raw list of available FEEL functions to the user. We can understand raw as missing any documentation of the function.  However now, thanks to , we added documentation for each available function containing details of parameters and returned value.     ROWS AND COLUMNS INSERTION  Row or column insertion is an operation a DMN modeler user executes daily. It can be done using an inline plus icon or context menu, that is invoked by a right mouse button click, from most of the boxed expression editor cells.   BEFORE AND NOW  Older versions of the DMN boxed expression editor allowed single row or column insertion per time. Creation of large expressions this way is slow, not efficient enough.  However now, thanks to , users are able to insert as many columns or rows per time as they want. Well, we actually set an upper boundary of 500 items, we believe this boundary is sufficient.    These new boxed expression editor improvements will be available soon in the next release. If you spot any issue feel free to contact us on or report an on GitHub.  The post appeared first on ."
 }
