@@ -1,13 +1,13 @@
 {
-  "title": "DMN boxed expression editor improvements",
-  "link": "https://blog.kie.org/2023/08/dmn-boxed-expression-editor-improvements.html",
+  "title": "Kogito 1.42.0 released!",
+  "link": "https://blog.kie.org/2023/08/kogito-1-42-0-released.html",
   "author": [
     {
-      "name": "Jozef Marko",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2023-08-08T14:11:16.000Z",
+  "date": "2023-08-10T23:19:34.000Z",
   "feed_title": "KIE Community",
-  "content": "We are happy to announce another set of improvements to our boxed expression editor. As we unveiled recently in the , we try to improve the boxed expression editor continuously. Described features from this article will be available with release. So let’s have a look at them in more detail.   AUTOCOMPLETION  Autocompletion appears automatically as the user starts to type the text of the expression. These autocompletion are filtered to match the typed text. As an alternative, the user can invoke autocompletion simply by pressing Ctrl + Spacebar (the shortcut may differ on various platforms).   BEFORE AND NOW  Older versions of the DMN boxed expression editor suggested a raw list of available FEEL functions to the user. We can understand raw as missing any documentation of the function.  However now, thanks to , we added documentation for each available function containing details of parameters and returned value.     ROWS AND COLUMNS INSERTION  Row or column insertion is an operation a DMN modeler user executes daily. It can be done using an inline plus icon or context menu, that is invoked by a right mouse button click, from most of the boxed expression editor cells.   BEFORE AND NOW  Older versions of the DMN boxed expression editor allowed single row or column insertion per time. Creation of large expressions this way is slow, not efficient enough.  However now, thanks to , users are able to insert as many columns or rows per time as they want. Well, we actually set an upper boundary of 500 items, we believe this boundary is sufficient.    These new boxed expression editor improvements will be available soon in the next release. If you spot any issue feel free to contact us on or report an on GitHub.  The post appeared first on ."
+  "content": "We are glad to announce that the Kogito 1.42.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Fixed an issue that could make live reload not work as expected for workflows    that use OpenAPI or gRPC.  * Json schema validation:    * Changed library from (org,json based)  to (jackson based)    * Support nested json schema  * Python support    * Added support for python method call (embedded python script support was      added in previous release)  * Process definition addon that allows dynamically uploading SWF files to a    Quarkus deployment (Experimental)  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.31.0 artifacts are available at the .  A detailed changelog for 1.42.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
