@@ -1,13 +1,13 @@
 {
-  "title": "How to Upload and Download Files with a Servlet",
-  "link": "https://www.mastertheboss.com/java-ee/servlet-30/uploading-a-file-with-a-servlet/",
+  "title": "Kogito 1.41.0 released!",
+  "link": "https://blog.kie.org/2023/07/kogito-1-41-0-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2023-07-30T08:50:59.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will illustrate how to upload files using the Jakarta Servlet API. We will also learn how to use a Servlet to download a File that is available remotely on the Server. Uploading Files with a Servlet By using Jakarta Servlet API it is pretty simple to upload a File without the need of ...  The post appeared first on ."
+  "date": "2023-07-31T11:29:40.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.41.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Serverless Workflow Python support. See    * Upgrade Serverless Workflow SDK Java to 4.0.4  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.30.0 artifacts are available at the .  A detailed changelog for 1.41.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }

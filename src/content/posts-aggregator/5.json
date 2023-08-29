@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.3.0 released - OpenTelemetry improvements, Reactive Messaging Pulsar extension",
-  "link": "https://quarkus.io/blog/quarkus-3-3-0-released/",
+  "title": "Quarkus 2.16.10.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-2-16-10-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-08-23T00:00:00.000Z",
+  "date": "2023-08-26T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 3.3.0. The first thing you will notice in this release is that we dropped the .Final suffix. This suffix was introduced to make sure final releases were sorted properly compared to alphas, beta and candidate releases, at a time where..."
+  "content": "As mentioned in previous blog posts, we encourage all our community users to upgrade to Quarkus 3. Most of the heavy lifting can be done with quarkus update but be aware that some components were updated to new major versions and that migrating might require some time and careful testing..."
 }

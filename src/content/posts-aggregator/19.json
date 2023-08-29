@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.9.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-9-final-released/",
+  "title": "Quarkus 3.2.3.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-3-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-07-31T00:00:00.000Z",
+  "date": "2023-08-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "As mentioned in previous blog posts, we encourage all our users to upgrade to Quarkus 3 (it is an easy task with quarkus update). However we understand the migration can require some time so we will continue to maintain 2.16.x for a while. Today, we released Quarkus 2.16.9.Final, the ninth..."
+  "content": "August is upon us but we are still steadily publishing new Quarkus releases. Today, we released Quarkus 3.2.3.Final, the third maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. Note that this version upgrades Hibernate Search to 6.2 as we wanted..."
 }

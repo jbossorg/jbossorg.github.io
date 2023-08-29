@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #35 - August",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-35/",
+  "title": "How to analyze large Java Heap Dumps",
+  "link": "https://www.mastertheboss.com/java/how-to-parse-large-java-heap-dumps/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read Ladislav Thon’s article \"On the Road to CDI Compatibility\" to learn about the long road to make Quarkus compatible with CDI Lite. An Elsevier software engineer (Neil Stevens) writes about how to use Quarkus to improve Java functions with AWS Lambda in \"Elsevier Tech: Writing a native Java Lambda..."
+  "date": "2023-08-17T09:26:15.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "One critical tool in diagnosing memory-related issues is the Heap dump, a snapshot of an application’s memory at a particular point in time. However, as applications become larger and more intricate, heap dumps can also become massive and challenging to analyze. In this article, we will learn how to examine Heap Dump data even with ...  The post appeared first on ."
 }

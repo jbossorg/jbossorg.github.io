@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x client for Apache Pinot",
-  "link": "https://vertx.io/blog/soc-vertx-pinot-client",
+  "title": "Quarkus 3.2.5.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-5-final-released/",
   "author": [
     {
-      "name": "Lucifer Morningstar",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-08-25T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Apache Pinot is a realtime distributed datastore for analytics workloads. To make it easier for Eclipse Vert.x users to use Apache Pinot in their applications, we introduce the Reactiverse Vert.x Client for Pinot."
+  "date": "2023-08-28T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.2.5.Final, the fifth maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. If you are not already using 3.2, please refer to the Quarkus 3.2 migration guide. And if you are not already using 3.0, please refer..."
 }

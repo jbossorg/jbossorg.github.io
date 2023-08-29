@@ -1,13 +1,13 @@
 {
-  "title": "PrimeFaces with Jakarta EE 10 made simple",
-  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-with-jakarta-ee-10-made-simple/",
+  "title": "Kogito 1.42.0 released!",
+  "link": "https://blog.kie.org/2023/08/kogito-1-42-0-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Cristiano Nicolai",
       "avatar": null
     }
   ],
-  "date": "2023-08-04T17:54:53.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will discuss how to create and deploy a Jakarta EE 10 application that uses Primefaces as Jakarta Faces implementation. We will build a sample application that will run in microservice-style as WildFly Bootable JAR. PrimeFaces extends Jakarta Faces by providing a wide range of rich and customizable UI components that are ...  The post appeared first on ."
+  "date": "2023-08-10T23:19:34.000Z",
+  "feed_title": "KIE Community",
+  "content": "We are glad to announce that the Kogito 1.42.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Fixed an issue that could make live reload not work as expected for workflows    that use OpenAPI or gRPC.  * Json schema validation:    * Changed library from (org,json based)  to (jackson based)    * Support nested json schema  * Python support    * Added support for python method call (embedded python script support was      added in previous release)  * Process definition addon that allows dynamically uploading SWF files to a    Quarkus deployment (Experimental)  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.31.0 artifacts are available at the .  A detailed changelog for 1.42.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
 }
