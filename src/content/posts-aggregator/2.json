@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.10.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-10-final-released/",
+  "title": "Getting started with Debezium",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/debezium/getting-started-with-debezium/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-26T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As mentioned in previous blog posts, we encourage all our community users to upgrade to Quarkus 3. Most of the heavy lifting can be done with quarkus update but be aware that some components were updated to new major versions and that migrating might require some time and careful testing..."
+  "date": "2023-08-28T13:56:30.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Debezium is a project built upon Apache Kafka and uses Kafka to stream the changes from one system to another. Once core feature of Debezium is the Change Data Capture which is able to capture data and pushes it into Kafka. In this updated tutorial we will learn how to configure Debezium and Apache Kafka ...  The post appeared first on ."
 }

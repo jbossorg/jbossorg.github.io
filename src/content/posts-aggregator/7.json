@@ -1,13 +1,13 @@
 {
-  "title": "Q3 2023 RESTEasy Quarterly Releases",
-  "link": "https://resteasy.dev/2023/08/21/resteasy-releases/",
+  "title": "How to create Jobs in Kubernetes",
+  "link": "https://www.mastertheboss.com/soa-cloud/openshift/how-to-create-jobs-in-kubernetes/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-21T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-08-22T12:52:25.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to automate Tasks in Kubernetes and OpenShift using Jobs and Cron Jobs. We will show some example on how to create and manage them. Then, we will discuss the best practices about using Jobs in Kubernetes. In a Kubernetes environment, you can use Jobs to automate tasks that need to run ...  The post appeared first on ."
 }
