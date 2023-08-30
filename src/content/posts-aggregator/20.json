@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.2.3.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-2-3-final-released/",
+  "title": "PrimeFaces with Jakarta EE 10 made simple",
+  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-with-jakarta-ee-10-made-simple/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "August is upon us but we are still steadily publishing new Quarkus releases. Today, we released Quarkus 3.2.3.Final, the third maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. Note that this version upgrades Hibernate Search to 6.2 as we wanted..."
+  "date": "2023-08-04T17:54:53.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will discuss how to create and deploy a Jakarta EE 10 application that uses Primefaces as Jakarta Faces implementation. We will build a sample application that will run in microservice-style as WildFly Bootable JAR. PrimeFaces extends Jakarta Faces by providing a wide range of rich and customizable UI components that are ...  The post appeared first on ."
 }

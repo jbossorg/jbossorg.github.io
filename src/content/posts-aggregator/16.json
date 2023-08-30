@@ -1,13 +1,13 @@
 {
-  "title": "Kogito 1.42.0 released!",
-  "link": "https://blog.kie.org/2023/08/kogito-1-42-0-released.html",
+  "title": "Quarkus Newsletter #35 - August",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-35/",
   "author": [
     {
-      "name": "Cristiano Nicolai",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-08-10T23:19:34.000Z",
-  "feed_title": "KIE Community",
-  "content": "We are glad to announce that the Kogito 1.42.0 release is now available! This goes hand in hand with , release.  From a feature point of view, we have included a series of new features and bug fixes, including:   * Fixed an issue that could make live reload not work as expected for workflows    that use OpenAPI or gRPC.  * Json schema validation:    * Changed library from (org,json based)  to (jackson based)    * Support nested json schema  * Python support    * Added support for python method call (embedded python script support was      added in previous release)  * Process definition addon that allows dynamically uploading SWF files to a    Quarkus deployment (Experimental)  For more details head to the complete .  All artifacts are available now:   * Kogito runtime artifacts are available on Maven Central.  * Kogito examples can be found .  * Kogito images are available on .  * Kogito operator is available in the in OpenShift and Kubernetes.  * Kogito tooling 0.31.0 artifacts are available at the .  A detailed changelog for 1.42.0 can be found in .  New to Kogito? Check out our website . Click the \"Get Started\" button.  The post appeared first on ."
+  "date": "2023-08-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Read Ladislav Thon’s article \"On the Road to CDI Compatibility\" to learn about the long road to make Quarkus compatible with CDI Lite. An Elsevier software engineer (Neil Stevens) writes about how to use Quarkus to improve Java functions with AWS Lambda in \"Elsevier Tech: Writing a native Java Lambda..."
 }

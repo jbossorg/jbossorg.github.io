@@ -1,13 +1,13 @@
 {
-  "title": "PrimeFaces on Quarkus made simple",
-  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-on-quarkus-made-simple/",
+  "title": "Q3 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.dev/2023/08/21/resteasy-releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-08-15T07:57:42.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "PrimeFaces is a renowned open-source UI component library for JSF-based web applications. It provides an extensive set of rich, customizable UI components that simplify the process of building feature-rich and visually appealing user interfaces. In this article we will learn how to integrate its library in Quarkus applications. This is the second round of article ...  The post appeared first on ."
+  "date": "2023-08-21T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
