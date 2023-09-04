@@ -1,13 +1,13 @@
 {
-  "title": "How to analyze large Java Heap Dumps",
-  "link": "https://www.mastertheboss.com/java/how-to-parse-large-java-heap-dumps/",
+  "title": "Q3 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.dev/2023/08/21/resteasy-releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-08-17T09:26:15.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "One critical tool in diagnosing memory-related issues is the Heap dump, a snapshot of an application’s memory at a particular point in time. However, as applications become larger and more intricate, heap dumps can also become massive and challenging to analyze. In this article, we will learn how to examine Heap Dump data even with ...  The post appeared first on ."
+  "date": "2023-08-21T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
