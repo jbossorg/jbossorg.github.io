@@ -1,13 +1,13 @@
 {
-  "title": "PrimeFaces on Quarkus made simple",
-  "link": "https://www.mastertheboss.com/web/primefaces/primefaces-on-quarkus-made-simple/",
+  "title": "How to analyze large Java Heap Dumps",
+  "link": "https://www.mastertheboss.com/java/how-to-parse-large-java-heap-dumps/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-08-15T07:57:42.000Z",
+  "date": "2023-08-17T09:26:15.000Z",
   "feed_title": "Mastertheboss",
-  "content": "PrimeFaces is a renowned open-source UI component library for JSF-based web applications. It provides an extensive set of rich, customizable UI components that simplify the process of building feature-rich and visually appealing user interfaces. In this article we will learn how to integrate its library in Quarkus applications. This is the second round of article ...  The post appeared first on ."
+  "content": "One critical tool in diagnosing memory-related issues is the Heap dump, a snapshot of an application’s memory at a particular point in time. However, as applications become larger and more intricate, heap dumps can also become massive and challenging to analyze. In this article, we will learn how to examine Heap Dump data even with ...  The post appeared first on ."
 }
