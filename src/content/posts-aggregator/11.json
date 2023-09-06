@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.10.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-10-final-released/",
+  "title": "Quarkus 3.2.5.Final released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-5-final-released/",
   "author": [
     {
       "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-08-26T00:00:00.000Z",
+  "date": "2023-08-28T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "As mentioned in previous blog posts, we encourage all our community users to upgrade to Quarkus 3. Most of the heavy lifting can be done with quarkus update but be aware that some components were updated to new major versions and that migrating might require some time and careful testing..."
+  "content": "Today, we released Quarkus 3.2.5.Final, the fifth maintenance release of our 3.2 release train. It should be a safe upgrade for anyone already using 3.2. If you are not already using 3.2, please refer to the Quarkus 3.2 migration guide. And if you are not already using 3.0, please refer..."
 }
