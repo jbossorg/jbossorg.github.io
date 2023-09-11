@@ -1,13 +1,14 @@
 {
-  "title": "Vlog: Begin your Open Source Journey with the WildFly Elytron Project at Open Source Day",
-  "link": "https://www.youtube.com/watch?v=vUWGPTCNl4I",
+  "title": "Senior Software Engineer Opening on Keycloak's Core Team!",
+  "link": "https://www.keycloak.org/2023/08/keycloak-core-hiring",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Bruno Oliveira",
+      "avatar": null
     }
   ],
   "date": "2023-08-29T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Red Hat is looking for a Senior Software Engineer who is eager to contribute to the evolving landscape of Identity and Access Management through Keycloak. In addition to improving existing functionalities, you will have the opportunity to innovate and work on new features.  If you have a solid Java experience, a strong interest in security, thrive in a collaborative environment, and are keen to make a meaningful impact on the IAM landscape, ."
 }
