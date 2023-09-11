@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.3.0 released - OpenTelemetry improvements, Reactive Messaging Pulsar extension",
-  "link": "https://quarkus.io/blog/quarkus-3-3-0-released/",
+  "title": "Eclipse Vert.x client for Apache Pinot",
+  "link": "https://vertx.io/blog/soc-vertx-pinot-client",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Lucifer Morningstar",
       "avatar": null
     }
   ],
-  "date": "2023-08-23T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 3.3.0. The first thing you will notice in this release is that we dropped the .Final suffix. This suffix was introduced to make sure final releases were sorted properly compared to alphas, beta and candidate releases, at a time where..."
+  "date": "2023-08-25T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Apache Pinot is a realtime distributed datastore for analytics workloads. To make it easier for Eclipse Vert.x users to use Apache Pinot in their applications, we introduce the Reactiverse Vert.x Client for Pinot."
 }
