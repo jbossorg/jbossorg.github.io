@@ -1,14 +1,13 @@
 {
-  "title": "2nd edition of the Keycloak book is out",
-  "link": "https://www.keycloak.org/2023/09/book-2nd-edition",
+  "title": "JGroups 5.3 released",
+  "link": "http://belaban.blogspot.com/2023/09/jgroups-53-released.html",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": "Bela Ban",
       "avatar": null
     }
   ],
-  "date": "2023-09-11T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We’re pleased to announce that the 2nd edition of the Keycloak book is out, and available for .  This new edition has been updated to the latest release of Keycloak, making the book compatible with the newer Quarkus distribution of Keycloak, as well as the new administration console.  If you are new to Keycloak this book brings an excellent guide to getting started with Keycloak, including how to secure a range of different application types with Keycloak.  "
+  "date": "2023-09-12T11:04:00.000Z",
+  "feed_title": "Belas Blog",
+  "content": "I just released JGroups 5.3.  The 5.2 branch (last stable release: 5.2.19) is stable and will only be modified when bug fixes are backported from 5.3. All new develpoment will be done on the 5.3 branch.  The major new feature of the 5.3 release is RELAY3, which provides asymmetric routing between sites. This means that a given site doesn't need to be connected to all other sites, e.g.:   A <--> B <--> C <--> D   Site A is connected to site B, B to C and C to D. If a member in site D wants to send a message M to a member in site A, then M needs to be forwarded to C, then to B which forwards M to the member in A.   RELAY3 accepts the same configuration as RELAY2, but cannot be used with RELAY2.  The documentation is at [2].  Enjoy!      [1]  [2]   "
 }
