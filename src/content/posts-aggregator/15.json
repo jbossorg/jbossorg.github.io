@@ -1,14 +1,13 @@
 {
-  "title": "Senior Software Engineer Opening on Keycloak's Core Team!",
-  "link": "https://www.keycloak.org/2023/08/keycloak-core-hiring",
+  "title": "Quarkus 3.3.1 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-3-1-released/",
   "author": [
     {
-      "name": "Bruno Oliveira",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2023-08-29T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Red Hat is looking for a Senior Software Engineer who is eager to contribute to the evolving landscape of Identity and Access Management through Keycloak. In addition to improving existing functionalities, you will have the opportunity to innovate and work on new features.  If you have a solid Java experience, a strong interest in security, thrive in a collaborative environment, and are keen to make a meaningful impact on the IAM landscape, ."
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.3.1, our first maintenance release for our 3.3 release train. It includes a bunch of bugfixes, together with documentation improvements. We are aware of a startup performance/memory regression introduced in 3.3 and are working hard on fixing it. This issue is not solved in 3.3.1 but should..."
 }
