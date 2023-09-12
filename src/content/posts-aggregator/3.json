@@ -1,14 +1,13 @@
 {
-  "title": "2nd edition of the Keycloak book is out",
-  "link": "https://www.keycloak.org/2023/09/book-2nd-edition",
+  "title": "Using the resteasy-grpc feature together with the WildFly gRPC subsystem",
+  "link": "https://resteasy.dev/2023/09/12/resteasy-grpc/",
   "author": [
     {
-      "name": "Stian Thorgersen",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-09-11T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We’re pleased to announce that the 2nd edition of the Keycloak book is out, and available for .  This new edition has been updated to the latest release of Keycloak, making the book compatible with the newer Quarkus distribution of Keycloak, as well as the new administration console.  If you are new to Keycloak this book brings an excellent guide to getting started with Keycloak, including how to secure a range of different application types with Keycloak.  "
+  "date": "2023-09-12T00:00:00.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
