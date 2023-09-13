@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.3.1 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-3-1-released/",
+  "title": "Eclipse Vert.x 4.4.5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-5",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-08-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.3.1, our first maintenance release for our 3.3 release train. It includes a bunch of bugfixes, together with documentation improvements. We are aware of a startup performance/memory regression introduced in 3.3 and are working hard on fixing it. This issue is not solved in 3.3.1 but should..."
+  "date": "2023-08-30T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.5 has just been released. It fixes a few bugs that have been reported by the community"
 }
