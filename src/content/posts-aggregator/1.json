@@ -1,13 +1,13 @@
 {
-  "title": "JGroups 5.3 released",
-  "link": "http://belaban.blogspot.com/2023/09/jgroups-53-released.html",
+  "title": "Using the resteasy-grpc feature together with the WildFly gRPC subsystem",
+  "link": "https://resteasy.dev/2023/09/12/resteasy-grpc/",
   "author": [
     {
-      "name": "Bela Ban",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2023-09-12T11:04:00.000Z",
-  "feed_title": "Belas Blog",
-  "content": "I just released JGroups 5.3.  The 5.2 branch (last stable release: 5.2.19) is stable and will only be modified when bug fixes are backported from 5.3. All new develpoment will be done on the 5.3 branch.  The major new feature of the 5.3 release is RELAY3, which provides asymmetric routing between sites. This means that a given site doesn't need to be connected to all other sites, e.g.:   A <--> B <--> C <--> D   Site A is connected to site B, B to C and C to D. If a member in site D wants to send a message M to a member in site A, then M needs to be forwarded to C, then to B which forwards M to the member in A.   RELAY3 accepts the same configuration as RELAY2, but cannot be used with RELAY2.  The documentation is at [2].  Enjoy!      [1]  [2]   "
+  "date": "2023-09-13T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
