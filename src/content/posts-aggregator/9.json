@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus CRUD Example with Panache Data",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/how-to-generate-jax-rs-crud-application-in-quarkus-using-panache/",
+  "title": "How to set a custom initial value for Ids in JPA",
+  "link": "https://www.mastertheboss.com/java-ee/jpa/how-to-set-a-custom-initial-value-for-ids-in-jpa/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-10T14:05:21.000Z",
+  "date": "2023-09-10T16:41:33.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to create a REST CRUD application in Quarkus, starting from a Hibernate Panache Entity. We will show two different approaches: in the first one we will create a REST Resources to map the CRUD methods. Then, we will show how to use REST Data Panache to generate automatically ...  The post appeared first on ."
+  "content": "In Java Persistence API (JPA), entities require unique identifiers for database records. JPA provides several strategies for generating these identifiers, such as IDENTITY, SEQUENCE, and TABLE. However, there are cases where you might need to set a custom initial value for these identifiers using the Table and Sequence strategy. In this tutorial, we will explore ...  The post appeared first on ."
 }
