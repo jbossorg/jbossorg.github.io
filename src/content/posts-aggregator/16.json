@@ -1,13 +1,13 @@
 {
-  "title": "Tutorial: Using Debezium JDBC Connector",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/debezium/tutorial-using-debezium-jdbc-connector/",
+  "title": "Vlog: Begin your Open Source Journey with the WildFly Elytron Project at Open Source Day",
+  "link": "https://www.youtube.com/watch?v=PAcqCa8u0Z8",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Diana Krepinska Vilkolakova",
+      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
     }
   ],
-  "date": "2023-09-04T16:48:34.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Debezium is an open-source CDC (Change Data Capture) platform that allows you to capture and stream database changes in real-time. The Debezium JDBC Connector enables you to monitor changes in relational databases, like PostgreSQL, and stream those changes to various downstream systems. In this tutorial, we will guide you through the process of using the ...  The post appeared first on ."
+  "date": "2023-09-06T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
