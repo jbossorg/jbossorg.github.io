@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.4.1 released - Redis 7.2 and Flyway changes",
-  "link": "https://quarkus.io/blog/quarkus-3-4-1-released/",
+  "title": "Writing CRUD applications using virtual threads",
+  "link": "https://quarkus.io/blog/virtual-threads-2/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2023-09-20T00:00:00.000Z",
+  "date": "2023-09-25T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "It is our pleasure to announce the release of Quarkus 3.4.1. We skipped 3.4.0 as we needed a fix for CVE-2023-4853 in 3.4 too. Major changes are: Support for Redis 7.2 Adjustments on how to enable/activate Flyway This version also comes with bugfixes, performance improvements and documentation improvements. We currently..."
+  "content": "Last week, we published a video demonstrating the creation of a CRUD application using virtual threads in Quarkus. It’s as simple as adding the @RunOnVirtualThread annotation on your HTTP resource (or your controller class if you use the Spring compatibility layer). This companion post explains how it works behind the..."
 }

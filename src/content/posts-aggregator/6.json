@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #36 - September",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-36/",
+  "title": "Addressing CVE-2023-4853 in Quarkus",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/addressing-cve-2023-4853-in-quarkus/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Explore how we can use the Testcontainers Desktop app while building a Quarkus application by reading \"Joyful Quarkus Application Development using Testcontainers Desktop\" by Siva Katamreddy. Extensions can significantly increase the application’s performance, help developers be more productive while developing their applications, integrate complex dependencies much easier, and simplify the..."
+  "date": "2023-09-16T08:17:57.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The CVE-2023-4853 vulnerability in question impacts Quarkus framework’s HTTP Security Policy, . This policy provides access control to various endpoints within an application enabling developers to secure access based on path-based configurations. However, a critical flaw has been identified in how the HTTP Security Policy handles request paths containing multiple adjacent forward-slash characters. Issue Summary ...  The post appeared first on ."
 }
