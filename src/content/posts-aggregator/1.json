@@ -1,13 +1,13 @@
 {
-  "title": "Mastering Virtual Threads: A Comprehensive Tutorial",
-  "link": "https://www.mastertheboss.com/java/mastering-virtual-threads-a-comprehensive-tutorial/",
+  "title": "Just: a tool to store and execute your project commands",
+  "link": "https://www.mastertheboss.com/various-stuff/just-a-tool-to-store-and-execute-your-project-commands/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-25T10:54:36.000Z",
+  "date": "2023-09-27T14:07:46.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Virtual threads, also known as project Loom, are a new feature available in Java 21 that aims to provide lightweight, efficient, and scalable concurrency. They are designed to improve the performance and efficiency of concurrent applications by reducing the overhead associated with traditional thread-based concurrency. At the same time, they allow write asynchronous code in ...  The post appeared first on ."
+  "content": "“Just” (or “Justfile”) is a handy command-line tool that simplifies the execution of project-specific commands tasks. In this tutorial, we’ll explore why and how to use “Just” to enhance your day-by-day command line tasks. Introduction to “Just” As a developer, I have been using the command line script files (e.g. bashrc) as a repository of ...  The post appeared first on ."
 }
