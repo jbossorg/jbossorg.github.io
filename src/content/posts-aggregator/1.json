@@ -1,13 +1,13 @@
 {
-  "title": "Just: a tool to store and execute your project commands",
-  "link": "https://www.mastertheboss.com/various-stuff/just-a-tool-to-store-and-execute-your-project-commands/",
+  "title": "Live diff and update quarkus deployments in OpenShift using Jetbrains IDEA",
+  "link": "https://quarkus.io/blog/live-diff-and-update-using-idea/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Andre Dietisheim",
       "avatar": null
     }
   ],
-  "date": "2023-09-27T14:07:46.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "“Just” (or “Justfile”) is a handy command-line tool that simplifies the execution of project-specific commands tasks. In this tutorial, we’ll explore why and how to use “Just” to enhance your day-by-day command line tasks. Introduction to “Just” As a developer, I have been using the command line script files (e.g. bashrc) as a repository of ...  The post appeared first on ."
+  "date": "2023-09-28T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Prerequisites OpenShift CLI, oc: installation instructions Kubernetes by Red Hat, Kubernetes Plugin for JetBrains IDEA Marketplace Quarkus CLI, Quarkus: Installation Instructions Optional: Source code for this blog post: https://github.com/adietish/openshift-quickstart IntelliJ Kubernetes Plugin This shows you how the Kubernetes Plugin for Jetbrains IDEA is a great companion when deploying quarkus apps..."
 }

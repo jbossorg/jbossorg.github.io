@@ -1,13 +1,13 @@
 {
-  "title": "Using the resteasy-grpc feature together with the WildFly gRPC subsystem",
-  "link": "https://resteasy.dev/2023/09/12/resteasy-grpc/",
+  "title": "Quarkus security releases for CVE-2023-4853",
+  "link": "https://quarkus.io/blog/cve-2023-4853/",
   "author": [
     {
-      "name": "阿男",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-09-13T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-09-14T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We have just released updates to Quarkus 2.16.11.Final, 3.2.6.Final, and 3.3.3 and Red Hat build of Quarkus 2.13.18.SP2 that fix the issue reported in CVE-2023-4853. This issue affects anyone using HTTP security path-based rules to protect HTTP endpoints. Recommendations If you are using any older versions of Quarkus (ranging from..."
 }

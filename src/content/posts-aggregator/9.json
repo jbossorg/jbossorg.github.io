@@ -1,13 +1,13 @@
 {
-  "title": "Addressing CVE-2023-4853 in Quarkus",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/addressing-cve-2023-4853-in-quarkus/",
+  "title": "How to upgrade to Quarkus 3",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/how-to-upgrade-to-quarkus-3/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-16T08:17:57.000Z",
+  "date": "2023-09-18T16:34:53.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The CVE-2023-4853 vulnerability in question impacts Quarkus framework’s HTTP Security Policy, . This policy provides access control to various endpoints within an application enabling developers to secure access based on path-based configurations. However, a critical flaw has been identified in how the HTTP Security Policy handles request paths containing multiple adjacent forward-slash characters. Issue Summary ...  The post appeared first on ."
+  "content": "This article discusses how to upgrade your existing Quarkus 2.x applications to Quarkus 3.x using the Quarkus CLI tool. We will learn at first which is the impact of the upgrade on Quarkus 2 application. Then, we will show how to perform the upgrade with just a single command line! What is new in Quarkus ...  The post appeared first on ."
 }
