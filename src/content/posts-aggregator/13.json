@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus security releases for CVE-2023-4853",
-  "link": "https://quarkus.io/blog/cve-2023-4853/",
+  "title": "Quarkus Newsletter #36 - September",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-36/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-09-14T00:00:00.000Z",
+  "date": "2023-09-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We have just released updates to Quarkus 2.16.11.Final, 3.2.6.Final, and 3.3.3 and Red Hat build of Quarkus 2.13.18.SP2 that fix the issue reported in CVE-2023-4853. This issue affects anyone using HTTP security path-based rules to protect HTTP endpoints. Recommendations If you are using any older versions of Quarkus (ranging from..."
+  "content": "Explore how we can use the Testcontainers Desktop app while building a Quarkus application by reading \"Joyful Quarkus Application Development using Testcontainers Desktop\" by Siva Katamreddy. Extensions can significantly increase the application’s performance, help developers be more productive while developing their applications, integrate complex dependencies much easier, and simplify the..."
 }
