@@ -1,13 +1,13 @@
 {
-  "title": "Live diff and update quarkus deployments in OpenShift using Jetbrains IDEA",
-  "link": "https://quarkus.io/blog/live-diff-and-update-using-idea/",
+  "title": "Testing virtual thread applications",
+  "link": "https://quarkus.io/blog/virtual-threads-3/",
   "author": [
     {
-      "name": "Andre Dietisheim",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2023-09-28T00:00:00.000Z",
+  "date": "2023-10-02T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Prerequisites OpenShift CLI, oc: installation instructions Kubernetes by Red Hat, Kubernetes Plugin for JetBrains IDEA Marketplace Quarkus CLI, Quarkus: Installation Instructions Optional: Source code for this blog post: https://github.com/adietish/openshift-quickstart IntelliJ Kubernetes Plugin This shows you how the Kubernetes Plugin for Jetbrains IDEA is a great companion when deploying quarkus apps..."
+  "content": "In a previous post, we have seen how to implement a CRUD application using virtual threads in Quarkus. The following video shows how to test this application and, specifically, how to detect pinning. The complete code of the application and the tests are available in the virtual threads demos repository...."
 }
