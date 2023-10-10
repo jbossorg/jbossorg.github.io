@@ -1,13 +1,13 @@
 {
-  "title": "Live diff and update quarkus deployments in OpenShift using Jetbrains IDEA",
-  "link": "https://quarkus.io/blog/live-diff-and-update-using-idea/",
+  "title": "Virtual Threads with Quarkus made easy",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/virtual-threads-with-quarkus-made-easy/",
   "author": [
     {
-      "name": "Andre Dietisheim",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-28T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Prerequisites OpenShift CLI, oc: installation instructions Kubernetes by Red Hat, Kubernetes Plugin for JetBrains IDEA Marketplace Quarkus CLI, Quarkus: Installation Instructions Optional: Source code for this blog post: https://github.com/adietish/openshift-quickstart IntelliJ Kubernetes Plugin This shows you how the Kubernetes Plugin for Jetbrains IDEA is a great companion when deploying quarkus apps..."
+  "date": "2023-10-02T13:43:50.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this first tutorial about Virtual Threads Mastering Virtual Threads: A Comprehensive Tutorial , we have covered the basics of Virtual Threads. In this article we will learn how Quarkus simplifies the implementation and debugging of Virtual Threads in your application through the @RunOnVirtualThread annotation. The @RunOnVirtualThreads annotation The @RunOnVirtualThread annotation tells Quarkus to do ...  The post appeared first on ."
 }

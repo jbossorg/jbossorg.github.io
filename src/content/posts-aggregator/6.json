@@ -1,13 +1,13 @@
 {
-  "title": "Virtual Threads with Quarkus made easy",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/virtual-threads-with-quarkus-made-easy/",
+  "title": "Quarkus 3.4.2 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-4-2-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-10-02T13:43:50.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this first tutorial about Virtual Threads Mastering Virtual Threads: A Comprehensive Tutorial , we have covered the basics of Virtual Threads. In this article we will learn how Quarkus simplifies the implementation and debugging of Virtual Threads in your application through the @RunOnVirtualThread annotation. The @RunOnVirtualThreads annotation The @RunOnVirtualThread annotation tells Quarkus to do ...  The post appeared first on ."
+  "date": "2023-10-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.4.2, our first maintenance release for our 3.4 release train (we skipped 3.4.0). It includes a bunch of bugfixes, together with documentation improvements. Update To update to Quarkus 3.4.2, we recommend updating to the latest version of the Quarkus CLI and run: quarkus update To migrate..."
 }

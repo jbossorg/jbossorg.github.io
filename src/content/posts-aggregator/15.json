@@ -1,13 +1,13 @@
 {
-  "title": "When Quarkus meets Virtual Threads",
-  "link": "https://quarkus.io/blog/virtual-thread-1/",
+  "title": "Observability in Quarkus 3",
+  "link": "https://quarkus.io/blog/quarkus-observability-3-3/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "Bruno Baptista",
       "avatar": null
     }
   ],
-  "date": "2023-09-19T00:00:00.000Z",
+  "date": "2023-09-20T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Java 21 offers a new feature that will reshape the development of concurrent applications in Java. For over two years, the Quarkus team explored integrating this new feature to ease the development of distributed applications, including microservices and event-driven applications. This blog post is the first part of a series..."
+  "content": "Observability in Quarkus Observability on a software system can be described as the capability to allow a human to ask and answer questions. To enable developers and support engineers in understanding how their applications behave, Quarkus 3.3 includes many improvements to its main observability related extensions: quarkus-opentelemetry (tracing) quarkus-micrometer (metrics)..."
 }

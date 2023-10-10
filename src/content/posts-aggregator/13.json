@@ -1,13 +1,13 @@
 {
-  "title": "Observability in Quarkus 3",
-  "link": "https://quarkus.io/blog/quarkus-observability-3-3/",
+  "title": "Mastering Virtual Threads: A Comprehensive Tutorial",
+  "link": "https://www.mastertheboss.com/java/mastering-virtual-threads-a-comprehensive-tutorial/",
   "author": [
     {
-      "name": "Bruno Baptista",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Observability in Quarkus Observability on a software system can be described as the capability to allow a human to ask and answer questions. To enable developers and support engineers in understanding how their applications behave, Quarkus 3.3 includes many improvements to its main observability related extensions: quarkus-opentelemetry (tracing) quarkus-micrometer (metrics)..."
+  "date": "2023-09-25T10:54:36.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Virtual threads, also known as project Loom, are a new feature available in Java 21 that aims to provide lightweight, efficient, and scalable concurrency. They are designed to improve the performance and efficiency of concurrent applications by reducing the overhead associated with traditional thread-based concurrency. At the same time, they allow write asynchronous code in ...  The post appeared first on ."
 }

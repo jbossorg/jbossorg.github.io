@@ -1,13 +1,13 @@
 {
-  "title": "Using the resteasy-grpc feature together with the WildFly gRPC subsystem",
-  "link": "https://resteasy.dev/2023/09/12/resteasy-grpc/",
+  "title": "Addressing CVE-2023-4853 in Quarkus",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/addressing-cve-2023-4853-in-quarkus/",
   "author": [
     {
-      "name": "阿男",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-13T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-09-16T08:17:57.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The CVE-2023-4853 vulnerability in question impacts Quarkus framework’s HTTP Security Policy, . This policy provides access control to various endpoints within an application enabling developers to secure access based on path-based configurations. However, a critical flaw has been identified in how the HTTP Security Policy handles request paths containing multiple adjacent forward-slash characters. Issue Summary ...  The post appeared first on ."
 }

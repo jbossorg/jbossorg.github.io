@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #36 - September",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-36/",
+  "title": "How to upgrade to Quarkus 3",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/how-to-upgrade-to-quarkus-3/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-09-15T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Explore how we can use the Testcontainers Desktop app while building a Quarkus application by reading \"Joyful Quarkus Application Development using Testcontainers Desktop\" by Siva Katamreddy. Extensions can significantly increase the application’s performance, help developers be more productive while developing their applications, integrate complex dependencies much easier, and simplify the..."
+  "date": "2023-09-18T16:34:53.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to upgrade your existing Quarkus 2.x applications to Quarkus 3.x using the Quarkus CLI tool. We will learn at first which is the impact of the upgrade on Quarkus 2 application. Then, we will show how to perform the upgrade with just a single command line! What is new in Quarkus ...  The post appeared first on ."
 }
