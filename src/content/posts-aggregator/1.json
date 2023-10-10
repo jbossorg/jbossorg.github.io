@@ -1,13 +1,13 @@
 {
-  "title": "Processing Kafka records on virtual threads",
-  "link": "https://quarkus.io/blog/virtual-threads-4/",
+  "title": "A recap of Quarkus Tools for IntelliJ's latest improvements",
+  "link": "https://quarkus.io/blog/intellij-quarkus-recap/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "Fred Bricon",
       "avatar": null
     }
   ],
-  "date": "2023-10-09T00:00:00.000Z",
+  "date": "2023-10-10T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In another blog post, we have seen how you can implement a CRUD application with Quarkus to utilize virtual threads. The virtual threads support in Quarkus is not limited to REST and HTTP. Many other parts support virtual threads, such as gRPC, scheduled tasks, and messaging. In this post, we..."
+  "content": "Quarkus Tools for IntelliJ is a free and open source extension, helping users develop Quarkus applications by providing content-assist, validation, run configurations and many other features right from their favourite IDE. This extension is based on the LSP4MP (i.e. MicroProfile) and its Quarkus add-on, and the Qute language server. These..."
 }

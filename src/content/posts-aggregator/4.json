@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 22.0.4 released",
-  "link": "https://www.keycloak.org/2023/10/keycloak-2204-released",
+  "title": "Quarkus 3.4.2 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-4-2-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-10-04T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Improve feature (detection) code in the Admin Console keycloak admin/api  * External Link check for documentation logs warning and exception: WARN    FilenoUtil: Native subprocess control requires open access keycloak docs  * Remove bearer-only content from the Server Administration Guide keycloak docs  * Move email validation change docs to migration guide of 22.0.3 keycloak docs  * Move email validation change docs to migration guide of 22.0.4 keycloak docs  * Improve documentation about manual database migration keycloak docs  * Deploy JavaScript adapter to Maven repository keycloak   BUGS   * user first name not refreshed in Keycloak V2 theme keycloak account/ui  * Using truststore with LDAP and StartTLS is not working keycloak ldap  * Can't boot Keycloak server with Java KeyStore p12 file running on Windows    10/2019 keycloak dist/quarkus  * Custom User Provider SPI: MULTIVALUED_STRING_TYPE value isn't correctly    displayed on ui (but correctly saved and retrieved) keycloak admin/ui  * Deep link format for redirect uri parameter is not parsed correctly keycloak    core  * Keycloak 22.0.1 unable to create user with long email address keycloak    admin/api  * Linux Firefox + Keycloak 22.0.1 issue(continuation of issue 21307) keycloak    authentication  * Not-working link during adding a SAML Identity provider keycloak admin/ui  * Events filter by IP Address not working keycloak admin/api  * NullpointerException when using encrypted SAML assertions keycloak saml  * KC22: Issue with FIPS140 in non approved mode. keycloak core  * Admin console throwing 403 error when logged in for sub realm using local    admin user keycloak admin/ui  * TypeError in user profile admin-ui keycloak admin/ui  * Registration page not showing username when edit username is not enabled    keycloak user-profile  * SAML Encryption Key Export Downloads Signing Key keycloak admin/ui  * Race condition inside Keycloak build chain execution keycloak dist/quarkus  * NPE in AuthenticationManager backchannelLogout keycloak core  * PolicyEnforcer should set WWW-Authenticate header before calling sendError()    method keycloak authorization-services  * User cannot be created via Admin UI if custom user attribute is required    keycloak admin/ui  * Keycloak 22.0.3: Create user: select groups to join filter does nothing    keycloak admin/ui  * Test failures with Wildfly/EAP adapters using TLS keycloak ci  * Reopening of CVE-2023-21971 - Update Connector/J to 8.0.33 keycloak    dependencies  * Outdated kcadm.sh help examples can be misleading to our users keycloak    admin/cli  * Cannot update email address when \"Email as username\" is enabled keycloak    admin/api  * Allow 'prompt' Value 'consent' in Keycloak JavaScript Adapter keycloak    adapter/javascript  * Text field for last name field in user form has an incorrect ID keycloak    admin/ui  * Some container implementations don't work with the documented additional RPM    install procedure keycloak docs  * Upload JVM Heapdumps action fail on Windows keycloak ci"
+  "date": "2023-10-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.4.2, our first maintenance release for our 3.4 release train (we skipped 3.4.0). It includes a bunch of bugfixes, together with documentation improvements. Update To update to Quarkus 3.4.2, we recommend updating to the latest version of the Quarkus CLI and run: quarkus update To migrate..."
 }
