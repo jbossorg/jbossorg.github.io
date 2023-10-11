@@ -1,13 +1,13 @@
 {
-  "title": "A recap of Quarkus Tools for IntelliJ's latest improvements",
-  "link": "https://quarkus.io/blog/intellij-quarkus-recap/",
+  "title": "Getting started with API Management",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/apigateway/getting-started-with-api-management/",
   "author": [
     {
-      "name": "Fred Bricon",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-10-10T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus Tools for IntelliJ is a free and open source extension, helping users develop Quarkus applications by providing content-assist, validation, run configurations and many other features right from their favourite IDE. This extension is based on the LSP4MP (i.e. MicroProfile) and its Quarkus add-on, and the Qute language server. These..."
+  "date": "2023-10-10T11:02:56.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "API Management is a broad concept that encompasses the entire lifecycle of an API. It includes functions such as API design, documentation generation, versioning, developer onboarding, analytics, monitoring, and policy enforcement. In this turorial we will discuss the key aspects on an API Management tool, taking as example 3Scale, and we will show an example ...  The post appeared first on ."
 }
