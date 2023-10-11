@@ -1,13 +1,13 @@
 {
-  "title": "Testing virtual thread applications",
-  "link": "https://quarkus.io/blog/virtual-threads-3/",
+  "title": "Virtual Threads with Quarkus made easy",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/virtual-threads-with-quarkus-made-easy/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-10-02T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "In a previous post, we have seen how to implement a CRUD application using virtual threads in Quarkus. The following video shows how to test this application and, specifically, how to detect pinning. The complete code of the application and the tests are available in the virtual threads demos repository...."
+  "date": "2023-10-02T13:43:50.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this first tutorial about Virtual Threads Mastering Virtual Threads: A Comprehensive Tutorial , we have covered the basics of Virtual Threads. In this article we will learn how Quarkus simplifies the implementation and debugging of Virtual Threads in your application through the @RunOnVirtualThread annotation. The @RunOnVirtualThreads annotation The @RunOnVirtualThread annotation tells Quarkus to do ...  The post appeared first on ."
 }
