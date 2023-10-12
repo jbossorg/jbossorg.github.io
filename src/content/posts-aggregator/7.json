@@ -1,13 +1,13 @@
 {
-  "title": "How to solve the error java.net.SocketException: Connection reset",
-  "link": "https://www.mastertheboss.com/java/how-to-solve-the-error-java-net-socketexception-connection-reset/",
+  "title": "Processing Kafka records on virtual threads",
+  "link": "https://quarkus.io/blog/virtual-threads-4/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2023-10-06T11:40:04.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "A java.net.SocketException Connection reset is one of the most common Runtime errors you can find in Java applications. As the name implies, it happens during a network connection which terminates abruptly. In this tutorial we will discuss when this issue happens, the diagnostic steps and how to solve it What is a “Connection reset” and ...  The post appeared first on ."
+  "date": "2023-10-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "In another blog post, we have seen how you can implement a CRUD application with Quarkus to utilize virtual threads. The virtual threads support in Quarkus is not limited to REST and HTTP. Many other parts support virtual threads, such as gRPC, scheduled tasks, and messaging. In this post, we..."
 }

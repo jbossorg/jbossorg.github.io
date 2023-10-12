@@ -1,13 +1,13 @@
 {
-  "title": "Observability in Quarkus 3",
-  "link": "https://quarkus.io/blog/quarkus-observability-3-3/",
+  "title": "Writing CRUD applications using virtual threads",
+  "link": "https://quarkus.io/blog/virtual-threads-2/",
   "author": [
     {
-      "name": "Bruno Baptista",
+      "name": "Clement Escoffier",
       "avatar": null
     }
   ],
-  "date": "2023-09-20T00:00:00.000Z",
+  "date": "2023-09-25T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Observability in Quarkus Observability on a software system can be described as the capability to allow a human to ask and answer questions. To enable developers and support engineers in understanding how their applications behave, Quarkus 3.3 includes many improvements to its main observability related extensions: quarkus-opentelemetry (tracing) quarkus-micrometer (metrics)..."
+  "content": "Last week, we published a video demonstrating the creation of a CRUD application using virtual threads in Quarkus. It’s as simple as adding the @RunOnVirtualThread annotation on your HTTP resource (or your controller class if you use the Spring compatibility layer). This companion post explains how it works behind the..."
 }
