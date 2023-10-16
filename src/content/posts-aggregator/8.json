@@ -1,13 +1,13 @@
 {
-  "title": "Processing Kafka records on virtual threads",
-  "link": "https://quarkus.io/blog/virtual-threads-4/",
+  "title": "Quarkus Newsletter #37 - October",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-37/",
   "author": [
     {
-      "name": "Clement Escoffier",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2023-10-09T00:00:00.000Z",
+  "date": "2023-10-10T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "In another blog post, we have seen how you can implement a CRUD application with Quarkus to utilize virtual threads. The virtual threads support in Quarkus is not limited to REST and HTTP. Many other parts support virtual threads, such as gRPC, scheduled tasks, and messaging. In this post, we..."
+  "content": "Read \"Integrate your Quarkus application with GPT4All\" by Alex Soto Bueno to explore how to integrate GPT4All into a Quarkus application so that you can query this service and return a response without any external resources. Go behind the scenes to learn how to create a CRUD application using virtual..."
 }
