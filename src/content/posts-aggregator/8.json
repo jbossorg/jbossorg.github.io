@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.6 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-6",
+  "title": "How to solve CVE-2023-44487",
+  "link": "https://www.mastertheboss.com/various-stuff/how-to-solve-cve-2023-44487/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-10-11T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.6 has just been released. It fixes a few bugs that have been reported by the community as well as provides protection for CVE-2023-44487"
+  "date": "2023-10-12T16:29:29.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The CVE-2023-44487 vulnerability can be exploited by multiplexing requests through the HTTP/2 protocol and rapidly resetting the streams. This chain of events will result in high server resource consumption and eventually cause a Denial of Service. Let’s see which packages are affected and the current resolution or mitigation of the issue. HTTP/2 RESET of Connections ...  The post appeared first on ."
 }
