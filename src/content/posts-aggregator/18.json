@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with API Management",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/apigateway/getting-started-with-api-management/",
+  "title": "Eclipse Vert.x 4.4.6 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-6",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-10-10T11:02:56.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "API Management is a broad concept that encompasses the entire lifecycle of an API. It includes functions such as API design, documentation generation, versioning, developer onboarding, analytics, monitoring, and policy enforcement. In this turorial we will discuss the key aspects on an API Management tool, taking as example 3Scale, and we will show an example ...  The post appeared first on ."
+  "date": "2023-10-11T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.6 has just been released. It fixes a few bugs that have been reported by the community as well as provides protection for CVE-2023-44487"
 }
