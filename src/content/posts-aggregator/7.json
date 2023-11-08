@@ -1,13 +1,14 @@
 {
-  "title": "How to enable access logs in WildFly / JBoss",
-  "link": "https://www.mastertheboss.com/web/jboss-web-server/how-do-you-configure-jboss-to-enable-http-logging/",
+  "title": "Developer Certificate of Origin",
+  "link": "https://www.keycloak.org/2023/10/dco",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2023-10-30T09:38:22.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In the context of Web servers, Access Logs refer to the records or files that store a detailed history of all requests made to the Web server. WildFly uses Undertow as Web Server therefore in this tutorial we will learn how to enable tracing Access Logs to monitor incoming HTTP Requests Monitoring HTTP Requests There ...  The post appeared first on ."
+  "date": "2023-10-31T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "For any Open Source project, it is important that any contributions contain code that can legally be contributed to the project, and that the project has the right to distribute it under its license. There are many ways to achieve this, where two popular approaches are Developer Certificate of Origin (DCO) and Contributor License Agreement (CLA).  is the most lightweight approach, which requires contributors to sign-off on individual commits that are part of a contribution. This is easily done by using the --signoff (-s) option when creating a commit. For example:  git commit -s -m \"Description of the commit\"  This adds a Signed-off-by statement at the end of the commit, where the contributor certifies they are following the agreement laid out in the .  Contributor License Agreement (CLA), on the other hand, is a more complicated approach. As part of CLA, any contributors are required to sign an upfront agreement with the project before making any contributions. This provides a higher barrier for contributors, and also a higher cost for the Open Source Project as it has to maintain a list of approved contributors with a corresponding maintained archive of agreements.  For Keycloak we decided to go with DCO as we believe it is much simpler both for contributors as well as maintainers.  If you are interested in learning more about CLA vs DCO, ."
 }
