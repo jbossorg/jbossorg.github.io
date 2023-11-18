@@ -1,13 +1,13 @@
 {
-  "title": "How to use Keycloak REST API",
-  "link": "https://www.mastertheboss.com/keycloak/how-to-use-keycloak-admin-rest-api/",
+  "title": "Writing JPA applications using Java Records",
+  "link": "https://www.mastertheboss.com/java-ee/jpa/writing-jpa-applications-using-java-records/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-11-08T10:44:34.000Z",
+  "date": "2023-11-17T18:42:28.000Z",
   "feed_title": "Mastertheboss",
-  "content": "The Keycloak REST API is a Web service Endpoint that allows you to manage Keycloak using a REST channel. It provides endpoints for creating, updating, and deleting Keycloak entities such as users, groups, clients, roles, and realms. You can use any programming language that supports HTTP requests to interact with the API. Pre-requisite: If you ...  The post appeared first on ."
+  "content": "In this article, we’ll explore how Java Records, available since Java 16, can be used in the context of JPA Application. We’ll uncover how Java Records, renowned for their simplicity and immutability, complement the flexibility and expressive querying abilities offered by the Criteria API. Straight question: Can you make a JPA Entity using Java Records? ...  The post appeared first on ."
 }

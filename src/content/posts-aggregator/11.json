@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 22.0.5 released",
-  "link": "https://www.keycloak.org/2023/10/keycloak-2205-released",
+  "title": "Securing WildFly Apps with OIDC on OpenShift",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-oidc-openshift/",
   "author": [
     {
-      "name": null,
+      "name": "Ashwin Mehendale",
       "avatar": null
     }
   ],
-  "date": "2023-10-24T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Calling getTopLevelGroups is slow inside    GroupLDAPStorageMapper#getLDAPGroupMappingsConverted keycloak storage  * Sort subgroups keycloak storage  * Add non-blocking liveness and readiness checks to Keycloak keycloak    dist/quarkus  * External Link check for documentation logs warning and exception: WARN    FilenoUtil: Native subprocess control requires open access keycloak docs  * Code certain topics as upstream only keycloak  * Remove recommendation to file a GitHub issue keycloak docs  * Add a disclaimer about refererences to Kubernetes keycloak  * Allow documentation to be build referencing only Linux, not Windows keycloak  * Removing the default cache metadata keycloak  * Limit Keycloak 22 Windows support to the Admin CLI to upstream keycloak  * Update Keycloak 22 Getting Started keycloak   BUGS   * Operator secrets sequencing keycloak operator  * Keycloak admin v2 theme js mapper adding issue keycloak admin/ui  * Do not store empty attributes when updating user profile keycloak    user-profile  * User attributes can't be saved when user profile is enabled keycloak admin/ui  * Update to Keycloak 22.0.3 fails: Migration failed for change set    META-INF/jpa-changelog-13.0.0.xml::default-roles::keycloak keycloak storage  * admin-fine-grained-authz + client authorization settings requires more    realm-management roles keycloak admin/ui  * Broken link https://stackapps.com/apps/oauth/register keycloak docs  * The \"invalid_grant\" error occurs again when loading the offline client    session with an early creation time. keycloak infinispan  * Can not view or update user profile attribute in user details keycloak    admin/ui  * User cannot be created via Admin UI if custom user attribute is required    keycloak admin/ui  * Return attribute group metadata from Admin and Account APIs keycloak    user-profile  * Attributes tab fields are not changing when a different group is selected    keycloak admin/ui  * Weak hashing algorithm usage in SSSD User federation keycloak    identity-brokering  * Admin Console doesn't show user when user attribute has annotation inputType    keycloak admin/ui  * Keycloak 22.0.4 crashes on file step1.html on old safari versions keycloak    authentication  * User can't be updated in admin console when user profile is used keycloak    admin/ui  * 'Show version information' is not working keycloak dist/quarkus  * The `Enabled When` setting should be set to `Always` by default keycloak    user-profile  * User profile attribute default render should be ordinary input keycloak    admin/ui  * Admin console does not allow several special characters for realm name    anymore keycloak admin/ui  * FederatedUserLink errors when user does not have view-realm role keycloak    admin/ui  * Operator operand env var does not conform to OSBS naming requirements    keycloak operator  * Missing migration step for Keycloak 22 during import keycloak storage  * Scopes still persisted when required attribute is set to `Always` keycloak    user-profile  * Operator docs link is broken keycloak operator"
+  "date": "2023-11-10T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

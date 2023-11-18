@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.2.8.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-2-8-final-released/",
+  "title": "Eclipse Vert.x 4.5.0 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-0",
   "author": [
     {
-      "name": "Alexey Loubyansky",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-11-08T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.2.8.Final, the eighth maintenance release of the 3.2 LTS release train.  This release fixes the following CVE:   * build env information disclosure via gradle plugin  It should be a safe upgrade for anyone already using a 3.2 release.  If you are not already using a 3.2 release, please refer to .   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2023-11-16T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.0 has just been released. It comes with a set of new exciting features, including virtual threads support!"
 }

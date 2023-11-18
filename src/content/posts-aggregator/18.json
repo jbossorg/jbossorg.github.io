@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 2.16.12.Final released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-2-16-12-final-released/",
+  "title": "Q4 2023 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.dev/2023/11/02/resteasy-releases/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-10-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "As mentioned in previous blog posts, we encourage all our community users to upgrade to Quarkus 3. Most of the heavy lifting can be done with but be aware that some components were updated to new major versions and that migrating might require some time and careful testing if you are using these components.  We will continue to maintain 2.16.x until the end of October so we recommend that you start your migration process very soon. Today, we released Quarkus 2.16.12.Final, the twelfth maintenance release of our 2.16 release train.  This release fixes several CVEs:   * for Netty   * for Apache Avro   * for Snappy  It should be a safe upgrade for anyone already using 2.16.  If you are not already using 2.16, please refer to .   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2023-11-02T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }

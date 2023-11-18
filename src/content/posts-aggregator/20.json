@@ -1,14 +1,13 @@
 {
-  "title": "Reactivating Discourse",
-  "link": "https://www.keycloak.org/2023/10/reactivating-discourse",
+  "title": "Redis Integration with Quarkus made simple",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/accessing-redis-from-a-quarkus-application/",
   "author": [
     {
-      "name": "Bruno Oliveira",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-10-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Back in June, we decided to sunset Discourse as one of our communication channels, as outlined in our . However, after careful consideration and understanding the impact this decision had on our community, we have chosen to revert it.  Firstly, we want to acknowledge that our first goal has always been to seek the best for our community. While we strive to make the right decisions, we recognize that we are not perfect. We apologize for any inconvenience our initial decision may have caused, and appreciate the feedback received from many of you.  We are happy to announce that and have kindly volunteered to moderate Discourse. Their commitment makes it possible for us to reactivate the forum. Without their support, especially given the multiple communication channels we manage, this would not have been possible.  In the future, we will ensure to be transparent about decisions that impact our users on Discourse. Thank you for your understanding, patience, and continued support.  The Keycloak Team"
+  "date": "2023-11-01T12:19:39.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial will guide you through accessing Redis in-memory store from a Quarkus application. We will show which are the key interfaces for storing data structures in Redis and how Quarkus Dev Services greatly simplifies setting up a Dev environment for our Redis application. Redis Overview Redis is an open-source in-memory data structure store which ...  The post appeared first on ."
 }

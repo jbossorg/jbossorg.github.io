@@ -1,13 +1,13 @@
 {
-  "title": "Q4 2023 RESTEasy Quarterly Releases",
-  "link": "https://resteasy.dev/2023/11/02/resteasy-releases/",
+  "title": "What's new in Vert.x 4.5",
+  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-5",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2023-11-02T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-11-16T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "See an overview of all new and exciting features in Vert.x 4.5, including virtual threads support and paving the road to Vert.x 5."
 }

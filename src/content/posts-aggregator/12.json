@@ -1,13 +1,13 @@
 {
-  "title": "Creating a new subsystem in WildFly made simple",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/creating-a-new-subsystem-in-wildfly-made-simple/",
+  "title": "Adding Support for Integrity Checking to an Existing Filesystem Realm",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity-elytron-tool/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Prarthona Paul",
       "avatar": null
     }
   ],
-  "date": "2023-10-23T11:15:58.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to extend WildFly by adding a new subsystem. Although this operation involves several steps, by using the Maven wildfly-subsystem archetype you will get soon up to speed. . Below, I’ve outlined all the steps in a basic tutorial to get you started. Note that this tutorial assumes you ...  The post appeared first on ."
+  "date": "2023-11-09T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
