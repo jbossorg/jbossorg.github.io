@@ -1,13 +1,13 @@
 {
-  "title": "How to use Keycloak REST API",
-  "link": "https://www.mastertheboss.com/keycloak/how-to-use-keycloak-admin-rest-api/",
+  "title": "Quarkus 3.5.1 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-5-1-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-11-08T10:44:34.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The Keycloak REST API is a Web service Endpoint that allows you to manage Keycloak using a REST channel. It provides endpoints for creating, updating, and deleting Keycloak entities such as users, groups, clients, roles, and realms. You can use any programming language that supports HTTP requests to interact with the API. Pre-requisite: If you ...  The post appeared first on ."
+  "date": "2023-11-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.5.1, our first maintenance release for the 3.5 release train.  Among other bugfixes, this release fixes the following CVE:   * Build environment information disclosure via Quarkus Gradle plugin  It should be a safe upgrade for anyone already using 3.5.   UPDATE  To update to Quarkus 3.5.1, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  To migrate from 3.4, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }

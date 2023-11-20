@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.0 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-0",
+  "title": "Byteman 4.0.22 has been released",
+  "link": "http://bytemanblog.blogspot.com/2023/11/byteman-4022-has-been-released.html",
   "author": [
     {
-      "name": "Julien Viet",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2023-11-16T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.0 has just been released. It comes with a set of new exciting features, including virtual threads support!"
+  "date": "2023-11-16T14:24:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "Byteman 4.0.22 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK22.    Byteman 4.0.22 is a maintenance release which enables Byteman to be used with JDK22 releases. It also contains  few small bug fixes and a feature enhancement. More details are provided in the and the latest ."
 }
