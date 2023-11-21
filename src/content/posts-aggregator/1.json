@@ -1,13 +1,13 @@
 {
-  "title": "Comparing Java Records with Lombok",
-  "link": "https://www.mastertheboss.com/java/comparing-java-records-with-lombok/",
+  "title": "How to customize WildFly using Env variables",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-customize-wildfly-using-env-variables/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-11-20T17:31:58.000Z",
+  "date": "2023-11-21T10:03:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Java records and Lombok are both tools that aim to reduce boilerplate code in Java, but they have different approaches and use cases. In this article we will compare them to understand which is the perfect use case of each approach. Java Records overview: For example: Lombok Library overview: For example: Please note that, in ...  The post appeared first on ."
+  "content": "In this article, we will learn how to leverage environment variables to modify and optimize WildFly configurations. We will explore first how to pass environment variables to a basic WildFly configuration. Then, in the next article we will show a common use case for this feature which is Cloud provisioning of WildFly. Passing environment variables ...  The post appeared first on ."
 }

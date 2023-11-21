@@ -1,13 +1,13 @@
 {
-  "title": "Adding Support for Integrity Checking to an Existing Filesystem Realm",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-integrity-elytron-tool/",
+  "title": "Securing WildFly Apps with OIDC on OpenShift",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-oidc-openshift/",
   "author": [
     {
-      "name": "Prarthona Paul",
+      "name": "Ashwin Mehendale",
       "avatar": null
     }
   ],
-  "date": "2023-11-09T00:00:00.000Z",
+  "date": "2023-11-10T00:00:00.000Z",
   "feed_title": "WildFly",
   "content": ""
 }
