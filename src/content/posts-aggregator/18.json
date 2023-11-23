@@ -1,13 +1,13 @@
 {
-  "title": "Securing WildFly Apps with OIDC on OpenShift",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-oidc-openshift/",
+  "title": "What is API Management? A Comprehensive Guide",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/apigateway/what-is-api-management-a-comprehensive-guide/",
   "author": [
     {
-      "name": "Ashwin Mehendale",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-11-10T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-11-12T18:52:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will learn the fundamental concepts and functionalities of API Management. Then, we will shed light on the distinctions between API Management, API Gateway, Load Balancing, and Reverse Proxy — essential components in modern network architectures.. API Management in a nutshell API Management refers to the process of designing, deploying, monitoring, and ...  The post appeared first on ."
 }
