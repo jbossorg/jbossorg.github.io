@@ -1,13 +1,13 @@
 {
-  "title": "Writing JPA applications using Java Records",
-  "link": "https://www.mastertheboss.com/java-ee/jpa/writing-jpa-applications-using-java-records/",
+  "title": "Quarkus 3.2.9.Final released - Maintenance LTS release",
+  "link": "https://quarkus.io/blog/quarkus-3-2-9-final-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Alexey Loubyansky",
       "avatar": null
     }
   ],
-  "date": "2023-11-17T18:42:28.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article, we’ll explore how Java Records, available since Java 16, can be used in the context of JPA Application. We’ll uncover how Java Records, renowned for their simplicity and immutability, complement the flexibility and expressive querying abilities offered by the Criteria API. Straight question: Can you make a JPA Entity using Java Records? ...  The post appeared first on ."
+  "date": "2023-11-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus 3.2.9.Final, the ninth maintenance release of the 3.2 LTS release train has been released.  This release fixes the following regressions reported by the community:   *    *   And the following critical bug fixes:   *    *   It should be a safe upgrade for anyone already using a 3.2 release.  If you are not already using a 3.2 release, please refer to .   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
