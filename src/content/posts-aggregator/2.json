@@ -1,13 +1,13 @@
 {
-  "title": "Fastest way to sort an Array in Java",
-  "link": "https://www.mastertheboss.com/java/fastest-way-to-sort-an-array-in-java/",
+  "title": "Kafka Streams Tutorial",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/kafka-streams-tutorial/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-11-25T09:57:42.000Z",
+  "date": "2023-11-28T16:42:33.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Sorting arrays efficiently is crucial for optimizing performance in Java applications. With numerous sorting algorithms and built-in methods available, it’s essential to identify the most efficient approach for different scenarios. Let’s delve into a comparative analysis of various sorting methods to determine the fastest way to sort a Java array. Introduction Sorting large arrays efficiently ...  The post appeared first on ."
+  "content": "Kafka Streams is a powerful and lightweight library provided by Apache Kafka for building real-time streaming applications and microservices. In this tutorial we will show a simple Kafka Streams example with Quarkus which shows how to perform stream processing tasks directly within the Kafka ecosystem, leveraging the familiar Kafka infrastructure to process and transform data ...  The post appeared first on ."
 }
