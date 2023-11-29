@@ -1,13 +1,13 @@
 {
-  "title": "Identity Propagation with OpenID Connect",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/wildfly-oidc-identity-propagation/",
+  "title": "What's new in Vert.x 4.5",
+  "link": "https://vertx.io/blog/whats-new-in-vert-x-4-5",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "Julien Viet",
+      "avatar": null
     }
   ],
-  "date": "2023-11-15T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-11-16T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "See an overview of all new and exciting features in Vert.x 4.5, including virtual threads support and paving the road to Vert.x 5."
 }
