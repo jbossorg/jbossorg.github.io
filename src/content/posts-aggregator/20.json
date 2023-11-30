@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.0 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-0",
+  "title": "Change the default encoding of the audit log file in WildFly",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/specify-file-audit-log-encoding/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Ilia Vassilev",
       "avatar": null
     }
   ],
   "date": "2023-11-16T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.0 has just been released. It comes with a set of new exciting features, including virtual threads support!"
+  "feed_title": "WildFly",
+  "content": ""
 }
