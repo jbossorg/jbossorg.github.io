@@ -1,13 +1,13 @@
 {
-  "title": "Comparing Java Records with Lombok",
-  "link": "https://www.mastertheboss.com/java/comparing-java-records-with-lombok/",
+  "title": "Quarkus 3.5.3 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-5-3-released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-11-20T17:31:58.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Java records and Lombok are both tools that aim to reduce boilerplate code in Java, but they have different approaches and use cases. In this article we will compare them to understand which is the perfect use case of each approach. Java Records overview: For example: Lombok Library overview: For example: Please note that, in ...  The post appeared first on ."
+  "date": "2023-11-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.5.3, our third maintenance release for the 3.5 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.5.   UPDATE  To update to Quarkus 3.5.3, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  To migrate from 3.4, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
