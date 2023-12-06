@@ -1,13 +1,13 @@
 {
-  "title": "Default parameters for Java methods: 5 Approaches",
-  "link": "https://www.mastertheboss.com/java/5-ways-to-emulate-default-parameter-values-in-java/",
+  "title": "Hibernate @SoftDelete Step-by-Step Guide",
+  "link": "https://www.mastertheboss.com/hibernate-jpa/quickstart-tutorials-hibernate-jpa/hibernate-softdelete-step-by-step-guide/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-11-29T14:52:37.000Z",
+  "date": "2023-11-29T16:06:30.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Java lacks direct support for default parameter values as seen in some other programming languages. However, there are several techniques and patterns you can utilize to achieve similar functionality. In this tutorial, we’ll explore five different approaches to emulate default parameter values in Java. 1. Method Overloading Method overloading involves creating multiple versions of a ...  The post appeared first on ."
+  "content": "@SoftDelete annotation, introduced in Hibernate version 6.4, provides first-class support for soft deletes, allowing to logically mark rows rows as deleted without actually removing them from the Database. In this tutorial we will see a proof of concept example of @SoftDelete and its common configuration attributes. What is a Soft Delete? A Soft Delete marks ...  The post appeared first on ."
 }
