@@ -1,13 +1,13 @@
 {
-  "title": "Kafka Streams Tutorial",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/kafka-streams-tutorial/",
+  "title": "Using distributed realm ignore-unavailable-realms attribute in Elytron",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Lukas Vydra",
       "avatar": null
     }
   ],
-  "date": "2023-11-28T16:42:33.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Kafka Streams is a powerful and lightweight library provided by Apache Kafka for building real-time streaming applications and microservices. In this tutorial we will show a simple Kafka Streams example with Quarkus which shows how to perform stream processing tasks directly within the Kafka ecosystem, leveraging the familiar Kafka infrastructure to process and transform data ...  The post appeared first on ."
+  "date": "2023-11-29T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
