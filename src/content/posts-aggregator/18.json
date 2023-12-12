@@ -1,13 +1,14 @@
 {
-  "title": "Using distributed realm ignore-unavailable-realms attribute in Elytron",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm-ignore-unavailable-realms/",
+  "title": "Keycloak 23.0.1 released",
+  "link": "https://www.keycloak.org/2023/11/keycloak-2301-released",
   "author": [
     {
-      "name": "Lukas Vydra",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2023-11-29T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Users page with LDAP User Storage Provider Cannot read properties of    undefined admin/ui  * Attempt to request storage access in Firefox oidc  * „Unlink users“-Option greyed out in ldap federation admin/ui  * Error handling in admin console when update of user fails due the 400 HTTP    error code admin/ui  * Keycloak not able to handle multiple validating X509 certificates when public    key are the same saml  * Operator is missing CRDs metadata in CSV operator  * Group search when creating user admin/ui  * NPE in checkAndBindMtlsHoKToken on Token Refresh when using    SuppressRefreshTokenRotationExecutor and Certificate Bound Token oidc"
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Testing JPA with TestContainers",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-to-test-jpa-applications/",
+  "title": "WildFly 30.0.1 is released!",
+  "link": "https://wildfly.org//news/2023/12/05/WildFly3001-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Kabir Khan",
       "avatar": null
     }
   ],
-  "date": "2023-12-01T09:48:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Testcontainers is an open-source Java library that simplifies integration testing by providing lightweight, disposable containers for database systems, message brokers, and other third-party services. In this article we will learn how to combine Testcontainer with a JPA/Hibernate Test case. TestContainer and Databases Firstly, if you are new to TestContainers, we recommend checking this article for ...  The post appeared first on ."
+  "date": "2023-12-05T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 30.0.1.Final is now available .  It’s been about five weeks since the WildFly 30 release, so we’ve done a small bug fix update, WildFly 30.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 30.0.1:  BUGS   * [] - WildFly vs WildFly Preview document needs update   * [] - [CLUSTERING] File containing session data is never shrunk or deleted   * [] - Simplest JAXRS app is failing when deployed in server provisioned with    jaxrs   * [] - In WildFly Preview jaxrs-server layer does not provision MP Rest Client   * [] - ATTRIBUTE granularity distributed sessions should always replicate on    setAttribute(… )   * [] - On cache writes, Infinispan store=hotrod throws ISE: Only byte[]    instances are supported currently  TASKS   * [] - Reevalute test exclusions in the integration/microprofile module  COMPONENT UPGRADES   * [] - Upgrade Infinispan to 14.0.20.Final   * [] - Upgrade jaxbintros from 2.0.0 to 2.0.1   * [] - [WildFly 30.x] Upgrade HAL to 3.6.16.Final   * [] - Upgrade santuario to 3.0.3 (addresses CVE-2023-44483)   * [] - Upgrade Artemis to 2.31.2 (resolves CVE-2023-46604)   * [] - Upgrade RESTEasy to 6.2.6.Final   * [] - Upgrade WildFly Http Client to 2.0.6.Final  Issues resolved in the WildFly Core update included with WildFly 30.0.1 were:  COMPONENT UPGRADES   * [] - [CVE-2023-3171] WildFly heap exhaustion via deserialization   * [] - NPE in ThreadFactoryService  Enjoy!"
 }

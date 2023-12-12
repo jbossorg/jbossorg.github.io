@@ -1,13 +1,13 @@
 {
-  "title": "Monitoring WildFly with Prometheus and Grafana",
-  "link": "https://www.mastertheboss.com/jbossas/monitoring/using-prometheus-and-grafana-to-capture-alerts-and-visualize-metrics/",
+  "title": "Securing WildFly Apps with Auth0 on OpenShift",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-auth0-openshift/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2023-12-09T19:20:09.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This is the third tutorial about how to use Prometheus server to capture metrics from a Microprofile compatible server like WildFly or Quarkus. In the first two tutorials, we have discussed how to set up Prometheus to connect to WildFly (Monitoring WildFly with Prometheus) and Quarkus ( Monitoring Quarkus with Prometheus) to capture Microprofile metrics. We ...  The post appeared first on ."
+  "date": "2023-12-12T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

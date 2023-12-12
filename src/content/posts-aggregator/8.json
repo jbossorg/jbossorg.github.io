@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Helm Charts with custom configuration",
-  "link": "https://www.mastertheboss.com/soa-cloud/openshift/wildfly-helm-charts-with-custom-configuration/",
+  "title": "Java EnumSet and EnumMap made simple",
+  "link": "https://www.mastertheboss.com/java/java-enumset-and-enummap-made-simple/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-05T12:32:54.000Z",
+  "date": "2023-12-06T12:08:26.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article provides a step-by-step guide to deploy WildFly in a Kubernetes environment using Helm Charts and custom application server settings. By the end of it, you will be able to customize effectively your WildFly applications on the cloud using just plan environment variables. Getting Started with Helm Charts and WildFly Helm charts provide a ...  The post appeared first on ."
+  "content": "The EnumMap and EnumSet are specialized implementations in Java that are optimized for working with Enum keys and Enum values, respectively. In this article we will learn how to use them and which are the common use cases. Finally, we will also highlight the differences with the standard Map and Set objects. Overview to Java ...  The post appeared first on ."
 }

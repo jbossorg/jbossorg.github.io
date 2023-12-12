@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 30.0.1 is released!",
-  "link": "https://wildfly.org//news/2023/12/05/WildFly3001-Released/",
+  "title": "Quarkus 3.6.1 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-6-1-released/",
   "author": [
     {
-      "name": "Kabir Khan",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2023-12-05T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 30.0.1.Final is now available .  It’s been about five weeks since the WildFly 30 release, so we’ve done a small bug fix update, WildFly 30.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 30.0.1:  BUGS   * [] - WildFly vs WildFly Preview document needs update   * [] - [CLUSTERING] File containing session data is never shrunk or deleted   * [] - Simplest JAXRS app is failing when deployed in server provisioned with    jaxrs   * [] - In WildFly Preview jaxrs-server layer does not provision MP Rest Client   * [] - ATTRIBUTE granularity distributed sessions should always replicate on    setAttribute(… )   * [] - On cache writes, Infinispan store=hotrod throws ISE: Only byte[]    instances are supported currently  TASKS   * [] - Reevalute test exclusions in the integration/microprofile module  COMPONENT UPGRADES   * [] - Upgrade Infinispan to 14.0.20.Final   * [] - Upgrade jaxbintros from 2.0.0 to 2.0.1   * [] - [WildFly 30.x] Upgrade HAL to 3.6.16.Final   * [] - Upgrade santuario to 3.0.3 (addresses CVE-2023-44483)   * [] - Upgrade Artemis to 2.31.2 (resolves CVE-2023-46604)   * [] - Upgrade RESTEasy to 6.2.6.Final   * [] - Upgrade WildFly Http Client to 2.0.6.Final  Issues resolved in the WildFly Core update included with WildFly 30.0.1 were:  COMPONENT UPGRADES   * [] - [CVE-2023-3171] WildFly heap exhaustion via deserialization   * [] - NPE in ThreadFactoryService  Enjoy!"
+  "date": "2023-12-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.6.1, our first maintenance release for the 3.6 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.6.   UPDATE  To update to Quarkus 3.6.1, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  To migrate from 3.5, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }

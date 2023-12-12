@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy Overview and Roadmap",
-  "link": "https://resteasy.dev/2023/12/06/overview-and-roadmap/",
+  "title": "How to monitor WildFly with Prometheus",
+  "link": "https://www.mastertheboss.com/jbossas/monitoring/monitoring-wildfly-with-prometheus/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-06T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2023-12-09T18:10:51.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Prometheus is an open-source monitoring system that collects metrics from servers, services, and applications. It is known for its lightweight design, scalability, and ease of use. WildFly is a popular Java EE application server that can be monitored using Prometheus. Prometheus Main Features Prometheus has several key features that make it a powerful monitoring tool: ...  The post appeared first on ."
 }
