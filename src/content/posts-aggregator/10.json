@@ -1,13 +1,13 @@
 {
-  "title": "Java EnumSet and EnumMap made simple",
-  "link": "https://www.mastertheboss.com/java/java-enumset-and-enummap-made-simple/",
+  "title": "RESTEasy Overview and Roadmap",
+  "link": "https://resteasy.dev/2023/12/06/overview-and-roadmap/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2023-12-06T12:08:26.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The EnumMap and EnumSet are specialized implementations in Java that are optimized for working with Enum keys and Enum values, respectively. In this article we will learn how to use them and which are the common use cases. Finally, we will also highlight the differences with the standard Map and Set objects. Overview to Java ...  The post appeared first on ."
+  "date": "2023-12-06T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
