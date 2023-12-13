@@ -1,13 +1,13 @@
 {
-  "title": "Securing WildFly Apps with Auth0 on OpenShift",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-auth0-openshift/",
+  "title": "WildFly Bootable JAR Datasource configuration",
+  "link": "https://www.mastertheboss.com/uncategorised/wildfly-bootable-jar-datasource-configuration/",
   "author": [
     {
-      "name": "Farah Juma",
-      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2023-12-12T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2023-12-12T16:02:59.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly Bootable JAR is an efficient packaging format offered by the WildFly application server, enabling the creation of self-contained, executable JAR files for deploying Java EE applications. In this article we will learn how to configure a Datasource connection so that you can use Jakarta Persistence API with it. Bootable JAR Overview Firstly, if you ...  The post appeared first on ."
 }
