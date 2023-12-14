@@ -1,13 +1,13 @@
 {
-  "title": "How to monitor WildFly with Prometheus",
-  "link": "https://www.mastertheboss.com/jbossas/monitoring/monitoring-wildfly-with-prometheus/",
+  "title": "Monitoring WildFly with Prometheus and Grafana",
+  "link": "https://www.mastertheboss.com/jbossas/monitoring/using-prometheus-and-grafana-to-capture-alerts-and-visualize-metrics/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-09T18:10:51.000Z",
+  "date": "2023-12-09T19:20:09.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Prometheus is an open-source monitoring system that collects metrics from servers, services, and applications. It is known for its lightweight design, scalability, and ease of use. WildFly is a popular Java EE application server that can be monitored using Prometheus. Prometheus Main Features Prometheus has several key features that make it a powerful monitoring tool: ...  The post appeared first on ."
+  "content": "This is the third tutorial about how to use Prometheus server to capture metrics from a Microprofile compatible server like WildFly or Quarkus. In the first two tutorials, we have discussed how to set up Prometheus to connect to WildFly (Monitoring WildFly with Prometheus) and Quarkus ( Monitoring Quarkus with Prometheus) to capture Microprofile metrics. We ...  The post appeared first on ."
 }
