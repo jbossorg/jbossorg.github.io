@@ -9,5 +9,5 @@
   ],
   "date": "2023-12-18T09:55:46.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to create a Vaadin Flow project that we can run on any Jakarta EE Container such as WildFly or TomEE. We will start from a starter template and we will adapt it to create a sample Customer Form that binds its fields into the Database. Bootstraping the Vaadin ...  The post appeared first on ."
+  "content": "In this tutorial we will learn how to create a Vaadin Flow project that we can run on any Jakarta EE Container such as WildFly or TomEE. We will start from a starter template and we will adapt it to create a sample Customer Form that binds its fields into the Database. Setting up the ...  The post appeared first on ."
 }
