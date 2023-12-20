@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #39 - December",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-39/",
+  "title": "WildFly Bootable JAR Datasource configuration",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/wildfly-bootable-jar-datasource-configuration/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Large language models (LLMs) are reshaping the world of software, altering the way we interact with users and develop business logic. See how to use the just released quarkus-langchain4j 0.1 extension to integrate LLMs in Quarkus applications. Additionally, learn how Quarkus integrates the virtual thread for Java developers to run blocking applications with a single @RunOnVirtualThread annotation in \"Quarkus 3: The Future of Java Microservices With Virtual Threads and Beyond\" by Daniel Oh. He also wrote another great article, \"Demystifying Virtual Thread Performance: Unveiling the Truth Beyond the Buzz\" where you can learn how virtual threads can provide high enough performance and resource efficiency based on your concurrency goal but also let you have a simple development model. Read \"Revolutionize Data Management: Unleashing the Potential of Quarkus and HarperDB for Maximum Efficiency\" by the Java Code Geeks to explore the seamless integration of Quarkus with HarperDB, a powerful and high-performance database solution. Build a MongoDB-powered RESTful app with Quarkus and Eclipse JNoSQL: generate, configure, create entities, implement services, and expose API by reading \"Building a MongoDB-Powered RESTful Application With Quarkus and Eclipse JNoSQL\" by Otavio Santana.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2023-12-12T16:02:59.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly Bootable JAR is an efficient packaging format offered by the WildFly application server, enabling the creation of self-contained, executable JAR files for deploying Java EE applications. In this article we will learn how to configure a Datasource connection so that you can use Jakarta Persistence API with it. Bootable JAR Overview Firstly, if you ...  The post appeared first on ."
 }

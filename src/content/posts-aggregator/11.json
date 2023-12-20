@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.2 released",
-  "link": "https://www.keycloak.org/2023/12/keycloak-2302-released",
+  "title": "Infinispan 15.0.0.Dev06",
+  "link": "https://infinispan.org/blog/2023/12/13/infinispan-15dev06",
   "author": [
     {
-      "name": null,
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
   "date": "2023-12-14T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Enable concurrent remote operations for Infinispan storage   BUGS   * Mapper Option \"Add to access token\" Toggled Off Despite Claim Added to Token    admin/ui  * GH Actions -> Keycloak CI -> MSSQL docker images fails during startup ci  * CIBA and PAR are broken since 23.0.0 (NPE) when using http protocol oidc  * Warning \"Event object wasn't available in remote cache\" when using remote    store  * Failed to find theme resources, using built-in themes when accessing account    console account/ui"
+  "feed_title": "Infinispan",
+  "content": "REDIS ENDPOINT  The Redis endpoint now implements most of the core Redis commands and data structures (strings, sets, lists, hashes and sorted sets), as well as implementing clustering and CRC16 slots.   KNN VECTOR SEARCH  Infinispan can now perform indexed kNN vector searches. See our recent for more information.   INFINISPAN WEB CONSOLE  The console has gained an access management section that lets you create, update, and delete roles, as well as assign access to principal mappers.   GRAALVM FEATURE  A GraalVM native-image is now available via the dedicated modules infinispan-hotrod-graalvm and infinispan-embedded-graalvm.   HIBERNATE ORM 6.3 2LC  Our second-level cache provider now supports Hibernate ORM 6.3.   JCACHE IS BACK!  While working on the Jakarta migration, we temporarily removed the JCache provider because of its optional dependency on CDI conflicting with the migration to Jakarta EE. As of 15.0.0.Dev06, the JCache component is back, albeit without the CDI integration.   WHEN IS THE FINAL RELEASE COMING?  We hope to have the final release of Infinispan 15 ready for consumption by the end of the year and we will be making regular development releases.  Get them from our .]"
 }
