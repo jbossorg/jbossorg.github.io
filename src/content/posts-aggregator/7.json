@@ -1,13 +1,13 @@
 {
-  "title": "How to create a List from Java Objects or Records",
-  "link": "https://www.mastertheboss.com/java/how-to-create-a-list-from-java-objects-or-records/",
+  "title": "Vlog: Securing WildFly Apps with Auth0 on OpenShift",
+  "link": "https://www.youtube.com/watch?v=uoQoCPGyAik",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2023-12-19T14:00:53.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In Java, working with collections like lists is fundamental. Often, you’ll need to convert objects or records into lists for various purposes. In this tutorial, we’ll explore different approaches to create a List from a property of an Array of Java objects or Records using practical examples. From an Array of Java Objects to a ...  The post appeared first on ."
+  "date": "2023-12-20T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
