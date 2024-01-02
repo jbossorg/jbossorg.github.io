@@ -1,13 +1,13 @@
 {
-  "title": "JMeter DSL: How to Load Test from your code",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/jmeter-dsl-how-to-run-tests-from-your-code/",
+  "title": "Working with JSON Arrays using Jakarta JSON API",
+  "link": "https://www.mastertheboss.com/java-ee/json/working-with-json-arrays-using-jakarta-json-api/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-27T08:03:27.000Z",
+  "date": "2023-12-28T09:19:12.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Performance testing is crucial in ensuring the reliability and scalability of software systems. However, traditional approaches to performance testing often treat it as a separate phase, leading to delayed feedback and issues surfacing late in development. Continuous Performance Testing aims to address this by integrating performance tests into the development pipeline, providing early insights into ...  The post appeared first on ."
+  "content": "JSON arrays are a fundamental data structure in JSON, used to store collections of values or objects. Java provides the JsonArray and JsonArrayBuilder classes from the Jakarta JSON API to efficiently create, manipulate, and parse JSON arrays. It also provides methods to parse a JSON Array into a Java Collection. In this tutorial we will ...  The post appeared first on ."
 }
