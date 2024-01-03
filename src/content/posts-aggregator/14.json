@@ -1,13 +1,13 @@
 {
-  "title": "Vaadin Grid: Basic and Advanced example",
-  "link": "https://www.mastertheboss.com/web/vaadin/vaadin-grid-basic-and-advanced-example/",
+  "title": "Exploring OpenJDK 17 Images: A Comprehensive guide",
+  "link": "https://www.mastertheboss.com/java/exploring-openjdk-17-images-a-comprehensive-guide/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-15T18:11:55.000Z",
+  "date": "2023-12-16T14:09:42.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we’ll explore the versatility of Vaadin‘s Grid component. We will dive into two essential aspects: the creation of a basic grid and the implementation of an editable Grid. You’ll learn how to set up and populate Grids, handle user interactions, providing a seamless and interactive data visualization experience within your Vaadin-based web ...  The post appeared first on ."
+  "content": "Java 17 is soon becoming the minimal JDK version for top frameworks such Spring Boot. Selecting the right OpenJDK 17 image for your projects is crucial. This tutorial aims to introduce and test various OpenJDK 17 images available, providing insights into their features and performance. Introduction OpenJDK offers multiple distributions and variants, each catering to ...  The post appeared first on ."
 }
