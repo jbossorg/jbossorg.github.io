@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.3 released",
-  "link": "https://www.keycloak.org/2023/12/keycloak-2303-released",
+  "title": "Vaadin Grid: Basic and Advanced example",
+  "link": "https://www.mastertheboss.com/web/vaadin/vaadin-grid-basic-and-advanced-example/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-15T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Enable concurrent remote operations for Infinispan storage   BUGS   * Mapper Option \"Add to access token\" Toggled Off Despite Claim Added to Token    admin/ui  * GH Actions -> Keycloak CI -> MSSQL docker images fails during startup ci  * CIBA and PAR are broken since 23.0.0 (NPE) when using http protocol oidc  * Warning \"Event object wasn't available in remote cache\" when using remote    store  * Failed to find theme resources, using built-in themes when accessing account    console account/ui"
+  "date": "2023-12-15T18:11:55.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we’ll explore the versatility of Vaadin‘s Grid component. We will dive into two essential aspects: the creation of a basic grid and the implementation of an editable Grid. You’ll learn how to set up and populate Grids, handle user interactions, providing a seamless and interactive data visualization experience within your Vaadin-based web ...  The post appeared first on ."
 }
