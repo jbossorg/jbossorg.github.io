@@ -1,13 +1,13 @@
 {
-  "title": "Mastering Jakarta JSON API from Java Applications",
-  "link": "https://www.mastertheboss.com/java-ee/json/how-to-use-jakarta-json-api-from-java-applications/",
+  "title": "Thanks for a great 2023!",
+  "link": "https://wildfly.org//news/2023/12/22/Year-end-message/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Brian Stansberry",
       "avatar": null
     }
   ],
-  "date": "2023-12-21T14:16:08.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will teach you how to use the Jakarta JSON Processing API from standalone Java applications. At the end of it, you will be able to create simple scripts in Java to manipulate, serialize and deserialize JSON content at scale. Overview of Jakarta JSON Processing Jakarta JSON Processing offers portable tools for parsing, generating, ...  The post appeared first on ."
+  "date": "2023-12-22T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "We are almost at the end of 2023 and we wanted to take this opportunity to thank all our community members for their help on WildFly this year.  2023 was a busy year for WildFly, with:   * 3 Major versions — 28, 29, 30.         * And 31 Beta just came out yesterday.   * New extensions for MicroProfile Telemetry and MicroProfile LRA.   * Implementations of most of MicroProfile 6.0, with updates to 6.1 coming in    WildFly 31.   * Java 21 support.   * More than 2000 issues and enhancements resolved in our main code         * and this does not count all the work done in the components integrated in       WildFly.   * A change of the WildFly code base to Apache License 2.0.   * A lot of work around on improving documentation and tooling related how to    get start with and use WildFly. More on that when WildFly 31 comes out in    January!  We will start 2024 with the WildFly 31 release and with a great online mini-conference — a day dedicated to presentations and discussions about WildFly with our community. We will announce the conference date later, but it will likely be in February.  Thanks all for of your for your work and help in making WildFly a successful Open Source project. We are looking forward to continuing working with you next year!  Best wishes from the WildFly team and Happy New Year!   * Brian"
 }
