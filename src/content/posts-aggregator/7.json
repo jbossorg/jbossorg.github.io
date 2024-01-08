@@ -1,13 +1,13 @@
 {
-  "title": "Java Multi-line and String Templates in Action",
-  "link": "https://www.mastertheboss.com/java-ee/json/java-multi-line-and-string-templates-in-action/",
+  "title": "How to run JUnit 5 Tests with JBang",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/how-to-run-junit-5-tests-with-jbang/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-02T09:39:07.000Z",
+  "date": "2024-01-03T14:43:33.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this article we will learn how to use the Java Multi-line feature and and we can combine it with String Templates to create complex Object structures such as JSON payloads or even JSON Objects! What is Java Multiline? The Java multiline feature, introduced in JDK 13, aims to enhance the readability and usability of ...  The post appeared first on ."
+  "content": "This article covers the integration between JUnit 5, the well-known framework for Java testing, with JBang scripting tool. By the end of it, you will learn how to add a robust testing layer to your Java scripts written with JBang. Why using JBang to Test ? Traditional set-ups often involve configuring complex build systems or ...  The post appeared first on ."
 }
