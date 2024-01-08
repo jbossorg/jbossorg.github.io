@@ -1,13 +1,13 @@
 {
-  "title": "Working with JSON Arrays using Jakarta JSON API",
-  "link": "https://www.mastertheboss.com/java-ee/json/working-with-json-arrays-using-jakarta-json-api/",
+  "title": "Java Multi-line and String Templates in Action",
+  "link": "https://www.mastertheboss.com/java-ee/json/java-multi-line-and-string-templates-in-action/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-28T09:19:12.000Z",
+  "date": "2024-01-02T09:39:07.000Z",
   "feed_title": "Mastertheboss",
-  "content": "JSON arrays are a fundamental data structure in JSON, used to store collections of values or objects. Java provides the JsonArray and JsonArrayBuilder classes from the Jakarta JSON API to efficiently create, manipulate, and parse JSON arrays. It also provides methods to parse a JSON Array into a Java Collection. In this tutorial we will ...  The post appeared first on ."
+  "content": "In this article we will learn how to use the Java Multi-line feature and and we can combine it with String Templates to create complex Object structures such as JSON payloads or even JSON Objects! What is Java Multiline? The Java multiline feature, introduced in JDK 13, aims to enhance the readability and usability of ...  The post appeared first on ."
 }
