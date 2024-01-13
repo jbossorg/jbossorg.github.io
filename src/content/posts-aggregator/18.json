@@ -1,13 +1,13 @@
 {
-  "title": "Release Plans for Quarkus 3.7, 3.8 and 3.9",
-  "link": "https://quarkus.io/blog/our-plans-for-quarkus-3-7-3-8-3-9-released/",
+  "title": "Vlog: Securing WildFly Apps with Auth0 on OpenShift",
+  "link": "https://www.youtube.com/watch?v=uoQoCPGyAik",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Farah Juma",
+      "avatar": "https://www.gravatar.com/avatar/e07a676199f6ad0af96a61a691b114b3?s=50"
     }
   ],
-  "date": "2023-12-19T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus 3.2 was the first LTS (Long Term Support) release of Quarkus, and we learned a lot from it.  Choosing which version will be an LTS version is crucial, as people expect predictability and stability from the LTS versions.  Thus why we came up with a plan for our next minor releases, including the next LTS version.  tl;dr  Quarkus 3.8 will be our next LTS release. It will be the direct continuation of the 3.7 branch.  If you contribute to Quarkus or the Quarkus Platform and need a feature in the next Quarkus LTS, make sure it has been merged in the before January 16th included (the day before the 3.7.0.CR1 release).   QUARKUS 3.7  Quarkus 3.7 will be released on January 31st. It will contain new features, as usual for our minor releases.  As previously announced, the minimum Java version for Quarkus 3.7 will be Java 17.  The CR1 is planned for January 17th so all the new features need to be merged by then.  See our for all the details.  There will be a slight change though: from January 17th and the build of 3.7.0.CR1, our main branch will target 3.9 development (yes, you read it correctly, it will target 3.9).   QUARKUS 3.8  You might ask \"where has Quarkus 3.8 gone?\". Thanks for asking!  Quarkus 3.8 will be our next LTS version. It will be released at the end of February (our current plan is to release it on February 28th, but things might be refined as we approach the release date).  This release will be the continuation of the 3.7 cycle and will be started from the 3.7 branch. The focus will be on hardening 3.7 and fixing bugs. It won’t contain any new features. It might contain some additional component upgrades to fix CVEs or important bugs.  Consequently, and this is important: if you contribute to Quarkus or the Quarkus Platform and need a feature in the next Quarkus LTS, make sure it has been merged in the before January 16th included (the day before the 3.7.0.CR1 release).   QUARKUS 3.9  Quarkus 3.9 will be released at the end of March.  It will be packed with new features as it will contain 2 months of work, whereas our usual minors contain 1 month of work.   QUESTIONS?  If you have any questions about this plan, feel free to ask in the comments of this blog post or on .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2023-12-20T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
