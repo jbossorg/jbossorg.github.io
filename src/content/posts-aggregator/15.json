@@ -1,13 +1,13 @@
 {
-  "title": "Thanks for a great 2023!",
-  "link": "https://wildfly.org//news/2023/12/22/Year-end-message/",
+  "title": "How to run JUnit 5 Tests with JBang",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/how-to-run-junit-5-tests-with-jbang/",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2023-12-22T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "We are almost at the end of 2023 and we wanted to take this opportunity to thank all our community members for their help on WildFly this year.  2023 was a busy year for WildFly, with:   * 3 Major versions — 28, 29, 30.         * And 31 Beta just came out yesterday.   * New extensions for MicroProfile Telemetry and MicroProfile LRA.   * Implementations of most of MicroProfile 6.0, with updates to 6.1 coming in    WildFly 31.   * Java 21 support.   * More than 2000 issues and enhancements resolved in our main code         * and this does not count all the work done in the components integrated in       WildFly.   * A change of the WildFly code base to Apache License 2.0.   * A lot of work around on improving documentation and tooling related how to    get start with and use WildFly. More on that when WildFly 31 comes out in    January!  We will start 2024 with the WildFly 31 release and with a great online mini-conference — a day dedicated to presentations and discussions about WildFly with our community. We will announce the conference date later, but it will likely be in February.  Thanks all for of your for your work and help in making WildFly a successful Open Source project. We are looking forward to continuing working with you next year!  Best wishes from the WildFly team and Happy New Year!   * Brian"
+  "date": "2024-01-03T14:43:33.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article covers the integration between JUnit 5, the well-known framework for Java testing, with JBang scripting tool. By the end of it, you will learn how to add a robust testing layer to your Java scripts written with JBang. Why using JBang to Test ? Traditional set-ups often involve configuring complex build systems or ...  The post appeared first on ."
 }

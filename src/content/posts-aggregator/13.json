@@ -1,13 +1,13 @@
 {
-  "title": "How to run JUnit 5 Tests with JBang",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/how-to-run-junit-5-tests-with-jbang/",
+  "title": "Visual Studio for Java CheatSheet",
+  "link": "https://www.mastertheboss.com/visualstudio/visual-studio-for-java-cheatsheet/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-03T14:43:33.000Z",
+  "date": "2024-01-04T14:43:24.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article covers the integration between JUnit 5, the well-known framework for Java testing, with JBang scripting tool. By the end of it, you will learn how to add a robust testing layer to your Java scripts written with JBang. Why using JBang to Test ? Traditional set-ups often involve configuring complex build systems or ...  The post appeared first on ."
+  "content": "Welcome, Java developers, to my Visual Studio CheatSheet for Java developers which contains the basic commands you will need to get started and develop Java applications using Visual Studio Community edition- Visual Studio Overview In recent times, Visual Studio has increased in popularity among Java developers, owing largely to its ever-growing ecosystem of extensions that ...  The post appeared first on ."
 }

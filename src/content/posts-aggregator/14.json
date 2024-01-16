@@ -1,13 +1,13 @@
 {
-  "title": "Java Multi-line and String Templates in Action",
-  "link": "https://www.mastertheboss.com/java-ee/json/java-multi-line-and-string-templates-in-action/",
+  "title": "Corsi di formazioni JBoss e Java Middleware (2024)",
+  "link": "https://www.mastertheboss.com/jboss-courses/jbossas7training/corsi-jboss/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-02T09:39:07.000Z",
+  "date": "2024-01-04T10:17:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this article we will learn how to use the Java Multi-line feature and and we can combine it with String Templates to create complex Object structures such as JSON payloads or even JSON Objects! What is Java Multiline? The Java multiline feature, introduced in JDK 13, aims to enhance the readability and usability of ...  The post appeared first on ."
+  "content": "Esplora a fondo le tecnologie di base dei Middleware – l’application server JBoss/WildFly le API Jakarta EE e il moderno framework Quarkus – con i nostri programmi di formazione completi. Sia che tu stia valutando un corso in loco o un apprendimento remoto, i nostri corsi offrono esperienze personalizzate per approfondire la tua comprensione e ...  The post appeared first on ."
 }
