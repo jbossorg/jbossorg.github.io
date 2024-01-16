@@ -1,13 +1,13 @@
 {
-  "title": "How to run JUnit 5 Tests with JBang",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/how-to-run-junit-5-tests-with-jbang/",
+  "title": "Corsi di formazioni JBoss e Java Middleware (2024)",
+  "link": "https://www.mastertheboss.com/jboss-courses/jbossas7training/corsi-jboss/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-03T14:43:33.000Z",
+  "date": "2024-01-04T10:17:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article covers the integration between JUnit 5, the well-known framework for Java testing, with JBang scripting tool. By the end of it, you will learn how to add a robust testing layer to your Java scripts written with JBang. Why using JBang to Test ? Traditional set-ups often involve configuring complex build systems or ...  The post appeared first on ."
+  "content": "Esplora a fondo le tecnologie di base dei Middleware – l’application server JBoss/WildFly le API Jakarta EE e il moderno framework Quarkus – con i nostri programmi di formazione completi. Sia che tu stia valutando un corso in loco o un apprendimento remoto, i nostri corsi offrono esperienze personalizzate per approfondire la tua comprensione e ...  The post appeared first on ."
 }
