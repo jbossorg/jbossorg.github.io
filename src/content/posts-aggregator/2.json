@@ -1,13 +1,13 @@
 {
-  "title": "Java Structured Concurrency in practice",
-  "link": "https://www.mastertheboss.com/java/java-structured-concurrency-in-practice/",
+  "title": "WildFly: How to store sessions in the Database",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-cluster/wildfly-how-to-store-sessions-in-the-database/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-15T16:36:00.000Z",
+  "date": "2024-01-16T12:20:20.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Structured concurrency (JEP 453) is a method of organizing concurrent programming in a way that maintains the relationship between tasks and subtasks. This approach aims to make concurrent code more readable, maintainable, and reliable. In structured concurrency, tasks and their subtasks have well-defined entry and exit points. This creates a clear structure similar to how ...  The post appeared first on ."
+  "content": "In this guide, we’ll explore the steps to persist sessions in a database using WildFly or JBoss EAP. This can be particularly useful in scenarios where you need to distribute sessions across multiple server instances or require persistent storage of session data. Prerequisites Before we begin, ensure you have the following prerequisites: Step 1: Configure ...  The post appeared first on ."
 }
