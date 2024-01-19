@@ -1,13 +1,13 @@
 {
-  "title": "How to check JVM arguments from the CLI in WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-script/how-to-check-jvm-start-up-arguments-from-the-command-line-in-wildfly/",
+  "title": "Getting started with FlyWay Database Migrations",
+  "link": "https://www.mastertheboss.com/various-stuff/flyway/getting-started-with-flyway/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-18T15:16:25.000Z",
+  "date": "2024-01-19T15:50:07.000Z",
   "feed_title": "Mastertheboss",
-  "content": "There are several options to collect JVM arguments of WildFly application server from the Command Line. Firstly, if you want to check JVM arguments of a Java process, a simple way to do that is using the ‘jps‘ tool which is available in the ‘bin‘ folder of the JDK. Example: Also, you can use the ...  The post appeared first on ."
+  "content": "This updated tutorial will show you how to perform database migrations using FlyWay in two different use cases: using Flyway Maven’s plugin and performing the Migration within an Enterprise Application running on WildFly. Flyway is an open-source library that allows you to automate version-based database migrations. Flyway keeps track of all applied migrations into your ...  The post appeared first on ."
 }
