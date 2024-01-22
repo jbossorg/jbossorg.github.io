@@ -1,13 +1,13 @@
 {
-  "title": "Q1 2024 RESTEasy Quarterly Releases",
-  "link": "https://resteasy.dev/2024/01/12/resteasy-releases/",
+  "title": "Java Structured Concurrency in practice",
+  "link": "https://www.mastertheboss.com/java/java-structured-concurrency-in-practice/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-12T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2024-01-15T16:36:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Structured concurrency (JEP 453) is a method of organizing concurrent programming in a way that maintains the relationship between tasks and subtasks. This approach aims to make concurrent code more readable, maintainable, and reliable. In structured concurrency, tasks and their subtasks have well-defined entry and exit points. This creates a clear structure similar to how ...  The post appeared first on ."
 }
