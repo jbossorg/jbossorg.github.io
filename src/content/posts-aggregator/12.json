@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.6.6 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-6-6-released/",
+  "title": "Quarkus Newsletter #40 - January",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-40/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2024-01-10T00:00:00.000Z",
+  "date": "2024-01-11T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.6.6, our sixth maintenance release for the 3.6 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.6 except if you are using quarkus-jaxb (either directly or indirectly via quarkus-cxf or Camel Quarkus).  Unfortunately, a regression was spotted too late and if you are in this situation, please either stay on 3.6.5 or wait for 3.7.0 that will come at the end of the month.   UPDATE  To update to Quarkus 3.6.6, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  To migrate from 3.5, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "content": "Learn the process of scaffolding and building a Quarkus extension in In \"Quarkus: Greener, Better, Faster, Stronger\" by Kosmik. Read about the LangChain4j extension based on the LangChain4J library, the Java re-implementation of the langchain library in \"Quarkus LangChain4J Extension Allows Developers to Integrate LLMs in Their Quarkus Applications\" by Olimpiu Pop. \"Case Study: Modernizing Legacy Java EE 6 with Quarkus and Microsoft Services\" by Armel outlines the meticulous steps taken to migrate the application to Java 11, leveraging the Quarkus framework for containerization and harnessing Microsoft services for enhanced development and deployment. \"Connect a Quarkus app to an external PostgreSQL database\" by Nikhil Mungale is a great guide to help integrate Pedal’s external PostgreSQL database with one of its Quarkus microservices deployed on Red Hat OpenShift. \"Quarkus Framework Overview and Comparison with Spring Boot\" by Andrii Biehunov wrote a great overview of the Quarkus framework and a comparison with Spring Boot. Explore how to deploy a Quarkus application to Elastic Beanstalk and take a closer look at some of the key benefits and best practices for using these two technologies together in Ricardo Mello’s \"Deploying a Quarkus Application to AWS Elastic Beanstalk\".  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to Configure Level 2 Cache in JPA Applications",
-  "link": "https://www.mastertheboss.com/hibernate-jpa/hibernate-cache/using-hibernate-second-level-cache-with-jboss-as-5-6-7/",
+  "title": "Configuring The WildFly To Use The JBeret JDBC Job Repository",
+  "link": "https://jberet.org/configure-jberet-wildfly-jdbc-job-repo/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2024-01-11T10:09:45.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this updated article we will learn how to configure Hibernate Second Level Caches with Jakarta Persistence API to optimize database interactions. The primary objective is to minimize the frequency of database hits by strategically implementing caching mechanisms for both entities and queries within the context of the Jakarta Persistence API. Besides, we will also ...  The post appeared first on ."
+  "date": "2024-01-15T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }
