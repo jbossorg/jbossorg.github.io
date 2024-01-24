@@ -1,13 +1,13 @@
 {
-  "title": "Configuring The WildFly To Use The JBeret JDBC Job Repository",
-  "link": "https://jberet.org/configure-jberet-wildfly-jdbc-job-repo/",
+  "title": "Java Structured Concurrency in practice",
+  "link": "https://www.mastertheboss.com/java/java-structured-concurrency-in-practice/",
   "author": [
     {
-      "name": "阿男",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-15T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2024-01-15T16:36:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Structured concurrency (JEP 453) is a method of organizing concurrent programming in a way that maintains the relationship between tasks and subtasks. This approach aims to make concurrent code more readable, maintainable, and reliable. In structured concurrency, tasks and their subtasks have well-defined entry and exit points. This creates a clear structure similar to how ...  The post appeared first on ."
 }

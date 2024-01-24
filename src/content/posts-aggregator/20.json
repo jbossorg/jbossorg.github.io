@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus vs WildFly Application Server",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/quarkus-vs-wildfly-application-server/",
+  "title": "JBang Cheatsheet (2024) for Java Developers",
+  "link": "https://www.mastertheboss.com/java/jbang-cheatsheet-2021/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-06T08:51:18.000Z",
+  "date": "2024-01-06T16:32:19.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article provides a comparison of the features of two popular Java Enterprise Runtimes: WildFly Application Server and Quarkus framework. While both offer robust support for Java applications, their distinct approaches to development, deployment, and scalability cater to diverse use cases. Comparing Quarkus and WildFly. Fair comparison ? Firslty a disclaimer note: Comparing WildFly, a ...  The post appeared first on ."
+  "content": "Welcome to the JBang Cheatsheet, your comprehensive guide to mastering this powerful tool for rapid Java development. JBang eliminates the need for complex setup and repetitive configuration, allowing you to focus on writing code and exploring new Java projects. Whether you’re a seasoned Java developer or just starting out, this cheatsheet will equip you with ...  The post appeared first on ."
 }
