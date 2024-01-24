@@ -1,13 +1,14 @@
 {
-  "title": "JBang Cheatsheet (2024) for Java Developers",
-  "link": "https://www.mastertheboss.com/java/jbang-cheatsheet-2021/",
+  "title": "Keycloak 23.0.4 released",
+  "link": "https://www.keycloak.org/2024/01/keycloak-2304-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-01-06T16:32:19.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Welcome to the JBang Cheatsheet, your comprehensive guide to mastering this powerful tool for rapid Java development. JBang eliminates the need for complex setup and repetitive configuration, allowing you to focus on writing code and exploring new Java projects. Whether you’re a seasoned Java developer or just starting out, this cheatsheet will equip you with ...  The post appeared first on ."
+  "date": "2024-01-08T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * PubKeySignRegisterTest failures in WebAuthn tests testsuite  * Deadlock when pre-loading remote sessions from external Infinispan storage  * Remove sign out action for offline sessions admin/ui  * Make password visibility css classes configurable for themes login/ui  * Meaning of briefRepresentation query parameter is inverted in    GroupResource.getSubGroups admin/api  * RealmAdminResource.getGroupByPathGroup does not work with space in path    parameter admin/api  * CORS issue in 'openid-connect/certs' endpoint oidc  * User Profile: If required roles (\"user\") and reqired scopes are set, the    required scopes have no effect user-profile  * Parsing of labels issue IDs doesn't work with colons and the \"fixes\" keyword    ci  * Backchannel logout token is missing the \"exp\" claim oidc  * HTML emails in Catalan don't contain links translations"
 }
