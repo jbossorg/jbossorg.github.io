@@ -1,13 +1,13 @@
 {
-  "title": "Generating Random data for REST Services: Part one",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/generating-random-data-for-rest-services-part-one/",
+  "title": "How to create Test Data in Jakarta EE applications",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/how-to-create-test-data-in-jakarta-ee-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-24T11:51:20.000Z",
+  "date": "2024-01-25T18:11:13.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This is a two-series article which discusses some simple strategies to generate Random data for your REST Services using some simple tools available from the Linux command line. Also, we will show some minimal tool you can install for a wider variety of choices. Meaningful Random values for REST Before delving into the tools available ...  The post appeared first on ."
+  "content": "This article covers how to create sample random Data for your REST Services using a well-known library Data Faker. We will show how to bind a Fake Model to our Entity so that you can create sample Test Data in a snap! In the first article of this series ( Generating Random data for REST ...  The post appeared first on ."
 }
