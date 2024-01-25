@@ -1,13 +1,13 @@
 {
-  "title": "How to Configure Level 2 Cache in JPA Applications",
-  "link": "https://www.mastertheboss.com/hibernate-jpa/hibernate-cache/using-hibernate-second-level-cache-with-jboss-as-5-6-7/",
+  "title": "Q1 2024 RESTEasy Quarterly Releases",
+  "link": "https://resteasy.dev/2024/01/12/resteasy-releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-01-11T10:09:45.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this updated article we will learn how to configure Hibernate Second Level Caches with Jakarta Persistence API to optimize database interactions. The primary objective is to minimize the frequency of database hits by strategically implementing caching mechanisms for both entities and queries within the context of the Jakarta Persistence API. Besides, we will also ...  The post appeared first on ."
+  "date": "2024-01-12T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
