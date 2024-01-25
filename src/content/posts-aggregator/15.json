@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #40 - January",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-40/",
+  "title": "How to Configure Level 2 Cache in JPA Applications",
+  "link": "https://www.mastertheboss.com/hibernate-jpa/hibernate-cache/using-hibernate-second-level-cache-with-jboss-as-5-6-7/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-11T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Learn the process of scaffolding and building a Quarkus extension in In \"Quarkus: Greener, Better, Faster, Stronger\" by Kosmik. Read about the LangChain4j extension based on the LangChain4J library, the Java re-implementation of the langchain library in \"Quarkus LangChain4J Extension Allows Developers to Integrate LLMs in Their Quarkus Applications\" by Olimpiu Pop. \"Case Study: Modernizing Legacy Java EE 6 with Quarkus and Microsoft Services\" by Armel outlines the meticulous steps taken to migrate the application to Java 11, leveraging the Quarkus framework for containerization and harnessing Microsoft services for enhanced development and deployment. \"Connect a Quarkus app to an external PostgreSQL database\" by Nikhil Mungale is a great guide to help integrate Pedal’s external PostgreSQL database with one of its Quarkus microservices deployed on Red Hat OpenShift. \"Quarkus Framework Overview and Comparison with Spring Boot\" by Andrii Biehunov wrote a great overview of the Quarkus framework and a comparison with Spring Boot. Explore how to deploy a Quarkus application to Elastic Beanstalk and take a closer look at some of the key benefits and best practices for using these two technologies together in Ricardo Mello’s \"Deploying a Quarkus Application to AWS Elastic Beanstalk\".  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2024-01-11T10:09:45.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this updated article we will learn how to configure Hibernate Second Level Caches with Jakarta Persistence API to optimize database interactions. The primary objective is to minimize the frequency of database hits by strategically implementing caching mechanisms for both entities and queries within the context of the Jakarta Persistence API. Besides, we will also ...  The post appeared first on ."
 }
