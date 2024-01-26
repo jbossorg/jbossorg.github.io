@@ -1,13 +1,13 @@
 {
-  "title": "Managing Git Repositories with Ansible",
-  "link": "https://www.mastertheboss.com/various-stuff/ansible/managing-git-repositories-with-ansible/",
+  "title": "resteasy-grpc: Handling arrays",
+  "link": "https://resteasy.dev/2024/01/23/grpc-jakarta-rs-arrays/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-01-22T21:33:26.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Ansible is a powerful automation tool that allows you to manage and configure systems, including version control systems like Git. In this tutorial, we will explore the basics of managing Git repositories using Ansible. We’ll cover the essentials of the Ansible inventory file, introduce the concept of playbooks, and provide an example playbook for cloning ...  The post appeared first on ."
+  "date": "2024-01-23T00:00:00.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
