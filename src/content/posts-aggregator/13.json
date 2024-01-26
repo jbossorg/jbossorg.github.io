@@ -1,13 +1,13 @@
 {
-  "title": "WildFly: How to store sessions in the Database",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-cluster/wildfly-how-to-store-sessions-in-the-database/",
+  "title": "Quarkus documentation, now with full-text search!",
+  "link": "https://quarkus.io/blog/search-quarkus-io/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Yoann Rodiere",
       "avatar": null
     }
   ],
-  "date": "2024-01-16T12:20:20.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this guide, we’ll explore the steps to persist sessions in a database using WildFly or JBoss EAP. This can be particularly useful in scenarios where you need to distribute sessions across multiple server instances or require persistent storage of session data. Prerequisites Before we begin, ensure you have the following prerequisites: Step 1: Configure ...  The post appeared first on ."
+  "date": "2024-01-18T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "The Quarkus documentation has had a search feature for a long time, but until now it was a simple substring search on the title and summary of each guide. It was better than nothing, but admittedly quite limited.  We’ve recently improved on that. The now provides actual full-text search:    The feature is not yet available on , but will be in a few days, after their next sync.  Among the (many!) improvements:   * This is no longer a simple substring search, but state-of-the-art full-text    search, with tokenization and text analysis (see how vertx matched Vert.x    above?).   * Results are sorted by relevance, thanks to the ability of full-text to assign    a score to each hit.   * Search takes into account the title and summary of each guide, but also the    full content of the guide’s HTML page.   * Matching terms get highlighted in the list of results, giving a glimpse of    relevant content from each guide.  And the best part? This new search is backed by a ! It uses in particular the , which provides .  Stay tuned for more details in the coming weeks as we publish more blog posts to dive into the implementation details. In the meantime, happy searching! And feel free to drop by in the comments below if you notice weird behavior that you’d like to see fixed."
 }

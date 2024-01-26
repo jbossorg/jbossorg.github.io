@@ -1,13 +1,13 @@
 {
-  "title": "Q1 2024 RESTEasy Quarterly Releases",
-  "link": "https://resteasy.dev/2024/01/12/resteasy-releases/",
+  "title": "Configuring The WildFly To Use The JBeret JDBC Job Repository",
+  "link": "https://jberet.org/configure-jberet-wildfly-jdbc-job-repo/",
   "author": [
     {
-      "name": null,
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2024-01-12T18:11:11.000Z",
-  "feed_title": "RESTEasy",
+  "date": "2024-01-15T00:00:00.000Z",
+  "feed_title": "WildFly",
   "content": ""
 }
