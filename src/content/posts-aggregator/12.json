@@ -1,13 +1,13 @@
 {
-  "title": "How to check JVM arguments from the CLI in WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-script/how-to-check-jvm-start-up-arguments-from-the-command-line-in-wildfly/",
+  "title": "Infinispan RESP in action: Resque use case",
+  "link": "https://infinispan.org/blog/2024/01/18/infinispan-resp-resque-use-case",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Vittorio Rigamonti",
       "avatar": null
     }
   ],
-  "date": "2024-01-18T15:16:25.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "There are several options to collect JVM arguments of WildFly application server from the Command Line. Firstly, if you want to check JVM arguments of a Java process, a simple way to do that is using the ‘jps‘ tool which is available in the ‘bin‘ folder of the JDK. Example: Also, you can use the ...  The post appeared first on ."
+  "date": "2024-01-19T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "As you may know Infinispan 15 extended its RESP compatibility implementing most of the command related to the principal data types (set, list, hashes, sorted set… ).  In this post we want to present a demo case of integration between a real application () and Infinispan used as a Redis-compatible cache backend. Aim of this is to show how it’s easy to switch between Redis and Infinispan making available to your application all the advanced features of our clustered cache server.  Resque is a job scheduler that creates jobs and send them to execution queues, it uses Redis as default backend and provides a testsuite and a demo application. Try yourself how Infinispan can seamlessly replace the default backend: just clone and follow the to run both the test suite and the demo application.  Everything worked as a charm? Nice! Now check the diff with the original project, we only added code to turn on/off Infinispan instead of Redis. Nothing more than that! (*)  Hope you ejoyed this post!  Cheers, The Infinispan Team  (*) What? You also noticed we changed the expected result for a test. Surely you can easily guess why… if not just ask us on !"
 }
