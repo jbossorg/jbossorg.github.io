@@ -1,13 +1,13 @@
 {
-  "title": "How to check JVM arguments from the CLI in WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-script/how-to-check-jvm-start-up-arguments-from-the-command-line-in-wildfly/",
+  "title": "Managing Git Repositories with Ansible",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/managing-git-repositories-with-ansible/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-18T15:16:25.000Z",
+  "date": "2024-01-22T21:33:26.000Z",
   "feed_title": "Mastertheboss",
-  "content": "There are several options to collect JVM arguments of WildFly application server from the Command Line. Firstly, if you want to check JVM arguments of a Java process, a simple way to do that is using the ‘jps‘ tool which is available in the ‘bin‘ folder of the JDK. Example: Also, you can use the ...  The post appeared first on ."
+  "content": "Ansible is a powerful automation tool that allows you to manage and configure systems, including version control systems like Git. In this tutorial, we will explore the basics of managing Git repositories using Ansible. We’ll cover the essentials of the Ansible inventory file, introduce the concept of playbooks, and provide an example playbook for cloning ...  The post appeared first on ."
 }

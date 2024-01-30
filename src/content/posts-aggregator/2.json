@@ -1,13 +1,13 @@
 {
-  "title": "Modern Java Pocket Guide available",
-  "link": "https://www.mastertheboss.com/java/modern-java-pocket-guide-available/",
+  "title": "How to use Hidden Classes in Java",
+  "link": "https://www.mastertheboss.com/java/how-to-use-hidden-classes-in-java/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-29T08:27:50.000Z",
+  "date": "2024-01-30T15:49:08.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Calling all Java enthusiasts! I’m excited to share that my latest tiny ebook is now live—a concise reference guide covering all the top features in Java from version 8 to the upcoming version 22! 🚀 Let’s face it: Java has added a tremendous number of new features from version 8 up to the upcoming version ...  The post appeared first on ."
+  "content": "Hidden classes ( available since Java 15 ) allow developers to define classes that cannot be directly accessed by other classes in the same program. These classes are designed for use by frameworks that generate classes at runtime without using the standard classloading mechanism. Purpose of Java Hidden Classes Hidden classes can enable frameworks to ...  The post appeared first on ."
 }

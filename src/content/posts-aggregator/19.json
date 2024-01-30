@@ -1,13 +1,13 @@
 {
-  "title": "WildFly: How to store sessions in the Database",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-cluster/wildfly-how-to-store-sessions-in-the-database/",
+  "title": "How to check JVM arguments from the CLI in WildFly",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-script/how-to-check-jvm-start-up-arguments-from-the-command-line-in-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-16T12:20:20.000Z",
+  "date": "2024-01-18T15:16:25.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this guide, we’ll explore the steps to persist sessions in a database using WildFly or JBoss EAP. This can be particularly useful in scenarios where you need to distribute sessions across multiple server instances or require persistent storage of session data. Prerequisites Before we begin, ensure you have the following prerequisites: Step 1: Configure ...  The post appeared first on ."
+  "content": "There are several options to collect JVM arguments of WildFly application server from the Command Line. Firstly, if you want to check JVM arguments of a Java process, a simple way to do that is using the ‘jps‘ tool which is available in the ‘bin‘ folder of the JDK. Example: Also, you can use the ...  The post appeared first on ."
 }
