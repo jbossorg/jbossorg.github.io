@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with FlyWay Database Migrations",
-  "link": "https://www.mastertheboss.com/various-stuff/flyway/getting-started-with-flyway/",
+  "title": "Managing Git Repositories with Ansible",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/managing-git-repositories-with-ansible/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-19T15:50:07.000Z",
+  "date": "2024-01-22T21:33:26.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This updated tutorial will show you how to perform database migrations using FlyWay in two different use cases: using Flyway Maven’s plugin and performing the Migration within an Enterprise Application running on WildFly. Flyway is an open-source library that allows you to automate version-based database migrations. Flyway keeps track of all applied migrations into your ...  The post appeared first on ."
+  "content": "Ansible is a powerful automation tool that allows you to manage and configure systems, including version control systems like Git. In this tutorial, we will explore the basics of managing Git repositories using Ansible. We’ll cover the essentials of the Ansible inventory file, introduce the concept of playbooks, and provide an example playbook for cloning ...  The post appeared first on ."
 }

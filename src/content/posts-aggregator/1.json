@@ -1,13 +1,13 @@
 {
-  "title": "Maven is using the wrong version: Explained",
-  "link": "https://www.mastertheboss.com/java/maven-is-using-the-wrong-version-explained/",
+  "title": "RabbitMQ with Docker: A Comprehensive Guide",
+  "link": "https://www.mastertheboss.com/rabbitmq/rabbitmq-with-docker-a-comprehensive-guide/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-30T17:31:27.000Z",
+  "date": "2024-01-31T09:49:10.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this article we will go through a common issue that you can face when compiling and running applications with Maven. The syntom of this issue is that Maven is using the wrong version during the execution. We will show the cause of the issue and the remediation. Symptom of Maven using an incorrect version ...  The post appeared first on ."
+  "content": "In this tutorial, we’ll explore how to combine RabbitMQ and Docker to improve message queuing, enhance system reliability, and simplify deployment. Whether you’re an experienced developer or just starting out, this guide will give you the knowledge and practical insights to make the most of RabbitMQ with Docker. What is Rabbit MQ? RabbitMQ is a ...  The post appeared first on ."
 }
