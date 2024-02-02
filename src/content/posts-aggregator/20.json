@@ -1,13 +1,13 @@
 {
-  "title": "Managing Git Repositories with Ansible",
-  "link": "https://www.mastertheboss.com/various-stuff/ansible/managing-git-repositories-with-ansible/",
+  "title": "Generating Random Data for REST Services",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/generating-random-data-for-rest-services-part-one/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-22T21:33:26.000Z",
+  "date": "2024-01-24T11:51:20.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Ansible is a powerful automation tool that allows you to manage and configure systems, including version control systems like Git. In this tutorial, we will explore the basics of managing Git repositories using Ansible. We’ll cover the essentials of the Ansible inventory file, introduce the concept of playbooks, and provide an example playbook for cloning ...  The post appeared first on ."
+  "content": "This is a two-series article which discusses some simple strategies to generate Random data for your REST Services using some simple tools available from the Linux command line. Also, we will show some minimal tool you can install for a wider variety of choices. Meaningful Random values for REST Before delving into the tools available ...  The post appeared first on ."
 }

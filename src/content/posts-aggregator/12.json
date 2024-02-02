@@ -1,13 +1,13 @@
 {
-  "title": "TestContainers made simple with JBang",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-made-simple-with-jbang/",
+  "title": "Modern Java Pocket Guide available",
+  "link": "https://www.mastertheboss.com/java/modern-java-pocket-guide-available/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-26T17:35:41.000Z",
+  "date": "2024-01-29T08:27:50.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses how to execute Tests on Container Images using JBang as Java scripting tool and TestContainers + JUnit 5 Jupiter as Test library. Things we need to know Modern software development relies on a diverse set of dependencies, services, and databases. Testing applications in a consistent, isolated, and reproducible environment can be challenging. ...  The post appeared first on ."
+  "content": "Calling all Java enthusiasts! I’m excited to share that my latest tiny ebook is now live—a concise reference guide covering all the top features in Java from version 8 to the upcoming version 22! 🚀 Let’s face it: Java has added a tremendous number of new features from version 8 up to the upcoming version ...  The post appeared first on ."
 }

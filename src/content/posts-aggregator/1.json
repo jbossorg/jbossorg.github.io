@@ -1,13 +1,13 @@
 {
-  "title": "RabbitMQ with Docker: A Comprehensive Guide",
-  "link": "https://www.mastertheboss.com/rabbitmq/rabbitmq-with-docker-a-comprehensive-guide/",
+  "title": "WildFly Glow: Next-Gen Evolution in Provisioning",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/wildfly-glow-next-gen-evolution-in-provisioning/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-31T09:49:10.000Z",
+  "date": "2024-02-02T15:06:23.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we’ll explore how to combine RabbitMQ and Docker to improve message queuing, enhance system reliability, and simplify deployment. Whether you’re an experienced developer or just starting out, this guide will give you the knowledge and practical insights to make the most of RabbitMQ with Docker. What is Rabbit MQ? RabbitMQ is a ...  The post appeared first on ."
+  "content": "In the ever-evolving landscape of application provisioning, WildFly project introduces a groundbreaking provisioning tooling: WildFly Glow. An advanced successor to WildFly Galleon, WildFly Glow automatically combines the Galleon Feature-packs and Layers that your application needs! Let’s dive into the features and capabilities of WildFly Glow. Automatic Identification of WildFly Galleon Layers WildFly Glow is your ...  The post appeared first on ."
 }

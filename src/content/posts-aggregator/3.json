@@ -1,13 +1,13 @@
 {
-  "title": "Using WildFly Glow to provision a WildFly server for a RESTEasy based project",
-  "link": "https://resteasy.dev/2024/01/31/resteasy-glow/",
+  "title": "Using Infinispan Server for your Redis clients",
+  "link": "https://infinispan.org/blog/2024/02/02/infinispan-server-redis-clients",
   "author": [
     {
-      "name": null,
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2024-01-31T00:00:00.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2024-02-02T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan community,  we’ve put together a video that shows how you can seamlessly connect your Redis clients to Infinispan Server, and take advantage of our advanced capabilities.  "
 }

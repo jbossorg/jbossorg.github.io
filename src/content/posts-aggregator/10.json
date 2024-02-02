@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.5 released",
-  "link": "https://www.keycloak.org/2024/01/keycloak-2305-released",
+  "title": "Eclipse Vert.x 4.4.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-7",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-01-29T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   NEW FEATURES   * Update Route53 HA guide to be compatible with ROSA and Openshift 4.14.x  * Remove conditional statements about Windows / Linux from the docs docs   ENHANCEMENTS   * Role mapping tab no longer visible when using fine grained permissions after    upgrade from 20.0.3 to 21.0.2 admin/ui  * Clarification needed of use of containers  * Change RHDG references to Infinispan  * Don't differentiate Windows for getting started docs  * Update to Quarkus 3.2.10   BUGS   * Multiple failures in OfflineServletsAdapterTest (testServlet,    testServletWithConsent, testServletWithRevoke) testsuite  * admin-fine-grained-authz + client authorization settings requires view-client    role admin/ui  * Read Only Access of a realm clients' Authz is broken for Admin Console    admin/ui  * User details tab does not display or update attibutes with dot admin/ui  * Read Only Access of the realm users' \"Role mapping\" tab is broken for Admin    Console admin/ui  * Log Injection during WebAuthn authentication/registration authentication  * Admin Console: Realm Dropdown should only show the realms the user has access    to admin/ui  * Account v3 theme - theme.properties Custom theme scripts not loading    account/ui  * Removing all group attributes no longer works with keycloak-admin-client    (java) admin/client-java  * `/admin/realms/{realm-name}/ui-ext/realms` endpoint leaks realms the user    doesn't have access to see admin/ui  * Flaky test:    org.keycloak.testsuite.adapter.servlet.OfflineServletsAdapterTest#testServlet    ci  * Since 23, start-dev command line arguments parsing is buggy dist/quarkus  * admin ui uses hyphen instead of dot as realm attribute separator admin/ui  * Keycloak HA Guide uses token for cross-site setup that expires  * GitHub Status check is green if the build fails ci  * Workflow failure: FIPS IT -    KcSamlEncryptedIdTest#testEncryptedElementIsReadableInDeprecatedMode ci"
+  "date": "2024-01-30T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.7 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1023"
 }
