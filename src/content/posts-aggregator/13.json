@@ -1,6 +1,6 @@
 {
-  "title": "Eclipse Vert.x 4.5.2 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-2",
+  "title": "Eclipse Vert.x 4.4.7 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-7",
   "author": [
     {
       "name": "Julien Viet",
@@ -9,5 +9,5 @@
   ],
   "date": "2024-01-30T00:00:00.000Z",
   "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.2 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1023"
+  "content": "Eclipse Vert.x version 4.4.7 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1023"
 }
