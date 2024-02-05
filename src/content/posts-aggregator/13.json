@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.5 released",
-  "link": "https://www.keycloak.org/2024/01/keycloak-2305-released",
+  "title": "Modern Java Pocket Guide available",
+  "link": "https://www.mastertheboss.com/java/modern-java-pocket-guide-available/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-29T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Operator CSV uses wrong format for `createdAt` field operator  * Keycloak UI meets \"Internal Sever Error\" after save \"Refresh Token Max Reuse\"    number core  * Unable to modify access token lifespan at realm level. Keycloak stops    working. core"
+  "date": "2024-01-29T08:27:50.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Calling all Java enthusiasts! I’m excited to share that my latest tiny ebook is now live—a concise reference guide covering all the top features in Java from version 8 to the upcoming version 22! 🚀 Let’s face it: Java has added a tremendous number of new features from version 8 up to the upcoming version ...  The post appeared first on ."
 }

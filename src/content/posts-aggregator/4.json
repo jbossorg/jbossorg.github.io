@@ -1,13 +1,13 @@
 {
-  "title": "RabbitMQ with Docker: A Comprehensive Guide",
-  "link": "https://www.mastertheboss.com/rabbitmq/rabbitmq-with-docker-a-comprehensive-guide/",
+  "title": "Using Infinispan Server for your Redis clients",
+  "link": "https://infinispan.org/blog/2024/02/02/infinispan-server-redis-clients",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
-  "date": "2024-01-31T09:49:10.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we’ll explore how to combine RabbitMQ and Docker to improve message queuing, enhance system reliability, and simplify deployment. Whether you’re an experienced developer or just starting out, this guide will give you the knowledge and practical insights to make the most of RabbitMQ with Docker. What is Rabbit MQ? RabbitMQ is a ...  The post appeared first on ."
+  "date": "2024-02-02T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "Dear Infinispan community,  we’ve put together a video that shows how you can seamlessly connect your Redis clients to Infinispan Server, and take advantage of our advanced capabilities.  "
 }

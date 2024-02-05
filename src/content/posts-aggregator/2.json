@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.6 released",
-  "link": "https://www.keycloak.org/2024/02/keycloak-2306-released",
+  "title": "WildFly Glow: Next-Gen Evolution in Provisioning",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/wildfly-glow-next-gen-evolution-in-provisioning/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-02T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Operator CSV uses wrong format for `createdAt` field operator  * Keycloak UI meets \"Internal Sever Error\" after save \"Refresh Token Max Reuse\"    number core  * Unable to modify access token lifespan at realm level. Keycloak stops    working. core"
+  "date": "2024-02-02T15:06:23.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In the ever-evolving landscape of application provisioning, WildFly project introduces a groundbreaking provisioning tooling: WildFly Glow. An advanced successor to WildFly Galleon, WildFly Glow automatically combines the Galleon Feature-packs and Layers that your application needs! Let’s dive into the features and capabilities of WildFly Glow. Automatic Identification of WildFly Galleon Layers WildFly Glow is your ...  The post appeared first on ."
 }

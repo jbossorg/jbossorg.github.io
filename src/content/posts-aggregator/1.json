@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Glow: Next-Gen Evolution in Provisioning",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/wildfly-glow-next-gen-evolution-in-provisioning/",
+  "title": "JUnit 5: Using Custom DisplayNames for Tests",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/junit-5-displayname-for-custom-test-names/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-02T15:06:23.000Z",
+  "date": "2024-02-05T17:33:59.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In the ever-evolving landscape of application provisioning, WildFly project introduces a groundbreaking provisioning tooling: WildFly Glow. An advanced successor to WildFly Galleon, WildFly Glow automatically combines the Galleon Feature-packs and Layers that your application needs! Let’s dive into the features and capabilities of WildFly Glow. Automatic Identification of WildFly Galleon Layers WildFly Glow is your ...  The post appeared first on ."
+  "content": "JUnit 5 provides a powerful feature called @DisplayName, which allows you to customize the display name of your tests for better readability. In this tutorial, we will explore how to take control of your test names using the JUnit 5 DisplayNameGenerator. This feature enables you to create expressive, informative, and dynamic test names, making your ...  The post appeared first on ."
 }
