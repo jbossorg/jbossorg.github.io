@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Glow: Next-Gen Evolution in Provisioning",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/wildfly-glow-next-gen-evolution-in-provisioning/",
+  "title": "Using WildFly Glow to provision a WildFly server for a RESTEasy based project",
+  "link": "https://resteasy.dev/2024/01/31/resteasy-glow/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2024-02-02T15:06:23.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In the ever-evolving landscape of application provisioning, WildFly project introduces a groundbreaking provisioning tooling: WildFly Glow. An advanced successor to WildFly Galleon, WildFly Glow automatically combines the Galleon Feature-packs and Layers that your application needs! Let’s dive into the features and capabilities of WildFly Glow. Automatic Identification of WildFly Galleon Layers WildFly Glow is your ...  The post appeared first on ."
+  "date": "2024-02-05T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Using WildFly Glow to provision a WildFly server for a RESTEasy based project",
-  "link": "https://resteasy.dev/2024/01/31/resteasy-glow/",
+  "title": "RabbitMQ with Docker: A Comprehensive Guide",
+  "link": "https://www.mastertheboss.com/rabbitmq/rabbitmq-with-docker-a-comprehensive-guide/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-31T00:00:00.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2024-01-31T09:49:10.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we’ll explore how to combine RabbitMQ and Docker to improve message queuing, enhance system reliability, and simplify deployment. Whether you’re an experienced developer or just starting out, this guide will give you the knowledge and practical insights to make the most of RabbitMQ with Docker. What is Rabbit MQ? RabbitMQ is a ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "How to use Hidden Classes in Java",
-  "link": "https://www.mastertheboss.com/java/how-to-use-hidden-classes-in-java/",
+  "title": "Maven is using the wrong version: Explained",
+  "link": "https://www.mastertheboss.com/java/maven-is-using-the-wrong-version-explained/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-30T15:49:08.000Z",
+  "date": "2024-01-30T17:31:27.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Hidden classes ( available since Java 15 ) allow developers to define classes that cannot be directly accessed by other classes in the same program. These classes are designed for use by frameworks that generate classes at runtime without using the standard classloading mechanism. Purpose of Java Hidden Classes Hidden classes can enable frameworks to ...  The post appeared first on ."
+  "content": "In this article we will go through a common issue that you can face when compiling and running applications with Maven. The syntom of this issue is that Maven is using the wrong version during the execution. We will show the cause of the issue and the remediation. Symptom of Maven using an incorrect version ...  The post appeared first on ."
 }

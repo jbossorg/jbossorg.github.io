@@ -1,13 +1,13 @@
 {
-  "title": "Using Infinispan Server for your Redis clients",
-  "link": "https://infinispan.org/blog/2024/02/02/infinispan-server-redis-clients",
+  "title": "WildFly Glow: Next-Gen Evolution in Provisioning",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/wildfly-glow-next-gen-evolution-in-provisioning/",
   "author": [
     {
-      "name": "Tristan Tarrant",
-      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2024-02-02T00:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "Dear Infinispan community,  we’ve put together a video that shows how you can seamlessly connect your Redis clients to Infinispan Server, and take advantage of our advanced capabilities.  "
+  "date": "2024-02-02T15:06:23.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In the ever-evolving landscape of application provisioning, WildFly project introduces a groundbreaking provisioning tooling: WildFly Glow. An advanced successor to WildFly Galleon, WildFly Glow automatically combines the Galleon Feature-packs and Layers that your application needs! Let’s dive into the features and capabilities of WildFly Glow. Automatic Identification of WildFly Galleon Layers WildFly Glow is your ...  The post appeared first on ."
 }
