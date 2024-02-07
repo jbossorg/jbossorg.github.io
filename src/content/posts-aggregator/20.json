@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Guides",
-  "link": "https://wildfly.org//news/2024/01/26/WildFly-Guides/",
+  "title": "TestContainers made simple with JBang",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-made-simple-with-jbang/",
   "author": [
     {
-      "name": "Harald Pehl",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-26T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "We have recently published a first collection of guides on the WildFly homepage. You can find the guides in the top-level navigation under . They are divided into different categories. Currently, we have guides for \"Get Started\", \"Observability\", \"Security\", \"MicroProfile\", and \"Automation\".   WHAT TO EXPECT  The guides address one topic of a specific use case in more detail. Unlike the , the guides describe step by step how a specific task can be approached and solved. All guidelines have a common structure, clearly list the prerequisites and provide an estimate of the time required for completing the task.   WE NEED YOUR FEEDBACK  We would liek to get your feedback about the guides. Please use the or the and let us know how you like them.   WHAT’S NEXT?  Expect more guides to come in the next months. If you’re missing a topic or even would like to contribute to the guides, please let us know!"
+  "date": "2024-01-26T17:35:41.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses how to execute Tests on Container Images using JBang as Java scripting tool and TestContainers + JUnit 5 Jupiter as Test library. Things we need to know Modern software development relies on a diverse set of dependencies, services, and databases. Testing applications in a consistent, isolated, and reproducible environment can be challenging. ...  The post appeared first on ."
 }

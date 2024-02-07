@@ -1,13 +1,14 @@
 {
-  "title": "TestContainers made simple with JBang",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-made-simple-with-jbang/",
+  "title": "Keycloak 23.0.5 released",
+  "link": "https://www.keycloak.org/2024/01/keycloak-2305-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-01-26T17:35:41.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses how to execute Tests on Container Images using JBang as Java scripting tool and TestContainers + JUnit 5 Jupiter as Test library. Things we need to know Modern software development relies on a diverse set of dependencies, services, and databases. Testing applications in a consistent, isolated, and reproducible environment can be challenging. ...  The post appeared first on ."
+  "date": "2024-01-29T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Operator CSV uses wrong format for `createdAt` field operator  * Keycloak UI meets \"Internal Sever Error\" after save \"Refresh Token Max Reuse\"    number core  * Unable to modify access token lifespan at realm level. Keycloak stops    working. core"
 }

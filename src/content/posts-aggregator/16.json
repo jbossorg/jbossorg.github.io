@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.5 released",
-  "link": "https://www.keycloak.org/2024/01/keycloak-2305-released",
+  "title": "Eclipse Vert.x 4.5.2 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-2",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-01-29T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Operator CSV uses wrong format for `createdAt` field operator  * Keycloak UI meets \"Internal Sever Error\" after save \"Refresh Token Max Reuse\"    number core  * Unable to modify access token lifespan at realm level. Keycloak stops    working. core"
+  "date": "2024-01-30T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.2 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1023"
 }
