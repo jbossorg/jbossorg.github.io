@@ -1,13 +1,13 @@
 {
-  "title": "Using WildFly Glow to provision a WildFly server for a RESTEasy based project",
-  "link": "https://resteasy.dev/2024/01/31/resteasy-glow/",
+  "title": "Eclipse Vert.x 4.5.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-3",
   "author": [
     {
-      "name": "阿男",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-02-05T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2024-02-07T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.3 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1300"
 }

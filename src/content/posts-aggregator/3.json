@@ -1,13 +1,13 @@
 {
-  "title": "Configuring WildFly stability levels",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/configuring-wildfly-stability-levels/",
+  "title": "Maven archetype for WildFly applications tutorial",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/jboss-maven/creating-a-maven-archetype-for-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-07T18:06:49.000Z",
+  "date": "2024-02-11T09:32:24.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Welcome to the tutorial on WildFly Stability Levels! In this guide, we’ll explore the concept of stability levels in WildFly, how they are utilized, and how you can leverage them to ensure the quality, stability, and compatibility of the features you use. Introduction The WildFly project places a high emphasis on maintaining quality, stability, and ...  The post appeared first on ."
+  "content": "In this tutorial we will learn how to use WildFly Maven archetype to speed up your project creation either from the command line or using an IDE. We will also show how to use the built-in test Classes to test the built-in resources. Maven archetypes in a nutshell An archetype in a nutshell is a ...  The post appeared first on ."
 }

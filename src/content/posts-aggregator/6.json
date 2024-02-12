@@ -1,13 +1,13 @@
 {
-  "title": "JUnit 5: Using Custom DisplayNames for Tests",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/junit-5-displayname-for-custom-test-names/",
+  "title": "Eclipse Vert.x 4.4.8 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-8",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-02-05T17:33:59.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "JUnit 5 provides a powerful feature called @DisplayName, which allows you to customize the display name of your tests for better readability. In this tutorial, we will explore how to take control of your test names using the JUnit 5 DisplayNameGenerator. This feature enables you to create expressive, informative, and dynamic test names, making your ...  The post appeared first on ."
+  "date": "2024-02-07T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.8 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1300"
 }

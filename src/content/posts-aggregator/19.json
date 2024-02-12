@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.2 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-2",
+  "title": "How to use Hidden Classes in Java",
+  "link": "https://www.mastertheboss.com/java/how-to-use-hidden-classes-in-java/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-01-30T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.2 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1023"
+  "date": "2024-01-30T15:49:08.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Hidden classes ( available since Java 15 ) allow developers to define classes that cannot be directly accessed by other classes in the same program. These classes are designed for use by frameworks that generate classes at runtime without using the standard classloading mechanism. Purpose of Java Hidden Classes Hidden classes can enable frameworks to ...  The post appeared first on ."
 }
