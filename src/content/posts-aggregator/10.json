@@ -1,9 +1,9 @@
 {
-  "title": "Vlog: Introduction to WildFly Glow",
-  "link": "https://www.youtube.com/watch?v=kt8pTDmTitw",
+  "title": "Using WildFly Glow to provision a WildFly server for a RESTEasy based project",
+  "link": "https://resteasy.dev/2024/01/31/resteasy-glow/",
   "author": [
     {
-      "name": "Kabir Khan",
+      "name": "阿男",
       "avatar": null
     }
   ],

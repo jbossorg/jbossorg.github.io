@@ -1,13 +1,13 @@
 {
-  "title": "JBoss EAP 8 Top 10 New Features",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-eap/jboss-eap-8-top-10-new-features/",
+  "title": "How to check configuration changes in WildFly",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-check-configuration-changes-in-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-12T07:20:28.000Z",
+  "date": "2024-02-14T15:58:49.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Red Hat JBoss Enterprise Application Platform (EAP) 8.0 is now available. The new major release introduces several new features and enhancements to enhance your application development and deployment experience. In this tutorial, we will explore these new features and learn how to leverage them effectively. JBoss EAP 8 includes several new features and applies to ...  The post appeared first on ."
+  "content": "This article will teach you an Admin Tip to check the configuration changes that you have applied to the WildFly Model using the Command Line Interface. Firstly, in line of principle, there are several strategies for hardening WildFly, such as enabling auditing the CLI commands. The following article will discuss this topic more in detail: ...  The post appeared first on ."
 }
