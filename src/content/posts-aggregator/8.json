@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Mini Conference",
-  "link": "https://wildfly.org//news/2024/02/12/WildFly-mini-conference/",
+  "title": "JBoss EAP 8 Top 10 New Features",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-eap/jboss-eap-8-top-10-new-features/",
   "author": [
     {
-      "name": "Harald Pehl",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-12T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "The WildFly team organizes a conference. The conference will take place on Wednesday, March 6, 2024. It starts at 14:00 UTC and includes four sessions with topics related to WildFly. All sessions will be streamed live on YouTube.  For more information, please take a look at the conference page at  We’re looking forward to seeing you there!"
+  "date": "2024-02-12T07:20:28.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Red Hat JBoss Enterprise Application Platform (EAP) 8.0 is now available. The new major release introduces several new features and enhancements to enhance your application development and deployment experience. In this tutorial, we will explore these new features and learn how to leverage them effectively. JBoss EAP 8 includes several new features and applies to ...  The post appeared first on ."
 }

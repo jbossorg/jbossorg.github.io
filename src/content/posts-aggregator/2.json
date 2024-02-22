@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.7 released",
-  "link": "https://www.keycloak.org/2024/02/keycloak-2307-released",
+  "title": "Eclipse Vert.x 4.5.3 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-4",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2024-02-22T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Shorter lifespan for offline session cache entries in memory storage   BUGS   * Localization: Admin UI doesn't pick up message bundles from realms other than    master admin/ui  * Failure: FipsDistTest ci  * Kerberos principal attribute not found on LDAP user - even if kerberos    authentication is off ldap  * ldap-group-mapper fails when empty member: attribute is present ldap  * LDAP federation reports \"Creating new LDAP Store...\" on every login ldap  * Native SQL Schema names broken on MySQL storage  * Workflow failure: Quarkus IT -    FipsDistTest#testUnsupportedHttpsPkcs12KeyStoreInStrictMode ci  * Workflow failure: Quarkus IT -    FipsDistTest#testUnsupportedHttpsPkcs12KeyStoreInStrictMode ci  * Freemarker erroneously escapes/sanitizes URL in template.ftl (&) login/ui  * Microsoft social login failure testsuite"
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.3 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1300"
 }
