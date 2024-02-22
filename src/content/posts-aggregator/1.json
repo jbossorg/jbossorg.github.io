@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.7 released",
-  "link": "https://www.keycloak.org/2024/02/keycloak-2307-released",
+  "title": "Writing Reactive Applications with WildFly",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/building-reactive-applications-with-wildfly/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-22T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Shorter lifespan for offline session cache entries in memory storage   BUGS   * Localization: Admin UI doesn't pick up message bundles from realms other than    master admin/ui  * Failure: FipsDistTest ci  * Kerberos principal attribute not found on LDAP user - even if kerberos    authentication is off ldap  * ldap-group-mapper fails when empty member: attribute is present ldap  * LDAP federation reports \"Creating new LDAP Store...\" on every login ldap  * Native SQL Schema names broken on MySQL storage  * Workflow failure: Quarkus IT -    FipsDistTest#testUnsupportedHttpsPkcs12KeyStoreInStrictMode ci  * Workflow failure: Quarkus IT -    FipsDistTest#testUnsupportedHttpsPkcs12KeyStoreInStrictMode ci  * Freemarker erroneously escapes/sanitizes URL in template.ftl (&) login/ui  * Microsoft social login failure testsuite"
+  "date": "2024-02-22T11:10:39.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this updated tutorial we will learn how to design, configure and deploy a Messaging Reactive application on WildFly, using smallrye-reactive-messaging and Apache Kafka as distributed data streaming platform for our demo application. Overview of MicroProfile Reactive Applications Reactive Streams aims to provide a standard for exchanging data streams across an asynchronous boundary. In order ...  The post appeared first on ."
 }

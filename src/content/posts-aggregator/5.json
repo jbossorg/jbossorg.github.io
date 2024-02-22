@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #41 - February",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-41/",
+  "title": "Quarkus 3.7.3 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-7-3-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-02-13T00:00:00.000Z",
+  "date": "2024-02-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Learn how to create a Quarkus extension that provides three features that notify an API regarding the application’s starting status, offers a implementation class created with Gizmo, and count the number of methods using Jandex in \"Developing a Quarkus Extension\" by Matheus Cruz. Check out \"Serverless on Azure Function with Quarkus\" by Piotr Minkowski to see how to create and run serverless apps on Azure Function using the Quarkus Funqy extension. Learn how to use Wiremock with Quarkus to performing quality testing of your code with \"Wiremock & Quarkus: How to configure it\" by Daniel S. Blanco. Read \"Connect a Quarkus app to an external SQL Server database\" by Nikhil Mungale to learn how to use an external database with Quarkus and link an example application to an external Microsoft SQL Server database in this tutorial.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "content": "Today, we released Quarkus 3.7.3, our second (we skipped 3.7.0) maintenance release for the 3.7 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.7.   UPDATE  To update to Quarkus 3.7, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.7.  To migrate from 3.6, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
