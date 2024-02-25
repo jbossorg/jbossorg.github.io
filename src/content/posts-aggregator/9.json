@@ -1,13 +1,13 @@
 {
-  "title": "JBoss EAP 8 Top 10 New Features",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-eap/jboss-eap-8-top-10-new-features/",
+  "title": "Quarkus Newsletter #41 - February",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-41/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2024-02-12T07:20:28.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Red Hat JBoss Enterprise Application Platform (EAP) 8.0 is now available. The new major release introduces several new features and enhancements to enhance your application development and deployment experience. In this tutorial, we will explore these new features and learn how to leverage them effectively. JBoss EAP 8 includes several new features and applies to ...  The post appeared first on ."
+  "date": "2024-02-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Learn how to create a Quarkus extension that provides three features that notify an API regarding the application’s starting status, offers a implementation class created with Gizmo, and count the number of methods using Jandex in \"Developing a Quarkus Extension\" by Matheus Cruz. Check out \"Serverless on Azure Function with Quarkus\" by Piotr Minkowski to see how to create and run serverless apps on Azure Function using the Quarkus Funqy extension. Learn how to use Wiremock with Quarkus to performing quality testing of your code with \"Wiremock & Quarkus: How to configure it\" by Daniel S. Blanco. Read \"Connect a Quarkus app to an external SQL Server database\" by Nikhil Mungale to learn how to use an external database with Quarkus and link an example application to an external Microsoft SQL Server database in this tutorial.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }
