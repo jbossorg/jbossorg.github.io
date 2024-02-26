@@ -1,13 +1,13 @@
 {
-  "title": "Maven archetype for WildFly applications tutorial",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/jboss-maven/creating-a-maven-archetype-for-wildfly/",
+  "title": "WildFly Mini Conference",
+  "link": "https://wildfly.org//news/2024/02/12/WildFly-mini-conference/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Harald Pehl",
       "avatar": null
     }
   ],
-  "date": "2024-02-11T09:32:24.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial we will learn how to use WildFly Maven archetype to speed up your project creation either from the command line or using an IDE. We will also show how to use the built-in test Classes to test the built-in resources. Maven archetypes in a nutshell An archetype in a nutshell is a ...  The post appeared first on ."
+  "date": "2024-02-12T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "The WildFly team organizes a conference. The conference will take place on Wednesday, March 6, 2024. It starts at 14:00 UTC and includes four sessions with topics related to WildFly. All sessions will be streamed live on YouTube.  For more information, please take a look at the conference page at  We’re looking forward to seeing you there!"
 }
