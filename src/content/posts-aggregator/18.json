@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.8 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-8",
+  "title": "Configuring WildFly stability levels",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/configuring-wildfly-stability-levels/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-07T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.8 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-1300"
+  "date": "2024-02-07T18:06:49.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Welcome to the tutorial on WildFly Stability Levels! In this guide, we’ll explore the concept of stability levels in WildFly, how they are utilized, and how you can leverage them to ensure the quality, stability, and compatibility of the features you use. Introduction The WildFly project places a high emphasis on maintaining quality, stability, and ...  The post appeared first on ."
 }
