@@ -1,13 +1,13 @@
 {
-  "title": "How to run WildFly on Openshift",
-  "link": "https://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/",
+  "title": "How to deploy WildFly Bootable JAR on OpenShift",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-deploy-wildfly-bootable-jar-on-openshift/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-25T08:42:53.000Z",
+  "date": "2024-02-26T09:27:26.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we will learn how to build and deploy applications using Helm Charts. Then, we will learn how to use the S2I legacy approach which relies on ImageStreams and Templates. WildFly Cloud deployments There are two main strategies ...  The post appeared first on ."
+  "content": "In this updated article we will learn how to deploy an application built with WildFly Bootable JAR Maven on OpenShift using JKube Maven plugin. We will show how to add the plugin configuration to your Maven project and how to run and test the application on OpenShift. JKube Maven Plugin in a Nutshell Eclipse JKube ...  The post appeared first on ."
 }
