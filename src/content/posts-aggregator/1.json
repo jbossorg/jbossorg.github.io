@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Securing WildFly Apps with Okta on OpenShift",
-  "link": "https://www.youtube.com/watch?v=usquALvL2qc",
+  "title": "Getting started with GitHub Actions",
+  "link": "https://www.mastertheboss.com/ci-cd/getting-started-with-github-actions/",
   "author": [
     {
-      "name": "Prarthona Paul",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-29T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2024-03-01T12:50:28.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "GitHub Actions is a flexible and powerful automation service that allows you to automate, customize, and execute workflows directly in your GitHub repository. These workflows can automate various tasks such as building, testing, deploying, and publishing software. In this article we will learn how to get started with GitHub Actions by building a simple Maven ...  The post appeared first on ."
 }
