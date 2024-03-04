@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.7.3 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-7-3-released/",
+  "title": "How to check configuration changes in WildFly",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-check-configuration-changes-in-wildfly/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.7.3, our second (we skipped 3.7.0) maintenance release for the 3.7 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.7.   UPDATE  To update to Quarkus 3.7, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.7.  To migrate from 3.6, please refer to .  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-02-14T15:58:49.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you an Admin Tip to check the configuration changes that you have applied to the WildFly Model using the Command Line Interface. Firstly, in line of principle, there are several strategies for hardening WildFly, such as enabling auditing the CLI commands. The following article will discuss this topic more in detail: ...  The post appeared first on ."
 }
