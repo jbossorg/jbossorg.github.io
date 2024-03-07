@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 23.0.7 released",
-  "link": "https://www.keycloak.org/2024/02/keycloak-2307-released",
+  "title": "Eclipse Vert.x 4.5.4 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-4",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2024-02-22T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   OPERATOR DEPLOYS NIGHTLY BUILD INSTEAD OF 24.0.0  Due to an issue in the release process when deploying Keycloak using the Operator it installed the nightly container instead of 24.0.0.  As a quick fix to the issue, the 24.0.0 container was tagged with nightly, and the nightly releases was temporarily disabled.  If you installed or upgraded to 24.0.0 using the Operator before 5pm CET yesterday the database may have been updated with the wrong versions. To check if you are affected connect to your database and run the following SQL command:  SELECT * from migration_model WHERE version = '999.0.0';  If the above returns a matching row you will need to take some actions, otherwise database migrations will not run for future releases. To resolve this run the following SQL command:  UPDATE migration_model SET version = '24.0.0' WHERE version = '999.0.0';   UPGRADING  Before upgrading refer to for a complete list of changes."
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.4 has just been released. It fixes quite a few bugs that have been reported by the community"
 }
