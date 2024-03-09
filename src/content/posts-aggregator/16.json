@@ -1,13 +1,13 @@
 {
-  "title": "Reactive Messaging with AMQP and WildFly",
-  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/reactive-messaging-with-amqp-and-wildfly/",
+  "title": "How to run WildFly on Openshift",
+  "link": "https://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-23T09:42:53.000Z",
+  "date": "2024-02-25T08:42:53.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In the second article of this series, we will learn how to code, configure and deploy a Reactive Application using WildFly and an AMQP Broker such as Artemis MQ. We will show step-by-step how to set up the environment with Docker and deploy an example application on WildFly. MicroProfile Reactive Messaging with AMQP WildFly supports, ...  The post appeared first on ."
+  "content": "This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we will learn how to build and deploy applications using Helm Charts. Then, we will learn how to use the S2I legacy approach which relies on ImageStreams and Templates. WildFly Cloud deployments There are two main strategies ...  The post appeared first on ."
 }

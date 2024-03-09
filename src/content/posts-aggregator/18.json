@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.4 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-4",
+  "title": "Writing Reactive Applications with WildFly",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/building-reactive-applications-with-wildfly/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-22T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.4 has just been released. It fixes quite a few bugs that have been reported by the community"
+  "date": "2024-02-22T11:10:39.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this updated tutorial we will learn how to design, configure and deploy a Messaging Reactive application on WildFly, using smallrye-reactive-messaging and Apache Kafka as distributed data streaming platform for our demo application. Overview of MicroProfile Reactive Applications Reactive Streams aims to provide a standard for exchanging data streams across an asynchronous boundary. In order ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with GitHub Actions",
-  "link": "https://www.mastertheboss.com/ci-cd/getting-started-with-github-actions/",
+  "title": "Getting Started with Cucumber Testing in Java",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-cucumber-testing-in-java/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-01T12:50:28.000Z",
+  "date": "2024-03-02T11:18:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "GitHub Actions is a flexible and powerful automation service that allows you to automate, customize, and execute workflows directly in your GitHub repository. These workflows can automate various tasks such as building, testing, deploying, and publishing software. In this article we will learn how to get started with GitHub Actions by building a simple Maven ...  The post appeared first on ."
+  "content": "Cucumber is a popular open-source tool that supports Behavior-Driven Development (BDD) for testing software applications in Java. BDD emphasizes collaboration between developers, testers, and stakeholders by writing test scenarios in a readable, plain English language called Gherkin. This tutorial will guide you through the basics of setting up and writing your first Cucumber test in ...  The post appeared first on ."
 }
