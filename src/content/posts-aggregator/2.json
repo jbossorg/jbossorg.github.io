@@ -1,13 +1,13 @@
 {
-  "title": "Hosting a React Application on WildFly",
-  "link": "http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/",
+  "title": "Trying Out An Upcoming Security Feature for WildFly on OpenShift",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/in-progress-wildfly-feature-on-openshift/",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": "Prarthona Paul",
       "avatar": null
     }
   ],
-  "date": "2024-03-08T00:00:00.000Z",
+  "date": "2024-03-13T00:00:00.000Z",
   "feed_title": "WildFly",
-  "content": "As part of an upcoming development item I am going to be working with a React application deployed to the WildFly application server and invoking Jakarta RESTful Web Service endpoints to interact with the server side of the application.  I thought others might find it useful to see the steps I have taken. This blog post describes my steps up until the point I have the default React application deployed to WildFly, I may then follow up with some blogs of my subsequent steps."
+  "content": "A future release of WildFly will include the ability to add additional scope values when securing applications using OpenID Connect (OIDC). This blog post demonstrates how to secure a WildFly application using OpenID Connect and configure scope values to request additional claims using an in-progress version of the feature. This feature adds the ability to specify additional scope values in the authentication request for applications secured using OIDC. For updates on the status of the feature, please keep an eye on . We will also walk through how to deploy this feature on the cloud using ."
 }

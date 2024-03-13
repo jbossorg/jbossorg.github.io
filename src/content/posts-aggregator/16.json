@@ -1,13 +1,13 @@
 {
-  "title": "How to deploy WildFly Bootable JAR on OpenShift",
-  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/how-to-deploy-wildfly-bootable-jar-on-openshift/",
+  "title": "Reactive Messaging with RabbitMQ and WildFly",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/reactive-messaging-with-rabbitmq-and-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-26T09:27:26.000Z",
+  "date": "2024-02-26T12:17:57.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this updated article we will learn how to deploy an application built with WildFly Bootable JAR Maven on OpenShift using JKube Maven plugin. We will show how to add the plugin configuration to your Maven project and how to run and test the application on OpenShift. JKube Maven Plugin in a Nutshell Eclipse JKube ...  The post appeared first on ."
+  "content": "In the third article of this series, we will learn how to configure RabbitMQ as broker for a Reactive Application running on WildFly. We will show which are the changes we need to apply both on Rabbit MQ and on the Reactive Application to make them work together smoothly. Pre-requisites: Configuring Rabbit MQ to run ...  The post appeared first on ."
 }

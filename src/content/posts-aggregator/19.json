@@ -1,13 +1,13 @@
 {
-  "title": "Writing Reactive Applications with WildFly",
-  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/building-reactive-applications-with-wildfly/",
+  "title": "Reactive Messaging with AMQP and WildFly",
+  "link": "https://www.mastertheboss.com/eclipse/eclipse-microservices/reactive-messaging-with-amqp-and-wildfly/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-02-22T11:10:39.000Z",
+  "date": "2024-02-23T09:42:53.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In this updated tutorial we will learn how to design, configure and deploy a Messaging Reactive application on WildFly, using smallrye-reactive-messaging and Apache Kafka as distributed data streaming platform for our demo application. Overview of MicroProfile Reactive Applications Reactive Streams aims to provide a standard for exchanging data streams across an asynchronous boundary. In order ...  The post appeared first on ."
+  "content": "In the second article of this series, we will learn how to code, configure and deploy a Reactive Application using WildFly and an AMQP Broker such as Artemis MQ. We will show step-by-step how to set up the environment with Docker and deploy an example application on WildFly. MicroProfile Reactive Messaging with AMQP WildFly supports, ...  The post appeared first on ."
 }
