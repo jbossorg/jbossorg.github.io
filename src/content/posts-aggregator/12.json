@@ -1,13 +1,13 @@
 {
-  "title": "How to find WildFly REST Endpoints",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-find-wildfly-rest-endpoints/",
+  "title": "WildFly - The GitOps Way",
+  "link": "https://jmesnil.net/weblog/2024/03/05/wildfly-gitops/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jeff Mesnil",
       "avatar": null
     }
   ],
-  "date": "2024-03-04T12:02:21.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Discovering the list of available endpoints is crucial to map and troubleshoot REST Applications. This article will teach you three simple strategies to discover WildFly REST Endpoints which are available. Option 1: Use the Management Console The first and simplest approach is to access the Web Management Console to discover the active WildFly REST endpoints. ...  The post appeared first on ."
+  "date": "2024-03-07T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": ""
 }

@@ -1,13 +1,14 @@
 {
-  "title": "Getting started with GitHub Actions",
-  "link": "https://www.mastertheboss.com/ci-cd/getting-started-with-github-actions/",
+  "title": "Keycloak 24.0.0 released",
+  "link": "https://www.keycloak.org/2024/03/keycloak-2400-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-03-01T12:50:28.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "GitHub Actions is a flexible and powerful automation service that allows you to automate, customize, and execute workflows directly in your GitHub repository. These workflows can automate various tasks such as building, testing, deploying, and publishing software. In this article we will learn how to get started with GitHub Actions by building a simple Maven ...  The post appeared first on ."
+  "date": "2024-03-04T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   OPERATOR DEPLOYS NIGHTLY BUILD INSTEAD OF 24.0.0  Due to an issue in the release process when deploying Keycloak using the Operator it installed the nightly container instead of 24.0.0.  As a quick fix to the issue, the 24.0.0 container was tagged with nightly, and the nightly releases was temporarily disabled.  If you installed or upgraded to 24.0.0 using the Operator before 5pm CET yesterday the database may have been updated with the wrong versions. To check if you are affected connect to your database and run the following SQL command:  SELECT * from migration_model WHERE version = '999.0.0';  If the above returns a matching row you will need to take some actions, otherwise database migrations will not run for future releases. To resolve this run the following SQL command:  UPDATE migration_model SET version = '24.0.0' WHERE version = '999.0.0';   UPGRADING  Before upgrading refer to for a complete list of changes."
 }

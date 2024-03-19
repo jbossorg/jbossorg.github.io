@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 31.0.1 is released!",
-  "link": "https://wildfly.org//news/2024/02/28/WildFly3101-Released/",
+  "title": "Vlog: Securing WildFly Apps with Okta on OpenShift",
+  "link": "https://www.youtube.com/watch?v=usquALvL2qc",
   "author": [
     {
-      "name": "Brian Stansberry",
+      "name": "Prarthona Paul",
       "avatar": null
     }
   ],
-  "date": "2024-02-28T00:00:00.000Z",
+  "date": "2024-02-29T00:00:00.000Z",
   "feed_title": "WildFly",
-  "content": "WildFly 31.0.1.Final is now available .  It’s been about five weeks since the WildFly 31 release, so we’ve done a small bug fix update, WildFly 31.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 31.0.1:  BUGS   * [] - java.lang.OutOfMemoryError: Direct buffer memory   * [] - Mail Quickstart maven dependencies have wrong scope   * [] - Give the Apache Lucene module access to jdk.unsupported   * [] - SSL Client context not loaded with AMQP Connector used in bootable jar   * [] - Exception that happened during deployment is being hidden   * [] - JakartaEE application client: module \"org.hibernate\" is not added to    classpath   * [] - Regression due to SSLHandshakeException affecting HotRod client when    connecting to remote Infinispan  TASKS   * [] - Hibernate ORM 6.4+ should export services to consumer classpath  COMPONENT UPGRADES   * [] - Upgrade Infinispan to 14.0.22.Final   * [] - Upgrade jgroups-kubernetes to 2.0.2.Final   * [] - Upgrade to Hibernate 6.4.4.Final release   * [] - Upgrade Netty to 4.1.106   * [] - Upgrade Snappy Java to 1.1.10.5 (CVEs CVE-2023-34453, CVE-2023-34454,    CVE-2023-34455, CVE-2023-43642)   * [] - Upgrade nimbus-jose-jwt to 9.37.3 [CVE-2023-52428]   * [] - Upgrade HAL to 3.7.0.Final (WildFly 31.0.1.Final)   * [] - Upgrade Infinispan to 14.0.24.Final   * [] - Upgrade JGroups to 5.2.22.Final   * [] - Upgrade WildFly Core to 23.0.2.Final   * [] - Upgrade WildFly Core to 23.0.3.Final  ENHANCEMENTS   * [] - Add sha1 to Quickstart’s dist module  Issues resolved in the WildFly Core updates included with WildFly 31.0.1 were:  COMPONENT UPGRADES   * [] - CVE-2023-4639 Upgrade Undertow to 2.3.11.Final   * [] - CVE-2024-1635 Upgrade XNIO to 3.8.13.Final   * [] - CVE-2024-1635 Upgrade JBoss Remoting to 5.0.28.Final   * [] - CVE-2023-5379 CVE-2024-1459 CVE-2024-1635 Upgrade Undertow to    2.3.12.Final  Enjoy!"
+  "content": ""
 }

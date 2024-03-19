@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Cucumber Testing in Java",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/getting-started-with-cucumber-testing-in-java/",
+  "title": "How to find WildFly REST Endpoints",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-find-wildfly-rest-endpoints/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-02T11:18:00.000Z",
+  "date": "2024-03-04T12:02:21.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Cucumber is a popular open-source tool that supports Behavior-Driven Development (BDD) for testing software applications in Java. BDD emphasizes collaboration between developers, testers, and stakeholders by writing test scenarios in a readable, plain English language called Gherkin. This tutorial will guide you through the basics of setting up and writing your first Cucumber test in ...  The post appeared first on ."
+  "content": "Discovering the list of available endpoints is crucial to map and troubleshoot REST Applications. This article will teach you three simple strategies to discover WildFly REST Endpoints which are available. Option 1: Use the Management Console The first and simplest approach is to access the Web Management Console to discover the active WildFly REST endpoints. ...  The post appeared first on ."
 }

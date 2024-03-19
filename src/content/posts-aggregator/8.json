@@ -1,13 +1,13 @@
 {
-  "title": "Hosting a React Application on WildFly",
-  "link": "http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/",
+  "title": "Quarkus Newsletter #42 - March",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-42/",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2024-03-08T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "As part of an upcoming development item I am going to be working with a React application deployed to the WildFly application server and invoking Jakarta RESTful Web Service endpoints to interact with the server side of the application.  I thought others might find it useful to see the steps I have taken. This blog post describes my steps up until the point I have the default React application deployed to WildFly, I may then follow up with some blogs of my subsequent steps."
+  "date": "2024-03-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Read this great article \"How to integrate Quarkus applications with OpenShift AI\" by Clement Escoffier to discover how to integrate cutting-edge OpenShift AI capabilities into your Java applications using the OpenShift AI integration with Quarkus. Learn how to create a Java application that uses AI and large-language models (LLMs) by integrating the LangChain4j library and Red Hat build of Quarkus in \"How to use LLMs in Java with LangChain4j and Quarkus\" by Helber Belmiro. Nikhil Mungale wrote \"Connect a Quarkus app to an external SQL Server database\" to show how to use an external database with Quarkus and link an example application to an external Microsoft SQL Server database in this tutorial. Learn how to integrate Oracle NoSQL with Quarkus using JNoSQL for seamless cloud-native application development with Otavio Santana’s article \"Unlocking the Power of Oracle NoSQL With Quarkus: Seamless Integration for Cloud-Age Applications\". \"CRUDing NoSQL Data With Quarkus, Part One: MongoDB\" by Nicolas Duminil demonstrates how Quarkus, the supersonic, subatomic Java stack, greatly simplifies the NoSQL data persistence.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }
