@@ -1,13 +1,13 @@
 {
-  "title": "How to use a Datasource in Quarkus",
-  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
+  "title": "Using SAML with Keycloak",
+  "link": "https://www.mastertheboss.com/keycloak/using-saml-with-keycloak/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-15T18:00:22.000Z",
+  "date": "2024-03-18T07:35:09.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use a plain Datasource resource in a Quarkus application. We will create a simple REST Endpoint and inject a Datasource in it to extract the java.sql.Connection object. We will also learn how to configure the Datasource pool size. Quarkus Connection Pool Quarkus uses Agroal as connection pool implementation ...  The post appeared first on ."
+  "content": "In this tutorial, we’ll explore how to integrate SAML (Security Assertion Markup Language) with Keycloak. SAML 2.0 is a widely-used authentication protocol that exchanges XML documents between authentication servers and applications. In this article we will create a Keycloak SAML Client and then we will provision a WildFly Application Server which will be able to ...  The post appeared first on ."
 }
