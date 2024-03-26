@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.6 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-6",
+  "title": "How to run GitHub Actions locally",
+  "link": "https://www.mastertheboss.com/ci-cd/how-to-run-github-actions-locally/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-21T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.6 has just been released. It fixes quite a few bugs that have been reported by the community"
+  "date": "2024-03-21T15:17:32.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "GitHub Actions, a powerful tool provided by GitHub, enables developers to automate their workflows directly within their repositories. Whether it’s continuous integration (CI), continuous deployment (CD), or any other custom automation task, GitHub Actions simplifies the process. In this article we will learn how to test your GitHub Actions locally with the act CLI tool. ...  The post appeared first on ."
 }
