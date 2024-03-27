@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.5 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-5",
+  "title": "How to use a Datasource in Quarkus",
+  "link": "https://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-14T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.5 has just been released. It fixes quite a few bugs that have been reported by the community"
+  "date": "2024-03-15T18:00:22.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use a plain Datasource resource in a Quarkus application. We will create a simple REST Endpoint and inject a Datasource in it to extract the java.sql.Connection object. We will also learn how to configure the Datasource pool size. Quarkus Connection Pool Quarkus uses Agroal as connection pool implementation ...  The post appeared first on ."
 }

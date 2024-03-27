@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.8.Final Release",
-  "link": "https://resteasy.dev/2024/03/22/6.2.8-releas/",
+  "title": "How to create a KeyCloak Provider",
+  "link": "https://www.mastertheboss.com/keycloak/how-to-create-a-keycloak-provider/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-22T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2024-03-25T17:08:32.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Keycloak offers a range of Service Provider Interfaces (SPIs) that enable specific functionalities within the server. By following this guide, you’ll understand how to code and install a custom Provider that you can add to your Keycloak installation. Keycloak Providers in a nutshell In Keycloak, a provider is an extension that adds specific functionality to ...  The post appeared first on ."
 }

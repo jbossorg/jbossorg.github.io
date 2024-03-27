@@ -1,13 +1,13 @@
 {
-  "title": "Getting Started with Jakarta Data API",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-data-api/",
+  "title": "Ansible CheatSheet for DevOps",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-26T10:15:37.000Z",
+  "date": "2024-03-27T09:29:54.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Jakarta Data API is a powerful specification that simplifies data access across a variety of database types, including relational and NoSQL databases. In this article you will learn how to leverage this programming model which will be part of Jakarta 11 bundle. Overview of Jakarta Data API Jakarta.Data API: Offers a higher-level abstraction for data ...  The post appeared first on ."
+  "content": "Welcome to the Ansible Cheatsheet which contains a list of the most common commands and scripts that you can use to get started quickly with Ansible, Ansible Playbooks and Ansible Roles. Note: if you are new to Ansible we recommend checking this article: Ansible Playbook Example for beginners Ansible CheatSheet Install & SSH set up ...  The post appeared first on ."
 }

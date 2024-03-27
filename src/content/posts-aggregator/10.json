@@ -1,13 +1,13 @@
 {
-  "title": "WildFly Mini Conference Recap",
-  "link": "https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/",
+  "title": "Infinispan Operator 2.4.0",
+  "link": "https://infinispan.org/blog/2024/03/19/infinispan-resp-resque-use-case",
   "author": [
     {
-      "name": "Harald Pehl",
+      "name": "Ryan Emerson",
       "avatar": null
     }
   ],
-  "date": "2024-03-19T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "Many thanks to all participants of the first WildFly Mini Conference!  Our first WildFly Mini Conference took place on March 6. We had four talks on the and many interesting questions and feedback. The feedback we have received so far has been very positive and has encouraged us to organize similar events for the community in the future. Stay tuned!  If you have missed the conference, you can watch the recording at  If you haven’t done so far, please let us know how you liked the conference using our .  For those who want to take a look at the slides, here are the links.   *    *    *    *   You’ll find the links also on the and in the description of the ."
+  "date": "2024-03-20T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "We’re pleased to announce for Kubernetes and Red Hat OpenShift.  This is the first Operator release based on Infinispan 15.   RELEASE HIGHLIGHTS:   * Infinispan 14.0.27.Final support   * Infinispan 15.0.0.Final support   * Allow Readiness, Liveness and Startup probe values to be configured   * Simplify JGroups configuration to use \"Kubernetes\" stack provided by    Infinispan server   * CloudEvents integration no longer has any effect with 15.0.x servers onwards   * Cross-Site Replication (XSite) improvements:         * Use TLSv1.3 as default         * TLS client authentication by default         * Configure Gossip Route idle connection timeout   OPERATORHUB CHANNEL  From this release onwards all Infinispan Operator releases will be added to the \"stable\" channel. Please transition from the \"2.3.x\" Subscription channel to \"stable\" in order to consume 2.4.0.  Our intention is to continue our current versioning scheme, whereby the Operator minor version is incremented when support for a new Infinispan major version is added. However, to simplify upgrades, all future Operator releases will be added to the \"stable\" channel, instead of x.y.z, so that it’s no longer necessary for the Subscription channel to be changed when upgrading.   INFINISPAN SERVER SUPPORT  Future 2.4.x Operator releases will include the latest releases for both the 15.0.x and 14.0.x Infinispan server streams. While we always recommend users to transition to the latest Infinispan major version as soon as possible, supporting both server streams in the Operator will provided additional flexibility those depending on Infinispan as part of a 3rd party integration, e.g. Keycloak users."
 }
