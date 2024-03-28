@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 22 September 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus,resteasy,kie,keycloak,wildfly">
+      <h1>This Week in JBoss - 22 September 2022</h1>
+      
+    <p class="preamble"><p><em>Hi everyone and welcome to the latest installment of JBoss editorial! Today&#8217;s stars of the show: Quarkus and KIE (Kogito/Drools)</em></p></p>
+<div class="sect1">
+<h2 id="_quarkus">Quarkus</h2>
+<div class="sectionbody">
+<p>Quarkus is quite busy this month! Just yesterday, the project released <a href="https://quarkus.io/blog/quarkus-2-12-3-final-released/">Quarkus 2.12.3.Final</a>, the third round of bugfixes and performance enhance of for the 2.12, which we mentioned in our previous editorial. But that&#8217;s not all, Quarkus tooling also got some love with the release of <a href="https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/">Quarkus Tools for IntelliJ 1.13.0 released!</a>.</p>
+<p>Beyond the publication of new software and bugfixes, James Cobb also took the time to publish the 24th installment of the <a href="https://quarkus.io/newsletter/24/">Quarkus Newsletter</a>, a must-read for anyone who wants to follow or play with Quarkus! And to this point, an interesting new player has joined the project&#8217;s community: <a href="https://quarkus.io/blog/aphp-user-story/">Quarkus adoption by APHP (Assistance Publique des Hôpitaux de Paris)</a>!</p>
+<p>Of course, if you are already familiar with Quarkus, you may want something more technical to quench your thirst and Clément Escoffier has just the article for you: <a href="https://quarkus.io/blog/redis-job-queue/">How to implement a job queue with Redis</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kie">KIE</h2>
+<div class="sectionbody">
+<p>KIE community has been quite active too in the last days and produced quite an amount of interesting articles about their technology. First, we&#8217;ll suggest you&#8217;ll dive into this one about <a href="https://blog.kie.org/2022/09/creating-your-first-cloud-agnostic-serverless-application-with-java.html">Creating your first cloud-agnostic serverless application with Java</a>. It&#8217;s a good place to start!</p>
+<p>Another one, called <a href="https://blog.kie.org/2022/09/new-visualizer-for-the-serverless-workflow-editor.html">New visualizer for the Serverless Workflow Editor</a> provides a nice overview of this new tool and we&#8217;ll certainly learn more about it and use it. If you are more interested into technical details and implementation, you are in luck, there is a rather detailed overview of the <a href="https://blog.kie.org/2022/09/efesto-refactoring-technical-details.html">Efesto refactoring</a>.</p>
+<p>Wait, that&#8217;s not all! Check out this article, and the video it links to: <a href="https://blog.kie.org/2022/09/transparent-ml-integrating-drools-with-aix360.html">Transparent ML, integrating Drools with AIX360</a>!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_techbytes">Techbytes</h2>
+<div class="sectionbody">
+<p>If KIE and Quarkus have been the most prolific of the last two weeks, there is still a few more articles, coming from other projects, that you may want to check out:
+* <a href="http://www.mastertheboss.com/java/how-to-spot-java-bugs-with-spotbugs/">How to spot Java bugs with SpotBugs</a>
+* <a href="http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/">Getting started with Jakarta RESTful Services</a>
+* <a href="https://infinispan.org/blog/2022/09/12/infinispan-14-console-wizard">Creating cache with wizard - Infinispan 14</a>
+* <a href="https://www.wildfly.org//news/2022/09/14/Remote-dev-watch/">Remote dev-watch development with WildFly Jar Maven Plugin</a>
+* <a href="https://blog.kie.org/2022/09/multiple-repositories-pull-request-chaos-crawl-them-all-in-one-single-place.html">Multiple repositories Pull Request chaos, crawl them all in one single place</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>As always, the JBoss community has been quite active and a few projects published new version in the last two weeks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-5-3-final-released/">Quarkus 2.12.2.Final released</a> followed by <a href="https://quarkus.io/blog/quarkus-2-12-3-final-released/">Quarkus 2.12.3.Final</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/intellij-quarkus-tools-1.13.0/">Quarkus Tools for IntelliJ 1.13.0 released!</a></p>
+</li>
+<li>
+<p><a href="https://resteasy.dev/2022/09/08/resteasy-6.2.0.Beta1-release/">RESTEasy 6.2.0.Beta1 Release</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2022/09/keycloak-1902-released">Keycloak 19.0.2 released</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf'</h2>
+<div class="sectionbody">
+<p>Feeling too jittery? Enough Java for now? Get refreshed with these two next articles about <strong>regular expressions</strong>:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://developers.redhat.com/articles/2022/09/14/beginners-guide-regular-expressions-grep">A beginner’s guide to regular expressions with grep</a></p>
+</li>
+<li>
+<p><a href="https://developers.redhat.com/articles/2022/09/16/regex-how-quantifiers-pattern-collections-and-word-boundaries">Regex how-to: Quantifiers, pattern collections, and word boundaries</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again next time for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
