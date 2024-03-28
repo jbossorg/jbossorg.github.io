@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #42 - March",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-42/",
+  "title": "Eclipse Vert.x 4.5.5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-5",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-03-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read this great article \"How to integrate Quarkus applications with OpenShift AI\" by Clement Escoffier to discover how to integrate cutting-edge OpenShift AI capabilities into your Java applications using the OpenShift AI integration with Quarkus. Learn how to create a Java application that uses AI and large-language models (LLMs) by integrating the LangChain4j library and Red Hat build of Quarkus in \"How to use LLMs in Java with LangChain4j and Quarkus\" by Helber Belmiro. Nikhil Mungale wrote \"Connect a Quarkus app to an external SQL Server database\" to show how to use an external database with Quarkus and link an example application to an external Microsoft SQL Server database in this tutorial. Learn how to integrate Oracle NoSQL with Quarkus using JNoSQL for seamless cloud-native application development with Otavio Santana’s article \"Unlocking the Power of Oracle NoSQL With Quarkus: Seamless Integration for Cloud-Age Applications\". \"CRUDing NoSQL Data With Quarkus, Part One: MongoDB\" by Nicolas Duminil demonstrates how Quarkus, the supersonic, subatomic Java stack, greatly simplifies the NoSQL data persistence.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2024-03-14T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.5 has just been released. It fixes quite a few bugs that have been reported by the community"
 }
