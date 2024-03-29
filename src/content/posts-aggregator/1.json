@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.4.9 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-9",
+  "title": "How to replace Java Security Manager",
+  "link": "https://www.mastertheboss.com/uncategorised/how-to-replace-java-security-manager/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-28T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.4.9 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-29025"
+  "date": "2024-03-29T14:49:27.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The Java SecurityManager, a veteran of the platform since JDK 1.0, has been officially deprecated for removal. Besides, Jakarta EE 11 removes support for running with a SecurityManager. This article explores the reasons behind this decision and the future of application security in Java. The demise of Java’s SecurityManager Originally designed as a centralized authority ...  The post appeared first on ."
 }
