@@ -1,13 +1,13 @@
 {
-  "title": "Using SAML with Keycloak",
-  "link": "https://www.mastertheboss.com/keycloak/using-saml-with-keycloak/",
+  "title": "WildFly Mini Conference Recap",
+  "link": "https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Harald Pehl",
       "avatar": null
     }
   ],
-  "date": "2024-03-18T07:35:09.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we’ll explore how to integrate SAML (Security Assertion Markup Language) with Keycloak. SAML 2.0 is a widely-used authentication protocol that exchanges XML documents between authentication servers and applications. In this article we will create a Keycloak SAML Client and then we will provision a WildFly Application Server which will be able to ...  The post appeared first on ."
+  "date": "2024-03-19T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "Many thanks to all participants of the first WildFly Mini Conference!  Our first WildFly Mini Conference took place on March 6. We had four talks on the and many interesting questions and feedback. The feedback we have received so far has been very positive and has encouraged us to organize similar events for the community in the future. Stay tuned!  If you have missed the conference, you can watch the recording at  If you haven’t done so far, please let us know how you liked the conference using our .  For those who want to take a look at the slides, here are the links.   *    *    *    *   You’ll find the links also on the and in the description of the ."
 }
