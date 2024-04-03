@@ -1,13 +1,13 @@
 {
-  "title": "Ansible CheatSheet for DevOps",
-  "link": "https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/",
+  "title": "How to install KeyCloak with Ansible",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/how-to-install-keycloak-with-ansible/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-27T09:29:54.000Z",
+  "date": "2024-03-27T13:24:35.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Welcome to the Ansible Cheatsheet which contains a list of the most common commands and scripts that you can use to get started quickly with Ansible, Ansible Playbooks and Ansible Roles. Note: if you are new to Ansible we recommend checking this article: Ansible Playbook Example for beginners Ansible CheatSheet Install & SSH set up ...  The post appeared first on ."
+  "content": "This tutorial guides you through provisioning a Keycloak server using Ansible. Keycloak is an open-source identity and access management (IAM) solution perfect for securing your applications. Ansible is a powerful automation tool that simplifies server configuration and deployment. Prerequisites: Step 1: Install Keycloak Role Ansible playbook and roles are available here: https://github.com/ansible-middleware/keycloak/tree/main Download or clone ...  The post appeared first on ."
 }
