@@ -1,13 +1,13 @@
 {
-  "title": "How to create a KeyCloak Provider",
-  "link": "https://www.mastertheboss.com/keycloak/how-to-create-a-keycloak-provider/",
+  "title": "Getting Started with Jakarta Data API",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-data-api/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-25T17:08:32.000Z",
+  "date": "2024-03-26T10:15:37.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Keycloak offers a range of Service Provider Interfaces (SPIs) that enable specific functionalities within the server. By following this guide, you’ll understand how to code and install a custom Provider that you can add to your Keycloak installation. Keycloak Providers in a nutshell In Keycloak, a provider is an extension that adds specific functionality to ...  The post appeared first on ."
+  "content": "Jakarta Data API is a powerful specification that simplifies data access across a variety of database types, including relational and NoSQL databases. In this article you will learn how to leverage this programming model which will be part of Jakarta 11 bundle. Overview of Jakarta Data API Jakarta.Data API: Offers a higher-level abstraction for data ...  The post appeared first on ."
 }
