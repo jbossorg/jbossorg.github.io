@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: WildFly Glow, direct deployment to OpenShift",
-  "link": "https://youtu.be/GkfSHiqyBDU",
+  "title": "Eclipse Vert.x 4.4.9 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-4-9",
   "author": [
     {
-      "name": "Jean-François Denise",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2024-03-28T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.4.9 has just been released. It fixes a few bugs that have been reported by the community as well as CVE-2024-29025"
 }
