@@ -1,13 +1,13 @@
 {
-  "title": "How to run GitHub Actions locally",
-  "link": "https://www.mastertheboss.com/ci-cd/how-to-run-github-actions-locally/",
+  "title": "RESTEasy 6.2.8.Final Release",
+  "link": "https://resteasy.dev/2024/03/22/6.2.8-releas/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-03-21T15:17:32.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "GitHub Actions, a powerful tool provided by GitHub, enables developers to automate their workflows directly within their repositories. Whether it’s continuous integration (CI), continuous deployment (CD), or any other custom automation task, GitHub Actions simplifies the process. In this article we will learn how to test your GitHub Actions locally with the act CLI tool. ...  The post appeared first on ."
+  "date": "2024-03-22T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
