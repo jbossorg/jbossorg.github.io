@@ -1,13 +1,13 @@
 {
-  "title": "Improving the Vert.x Micrometer Metrics performance",
-  "link": "https://vertx.io/blog/micrometer-metrics-performance",
+  "title": "Simplifying migration to Jakarta EE with tools",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/simplifying-to-migration-to-jakarta-ee-with-tools/",
   "author": [
     {
-      "name": "Thomas Segismont",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-11T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Vert.x 5 is coming with many great new features and enhancements. In this article, you'll learn about the Vert.x Micrometer Metrics performance improvements."
+  "date": "2024-04-11T08:44:37.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this article we will learn some of the available tools or plugins you can use to migrate your legacy Java EE/Jakarta EE 8 applications to the newer Jakarta EE environment. We will also discuss the common challenges that you can solve by using tools rather than performing a manual migration of your projects. Challenges ...  The post appeared first on ."
 }
