@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 24.0.3 released",
-  "link": "https://www.keycloak.org/2024/04/keycloak-2403-released",
+  "title": "Speed your migration to JBoss EAP 8 with Windup",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak and MSAD: enabling account in MSAD does not propagate to Keycloak    ldap   BUGS   * Cannot disable LDAP-backed user if importEnabled=false ldap  * Failed authentication: java.lang.NullPointerException: Cannot invoke    \"org.keycloak.models.UserModel.getFederationLink()\" because \"this.delegate\"    is null identity-brokering  * Update user makes User ID changes when federationLink and LDAP_ID is not set    properly admin/api  * The false option of the pkceMethod init parameter for the JavaScript adapter    is ignored adapter/javascript  * Missing permission to read configmaps in `keycloak-operator-role` operator"
+  "date": "2024-04-16T15:41:07.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Windup is a set of tools that support the migration and modernization of Java applications by producing detailed code analysis, effort estimation and migration steps. In this article, we will show how to produce a migration report for a JBoss EAP 7 application that we want to move to JBoss EAP 8. Windup Overview Windup ...  The post appeared first on ."
 }

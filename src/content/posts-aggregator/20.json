@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.7 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-7",
+  "title": "Ansible CheatSheet for DevOps",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-27T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.7 has just been released. It fixes a few bugs that have been reported by the community as well as a fix for CVE-2024-29025"
+  "date": "2024-03-27T09:29:54.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Welcome to the Ansible Cheatsheet which contains a list of the most common commands and scripts that you can use to get started quickly with Ansible, Ansible Playbooks and Ansible Roles. Note: if you are new to Ansible we recommend checking this article: Ansible Playbook Example for beginners Ansible CheatSheet Install & SSH set up ...  The post appeared first on ."
 }
