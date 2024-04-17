@@ -1,13 +1,13 @@
 {
-  "title": "Hibernate finds a new Home at Commonhaus Foundation",
-  "link": "https://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/hibernate-finds-a-new-home-at-commonhaus-foundation/",
+  "title": "Improving the Vert.x Micrometer Metrics performance",
+  "link": "https://vertx.io/blog/micrometer-metrics-performance",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Thomas Segismont",
       "avatar": null
     }
   ],
-  "date": "2024-04-10T07:22:39.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "For the past two decades, Hibernate, a cornerstone of Java data persistence, has thrived under the stewardship of JBoss and Red Hat. Today, the project announces a significant shift: its move to the Commonhaus Foundation, a neutral ground for open-source projects. Why the Move? As discussed in the announcement, while Red Hat’s support has been ...  The post appeared first on ."
+  "date": "2024-04-11T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Vert.x 5 is coming with many great new features and enhancements. In this article, you'll learn about the Vert.x Micrometer Metrics performance improvements."
 }

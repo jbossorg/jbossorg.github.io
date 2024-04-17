@@ -1,13 +1,13 @@
 {
-  "title": "Speed your migration to JBoss EAP 8 with Windup",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/",
+  "title": "How to configure Keycloak Log Level",
+  "link": "https://www.mastertheboss.com/keycloak/how-to-configure-keycloak-log-level/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-16T15:41:07.000Z",
+  "date": "2024-04-17T06:45:16.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Windup is a set of tools that support the migration and modernization of Java applications by producing detailed code analysis, effort estimation and migration steps. In this article, we will show how to produce a migration report for a JBoss EAP 7 application that we want to move to JBoss EAP 8. Windup Overview Windup ...  The post appeared first on ."
+  "content": "In this brief tutorial, we will explore how to configure the log level for a Keycloak distribution powered by Quarkus. We’ll walk through the process of applying this change persistently or as a startup option, providing administrators with flexibility in managing logging settings. The latest Keycloak distribution runs on top of Quarkus Runtime. If you ...  The post appeared first on ."
 }
