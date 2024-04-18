@@ -1,13 +1,14 @@
 {
-  "title": "Simplifying migration to Jakarta EE with tools",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/simplifying-to-migration-to-jakarta-ee-with-tools/",
+  "title": "Recap from KubeCon + CloudNativeCon Europe 2024",
+  "link": "https://www.keycloak.org/2024/04/keycloak-at-kubecon-eu-2024-recap",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Thomas Darimont",
       "avatar": null
     }
   ],
-  "date": "2024-04-11T08:44:37.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article we will learn some of the available tools or plugins you can use to migrate your legacy Java EE/Jakarta EE 8 applications to the newer Jakarta EE environment. We will also discuss the common challenges that you can solve by using tools rather than performing a manual migration of your projects. Challenges ...  The post appeared first on ."
+  "date": "2024-04-15T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "After a packed week of fantastic talks at , we’re delighted to share our impressions with the rest of the Keycloak community.   KEYCLOAK AND OAUTH2 TOKEN EXCHANGE FOR MICROSERVICE API SECURITY  The presence of Keycloak in many presentations highlighted its importance in the cloud-native ecosystem. Notably, the talk on underscored its application in microservice security and pinpointed areas for Keycloak’s enhancement. Efforts to advance the support for Token Exchange are underway, and community feedback is invaluable. Please join the to help us out.   KEYCLOAK AND THE SECRETS OF THE UNIVERSE AT CERN  A standout moment was learning about Keycloak’s role at CERN in the talk , emphasizing its contribution to securing the particle accelerator’s IAM infrastructure. Keycloak supports research on the nature of the universe. How cool is that :)   KEYCLOAK, OPENFGA, AND KUBERNETES AUTHORIZER  on federated IAM with OpenFGA showcased innovative approaches for managing access to Kubernetes resources through the combination of Keycloak, and a . In particular, the demonstration of temporarily elevated access to Kubernetes resources was very well received.   KEYCLOAK: THE LEADING EDGE OF AUTHN AND AUTHZ  Last but not least, our session, , introduced the latest Keycloak advancements, including support for , , and OpenID for Verifiable Credentials (). As part of our talk, we showed the current and with .   SUMMARY  Keycloak is an essential pillar of many cloud-native systems and significantly impacted the conference, attracting thousands of Kubernetes and cloud-native professionals.  The engagement and collaborative spirit of the cloud-native community were genuinely inspiring, underscoring the collective drive to enhance and innovate within this vibrant ecosystem.  We’re very proud and happy to be part of this fantastic community!"
 }

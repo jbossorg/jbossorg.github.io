@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: WildFly Glow, direct deployment to OpenShift",
-  "link": "https://youtu.be/GkfSHiqyBDU",
+  "title": "How to replace Java Security Manager",
+  "link": "https://www.mastertheboss.com/java/how-to-replace-java-security-manager/",
   "author": [
     {
-      "name": "Jean-François Denise",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-03-28T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": ""
+  "date": "2024-03-29T14:49:27.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "The Java SecurityManager, a veteran of the platform since JDK 1.0, has been officially deprecated for removal. Besides, Jakarta EE 11 removes support for running with a SecurityManager. This article explores the reasons behind this decision and the future of application security in Java. The demise of Java’s SecurityManager Originally designed as a centralized authority ...  The post appeared first on ."
 }

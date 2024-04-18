@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 24.0.3 released",
-  "link": "https://www.keycloak.org/2024/04/keycloak-2403-released",
+  "title": "Quarkus 3.8.4 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-8-4-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-04-16T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak and MSAD: enabling account in MSAD does not propagate to Keycloak    ldap   BUGS   * Cannot disable LDAP-backed user if importEnabled=false ldap  * Failed authentication: java.lang.NullPointerException: Cannot invoke    \"org.keycloak.models.UserModel.getFederationLink()\" because \"this.delegate\"    is null identity-brokering  * Update user makes User ID changes when federationLink and LDAP_ID is not set    properly admin/api  * The false option of the pkceMethod init parameter for the JavaScript adapter    is ignored adapter/javascript  * Missing permission to read configmaps in `keycloak-operator-role` operator"
+  "date": "2024-04-17T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.8.4, our third (we skipped 3.8.0) maintenance release for our 3.8 LTS release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.8.   UPDATE  To update to Quarkus 3.8, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.8  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.8.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }

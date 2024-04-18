@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #43 - April",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-43/",
+  "title": "Speed your migration to JBoss EAP 8 with Windup",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-16T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Check out these great articles in the April newsletter. \"The Power of LLMs in Java: Leveraging Quarkus and LangChain4j\" by Nicolas Duminil attempts to demystify the use of LLMs in Java, with Quarkus and LangChain4j, across a ludic and hopefully original project. Learn about some challenges running several simultaneous Quarkus app containers on your machine with the Quarkus’ remote development mode activated presents in \"Multiplying The Developer Joy: Multiple Quarkus Containers + Simultaneous Remote Development Sessions\" by Rustam Mehmandarov. See how to configure Quarkus OIDC with Google Cloud credentials in \"OIDC with Google & Quarkus\" by Prabodh Agarwal. \"An Open Plea to the Quarkus Team\" by Preslav Rachev asks us to rethink the way the Java community sees Quarkus the framework. \"Getting started with MongoDB and Quarkus: Beyond the basics\" by Hans-Peter Grahsl is Part 2 of is article on how to Connect your Quarkus application to a fully-managed MongoDB database instance. Learn how to lower the level of a logger in Quarkus to better understand when something goes wrong and how to fix it with Gwenneg Lepage’s \"Changing the Quarkus loggers level from Unleash\" article.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2024-04-16T15:41:07.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Windup is a set of tools that support the migration and modernization of Java applications by producing detailed code analysis, effort estimation and migration steps. In this article, we will show how to produce a migration report for a JBoss EAP 7 application that we want to move to JBoss EAP 8. Windup Overview Windup ...  The post appeared first on ."
 }

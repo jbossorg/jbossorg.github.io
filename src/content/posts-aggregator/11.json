@@ -1,13 +1,13 @@
 {
-  "title": "Hibernate finds a new Home at Commonhaus Foundation",
-  "link": "https://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/hibernate-finds-a-new-home-at-commonhaus-foundation/",
+  "title": "Simplifying migration to Jakarta EE with tools",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/simplifying-to-migration-to-jakarta-ee-with-tools/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-10T07:22:39.000Z",
+  "date": "2024-04-11T08:44:37.000Z",
   "feed_title": "Mastertheboss",
-  "content": "For the past two decades, Hibernate, a cornerstone of Java data persistence, has thrived under the stewardship of JBoss and Red Hat. Today, the project announces a significant shift: its move to the Commonhaus Foundation, a neutral ground for open-source projects. Why the Move? As discussed in the announcement, while Red Hat’s support has been ...  The post appeared first on ."
+  "content": "In this article we will learn some of the available tools or plugins you can use to migrate your legacy Java EE/Jakarta EE 8 applications to the newer Jakarta EE environment. We will also discuss the common challenges that you can solve by using tools rather than performing a manual migration of your projects. Challenges ...  The post appeared first on ."
 }

@@ -1,13 +1,13 @@
 {
-  "title": "Improving the Vert.x Micrometer Metrics performance",
-  "link": "https://vertx.io/blog/micrometer-metrics-performance",
+  "title": "A Beginner’s Guide to Ansible Ad Hoc Commands",
+  "link": "https://www.mastertheboss.com/various-stuff/ansible/a-beginners-guide-to-ansible-ad-hoc-commands/",
   "author": [
     {
-      "name": "Thomas Segismont",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-11T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Vert.x 5 is coming with many great new features and enhancements. In this article, you'll learn about the Vert.x Micrometer Metrics performance improvements."
+  "date": "2024-04-11T11:32:24.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Ansible is a powerful automation tool that allows you to manage and configure your infrastructure through code. One of its most convenient features is the ability to run ad hoc commands, which are one-off commands executed against your managed hosts without the need for writing a full playbook. In this tutorial, we’ll explore how to ...  The post appeared first on ."
 }
