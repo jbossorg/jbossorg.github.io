@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus Newsletter #43 - April",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-43/",
+  "title": "Keycloak 24.0.3 released",
+  "link": "https://www.keycloak.org/2024/04/keycloak-2403-released",
   "author": [
     {
-      "name": "James Cobb",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2024-04-16T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Check out these great articles in the April newsletter. \"The Power of LLMs in Java: Leveraging Quarkus and LangChain4j\" by Nicolas Duminil attempts to demystify the use of LLMs in Java, with Quarkus and LangChain4j, across a ludic and hopefully original project. Learn about some challenges running several simultaneous Quarkus app containers on your machine with the Quarkus’ remote development mode activated presents in \"Multiplying The Developer Joy: Multiple Quarkus Containers + Simultaneous Remote Development Sessions\" by Rustam Mehmandarov. See how to configure Quarkus OIDC with Google Cloud credentials in \"OIDC with Google & Quarkus\" by Prabodh Agarwal. \"An Open Plea to the Quarkus Team\" by Preslav Rachev asks us to rethink the way the Java community sees Quarkus the framework. \"Getting started with MongoDB and Quarkus: Beyond the basics\" by Hans-Peter Grahsl is Part 2 of is article on how to Connect your Quarkus application to a fully-managed MongoDB database instance. Learn how to lower the level of a logger in Quarkus to better understand when something goes wrong and how to fix it with Gwenneg Lepage’s \"Changing the Quarkus loggers level from Unleash\" article.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak and MSAD: enabling account in MSAD does not propagate to Keycloak    ldap   BUGS   * Cannot disable LDAP-backed user if importEnabled=false ldap  * Failed authentication: java.lang.NullPointerException: Cannot invoke    \"org.keycloak.models.UserModel.getFederationLink()\" because \"this.delegate\"    is null identity-brokering  * Update user makes User ID changes when federationLink and LDAP_ID is not set    properly admin/api  * The false option of the pkceMethod init parameter for the JavaScript adapter    is ignored adapter/javascript  * Missing permission to read configmaps in `keycloak-operator-role` operator"
 }

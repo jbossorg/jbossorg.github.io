@@ -1,14 +1,13 @@
 {
-  "title": "Recap from KubeCon + CloudNativeCon Europe 2024",
-  "link": "https://www.keycloak.org/2024/04/keycloak-at-kubecon-eu-2024-recap",
+  "title": "Quarkus Newsletter #43 - April",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-43/",
   "author": [
     {
-      "name": "Thomas Darimont",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2024-04-15T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "After a packed week of fantastic talks at , we’re delighted to share our impressions with the rest of the Keycloak community.   KEYCLOAK AND OAUTH2 TOKEN EXCHANGE FOR MICROSERVICE API SECURITY  The presence of Keycloak in many presentations highlighted its importance in the cloud-native ecosystem. Notably, the talk on underscored its application in microservice security and pinpointed areas for Keycloak’s enhancement. Efforts to advance the support for Token Exchange are underway, and community feedback is invaluable. Please join the to help us out.   KEYCLOAK AND THE SECRETS OF THE UNIVERSE AT CERN  A standout moment was learning about Keycloak’s role at CERN in the talk , emphasizing its contribution to securing the particle accelerator’s IAM infrastructure. Keycloak supports research on the nature of the universe. How cool is that :)   KEYCLOAK, OPENFGA, AND KUBERNETES AUTHORIZER  on federated IAM with OpenFGA showcased innovative approaches for managing access to Kubernetes resources through the combination of Keycloak, and a . In particular, the demonstration of temporarily elevated access to Kubernetes resources was very well received.   KEYCLOAK: THE LEADING EDGE OF AUTHN AND AUTHZ  Last but not least, our session, , introduced the latest Keycloak advancements, including support for , , and OpenID for Verifiable Credentials (). As part of our talk, we showed the current and with .   SUMMARY  Keycloak is an essential pillar of many cloud-native systems and significantly impacted the conference, attracting thousands of Kubernetes and cloud-native professionals.  The engagement and collaborative spirit of the cloud-native community were genuinely inspiring, underscoring the collective drive to enhance and innovate within this vibrant ecosystem.  We’re very proud and happy to be part of this fantastic community!"
+  "date": "2024-04-16T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Check out these great articles in the April newsletter. \"The Power of LLMs in Java: Leveraging Quarkus and LangChain4j\" by Nicolas Duminil attempts to demystify the use of LLMs in Java, with Quarkus and LangChain4j, across a ludic and hopefully original project. Learn about some challenges running several simultaneous Quarkus app containers on your machine with the Quarkus’ remote development mode activated presents in \"Multiplying The Developer Joy: Multiple Quarkus Containers + Simultaneous Remote Development Sessions\" by Rustam Mehmandarov. See how to configure Quarkus OIDC with Google Cloud credentials in \"OIDC with Google & Quarkus\" by Prabodh Agarwal. \"An Open Plea to the Quarkus Team\" by Preslav Rachev asks us to rethink the way the Java community sees Quarkus the framework. \"Getting started with MongoDB and Quarkus: Beyond the basics\" by Hans-Peter Grahsl is Part 2 of is article on how to Connect your Quarkus application to a fully-managed MongoDB database instance. Learn how to lower the level of a logger in Quarkus to better understand when something goes wrong and how to fix it with Gwenneg Lepage’s \"Changing the Quarkus loggers level from Unleash\" article.  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }
