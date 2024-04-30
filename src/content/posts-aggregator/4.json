@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.9.5 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-9-5-released/",
+  "title": "Secure WildFly applications with OpenID Connect",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.9.5, our fourth (we skipped 3.9.0) maintenance release for the 3.9 release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.9.   UPDATE  To update to Quarkus 3.9, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.9.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-04-29T07:48:03.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly 25 enables you to secure deployments using OpenID Connect (OIDC) without installing a Keycloak client adapter. This tutorial will show a proof of concept example of it. Keycloak with Quarkus The latest version of Keycloak is based on Quarkus Runtime. If you are still running the old Keycloak engine, we recommend checking this article ...  The post appeared first on ."
 }

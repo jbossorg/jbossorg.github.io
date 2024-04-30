@@ -1,13 +1,13 @@
 {
-  "title": "Secure WildFly applications with OpenID Connect",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/",
+  "title": "Vlog: WildFly Glow, WildFly 32 deployment to OpenShift with database access",
+  "link": "https://www.youtube.com/watch?v=z9JnweD4zQQ",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Jean-François Denise",
       "avatar": null
     }
   ],
-  "date": "2024-04-29T07:48:03.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "WildFly 25 enables you to secure deployments using OpenID Connect (OIDC) without installing a Keycloak client adapter. This tutorial will show a proof of concept example of it. Keycloak with Quarkus The latest version of Keycloak is based on Quarkus Runtime. If you are still running the old Keycloak engine, we recommend checking this article ...  The post appeared first on ."
+  "date": "2024-04-30T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "In we are using WildFly Glow 1.0 to deploy the todo-backend quickstart application to OpenShift with automatic connection to a PostgreSQL database. No configuration needed!"
 }
