@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: WildFly Glow, WildFly 32 deployment to OpenShift with database access",
-  "link": "https://www.youtube.com/watch?v=z9JnweD4zQQ",
+  "title": "Configuring a Caching Realm with Elytron",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-security/configuring-a-cached-realm-with-elytron/",
   "author": [
     {
-      "name": "Jean-François Denise",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-30T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "In we are using WildFly Glow 1.0 to deploy the todo-backend quickstart application to OpenShift with automatic connection to a PostgreSQL database. No configuration needed!"
+  "date": "2024-04-30T10:19:47.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial guides you through configuring a caching realm in Elytron to improve authentication performance for your WildFly applications. By caching user credentials retrieved from a separate security realm (e.g., LDAP), you can significantly reduce the load on your identity store and enhance application responsiveness. Setting up the Base Realm Securing your WildFly applications often ...  The post appeared first on ."
 }

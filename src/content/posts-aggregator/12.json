@@ -1,13 +1,13 @@
 {
-  "title": "Configuring a Caching Realm with Elytron",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-security/configuring-a-cached-realm-with-elytron/",
+  "title": "How to provision WildFly with Ansible",
+  "link": "https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-04-30T10:19:47.000Z",
+  "date": "2024-05-02T12:24:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This tutorial guides you through configuring a caching realm in Elytron to improve authentication performance for your WildFly applications. By caching user credentials retrieved from a separate security realm (e.g., LDAP), you can significantly reduce the load on your identity store and enhance application responsiveness. Setting up the Base Realm Securing your WildFly applications often ...  The post appeared first on ."
+  "content": "Ansible is an innovative IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. In this updated article we will learn how to provision and update a WildFly 32 application server distribution using playbooks. Ansible Overview Ansible is an open-source automation tool used for configuration management, application ...  The post appeared first on ."
 }
