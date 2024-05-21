@@ -1,13 +1,13 @@
 {
-  "title": "Consuming Jakarta EE REST Services with React",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/consuming-jakarta-ee-rest-services-with-react/",
+  "title": "New video out! Highly available IAM with multi-site Keycloak deployments in the cloud",
+  "link": "https://infinispan.org/blog/2024/05/16/keycloak-infinispan-secret-sauce",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Katia Aresti",
       "avatar": null
     }
   ],
-  "date": "2024-05-15T16:39:31.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will show how to build a powerful combination: a React frontend that seamlessly interacts with data from a Jakarta EE REST backend application running as a WildFly bootable JAR. Prerequisites: Step # 1 Define the Rest Endpoint Firstly, bootstrap a Jakarta EE application. You can either use WildFly archetypes ( see Maven archetype ...  The post appeared first on ."
+  "date": "2024-05-16T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "The Infinispan team is excited to announce that the video of the acclaimed and highly rated talk at Devoxx France about Keycloak and Infinispan has been published.  In this 45 minutes talk, Ryan Emerson and Alexander Schwartz explain how Keycloak’s Highly Available architecture and highlight the essential role Infinispan plays in it.    The conference highlights one of the most requested features in Infinispan: Cross-Site Replication. This feature allows for deploying two separate clusters and connecting them so that caches can replicate data and serve as backups for each other.  If you’re not familiar with this feature and would like to try it out, a simple Docker Compose file is all you need. Grab a look to this .  Stay tuned for more and enjoy the video!"
 }

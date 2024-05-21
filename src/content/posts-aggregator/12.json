@@ -1,13 +1,13 @@
 {
-  "title": "How to provision WildFly with Ansible",
-  "link": "https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/",
+  "title": "Caching realm now automatically tries to authenticate users with the underlying realm if authentication with cached credentials fails",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/caching-security-realm-authenticate-with-underlying-realm-on-failure/",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Diana Krepinska Vilkolakova",
+      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
     }
   ],
-  "date": "2024-05-02T12:24:06.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "Ansible is an innovative IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. In this updated article we will learn how to provision and update a WildFly 32 application server distribution using playbooks. Ansible Overview Ansible is an open-source automation tool used for configuration management, application ...  The post appeared first on ."
+  "date": "2024-05-06T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly provides a caching security realm that allows you to cache the results of a credential lookup from a security realm. WildFly 32+ will automatically attempt to verify credentials with the underlying realm if an authentication fails with the cached credentials. If this authentication succeeds, the obsolete credential is replaced with the updated credential. This functionality is useful if the credentials have been updated externally of WildFly."
 }
