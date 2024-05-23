@@ -1,13 +1,13 @@
 {
-  "title": "New video out! Highly available IAM with multi-site Keycloak deployments in the cloud",
-  "link": "https://infinispan.org/blog/2024/05/16/keycloak-infinispan-secret-sauce",
+  "title": "RESTEasy 6.2.9.Final and 7.0.0.Alpha2 Releases",
+  "link": "https://resteasy.dev/2024/05/21/releases/",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-05-16T00:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "The Infinispan team is excited to announce that the video of the acclaimed and highly rated talk at Devoxx France about Keycloak and Infinispan has been published.  In this 45 minutes talk, Ryan Emerson and Alexander Schwartz explain how Keycloak’s Highly Available architecture and highlight the essential role Infinispan plays in it.    The conference highlights one of the most requested features in Infinispan: Cross-Site Replication. This feature allows for deploying two separate clusters and connecting them so that caches can replicate data and serve as backups for each other.  If you’re not familiar with this feature and would like to try it out, a simple Docker Compose file is all you need. Grab a look to this .  Stay tuned for more and enjoy the video!"
+  "date": "2024-05-21T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
