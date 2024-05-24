@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #44 - May",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-44/",
+  "title": "Quarkus 3.10.1 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-10-1-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2024-05-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Get the May newseltter and check out these great articles. \"Revolutionizing time tracking: how Quarkus transformed our backend development\" by Dusan Odalovic describes how GRAN Software Solutions used Quarkus to help create a time tracking application to meet their unique specific requirements. Understand how to breakdown a monolith into Quarkus based microservices with \"Modernizing Pedal: Breaking down a Java monolith into Quarkus microservices\" by Yashwanth Maheshwaram and Ian Lawson. Evren Tam’s article \"Using MapStruct within Quarkus\" to learn mapping from entities to DTOs and vice versa is always required within multi-layered applications for transferring data between services/processes. Kubernetes: Deployment Quarkus with Databases by Daniel S. Blanco is a follow up article that describes how deploy two different containers and establish a connection between them. Thiago dos Santos Hora wrote \"Role-Based Access Control in Quarkus\", a tutorial that discusses Role-Based Access Control (RBAC) and how to implement this functionality using Quarkus. We’ve also released some sweet desktop wallpapers for the communithy to use. Get them today!  You will also see the latest Quarkus Insights episodes, top tweets and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "content": "Today, we released Quarkus 3.10.1, our first maintenance release for the 3.10 release train.  This release contains bugfixes and documentation improvements.  It is a bit more involved than usual as we didn’t release a micro last week but it should be a safe upgrade for anyone already using 3.10.   UPDATE  To update to Quarkus 3.10, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.10.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , , , and migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
