@@ -1,14 +1,13 @@
 {
-  "title": "High availability in Keycloak 24",
-  "link": "https://www.keycloak.org/2024/05/keycloak-at-devoxx-france-2024-recap",
+  "title": "Dynamic client SSL context that automatically delegates to different SSLContexts based on the host and port of the peer",
+  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/dynamic-client-ssl-context/",
   "author": [
     {
-      "name": "Alexander Schwartz",
-      "avatar": null
+      "name": "Diana Krepinska Vilkolakova",
+      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
     }
   ],
   "date": "2024-05-07T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "A single sign on solution for your customers and employees shouldn’t be a single-point-of-failure in your architecture. At Devoxx France 2024, Ryan Emerson and Alexander Schwartz presented, from an architects and developer perspective, how Keycloak approached the problem. They describe which architecture the Keycloak team chose, the challenges they faced and which tools helped along the way. The slides and the recorded video are linked below. Scroll down for additional links and details of the tasks we’re currently working on to further enhance the architecture.      A clustered Keycloak deployment in a single site or datacenter provides sufficient availability for many. However, an increasing number of organizations need to utilize multiple sites for improved resiliency or to meet legal requirements. In 2023, Keycloak overhauled its multi-site capabilities for public and private cloud infrastructures, tested them thoroughly and provided deployment blueprints to the community. As part of the release of Keycloak 24, an active/passive setup is now fully supported.  Read more about it in the new published as part of , and get more tools and background information in the . Since the which covered Keycloak 23, we have made the configuration of such a setup simpler, with fewer options required by Keycloak and the Keycloak Operator. Thank you to everyone who provided feedback along the way, and those who participated in our survey in early 2023 which guided us in the implementation of this setup.  Still, the journey doesn’t stop here: The team is now working on , and a . Follow these issues and discussions to stay up-to-date with the latest developments, and provide feedback on Keycloak’s nightly builds."
+  "feed_title": "WildFly",
+  "content": "WildFly 32 introduces the ability to configure a dynamic client SSL context. The dynamic client SSL context will dynamically switch between different SSL contexts based on the host and port of the peer. The host and port rules can be specified in the authentication context. This blog post demonstrates how to use this new resource."
 }
