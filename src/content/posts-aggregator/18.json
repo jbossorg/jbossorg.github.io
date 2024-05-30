@@ -1,13 +1,14 @@
 {
-  "title": "Dynamic client SSL context that automatically delegates to different SSLContexts based on the host and port of the peer",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/dynamic-client-ssl-context/",
+  "title": "Keycloak 24.0.4 released",
+  "link": "https://www.keycloak.org/2024/05/keycloak-2404-released",
   "author": [
     {
-      "name": "Diana Krepinska Vilkolakova",
-      "avatar": "https://www.gravatar.com/avatar/4336bee4b72f539ef5f8cc0d2c6026f5"
+      "name": null,
+      "avatar": null
     }
   ],
-  "date": "2024-05-07T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 32 introduces the ability to configure a dynamic client SSL context. The dynamic client SSL context will dynamically switch between different SSL contexts based on the host and port of the peer. The host and port rules can be specified in the authentication context. This blog post demonstrates how to use this new resource."
+  "date": "2024-05-08T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   PARTIAL UPDATE TO USER ATTRIBUTES WHEN UPDATING USERS THROUGH THE ADMIN USER API IS NO LONGER SUPPORTED  When updating user attributes through the Admin User API, you cannot execute partial updates when updating the user attributes, including the root attributes like username, email, firstName, and lastName.  For more details, see the .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Use new remote-store options in HA guides  * Add details to error messages, especially around refresh tokens  * Emphasize the need for setting container limit docs  * Upgrade to Quarkus 3.8.4 dist/quarkus  * Minor corrections to High Availability Guide docs   BUGS   * Unable to delete realm names with invalid URL characters admin/api  * kc export fails when using User Federation (LDAP) with file-based Vault    enabled import-export  * iframe for frontend logout gets blocked if a custom CSP header is used core  * NoClassDefFoundError for Apache XML and EAP8 adapter/jee-saml  * Workflow failure: Fuse adapter tests ci  * Workflow failure: Operator CI - KeycloakTruststoresTests#testTrustroreExists    ci  * Uncaught server error: java.lang.IllegalArgumentException: Path parameter not    provided oidc  * Group search does not work in user view admin/ui  * Admin UI drag & drop in flow config seems to delete actions admin/ui  * Admin API: User PUT operation clears firstname, lastname email fields    admin/api  * WARN - Event object wasn't available in remote cache after event was received    infinispan  * Broken lists in import/export server guide docs  * Dedicated client scopes always show up when searching admin/ui  * Message for searchClientRegistration is missing admin/ui  * Accessing a transient (lightweight) user through client session fails in    admin-api/-ui admin/ui  * \"Extend to children\" button in authorization group policies is wrongly    disabled admin/ui  * clients_saml_test.spec.ts fails in main admin/ui  * Startup probe should check for existence of an Admin user before returning    200 dist/quarkus  * Fix the client name help grammatical error admin/ui  * DuplicateEmailValidator causes two DB queries on every login if a user has an    email address core  * local user login not possible after LDAP connection problem ldap  * Update docs to distinguish between product names and CR names docs  * Broken link in documentation docs"
 }
