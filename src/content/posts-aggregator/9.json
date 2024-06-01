@@ -1,13 +1,13 @@
 {
-  "title": "Custom WildFly distributions using Channels",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/custom-wildfly-distributions-using-channels/",
+  "title": "Eclipse Vert.x 4.5.8 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-8",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-05-23T16:29:46.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "The WildFly Channels project allows for provisioning custom component versions in a WildFly distribution. In this article, we will learn how to configure a custom WildFly distribution that contains a RestEasy module not yet available in the latest version of the application server. By customizing its installation, WildFly allows you to create a distribution with ...  The post appeared first on ."
+  "date": "2024-05-24T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.8 has just been released."
 }
