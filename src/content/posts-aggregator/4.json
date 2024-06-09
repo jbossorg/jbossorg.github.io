@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 24.0.5 released",
-  "link": "https://www.keycloak.org/2024/06/keycloak-2405-released",
+  "title": "Quarkus 3.8.5 released - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-8-5-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-06-04T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   SECURITY ISSUE WITH PAR CLIENTS USING CLIENT_SECRET_POST BASED AUTHENTICATION  This release contains the fix of the important security issue affecting some OIDC confidential clients using PAR (Pushed authorization request). In case you use OIDC confidential clients together with PAR and you use client authentication based on client_id and client_secret sent as parameters in the HTTP request body (method client_secret_post specified in the OIDC specification), it is highly encouraged to rotate the client secrets of your clients after upgrading to this version.   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Use cache.compute() method to improve the replace retry loop  * Update Create Realm in Keycloak 24 Getting Started   BUGS   * JGroups creates log messages as it switched internally to \"trace\"    dist/quarkus  * LDAP user creation reports error but user is created ldap  * Clicking the \"save\" button multiple times in the Saml IDP configuration page    corrupts the value of \"AuthnContext ClassRefs\" admin/ui  * Empty CSP header value breaks security filter authentication  * Cypress tests store videos even for passing tests ci  * Maven clean build doesn't clean admin client generated files ci  * Cypress failing on video recording ci  * Database driver install examples can lead to permission errors in some    circumstances docs"
+  "date": "2024-06-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.8.5, our fourth (we skipped 3.8.0) maintenance release for our 3.8 LTS release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.8.   UPDATE  To update to Quarkus 3.8, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.8  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.8.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }

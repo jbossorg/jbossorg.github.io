@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.23 has been released",
-  "link": "http://bytemanblog.blogspot.com/2024/05/byteman-4023-has-been-released.html",
+  "title": "Converting a PDF to Text in Java made simple",
+  "link": "https://www.mastertheboss.com/java/converting-a-pdf-to-text-in-java-made-simple/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "F.Marchioni",
+      "avatar": null
     }
   ],
-  "date": "2024-05-29T21:14:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.23 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK23.    Byteman 4.0.23 is primarily a maintenance release which enables Byteman to be used with JDK23 releases. It also contains  two bug fixes and a feature enhancement. More details are provided in the and the latest ."
+  "date": "2024-05-30T17:54:02.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will explore how to convert a PDF document into raw text using the Apache PDFBox library in Java. This process can be particularly useful for applications that need to analyze or summarize the contents of a PDF, such as providing input to an AI chatbot. Introduction to PDFBox Apache PDFBox is ...  The post appeared first on ."
 }
