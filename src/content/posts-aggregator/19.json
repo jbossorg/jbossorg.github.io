@@ -1,13 +1,13 @@
 {
-  "title": "New video out! Highly available IAM with multi-site Keycloak deployments in the cloud",
-  "link": "https://infinispan.org/blog/2024/05/16/keycloak-infinispan-secret-sauce",
+  "title": "How to Start, Stop and Restart JBoss or WildFly",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-stop-and-restart-wildfly/",
   "author": [
     {
-      "name": "Katia Aresti",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-05-16T00:00:00.000Z",
-  "feed_title": "Infinispan",
-  "content": "The Infinispan team is excited to announce that the video of the acclaimed and highly rated talk at Devoxx France about Keycloak and Infinispan has been published.  In this 45 minutes talk, Ryan Emerson and Alexander Schwartz explain how Keycloak’s Highly Available architecture and highlight the essential role Infinispan plays in it.    The conference highlights one of the most requested features in Infinispan: Cross-Site Replication. This feature allows for deploying two separate clusters and connecting them so that caches can replicate data and serve as backups for each other.  If you’re not familiar with this feature and would like to try it out, a simple Docker Compose file is all you need. Grab a look to this .  Stay tuned for more and enjoy the video!"
+  "date": "2024-05-18T16:35:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This guide contains some tips to teach you how to start, stop, restart WildFly application server. By the end of this tutorial, you will be able to effectively manage the lifecycle of your Wildfly server as needed. First of all, WildFly can be run in two modes: Standalone mode and Domain mode. Booting WildFly in ...  The post appeared first on ."
 }
