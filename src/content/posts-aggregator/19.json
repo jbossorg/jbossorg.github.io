@@ -1,13 +1,13 @@
 {
-  "title": "How to Start, Stop and Restart JBoss or WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-stop-and-restart-wildfly/",
+  "title": "RESTEasy 6.2.9.Final and 7.0.0.Alpha2 Releases",
+  "link": "https://resteasy.dev/2024/05/21/releases/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-05-18T16:35:00.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This guide contains some tips to teach you how to start, stop, restart WildFly application server. By the end of this tutorial, you will be able to effectively manage the lifecycle of your Wildfly server as needed. First of all, WildFly can be run in two modes: Standalone mode and Domain mode. Booting WildFly in ...  The post appeared first on ."
+  "date": "2024-05-21T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
