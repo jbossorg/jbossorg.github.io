@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.8 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-8",
+  "title": "Blog: WildFly 32 Delivers Preview of Jakarta EE 11 and Final Version of WildFly Glow",
+  "link": "https://www.infoq.com/news/2024/05/wildfly32-glow-jakartaee11",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Syed M. Shaaf",
       "avatar": null
     }
   ],
-  "date": "2024-05-24T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.8 has just been released."
+  "date": "2024-05-27T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "Shaaf Syed, Principal Architect at Red Hat, has written a comprehensive on WildFly Glow. A must read!"
 }
