@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with langchain4j and Llama Model",
-  "link": "https://www.mastertheboss.com/various-stuff/ai/getting-started-with-langchain4j-and-llama-model/",
+  "title": "Byteman 4.0.23 has been released",
+  "link": "http://bytemanblog.blogspot.com/2024/05/byteman-4023-has-been-released.html",
   "author": [
     {
-      "name": "F.Marchioni",
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2024-05-29T17:03:58.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article is a step-by-step guide to introduce you to Large Language Models (LLMs) in Java applications using LangChain4j. We will learn how to install Llama 3 ML on a local machine and how to connect and use it from a Java application. What are Large Language Models? Firstly, some terms: With Large Language Model ...  The post appeared first on ."
+  "date": "2024-05-29T21:14:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.23 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK23.    Byteman 4.0.23 is primarily a maintenance release which enables Byteman to be used with JDK23 releases. It also contains  two bug fixes and a feature enhancement. More details are provided in the and the latest ."
 }
