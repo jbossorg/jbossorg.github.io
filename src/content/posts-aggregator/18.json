@@ -1,13 +1,13 @@
 {
-  "title": "Getting started with langchain4j and Llama Model",
-  "link": "https://www.mastertheboss.com/various-stuff/ai/getting-started-with-langchain4j-and-llama-model/",
+  "title": "Converting a PDF to Text in Java made simple",
+  "link": "https://www.mastertheboss.com/java/converting-a-pdf-to-text-in-java-made-simple/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-05-29T17:03:58.000Z",
+  "date": "2024-05-30T17:54:02.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article is a step-by-step guide to introduce you to Large Language Models (LLMs) in Java applications using LangChain4j. We will learn how to install Llama 3 ML on a local machine and how to connect and use it from a Java application. What are Large Language Models? Firstly, some terms: With Large Language Model ...  The post appeared first on ."
+  "content": "In this tutorial, we will explore how to convert a PDF document into raw text using the Apache PDFBox library in Java. This process can be particularly useful for applications that need to analyze or summarize the contents of a PDF, such as providing input to an AI chatbot. Introduction to PDFBox Apache PDFBox is ...  The post appeared first on ."
 }

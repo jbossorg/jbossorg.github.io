@@ -1,13 +1,13 @@
 {
-  "title": "Byteman 4.0.23 has been released",
-  "link": "http://bytemanblog.blogspot.com/2024/05/byteman-4023-has-been-released.html",
+  "title": "WildFly 32.0.1 is released!",
+  "link": "https://wildfly.org//news/2024/05/31/WildFly3201-Released/",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Brian Stansberry",
+      "avatar": null
     }
   ],
-  "date": "2024-05-29T21:14:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.23 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK23.    Byteman 4.0.23 is primarily a maintenance release which enables Byteman to be used with JDK23 releases. It also contains  two bug fixes and a feature enhancement. More details are provided in the and the latest ."
+  "date": "2024-05-31T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 32.0.1.Final is now available .  It’s been about five weeks since the WildFly 32 release, so we’ve done a small bug fix update, WildFly 32.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 32.0.1:  BUGS   * [] - ClassCastException when running live-only HA policy in    messaging-activemq subsystem   * [] - LinkageError: loader constraint violation for class io.netty.*   * [] - Deploying multiple OpenAPI endpoints can result in a    NoSuchElementException   * [] - OpenTelemetryDependencyProcessor should add io.smallrye.opentelemetry to    deployment classpath  TASKS   * [] - Add LICENSE and other community documents to widfly-archetypes   * [] - Make the testsuite/galleon tests appropriately scoped  COMPONENT UPGRADES   * [] - Upgrade Infinispan to 14.0.28.Final   * [] - Upgrade JGroups to 5.2.25.Final   * [] - Upgrade RESTEasy to 6.2.9.Final   * [] - Upgrade WildFly Core to 24.0.1.Final  Issues resolved in the WildFly Core update included with WildFly 32.0.1 were:  BUGS   * [] - [CVE-2024-4029] wildfly-domain-http: wildfly: No timeout for EAP    management interface may lead to Denial of Service (DoS)  TASKS   * [] - Rename Installer.Builder.async() -> Installer.Builder.blocking()  COMPONENT UPGRADES   * [] - Upgrade BouncyCastle from 1.78 to 1.78.1   * [] - Upgrade WildFly Elytron to 2.4.2.Final   * [] - Upgrade XNIO to 3.8.15.Final  Enjoy!"
 }
