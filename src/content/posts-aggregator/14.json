@@ -1,13 +1,14 @@
 {
-  "title": "Getting started with Jakarta REST Services 4.0",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-rest-services-4-0/",
+  "title": "Announcing Keycloak's Identity Summit: KeyConf24",
+  "link": "https://www.keycloak.org/2024/06/keyconf24-invitation",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Nathalia Pinesi",
       "avatar": null
     }
   ],
-  "date": "2024-06-09T09:59:24.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article, we will provide an overview of the upcoming Jakarta RESTful Web Services 4.0 features. We will show how to test the latest version of this API on WildFly and how to run some examples with it. What’s New in Jakarta REST 4.0: Key Features and Enhancements The latest Jakarta REST 4.0 release ...  The post appeared first on ."
+  "date": "2024-06-10T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "KeyConf23 was an incredible success, bringing together nearly 60 passionate members of the Keycloak community in London. The energy and collaboration were palpable as attendees delved into the latest developments in identity and access management. We witnessed thought-provoking discussions, learned from industry experts, and forged valuable connections.  Building on that momentum, we’re thrilled to announce KeyConf24, our 2024 Keycloak Identity Summit! This year’s event promises to be even bigger and better, with a program packed full of relevant, cutting-edge topics.   WHAT TO EXPECT AT KEYCONF24   * European Digital Identity Wallet: Deep dives into the European Union’s    ambitious initiative and its impact on identity management.   * Verifiable Credentials: Explore the exciting potential of decentralized    identity verification and the role of Keycloak.   * State of OIDC FAPI2: Get the latest updates on OpenID Connect’s    Financial-grade API (FAPI) security profile.   * New Grant Type SPI & Token Exchange Endpoints: Technical sessions on    Keycloak’s expanded capabilities and how to leverage them.   * Many more to be announced…  And of course, there will be ample opportunities for networking, knowledge sharing, and connecting with the vibrant Keycloak community and Keycloak maintainers.   SAVE THE DATE AND JOIN US!  We invite all developers, architects, security professionals, and anyone interested in identity and access management to join us for KeyConf24. We’ll be announcing more details soon, so stay tuned for more information.  In the meantime, mark your calendars and prepare for an unforgettable experience!   WANT TO GET INVOLVED?  You can register to attend to the event .  We are actively seeking speakers and sponsors for KeyConf24. If you’d like to share your expertise or help support this community-driven event, please submit your ideas .  If you have any further questions reach out to us on  Let’s continue to shape the future of identity together!"
 }
