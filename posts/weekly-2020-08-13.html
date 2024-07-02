@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 13 August 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="jgroups, quarkus, keycloak, skupper, tech talk, infinispan, strimzi">
+      <h1>This Week in JBoss - 13 August 2020</h1>
+      
+    <p class="preamble"><p>Welcome to another edition of the JBoss Editorial where we gather news from our communities and explore developments from our projects.</p></p>
+<div class="sect1">
+<h2 id="_jgroups_5">JGroups 5!</h2>
+<div class="sectionbody">
+<p>Exciting news from Bela Ban as <a href="http://belaban.blogspot.com/2020/08/jgroups-500final-released.html">JGroups 5.0.0.Final</a> is released. JGroups 5 brings lots of improvements and some major API changes.</p>
+<p>Perhaps the biggest change is that <a href="http://www.jgroups.org/manual5/index.html#Message"><code>Message</code></a> is now an interface with a number of subclasses that perform late marshalling so object payload is serialized at the point when messages are sent, which eliminates a memory allocation and makes JGroups performance even better.</p>
+<p>Other cool features in JGroups 5 are <a href="http://belaban.blogspot.com/2020/07/double-your-performance-virtual-threads.html">virtual thread support</a>, an implementation of the Random Early Drop (RED) protocol, more efficient FD_ALL3 failure detection, a new protocol to dump stats, and lots more.</p>
+<p>Hearty congratulations to Bela and all the contributors and folks who made it happen!!</p>
+<p>Head over to the <a href="http://www.jgroups.org/manual5/index.html">JGroups 5 documentation</a> and find out more.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_keycloak_tech_talk">Keycloak Tech Talk</h2>
+<div class="sectionbody">
+<p>Stian Thorgersen of the Keycloak team presents a DevNation Tech Talk that provides an in-depth look at the best open-source identity and management solution around. Stian gives a great demo of Keycloak that not only highlights features but showcases just how easy it is to integrate and use Keycloak capabilities to secure your applications.</p>
+<p>Spend half an hour and let Stian dazzle you with <a href="https://developers.redhat.com/blog/2020/08/07/a-deep-dive-into-keycloak/">A deep dive into Keycloak</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_reactive_quarkus_a_java_mutiny">Reactive Quarkus: A Java Mutiny</h2>
+<div class="sectionbody">
+<p>Another Tech Talk that you should definitely check out comes from Clement Escoffier and Edson Yanaga, who go into detail about Mutiny, a new reactive programming library. Clement and Edson explain why reactive matters, how Mutiny is makes it easier to develop reactive applications, and how the library is integrated with Quarkus.</p>
+<p>Listen to Clement and Edson deliver their excellent talk, <a href="https://developers.redhat.com/blog/2020/08/07/reactive-quarkus-a-java-mutiny/">Reactive Quarkus: A Java Mutiny</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_skupper_and_the_hybrid_cloud">Skupper and the Hybrid Cloud</h2>
+<div class="sectionbody">
+<p>By now I&#8217;m sure you&#8217;ve heard of <a href="https://skupper.io/">Skupper</a> but maybe have yet to see it in action. Ted Ross gives a great introduction and live demonstration of Skupper across AWS, GCP, and Azure that shows real-time load balancing and fail-over.</p>
+<p>Watch Ted&#8217;s <a href="https://developers.redhat.com/blog/2020/08/10/kubernetes-and-the-hybrid-cloud-with-skupper/">Kubernetes and the hybrid cloud with Skupper</a> Tech Talk today. You won&#8217;t regret it.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_in_the_community">In the Community</h2>
+<div class="sectionbody">
+<p>Katia Aresti has created a pretty awesome Infinispan Server tutorial that demonstrates a full set of capabilities with a weather application. Visit the <a href="https://infinispan.org/infinispan-server-tutorial/">Infinispan Remote Weather App Tutorial</a> and try it for yourself.</p>
+<p>Jakub Scholz on the Strimzi team has written a comprehensive blog post, <a href="https://strimzi.io/blog/2020/08/05/using-open-policy-agent-with-strimzi-and-apache-kafka/">Using Open Policy Agent with Strimzi and Apache Kafka</a>, that explores support for Kafka authorization using Open Policy Agent.</p>
+<p>That&#8217;s it for this week&#8217;s editorial. Thanks for reading and see you next time.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
