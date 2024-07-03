@@ -1,13 +1,14 @@
 {
-  "title": "Getting started with Jakarta REST Services 4.0",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/getting-started-with-jakarta-rest-services-4-0/",
+  "title": "Keycloak 25.0.0 released",
+  "link": "https://www.keycloak.org/2024/06/keycloak-2500-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-06-09T09:59:24.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this article, we will provide an overview of the upcoming Jakarta RESTful Web Services 4.0 features. We will show how to test the latest version of this API on WildFly and how to run some examples with it. What’s New in Jakarta REST 4.0: Key Features and Enhancements The latest Jakarta REST 4.0 release ...  The post appeared first on ."
+  "date": "2024-06-10T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Use a proper FreeMarker template for the new consoles account/ui  * Enhance masking around config-keystore dist/quarkus   BUGS   * front channel logout to clients are not called at Identity Proxy when using    front channel logout to Identity Provider( oidc  * Encountering `NullPointerException` - `KeycloakIdentity.getUserFromToken()`    when running `admin-ui` locally admin/ui  * Admin v2 theme - theme.properties Custom theme scripts not loading admin/ui  * Keycloak CI - failure in Store IT (aurora-postgres) ci  * Custom attributes are removed during UPDATE PROFILE event core  * Upgrade to Keycloak 25 - Table 'USER_CONSENT' is specified twice on    MySQL/MariaDB database core  * Methods of SimpleHttp are after change now too much protected core  * Upgrade to Keycloak 25 - Events bug in UI admin/ui  * Operator fails to patch ingress after update to 25.0.0 operator  * RESTART_AUTHENTICATION_ERROR when login in in private browser window after    25.0.0 update core  * Migration of sessions in KC25 should run only on migration, not on imports  * Documentation : label error for persistent-user-sessions feature flag docs  * Keycloak 25 db guide shows unevaluated \"ifeval docs  * keycloak hostname:v2 /admin used on \"hostname\" instead of \"hostname-admin\"    admin/ui  * Improvements for ldap test authentication ldap  * partial_import_test fails randomly admin/ui"
 }
