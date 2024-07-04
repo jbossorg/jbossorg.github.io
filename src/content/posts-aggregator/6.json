@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 25.0.1 released",
-  "link": "https://www.keycloak.org/2024/06/keycloak-2501-released",
+  "title": "Infinispan as an Open Source cache layer for CMS",
+  "link": "https://infinispan.org/blog/2024/06/21/cms-cache",
   "author": [
     {
-      "name": null,
+      "name": "Vittorio Rigamonti",
       "avatar": null
     }
   ],
-  "date": "2024-06-20T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Use a proper FreeMarker template for the new consoles account/ui  * Enhance masking around config-keystore dist/quarkus   BUGS   * front channel logout to clients are not called at Identity Proxy when using    front channel logout to Identity Provider( oidc  * Encountering `NullPointerException` - `KeycloakIdentity.getUserFromToken()`    when running `admin-ui` locally admin/ui  * Admin v2 theme - theme.properties Custom theme scripts not loading admin/ui  * Keycloak CI - failure in Store IT (aurora-postgres) ci  * Custom attributes are removed during UPDATE PROFILE event core  * Upgrade to Keycloak 25 - Table 'USER_CONSENT' is specified twice on    MySQL/MariaDB database core  * Methods of SimpleHttp are after change now too much protected core  * Upgrade to Keycloak 25 - Events bug in UI admin/ui  * Operator fails to patch ingress after update to 25.0.0 operator  * RESTART_AUTHENTICATION_ERROR when login in in private browser window after    25.0.0 update core  * Migration of sessions in KC25 should run only on migration, not on imports  * Documentation : label error for persistent-user-sessions feature flag docs  * Keycloak 25 db guide shows unevaluated \"ifeval docs  * keycloak hostname:v2 /admin used on \"hostname\" instead of \"hostname-admin\"    admin/ui  * Improvements for ldap test authentication ldap  * partial_import_test fails randomly admin/ui"
+  "date": "2024-06-21T00:00:00.000Z",
+  "feed_title": "Infinispan",
+  "content": "INFINISPAN AS AN OPEN SOURCE CACHE LAYER FOR CMS  Those of you who are dealing with content management systems (CMS) know very well the importance of an efficient cache layer, especially when performance matters.  In this regard, the Infinispan team wants to shine a spotlight on what we have done with the Infinispan 15 release to extend our compatibility with the Redis RESP protocol.  We already generally spoke about this in a , but here we want to focus on this specific field of application: CMS cache layer.  We prefer to show rather than describe, so a couple of demos have been developed to show how easy it is to move from Redis, or other RESP databases, to an open source solution like Infinispan. As you will see it’s easy as just changing the cache db endpoint.   DEMOS  Demos are available at and can be run on linux (bash) systems with git and docker.  At the moment Drupal and Wordpress have been considered, but the procedure can be easily extended to every application which rely on the RESP protocol.  Both demos work the same way and you really just need to follow the project README:   1. a demo-start.sh commmand           * starts a CMS infrastructure with docker compose           * starts both Redis and Infinispan           * configure the CMS to use Redis   2. a switch-to-infinispan.sh command           * changes the cache endpoint from Redis to Infinispan at runtime   3. a demo-stop.sh command           * stops and cleanup everything  As you can guess all the effort has been put to allow you to try this feature as easily as possible (We know you’re lazy, hackers!)  Hope you enjoy this new possibility we provided for you with Infinispan 15.  Let us know your feedback and…  happy coding!  The Infinispan Team"
 }
