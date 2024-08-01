@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #46 - July",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-46/",
+  "title": "How to Map Your DTO Objects with MapStruct",
+  "link": "https://www.mastertheboss.com/java-ee/jpa/how-to-map-your-dto-objects-with-mapstruct/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-07-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Check out \"Crafting a Local RAG application with Quarkus\" by Clement Escoffier to learn how to build an AI-infused chatbot application using Quarkus, LangChain4j, Infinispan, and the Granite LLM. See how to create an entirely local solution, eliminating the need for any cloud services, including the LLM. Read Hantsy’s \"Integrating Jakarta Data with Quarkus\" to see how to utilize the existing Hibernate ORM extension to integrate Jakarta Data with Quarkus. Don’t miss \"Stateful and reactive stream processing applications with Apache Kafka, Quarkus, and Angular on OpenShift\" by Hans-Peter Grahsl and learn how to build an end-to-end reactive stream processing application using Apache Kafka as an event streaming platform, Quarkus for your backend, and a frontend written in Angular. In the end, you’ll deploy all three containerized applications on the Developer Sandbox for Red Hat OpenShift. \"4 ways to deploy Quarkus applications in OpenShift Container Platform 4\" by Francisco De Melo Junior and Alexander Barbosa Ayala describes the BuildConfig process for Quarkus applications in Red Hat OpenShift Container Platform 4.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2024-07-14T13:47:07.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we will learn how to map your Data Transfer Objects (DTO) using the MapStruct framework and integrate it into a Jakarta EE application. Understanding DTO Objects DTO Objects are used to decouple the database model from the view that is transferred to the client. They are intended to be immutable objects, used ...  The post appeared first on ."
 }
