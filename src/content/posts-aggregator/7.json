@@ -1,13 +1,13 @@
 {
-  "title": "HTTP Client for Keycloak using OpenID Connect",
-  "link": "https://www.mastertheboss.com/keycloak/http-client-for-keycloak-using-openid-connect/",
+  "title": "Quarkus to move to the Commonhaus Foundation",
+  "link": "https://quarkus.io/blog/quarkus-moving-to-commonhaus/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2024-07-19T07:28:43.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In modern web applications, authentication and authorization are critical components. Keycloak is a powerful open-source identity and access management solution for modern applications and services. This article will guide you through creating a Java HTTP client to test OpenID Connect token authentication with Keycloak, and we will also demonstrate the equivalent steps using curl. Prerequisites ...  The post appeared first on ."
+  "date": "2024-07-30T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "TL;DR  After a period of consulting with the community inside and outside Red Hat we took the decision to submit a request for the to join the .  Today, we are thrilled to announce that the Quarkus project is transitioning to the Commonhaus Foundation. Quarkus grew as a research effort inside Red Hat with the goal to revolutionise Java for the Cloud Era and since 2019 when it was unveiled as a community project, Quarkus has been nurtured and supported by Red Hat. This move to Commonhaus aligns with our .   WHY MOVE TO A FOUNDATION?  Quarkus has seen tremendous growth and adoption, especially with the recent advancements in Java and Kubernetes-native development. Despite our successes, our vibrant and ever-expanding Quarkus community with over 900 contributors, there is still the perception that Quarkus is too dependent on Red Hat. We aim to change this by providing a neutral ground where other organisations and contributors can feel equally valued and involved.   WHY COMMONHAUS?  Commonhaus stands out with its innovative governance framework and commitment to independently managed projects. Joining Commonhaus allows Quarkus to benefit from a self-governing model. Commonhaus suits very well the fast delivery model of Quarkus. We are excited to join the other ten prominent projects that are hosted in Commonhaus, which include Hibernate and Jackson, important components of Quarkus.   WHAT’S NEXT?  Quarkus will continue to innovate and evolve. We are dedicated to making Quarkus the best framework for Java development. This transition will enable us to welcome more contributions from a diverse range of developers and organisations. We are actively working on upcoming releases and are eager to hear your ideas and feedback.  This move is as much for Quarkus as it is for you. If you or the organisation you work at are interested in ensuring that the Quarkus ecosystem grows and evolves in a direction that helps you, come and join us in helping Quarkus transition to the CommonHaus foundation.  Commonhaus is currently bootstrapping, enabling it to be shaped and moulded to help you and open source projects like Quarkus to have a great home. For questions about this move, please refer to our or reach out through our usual channels.  On behalf of the Quarkus team."
 }
