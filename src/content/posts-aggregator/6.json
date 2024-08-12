@@ -1,13 +1,13 @@
 {
-  "title": "Using RAG with Langchain4j and Ollama3",
-  "link": "https://www.mastertheboss.com/various-stuff/ai/using-rag-with-langchain4j-and-ollama3/",
+  "title": "Testing JPA with TestContainers",
+  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-to-test-jpa-applications/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-04T13:35:28.000Z",
+  "date": "2024-08-04T14:12:03.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Retrieval-Augmented Generation (RAG) is a framework that enhances the capabilities of generative language models by incorporating relevant information retrieved from a large corpus of documents. This combination helps improve the accuracy and relevance of the generated responses. In this article we will learn how to use RAG with Langchain4j. Why RAG matters Retrieval-Augmented Generation (RAG) ...  The post appeared first on ."
+  "content": "Testcontainers is an open-source Java library that simplifies integration testing by providing lightweight, disposable containers for database systems, message brokers, and other third-party services. In this article we will learn how to combine Testcontainer with a JPA/Hibernate Test case. TestContainer and Databases Firstly, if you are new to TestContainers, we recommend checking this article for ...  The post appeared first on ."
 }
