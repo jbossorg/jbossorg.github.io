@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 25.0.2 released",
-  "link": "https://www.keycloak.org/2024/07/keycloak-2502-released",
+  "title": "HTTP Client for Keycloak using OpenID Connect",
+  "link": "https://www.mastertheboss.com/keycloak/http-client-for-keycloak-using-openid-connect/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-07-18T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Upgrade to Infinispan 15.0.7.Final   BUGS   * NPM library of account-ui is unusable (@keycloak/keycloak-account-ui version    25.0.1) account/ui  * Hide save / update buttons in account console for READ_ONLY federated    accounts account/ui  * Hidden options shown in help all dist/quarkus  * Joining group for user doesn't list correct number of groups admin/ui  * Duplicate Key \"validatingX509CertsHelp\" in admin-ui messages admin/ui  * Admin API extremely slow with service account and fine-grained authorization    `view-users` admin/fine-grained-permissions  * Event tables have broken aria-labels admin/ui  * MSSQL test container can't start ci  * CURL commands in build don't check the response code ci  * localization not work with user attribute display name in users add admin/ui  * \"Use metadata descriptor URL\" switch is always set to \"On\" admin/ui  * Documentation for `Delete Credential` action and related changes    authentication  * Keycloak 25 SAML IdP has made Single Logout URL mandatory. saml  * Windows builds fail too often due to problems with the download of Node ci  * Network error attempting to view events without permissions admin/ui  * Network error attempting to view user registeration without permissions    admin/ui  * Look around window cannot be set to 0 admin/ui  * Offline session bug on 25.0.2 core  * Session list doesn't handle non-existing client gracefully core  * Table names for persistent sessions upgrading guide is wrong docs  * Session list not appearing: SQL Error \"The incoming request has too many    parameters\"  * Migration to persistent sessions fails from Keycloak version storage"
+  "date": "2024-07-19T07:28:43.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In modern web applications, authentication and authorization are critical components. Keycloak is a powerful open-source identity and access management solution for modern applications and services. This article will guide you through creating a Java HTTP client to test OpenID Connect token authentication with Keycloak, and we will also demonstrate the equivalent steps using curl. Prerequisites ...  The post appeared first on ."
 }

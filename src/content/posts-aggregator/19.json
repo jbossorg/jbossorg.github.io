@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.9 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-9",
+  "title": "Configuring WildFly as Reverse Proxy",
+  "link": "https://www.mastertheboss.com/jbossas/wildfly-8/configuring-a-reverse-proxy-with-undertow/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-07-18T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.9 has just been released."
+  "date": "2024-07-21T13:29:00.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial we will learn how to configure WildFly or JBoss to reverse proxy requests to another application server. We will first discuss the basics of reverse proxying and then we will show the commands to achieve the correct configuration.   Reverse Proxy vs. Forward Proxy Before diving into Undertow’s reverse proxy capabilities, it’s essential ...  The post appeared first on ."
 }
