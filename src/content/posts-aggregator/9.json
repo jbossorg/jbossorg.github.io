@@ -1,13 +1,13 @@
 {
-  "title": "Testing JPA with TestContainers",
-  "link": "https://www.mastertheboss.com/various-stuff/testing-java/testcontainers-to-test-jpa-applications/",
+  "title": "Logging vs. Tracing vs. Metrics: Understanding the Differences",
+  "link": "https://www.mastertheboss.com/various-stuff/architecture/logging-vs-tracing-vs-metrics-understanding-the-differences/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-04T14:12:03.000Z",
+  "date": "2024-08-06T17:02:52.000Z",
   "feed_title": "Mastertheboss",
-  "content": "Testcontainers is an open-source Java library that simplifies integration testing by providing lightweight, disposable containers for database systems, message brokers, and other third-party services. In this article we will learn how to combine Testcontainer with a JPA/Hibernate Test case. TestContainer and Databases Firstly, if you are new to TestContainers, we recommend checking this article for ...  The post appeared first on ."
+  "content": "In the realm of software development and system monitoring, three crucial components play a pivotal role in ensuring the smooth operation and maintenance of applications: logging, tracing, and metrics. Each of these elements serves a unique purpose and provides distinct insights into the system’s behavior and performance. Understanding their differences and applications is essential for ...  The post appeared first on ."
 }
