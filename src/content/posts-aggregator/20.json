@@ -1,13 +1,13 @@
 {
-  "title": "HTTP Client for Keycloak using OpenID Connect",
-  "link": "https://www.mastertheboss.com/keycloak/http-client-for-keycloak-using-openid-connect/",
+  "title": "Configuring WildFly as Reverse Proxy",
+  "link": "https://www.mastertheboss.com/jbossas/wildfly-8/configuring-a-reverse-proxy-with-undertow/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-07-19T07:28:43.000Z",
+  "date": "2024-07-21T13:29:00.000Z",
   "feed_title": "Mastertheboss",
-  "content": "In modern web applications, authentication and authorization are critical components. Keycloak is a powerful open-source identity and access management solution for modern applications and services. This article will guide you through creating a Java HTTP client to test OpenID Connect token authentication with Keycloak, and we will also demonstrate the equivalent steps using curl. Prerequisites ...  The post appeared first on ."
+  "content": "In this tutorial we will learn how to configure WildFly or JBoss to reverse proxy requests to another application server. We will first discuss the basics of reverse proxying and then we will show the commands to achieve the correct configuration.   Reverse Proxy vs. Forward Proxy Before diving into Undertow’s reverse proxy capabilities, it’s essential ...  The post appeared first on ."
 }
