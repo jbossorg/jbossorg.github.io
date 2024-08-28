@@ -1,13 +1,13 @@
 {
-  "title": "How to Start, Stop and Restart JBoss or WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-stop-and-restart-wildfly/",
+  "title": "Using RAG with Langchain4j and Ollama3",
+  "link": "https://www.mastertheboss.com/various-stuff/ai/using-rag-with-langchain4j-and-ollama3/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-01T16:35:00.000Z",
+  "date": "2024-08-04T13:35:28.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This guide contains some tips to teach you how to start, stop, restart WildFly application server. By the end of this tutorial, you will be able to effectively manage the lifecycle of your Wildfly server as needed. First of all, WildFly can be run in two modes: Standalone mode and Domain mode. Booting WildFly in ...  The post appeared first on ."
+  "content": "Retrieval-Augmented Generation (RAG) is a framework that enhances the capabilities of generative language models by incorporating relevant information retrieved from a large corpus of documents. This combination helps improve the accuracy and relevance of the generated responses. In this article we will learn how to use RAG with Langchain4j. Why RAG matters Retrieval-Augmented Generation (RAG) ...  The post appeared first on ."
 }
