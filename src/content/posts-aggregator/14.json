@@ -1,13 +1,13 @@
 {
-  "title": "WildFly proxy with reuse-x-forwarded and rewrite-host",
-  "link": "https://www.mastertheboss.com/web/jboss-web-server/wildfly-proxy-with-reuse-x-forwarded-and-rewrite-host/",
+  "title": "Keycloak Tutorial for Beginners",
+  "link": "https://www.mastertheboss.com/keycloak/introduction-to-keycloak/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-12T13:09:24.000Z",
+  "date": "2024-08-16T09:14:06.000Z",
   "feed_title": "Mastertheboss",
-  "content": "WildFly 33 preview allows to configure a Reverse proxy with the capability to propagate the reuse-x-forwarded and rewrite-host options. In this article we will learn what is the effect of enabling these options and how to configure them. What is the purpose of reuse-x-forwarded and rewrite-host? Firslty, let’s see what is the effect of using ...  The post appeared first on ."
+  "content": "Keycloak is an Identity and Access Management Server for Modern Applications and Services. In this updated Keycloak tutorial we will learn how to set up Keycloak and configure it to authenticate/authorize an Enterprise application running on WildFly. Keycloak update (2023) Keycloak is available in two distributions: Legacy distribution (which uses WildFly as runtime engine). Quarkus ...  The post appeared first on ."
 }
