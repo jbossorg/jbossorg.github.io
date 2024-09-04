@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 3.8.6 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-8-6-released/",
+  "title": "KeyConf24 program announced & livestream",
+  "link": "https://www.keycloak.org/2024/08/keyconf24-program-published",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Alexander Schwartz",
       "avatar": null
     }
   ],
-  "date": "2024-08-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.8.6, a new maintenance release for our 3.8 LTS release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.8.   UPDATE  To update to Quarkus 3.8, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.8  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.8.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-08-30T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "KeyConf24, our 2024 Keycloak Identity Summit, will happen on September 19th, which is less than three weeks away! This year’s event promises to be even bigger and better, with a program packed full of relevant, cutting-edge topics.  This year due to high demand and limited space on-site, we’re offering for the first time a live stream, so the Keycloak community can join remotely.   WHAT TO EXPECT AT KEYCONF24  The talks have been selected, and the program is now online at .  Expect talks about:   * European Digital Identity Wallet: Deep dives into the European Union’s    ambitious initiative and its impact on identity management.   * Verifiable Credentials: Explore the exciting potential of decentralized    identity verification and the role of Keycloak.   * Real-world Keycloak integrations: Technical sessions on Keycloak’s    capabilities and how to leverage them in real world scenarios like the    banking industry.   * New and upcoming features in Keycloak: Hear about the new organisations and    user profile features which are available in the latest releases of Keycloak,    as well as the next upcoming features.   SAVE THE DATE AND JOIN US IN THE LIVE STREAM!  You can register for the live stream at .  If you have any further questions, reach out to us on  We’re excited and are looking forward to meeting you at our event. Let’s continue to shape the future of identity together!"
 }
