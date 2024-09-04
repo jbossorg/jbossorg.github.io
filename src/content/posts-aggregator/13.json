@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 33.0.1 is released!",
-  "link": "https://wildfly.org//news/2024/08/22/WildFly3301-Released/",
+  "title": "Jakarta EE 10 Application with an Angular Frontend",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-10-application-with-an-angular-frontend/",
   "author": [
     {
-      "name": "James R. Perkins",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-22T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 33.0.1.Final is now available .  It’s been about four weeks since the WildFly 33 release, so we’ve done a small bug fix update, WildFly 33.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 33.0.1:   BUGS   * [] - OIDCSecurityContext deserialization issue   * [] - Undertow ServerAdd could not detect referenced capabilities   * [] - Deployment-related undertow metrics are not exported   * [] - @PostConstruct on Servlet may be called twice   * [] - Performance regression with HttpSession.getAttribute   COMPONENT UPGRADES   * [] - Upgrade Arquillian 1.9.1.Final, Arquillian Jakarta to 10.0.0.Final and    WildFly Arquillian to 5.1.0.Beta4   * [] - Upgrade CXF to 4.0.5   * [] - Upgrade RESTEasy to 6.2.10.Final   * [] - Upgrade OpenSAML to 4.3.0   * [] - Upgrade WildFly Core to 25.0.1.Final   * [] - Upgrade jboss-ejb-client to 5.0.7.Final   * [] - Upgrade RESTEasy to 7.0.0.Alpha3 in WildFly Preview  Issues resolved in the WildFly Core update included with WildFly 33.0.1 were:   BUGS   * [] - java.lang.ClassNotFoundException: java.util.logging.Logger from Module    \"org.bouncycastle.bcpg\"   COMPONENT UPGRADES   * [] - Upgrade WildFly Elytron to 2.5.1.Final  Enjoy!"
+  "date": "2024-08-19T09:20:04.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we’ll walk through the process of creating a simple Jakarta EE 10 application that exposes a RESTful endpoint to fetch a list of customers. We’ll then build an Angular front end that consumes this endpoint and displays the list of customers in a user-friendly format. Prerequisites Before starting, ensure you have the ...  The post appeared first on ."
 }
