@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.13.1 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-13-1-released/",
+  "title": "Quarkus Newsletter #47 - August",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-47/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2024-08-07T00:00:00.000Z",
+  "date": "2024-08-12T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.13.1, our first maintenance release for the 3.13 release train.  This release contains bugfixes and documentation improvements. It should be a safe upgrade for anyone already using 3.13.   UPDATE  To update to Quarkus 3.13, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.13.  If you are not already using 3.13, please refer to the migration guide.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "content": "Quarkus recently announced its intention to join the Commhaus Foundation to further solidify its commitment to open-source development and enterprise adoption. Learn more by reading blog posts from Jeff Beck and Max Rydahl Andersen. Explore Hibernate Reactive and Quarkus in-depth by building a reactive bank deposit application from scratch with this great tutorial \"Hibernate Reactive and Quarkus\" by Reza Ganji & Liam Williams. The article, \"Testing a Quarkus Application Using Testcontainers for Service Dependencies\" by Paul Pearson & Liam Williams will allow you to see the power of using Testcontainers to help test a Quarkus application using ‘live’ service-to-service testing. Read \"A Guide to Micrometer in Quarkus\" by Yatin Batra to explore and gain a comprehensive understanding of Micrometers in Quarkus. Discover some tips and pointers about deploying Quarkus on AWS in this \"Deploying native Quarkus REST API’s in AWS Lambda\" by Patryk Szczypień.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }
