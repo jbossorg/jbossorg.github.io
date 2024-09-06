@@ -1,14 +1,13 @@
 {
-  "title": "Introducing the Keycloak SRE special interest group",
-  "link": "https://www.keycloak.org/2024/09/announcement-sre-sig",
+  "title": "Using YAML to manage WildFly deployments",
+  "link": "https://www.mastertheboss.com/uncategorised/using-yaml-to-manage-wildfly-deployments/",
   "author": [
     {
-      "name": "Michal Hajas",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-09-03T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "After an initial installation of Keycloak, users today spend a significant amount of time optimizing their installations, keeping them up to date and secure. When doing this, they follow the principles of Site Reliability Engineers, among others automation, setting service level objectives, keeping things simple and monitoring. As of today, Keycloak doesn’t provide much documentation and best practices in that area. The Keycloak project is also looking for faster feedback on changes so that we do not break existing installations without providing migration instructions on upgrades.  To improve the lives of people running and operating Keycloak, we’re starting the Site Reliability Engineers Special Interest Group, or SRE SIG for short. The idea is to speed up the feedback loop for existing and new features and to improve the communication between people operating Keycloak in real deployments and people developing Keycloak.  Desired outputs would include:   * Simplifying Keycloak’s configuration and upgrade process.   * Collecting best practices and feedback from real-world Keycloak installations    to identify and prioritize new features.   * Educating users about what Keycloak can already do and what items are on the    future roadmap.   TOPICS TO TACKLE  At the initial , we identified the following topics as initial discussion points to tackle by the group:   * How to load test Keycloak?    (Introduction of keycloak-benchmark project, identifying possible    enhancements and presenting custom community solutions)   * What are the right metrics of Keycloak to watch and how to visualize them in    a dashboard?   * Can we simplify how Keycloak is configured and set up?   CALL TO ACTION  We have yet to decide what our regular meetings and cadence will look like, and we will discuss all the details in the Slack channel mentioned above. So stay tuned, join the and share your story with the group to better understand your needs and expectations!   COMMUNICATION CHANNELS  To receive the latest information about what is happening in the SIG join us in our . Use to join the CNCF Slack if you do not have an account yet.  For sharing documents and following the activities of SIG proceed to the ."
+  "date": "2024-09-03T17:25:23.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use a YAML configuration to manage your WildFly deployments tasks. This will help you to include in a YAML idempotent configuration also applications. YAML deployment made simple Firstly, if you are new to configuring WildFly with YAML, we recommend taking a look at this article: How to configure ...  The post appeared first on ."
 }
