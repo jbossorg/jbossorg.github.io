@@ -1,13 +1,13 @@
 {
-  "title": "ActiveMQ Artemis CheatSheet",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/activemq/activemq-artemis-cheatsheet/",
+  "title": "Jakarta EE 10 Application with an Angular Frontend",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-10-application-with-an-angular-frontend/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-22T08:38:39.000Z",
+  "date": "2024-08-19T09:20:04.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This is my Artemis MQ Artemis Cheatsheet which includes some commandline shortcuts you can use to manage your broker as well as producing and consuming messages and checking their status. Introduction Firstly, if you are new to Artemis MQ, we recommend checking this article for an introduction to the Messaging Broker and details on how ...  The post appeared first on ."
+  "content": "In this tutorial, we’ll walk through the process of creating a simple Jakarta EE 10 application that exposes a RESTful endpoint to fetch a list of customers. We’ll then build an Angular front end that consumes this endpoint and displays the list of customers in a user-friendly format. Prerequisites Before starting, ensure you have the ...  The post appeared first on ."
 }

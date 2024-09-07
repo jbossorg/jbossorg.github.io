@@ -1,13 +1,13 @@
 {
-  "title": "How to export and import Realms in Keycloak",
-  "link": "https://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
+  "title": "Keycloak Database User Federation",
+  "link": "https://www.mastertheboss.com/keycloak/keycloak-database-user-federation/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-29T16:47:48.000Z",
+  "date": "2024-08-26T10:23:18.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. We will also learn how to export Keycloak Users by running just a simple command line script. Keycloak Realm Set up If you’re moving from one Keycloak instance to another, or if you want to ...  The post appeared first on ."
+  "content": "Keycloak uses a local database by default to manage users. However, many organizations have existing user credentials available in a relational database. This article will teach you how to use Keycloak’s User Storage SPI to federate users from a PostgreSQL Database. Concept of User Federation User Federation in Keycloak refers to the ability to connect ...  The post appeared first on ."
 }

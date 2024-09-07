@@ -1,13 +1,13 @@
 {
-  "title": "Using YAML to manage WildFly deployments",
-  "link": "https://www.mastertheboss.com/uncategorised/using-yaml-to-manage-wildfly-deployments/",
+  "title": "Configuring The WildFly To Use The JBeret JDBC Job Repository (Part 2)",
+  "link": "https://jberet.org/configure-jberet-wildfly-jdbc-job-repo-2/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2024-09-03T17:25:23.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use a YAML configuration to manage your WildFly deployments tasks. This will help you to include in a YAML idempotent configuration also applications. YAML deployment made simple Firstly, if you are new to configuring WildFly with YAML, we recommend taking a look at this article: How to configure ...  The post appeared first on ."
+  "date": "2024-09-02T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "In the previous blog post on this topic, I have introduced how to manually edit the configuration file of WildFly to configure the batch-jberet module to use the JDBC repository. In this article, I’d like to introduce how to use the CLI Command Tool and the Admin Console to do the task."
 }

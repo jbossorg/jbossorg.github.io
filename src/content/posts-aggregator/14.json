@@ -1,13 +1,14 @@
 {
-  "title": "WildFly 33.0.1 is released!",
-  "link": "https://wildfly.org//news/2024/08/22/WildFly3301-Released/",
+  "title": "Keycloak 25.0.4 released",
+  "link": "https://www.keycloak.org/2024/08/keycloak-2504-released",
   "author": [
     {
-      "name": "James R. Perkins",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-08-22T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 33.0.1.Final is now available .  It’s been about four weeks since the WildFly 33 release, so we’ve done a small bug fix update, WildFly 33.0.1. This includes an update to WildFly Preview.  The following issues were resolved in 33.0.1:   BUGS   * [] - OIDCSecurityContext deserialization issue   * [] - Undertow ServerAdd could not detect referenced capabilities   * [] - Deployment-related undertow metrics are not exported   * [] - @PostConstruct on Servlet may be called twice   * [] - Performance regression with HttpSession.getAttribute   COMPONENT UPGRADES   * [] - Upgrade Arquillian 1.9.1.Final, Arquillian Jakarta to 10.0.0.Final and    WildFly Arquillian to 5.1.0.Beta4   * [] - Upgrade CXF to 4.0.5   * [] - Upgrade RESTEasy to 6.2.10.Final   * [] - Upgrade OpenSAML to 4.3.0   * [] - Upgrade WildFly Core to 25.0.1.Final   * [] - Upgrade jboss-ejb-client to 5.0.7.Final   * [] - Upgrade RESTEasy to 7.0.0.Alpha3 in WildFly Preview  Issues resolved in the WildFly Core update included with WildFly 33.0.1 were:   BUGS   * [] - java.lang.ClassNotFoundException: java.util.logging.Logger from Module    \"org.bouncycastle.bcpg\"   COMPONENT UPGRADES   * [] - Upgrade WildFly Elytron to 2.5.1.Final  Enjoy!"
+  "date": "2024-08-19T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Upgrade to Infinispan 15.0.7.Final   BUGS   * NPM library of account-ui is unusable (@keycloak/keycloak-account-ui version    25.0.1) account/ui  * Hide save / update buttons in account console for READ_ONLY federated    accounts account/ui  * Hidden options shown in help all dist/quarkus  * Joining group for user doesn't list correct number of groups admin/ui  * Duplicate Key \"validatingX509CertsHelp\" in admin-ui messages admin/ui  * Admin API extremely slow with service account and fine-grained authorization    `view-users` admin/fine-grained-permissions  * Event tables have broken aria-labels admin/ui  * MSSQL test container can't start ci  * CURL commands in build don't check the response code ci  * localization not work with user attribute display name in users add admin/ui  * \"Use metadata descriptor URL\" switch is always set to \"On\" admin/ui  * Documentation for `Delete Credential` action and related changes    authentication  * Keycloak 25 SAML IdP has made Single Logout URL mandatory. saml  * Windows builds fail too often due to problems with the download of Node ci  * Network error attempting to view events without permissions admin/ui  * Network error attempting to view user registeration without permissions    admin/ui  * Look around window cannot be set to 0 admin/ui  * Offline session bug on 25.0.2 core  * Session list doesn't handle non-existing client gracefully core  * Table names for persistent sessions upgrading guide is wrong docs  * Session list not appearing: SQL Error \"The incoming request has too many    parameters\"  * Migration to persistent sessions fails from Keycloak version storage"
 }
