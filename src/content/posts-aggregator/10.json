@@ -1,13 +1,13 @@
 {
-  "title": "ActiveMQ Artemis CheatSheet",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/activemq/activemq-artemis-cheatsheet/",
+  "title": "Keycloak Database User Federation",
+  "link": "https://www.mastertheboss.com/keycloak/keycloak-database-user-federation/",
   "author": [
     {
       "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-22T08:38:39.000Z",
+  "date": "2024-08-26T10:23:18.000Z",
   "feed_title": "Mastertheboss",
-  "content": "This is my Artemis MQ Artemis Cheatsheet which includes some commandline shortcuts you can use to manage your broker as well as producing and consuming messages and checking their status. Introduction Firstly, if you are new to Artemis MQ, we recommend checking this article for an introduction to the Messaging Broker and details on how ...  The post appeared first on ."
+  "content": "Keycloak uses a local database by default to manage users. However, many organizations have existing user credentials available in a relational database. This article will teach you how to use Keycloak’s User Storage SPI to federate users from a PostgreSQL Database. Concept of User Federation User Federation in Keycloak refers to the ability to connect ...  The post appeared first on ."
 }
