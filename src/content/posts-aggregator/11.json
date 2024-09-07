@@ -1,13 +1,13 @@
 {
-  "title": "Upcoming Vert.x Http Proxy updates",
-  "link": "https://vertx.io/blog/gsoc-vertx-proxy-updates",
+  "title": "Keycloak Database User Federation",
+  "link": "https://www.mastertheboss.com/keycloak/keycloak-database-user-federation/",
   "author": [
     {
-      "name": "Zengyi Wang",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-23T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Introducing new features for Vert.x Http Proxy from GSoC 2024 project."
+  "date": "2024-08-26T10:23:18.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "Keycloak uses a local database by default to manage users. However, many organizations have existing user credentials available in a relational database. This article will teach you how to use Keycloak’s User Storage SPI to federate users from a PostgreSQL Database. Concept of User Federation User Federation in Keycloak refers to the ability to connect ...  The post appeared first on ."
 }
