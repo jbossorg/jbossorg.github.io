@@ -1,13 +1,14 @@
 {
-  "title": "Eclipse Vert.x 4.5.10 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-10",
+  "title": "Announcing New Keycloak UI Component Libraries!",
+  "link": "https://www.keycloak.org/2024/09/keycloak-customizable-ui",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Erik Jan de Wit",
       "avatar": null
     }
   ],
   "date": "2024-09-04T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.10 has just been released, among other bugs, it fixes CVE-2024-8391"
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "We’re excited to announce the release of two new npm packages designed to supercharge your Keycloak customization efforts. These React component libraries, built on top of PatternFly, provide the essential building blocks for crafting Keycloak account and admin consoles. The tool generates sample code for a custom console using our \"Composable UI\" technique. Essentially, this means that you can build your console out of exported Keycloak components that we intend to support in future releases.  The packages are:   *    * This package provides the building blocks for creating a Keycloak admin    console.   *    * This package provides the building blocks for creating a Keycloak account    console.   *    * This package provides shared components and utilities for building Keycloak    UIs.   ACCELERATE YOUR DEVELOPMENT WITH OUR QUICKSTART TOOL  Kickstart your project with our npm create keycloak-theme my-theme command. This streamlined tool generates a project structure, essential dependencies, and configuration, saving you precious time. At the moment, the tool is only available for account consoles, but we are working on adding support for admin consoles. This will be available in the next release (26.0.0).   GET STARTED:   1. Run npm create keycloak-theme@latest my-theme.   2. The keycloak server can be started with npm run start-keycloak   3. Start the development server with npm run dev   4. Customize your theme by editing files in the src directory.  The keycloak server will connect to the development server and all the changes will be reflected in the browser. Just open your browser and go to and login with admin/admin. This will open the keycloak account console. You will see that the example code has an extra page and some extra content above each page.   KEY BENEFITS:   1. Rapid development: Create stunning UIs in less time.   2. Consistency: Adhere to the PatternFly design system for a cohesive look and     feel.   3. Flexibility: Customize components to match your brand and user preferences.   4. Upgradable: Having a npm package dependency will make updating your theme     easier.  For more information, see the ."
 }
