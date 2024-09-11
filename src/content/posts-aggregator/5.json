@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.10 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-10",
+  "title": "Swagger with Jakarta REST quickstart",
+  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/swagger-quickstart-tutorial/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-09-04T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": "Eclipse Vert.x version 4.5.10 has just been released, among other bugs, it fixes CVE-2024-8391"
+  "date": "2024-09-07T13:03:46.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This tutorial will guide you through the process of integrating Swagger UI into your Jakarta EE project. We will cover the necessary steps to configure Swagger in a Jakarta EE environment, enabling you to automatically generate and serve API documentation for your RESTful services. Requirements In today’s API-driven development landscape, clear and concise documentation is ...  The post appeared first on ."
 }

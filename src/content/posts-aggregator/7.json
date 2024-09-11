@@ -1,13 +1,13 @@
 {
-  "title": "Using YAML to manage WildFly deployments",
-  "link": "https://www.mastertheboss.com/uncategorised/using-yaml-to-manage-wildfly-deployments/",
+  "title": "Eclipse Vert.x 4.5.10 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-10",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-09-03T17:25:23.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article will teach you how to use a YAML configuration to manage your WildFly deployments tasks. This will help you to include in a YAML idempotent configuration also applications. YAML deployment made simple Firstly, if you are new to configuring WildFly with YAML, we recommend taking a look at this article: How to configure ...  The post appeared first on ."
+  "date": "2024-09-04T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Eclipse Vert.x version 4.5.10 has just been released, among other bugs, it fixes CVE-2024-8391"
 }

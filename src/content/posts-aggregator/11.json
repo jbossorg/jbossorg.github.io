@@ -1,13 +1,13 @@
 {
-  "title": "How to export and import Realms in Keycloak",
-  "link": "https://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
+  "title": "Configuring The WildFly To Use The JBeret JDBC Job Repository (Part 2)",
+  "link": "https://jberet.org/configure-jberet-wildfly-jdbc-job-repo-2/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "阿男",
       "avatar": null
     }
   ],
-  "date": "2024-08-29T16:47:48.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. We will also learn how to export Keycloak Users by running just a simple command line script. Keycloak Realm Set up If you’re moving from one Keycloak instance to another, or if you want to ...  The post appeared first on ."
+  "date": "2024-09-02T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "In the previous blog post on this topic, I have introduced how to manually edit the configuration file of WildFly to configure the batch-jberet module to use the JDBC repository. In this article, I’d like to introduce how to use the CLI Command Tool and the Admin Console to do the task."
 }
