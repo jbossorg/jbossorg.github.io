@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 25.0.4 released",
-  "link": "https://www.keycloak.org/2024/08/keycloak-2504-released",
+  "title": "Jakarta EE 10 Application with an Angular Frontend",
+  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-ee-10-application-with-an-angular-frontend/",
   "author": [
     {
-      "name": null,
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-19T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * SAML adapter IdMapperUpdaterSessionListener not executed when session ID    changes adapter/saml  * CVE-2024-7341 Session fixation in the SAML adapters adapter/saml"
+  "date": "2024-08-19T09:20:04.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "In this tutorial, we’ll walk through the process of creating a simple Jakarta EE 10 application that exposes a RESTful endpoint to fetch a list of customers. We’ll then build an Angular front end that consumes this endpoint and displays the list of customers in a user-friendly format. Prerequisites Before starting, ensure you have the ...  The post appeared first on ."
 }
