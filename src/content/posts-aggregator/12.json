@@ -1,14 +1,13 @@
 {
-  "title": "KeyConf24 program announced & livestream",
-  "link": "https://www.keycloak.org/2024/08/keyconf24-program-published",
+  "title": "How to export and import Realms in Keycloak",
+  "link": "https://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-30T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "KeyConf24, our 2024 Keycloak Identity Summit, will happen on September 19th, which is just around the corner! This year’s event promises to be even bigger and better, with a program packed full of relevant, cutting-edge topics.  This year due to high demand and limited space on-site, we’re offering for the first time a live stream, so the Keycloak community can join remotely.   WHAT TO EXPECT AT KEYCONF24  The talks have been selected, and the program is now online at .  Expect talks about:   * European Digital Identity Wallet: Deep dives into the European Union’s    ambitious initiative and its impact on identity management.   * Verifiable Credentials: Explore the exciting potential of decentralized    identity verification and the role of Keycloak.   * Real-world Keycloak integrations: Technical sessions on Keycloak’s    capabilities and how to leverage them in real world scenarios like the    banking industry.   * New and upcoming features in Keycloak: Hear about the new organisations and    user profile features which are available in the latest releases of Keycloak,    as well as the next upcoming features.   SAVE THE DATE AND JOIN US IN THE LIVE STREAM!  You can register for the live stream at .  We’re excited and are looking forward to meeting you at our event. Let’s continue to shape the future of identity together!"
+  "date": "2024-08-29T16:47:48.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. We will also learn how to export Keycloak Users by running just a simple command line script. Keycloak Realm Set up If you’re moving from one Keycloak instance to another, or if you want to ...  The post appeared first on ."
 }
