@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.14.2 - Maintenance release and Micrometer 1.13",
-  "link": "https://quarkus.io/blog/quarkus-3-14-2-released/",
+  "title": "Using YAML to manage WildFly deployments",
+  "link": "https://www.mastertheboss.com/uncategorised/using-yaml-to-manage-wildfly-deployments/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-09-04T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.14.2, a maintenance release for our 3.14 release train.  It contains several important bugfixes so we recommend the upgrade for anyone already using 3.14.  While our maintenance releases usually don’t include important changes, we had to make an exception for the upgrade to Micrometer 1.13.  Our main issue was that Micrometer 1.12 would reach EOL in a few months, which wasn’t in line with the upcoming 3.15 LTS release. As previously explained, 3.15 will be based the continuation of the 3.14 branch, thus why we included this update in 3.14.  The has been updated to reflect that.   UPDATE  To update to Quarkus 3.14, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.14.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-09-03T17:25:23.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article will teach you how to use a YAML configuration to manage your WildFly deployments tasks. This will help you to include in a YAML idempotent configuration also applications. YAML deployment made simple Firstly, if you are new to configuring WildFly with YAML, we recommend taking a look at this article: How to configure ...  The post appeared first on ."
 }
