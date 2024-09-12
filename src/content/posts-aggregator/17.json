@@ -1,13 +1,13 @@
 {
-  "title": "ActiveMQ Artemis CheatSheet",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/activemq/activemq-artemis-cheatsheet/",
+  "title": "Upcoming Vert.x Http Proxy updates",
+  "link": "https://vertx.io/blog/gsoc-vertx-proxy-updates",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Zengyi Wang",
       "avatar": null
     }
   ],
-  "date": "2024-08-22T08:38:39.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This is my Artemis MQ Artemis Cheatsheet which includes some commandline shortcuts you can use to manage your broker as well as producing and consuming messages and checking their status. Introduction Firstly, if you are new to Artemis MQ, we recommend checking this article for an introduction to the Messaging Broker and details on how ...  The post appeared first on ."
+  "date": "2024-08-23T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": "Introducing new features for Vert.x Http Proxy from GSoC 2024 project."
 }
