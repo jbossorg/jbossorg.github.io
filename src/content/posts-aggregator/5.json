@@ -1,13 +1,14 @@
 {
-  "title": "Swagger with Jakarta REST quickstart",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/swagger-quickstart-tutorial/",
+  "title": "Keycloak 25.0.5 released",
+  "link": "https://www.keycloak.org/2024/09/keycloak-2505-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-09-07T13:03:46.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will guide you through the process of integrating Swagger UI into your Jakarta EE project. We will cover the necessary steps to configure Swagger in a Jakarta EE environment, enabling you to automatically generate and serve API documentation for your RESTful services. Requirements In today’s API-driven development landscape, clear and concise documentation is ...  The post appeared first on ."
+  "date": "2024-09-10T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * SAML adapter IdMapperUpdaterSessionListener not executed when session ID    changes adapter/saml  * CVE-2024-7341 Session fixation in the SAML adapters adapter/saml"
 }
