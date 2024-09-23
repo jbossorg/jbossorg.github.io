@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #48 - September",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-48/",
+  "title": "Quarkus 3.14.4 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-14-4-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-09-12T00:00:00.000Z",
+  "date": "2024-09-14T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "\"Harnessing Automatic Setup and Integration with Quarkus Dev Services for Efficient Development\" by Ivelin Yanev to see the simplicity and power of Quarkus to encourage experimentation, quicker iterations, and ultimately a faster development cycle. Learn how to to make the Quarkus build goal cacheable with minimal modifications to the Maven build configuration, reusing outputs from previous builds to save time in Jérôme Prinet’s article \"Accelerate your Quarkus Maven builds with Develocity Build Cache\". Read \"Implementing a Quarkus REST API using PostgreSQL as Database\" by Ivan Franchin as a step-by-step guide on how to implement the Movie API, a Quarkus application that uses PostgreSQL as database Explore how to create a dummy REST API in Quarkus and demonstrate various methods to consume it using different clients by reading \"How to Consume REST API in Quarkus\" by Alexandru Borza. Learn how to get the most out of your serialization performance in \"Leveraging Quarkus build-time metaprogramming capabilities to improve Jackson’s serialization performance\" by Mario Fusco. Learn about the creation of the Quarkus JDiameter extension in Eddie Carpenter’s blog post, \"Revolutionizing Telecom Microservice - Modernizing JDiameter with Quarkus\".  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "content": "We released Quarkus 3.14.4, a maintenance release for our 3.14 release train.  It contains several important bugfixes so we recommend the upgrade for anyone already using 3.14.  It is especially important if you are using the combination of Gradle and Kotlin as we reverted an enhancement that caused an important regression.   UPDATE  To update to Quarkus 3.14, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.14.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
