@@ -1,13 +1,13 @@
 {
-  "title": "Using the Expansion Operator with WildFly CLI",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-script/using-the-expansion-operator-with-wildfly-cli/",
+  "title": "WildFly 33.0.2 is released!",
+  "link": "https://wildfly.org//news/2024/09/17/WildFly3302-Released/",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2024-09-15T21:10:07.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "WildFly CLI (Command Line Interface) allows you to manage and configure WildFly application server instances. One of its powerful features is expansion expressions, which enable you to work with multiple resources efficiently. In this tutorial we will learn how to perform multiple operation commands using the expansion operator (*) when possible and by iterating over ...  The post appeared first on ."
+  "date": "2024-09-17T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 33.0.2.Final is now available .  Typically after a major release of WildFly we follow up with one small bug fix release in the coming weeks before moving on to the next major release, however due to the nature of the issues fixed in this release we have decided to release one more release so I am pleased to confirm WildFly 33.0.2.Final is now available.  The following issues were resolved in 33.0.2:   COMPONENT UPGRADE   * [] - Upgrade WildFly Core to 25.0.2.Final   * [] - CVE-2024-8391 Upgrade Vert.x to 4.5.10  Issues resolved in the WildFly Core update included with WildFly 33.0.2 were:   COMPONENT UPGRADE   * [] - Upgrade WildFly Elytron to 2.5.2.Final   * [] - CVE-2024-7885 Upgrade Undertow to 2.3.17.Final  Issues resolved in the WildFly Elytron upgrade were:   BUG   * []- NullPointerException in OidcClientConfiguration.resolveUrls if parameter    \"request_parameter_supported\" is not present in openid-configuration.  Enjoy!"
 }
