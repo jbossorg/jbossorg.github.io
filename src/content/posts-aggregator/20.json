@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.8.6 released - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-8-6-released/",
+  "title": "How to export and import Realms in Keycloak",
+  "link": "https://www.mastertheboss.com/keycloak/how-to-export-and-import-realms-in-keycloak/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-08-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Today, we released Quarkus 3.8.6, a new maintenance release for our 3.8 LTS release train.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.8.   UPDATE  To update to Quarkus 3.8, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.8  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.8.  If you are not already using 3.x, please refer to the for all the details. You can also refer to for additional details. Once you upgraded to 3.0, also have a look at the , , , , , , , migration guides.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-08-29T16:47:48.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "This article discusses about Importing and Exporting Keycloak Realms using the latest product distribution which runs on a Quarkus runtime. We will also learn how to export Keycloak Users by running just a simple command line script. Keycloak Realm Set up If you’re moving from one Keycloak instance to another, or if you want to ...  The post appeared first on ."
 }
