@@ -1,13 +1,14 @@
 {
-  "title": "Swagger with Jakarta REST quickstart",
-  "link": "https://www.mastertheboss.com/jboss-frameworks/resteasy/swagger-quickstart-tutorial/",
+  "title": "Keycloak 25.0.5 released",
+  "link": "https://www.keycloak.org/2024/09/keycloak-2505-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-09-07T13:03:46.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This tutorial will guide you through the process of integrating Swagger UI into your Jakarta EE project. We will cover the necessary steps to configure Swagger in a Jakarta EE environment, enabling you to automatically generate and serve API documentation for your RESTful services. Requirements In today’s API-driven development landscape, clear and concise documentation is ...  The post appeared first on ."
+  "date": "2024-09-10T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Network response was not OK. saml  * Re-enabling a temporarily locked user (brute-force) deletes all user    properties and attributes admin/ui  * Remember Me with External Infinispan is not works properly infinispan  * WebAuthn Flows Broken in login.v2 login/ui  * Dots are not allowed in the path in Hostname v2 dist/quarkus  * KeyCloak Admin Client uses non-standard `@NoCache` annotation which is an    issue for Quarkus admin/client-java  * Realm import fails when client configures default_acr values import-export  * Increased DB activity due to changes in    LDAPStorageManager.searchForUserByUserAttributeStream ldap  * CVE-2024-8883 Vulnerable Redirect URI Validation Results in Open Redirect  * CVE-2024-8698 Improper Verification of SAML Responses Leading to Privilege    Escalation in Keycloak"
 }
