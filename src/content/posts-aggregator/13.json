@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.14.4 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-14-4-released/",
+  "title": "Using the Expansion Operator with WildFly CLI",
+  "link": "https://www.mastertheboss.com/jbossas/jboss-script/using-the-expansion-operator-with-wildfly-cli/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "F.Marchioni",
       "avatar": null
     }
   ],
-  "date": "2024-09-14T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.14.4, a maintenance release for our 3.14 release train.  It contains several important bugfixes so we recommend the upgrade for anyone already using 3.14.  It is especially important if you are using the combination of Gradle and Kotlin as we reverted an enhancement that caused an important regression.   UPDATE  To update to Quarkus 3.14, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.14.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-09-15T21:10:07.000Z",
+  "feed_title": "Mastertheboss",
+  "content": "WildFly CLI (Command Line Interface) allows you to manage and configure WildFly application server instances. One of its powerful features is expansion expressions, which enable you to work with multiple resources efficiently. In this tutorial we will learn how to perform multiple operation commands using the expansion operator (*) when possible and by iterating over ...  The post appeared first on ."
 }
