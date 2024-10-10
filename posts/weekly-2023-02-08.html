@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 26 January 2023 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="serverless, dashbuilder, keycloak, vertx, wildfly, openshift">
+      <h1>This Week in JBoss - 26 January 2023</h1>
+      
+    <p class="preamble"><p>Hi everyone!</p>
+<p>It&#8217;s great to be back and bringing you the 2nd edition of the JBoss Editorial of 2023.
+We have a lot of exciting news and updates from JBoss world, so enjoy.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-3-8/">Eclipse Vert.x 4.3.8 released!</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-16-2-final-released/">Quarkus 2.16.2.Final released - Maintenance release</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_serverless_workflow_validations">Serverless workflow validations</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2023/01/serverless-workflow-validations.html/">Serverless workflow validations</a> by Saravana Balaji</p>
+<p>Writing a Serverless Workflow that matches with the specification&#8217;s rules and schema can require some documentation reading, which demands a few hours. In this article Saravana show how to implement a validation mechanism on Serverless Workflow Editor, that checks JSON and YAML files against Serverless Workflow specifications schema and also provides some custom validations in addition to it.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_feature_dashbuilder_editor_with_intellisense_capabilities">New Feature: Dashbuilder Editor With Intellisense Capabilities</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2023/02/new-feature-dashbuilder-editor-with-intellisense-capabilities.html">New Feature: Dashbuilder Editor With Intellisense Capabilities</a> by  Ajay Jaganathan</p>
+<p>In this great blog post Ajay introduces the new dashboard feature that now have auto-complete capabilities. This provides the user experience by providing suggestions and helps to reduce the errors made while authoring the dashbuilder specification.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_synchronize_your_kie_sandbox_workspace_with_bitbucket_or_github">Synchronize Your Kie Sandbox Workspace With Bitbucket Or Github</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2023/02/synchronize-your-kie-sandbox-workspace-with-bitbucket-or-github.html">Synchronize Your Kie Sandbox Workspace With Bitbucket Or Github</a> by Jan Stastny</p>
+<p>Here is the news, KIE Sandbox now brings the possibility to synchronize your changes not only with GitHub, but also Bitbucket.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_jboss_eap_8_beta_makes_deployment_on_openshift_easier">How JBoss EAP 8-Beta makes deployment on OpenShift easier</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2023/02/08/how-jboss-eap-8-beta-makes-deployment-openshift-easier">How JBoss EAP 8-Beta makes deployment on OpenShift easier</a> by Philip Hayes</p>
+<p>The new version of Red Hat JBoss EAP 8-Beta introduced changes to the provisioning and configuration of JBoss EAP application images on Red Hat OpenShift. In this great article, Philip shows the easiest way to put the EAP 8-Beta on the cloud using Openshift.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_use_a_datasource_in_quarkus">How to use a Datasource in Quarkus</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/">How to use a Datasource in Quarkus</a> by F.Marchioni</p>
+<p>If you need to know how to use a Datasource in Quarkus using Agroal, here is a great article to learn about it. Enjoy the reading.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_keycloak_tutorial_for_beginners">Keycloak tutorial for beginners</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/keycloak/introduction-to-keycloak/">Keycloak tutorial for beginners</a> by F.Marchioni</p>
+<p>In this tutorial, Marchioni show the first steps on the Keycloak world. You will know how to start and configure the Keycloak based on Wildfly and also, the Keycloak based on Quarkus.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_compress_logs_in_wildfly">How to compress logs in WildFly</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/jbossas/jboss-log/how-to-compress-logs-in-wildfly/">How to compress logs in WildFly</a> by F.Marchioni</p>
+<p>This article shows how to enable logs compression in WildFly by setting the appropriate suffix in your Periodic Rotating File Handler. In the second part of this tutorial we will learn how to compress logs using Log4j instead.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_print_logs_in_json_format_in_wildfly">How to print logs in JSON format in WildFly</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/jbossas/jboss-log/how-to-print-logs-in-json-format-in-wildfly/">How to print logs in JSON format in WildFly</a> by F.Marchioni</p>
+<p>If you need to use JSON format on your Wildfly logs, you would like to read this another great Marchioni tutorial.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_datacater_uses_quarkus_to_make_data_streaming_more_accessible">DataCater uses Quarkus to make Data Streaming more accessible</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/datacater-uses-quarkus-to-make-data-streaming-accessible/">DataCater uses Quarkus to make Data Streaming more accessible</a> by Stefan Sprenger</p>
+<p>This article gives a brief overview of the data streaming platform DataCater, discusses how we moved from Scala Play! and Kafka Streams to Quarkus, and presents why we think that Quarkus is an exceptional framework for developing cloud-native Java applications.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_videos">YouTube videos</h2>
+<div class="sectionbody">
+<p>Definitely catch the replay of <a href="https://www.youtube.com/watch?v=95GsShVW6rY&amp;list=PLsM3ZE5tGAVatO65JIxgskQh-OKoqM4F2">Quarkus Insights #116: Continuous delivery with Quarkus Helm and ArgoCD</a> if you haven&#8217;t already watched it.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf'</h2>
+<div class="sectionbody">
+<p>If you want to learn more about AI on Openshit, you need to know the <a href="https://ai-on-openshift.io/">AI ON Opensfhit</a> with demos, patterns, and other Machine Learn, MLOps, and AI stuff. You also may want to more about MLOps and Open Data Hub project. Open Data Hub (ODH) is an open source project that provides open source AI tools for running large and distributed AI workloads on the OpenShift Container Platform. So, go ahead and read the <a href="https://opendatahub.io/news/2023-02-06/docs-datascienceprojects.html">new Open Data Hub documentation</a>.</p>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/pedro-silva.png"></pfe-avatar>
+        <span>Pedro Silva</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
