@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - February 25th 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="">
+      <h1>This Week in JBoss - February 25th 2022</h1>
+      
+    <p class="preamble"><p>Welcome back!
+What better way to finish off the week (or start the week depending on when you read this) than by seeing what&#8217;s new in the software you care about?
+As always, we have some great things happening within the community, read on below.</p></p>
+<div class="sect1">
+<h2 id="_releases">Releases</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Quarkus 2.7.2.Final - second maintenance release for the 2.7 branch. This release features a number of bug fixes and updates to Kogito and Optaplanner. <a href="https://github.com/quarkusio/quarkus/releases/tag/2.7.2.Final">View the full changelog</a>.</p>
+</li>
+<li>
+<p>Kogito 1.17.0 - This release packs in new features, bug fixes and, one small breaking change. <a href="https://blog.kie.org/2022/02/kogito-1-17-0-released.html">Read about the release</a>.</p>
+</li>
+<li>
+<p>Eclipse Vertx 4.2.5 - The Vertx team has been hard at work bringing the number of bugs down in the 4.2 branch. They have also added the ability to intercept HttpProxy calls, and the Oracle client now has proper pooling. <a href="https://vertx.io/blog/eclipse-vert-x-4-2-5/">Find out more</a>.</p>
+</li>
+<li>
+<p>Keycloak 17.0.0 - A major update, too many things to list here, <a href="https://www.keycloak.org/2022/02/keycloak-1700-released">read about the release for changes</a>.</p>
+</li>
+<li>
+<p>Hibernate Reactive 1.1.3.Final - Biggest change here: Support for Oracle, <a href="https://in.relation.to/2022/02/11/hibernate-reactive-1_1_3_Final/">see more</a>.</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_blogs">Blogs</h3>
+<p>The blog, Mastertheboss has some great posts about Quarkus:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/how-to-configure-logging-with-quarkus/">How to configure logging with Quarkus</a> - to get a primer on logging within Quarkus.</p>
+</li>
+<li>
+<p><a href="http://www.mastertheboss.com/keycloak/getting-started-with-keycloak-powered-by-quarkus/">Getting started with Keycloak powered by Quarkus</a> goes along well with the recent release of Keycloak 17 since the default runtime is now Quarkus.</p>
+</li>
+<li>
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-stork-service-discovery-on-quarkus/">Getting started with Stork Service Discovery on Quarkus</a> gets you started using Stork for that all important Service Discovery bit of your MSA application.</p>
+</li>
+</ul>
+</div>
+<p>The KIE team (business and process automation space) also have three new blog posts out recently:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.kie.org/2022/02/saga-pattern-with-processes-and-kogito-part-2.html">SAGA PATTERN WITH PROCESSES AND KOGITO – PART 2</a> - the second part of a series using the SAGA pattern with Kogito. This one focuses on an Order fulfillment implementation.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/02/kie-tools-examples-implementing-a-ping-pong-view-in-angular.html">KIE TOOLS EXAMPLES – IMPLEMENTING A PING PONG VIEW IN ANGULAR</a> expands on creating custom views using the Envelope API using Angular instead of React.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/02/json-datasets-in-dashbuilder.html">JSON DATASETS IN DASHBUILDER</a> demonstrates how to use JSON datasets within DashBuilder and briefly touching on future directions for the tech.</p>
+</li>
+</ul>
+</div>
+<p>Those working on Quarkus have a few new things to show and say this week as well:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-superheroes-to-the-rescue/">Quarkus Superheroes to the Rescue!</a> walks through the full Quarkus Superheroes application including deployment, docker, dev mode, and the architecture.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/stork-kubernetes-discovery/">Kubernetes Service Discovery and Selection with Stork</a> covers the same ground as the Mastertheboss blog, but in a different way using different examples. You can&#8217;t go wrong with either of them.</p>
+</li>
+</ul>
+</div>
+<p>Lastly, a few blogs from other areas around the blogosphere:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.keycloak.org/2022/02/dbs">Supported databases for the new Keycloak store</a></p>
+</li>
+<li>
+<p><a href="https://www.schabell.org/2022/02/devopsdays-raleigh-2022-architecture-and-career.html">DevOpsDays Raleigh 2022 - Talking Architecture and Career</a></p>
+</li>
+<li>
+<p><a href="https://www.redhat.com/sysadmin/podman-features-1">5 Podman features to try now</a></p>
+</li>
+</ul>
+</div>
+<p>Thanks again for joining us for another week!</p>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
