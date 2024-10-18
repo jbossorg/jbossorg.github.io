@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 11 March 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, keycloak, kogito, elytron, containers, javascript">
+      <h1>This Week in JBoss - 11 March 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Let&#8217;s start things off with congrats to all the teams on their hard work!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-1-12-1-final-released/">Quarkus 1.12.1.Final</a> is out with bug fixes and documentation improvements.</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-3-9-6">Eclipse Vert.x 3.9.6</a> is now available and delivers several bug fixes.</p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2021/03/keycloak-1204-released">Keycloak 12.0.4</a> is also released. Go check out their blog for full details.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_from_the_community">From the community</h2>
+<div class="sectionbody">
+<p>There&#8217;s been a lot of activity since the last editorial so let&#8217;s take a look.</p>
+<p>First up is Ramon Gordillo&#8217;s rather interesting take on moving legacy technology on Kubernetes.
+Ramon starts by pointing out that even software that is considered "legacy" and traditionally on-prem is often packed with new and useful features.
+Add to that the fact that many containerized applications still rely on legacy systems - "not all apps are greenfield" - and he builds a solid case for doing something that might otherwise induce a few gasps.
+Go see how Ramon tackles running IBM DB2 in containers, <a href="https://blog.ramon-gordillo.dev/2021/03/trying-db2-in-kubernetes-for-developers/">Trying DB2 in Kubernetes for developers</a>.</p>
+<p><a href="https://blog.kie.org/2021/02/migrating-jbpm-images-secured-by-ldap-to-elytron.html">Migrating jBPM images secured by LDAP to Elytron</a> by Gonzalo Muñoz Fernández is one that I thoroughly enjoyed.
+If you&#8217;re not familiar with Elytron it is, as Gonzalo explains, Wildfly&#8217;s security framework that puts security management and application access into a single subsystem.
+In his post, Gonzalo clearly describes and then steps through how to migrate jBPM images from PicketBox, which is a security subsystem based on JAAS login modules, over to Elytron.</p>
+<p>Also on the Kogito blog, Paul Brown and Emily Murphy take on the challenge of <a href="https://blog.kie.org/2021/03/optimizing-covid-19-vaccination-appointment-scheduling.html">Optimizing COVID-19 vaccination appointment scheduling</a>.
+Their post details the approach for using OptaPlanner to handle planning constraints and automatically assign vaccination appointments.
+Getting vaccinations rolled out globally is a massive logistical and planning challenge so it&#8217;s comforting to know our community is providing tooling to get us all back to "normal".</p>
+<p>The Red Hat Developer blog has a couple of recent entries focused on JavaScript that are both good reads.</p>
+<p>Michael Dawson introduces us to the <a href="https://developers.redhat.com/blog/2021/03/08/introduction-to-the-node-js-reference-architecture-part-1-overview/">Node.js reference architecture from Red Hat and IBM</a> and explains their reasons for creating it.
+The goal is to help developers make good choices when navigating the vibrant and extensive JavaScript ecosystem by recommending packages based on shared experience across teams and projects.</p>
+<p>Joel Lord takes us through <a href="https://developers.redhat.com/blog/2021/03/04/building-rootless-containers-for-javascript-front-ends/">Building rootless containers for JavaScript front ends</a> to demonstrate how you can avoid security vulnerabilities and potential disaster.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evangelists_corner">Evangelist&#8217;s corner</h2>
+<div class="sectionbody">
+<p>Our ever productive Eric Schabell has brought us some fantastic content that should really get you thinking about community technology can apply to solve real world business problems.</p>
+<p>Similarly to James and Emily&#8217;s post on the Kogito blog, Eric shows how <a href="https://www.schabell.org/2021/03/business-optimisation-architecture-example-vaccine-scheduling-.html">retail pharmacies can optimize scheduling to provide customer vaccinations</a>.</p>
+<p>Eric also provides a <a href="https://www.schabell.org/2021/03/supply-chain-integration-an-architectural-introduction.html">architectural blueprint for supply-chain integration</a> that comes with a treasure trove of resources and is well worth delving into.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_developers_on_film">Developers on film</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/ogbMLeU1ogk">Make your Quarkus apps even faster with Fast Jar packaging</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/BQMMd-RbXcE">Quarkus Insights #40: Behind the curtains with Quarkus tooling and workflows</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/ALeGqUAJrUU">Data gateways: Legacy data for microservices</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
