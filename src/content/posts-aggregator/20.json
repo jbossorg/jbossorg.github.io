@@ -1,13 +1,14 @@
 {
-  "title": "WildFly 33.0.2 is released!",
-  "link": "https://wildfly.org//news/2024/09/17/WildFly3302-Released/",
+  "title": "Keycloak 25.0.6 released",
+  "link": "https://www.keycloak.org/2024/09/keycloak-2506-released",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-09-17T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 33.0.2.Final is now available .  Typically after a major release of WildFly we follow up with one small bug fix release in the coming weeks before moving on to the next major release, however due to the nature of the issues fixed in this release we have decided to release one more release so I am pleased to confirm WildFly 33.0.2.Final is now available.  The following issues were resolved in 33.0.2:   COMPONENT UPGRADE   * [] - Upgrade WildFly Core to 25.0.2.Final   * [] - CVE-2024-8391 Upgrade Vert.x to 4.5.10  Issues resolved in the WildFly Core update included with WildFly 33.0.2 were:   COMPONENT UPGRADE   * [] - Upgrade WildFly Elytron to 2.5.2.Final   * [] - CVE-2024-7885 Upgrade Undertow to 2.3.17.Final  Issues resolved in the WildFly Elytron upgrade were:   BUG   * []- NullPointerException in OidcClientConfiguration.resolveUrls if parameter    \"request_parameter_supported\" is not present in openid-configuration.  Enjoy!"
+  "date": "2024-09-19T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * [Documentation] - Configuring trusted certificates - Fully specify truststore    path dist/quarkus   BUGS   * oidc - JavaScript-Adapter LocalStorage#clearExpired does not clear all    possible items adapter/javascript  * Uncaught (in promise): QuotaExceededError adapter/javascript  * When using `oidcProvider` config url (.well-known) it's not possible to use    `silentCheckSsoRedirectUri` adapter/javascript  * some GUI validation check missing admin/ui  * Organization API not available from OpenAPI documentation admin/api  * Logout not working after removing Identity Provider of user    identity-brokering  * Passkeys: Infinite (re-)loading loop on browsers with WebAuthn Conditional UI    disabled authentication/webauthn  * Wrong documentation link in keycloak-js readme docs  * Not persisted config settings prevent server start dist/quarkus  * [PERF] OpenTelemetry is initialized even when disabled  * Not possible to close dialog boxes when clicking buttons or the close icon    admin/ui  * Doc CI - broken links error docs  * grammatical error in \"Managing Organizations\" documentation docs  * Home URL for security-admin-console is broken admin/ui  * Custom keycloak login theme styles.css return error 404 login/ui  * Org Invite: `linkExpiration` template variable represents 54 years in minutes    organizations  * Respect the locale set to a user when redering verify email pages    user-profile  * Do not show domain match message in the identity-first login when no login    hint is provided organizations  * Flaky test:    org.keycloak.testsuite.broker.KcOidcBrokerTest#testPostBrokerLoginFlowWithOTP_bruteForceEnabled    ci  * Keycloak 26.0.0/26.0.1 Import Issue: Multiple Realms Not Imported, Duplicated    Realm Imported Instead import-export  * JS password validation doesn't work as intended with uppercase and lowercase    minimum requirements login/ui  * cli options starting or ending with ; or containing ;; mangle the cli    handling dist/quarkus  * Deleting a user leads to ISPN marshalling exception"
 }

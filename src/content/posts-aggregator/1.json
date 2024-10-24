@@ -1,13 +1,14 @@
 {
-  "title": "Connecting to Redis from a Jakarta EE application",
-  "link": "https://www.mastertheboss.com/java-ee/jakarta-ee/connecting-to-redis-from-a-jakarta-ee-application/",
+  "title": "Keycloak 26.0.2 released",
+  "link": "https://www.keycloak.org/2024/10/keycloak-2602-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-10-18T17:28:27.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "In this tutorial, we’ll learn how to integrate Redis into a Jakarta EE application using the Lettuce client library. Redis is a powerful in-memory data structure store, often used as a cache, message broker, or database. Lettuce is a popular Java client for Redis, providing both synchronous and asynchronous capabilities. We will use a simple ...  The post appeared first on ."
+  "date": "2024-10-24T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * [Documentation] - Configuring trusted certificates - Fully specify truststore    path dist/quarkus   BUGS   * oidc - JavaScript-Adapter LocalStorage#clearExpired does not clear all    possible items adapter/javascript  * Uncaught (in promise): QuotaExceededError adapter/javascript  * When using `oidcProvider` config url (.well-known) it's not possible to use    `silentCheckSsoRedirectUri` adapter/javascript  * some GUI validation check missing admin/ui  * Organization API not available from OpenAPI documentation admin/api  * Logout not working after removing Identity Provider of user    identity-brokering  * Passkeys: Infinite (re-)loading loop on browsers with WebAuthn Conditional UI    disabled authentication/webauthn  * Wrong documentation link in keycloak-js readme docs  * Not persisted config settings prevent server start dist/quarkus  * [PERF] OpenTelemetry is initialized even when disabled  * Not possible to close dialog boxes when clicking buttons or the close icon    admin/ui  * Doc CI - broken links error docs  * grammatical error in \"Managing Organizations\" documentation docs  * Home URL for security-admin-console is broken admin/ui  * Custom keycloak login theme styles.css return error 404 login/ui  * Org Invite: `linkExpiration` template variable represents 54 years in minutes    organizations  * Respect the locale set to a user when redering verify email pages    user-profile  * Do not show domain match message in the identity-first login when no login    hint is provided organizations  * Flaky test:    org.keycloak.testsuite.broker.KcOidcBrokerTest#testPostBrokerLoginFlowWithOTP_bruteForceEnabled    ci  * Keycloak 26.0.0/26.0.1 Import Issue: Multiple Realms Not Imported, Duplicated    Realm Imported Instead import-export  * JS password validation doesn't work as intended with uppercase and lowercase    minimum requirements login/ui  * cli options starting or ending with ; or containing ;; mangle the cli    handling dist/quarkus  * Deleting a user leads to ISPN marshalling exception"
 }
