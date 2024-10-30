@@ -1,13 +1,14 @@
 {
-  "title": "How to monitor and invalidate HTTP Sessions in WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-cluster/jboss-monitoring-http-session-replication/",
+  "title": "Keycloak 26.0.0 released",
+  "link": "https://www.keycloak.org/2024/10/keycloak-2600-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-10-03T13:06:35.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article we will learn how to monitor and invalidate HTTP Sessions in WildFly application server / JBoss EAP using the management instruments such as the Command Line Interface and the Web console. We will also learn how to capture Undertow metrics using the Micrometer metrics component. Monitoring HTTP Sessions First of all, in order ...  The post appeared first on ."
+  "date": "2024-10-04T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak-admin-client should work with the future versions of Keycloak server    admin/client-java  * Make the organization chapter of Server Admin guide available on downstream   BUGS   * Broken Promise implementation for AuthZ JS adapter/javascript  * Allow increasing wait time on each failure after the max number of failures    is reached authentication  * ClassNotFoundException OracleXADataSource/OracleDataSource using IDELauncher    with Keycloak 26.0.0 dist/quarkus  * Client Scope updates are not replicated on a distributed keycloak setup in    kubernetes admin/api  * CVE-2021-44549 - org.eclipse.angus/angus-mail: Enabling Secure Server    Identity Checks for Safer SMTPS Communication dist/quarkus  * keycloak.v2 registration: Password policy validation error \"errorList is    null\" login/ui  * LDAP Pagination not working for role membership in    GET_ROLES_FROM_USER_MEMBEROF_ATTRIBUTE strategy ldap  * Listing federated LDAP users is very slow with import enabled ldap  * java.util.ConcurrentModificationException when process user sessions update    infinispan  * LDAP: searching users with import disabled is slower since fix for 34050 ldap"
 }

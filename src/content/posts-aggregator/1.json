@@ -1,13 +1,14 @@
 {
-  "title": "Save the Date: WildFly Mini Conference on Nov 20th",
-  "link": "https://wildfly.org//news/2024/10/28/2024-10-28-WildFly-mini-conference-save-the-date/",
+  "title": "Keycloak 26.0.4 released",
+  "link": "https://www.keycloak.org/2024/10/keycloak-2604-released",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-10-28T22:20:59.000Z",
-  "feed_title": "WildFly",
-  "content": "Hello, WildFly Community!  We are happy to announce that the next WildFly Mini Conference is scheduled for November 20th, 2024! Building on the success of our previous mini conference event, we are eager to bring together our community for another day of insightful discussions and online networking.  As you know, a few weeks ago we sent a . Based on the feedback we received, the most voted topics were:   * Jakarta EE11: Dive deep into the latest advancements and explore how Jakarta    EE11 is shaping the future of enterprise Java.   * Latest News on WildFly: Stay updated with the latest news on WildFly   * DevOps Related Topics: Discover best practices and innovative approaches to    integrating WildFly within your DevOps pipelines.  We are committed to not only covering these popular topics but also addressing the suggestions submitted by our community. Your input is invaluable, and we’re dedicated to crafting a conference agenda that reflects your interests and needs.  Stay tuned for upcoming announcements regarding the detailed schedule and our lineup of expert speakers. We are looking forward to another successful event and can’t wait to connect with all of you on November 20th!  Best regards,  Flavia"
+  "date": "2024-10-30T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak-admin-client should work with the future versions of Keycloak server    admin/client-java  * Make the organization chapter of Server Admin guide available on downstream   BUGS   * Broken Promise implementation for AuthZ JS adapter/javascript  * Allow increasing wait time on each failure after the max number of failures    is reached authentication  * ClassNotFoundException OracleXADataSource/OracleDataSource using IDELauncher    with Keycloak 26.0.0 dist/quarkus  * Client Scope updates are not replicated on a distributed keycloak setup in    kubernetes admin/api  * CVE-2021-44549 - org.eclipse.angus/angus-mail: Enabling Secure Server    Identity Checks for Safer SMTPS Communication dist/quarkus  * keycloak.v2 registration: Password policy validation error \"errorList is    null\" login/ui  * LDAP Pagination not working for role membership in    GET_ROLES_FROM_USER_MEMBEROF_ATTRIBUTE strategy ldap  * Listing federated LDAP users is very slow with import enabled ldap  * java.util.ConcurrentModificationException when process user sessions update    infinispan  * LDAP: searching users with import disabled is slower since fix for 34050 ldap"
 }

@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus Newsletter #49 - October",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-49/",
+  "title": "Keycloak 26.0.1 released",
+  "link": "https://www.keycloak.org/2024/10/keycloak-2601-released",
   "author": [
     {
-      "name": "James Cobb",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2024-10-17T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Explore how the combination of Quarkus and LangChain4J boosts productivity and efficiency in developing Java-based AI systems as well as understanding the key concepts underlying the development of such applications in \"Leveraging Quarkus and LangChain4j\" by Thiago dos Santos Hora. Read \"Enhancing the Quarkus developer experience: New updates for IntelliJ and VS Code tools\" by Mohit Suman & Angelo Zerr for information on the latest releases of Quarkus Tools for IntelliJ 2.0.2 and Quarkus Tools for Visual Studio Code 1.18.1 that deliver significant enhancements to support Quarkus and Qute, making development smoother. Check out Yatin Batra’s article \"Quarkus Citrus Test Tutorial\" to Learn how to implement and run integration tests using Quarkus with Citrus framework for effective testing. \"Effective Project Structuring for Microservices with Quarkus\" by Ivelin Yanev is a great way to learn the key to leveraging Quarkus effectively by understanding how to structure your project correctly. Kostiantyn Ivanov wrote a great tutorial, \"Connecting to Elasticsearch Using Quarkus\" the helps you explore how to integrate Quarkus with Elasticsearch, a well-known full-text search engine and NoSQL datastore.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak-admin-client should work with the future versions of Keycloak server    admin/client-java  * Make the organization chapter of Server Admin guide available on downstream   BUGS   * Broken Promise implementation for AuthZ JS adapter/javascript  * Allow increasing wait time on each failure after the max number of failures    is reached authentication  * ClassNotFoundException OracleXADataSource/OracleDataSource using IDELauncher    with Keycloak 26.0.0 dist/quarkus  * Client Scope updates are not replicated on a distributed keycloak setup in    kubernetes admin/api  * CVE-2021-44549 - org.eclipse.angus/angus-mail: Enabling Secure Server    Identity Checks for Safer SMTPS Communication dist/quarkus  * keycloak.v2 registration: Password policy validation error \"errorList is    null\" login/ui  * LDAP Pagination not working for role membership in    GET_ROLES_FROM_USER_MEMBEROF_ATTRIBUTE strategy ldap  * Listing federated LDAP users is very slow with import enabled ldap  * java.util.ConcurrentModificationException when process user sessions update    infinispan  * LDAP: searching users with import disabled is slower since fix for 34050 ldap"
 }
