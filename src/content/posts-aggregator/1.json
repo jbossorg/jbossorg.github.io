@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak 26.0.4 released",
-  "link": "https://www.keycloak.org/2024/10/keycloak-2604-released",
+  "title": "Keycloak 26.0.5 released",
+  "link": "https://www.keycloak.org/2024/11/keycloak-2605-released",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-10-30T00:00:00.000Z",
+  "date": "2024-11-01T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Keycloak-admin-client should work with the future versions of Keycloak server    admin/client-java  * Make the organization chapter of Server Admin guide available on downstream   BUGS   * Broken Promise implementation for AuthZ JS adapter/javascript  * Allow increasing wait time on each failure after the max number of failures    is reached authentication  * ClassNotFoundException OracleXADataSource/OracleDataSource using IDELauncher    with Keycloak 26.0.0 dist/quarkus  * Client Scope updates are not replicated on a distributed keycloak setup in    kubernetes admin/api  * CVE-2021-44549 - org.eclipse.angus/angus-mail: Enabling Secure Server    Identity Checks for Safer SMTPS Communication dist/quarkus  * keycloak.v2 registration: Password policy validation error \"errorList is    null\" login/ui  * LDAP Pagination not working for role membership in    GET_ROLES_FROM_USER_MEMBEROF_ATTRIBUTE strategy ldap  * Listing federated LDAP users is very slow with import enabled ldap  * java.util.ConcurrentModificationException when process user sessions update    infinispan  * LDAP: searching users with import disabled is slower since fix for 34050 ldap"
+  "content": "To download the release go to .   HIGHLIGHTS   LDAP USERS ARE CREATED AS ENABLED BY DEFAULT WHEN USING MICROSOFT ACTIVE DIRECTORY  If you are using Microsoft AD and creating users through the administrative interfaces, the user will created as enabled by default.  In previous versions, it was only possible to update the user status after setting a (non-temporary) password to the user. This behavior was not consistent with other built-in user storages as well as not consistent with others LDAP vendors supported by the LDAP provider.   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Selection list does not close after outside click admin/ui  * Fix v2 login layout login/ui  * No message for `policyGroupsHelp` admin/ui  * Customizable footer (Keycloak 26) not displaying in keycloak.v2 login theme    login/ui  * Remove inaccurate statement about master realm imports docs  * [26.0.2] Migration from 25.0.1 Identity Provider Errors identity-brokering  * Do not rely on the `pwdLastSet` attribute when updating AD entries ldap"
 }
