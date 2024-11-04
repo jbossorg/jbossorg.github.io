@@ -1,13 +1,14 @@
 {
-  "title": "How to monitor and invalidate HTTP Sessions in WildFly",
-  "link": "https://www.mastertheboss.com/jbossas/jboss-cluster/jboss-monitoring-http-session-replication/",
+  "title": "Keycloak 26.0.0 released",
+  "link": "https://www.keycloak.org/2024/10/keycloak-2600-released",
   "author": [
     {
-      "name": "F.Marchioni",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-10-03T13:06:35.000Z",
-  "feed_title": "Mastertheboss",
-  "content": "This article we will learn how to monitor and invalidate HTTP Sessions in WildFly application server / JBoss EAP using the management instruments such as the Command Line Interface and the Web console. We will also learn how to capture Undertow metrics using the Micrometer metrics component. Monitoring HTTP Sessions First of all, in order ...  The post appeared first on ."
+  "date": "2024-10-04T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   HIGHLIGHTS   LDAP USERS ARE CREATED AS ENABLED BY DEFAULT WHEN USING MICROSOFT ACTIVE DIRECTORY  If you are using Microsoft AD and creating users through the administrative interfaces, the user will created as enabled by default.  In previous versions, it was only possible to update the user status after setting a (non-temporary) password to the user. This behavior was not consistent with other built-in user storages as well as not consistent with others LDAP vendors supported by the LDAP provider.   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Selection list does not close after outside click admin/ui  * Fix v2 login layout login/ui  * No message for `policyGroupsHelp` admin/ui  * Customizable footer (Keycloak 26) not displaying in keycloak.v2 login theme    login/ui  * Remove inaccurate statement about master realm imports docs  * [26.0.2] Migration from 25.0.1 Identity Provider Errors identity-brokering  * Do not rely on the `pwdLastSet` attribute when updating AD entries ldap"
 }
