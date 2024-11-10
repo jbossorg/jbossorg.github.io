@@ -1,13 +1,14 @@
 {
-  "title": "Announcement for the Upcoming WildFly Mini Conference!",
-  "link": "https://wildfly.org//news/2024/10/07/WildFly-mini-conference-session-form/",
+  "title": "Backwards compatibility in Keycloak releases",
+  "link": "https://www.keycloak.org/2024/10/release-updates",
   "author": [
     {
-      "name": "Flavia Rainone",
+      "name": "Stian Thorgersen",
       "avatar": null
     }
   ],
-  "date": "2024-10-07T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "Hello, WildFly Community!  We are excited to share that after the success of our first WildFly Mini Conference earlier this year, we are planning a new edition for November!  The inaugural conference was an incredible experience, bringing together WildFly developers and the entire community for productive discussions and learning. We are eager to replicate this success, and we want your help to make the next event even better.  We would love to hear which topics you would like to see covered in the conference sessions. Your feedback is crucial to us, and we want to ensure the event meets everyone’s expectations and interests.  Please take a moment to share your suggestions by filling out our . We will be collecting responses until next Monday, October 14th.  We look forward to hearing from you and seeing everyone at the next WildFly Mini Conference!  Best regards,  Flavia"
+  "date": "2024-10-08T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "With four major releases of Keycloak every year it can be a daunting task to keep deployments up to date. Especially, since . Combine this with the importance of patching deployments quickly for vulnerabilities, this can leave many deployments open to known vulnerabilities as the time and effort required to update to is too costly.  Additionally, currently Keycloak client libraries are released together with the server, resulting in new major versions of a client library, where in fact there can be no changes at all, or perhaps only a bug fix or two.  For these reasons, after Keycloak 26.0 is released there will be some changes to how Keycloak is being released:   * Keycloak server will have 4 minor releases every year, and a major release    every 2-3 years   * Keycloak client libraries will be released separately. The latest client    library release will support all currently supported Keycloak server releases  We will continue to bring new features and enhancements to Keycloak in each release, and we are committed to doing so in a backwards compatible way, making it seamless and easy to upgrade.  When a minor comes with breaking changes, such changes will be opt-in. This will be driven through versioning where the currently default version for a Feature or an API can not change in a minor release, and there will be a new version that can be explicitly enabled. The current version of a Feature or API can be deprecated in a minor, but will not be removed until the next major version. This will allow you to gradually roll-out new Feature or API versions separately from upgrading. You can choose to get ready for the next major release early, or wait and do it in one go.  Backwards compatibility guarantees will only be given to Features and APIs that are fully supported. Preview features or preview APIs, as well as non-public APIs may change at any time."
 }
