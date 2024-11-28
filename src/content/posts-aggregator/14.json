@@ -1,13 +1,13 @@
 {
-  "title": "Next WildFly Mini Conference",
-  "link": "https://wildfly.org//news/2024/11/12/WildFly-mini-conference/",
+  "title": "Quarkus 3.16.3 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-16-3-released/",
   "author": [
     {
-      "name": "Harald Pehl",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-11-12T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "The WildFly team organizes the next WildFly mini conference. It will take place on Wednesday, November 20, 2024. It starts at 14:00 UTC and includes four sessions with topics related to WildFly. All sessions will be streamed live on YouTube.  For more information, please take a look at the conference page at  We’re looking forward to seeing you there!"
+  "date": "2024-11-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.16.3, a maintenance release for our 3.16 release train.  This version contains bugfixes and documentation improvements.   UPDATE  To update to Quarkus 3.16, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.16.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
