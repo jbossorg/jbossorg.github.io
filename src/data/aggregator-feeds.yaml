@@ -21,11 +21,11 @@ feeds:
   - url: https://blog.kie.org/feed/atom
   - url: https://www.wildfly.org/feed.xml
   - url: https://quarkus.io/feed.xml
-  - url: https://resteasy.github.io/feed.xml
+  # - url: https://resteasy.github.io/feed.xml
   # vertx website has changed and there is no link to RSS feed
   - url: https://vertx.io/feed/atom.xml
   - url: https://jbossts.blogspot.com/feeds/posts/default
-  - url: http://www.mastertheboss.com/feed/
+  # - url: http://www.mastertheboss.com/feed/
 
 # end of list
 
