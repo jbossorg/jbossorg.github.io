@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 26.0.1 released",
-  "link": "https://www.keycloak.org/2024/10/keycloak-2601-released",
+  "title": "Eclipse Vert.x 4.5.11 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-11",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-10-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   HIGHLIGHTS   LDAP USERS ARE CREATED AS ENABLED BY DEFAULT WHEN USING MICROSOFT ACTIVE DIRECTORY  If you are using Microsoft AD and creating users through the administrative interfaces, the user will created as enabled by default.  In previous versions, it was only possible to update the user status after setting a (non-temporary) password to the user. This behavior was not consistent with other built-in user storages as well as not consistent with others LDAP vendors supported by the LDAP provider.   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   BUGS   * Selection list does not close after outside click admin/ui  * Fix v2 login layout login/ui  * No message for `policyGroupsHelp` admin/ui  * Customizable footer (Keycloak 26) not displaying in keycloak.v2 login theme    login/ui  * Remove inaccurate statement about master realm imports docs  * [26.0.2] Migration from 25.0.1 Identity Provider Errors identity-brokering  * Do not rely on the `pwdLastSet` attribute when updating AD entries ldap"
+  "date": "2024-11-13T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": ""
 }

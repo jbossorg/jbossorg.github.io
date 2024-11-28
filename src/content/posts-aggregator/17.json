@@ -1,14 +1,13 @@
 {
-  "title": "Meet Keycloak at KubeCon Salt Lake City, Utah in Nov 2024",
-  "link": "https://www.keycloak.org/2024/10/keycloak-kubeconf24-na-slc-announcement",
+  "title": "Quarkus 3.16.2 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-16-2-released/",
   "author": [
     {
-      "name": "Kamesh Akella",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-10-10T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are thrilled to announce that Keycloak will be at KubeCon Salt Lake City, Utah in Nov 2024. There are several Keycloak specific sessions lined up during this conference, and we will be hosting a Kiosk at the Project Pavilion at KubeCon.   WHAT IS KUBECON?  Keycloak’s presence in the previous KubeCons was a huge success, and we continue to have a lot of fun interacting with Keycloak enthusiasts, users, newcomers alike. KubeCon is a fast-growing Cloud Native tech conference expected to have up to 8,000 developers, architects, and technical leaders onsite as well as thousands of participants virtually.  KubeCon Salt Lake City will be held from Nov. 12th, 2024 through Nov. 15th, 2024, with many of the co-located events happening on Tuesday, Nov 12th, 2024.   KEYCLOAK COMMUNITY MEET & GREET AT THE PROJECT PAVILION  from Hitachi, , , from Red Hat and other contributors will be at the Keycloak kiosk at the . This is a great chance to meet people who use Keycloak, contribute to Keycloak, take our survey about new Keycloak features, and get some cool swag!  Keycloak Kiosk opening hours:   * Wednesday, November 13: 3:15pm-8:00pm   * Thursday, November 14: 1:45pm–5:00pm   * Friday, November 15: 12:30pm-2:30pm   OPENSHIFT COMMONS GATHERING  The OpenShift Commons Gathering happens on Tuesday (Nov. 12th, 2024) and builds connections and collaboration across OpenShift communities, projects and stakeholders. Some maintainers from the Keycloak development team will be here during the afternoon. This gives a chance for more community Keycloak maintainers, contributors, and users to meet and share their ideas or just hang out. Access to the OpenShift Commons event is free and does not require a paid KubeCon ticket, .   KEYCLOAK SPECIFIC EVENTS AT KUBECON  Below is the Keycloak specific event that the attendees both in-person and virtually can plan to attend and learn more about a Highly Available Keycloak deployed in a Multi-Site environment.   * Friday, November 15, 4:55pm - 5:30pm MST(UTC-7)        By Ryan Emerson & Kameswararao Akella, Red Hat.  We’re preparing for KubeCon SLC 2024 and can’t wait to connect with our community. Mark your calendars and join us.  See you in Salt Lake City, Utah!"
+  "date": "2024-11-06T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.16.2, a maintenance release for our 3.16 release train.  In this version, we upgraded the PostgreSQL Dev Services to PostgreSQL 17, as older versions had issues on Mac Mx architecture. If it is a problem for your applications, you can go back to a previous image by setting the quarkus.datasource.devservices.image-name=… configuration property (or quarkus.datasource.\"datasource-name\".devservices.image-name=… for a named datasource).   UPDATE  To update to Quarkus 3.16, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.16.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }

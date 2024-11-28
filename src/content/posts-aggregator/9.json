@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak DevDay 2025 Pre-Conf Event Announcement",
-  "link": "https://www.keycloak.org/2024/10/keycloak-devday-2025-hackathon-announcement",
+  "title": "Quarkus 3.15.2 released - LTS maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-15-2-released/",
   "author": [
     {
-      "name": "Sebastian Rose",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-10-25T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "is just around the corner, and we would like to invite you to a special pre-event: the Keycloak Hackathon!   HACKATHON: ACTIVELY HELP SHAPE KEYCLOAK  On the day before DevDay, on March 5, our hackathon will give you the opportunity to actively contribute to the further development of Keycloak. Whether you write code, work on the documentation, improve translations or maintain issues in the issue tracker - everyone can take part. The hackathon offers you the opportunity to pitch new ideas and work together in small groups on exciting projects.   SCHEDULE OF THE HACKATHON  10:00: Start of the first iteration with a pitch round. Here you can present your ideas and topics, ranging from new features and bug fixes to documentation improvements. The teams start working on the pitched topics. Our goal is to achieve measurable results by the end of the day - be it through code contributions, documentation or other important improvements for the Keycloak community.  12:30: Lunch-break  13:30: Another start for everyone arriving later in the day.  17:00: Closing with presentation and honouring the results   WHY SHOULD YOU PARTICIPATE?  The hackathon is a great opportunity to network and actively participate with other members of the Keycloak community. It’s the perfect chance for:   * Participants arriving early who want to make good use of the previous day.   * Experienced contributors and maintainers who want to advance their projects    or work on new topics.   * Newcomers who want to contribute for the first time and get involved in the    community - whether through code, documentation or organisational tasks.   IDEAS AND TOPICS  If you have an idea or a topic that you would like to work on at the hackathon, get in touch with us! We will be happy to support you with the preparation and help you present your topic successfully.  If you would like to work on a topic but don’t yet know exactly what you would like to take part in, please let us know. We try to organize teams and topics at an early stage so that you can get in touch with like-minded people in advance.   HOW CAN YOU TAKE PART?  Participation is easy: Grab your free pre-event ticket on the and join us! The hackathon offers a great opportunity to contribute in a relaxed atmosphere and to talk to other participants.  We look forward to seeing you at the hackathon and working together on the future of Keycloak. Let’s code, document, and contribute - together for Keycloak!"
+  "date": "2024-11-18T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.15.2, our first (we skipped 3.15.0) maintenance release for the 3.15 LTS release.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.15.   UPDATE  To update to Quarkus 3.15, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.15  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.15.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
