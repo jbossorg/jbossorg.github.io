@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus 3.16.2 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-16-2-released/",
+  "title": "KeyConf24 recordings available",
+  "link": "https://www.keycloak.org/2024/11/keyconf24-videos-available",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Alexander Schwartz",
       "avatar": null
     }
   ],
-  "date": "2024-11-06T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.16.2, a maintenance release for our 3.16 release train.  In this version, we upgraded the PostgreSQL Dev Services to PostgreSQL 17, as older versions had issues on Mac Mx architecture. If it is a problem for your applications, you can go back to a previous image by setting the quarkus.datasource.devservices.image-name=… configuration property (or quarkus.datasource.\"datasource-name\".devservices.image-name=… for a named datasource).   UPDATE  To update to Quarkus 3.16, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.16.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2024-11-10T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "KeyConf24, our 2024 Keycloak Identity Summit, happened in Vienna in September this year. We were excited to have a full room on site, and 150+ people watching online.  Thanks to our event sponsor adorsys, all recorded videos are now available online at the event’s website: . Re-watch the talks and learn from practitioners, developers and maintainers.  Thanks to all our sponsors adorsys, Banfico, Hitachi and Red Hat who made this event possible!   *     Daniel Goldschneider (The OpenWallet Foundation)   *     Vinod Anandan (JPMorgan Chase & Co.)   *     Francis Pouatcha (adorsys)   *     Takashi Norimatsu (Hitachi, Ltd.)   *     Václav Muzikář (Red Hat)   *     Marek Posolda (Red Hat)   *     Pritish Joshi (Banfico)   *     Martin Bartoš (Red Hat)   *     Dmitry Telegin (Backbase UK)   *     GR Patil (Phase Two)   *     Martin Besozzi (TwoGenIdentity)"
 }
