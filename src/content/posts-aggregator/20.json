@@ -1,14 +1,13 @@
 {
-  "title": "KeyConf24 recordings available",
-  "link": "https://www.keycloak.org/2024/11/keyconf24-videos-available",
+  "title": "RESTEasy 6.2.11.Final and 7.0.0.Alpha4 Releases",
+  "link": "https://resteasy.dev/2024/11/11/releases/",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2024-11-10T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "KeyConf24, our 2024 Keycloak Identity Summit, happened in Vienna in September this year. We were excited to have a full room on site, and 150+ people watching online.  Thanks to our event sponsor adorsys, all recorded videos are now available online at the event’s website: . Re-watch the talks and learn from practitioners, developers and maintainers.  Thanks to all our sponsors adorsys, Banfico, Hitachi and Red Hat who made this event possible!   *     Daniel Goldschneider (The OpenWallet Foundation)   *     Vinod Anandan (JPMorgan Chase & Co.)   *     Francis Pouatcha (adorsys)   *     Takashi Norimatsu (Hitachi, Ltd.)   *     Václav Muzikář (Red Hat)   *     Marek Posolda (Red Hat)   *     Pritish Joshi (Banfico)   *     Martin Bartoš (Red Hat)   *     Dmitry Telegin (Backbase UK)   *     GR Patil (Phase Two)   *     Martin Besozzi (TwoGenIdentity)"
+  "date": "2024-11-11T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
