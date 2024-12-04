@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 5 candidate 1 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-1-released",
+  "title": "Quarkus 3.16.4 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-16-4-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2024-11-18T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2024-11-20T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.16.4, a maintenance release for our 3.16 release train.  This version contains bugfixes and documentation improvements.   UPDATE  To update to Quarkus 3.16, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.16.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
