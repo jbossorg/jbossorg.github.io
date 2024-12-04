@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 22 April 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, resteasy, red hat summit, keycloak, kogito, elytron, dashbuilder">
+      <h1>This Week in JBoss - 22 April 2022</h1>
+      
+    <p class="preamble"><p>Welcome back!
+Amazing how quickly two weeks can fly by isn&#8217;t it?
+We have some great things for you this week including releases, tidbits from the blogoshpere, and information about Red Hat Summit 2022!</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Let&#8217;s jump right into what has been released over the past couple of weeks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.kie.org/2022/04/kogito-1-20-0-released.html">Kogito 1.20.0</a> - Updates including tooling, images, operator, and the CLI.</p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2022/04/keycloak-1800-released">Keycloak 18.0.0</a> - A new admin console preview, new Operator preview, client secret rotation, session limits per user, etc. Lots of great new features and additions!</p>
+</li>
+<li>
+<p><a href="https://resteasy.dev/2022/04/19/resteasy-releases/">RESTEasy 6.1.0.Beta1</a> - First release to implement Jakarta RESTful Web Services 3.1, updates to RESTEasy CDI allowing injection of certain types, and an <code>SeBootstrap</code> API implementation.</p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2022/04/14/WildFly261-Final-Released/">Wildfly 26.1.Final</a> - Honestly, too many things to list here, take a look at the blog post including new features, how to run on Java 17, and links to additional information.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-8-1-final-released/">Quarkus 2.8.1.Final</a> - First maintenance release of the 2.8 branch, it contains only bug fixes</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kie_related_posts">KIE Related Posts</h2>
+<div class="sectionbody">
+<p>The KIE team (jBPM, Drools, Optaplanner, Kogito) has had some interesting posts the last couple of weeks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.kie.org/2022/04/create-dashboards-using-yml-with-dashbuilder.html">Create Dashboards Using YML with Dashbuilder</a> - Building data visualizations using only YAML and JSON datasets is possible and easy to do.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/04/integrating-drools-dmn-engine-with-ibm-open-prediction-service.html">Integrating Drools DMN Engine with IBM Open Prediction Service</a> - An interesting combination of two open source projects. This showcases the power of integrating predictive models and decision models.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/04/defeasible-reasoning-drools-and-truth-maintenance-system.html">Defeasible Reasoning, Drools and Truth Maintenance System</a> - Be sure to examine your truth statements and keep them up to date when dealing with rules that depend on criteria to remain truthful.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_bits">Quarkus Bits</h2>
+<div class="sectionbody">
+<p>Quarkus always has interesting things going on, and these past weeks are no exception:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://quarkus.io/blog/solving-problems-with-extensions/">Solving problems with Quarkus extensions (1/n)</a> - Guillaume talks about breaking down complex problems and how to solve them using Quarkus extensions. This should be the first in a number of articles showcasing the power of Quarkus extensions.</p>
+</li>
+<li>
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/how-to-manage-transactions-in-quarkus/">How to manage Transactions in Quarkus</a> - Quarkus supports both declarative and programmatic transaction management. Francesco Marchioni showcases both approaches here.</p>
+</li>
+<li>
+<p><a href="https://developers.redhat.com/articles/2022/04/21/add-security-quarkus-application-using-red-hats-sso">Add security to a Quarkus application using Red Hat&#8217;s SSO</a> - Olivier Rivat explains how to leverage Red Hat&#8217;s SSO product to add security in your Quarkus application using OpenID Connect (OICD) and how to test it in the browser and via the CLI.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly_buzzings">Wildfly Buzzings</h2>
+<div class="sectionbody">
+<p>Wildfly continues strong with a number of posts:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.wildfly.org//news/2022/04/20/WildFly-s2i-v2-Released/">WildFly S2I new architecture is final!</a> - If you&#8217;re deploying Wildfly in the cloud, take a look at new and easier ways to create your container images, and how to shrink them!</p>
+</li>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/client-default-ssl-context/">Client side default SSL context provider</a> - You can now get access to a JVM wide <code>SSLContext</code> using Elytron. Dive into the blog post for examples.</p>
+</li>
+<li>
+<p>Do you need to encrypt your file system realm? Elytron has just what you need. Take a look at these two posts: <a href="https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption/">Encrypting Filesystem realms</a> and <a href="https://wildfly-security.github.io/wildfly-elytron/blog/filesystem-encryption-tool/">Encrypting Pre-Existing Filesystem realms</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_enough_rest">Getting enough REST</h2>
+<div class="sectionbody">
+<p>While it may not be one of the sexiest technologies, REST is used all over for communication and microservices.
+Take a look at two posts to get going if you&#8217;re new to RESTEasy: <a href="http://www.mastertheboss.com/jboss-frameworks/resteasy/getting-started-with-jakarta-restful-services/">Getting started with Jakarta RESTful Services</a> and <a href="https://resteasy.dev/2022/04/14/resteasy-spring-6-wildfly-example/">RESTEasy Spring And RESTEasy Spring Boot EE9 Deployment With WildFly Preview</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_red_hat_summit_2022">Red Hat Summit 2022</h2>
+<div class="sectionbody">
+<p>Red Hat Summit 2022 is happening May 10th and 11th.
+It will be a hybrid event.
+Take a look at the <a href="https://www.redhat.com/en/summit">Red Hat Summit page</a> for more information.
+There will be great information, talks, events, and tech for everyone who attends either virtually or in person.
+We&#8217;re looking forward to seeing you there!</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
