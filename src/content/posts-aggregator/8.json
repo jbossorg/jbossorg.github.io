@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.17.2 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-17-2-released/",
+  "title": "Issue tracking migration from Jira to GitHub",
+  "link": "https://infinispan.org/blog/2024/11/29/github-issues",
   "author": [
     {
-      "name": "Guillaume Smet",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
   "date": "2024-11-29T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.17.2 (we had to skip 3.17.1 due to a regression detected too late in the release process), a maintenance release for our 3.17 release train.   UPDATE  To update to Quarkus 3.17, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.17.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "feed_title": "Infinispan",
+  "content": "Infinispan issue tracking is now on .  We have decided to do this in order to make it easier for the community to report issues and for developers to cross-reference them in pull requests, release notes and discussions. GitHub issues offer a streamlined interface for and .  We have archived the Infinispan and ProtoStream Jira projects and have decided not to bulk import all open issues into GitHub, as the backlog had accumulated a lot of stuff. If you had a bug report or feature request on Jira you’d like to see fixed/implemented please report it again on GitHub, referencing the original via a link.  We hope this improvement makes it easier for everybody."
 }
