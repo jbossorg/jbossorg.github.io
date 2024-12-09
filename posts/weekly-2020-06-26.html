@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss: 26 June 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, data grid, camel, editorial,">
+      <h1>This Week in JBoss: 26 June 2020</h1>
+      <p>Here we are, once again at the close of June.
+Another summer has begun, albeit a little different than most.
+I hope everyone is safe, healthy, and doing well.
+There have been some very interesting blogs posted in the past couple of weeks that we&#8217;ll discuss in this edition, as well as a few releases.</p>
+<p>Operators in Kubernetes provide an extension point for the platform.
+They follow a pattern allowing you to manage resources and applications within the cluster.
+An operator can be either namespace-scoped or cluster-scoped.
+Did you know, however, that you can convert between the two?
+That is exactly what Abhishek Koserwal details in six steps over on the <a href="https://developers.redhat.com/blog/2020/06/26/migrating-a-namespace-scoped-operator-to-a-cluster-scoped-operator/">Red Hat Developer blog</a>.
+Abhishek walks you through a basic example and provides the full example as a GitHub repo.
+Read the article for more information, and reasons why you may want or need to switch between the different scopes.</p>
+<p>Multitenancy may be something you deal with everyday, or it may be something you&#8217;re looking at adding to your current application base.
+Either way, dealing with persistence can be tricky.
+Tenants must not see each other&#8217;s data, but be allowed to operate simultaneously.
+Your application must also perform well while still being easy to maintain.
+Rhuan Rocha has started a two part series on how to use JPA with Multitenancy over on the Red Hat Developer blog.
+<a href="https://developers.redhat.com/blog/2020/06/15/jakarta-ee-multitenancy-with-jpa-on-wildfly-part-1/">The first entry</a> details the problem and presents a possible solution using WildFly and EJBs.
+Expect the next installment to look more at Hibernate and JPA solutions.</p>
+<p>Effortlessly building a native application is of course, one of the amazing capabilities of Quarkus.
+However, when it comes to debugging, a native Quarkus application makes debugging <strong>very</strong> difficult.
+A large part of this is the optimizations that happen to create that quick, small, native binary.
+This debugging complication hasn&#8217;t gone unnoticed.
+Andrew Dinn has been working on this problem.
+He contributed a solution where the debug information is embedded with in the native image and can be access with <code>gdb</code>.
+If you&#8217;d like to learn more about the solution, <a href="https://developers.redhat.com/blog/2020/06/25/debugging-graalvm-native-images-using-gdb/">read Andrew&#8217;s blog entry</a>.</p>
+<p>Continuing with the Quarkus theme, Durgesh Anaokar wrote about <a href="https://developers.redhat.com/blog/2020/06/19/develop-and-test-a-quarkus-client-on-red-hat-codeready-containers-with-red-hat-data-grid-8-0/">developing and testing a Quarkus Red Hat Data Grid client using Red Hat CodeReady Containers</a>.
+Durgesh details installing CRC (Red Hat Code Ready Containers) and Data Grid on OpenShift 4 as well as running the client.
+Naturally, his project code is hosted in GitHub, you&#8217;ll find that link in his blog entry.</p>
+<p>Red Hat now has images, Universal Base Images to be exact, of OpenJDK (8 and 11) in Red Hat Enterprise Linux 8.2.
+A Universal Base Image (UBI) is an OCI-compliant container base OS image with runtime and language support that can be used as the base for Docker images and Podman/Buildah images.
+These will allow you to deploy and build supportable applications on Red Hat OpenShift and RHEL.
+It also includes a number of additional user-space packages over a base UBI.
+Read more about this <a href="https://developers.redhat.com/blog/2020/06/25/introducing-the-red-hat-build-of-the-openjdk-universal-base-images-now-in-red-hat-enterprise-linux-8-2/">over at Red Hat Developers</a>.</p>
+<p>If you have been following, you&#8217;ll know the Infinispan team has been hard at work on Infinispan 11.
+They are proud to announce that <a href="https://infinispan.org/blog/2020/06/15/infinispan-11/">Inifinspan 11.0.0. Final has been released</a>!
+A number of improvements and features have been added to this release including clustering, CLI, Hot Rod Client improvements, non-blocking internals, and others.</p>
+<p>Along with that new Infinispan release, you can now deploy a <a href="https://infinispan.org/blog/2020/06/16/native-server-announce/">natively compiled version of the Infinispan server</a>!
+The memory footprint is only 286MB.
+There are also native Quarkus extensions for your Quarkus based applications.</p>
+<p>Not to be left out of the cloud native party, Apache Camel is <a href="https://developers.redhat.com/blog/2020/06/18/camel-k-1-0-the-serverless-integration-platform-goes-ga/">announcing the GA release of Apache Camel K 1.0</a>.
+This release includes tooling, connectors, and integrations with Knative.
+This is a great step forward for doing integrations with a small footprint.</p>
+<p>Lastly, <a href="https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released/">Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0</a> was recently released.
+This is a patch that adds MicroProfile capabilities to JBoss EAP.
+There are some policy changes you will need to be aware of, but you find links to all of thosewithin the announcement.</p>
+<p>Thanks again for being with us on another JBoss Editorial!</p>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
