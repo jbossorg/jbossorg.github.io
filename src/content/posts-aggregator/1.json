@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak Adopts Terraform Provider",
-  "link": "https://www.keycloak.org/2024/12/terraform-provider-adoption",
+  "title": "Migrate from Vert.x 4 to Vert.x 5",
+  "link": "https://vertx.io/blog/from-vert-x-4-to-vert-x-5",
   "author": [
     {
-      "name": "Thomas Darimont",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-12-09T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "NEW REPOSITORY LOCATION  We’re excited to announce that the Keycloak Terraform Provider has officially moved under the Keycloak organization! You can find the new repository location .   THE JOURNEY SO FAR  Thanks to , we confirmed that the Keycloak Terraform Provider by is the most widely used tool for realm configuration management. The move to the Keycloak organization is a natural next step in making this essential tool a core part of the Keycloak ecosystem.   GRATITUDE AND TRANSITION  A huge thank-you to for creating and maintaining the provider. Your contributions have been invaluable to the community. The new maintainers, and , will ensure the project continues to thrive.   MIGRATION NOTES  You’ll need to update your configurations to migrate to the Keycloak-hosted Terraform Provider. Check out , especially the replace-provider instructions, to make the process smooth.   UPDATES AND CHANGES  License Change: The Keycloak Terraform Provider now uses the Apache 2.0 license, ensuring broader adoption and clarity for contributors.  Next releases:   * 4.5 Maintenance Release: Includes CVE fixes, Go upgrade, and license change.   * 5.0 Release (Upcoming): Adds support for Keycloak 24/26, new features, and    improvements.   JOIN THE COMMUNITY  We’re grateful for all contributors who’ve helped make the Terraform Provider what it is today. We welcome new contributions, issue reports, feature suggestions, and fixes. Let’s work together to make it even better! Explore the , join , and help shape the future of the Keycloak Terraform Provider."
+  "date": "2024-12-11T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": ""
 }

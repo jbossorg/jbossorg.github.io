@@ -1,13 +1,13 @@
 {
-  "title": "Using Springdoc-openapi with resteasy-spring-boot",
-  "link": "https://resteasy.dev/2024/11/15/resteasy-spring-boot-with-springdoc/",
+  "title": "Eclipse Vert.x 5 candidate 1 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-1-released",
   "author": [
     {
-      "name": null,
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2024-11-15T00:00:00.000Z",
-  "feed_title": "RESTEasy",
+  "date": "2024-11-18T00:00:00.000Z",
+  "feed_title": "Vert.x",
   "content": ""
 }
