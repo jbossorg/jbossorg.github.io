@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 04 November 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, infinispan, vert.x, java, wildfly, elytron, jbang">
+      <h1>This Week in JBoss - 04 November 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Congrats on all the releases and great work from the community!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://infinispan.org/blog/2021/10/27/infinispan-operator-2-2-final">Infinispan Operator 2.2.0</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2021/11/04/WildFly2501-Released/">WildFly 25.0.1</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-2-1/">Eclipse Vert.x 4.2.1</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-2-0/">Eclipse Vert.x 4.2.0</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-4-1-final-released/">Quarkus 2.4.1</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-4-0-final-released/">Quarkus 2.4.0</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/intellij-quarkus-tools-1.8.0/">Quarkus Tools for IntelliJ 1.8.0</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-3-1-final-released/">Quarkus 2.3.1</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_keycloak_x">Keycloak.X</h2>
+<div class="sectionbody">
+<p><a href="https://www.keycloak.org/2021/10/keycloak-x-update">Keycloak.X Update</a>, by Stian Thorgersen</p>
+<p>Stian&#8217;s informative article takes us through the highlights and goes into detail about what&#8217;s coming with Keycloak.X.
+He also shares the roadmap for all the work that lies ahead for the Keycloak team.
+It looks like some awesome changes are coming with Keycloak.X so get ready!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kogito_public_api_the_road_ahead">Kogito Public API: The Road Ahead</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2021/11/the-road-towards-a-kogito-public-api.html">The Road Towards a Kogito Public API</a>, by Edoardo Vacchi</p>
+<p>Edoardo gives an overview of the principles and reasoning that he and the Kogito team have put into the design of their new public API.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly_s2i_v2_architecture_overview">WildFly S2I v2 Architecture Overview</h2>
+<div class="sectionbody">
+<p><a href="https://www.wildfly.org/news/2021/10/29/wildfly-s2i-v2-overview/">WildFly S2I v2 architecture overview</a>, by Jean-François Denise</p>
+<p>This informative post describes a set of pain points that the WildFly team plan to address with a re-architecture of the S2I images.
+JF Denise goes into detail and explains the benefits of the new approach that will offer more flexibility, increased efficiency , and a greatly improved user experience.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_distributed_security_realms_in_elytron">Distributed Security Realms in Elytron</h2>
+<div class="sectionbody">
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/distributed-realm/">Using distributed realm in Elytron</a>, by Diana Krepinska Vilkolakova</p>
+<p>Diana treats us to an overview of distributed security realms in Elytron that combine identities located across multiple security realms of any type into a single security realm.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_securing_wildfly_applications_with_openid_connect">Securing WildFly Applications with OpenID Connect</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/">Secure WildFly applications with OpenID Connect</a>, by F. Marchioni</p>
+<p>This post covers a basic example for using OpenID Connect and the elytron-oidc-client in WildFly to secure applications.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_insights">Quarkus Insights</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some Quarkus insights.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/VGAnVX1lCxg">Quarkus Insights #68: Hibernate Reactive 1.0 and Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/oY8TtKrC_5I">Quarkus Insights #67: Testing Command Mode</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
