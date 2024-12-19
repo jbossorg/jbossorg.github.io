@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - July 03, 2023 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="this-week">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home active" href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+      <div class="rhd-banner">
+        <h2>Stay in touch with Red Hat Developer</h2>
+        <div class="three-cols">
+        <p>Red Hat uses the best and most effective ideas from the community projects to build 
+        enterprise products. These products remain open and are being used all around the world 
+        by corporations, governments, and non-profit organizations.</p>
+        <a href="https://developers.redhat.com/middleware/?referrer=jbd">Learn more at developers.redhat.com</a>
+        <a href="https://twitter.com/rhdevelopers"><i class="fab fa-twitter"></i> @rhdevelopers</a>
+        </div>
+      </div>
+  <main id="main-content">
+      <article class="" data-tags="jboss, farewell">
+      
+        <div class="convo"><h2>This Week in JBoss - July 03, 2023</h2></div>
+        <div class="author">
+            <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+            <span>Don Naro</span>
+        </div>
+      
+    <p class="preamble"><p>Hello to our dear JBoss community.
+We, the editorial team, have noticed a downward trend in our readership and have made the decision to no longer carry on.
+There are many great blogs out there and the JBoss community of projects is producing a lot of great content for you to learn from.
+However, with the steady decline in our editorial views, we no longer feel the effort we put into distilling the blogs and tutorials is having the sort of impact that we would hope.
+Writing up the editorials is more work than you might expect and takes a good chunk of time that we could devote to doing our actual jobs or hacking on code.</p>
+<p>It has been a great ride and we wish you all the best.
+We thought about doing a sort of highlight reel to round up some of our favourite blog posts and moments doing the editorial, but realized probably no one is going to read it.
+So let&#8217;s stop shouting into the void and carry on building cool stuff.</p>
+<p>Thanks for everything and goodbye.</p>
+</article>
+<article class="twitter-feed">
+<div class="convo">
+<h2>Latest Upstream Posts</h2>
+</div></p>
+<div class="sect2">
+<h3 id="_18_december_2024_guillaume_smet">18 December 2024 | Guillaume Smet</h3>
+<p><a href="https://quarkus.io/blog/next-lts-3-20/">Our next LTS will be Quarkus 3.20</a></p>
+</div>
+<div class="sect2">
+<h3 id="_18_december_2024_katia_aresti">18 December 2024 | Katia Aresti</h3>
+<p><a href="https://quarkus.io/blog/quarkus-infinispan-embedded/">Quarkus Infinispan Embedded extension</a></p>
+</div>
+<div class="sect2">
+<h3 id="_18_december_2024_brian_stansberry">18 December 2024 | Brian Stansberry</h3>
+<p><a href="https://wildfly.org//news/2024/12/18/year-end-message/">Thanks for a great 2024!</a></p>
+</div>
+<div class="sect2">
+<h3 id="_18_december_2024_harald_pehl">18 December 2024 | Harald Pehl</h3>
+<p><a href="https://wildfly.org//news/2024/12/18/Management-Console-on-OpenShift/">Using the management console on OpenShift</a></p>
+</div>
+<div class="sect2">
+<h3 id="_17_december_2024_gaol">17 December 2024 | gaol</h3>
+<p><a href="https://wildfly.org//news/2024/12/17/vertx-subsystem-in-preview/">Introducing Vertx Subsystem in WildFly Preview</a></p>
+</div>
+<div class="sect2">
+<h3 id="_17_december_2024_michal_hajas">17 December 2024 | Michal Hajas</h3>
+<p><a href="https://www.keycloak.org/2024/12/storing-sessions-in-kc26">Storing sessions in Keycloak 26</a></p>
+</div>
+<div class="sect2">
+<h3 id="_16_december_2024_tristan_tarrant">16 December 2024 | Tristan Tarrant</h3>
+<p><a href="https://infinispan.org/blog/2024/12/16/infinispan-15-1">Infinispan 15.1.0.Final</a></p>
+</div>
+<div class="sect2">
+<h3 id="_12_december_2024_jeff_mesnil">12 December 2024 | Jeff Mesnil</h3>
+<p><a href="https://jmesnil.net/weblog/2024/12/11/a-kubectl-plugin-for-wildfly-jboss-cli/">A kubectl plugin to run WildFly management operations on Kubernetes</a></p>
+</div>
+<div class="sect2">
+<h3 id="_12_december_2024_james_cobb">12 December 2024 | James Cobb</h3>
+<p><a href="https://quarkus.io/blog/quarkus-newsletter-51/">Quarkus Newsletter #51 - December</a></p>
+</div>
+<div class="sect2">
+<h3 id="_12_december_2024_alexander_schwartz">12 December 2024 | ALexander Schwartz</h3>
+<p><a href="https://www.keycloak.org/2024/12/keycloak-at-froscon-2024">Videos for the holidays and meet us at FOSDEM!</a></p>
+<p><p class="end-of-results">- End of Results -</p></p>
+</div>
+      
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
