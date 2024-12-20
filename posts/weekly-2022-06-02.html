@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - June 2nd 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, keycloak, infinispan, vert.x, byteman, openshift, rhel, openshift_streams, kafka">
+      <h1>This Week in JBoss - June 2nd 2022</h1>
+      
+    <p class="preamble"><p>Welcome to the June 2nd edition of the JBoss weekly editorial. Enjoy our pick of the latest news and interesting reads from around the JBoss community.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases!</h2>
+<div class="sectionbody">
+<p>Here are the releases from the JBoss Community for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-9-2-final-released/">Quarkus 2.9.2.Final released - Maintenance release</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/blog/2022/05/30/infinispan-14">Infinispan 14.0.0.Dev03</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-3-1">Eclipse Vert.x 4.3.1 released!</a></p>
+</li>
+<li>
+<p><a href="http://bytemanblog.blogspot.com/2022/05/byteman-4019-has-been-released.html">Byteman 4.0.19 has been released</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/intellij-quarkus-tools-1.11.0/">Quarkus Tools for IntelliJ 1.11.0 released!</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_articles_blogs">Articles &amp; Blogs</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_new_keycloak_certifications">New Keycloak certifications</h3>
+<p><a href="https://www.keycloak.org/2022/05/oidc-certifications.html">New Keycloak certifications</a> by Marek Posolda</p>
+<p>We are glad to announce new certifications for Keycloak related to the OpenID Connect and FAPI! In the previous post, we announced certification of Keycloak 15.0.2 with the FAPI and Brazil Open Banking. This is a follow-up of this post with the announcement of the additional certifications.</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_run_wildfly_on_openshift">How to run WildFly on Openshift</h3>
+<p><a href="http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift">How to run WildFly on Openshift</a> by F.Marchioni</p>
+<p>This tutorial will teach you how to run WildFly applications on Openshift using WildFly S2I images. At first, we learn how to build and deploy applications using Helm Charts. Then we learn how to use the S2I legacy approach which relies on ImageStreams and Templates.</p>
+</div>
+<div class="sect2">
+<h3 id="_wildfly_custom_caches_configuration_for_stateful_beans">WildFly custom caches configuration for Stateful Beans</h3>
+<p><a href="http://www.mastertheboss.com/jbossas/jboss-cluster/jboss-as-7-custom-caches-configuration/t">WildFly custom caches configuration for Stateful Beans</a> by F.Marchioni</p>
+<p>This article has been updated to let you how to configure Stateful EJB Caches for your applications running on the latest version of WildFly application server.</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_consume_quarkus_rest_services_with_react">How to consume Quarkus REST Services with React</h3>
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/how-to-consume-quarkus-rest-services-with-react/">How to consume Quarkus REST Services with React</a> by F.Marchioni</p>
+<p>ReactJS is a popular and widely used Javascript library for building rich user interfaces. This article shows how to consume Rest Services from a Quarkus application in a simple React frontend.</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_install_command_line_tools_on_a_mac">How to install command-line tools on a Mac</h3>
+<p><a href="https://developers.redhat.com/articles/2022/05/23/how-install-command-line-tools-mac">How to install command-line tools on a Mac</a> by Varsha Sharma</p>
+<p>macOS imposes strict limitations on the places from which you can download commands. Many of the Linux-related tools you want to use come from sites other than the App Store, so you have to change your preferences in macOS to use the commands. In this article, Varsha shows how to install a command that is not from the App Store, using the popular Helm client as an example.</p>
+</div>
+<div class="sect2">
+<h3 id="_whats_new_in_red_hat_enterprise_linux_9">What&#8217;s new in Red Hat Enterprise Linux 9</h3>
+<p><a href="https://developers.redhat.com/articles/2022/05/18/whats-new-red-hat-enterprise-linux-9">What&#8217;s new in Red Hat Enterprise Linux 9</a> by Nikhil Mungale and Alex Krikos</p>
+<p>RHEL 9 is designed to meet the needs of the hybrid cloud environment and can run your code efficiently in a number of environments.</p>
+</div>
+<div class="sect2">
+<h3 id="_how_intelligent_applications_can_benefit_from_streams_processing_technology_apache_kafka">How intelligent applications can benefit from streams processing technology (Apache Kafka)</h3>
+<p><a href="https://www.redhat.com/en/blog/how-intelligent-applications-can-benefit-streams-processing-technology-apache-kafka">How intelligent applications can benefit from streams processing technology (Apache Kafka)</a> by Jennifer Vargas</p>
+<p>The creation and delivery of intelligent and stream-based applications requires having a robust streaming platform that can support ingesting and transforming large amounts of data at a fast pace. Red Hat OpenShift Streams for Apache Kafka can support enterprise organizations in solving digital experiences challenges.</p>
+</div>
+<div class="sect2">
+<h3 id="_videos">Videos</h3>
+<p>This week there was plenty of fresh content to choose from, so please enjoy some of my top video picks:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://www.youtube.com/watch?v=NmkAymnuK1c">Integrating Loom in Quarkus | DevNation Tech Talk</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=Nnh_DuzA3BM">Hibernate Search with Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=fCNwxPDGt7Q">Service Discovery with SmallRye Stork and Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=hCkk1lIA6OY">Use Red Hat&#8217;s SSO to manage Kafka broker authorization</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=k1SJG0XKs1U">Event-driven Autoscaling on Kubernetes: Use case 2 - KEDA with Kafka</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=Q3_3KiUV-UQ">Event-driven Autoscaling on Kubernetes: Use case 3 - Knative with Kafka</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/pedro-silva.png"></pfe-avatar>
+        <span>Pedro Silva</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

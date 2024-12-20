@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss: 14 January 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="wildfly, camel, keycloak, teiid, springboot, tekton, kubernetes, codeready, quarkus, jgroups">
+      <h1>This Week in JBoss: 14 January 2021</h1>
+      
+    <p class="preamble"><p>Welcome to the first installment of our JBoss Editorial for 2021! And to start the year, we have a brand new major release of the core product of the JBoss community! Yes, Wildfly 22 is out!</p></p>
+<div class="sect1">
+<h2 id="_wildfly_22_and_camel_3_7">Wildfly 22 and Camel 3.7</h2>
+<div class="sectionbody">
+<p>Yes! We have a brand new major version of Wildfly! <a href="https://www.wildfly.org/news/2021/01/13/WildFly22-Final-Released/">Wildfly 22 is out!</a>.</p>
+<p>This release includes support for use of log4j2 in applications, new base health and metrics subsystems to provide server observability for users who don&#8217;t need the application instrumentation that comes with MicroProfile Health and Metrics, and a number of other features related to management, provisioning, messaging and security. Plus numerous bug fixes, enhancements and component upgrades.</p>
+<p>On top of that, there is also an updated version of the new tech-preview WildFly Preview distribution. This will allow the community have a look at what Wildfly developers are doing for Jakarta EE 9 support, along with other changes in the server architecture that are expected to appear later in 2021.</p>
+<p>Wildfly 22 is already a nice treat, but we also have <a href="https://camel.apache.org/blog/2020/12/Camel37-Whatsnew/">Camel 3.7</a>, which also quite exciting, and fortunately for all of us, Claus Ibsen has published a review of what he called <a href="http://www.davsclaus.com/2020/12/apache-camel-37-lts-released-fastest.html">the fastest Camel ever!</a> So, go check it out if you want to know more about this camel release.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tech_bytes">Tech bytes</h2>
+<div class="sectionbody">
+<p>A few interesting technical articles came out in the last weeks, so we&#8217;ll try to catch you up with three of them here. First, we have an excellent one from Bela Ban on <a href="http://belaban.blogspot.com/2020/12/running-jgroups-raft-as-service.html">running JGroups raft as a service</a>. It&#8217;s very hands on post, focusing on getting everything running. Then we have a longer walkthrough to let you experiment on <a href="https://blog.ramon-gordillo.dev/2020/12/spring-boot-embedded-cache-with-infinispan-in-kubernetes/">using Spring boot embedded cache with Infinispan on Kubernetes</a>. Certainly, worth a look, isn&#8217;t it? The last one is, of course, on Quarkus, because Quarkus is, as it should, all the rage lately. In this article, Clément Escoffier took the time to explain some of the <a href="https://quarkus.io/blog/magic-control">magic beneath Quarkus and Vert.x</a> and why this is the kind magic you to have as a developer.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evangelists_corner">Evangelist&#8217;s Corner</h2>
+<div class="sectionbody">
+<p>As always, our very own Eric Schabell has been busy in the few last weeks and released a steady stream of new content. First, he published <a href="https://www.schabell.org/2021/01/codeready-containers-installing.html">part4 - Installing business automation operator</a> of his series on CodeReady containers. He then revisited the <a href="https://www.schabell.org/2020/12/codeready-containers-exploring-home-loan-mortgage-process.html">Home loan mortgage process using CodeReady Containers</a>. Still on the topic of CodeReady Containers, he provided a <a href="https://www.schabell.org/2021/01/codeready-containers-howto-setup-openshift-46-on-local-machine.html">How to setup the OpenShift Container Platform 4.6 on your local machine</a> follow by a tutorial on <a href="https://www.schabell.org/2020/12/codeready-containers-building-hr-process-with-openshift-operator.html">Building a Human Resources Process with an OpenShift Operator</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>As always, the JBoss community has been quite active in the last weeks, and more than a few project releases new version (including the forementionned Wildfly 22 and Apache Camel 3.7):</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.wildfly.org/news/2021/01/13/WildFly22-Final-Released/">Wildfly 22 Final released!</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org//2020/12/keycloak-1201-released.html">Keycloak 12.0.1 released</a></p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/blog/2020/12/Camel37-Whatsnew/">Apache Camel 3.7</a></p>
+</li>
+<li>
+<p><a href="http://teiid.blogspot.com/2021/01/teiid-spring-boot-170-released.html">Teiid Spring Boot 1.7.0 Released</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf</h2>
+<div class="sectionbody">
+<p>You want to break from Java programming, but still learn something relevant to it? Well, take a look at this article on <a href="https://developers.redhat.com/blog/2021/01/13/getting-started-with-tekton-and-pipelines/">Getting started with Tekton and Pipelines</a>. It&#8217;s more than likely to pique your interest.</p>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime.</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
