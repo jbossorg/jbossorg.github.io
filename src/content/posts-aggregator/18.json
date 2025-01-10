@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 5 candidate 3 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-3-released",
+  "title": "WildFly 35 Beta is released!",
+  "link": "https://wildfly.org//news/2024/12/12/WildFly35Beta-released/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2024-12-11T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2024-12-12T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "I’m pleased to announce that the new WildFly 35.0.0.Beta1 release is available for download at .   NEW AND NOTABLE  This quarter we had a heavy focus on MicroProfile, particularly .   * WildFly now .   * WildFly now .   * Standard WildFly now . This was previously supported in WildFly Preview.   * Standard WildFly now . This was previously supported in WildFly Preview.   * Our MicroProfile Reactive Messaging subsystem has added OpenTelemetry tracing    integration for and .  There’s plenty of new things beyond MicroProfile area as well, though:   * WildFly now includes in the bin/systemd directory, replacing the old,    unsupported docs/contrib/scripts/systemd files. The new units include support    for a managed domain.   * The jaxrs subsystem now . This feature allows the client to send a JSON http    request with Content-Type \"application/merge-patch+json\", and the JSON    content will be directly merged to the target resource.   * We added to standard WildFly. This was previously ; now it is available in    standard WildFly as well. This feature is provided at the .   * WildFly Preview has a new , intended to give user’s greater control over the    configuration of Vert.x instances running in the server. This feature is    provided at the .   * WildFly Glow has also received a new feature to , this allows feature packs    to be grouped into spaces such as an incubating space to reflect the    stability of the feature pack and to allow users to select which spaces they    want to use.  For further details please see the detailed in GitHub.  As we approach the end of 2024 this is the time of the year where we release the Beta release of the major version just before we wrap up for the end of the year and will follow up with the Final release once we return in the new year. Please take this time as an opportunity to try out this release and provide us with any feedback.  Finally I would like to thank everyone who has contributed to making this release happen, both via direct contributions to WildFly as well as the countless contributions to the projects that WildFly depends upon. We also had a couple of first time contributors this release so I would like to thank for taking on one of our good-first-issue Jira issues to remove redundant code from our application client implementation and for contributing updates to our testsuite to move tests to a more appropriate location."
 }

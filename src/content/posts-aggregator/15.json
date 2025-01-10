@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #51 - December",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-51/",
+  "title": "A kubectl plugin to run WildFly management operations on Kubernetes",
+  "link": "https://jmesnil.net/weblog/2024/12/11/a-kubectl-plugin-for-wildfly-jboss-cli/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Jeff Mesnil",
       "avatar": null
     }
   ],
   "date": "2024-12-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "\"Quarkus has surpassed the 1,000 contributor milestone\" by Dimitrios Andreadis will explore the evolution and future of Quarkus, Red Hat’s next-generation Java framework designed to optimize applications for cloud-native environments. \"Java Quarkus LangChain4j – Building a Chatbot\" by Bhagvan Kommadi will guide you through leveraging two powerful tools — Quarkus and LangChain4j — to create chatbots that are not only efficient and scalable but also capable of understanding and generating human-like responses. \"Testing Apache Camel Routes with Testcontainers\" by Andras Fejes describes how Apache Camel and Testcontainers combine EIPs for integration and Testcontainers for robust, automated testing. Hamid Khanjani’s \"Hibernate Reactive with Panache: The Quarkus-Powered ORM Revolution for Reactive Java Applications and Kubernetes\" describes how when Hibernate is combined with Panache, an intuitive and declarative ORM layer from Quarkus, it becomes a game-changer for Java developers. Explore different choices available for developing a new Quarkus application in \"Getting Started with Quarkus: A Guide to Application Creation\" by Jagnya Datta Panigrahi.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "feed_title": "WildFly",
+  "content": "In this article, Jeff Mesnil presents a kubectl plugin to run WildFly management operations on Kubernetes."
 }
