@@ -1,14 +1,13 @@
 {
-  "title": "Videos for the holidays and meet us at FOSDEM!",
-  "link": "https://www.keycloak.org/2024/12/keycloak-at-froscon-2024",
+  "title": "A kubectl plugin to run WildFly management operations on Kubernetes",
+  "link": "https://jmesnil.net/weblog/2024/12/11/a-kubectl-plugin-for-wildfly-jboss-cli/",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": "Jeff Mesnil",
       "avatar": null
     }
   ],
   "date": "2024-12-12T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "VIDEOS TO RE-WATCH  This year, the Keycloak project was present at multiple conferences. Here are the videos to watch for the holiday break if you haven’t watched them yet: , , , and .  When going through the list, I found that at least two of the talks have not been published on the Keycloak blog yet. So here they are:   * FOSDEM in February with the talk ,   * FrOSCon in August with .  Did we miss another video that we should have shared here?   WE ARE EXCITED TO CONNECT WITH THE COMMUNITY  All conferences were exciting for us: We met with the community to share the latest developments of Keycloak, engaged in discussions and heard interesting stories from people running Keycloak in their production environments.  The FrOSCon and the KubeCon conferences were special as we had our own stand where we connected to both new and existing users of Keycloak. At FrOSCon, we had our own signage up as this photo proves!  If you have not met us at a conference yet, please take this : Let us know if you want to share your story with the broader community, and we will be in contact with you about the next steps.   MEET US NEXT AT FOSDEM!  The good news is that we will back at . In the meantime, save the date to either join us in Brussels or live on the stream. If you want to connect on-site, .  Some of our team members will also be at the , which is unfortunately already sold out.  We are already planning for other upcoming events in 2025, so return to this blog to read the latest news here!"
+  "feed_title": "WildFly",
+  "content": "In this article, Jeff Mesnil presents a kubectl plugin to run WildFly management operations on Kubernetes."
 }
