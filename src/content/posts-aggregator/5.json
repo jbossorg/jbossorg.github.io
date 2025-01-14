@@ -1,13 +1,14 @@
 {
-  "title": "Byteman 4.0.24 has been released",
-  "link": "http://bytemanblog.blogspot.com/2025/01/byteman-4024-has-been-released.html",
+  "title": "Keycloak Terraform Provider Release 5",
+  "link": "https://www.keycloak.org/2025/01/terraform-provider-release-5",
   "author": [
     {
-      "name": "Andrew Dinn",
-      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
+      "name": "Thomas Darimont",
+      "avatar": null
     }
   ],
-  "date": "2025-01-09T14:14:00.000Z",
-  "feed_title": "Byteman Blog",
-  "content": "   Byteman 4.0.24 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK24     Byteman 4.0.24 is primarily a maintenance release which enables Byteman to be used with JDK24 releases. It also contains  a small bug fix. More details are provided in the and the latest .    "
+  "date": "2025-01-13T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "KEYCLOAK TERRAFORM PROVIDER RELEASES  We’re excited to announce the release of the Keycloak Terraform Provider 5.0 with support for Keycloak 24/26. You can find the repository .  Following our , we released Keycloak Terraform Provider 4.5 with a new license and dependency upgrades for Keycloak versions older than 23.0.0.  If you are still using the old Keycloak Terraform Provider by you can take a look at the to use the new .   CHANGES   4.5 MAINTENANCE RELEASE   * CVE fixes   * Go upgrade   * Minor Dependency Upgrades   * License change   5.0 RELEASE   * Support for Keycloak 24   * Support for Keycloak 26   * Dependency Upgrades   PLANNED NEXT RELEASES   * 5.1 with support for managing organizations   * patch releases on demand   JOIN THE COMMUNITY  We’re grateful for all contributors who’ve helped make the Terraform Provider what it is today. We welcome new contributions, issue reports, feature suggestions, and fixes. Let’s work together to make it even better! Explore the , join , and help shape the future of the Keycloak Terraform Provider."
 }
