@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak client 26.0.4 released",
-  "link": "https://www.keycloak.org/2025/01/keycloak-client-2604",
+  "title": "Quarkus 3.15.3 released - LTS maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-15-3-released/",
   "author": [
     {
-      "name": "Marek Posolda",
+      "name": "Jan Martiška",
       "avatar": null
     }
   ],
-  "date": "2025-01-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Keycloak client 26.0.4 is released. The corresponding artifacts are available in the public maven repository. This release is synced with Keycloak server 26.1.0 and allows to use latest APIs of that server version. For the details, see all the fixed issues ."
+  "date": "2025-01-21T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Today, we released Quarkus 3.15.3, our second (we skipped 3.15.0) maintenance release for the 3.15 LTS stream.  This release contains bugfixes and documentation improvements.  It should be a safe upgrade for anyone already using 3.15.   UPDATE  To update to Quarkus 3.15, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update --stream=3.15  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.15.   FULL CHANGELOG  You can get .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
