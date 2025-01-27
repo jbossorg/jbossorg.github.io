@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.17.5 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-17-5-released/",
+  "title": "PKCS#12 with WildFly Elytron's Credential Store",
+  "link": "https://lofthouse.dev/2025/01/06/pkcs12-with-wildfly-elytrons-credential-store/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Darran Lofthouse",
       "avatar": null
     }
   ],
-  "date": "2024-12-20T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.17.5, a maintenance release for our 3.17 release train, and the last release for 2024.   UPDATE  To update to Quarkus 3.17, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.17.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "date": "2025-01-06T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "The default credential store used in WildFly from WildFly Elytron is the KeyStoreCredentialStore which is backed by a Java KeyStore to hold the credentials.  This in turn defaults to using the JCEKS KeyStore format, this blog post is to illustrate how we can configure this to use a PKCS#12 store instead both in WildFly and when using the elytron-tool CLI tool directly."
 }
