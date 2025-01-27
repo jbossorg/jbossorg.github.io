@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #52 - January",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-52/",
+  "title": "Quarkus 3.17.7 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-17-7-released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-01-14T00:00:00.000Z",
+  "date": "2025-01-15T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "Explore how to combine Quarkus, a modern Java framework optimized for cloud-native applications, with Ollama, a platform for running AI models locally with Jonathan Vila’s article \"Building local LLM AI-Powered Applications with Quarkus, Ollama and Testcontainers\". Long Term Support (LTS) releases are designed for users who want to keep a given version for a longer period of time instead of following our monthly release pace. Quarkus 3.20 will be our next LTS version planned for release in late March. Read more about it in the blog post \"Our next LTS will be Quarkus 3.20\" from Guillaume Smet. Customizing your test resource manager and using a unified configuration, you can eliminate conflicts between the containers used by Liquibase and your application. Learn how in \"Resolving Issues with Quarkus Tests, Test Containers, and Liquibase Integration\" by tempmailgenerator on Reddit.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "content": "We released Quarkus 3.17.7, a new maintenance release for our 3.17 release train.   UPDATE  To update to Quarkus 3.17, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.17.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
