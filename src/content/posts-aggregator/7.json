@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak client 26.0.4 released",
-  "link": "https://www.keycloak.org/2025/01/keycloak-client-2604",
+  "title": "Keycloak Client Libraries 26.0.4 released",
+  "link": "https://www.keycloak.org/2025/01/keycloak-client-2604-released",
   "author": [
     {
-      "name": "Marek Posolda",
+      "name": null,
       "avatar": null
     }
   ],
   "date": "2025-01-17T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Keycloak client 26.0.4 is released. The corresponding artifacts are available in the public maven repository. This release is synced with Keycloak server 26.1.0 and allows to use latest APIs of that server version. For the details, see all the fixed issues ."
+  "content": "UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Wrong logger class client  * Remove JEE from the title of GH actions client  * Sync after Keycloak server 26.1.0 release client  * Test with keycloak server images 24.0, 26.0 and 26.1 client   BUGS   * ProviderTest failing with latest nightly build client  * The action \"Sync with Keycloak Server and send PR with changes\" sends PR,    which does not have DCO on the commit client  * The action \"Sync with Keycloak Server and send PR with changes\" takes only    client-common-synced into consideration client"
 }
