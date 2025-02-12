@@ -1,13 +1,14 @@
 {
-  "title": "Eclipse Vert.x 4.5.13 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-13",
+  "title": "Keycloak 26.1.2 released",
+  "link": "https://www.keycloak.org/2025/02/keycloak-2612-released",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-02-10T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2025-02-11T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   DEPRECATED FEATURES   * Drop support for end-of-life versions of Node.js nodejs-connect   ENHANCEMENTS   * Convert tests to standard modules to upgrade dependencies nodejs-connect  * Upgrade `@keycloak/keycloak-admin-client` to latest version nodejs-connect   BUGS   * Connections with an error code are not terminated nodejs-connect  * CI status badge in README is incorrect nodejs-connect  * JDBC Ping with Docker infinispan  * Latency issue after Keycloak version upgrade core  * Invoking dynamic client registration with lightweight access token results in    a 404 oidc  * Pods become unresponsive after upgrade to 26.1.0 infinispan"
 }

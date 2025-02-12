@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 35.0.1 is released!",
-  "link": "https://wildfly.org//news/2025/02/06/WildFly3501-Released/",
+  "title": "Eclipse Vert.x 4.5.13 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-13",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
-  "date": "2025-02-06T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 35.0.1.Final is now available .  I am pleased to announce that the WildFly 35.0.1.Final release is now available for download.  The following issues were resolved in 35.0.1:   BUGS   * [] - NPE in race condition between a thread committing a transaction and    another thread performing recovery.   * [] - CLI command \"server=name:import-journal\" for messaging subsystem throws    \"NoClassDefFoundError:\" in Java 17   * [] - Incorrect module identifier handling in WeldDeploymentProcessor   COMPONENT UPGRADES   * [] - Upgrade Arquillian from 1.9.2.Final to 1.9.3.Final   * [] - Upgrade Wiremock to 3.10.0   * [] - (WF 35) Upgrade HAL to 3.7.8.Final   * [] - Upgrade RESTEasy MicroProfile 3.0.0.Final to 3.0.1.Final   * [] - Upgrade openjdk-orb to 10.1.1.Final   * [] - Upgrade Narayana to 7.2.0.Final   * [] - Upgrade Apache Mime4j from 0.8.11 to 0.8.12   * [] - Upgrade WildFly Core to 27.0.1.Final   * [] - Upgrade Infinispan to 15.0.13.Final   * [] - Upgrade cxf from 4.0.5 to 4.0.6   TASKS   * [] - Update microprofile-certification.sh to reflect that WildFly is now MP 7    compatible   * [] - Adapt microprofile-certification.sh to play nicely with the MicroProfile    Telemetry TCK processing   * [] - Remove XercesUsageTestCase   * [] - Suppress CVE-2024-4109 as triaged as not a security vulnerability   SUB TASKS   * [] - MP REST Client TCK is never run with the security manager  The following issues were also resolved in the version of WildFly Core contained within this release:   BUGS   * [] - CVE-2025-23367 org.wildfly.core/wildfly-server: Wildfly improper RBAC    permission.   COMPONENT UPGRADES   * [] - Upgrade JBoss Marshalling to 2.2.2.Final  Enjoy!"
+  "date": "2025-02-10T00:00:00.000Z",
+  "feed_title": "Vert.x",
+  "content": ""
 }
