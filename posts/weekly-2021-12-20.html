@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 20 December 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="cve,log4j,quarkus,resteasy,elytron,keycloak,wildfly">
+      <h1>This Week in JBoss - 20 December 2021</h1>
+      
+    <p class="preamble"><p><em>Hello! With a bit of delay, here is our very last editorial of the year! Sadly, it focus point has to be the log4j vulnerability,but we also ensured there was some interesting and exciting news too. Enjoy and happy holidays!</em></p></p>
+<div class="sect1">
+<h2 id="_log4j_security_vulnerabilities">log4j Security vulnerabilities</h2>
+<div class="sectionbody">
+<p>Sadly, we have to start our editorial with a less-than-ideal piece of news. In case, you somehow missed, be aware that some vulnerabilities have been found in Log4J. Being one of the most used Java library, it is a rather critical issue. Please take look at this article to know <a href="http://www.mastertheboss.com/jbossas/jboss-log/how-to-handle-cve-2021-44228-in-java-applications/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-handle-cve-2021-44228-in-java-applications">How to fix Log4j CVE-2021-44228</a>.</p>
+<p>Some other projects from the JBoss community may also have been impacted. Please check any project you are currently using and see if, like <a href="https://blog.kie.org/2021/12/kie-log4j2-exploit-cve-2021-44228.html">KIE</a> or <a href="https://infinispan.org/blog/2021/12/13/infinispan-log4j-cve-releases">InfiniSpan</a>, they have provided information on the impact of the vulnerability.</p>
+<p>Note that, on the bright side, <a href="https://quarkus.io/blog/quarkus-and-CVE-2021-4428/">Quarkus is not affected by the Log4J Vulnerability</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly_26_is_here">Wildfly 26 is here!</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/">Wildfly 26 has been released</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/12/16/WildFly-s2i-26-Released/">WildFly 26 S2I images have been released on quay.io</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_security_concern">Security concern</h2>
+<div class="sectionbody">
+<p>With the nasty security vulnereablity on log4j, it&#8217;s certainly time to look at some new security features coming in either Elytron or Wildly (or both):</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/new-security-features-wildfly/">New Security Features in WildFly</a></p>
+</li>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/jaas-realm/">Using a JAAS realm in Elytron</a></p>
+</li>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/upcoming-filesystem-encryption-integrity/">Upcoming filesystem realm encryption and integrity support in Elytron</a></p>
+</li>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/client-side-jvm-wide-default-sslcontext/">Upcoming client side default SSL context provider</a></p>
+</li>
+<li>
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/securing-wildfly-apps-openid-connect/">Securing WildFly Apps with OpenID Connect</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus">Quarkus</h2>
+<div class="sectionbody">
+<p>Always on top of the latest new feature, Quarkus offers you to <a href="https://developers.redhat.com/articles/2021/12/14/explore-java-17-language-features-quarkus">Explore Java 17 language features with Quarkus</a>! If you already hook to Quarkus and love how it allows you to deploy native executables, you&#8217;ll probably be interested by this article on <a href="https://quarkus.io/blog/upx/">Compressing native executables with UPX</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>As always, the JBoss community has been quite actived and released quite a lot:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.keycloak.org/2021/12/keycloak-1511-released">Keycloak 15.1.1 released</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2021/12/keycloak-1600-released">Keycloak 16.0.0 released</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-5-3-final-released/">Quarkus 2.5.3.Final released - Maintenance release</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-2-2-1_and_4-1-7-1/">Eclipse Vert.x Webauthn 4.2.2.1 and 4.1.7.1 released!</a> along with some previous releases:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-3-9-11/">Eclipse Vert.x 3.9.11 released!</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-7/">Eclipse Vert.x 4.1.7 released!</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-2-2/">Eclipse Vert.x 4.2.2 released!</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/12/16/WildFly26-Final-Released/">Wildfly 26 is released!</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again next year for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
