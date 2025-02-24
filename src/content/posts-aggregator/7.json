@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 5 candidate 5 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-5-released",
+  "title": "resteasy-grpc: Handling Collections",
+  "link": "https://resteasy.dev/2025/02/14/resteasy-grpc-collections/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-02-13T00:00:00.000Z",
-  "feed_title": "Vert.x",
+  "date": "2025-02-14T00:00:00.000Z",
+  "feed_title": "RESTEasy",
   "content": ""
 }
