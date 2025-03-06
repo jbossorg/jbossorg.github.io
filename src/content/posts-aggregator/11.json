@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak Extensions show GitHub stars",
-  "link": "https://www.keycloak.org/2025/02/updated-extension-page",
+  "title": "RESTEasy in a Foundation",
+  "link": "https://resteasy.dev/2025/02/19/resteasy-to-foundation/",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-02-19T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "The Keycloak homepage has an updated community extensions page! Thanks to , each extension shows off with its GitHub stars.  This should provide you with a better overview which extensions are popular with the community.  If an extension you use is listed there, give a star! Are you missing an extension? to let us know so we can add it.  Click on image below to get the extensions page, or navigate via the and choose “Extensions” there.  PS: Did you already give Keycloak a star?  "
+  "date": "2025-02-19T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
