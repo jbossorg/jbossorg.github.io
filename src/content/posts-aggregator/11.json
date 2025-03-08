@@ -1,13 +1,14 @@
 {
-  "title": "RESTEasy in a Foundation",
-  "link": "https://resteasy.dev/2025/02/19/resteasy-to-foundation/",
+  "title": "Keycloak JS 26.2.0 released",
+  "link": "https://www.keycloak.org/2025/02/keycloak-js-2620-released",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-02-19T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2025-02-20T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "HIGHLIGHTS  Today marks a significant milestone in the evolution of Keycloak JS with the release of version 26.2.0. This new version represents a shift in how the JavaScript adapter develops and evolves alongside the Keycloak ecosystem. Although this new version introduces no functional changes to the adapter, it does include several organizational changes.  The most notable change is that Keycloak JS now breaks free from the main Keycloak project’s release cycle. As , the JavaScript adapter will follow its own independent development path. The separation from the main project allows for more frequent releases of features, bug fixes, and improved responsiveness to community feedback. The JavaScript adapter will continue to be backwards compatible with all actively supported releases of the Keycloak server, and deviation from this will be considered a breaking change.  The choice to use a higher version than the main project itself was made intentionally in order to signal to users the departure from Keycloak’s release cycle. We will however continue to commit to using , only bumping major versions if backwards incompatible changes are made, as is customary in the . Maintenance updates will continue to land in the 26.1.x series, as it is tied to the current stable release of the Keycloak server, but we encourage users to upgrade to new versions as needed.  Another significant change is the relocation of the codebase to its . This structural adjustment is not just administrative—it represents a strategic move toward better maintainability. By separating the JavaScript adapter from the main Keycloak repository, the development team gains greater flexibility in managing the codebase and processing community contributions. If you are looking to provide contributions, or are reporting issues, please redirect your efforts here.  Looking ahead, we will be focussing on what is next for Keycloak JS. When it was originally released, only a few OpenID Connect adapters existed for client-side JavaScript, so we needed to make our own adapter. However, this landscape looks very different now, and there are many mature solutions available. The code for Keycloak JS requires modernization and has become challenging to maintain due to the growing complexity. We will continue to evaluate if it makes sense to keep refactoring Keycloak JS, incorporate some mature third-party libraries we can collaborate on, or even replace it with a well-established community solution.   UPGRADING  Before upgrading refer to for a complete list of changes."
 }
