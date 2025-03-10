@@ -1,13 +1,13 @@
 {
-  "title": "Vlog: Admin your WildFly with LLM and MCP",
-  "link": "https://www.youtube.com/watch?v=wg1hAdOoe2w",
+  "title": "Eclipse Vert.x 5 candidate 5 released!",
+  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-5-released",
   "author": [
     {
-      "name": "smaesti",
+      "name": "Julien Viet",
       "avatar": null
     }
   ],
   "date": "2025-02-13T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "This video demonstrates using an MCP server to administer a WildFly installation with AI."
+  "feed_title": "Vert.x",
+  "content": ""
 }
