@@ -17,7 +17,7 @@ feeds:
   - url: http://teiid.blogspot.com/feeds/posts/default
   - url: http://kverlaen.blogspot.com/feeds/posts/default
   - url: http://feeds.athico.com/DroolsAtom?format=xml
-  - url: http://jbossws.blogspot.com/feeds/posts/default
+  - url: https://jbossws.github.io/feed.xml
   - url: https://blog.kie.org/feed/atom
   - url: https://www.wildfly.org/feed.xml
   - url: https://quarkus.io/feed.xml
