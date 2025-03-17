@@ -1,14 +1,13 @@
 {
-  "title": "Submit to KeyConf25 Japan Call-for-Papers!",
-  "link": "https://www.keycloak.org/2025/03/keyconf-25-japan-call-for-papers",
+  "title": "Narayana and its relationship to Red Hat middleware strategy",
+  "link": "https://jbossts.blogspot.com/2025/03/narayana-and-its-relationship-to-red.html",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": "Tom Jenkinson",
       "avatar": null
     }
   ],
-  "date": "2025-03-17T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "The call for papers for is now open! Submit your talks to the first-ever KeyConf in Japan.  KeyConf 2025 Japan is a free half-day meetup in Tokyo, Japan on June 13 where the community of Keycloak gathers. It provides opportunities for technical lectures, growth, and networking with talks related Identity and Access Management (IAM) and Single Sign On (SSO).  This event is designed to share insights from developers and maintainers, as well as the latest features, updates, and real-world use cases of Keycloak. Participants will have the valuable opportunity to interact directly with Keycloak experts and other users, deepening their knowledge.     RELATED EVENTS  A few days later, on June 16-17, takes place in Tokyo as well. The Keycloak team will be on-site for KubeCon Japan, so join us and a lot of other CNCF projects for this event as well.  See you in Tokyo!"
+  "date": "2025-03-17T16:55:00.000Z",
+  "feed_title": "Narayana team blog",
+  "content": "Hi everyone,   You might have already seen that Red Hat announced significant changes to its middleware strategy last month (if not, please do check out the relevant “Red Hat Blog” article: Evolving our middleware strategy [1]) and so I want to speak a little to the change and its relevance to our Narayana project.   As you may know, Narayana is a part of a number of Red Hat products, in particular Red Hat’s JBoss Enterprise Application Platform product and so this makes the strategic decision relevant to the Narayana project. That said, a key point in that article from the “Red Hat Blog” with regards to our Narayana project is that all transitioning Red Hat technology will remain open source and continue to follow an upstream-first development model. So as well as the technology still relying on being able to upstream-first (in projects like Narayana), it’s also that this upstream should remain open source (you can find what open source means at Red Hat over here [2]). Not only is the Narayana source code open source, but moreover its project operates in an open source manner, exhibiting the principles of open source and gratefully benefits from a healthy community of users and contributors. This will help us to keep innovating in the area of transactions as we move forwards.   I will also take this opportunity to add a “Thank you” for being part of our Narayana community - I am excited to see the results of what we achieve together next!     Tom Jenkinson   [1] https://www.redhat.com/en/blog/evolving-our-middleware-strategy   [2] https://www.redhat.com/en/about/open-source "
 }
