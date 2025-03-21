@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 10 September 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, infinispan, vert.x, java, byteman">
+      <h1>This Week in JBoss - 10 September 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Congrats to each team on completing all the hard work and thanks to all community contributors!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="http://bytemanblog.blogspot.com/2021/09/byteman-4017-has-been-released.html">Byteman 4.0.17</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-3-9-9/">Eclipse Vert.x 3.9.9</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-3/">Eclipse Vert.x 4.1.3</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/download/">Infinispan 13.0.0.Dev04</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-2-1-final-released/">Quarkus 2.2.1.Final - hardening release</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-2-2-final-released/">Quarkus 2.2.2.Final</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_lra_extension_and_microservice_reliability">Quarkus LRA extension and microservice reliability</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/using-lra/">An Extension for Long Running Activities</a>, by Michael Musgrove</p>
+<p>Quarkus provides an <code>@LRA</code> annotations that lets you build more reliable service interactions.
+Michael&#8217;s informative article breaks down the details and walks you through an example with microservices that coordinate long running actions that complete in an atomic manner.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_metadata_for_your_bpmn_nodes">Metadata for your BPMN nodes</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2021/09/leveraging-bpmn-capabilities-with-metadata.html">BPMN and Metadata – Leveraging app capabilities</a>, by Wagner Lemos</p>
+<p>The BPMN Editor includes fields where you can add metadata to nodes, offering a versatile and flexible way to receive custom event notifications via process listeners.
+Wagner&#8217;s article shows us how to control process flow with metadata, highlighting both its simplicity and usefulness.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kogito_in_action">Kogito in action</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2021/09/shopping-recommendations-in-pmml-kogito-at-work.html">Shopping recommendations in PMML – Kogito at Work</a>, by Gabriele Cardosi</p>
+<p><a href="https://blog.kie.org/2021/09/bringing-drools-rules-into-the-cloud-with-kogito-a-step-by-step-path.html">Bringing Drools rules into the cloud with Kogito: a step by step path</a>, by Mario Fusco</p>
+<p>The Kogito team do an amazing job providing hands-on, practical examples for real-world use cases.
+Since our last editorial, Gabriele concludes a previous post by demonstrating how to set up a Kogito service that allows remote clients to get purchase recommendations to personalize a web shopping experience.</p>
+<p>Mario Fusco&#8217;s latest entry on the Kogito blog gives a lot of food for thought and is highly recommended.
+In his article, Mario digs into migrating from Drools and start using Kogito and Quarkus.
+He shows you how to start building microservices that you can eventually deploy into Function as a Service (FaaS) environments to provide stateless rule evaluation.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
