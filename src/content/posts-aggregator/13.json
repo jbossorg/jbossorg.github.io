@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.19.3 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-19-3-released/",
+  "title": "Quarkus & Red Hat's evolving middleware strategy",
+  "link": "https://quarkus.io/blog/quarkus-redhat-strategy/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "Max Rydahl Andersen",
       "avatar": null
     }
   ],
-  "date": "2025-03-12T00:00:00.000Z",
+  "date": "2025-03-13T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.19.3, the second (we skipped 3.19.0) maintenance release for our 3.19 release train.  We also released two candidate releases:   * Quarkus 3.20.0.CR1 LTS - it is going to be our next LTS, it is based on 3.19   * Quarkus 3.21.0.CR1 - a regular minor release with new features   UPDATE  To update to Quarkus 3.19, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.19.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "content": "Over the past weeks, we’ve received questions about the that Red Hat’s Middleware engineering and product teams, which include Quarkus, are moving to IBM.  We want to take this opportunity to acknowledge this change while reaffirming what has always been true:  Quarkus is an open-source project driven by a global community of contributors, spanning companies, individuals, and open-source enthusiasts.  From its inception, Quarkus has been shaped by real-world adoption across industries, with companies , leveraging Quarkus’s unmatched performance and developer joy in the Java ecosystem. We recently celebrated our , a testament to the strength of this diverse and thriving community.  Speaking as Quarkus contributors employed by Red Hat and soon IBM, we love our project and intend to keep making it awesome. IBM and Red Hat have clearly communicated that the current and future contributions to Quarkus are a key component of the middleware strategy. IBM has already been an active contributor to Quarkus, and we look forward to increased contribution - alongside the many other individuals and companies who contribute, innovate, and drive Quarkus forward.  Additionally, Quarkus is already on the path to becoming part of an open-source foundation, further ensuring its long-term independence and success as a truly community-driven project. The move to the foundation and the Red Hat/IBM move could look suspicious timing-wise, but the two are unrelated. We described our reasons in a , but if anything, this announcement reaffirms the importance of a foundation-hosted project for its stability.  To our contributors and users: your involvement has always been what makes Quarkus thrive. Keep building, experimenting, and shaping the future of Java with us.  -- The Quarkus Team"
 }

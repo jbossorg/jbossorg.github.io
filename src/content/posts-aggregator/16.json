@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy 6.2.12.Final and 7.0.0.Beta1 Releases",
-  "link": "https://resteasy.dev/2025/03/10/releases/",
+  "title": "Quarkus Newsletter #54 - March",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-54/",
   "author": [
     {
-      "name": null,
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2025-03-10T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2025-03-12T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Make sure you read Mario Fusco’s two-part blog about Agentic AI with Quarkus, where he discusses common workflows and agentic AI patterns and architectures, with practical examples using Quarkus and LangChain4j. Learn about the power of intelligent applications by combining the robustness of Java, the efficiency of Quarkus, and the advanced capabilities of RAG in a great article by Daniel Oh. Emil Lefkof gives a real-world example of how LangChain4j and AI can be leveraged to automatically extract structured metadata from PDF documents. Leveraging the combination of LangChain4j and Google Gemini AI proves to be a powerful approach for automating document analysis workflows. \"Performance & Productivity: Rethinking Java Dependencies for the Cloud Era\" by Markus Eisele discusses how Quarkus extensions are curated, lightweight, and optimized for microservices and serverless.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }
