@@ -1,14 +1,13 @@
 {
-  "title": "Meet Keycloak at KubeCon EU, London in April 2025",
-  "link": "https://www.keycloak.org/2025/03/keycloak-kubecon25-eu-announce",
+  "title": "RESTEasy 6.2.12.Final and 7.0.0.Beta1 Releases",
+  "link": "https://resteasy.dev/2025/03/10/releases/",
   "author": [
     {
-      "name": "Ryan Emerson",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-03-08T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "We are thrilled to announce that Keycloak will be at KubeCon Europe, London April 1-4th 2025.  Keycloak’s presence at previous KubeCons was a huge success, and we are always eager to meet Keycloak enthusiasts, users and newcomers alike. At this year’s event we will be hosting a Kiosk in the Project Pavilion, as well as presenting a talk about Evolving OpenID Connect and Observability.   KEYCLOAK COMMUNITY MEET & GREET AT THE PROJECT PAVILION  from Hitachi, and from Red Hat, and other contributors will be hosting a Keycloak kiosk at the . This is a great chance to meet people who use Keycloak, contribute to Keycloak, take our survey about new Keycloak features, and get some cool swag!  Keycloak Kiosk (booth 17A) opening hours:   * Wednesday, April 2: 15:30 - 19:45   * Thursday, April 3: 14:00 - 17:00   * Friday, April 4: 12:30 - 14:00   PRESENTING EVOLVING OPENID CONNECT AND KEYCLOAK OBSERVABILITY  and will be presenting a talk on Evolving OpenID Connect and Observability in Keycloak.   * Friday, April 4, 14:30 - 15:00pm        By Takashi Norimatsu, Hitachi & Ryan Emerson, Red Hat.   RELATED TALKS  Keycloak has a powerful community in Japan, and we have received several contributions in the past. One of Keycloak’s maintainers, Takashi Norimatsu, is based in Japan. There is also a quite popular Japanese book about by Yuichi Nakamura and Japanese community colleagues that will soon appear in its second edition.  To learn more about community activities in Japan, join the following talk:   * Thursday April 3, 2025 14:15 - 14:45        By Ota Kohei, Apple; Shu Muto, NEC Solution Innovators, Ltd.; Yuichi    Nakamura, Hitachi, Ltd.; Sunyanan Choochotkaew, IBM Research; Noriaki    Fukuyasu, The Linux Foundation   SEE YOU SOON!  We’re preparing for KubeCon EU 2025 and can’t wait to connect with our community. Mark your calendars and join us.  See you in London!"
+  "date": "2025-03-10T18:11:11.000Z",
+  "feed_title": "RESTEasy",
+  "content": ""
 }
