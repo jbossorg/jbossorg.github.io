@@ -1,13 +1,14 @@
 {
-  "title": "WildFly 36 Beta is released!",
-  "link": "https://wildfly.org//news/2025/03/27/WildFly36Beta-released/",
+  "title": "Register now for KubeCon Japan in June",
+  "link": "https://www.keycloak.org/2025/03/keycloak-kubecon25-japan-announce",
   "author": [
     {
-      "name": "Darran Lofthouse",
+      "name": "Alexander Schwartz",
       "avatar": null
     }
   ],
   "date": "2025-03-27T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "I’m pleased to announce that the new WildFly 36.0.0.Beta1 release is available for download at .  As can be seen from the a lot of issues were resolved in this release but I would also like to call out some of the following highlights:   * [] — Add a prometheus endpoint to the micrometer extension   * [] — Support remote+tls with EJBClient and remote-outbound-connection   * [] — Promote ajp-listener AJP_ALLOWED_REQUEST_ATTRIBUTES_PATTERN to community    stability   * [] — Promote undertow subsystem’s reuse-x-forwarded and rewrite-host header    configurability to community stability  Within the WildFly Preview distribution we also .  We’ve also enhanced , so it is now possible to using !  Please try out this release and let us know how you get on."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "This year is the first time there is a KubeCon in Japan, and the Keycloak project is excited to be part of it! Join us on June 16-17 2025 in Tokyo, Japan for this exciting event.    Keycloak has a powerful community in Japan, and we have received several contributions in the past. There will be two talks about Keycloak (see below).     TALKS AT KUBECON  The schedule of KubeCon + CloudNativeCon Japan 2025 has been released, see below talks about Keycloak:   *     Monday June 16, 2025 11:30 - 12:00 JST    Takashi Norimatsu, Hitachi & Marek Posolda, Red Hat   *     Tuesday June 17, 2025 14:50 - 15:20 JST    Yoshiyuki Tabata, Hitachi, Ltd.  We’re preparing for KubeCon Japan 2025 and can’t wait to connect with our community. Mark your calendars and join us.  See you in Tokyo!"
 }
