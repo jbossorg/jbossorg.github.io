@@ -1,13 +1,13 @@
 {
-  "title": "RESTEasy and Red Hat's Middleware Strategy",
-  "link": "https://resteasy.dev/2025/03/19/red-hat-ibm/",
+  "title": "Vlog: WildFly AI - monitor and troubleshoot a WildFly server with the WildFly chatbot.",
+  "link": "https://youtu.be/crSKeeBsXoE",
   "author": [
     {
-      "name": null,
+      "name": "Jean-François Denise",
       "avatar": null
     }
   ],
-  "date": "2025-03-19T18:11:11.000Z",
-  "feed_title": "RESTEasy",
-  "content": ""
+  "date": "2025-03-21T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "This video demonstrates how you can interact with a WildFly server using natural language."
 }
