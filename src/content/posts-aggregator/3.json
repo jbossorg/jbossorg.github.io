@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak 26.1.5 released",
-  "link": "https://www.keycloak.org/2025/04/keycloak-2615-released",
+  "title": "Keycloak Client Libraries 26.0.5 released",
+  "link": "https://www.keycloak.org/2025/04/keycloak-client-2605-released",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-04-11T00:00:00.000Z",
+  "date": "2025-04-15T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Upgrade to Quarkus 3.15.4 dist/quarkus  * OTel: Unable to disable sampling at runtime; tracing-sampler-ratio validation    prevents setting 0.0 dist/quarkus   BUGS   * The root cause of error is suppressed in KC 26 at building dependencies  * Save Button Not Enabled When Switching OTP Type from \"Time Based\" to \"Counter    Based\" admin/ui  * ConditionalOtpFormAuthenticator fails to set CONFIGURE_TOTP required action    for LDAP read-only users  * [Keycloak CI] - WebAuthn tests ci  * Issue in clearing offline sessions internally using ClearExpiredUserSessions    Scheduled task  * Broken guides link on reverseproxy page docs  * Keycloak email message ID contains the local host name or IP address core  * Keycloak account console is missing the Keycloak logo account/ui  * Define a max expiration window for Signed JWT client authentication oidc  * Recaptcha secret key configuration lost when migrating from 24.0.5 to 26.1.4    authentication  * OTelHttpClientFactory not configured properly when tracing enabled    dist/quarkus"
+  "content": "UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   NEW FEATURES   * Add release notes so they can be pulled into the website client   ENHANCEMENTS   * Close session when client is closed client  * Testing and document keycloak-client with Java 11 client  * Update PR-CHECKLIST client  * Sync with Keycloak server after Keycloak 26.2 release client   BUGS   * POM contains invalid SCM URLs client"
 }

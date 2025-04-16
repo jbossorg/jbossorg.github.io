@@ -1,14 +1,13 @@
 {
-  "title": "Register now for KubeCon Japan in June",
-  "link": "https://www.keycloak.org/2025/03/keycloak-kubecon25-japan-announce",
+  "title": "Infinispan 15.2.0.Final",
+  "link": "https://infinispan.org/blog/2025/03/27/infinispan-15-2",
   "author": [
     {
-      "name": "Alexander Schwartz",
-      "avatar": null
+      "name": "Tristan Tarrant",
+      "avatar": "https://www.gravatar.com/avatar/b91126c20f0d38f1ce1750d5a2b2bcb8?s=50"
     }
   ],
   "date": "2025-03-27T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "This year is the first time there is a KubeCon in Japan, and the Keycloak project is excited to be part of it! Join us on June 16-17 2025 in Tokyo, Japan for this exciting event.    Keycloak has a powerful community in Japan, and we have received several contributions in the past. There will be two talks about Keycloak (see below).     TALKS AT KUBECON  The schedule of KubeCon + CloudNativeCon Japan 2025 has been released, see below talks about Keycloak:   *     Monday June 16, 2025 11:30 - 12:00 JST    Takashi Norimatsu, Hitachi & Marek Posolda, Red Hat   *     Tuesday June 17, 2025 14:50 - 15:20 JST    Yoshiyuki Tabata, Hitachi, Ltd.  We’re preparing for KubeCon Japan 2025 and can’t wait to connect with our community. Mark your calendars and join us.  See you in Tokyo!"
+  "feed_title": "Infinispan",
+  "content": "\"Feelin' Blue\"  It’s new. It’s blue. It’s Infinispan 15.2, codenamed .    Without further ado, here’s a list of what’s new (and I promise to stop with the Dr. Seuss rhyming):   RESP ENDPOINT   JSON  Infinispan now implements the .   LUA SCRIPTING  It is now possible to run . The big advantage is that this works in Infinispan clusters, without having to worry about key ownership.   SERVER  All endpoints limit the maximum request size, which defaults to 10MB. This protects your server from abuse. Use the max-content-length configuration attribute to change it to your liking.   METRICS  You can now disable exporting the base (JVM) metrics, which is desirable when running in embedded mode. Such metrics are usually exported by the application framework.   CONSOLE  The console sports a new look & feel, thanks to the upgrade to .    Manage roles, users and access control for Principal Role Mappers from the console.     FIXES  Lots of these. However, should you find something that doesn’t work, head over to our and provide any details that help us debug and solve problems.   JDK REQUIREMENTS  Like the previous 15.x releases, you will need at least JDK 17 in order to use Infinispan 15.2. Infinispan also supports the recently released JDK 24.   DEPRECATIONS AND REMOVALS  We are no longer building the native server, since it did not provide the same level of functionality and performance as our Java server. However, if you miss it, please let us know your use case, and we’ll look into bringing it back.   DOCUMENTATION  Our documentation now includes * * As usual, many improvements, updates and fixes.   RELEASE NOTES  You can look at the to see what was changed since our last development build.  Get them from our ."
 }
