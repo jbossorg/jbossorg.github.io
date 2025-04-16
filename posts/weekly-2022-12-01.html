@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - December, 1st 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, jakarta ee, wildfly, ansible, kogito, drools">
+      <h1>This Week in JBoss - December, 1st 2022</h1>
+      
+    <p class="preamble"><p><em>Happy December!</em></p>
+<p><em>Welcome to our new installment of JBoss Editorial! As the end of the year is near, we are packing as much goodness in this issue as possible, for you to have some passionating reading material to enjoy next to your Christmas tree.</em></p></p>
+<div class="sect1">
+<h2 id="_quarkus_still_going_strong">Quarkus, still going strong</h2>
+<div class="sectionbody">
+<p>On top of the recent releases, of the past few weeks, the Quarkus community took the time to publish an article to present the <a href="https://quarkus.io/blog/quarkus-support-for-aws-lambda-snapstart/">Quarkus for AWS Lambda Snapstart</a>. If you have any interest in Quarkus or cloud development, this is certainly a must read!</p>
+<p>Last, but not the least, two more, deep articles about Quarkus : one on <a href="https://quarkus.io/blog/reactive-crud-performance-case-study/">Reactive CRUD performance case study</a> and the other on <a href="https://quarkus.io/blog/redis-job-queue-reloaded/">Redis Job Queue - Reloaded</a> (a followup on Clément&#8217;s previous article on <a href="https://quarkus.io/blog/redis-job-queue/">How to implement a job queue with Redis</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_good_time_to_learn_new_or_old_things">A good time to learn new (or old) things</h2>
+<div class="sectionbody">
+<p>The last two weeks have seen the release of some introductions and presentations articles that are worth mentioning. The first one, my favorite because it talks about an unsung hero of the Wildfly ecosystem, is about : <a href="https://jberet.github.io/jberet-intro/">Introducing The Java Batch Processing API And JBeret Implementation</a>. If you have no idea what this is about, please go check it out, this is bound to make your life easier!</p>
+<p>After this is definitely this humble article entitled <a href="http://www.mastertheboss.com/java-ee/jakarta-ee/a-maven-starter-for-jakarta-ee-projects/">A Maven starter for Jakarta EE projects</a>. Indeed, Maven has been at the heart of Java (and thus JBoss) technology for a long while now (around two decades), so such an introduction, for newcomers and experienced developers alike, is certainly nice to see.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_techbytes">Techbytes</h2>
+<div class="sectionbody">
+<p>If you need something more involved than a quickstarter, there are two articles coming from the Kogito and Drools ecosystem: <a href="https://blog.kie.org/2022/11/kogito-serverless-workflow-event-formats.html">Kogito serverless workflow event formats</a> and <a href="https://blog.kie.org/2022/11/drools-reactive-messaging-processing.html">Drools reactive messaging processing</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ansible_support_for_jboss_runtimes">Ansible support for JBoss runtimes</h2>
+<div class="sectionbody">
+<p>It&#8217;s not strictly speaking JBoss community, but I&#8217;m too proud of this baby of mine to keep quiet about it. Since over a year, I&#8217;ve been part of an initiative to provide better integration between the automation tool Ansible and many of the middleware solutions being developed by the JBoss Community. We are quite to already have Ansible collections (extension for Ansible) that ease the setup of <a href="https://github.com/ansible-middleware/wildfly">Wildfly</a>, <a href="https://github.com/ansible-middleware/infinispan">Infinispan</a>, <a href="https://github.com/ansible-middleware/keycloak">Keycloak</a>, and <a href="https://github.com/ansible-middleware/amq">AMQ Broker</a>.</p>
+<p>We also provide, for the community, a collection for <a href="https://github.com/ansible-middleware/jws">Red Hat JBoss Web Server (JWS)</a> and we are very proud and happy to announce that this collection is now also offered, as tech preview, as part of the last release of Red Hat JWS 5.7: <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.7/html/red_hat_ansible_certified_content_collection_1.2_for_red_hat_jboss_web_server_release_notes/index">Red Hat Ansible Certified Content Collection 1.2 for Red Hat JBoss Web Server</a>.</p>
+<p>If you are curious about the potential of those collections and how Ansible can help when you deploy JBoss runtimes, please check this (awesome) demo on <a href="https://events.experiences.redhat.com/widget/redhat/rhaf22/SessionCatalog2022/session/16579300056760019EPY">Ansible Fest Session Catalog: Managing your Red Hat Middleware estate from the edge to the cloud with Ansible</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>Releasing is crucial for Open Source project and releasing often is certainly the mark of healthy one, so it comes with no surprises that the last two weeks have already seen their fair share of releases:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-14-2-final-released/">Quarkus 2.13.5.Final and 2.14.2.Final</a> including a fix for <a href="https://access.redhat.com/security/cve/cve-2022-4116">CVE-2022-4116</a>.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-3-0-0-alpha1-released/">Quarkus 3.0.0.Alpha1</a> a first iteration of the Jakarta 10, check it out!</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/intellij-quarkus-tools-1.14.0/">Quarkus Tools for IntelliJ 1.14.0</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-3-5/">Eclipse Vert.x 4.3.5</a></p>
+</li>
+<li>
+<p><a href="https://galaxy.ansible.com/middleware_automation/infinispan">Ansible Collection for Infinispan 1.1.1</a></p>
+</li>
+<li>
+<p><a href="https://galaxy.ansible.com/middleware_automation/jws">Ansible Collection for JWS 1.2.3</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another installment of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
