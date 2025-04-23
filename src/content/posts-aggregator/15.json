@@ -1,13 +1,13 @@
 {
-  "title": "Request for input: Narayana in a foundation?",
-  "link": "https://jbossts.blogspot.com/2025/03/request-for-input-narayana-in-foundation.html",
+  "title": "Quarkus 3.21.1 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-21-1-released/",
   "author": [
     {
-      "name": "Tom Jenkinson",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-03-31T15:56:00.000Z",
-  "feed_title": "Narayana team blog",
-  "content": "The Narayana project has been very successful for many, many years and we are very grateful for the contributions that our upstream community give to us through discussing, reporting issues, and providing code contributions to help the project thrive.  I would like to share an update with our community that we are considering to move the Narayana project to a vendor-neutral software foundation. By doing this we can hopefully further expand our community and continue to improve openness and transparency in the project.    IMPORTANT CONSIDERATIONS  Moving to a foundation is not a trivial task, so it’s critical that the choice we make is a net benefit to our community. To help ensure this, there are a number of key factors we’re looking at when evaluating what foundation would be the best fit:    1. Flexibility to continue shipping third-party components using a wide array     of Open Source Initiative (OSI)-approved Open Source licences.  2. Maintain as much as possible our current release processes.  3. Retain independence in decision making, particularly on technical matters.  4. Ensure Narayana remains visible and recognizable within a foundation’s     potentially larger portfolio of projects.  5. Ensure Narayana can make decisions based on technical merits, not     foundation-imposed options.  6. Provide flexibility in using Open Source Initiative (OSI)-approved Open     Source licences for Narayana.   SUPPORT AND ALIGNMENT WITH RED HAT VALUES  Red Hat business leaders are fully behind this move. Red Hat is dedicated to participating in and supporting vendor-neutral collaboration projects, such as the Linux kernel, Kubernetes, and OpenJDK. We seek the same for Narayana.    PLEASE LET US KNOW WHAT YOU THINK  We invite members of our Narayana community, inside and outside of Red Hat to join the discussion in the community either on the blog, in our users forum (https://groups.google.com/g/narayana-users) or over on Zulip (https://narayana.zulipchat.com/).    "
+  "date": "2025-04-02T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.21.1, the first maintenance release for our 3.21 release train.   UPDATE  To update to Quarkus 3.21, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.21.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
