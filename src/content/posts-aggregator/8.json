@@ -1,13 +1,14 @@
 {
-  "title": "Introduction to a GUI wizard to configure TLS in WildFly",
-  "link": "https://wildfly-security.github.io/wildfly-elytron/blog/gui-tls-wizard/",
+  "title": "Keycloak 26.2.1 released",
+  "link": "https://www.keycloak.org/2025/04/keycloak-2621-released",
   "author": [
     {
-      "name": "Ashwin Mehendale",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-04-17T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "Learn how to use a GUI wizard to configure one-way TLS in WildFly."
+  "date": "2025-04-23T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Clarify upgrade instructions  * Change the title for Grafana dashboards guide to plural docs  * Document operator `Auto` update strategy when used with `podTemplate`   BUGS   * [FGAP] [UI] Permission search doesn't execute correct consequent search    request admin/fine-grained-permissions  * Test coverage for count menthods when filtering    admin/fine-grained-permissions  * Make group required when selecting a specific group creating a premission    admin/ui  * Test failures in CI in Chrome tests ci  * StatefulSet reconciliation infinitely looping operator  * [FGAP] AvailableRoleMappings do not consider all-clients permissions    admin/fine-grained-permissions  * Downstream docs have duplicate ID on sampling docs  * Blocking issue with increasing JVM thread count after migrating from 26.0.8    to 26.1.4 infinispan  * Permission details sometimes don't show the name of the client    admin/fine-grained-permissions  * [Docs] Broken link in ExternalLinksTest for importmap docs  * Liquibase checksum mismatch when upgrading from Keycloak ≤ 22.0.4 directly to    26.2.x storage  * JpaRealmProvider getGroupByName return group duplicate due to change of    comparison (like vs equal) ldap  * Keycloak operator with update strategy to Auto: missing imagePullSecrets    operator  * Release note 26.2.0 has broken link docs"
 }
