@@ -1,14 +1,14 @@
 {
-  "title": "Announcing Keycloak's Identity Summit: KEYCONF25",
-  "link": "https://www.keycloak.org/2025/04/keyconf25-amsterdam-announce",
+  "title": "Keycloak 26.2.2 released",
+  "link": "https://www.keycloak.org/2025/04/keycloak-2622-released",
   "author": [
     {
-      "name": "Nathalia Pinesi",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-04-28T00:00:00.000Z",
+  "date": "2025-04-30T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "KeyConf24 was a fantastic success, bringing together identity and access management professionals, developers, and community members from across Europe. The day was packed with insightful talks, deep dives into Keycloak, and incredible conversations between some of the brightest minds in IAM.  Now, we’re excited to take things even further.  📍 Introducing – taking place in Amsterdam on August 28th, 2025!  This year’s edition of the Keycloak Identity Summit promises more content, more connections, and even more opportunities to engage with the people shaping the future of identity and access management.   WHAT TO EXPECT AT KEYCONF25  Inspiring Keynote Speakers  Hear directly from thought leaders, core contributors, and experts working on the cutting edge of Keycloak and open identity standards.  Connect with like-minded professionals  From long-time contributors to those just starting their IAM journey, KEYCONF25 is the perfect place to meet others working with identity, OAuth2, OIDC, and more.  Networking lunch  Our extended lunch break is designed to help you meet fellow attendees, swap ideas, and build meaningful professional connections in a relaxed setting.  Business drinks  Stick around after the last session for informal networking over drinks. Want to sponsor this year’s Business Drink? Get in touch with us—we’d love to partner with you!  Expert sessions and real-world use cases  Gain practical insights into Keycloak implementation, security improvements, OAuth2 best practices, and evolving identity standards. Topics and speakers to be announced soon!   SAVE THE DATE AND JOIN US!  Whether you’re a developer, architect, security specialist, or product owner, KEYCONF25 is your opportunity to gain knowledge, grow your network, and contribute to the future of the Keycloak community.  📅 August 28th, 2025  📍 Amsterdam, Netherlands  Tickets are now available at – secure your spot early!   WANT TO GET INVOLVED?  We’re actively seeking sponsors and speakers for KEYCONF25. If you’d like to share your expertise or support this community-driven event, please get in touch at .  Let’s continue building a stronger, smarter IAM community—together.  We can’t wait to see you in Amsterdam!"
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Make distribution startup timeout configurable testsuite   BUGS   * [Keycloak CI] - FIPS UT - Run crypto tests ci  * CVE-2025-3910 Two factor authentication bypass  * CVE-2025-3501 Keycloak hostname verification"
 }
