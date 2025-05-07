@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 26.2.2 released",
-  "link": "https://www.keycloak.org/2025/04/keycloak-2622-released",
+  "title": "Byteman 4.0.25 has been released",
+  "link": "http://bytemanblog.blogspot.com/2025/05/byteman-4025-has-been-released.html",
   "author": [
     {
-      "name": null,
-      "avatar": null
+      "name": "Andrew Dinn",
+      "avatar": "https://www.gravatar.com/avatar/3e70cdde8644d2a2053db24a642ce36d?s=50"
     }
   ],
-  "date": "2025-04-30T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Make distribution startup timeout configurable testsuite   BUGS   * [Keycloak CI] - FIPS UT - Run crypto tests ci  * CVE-2025-3910 Two factor authentication bypass  * CVE-2025-3501 Keycloak hostname verification"
+  "date": "2025-05-01T17:12:00.000Z",
+  "feed_title": "Byteman Blog",
+  "content": "   Byteman 4.0.25 is now available from the and from the . It is the latest update release for use on all JDK9+ runtimes up to and including JDK25    Byteman 4.0.25 is a maintenance release which enables Byteman to be used with JDK25 releases. More details are provided in the and the latest .    "
 }
