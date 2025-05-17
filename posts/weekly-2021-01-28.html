@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 28 January 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, infinispan, openshift, camel, kafka, wildfly, keycloak">
+      <h1>This Week in JBoss - 28 January 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_releases">Releases!!</h2>
+<div class="sectionbody">
+<p>Infinispan 12 release, codenamed <code>Lockdown</code>, brings a ton of new features and improvements.
+Indexing and querying capabilities have seen a number of improvements with the help of Hibernate Search integration.
+ProtoStream marshalling is upgraded with a new <code>@ProtoAdapter</code> annotation that lets you easily integrate third-party classes.
+It&#8217;s a pretty elegant solution to what could present itself as a real headache for developers.
+Speaking of marshalling improvements, Infinispan 12 also makes your life easier by automatically generating and registering <code>SerializationContextInitializer</code> implementations to marshall user types.
+Also notable is the SPI for cross-site replication merge conflicts, which continues on the brilliant work that team has done to provide a solution for ensuring data integrity.
+There&#8217;s a lot going on in Infinispan 12 and probably too much to try and sum up here so why not head over and read all the details in the <a href="https://infinispan.org/blog/2021/01/25/infinispan-12-final">Infinispan 12.0.0.Final Announcement</a>.</p>
+<p>Congratulations to the entire Infinispan team on all the hard work.</p>
+<p><a href="https://quarkus.io/blog/quarkus-1-11-0-final-released/">Quarkus 1.11</a> is here!
+This release brings you RESTEasy Reactive, which is a new JAX-RS implementation for writing RESTful services.
+Quarkus 1.11 also introduces the Dev UI so you can quickly visualize all your loaded extensions, access docs, and more.
+Of course there are other things in Quarkus 1.11 but RESTEasy Reactive and the Dev UI look to be quite promising indeed.</p>
+<p>The Quarkus team keep things rolling with the release of <a href="https://quarkus.io/blog/intellij-quarkus-tools-1.3.0/">Quarkus Tools for IntelliJ 1.3.0</a> that adds codestarts to the Quarkus project wizard.</p>
+<p><a href="https://www.keycloak.org//2021/01/keycloak-1202-released.html">Keycloak 12.0.2</a> is now available too!
+Head on over to their site and check it out.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly_bootable_jars_on_openshift">WildFly Bootable JARs on OpenShift</h2>
+<div class="sectionbody">
+<p>Emmanuel Hugonnet <a href="https://www.wildfly.org//news/2021/01/24/odo-bootable-jar/">shows you how to use WildFly&#8217;s bootable JAR feature</a> and the <code>odo</code> CLI tool to easily build and deploy applications on OpenShift.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_started_with_apache_kafka_in_quarkus">Getting Started with Apache Kafka in Quarkus</h2>
+<div class="sectionbody">
+<p>Clement Escoffier details how to get you started with Apache Kafka in Quarkus applications in less than 10 steps using Reactive Messaging.
+Clement provides a GitHub repository with the code too so take a look at his <a href="https://quarkus.io/blog/getting-started-kafka/">Getting Started with Apache Kafka</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_easing_the_keycloak_integration_tests_in_kie_server_with_testcontainers">Easing the Keycloak integration tests in Kie Server with Testcontainers</h2>
+<div class="sectionbody">
+<p>Over at the Kie blog, Gonzalo Muñoz Fernández demonstrates <a href="https://blog.kie.org/2021/01/keycloak-integration-tests-in-kie-server-with-testcontainers.html">using Testcontainers to quickly and easily create integration tests with Kie Server and Keycloak</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_resteasy_wadl_module_in_wildfly">RESTEasy WADL Module in WildFly</h2>
+<div class="sectionbody">
+<p>Wei Nan gives a straightforward example of <a href="https://resteasy.github.io/2021/01/18/deploy-resteasy-wadl-to-wildfly/">deploying the RESTEasy WADL module</a> into WildFly.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_insights_hibernate_search_6">Quarkus Insights: Hibernate Search 6</h2>
+<div class="sectionbody">
+<p>Have you subscribed to the <a href="https://www.youtube.com/c/Quarkusio/videos">Quarkusio YouTube</a> channel yet?</p>
+<p>If not, head over and take a look.
+There are always interesting discussions and cool speakers.</p>
+<p>One recent video that I really enjoyed, and is timed well with the release of Infinispan 12, is <a href="https://www.youtube.com/watch?v=hwxWx-ORVwM">Episode #32</a> where Yoann Rodière joins the lads and introduces us to <a href="https://hibernate.org/search/releases/6.0/#whats-new">Hibernate Search 6</a>.
+Yoann goes through all the exciting new stuff in Hibernate Search and explains how the search API gives you accurate and flexible full-text search for applications to overcome the limitations that come from SQL queries.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_apache_camel_and_java_flight_recorder">Apache Camel and Java Flight Recorder</h2>
+<div class="sectionbody">
+<p>Claus Ibsen&#8217;s recent <a href="http://www.davsclaus.com/2021/01/apache-camel-38-and-java-flight-recorder.html">Apache Camel 3.8 and Java Flight Recorder</a> post breaks down how you can capture work steps with Flight Recorder to diagnose Apache Camel and improve performance.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_red_hat_developer_highlights">Red Hat Developer Highlights</h2>
+<div class="sectionbody">
+<p>In another Flight Recorder post, Andrew Azores gives us a great tutorial on using <a href="https://developers.redhat.com/blog/2021/01/25/introduction-to-containerjfr-jdk-flight-recorder-for-containers/">JDK Flight Recorder for containers</a> running on OpenShift.</p>
+<p>Finally, there is a great DevNation Tech Talk by Sebastien Blanc and Edson Yanaga on <a href="https://developers.redhat.com/devnation/tech-talks/kubectl-quarkus">Building kubectl plugins with Quarkus</a>.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
