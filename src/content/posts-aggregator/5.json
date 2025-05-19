@@ -1,13 +1,13 @@
 {
-  "title": "WildFly 36.0.1 is released!",
-  "link": "https://wildfly.org//news/2025/05/15/WildFly3601-Released/",
+  "title": "Quarkus 3.22.3 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-22-3-released/",
   "author": [
     {
-      "name": "Kabir Khan",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
   "date": "2025-05-15T00:00:00.000Z",
-  "feed_title": "WildFly",
-  "content": "WildFly 36.0.1.Final is now available .  I am pleased to announce that the WildFly 36.0.1.Final release is now available for download.  The following issues were resolved in 36.0.1:   BUGS   * [] - Jakarta MVC from Wildfly 34 built with Galleon on stability level    preview cannot find custom template engines in an EAR   * [] - Deploying postgresql-42.7.5.jar causes NPE when upgrading from wildfly    35→36   * [] - Deployment fails due to NullPointerException in    ExpirationMetaData.getLastAccessTime()   COMPONENT UPGRADES   * [] - Upgrade SmallRye Fault Tolerance from 6.9.0 to 6.9.1   * [] - Upgrade Velocity Engine to 2.4.1   * [] - Upgrade wildfly-clustering to 6.0.4.Final   * [] - [36.0.1.Final] Upgrade HAL to 3.7.11.Final   * [] - Upgrade WildFly Core to 28.0.1.Final   TASKS   * [] - Correct the release version to 36.0.1.Final-SNAPSHOT in various pom.xml  The following issues were also resolved in the version of WildFly Core contained within this release:   BUGS   * [WFCORE-7210] - Unescaped characters throw a NPE although allowed in settings   COMPONENT UPGRADES   * [] - Upgrade WildFly Elytron to 2.6.3.Final   * [] - Upgrade Elytron Web to 4.1.2.Final   * [] - Upgrade WildFly Elytron to 2.6.4.Final  Enjoy!"
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.22.3, the second (we skipped 3.22.0) maintenance release for our 3.22 release train.   UPDATE  To update to Quarkus 3.22, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.22.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
