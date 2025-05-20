@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 26.2.4 released",
-  "link": "https://www.keycloak.org/2025/05/keycloak-2624-released",
+  "title": "Quarkus Newsletter #56 - May",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-56/",
   "author": [
     {
-      "name": null,
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2025-05-08T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Clarify when to use podman docs   BUGS   * Double click on social provider link causes page has expired error login/ui  * IPv6 support: Broker tests failing with proxy configuration ci  * After migrating to newer Keycloak, token refreshes using inherited offline    sessions return access tokens with invalid exp value oidc  * Keycloak 26.2.0 UI Performance Degradation admin/ui  * duplicate key value violates unique constraint \"constraint_offl_cl_ses_pk3\"    infinispan  * JGroups errors when running a containerized Keycloak in Strict FIPS mode and    with Istio infinispan  * Update Job Pod is listed in the keycloak discovery service operator"
+  "date": "2025-05-13T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Read \"AI-Powered Form Wizards: Chat, Click, Done\" By Loïc Magnette to discover how Conversational AI Forms transform static forms into dynamic, guided experiences that boost data quality and ease of use. Learn how MCP clients can access Quarkus MCP SSE servers with access tokens in \"Getting ready for secure MCP with Quarkus MCP Server\" by Sergey Beryozkin. Markus Eisele’s \"Deploy Java Like a Pro: Your First Quarkus App on OpenShift in Minutes\" is a fun, hands-on guide for Java developers to build a REST API with Quarkus, PostgreSQL, and deploy it to OpenShift Developer Sandbox with no Kubernetes expertise required. Check out \"Quarkus 3 application on AWS Lambda- Part 1\" by Vadym Kazulkin for an introduction to the sample application and first Lambda performance measurements. Take a look back to see the way forward in \"Why Standards Matter More Today: From Fear of Lock-In to Foundations for Choice\" by Markus Eisele.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }

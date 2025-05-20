@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus Newsletter #56 - May",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-56/",
+  "title": "WildFly 36.0.1 is released!",
+  "link": "https://wildfly.org//news/2025/05/15/WildFly3601-Released/",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Kabir Khan",
       "avatar": null
     }
   ],
-  "date": "2025-05-13T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Read \"AI-Powered Form Wizards: Chat, Click, Done\" By Loïc Magnette to discover how Conversational AI Forms transform static forms into dynamic, guided experiences that boost data quality and ease of use. Learn how MCP clients can access Quarkus MCP SSE servers with access tokens in \"Getting ready for secure MCP with Quarkus MCP Server\" by Sergey Beryozkin. Markus Eisele’s \"Deploy Java Like a Pro: Your First Quarkus App on OpenShift in Minutes\" is a fun, hands-on guide for Java developers to build a REST API with Quarkus, PostgreSQL, and deploy it to OpenShift Developer Sandbox with no Kubernetes expertise required. Check out \"Quarkus 3 application on AWS Lambda- Part 1\" by Vadym Kazulkin for an introduction to the sample application and first Lambda performance measurements. Take a look back to see the way forward in \"Why Standards Matter More Today: From Fear of Lock-In to Foundations for Choice\" by Markus Eisele.  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "date": "2025-05-15T00:00:00.000Z",
+  "feed_title": "WildFly",
+  "content": "WildFly 36.0.1.Final is now available .  I am pleased to announce that the WildFly 36.0.1.Final release is now available for download.  The following issues were resolved in 36.0.1:   BUGS   * [] - Jakarta MVC from Wildfly 34 built with Galleon on stability level    preview cannot find custom template engines in an EAR   * [] - Deploying postgresql-42.7.5.jar causes NPE when upgrading from wildfly    35→36   * [] - Deployment fails due to NullPointerException in    ExpirationMetaData.getLastAccessTime()   COMPONENT UPGRADES   * [] - Upgrade SmallRye Fault Tolerance from 6.9.0 to 6.9.1   * [] - Upgrade Velocity Engine to 2.4.1   * [] - Upgrade wildfly-clustering to 6.0.4.Final   * [] - [36.0.1.Final] Upgrade HAL to 3.7.11.Final   * [] - Upgrade WildFly Core to 28.0.1.Final   TASKS   * [] - Correct the release version to 36.0.1.Final-SNAPSHOT in various pom.xml  The following issues were also resolved in the version of WildFly Core contained within this release:   BUGS   * [WFCORE-7210] - Unescaped characters throw a NPE although allowed in settings   COMPONENT UPGRADES   * [] - Upgrade WildFly Elytron to 2.6.3.Final   * [] - Upgrade Elytron Web to 4.1.2.Final   * [] - Upgrade WildFly Elytron to 2.6.4.Final  Enjoy!"
 }

@@ -1,14 +1,14 @@
 {
-  "title": "Keycloak 26.2.2 released",
-  "link": "https://www.keycloak.org/2025/04/keycloak-2622-released",
+  "title": "Keycloak 26.2.3 released",
+  "link": "https://www.keycloak.org/2025/05/keycloak-2623-released",
   "author": [
     {
       "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-04-30T00:00:00.000Z",
+  "date": "2025-05-05T00:00:00.000Z",
   "feed_title": "Keycloak Blog",
   "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Make distribution startup timeout configurable testsuite   BUGS   * [Keycloak CI] - FIPS UT - Run crypto tests ci  * CVE-2025-3910 Two factor authentication bypass  * CVE-2025-3501 Keycloak hostname verification"
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   NEW FEATURES   * Possibility to log details and representation to the jboss-logging listener   ENHANCEMENTS   * Standardize introductory text in Keycloak guides   BUGS   * Temporary failure in name resolution with nip.io ci  * Unknown error on authentication-flow delete action admin/ui  * SAML client certificate not persisted admin/ui  * [Keycloak Operator CI] - Test remote (slow) - UpdateTest.testExplicitStrategy    ci  * Ldap federation seems to open and keep open a new thread/connection for each    ldap request ldap  * Duplicate Key Violation When Reauthenticating After Account Deletion via    Google identity-brokering  * Password Policy Changes get overwritten in the UI admin/ui  * Kerberos principal attribute value \"comes back\" when cleared. admin/ui  * Client Credentials tab : \"Allow regex pattern comparison\" toggle is always    \"On\" on page load admin/ui  * Filtering of user- and admin-events by dateTo always returns empty results    admin/api  * Home button always redirects to master realm when permission denied admin/ui  * UI: Readonly/disabled profile form input fields are visually    indistinguishable from active fields account/ui  * [26.2.0/26.1.5] Regression: ClientList value is empty in UI for Custom    UserStorageProviderFactory admin/ui  * Authentication request can fail with `unknown_error` authentication  * Fine-grained-permssion v2 Display problem admin/fine-grained-permissions  * UserInfo request fails by using an access token obtained in Hybrid flow with    offline_access scope oidc  * Keycloak 26.2.0 can't authenticate to the H2 database after the upgrade core  * After import of keys an export doesn't include these values admin/ui  * Issue with SSL and `CertificatereloadManager` in Keycloak 26.2 when using    Istio infinispan  * Redirects to admin endpoint 404s on hostname-admin / request scheme mismatch    core  * [Operator CI] - Test remote (slow) ci  * Groups view: Filter/search bar disappears and groups not shown after clearing    empty search results admin/ui  * Oracle driver problems in keycloak 26.2.1 dependencies  * Account console: defaultLocale item in select locale field account/ui  * Wrong UDP jgroups metric name docs  * Serverinfo response grows over time admin/api  * Deletion of a role is slow when when there are a lot of roles in the database    core  * Duplicate user entries when searching custom attributes core  * Aurora DB should not update automatically to the latest minor version ci  * Inconsistent \"grant_types\" vs \"grantTypes\" Naming Causes GrantTypeCondition    to Always Fail core  * SLO measurement should mention a month as a period docs"
 }
