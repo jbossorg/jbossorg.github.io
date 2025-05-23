@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - June 16nd 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="keycloak, infinispan, kogito, jbang, jakarta ee, quarkus, wildfly,">
+      <h1>This Week in JBoss - June 16nd 2022</h1>
+      
+    <p class="preamble"><p>Welcome back!
+Here&#8217;s some great content at the start of summer, and just like always, some releases!</p>
+<p>We hope you have had a great week and are looking forward to summer.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases!</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.keycloak.org/2022/06/keycloak-1801-released">Keycloak 18.0.1</a> - The first bug fix release on the 18 branch is out. There are some minor enhancements and one new feature. Check the link for all the issues resolved in this release.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/06/kogito-1-22-1-released.html">Kogito 1.22.1</a> - Another minor release, though it does have one small breaking change. Be sure to look at that and adjust your pom files accordingly.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_articles_blogs">Articles &amp; Blogs</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://infinispan.org/blog/2022/06/14/infinispan-14-indexing-query-news">Infinispan 14 indexing and query news</a> - With development of Infinispan 14 ongoing, Fabio Massimo Ercoli wanted to highlight some changes to indexing and searching. tl;dr: Hibernate annotations will be replaced with new Infinispan annotations. There are some other implications, so be sure to take a look.</p>
+</li>
+<li>
+<p><a href="http://www.mastertheboss.com/java/quick-jbang-scripting-with-intellij/">Quick JBang Scripting With IntelliJ Idea</a> - Are you using IntelliJ Idea as your Java IDE? Take a look at the JBang integration plugin and what it allows you to do. You&#8217;ll be surprised at how much it can help.</p>
+</li>
+<li>
+<p><a href="http://www.mastertheboss.com/jboss-frameworks/resteasy/how-to-validate-jakarta-rest-endpoint-values/">How to validate Jakarta REST parameters</a> - Using Bean Validation with JAX-RS is powerful. You can use built-in validations to ease development and extend to create your own custom validations for entities. No more having to write trivial <code>if</code> statements to check if the provided data is valid.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/06/creating-tabs-using-dashbuilder%ef%bf%bc.html">Creating Tabs Using Dashbuilder</a> - Nikhil Dewoolkar walks you through how to create tabs in Dashbuilder, a great alternative to some other dashboard projects.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_videos">Videos</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=UYSNM9Dy5M4">Introducing gRPC support in WildFly</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=ya8To5V1QUU">Quarkus Insights #92: Quinoa&#8230;&#8203; Quarkus Modern UI with no hassles</a></p>
+</li>
+</ul>
+</div>
+<p>Have a great week!</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
