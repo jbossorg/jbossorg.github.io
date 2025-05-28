@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 14 July 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, DMN, Drools, Wildfly, transactions, narayana, kie">
+      <h1>This Week in JBoss - 14 July 2021</h1>
+      
+    <p class="preamble"><p>Welcome to this edition of the JBoss Editorial bringing you news and updates from the community.</p></p>
+<div class="sect1">
+<h2 id="_from_the_community">From the community</h2>
+<div class="sectionbody">
+<p>In <a href="https://jbossts.blogspot.com/2021/07/narayana-lra-update.html">this post</a> the Narayana team begins a new blog series on Long Running Actions, a compensation-based approach to transactions.</p>
+<p>The KIE Tooling team <a href="https://blog.kie.org/2021/07/instantaneous-feedback-loop-for-dmn-authoring-with-dmn-runner.html">announce</a> the new DMN Runner on <a href="http://dmn.new">dmn/new</a>.</p>
+<p>Gabriele Cardosi provides a concrete example of a recommendation engine based on top of PMML in <a href="https://blog.kie.org/2021/07/shopping-recommendations-in-pmml.html">Shopping recommendations in PMML</a>.</p>
+<p>Luca Molteni teaches us <a href="https://blog.kie.org/2021/07/how-to-start-contributing-to-drools-executable-model.html">How to start contributing to Drools Executable Model</a></p>
+<p>Eric Schabell continues his blog series on Cloud Adoption with a <a href="https://www.schabell.org/2021/06/cloud-adoption-example-adoption-architeccture.html">an Example adoption architecture</a>.</p>
+<p>Read this post by Jeff Mesnil to learn how to <a href="https://www.wildfly.org//news/2021/07/01/wildfly-preview-bootable-jar/">Run WildFly Preview of Jakarta EE 9.1 with Bootable Jar</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_developers_on_film">Developers on film</h2>
+<div class="sectionbody">
+<p>We don&#8217;t just publish blog posts! Here&#8217;s some recordings of live community events that happened over the past 2 weeks.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=n6D6a4G6ozg">Quarkus Insights #56: Quarkus Configuration</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=e_kwOJE2vQo&amp;">Quarkus Insights #57: Quarkus CLI</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=BIZHbsDAhm4">KIE Live #38: Destroy wrong beliefs and run real processes</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=u3KbGjEkkDM">KIE Live #39: Migrating Drools to the cloud with Kogito: a step by step path</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases">Releases</h2>
+<div class="sectionbody">
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-0-2-final-released/">Quarkus 2.0.2.Final</a> The second bug-fix release to the recent, huge <a href="https://quarkus.io/blog/quarkus-2-0-0-final-released/">Quarkus 2.0 release</a>.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/07/kogito-tooling-0-11-0-released.html">Kogito Tooling 0.11.0</a> Several bug fixes and improvements, including the new DMN Runner on <a href="https://dmn.new/">dmn.new</a>.</p>
+</li>
+<li>
+<p><a href="https://resteasy.github.io/2021/07/08/resteasy-4.7.0.Final/">RESTEasy 4.7.0.Final</a>. Including a <a href="https://docs.jboss.org/resteasy/docs/4.7.0.Final/userguide/html/RESTEasy_Embedded_Container.html#d4e2922">Reactor-Netty server adaptor</a>, Better support for Java 16 and the up and coming Java 17 release and <a href="https://issues.redhat.com/browse/RESTEASY-2943">Support for reactive publishers</a> for the HTTP client.</p>
+</li>
+<li>
+<p><a href="http://www.davsclaus.com/2021/07/apache-camel-311-whats-new.html">Apache Camel 3.11</a>. The next long term support release of Camel. See the blog post for what&#8217;s new since 3.10.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/paul-robinson.png"></pfe-avatar>
+        <span>Paul Robinson</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

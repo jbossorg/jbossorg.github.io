@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 25 March 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="news, weekly_update, weekly_editorial, wildfly, vertx, quarkus, kie, camel, kogito">
+      <h1>This Week in JBoss - 25 March 2021</h1>
+      
+    <p class="preamble"><p>Welcome to another edition of the JBoss Editorial where we search through the JBoss Community for interesting articles and updates</p></p>
+<div class="sect1">
+<h2 id="_introducing_the_prolific_eric_schabell">Introducing the prolific Eric Schabell</h2>
+<div class="sectionbody">
+<p>If you are a regular reader of the JBoss Editorial  you will be very familiar with the work of Eric Schabell, arguably one of the most prolific writers within the JBoss Community.  This edition is no different and sees Eric product three more articles.</p>
+<p>Eric&#8217;s first article is a continuation of his Supply Chain Integration Blueprint discussion.  In this article Eric <a href="https://www.schabell.org/2021/03/supply-chain-integration-example-store-integration-architecture.html">expands on the common architectural elements discussed previously and outlines an example Store integration architecture for Supply Chain integration</a>.</p>
+<p>Eric&#8217;s second article walks us through <a href="https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html">the necessary steps for installing and running the OpenShift Container Platform 4.7 on our local machines</a>.</p>
+<p>Eric&#8217;s final article kicks off a new series of articles within which he will introduce a new architectural blueprint covering <a href="https://www.schabell.org/2021/03/point-of-sale-an-architectural-introduction.html">"Simplifying and modernizing central management of distributed point-of-sale devices with built in support for container based applications"</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_whats_new_in_kogito_land">What&#8217;s new in Kogito land?</h2>
+<div class="sectionbody">
+<p>The <a href="http://kie.org">Kogito team</a> have been busy over the last few weeks publishing a number of interesting blog posts covering different aspects of the Kogito ecosystem.</p>
+<p>We begin our coverage with an article written by William <a href="https://blog.kie.org/2021/03/building-prometheus-dashboards-in-business-central.html">demonstrating how to integrate metrics from a Prometheus datasource into the Business Central</a>.  The article walks you through the process from the creation of the data set within Dashbuilder, building the dashboard, how to consider filtering requirements and how to test the dashboard.</p>
+<p>The next article, written by Manaswini, follows on from William&#8217;s article and <a href="https://blog.kie.org/2021/03/time-series-component-for-dashbuilder.html">demonstrates how you can further extend your dashboard through the integration and visualisation of time series data</a>.</p>
+<p>The final article, written by Ricardo, introduces us to Kogito&#8217;s support for the <a href="https://github.com/serverlessworkflow/specification/">CNCF Serverless Workflow</a> specification, <a href="https://blog.kie.org/2021/03/restful-services-orchestration-with-kogito-and-openapi.html">allowing Kogito to provide a serverless interface to a service which can also be used to orchestrate RESTful services described through the OpenAPI standard</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_clustering_wildfly_using_dns_ping">Clustering WildFly using DNS ping</h2>
+<div class="sectionbody">
+<p>When running within a kubernetes environment it is natural to consider the <a href="http://www.jgroups.org/manual5/index.html#_kube_ping">KUBE_PING protocol</a> for cluster discovery, a protocol relying on the ability to query the kubernetes API server.  If you want to remain agnostic of your environment, or if you do not have sufficient permissions to query the kubernetes API server, then an alternative approach to consider would be the <a href="https://www.wildfly.org//news/2021/03/12/Bootable-jar-jkube-clustering-dns-ping-openshift/">DNS_PING protocol</a> as <a href="https://www.wildfly.org//news/2021/03/12/Bootable-jar-jkube-clustering-dns-ping-openshift/">demonstrated by Yeray using a simple WildFly bootable JAR application</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_optimizing_camel_3_9_no_more_saw_tooth_jvm_garbage_collection">Optimizing Camel 3.9, no more saw tooth JVM garbage collection</h2>
+<div class="sectionbody">
+<p>The upcoming Camel 3.9 release will include some additional, significant improvements in the performance of the internal routing engine leading to a dramatic reduction in object allocation during continuous use.  The Camel team focussed on the five major areas of the codebase they had identified during performance testing with the intention of reducing the allocation count as much as possible, they managed to go one better and achieved a sustained object allocation count of zero!  For more information take a look at <a href="http://www.davsclaus.com/2021/03/apache-camel-39-no-more-saw-tooth-jvm.html">Claus' blog describing the effort</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_monitoring_quarkus_applications_on_openshift">Monitoring Quarkus applications on OpenShift</h2>
+<div class="sectionbody">
+<p>If you are running a Quarkus application on OpenShift you will most likely have a need for integrating with the centralised prometheus instance within the cluster.  This integration is fairly straight forward and can be achieved after following only a few simple steps <a href="https://quarkus.io/blog/micrometer-prometheus-openshift/">as ably demonstrated by Jose</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_releases">New Releases</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The <a href="https://www.wildfly.org/">WildFly team</a> have announced</p>
+<div class="ulist">
+<ul>
+<li>
+<p>the <a href="https://www.wildfly.org/news/2021/03/11/WildFly-MicroProfile-Reactive-specifications-feature-pack-2.0/">2.0.0.Final release of the MicroProfile Reactive Specifications Feature Pack for WildFly</a></p>
+</li>
+<li>
+<p>the <a href="https://www.wildfly.org/news/2021/03/19/bootable-jar-4.0.Final-Released/">4.0.0.Final release of the WildFly Bootable JAR Maven Plugin</a></p>
+</li>
+<li>
+<p>the <a href="https://www.wildfly.org//news/2021/03/18/WildFly-s2i-23-Released/">23.0 release of the WildFly S2I images</a></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>The <a href="http://kie.org/">Kogito team</a> have announced</p>
+<div class="ulist">
+<ul>
+<li>
+<p>the release of <a href="https://blog.kie.org/2021/03/kogito-tooling-0-8-5-released.html">Kogito Tooling 0.8.5</a>.</p>
+</li>
+<li>
+<p>the preliminary release of their <a href="https://blog.kie.org/2021/03/scorecard-editor.html">PMML (4.4) Scorecard Editor</a>.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>The <a href="https://vertx.io">Vert.x team</a> have announced the release of <a href="https://vertx.io/blog/eclipse-vert-x-4-0-3/">Eclipse Vert.x 4.0.3</a>.</p>
+</li>
+</ul>
+</div>
+<p>That&#8217;s all for this edition of the JBoss Editorial, please join us in a couple of weeks when we will bring you more news and articles from the JBoss Community Projects.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/kevin-conner.png"></pfe-avatar>
+        <span>Kevin Conner</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

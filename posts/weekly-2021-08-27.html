@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 27 August 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, keycloak, kogito, infinispan, vert.x, java, narayana">
+      <h1>This Week in JBoss - 27 August 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_calling_all_kogito_dmn_contributors">Calling all Kogito DMN contributors</h2>
+<div class="sectionbody">
+<p>Guilherme Carreiro brings us the second in a series of posts that guide you through contributing to Kogito&#8217;s DMN editor, <a href="https://blog.kie.org/2021/08/dmn-editor-contributors-guide-part-2.html">DMN editor – Contributors Guide – Part 2</a>.
+The post gives a nice overview of the DMN and the BPMN editors then links to some additional resources that guide you through the tasks of creating and testing Reactive components.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_resteasy_reactive_in_quarkus_2_2">RESTEasy Reactive in Quarkus 2.2</h2>
+<div class="sectionbody">
+<p>Clément gives a very insightful look at how Quarkus and RESTEasy Reactive make your life easier when implementing HTTP APIs.
+He also explains different dispatching strategies in Quarkus 2.2, based on method signatures to intelligently decide whether methods should be called on the I/O thread or a worker thread at build time.</p>
+<p>Go read the full details in Clément&#8217;s post, <a href="https://quarkus.io/blog/resteasy-reactive-smart-dispatch/">RESTEasy Reactive - To block or not to block</a> and take a look at some of the code examples he provides.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_narayana_lra_annotation_checker">Narayana LRA annotation checker</h2>
+<div class="sectionbody">
+<p>The Narayana team have provided a Maven plugin that checks LRA (Long Running Actions) annotations.
+This plugin helps developers avoid errors and follow the rules of the LRA specification.
+There&#8217;s also a sample Quarkus project in that shows you how to use it.</p>
+<p>You can read Ondra Chaloupka&#8217;s article here: <a href="https://jbossts.blogspot.com/2021/08/lra-annotation-checker-maven-plugin.html">LRA annotation checker Maven plugin</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_devconf_us_2021_designing_your_best_architecture_diagrams_workshop">DevConf.US 2021 - Designing your best architecture diagrams workshop</h2>
+<div class="sectionbody">
+<p>Over on Eric Schabell&#8217;s blog, he announces the <a href="https://www.schabell.org/2021/07/devconfus-2021-designing-your-best-architecture-diagrams-workshop.html">Designing your best architecture diagrams</a> workshop that he will deliver at this year&#8217;s DevConf.US on Thursday, September 2.
+Eric&#8217;s workshop takes attendees through the process of using open-source tooling to design architecture diagrams like an expert.</p>
+<p>Congrats to Eric on getting the workshop accepted.
+I&#8217;m sure it will be an invaluable workshop for all those who face the challenges of communicating complex architectural designs to project teams.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_apache_camel_at_kubecon_eu">Apache Camel at Kubecon EU</h2>
+<div class="sectionbody">
+<p>Nicola Ferraro presented Apache Camel at the Kubecon EU conference that took place on August 19th, 2020.</p>
+<p>Nicola&#8217;s presentation focused on Camel K integration with Knative with a detailed explanation and a super cool demo.
+Visit his blog to read details and watch the video at <a href="https://www.nicolaferraro.me/2020/09/08/serverless-integration-kubecon/">Serverless Integration on Kubernetes with Apache Camel K</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Let&#8217;s start things off this week with a look the latest releases.</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vertx-4-2-Beta1-released/">Eclipse Vert.x 4.2.0.Beta1</a>! Great to see the first beta is here!</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-1-4-final-released/">Quarkus 2.1.4.Final</a> is out! Follow the link to find the 2.1 migration guide and complete list of changes.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/08/kogito-1-10-0-released.html">Kogito 1.10.0</a> is released alongside <a href="https://blog.kie.org/2021/08/kogito-tooling-0-12-0-released.html">Kogito Tooling 0.12.0</a> and the <a href="https://github.com/kiegroup/kogito-operator/releases/tag/v1.10.0">Kogito Operator and CLI Version 1.10.0</a>. Congrats to the entire Kogito team on all the hard work!</p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2021/08/keycloak-1502-released">Keycloak 15.0.2</a> is here. Grab the download link and docs from the link.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

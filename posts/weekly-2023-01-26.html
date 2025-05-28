@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 26 January 2023 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="ansible, quarkus, java, jbang, infinispan, wildfly, cloud-native, kia, keycloak, kafka">
+      <h1>This Week in JBoss - 26 January 2023</h1>
+      
+    <p class="preamble"><p>Hi everyone!
+It&#8217;s great to be back and bringing you another edition of the JBoss Editorial.
+As always there&#8217;s a lot of exciting news and updates from JBoss communities, so let&#8217;s dive in.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-16-0-final-released/">Quarkus 2.16.0.Final</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-3-0-0-alpha3-released/">Quarkus 3.0.0.Alpha3</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2023/01/18/WildFly2613-Released/">WildFly 26.1.3</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2023/01/keycloak-2003-released">Keycloak 20.0.3</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/download/">Infinispan 14.0.6.Final</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_deploying_a_wildfly_cluster_using_ansible">Deploying a WildFly cluster using Ansible</h2>
+<div class="sectionbody">
+<p><a href="https://www.wildfly.org/news/2023/01/10/ansible-wildfly/">Deploying a WildFly 27.0.1 cluster using Ansible</a>, by Romain Pelisse</p>
+<p>Romain treats us to a brief demonstration that uses Ansible to effortlessly set up a WildFly cluster.
+Romain uses a short, simple playbook that fully automates his deployment and really shows how Ansible collections can greatly simplify configuration and reduce the time it takes to create large clusters with hundreds of nodes.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_listing_maven_local_artifacts_with_jbang">Listing Maven local artifacts with JBang</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/java/how-to-list-maven-local-artifacts-using-jbang/">How to list Maven local artifacts using JBang</a>, by Francesco Marchioni</p>
+<p>I have to say I&#8217;m a huge fan of JBang.
+What&#8217;s not to love about an easy-to-use tool that makes scripting with Java a breeze?
+When I noticed the title of Francesco&#8217;s post, I clicked it immediately and dug right in.
+It did not disappoint and showed a neat JBang CLI script that uses picocli libraries to find the Maven versions of an artifact in your local repository.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_look_at_the_apache_kafka_landscape">A look at the Apache Kafka landscape</h2>
+<div class="sectionbody">
+<p><a href="http://www.ofbizian.com/2023/01/apache-kafka-landscape.html">Apache Kafka Landscape</a>, by Bilgin Ibryam</p>
+<p>Bilgin&#8217;s post is a great resource for anyone exploring the Apache Kafka ecosystem and provides a lot of time-saving data around various projects, tools, and services related to Kafka.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quickly_deploying_dashboards_to_github_pages">Quickly deploying dashboards to GitHub pages</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2023/01/deploying-dashbuilder-dashboards.html">Deploying Dashbuilder Dashboards</a>, by William Siqueira</p>
+<p>William delivers a snappy article that shows you how to publish Dashbuilder dashboards and easily make them available to users in almost no time at all.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_native_adopts_adaptive_gc_policy">Quarkus native adopts adaptive GC policy</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/native-adopts-adaptive-gc-policy/">Quarkus Native adopts Adaptive GC policy</a>, by Galder Zamarreño</p>
+<p>Galder&#8217;s informative post takes us through an examination of the recent change to the garbage collection policy for Quarkus native applications.
+The change aligns with GraalVM&#8217;s default "adaptive" GC policy to provide a better out of the box experience.
+Galder shows us in spectacular detail how this change brings about more consistent and predictable runtime performance.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_event_driven_ansible_office_hours">Event-Driven Ansible Office Hours</h2>
+<div class="sectionbody">
+<p><a href="https://github.com/ansible/event-driven-ansible#office-hours">Event-driven Ansible Office Hours</a></p>
+<p>Surely by now you&#8217;ve heard of Event-Driven Ansible but maybe you only have a rough idea of how the technology works?
+Well, great news!</p>
+<p>The team have started office hours to demo and explain how Event-Driven Ansible allows you to subscribe to an event-listening source and then quickly and easily automate tasks that respond to those events. Follow the link above to find the latest webinar and learn from the community.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_videos">YouTube videos</h2>
+<div class="sectionbody">
+<p>Definitely catch the replay of <a href="https://youtu.be/qcjrGlRimYU">Quarkus Insights #115: What&#8217;s new in Infinispan?</a> if you haven&#8217;t already watched it.</p>
+<p>Also check out Sean Cavanaugh&#8217;s demo video, <a href="https://youtu.be/aqQq5vD8-n0">Getting started with Event-Driven Ansible and Ansible Rulebooks</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_you_next_time">See you next time</h2>
+<div class="sectionbody">
+<p><em>Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
