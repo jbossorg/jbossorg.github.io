@@ -1,13 +1,14 @@
 {
-  "title": "Eclipse Vert.x 5 candidate 8 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-5-candidate-8-released",
+  "title": "Keycloak 26.2.4 released",
+  "link": "https://www.keycloak.org/2025/05/keycloak-2624-released",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": null,
       "avatar": null
     }
   ],
-  "date": "2025-05-07T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2025-05-08T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Clarify when to use podman docs   BUGS   * Double click on social provider link causes page has expired error login/ui  * IPv6 support: Broker tests failing with proxy configuration ci  * After migrating to newer Keycloak, token refreshes using inherited offline    sessions return access tokens with invalid exp value oidc  * Keycloak 26.2.0 UI Performance Degradation admin/ui  * duplicate key value violates unique constraint \"constraint_offl_cl_ses_pk3\"    infinispan  * JGroups errors when running a containerized Keycloak in Strict FIPS mode and    with Istio infinispan  * Update Job Pod is listed in the keycloak discovery service operator"
 }
