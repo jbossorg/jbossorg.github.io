@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 18 November 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, java, resteasy, camel, reactive">
+      <h1>This Week in JBoss - 18 November 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Here are the releases from the JBoss Community for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-4-2-final-released/">Quarkus 2.4.2</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/11/kogito-1-13-0-released.html">Kogito 1.13.0</a></p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/blog/2021/11/RELEASE-3.13.0/">Camel 3.13.0</a></p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/blog/2021/11/camel-quarkus-release-2.4.0/">Camel Quarkus 2.4.0</a></p>
+</li>
+<li>
+<p><a href="https://github.com/apache/camel-k/releases/tag/v1.7.0/">Camel K 1.7.0</a></p>
+</li>
+<li>
+<p><a href="https://in.relation.to/2021/11/09/hibernate-reactive-1_1_0_Final/">Hibernate Reactive 1.1.0.Final</a></p>
+</li>
+<li>
+<p><a href="https://resteasy.github.io/2021/11/04/resteasy-5.0.0-release/">RESTEasy 5.0.0</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_test_driven_development_with_quarkus">Test-driven development with Quarkus</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2021/11/08/test-driven-development-quarkus">Test-driven development with Quarkus</a>, by Eric Deandrea</p>
+<p>Eric&#8217;s article provides a detailed walkthrough of how to take advantage of Quarkus continuous testing and Dev UI for test-driven development. Eric also provides a sample repository that you can use to follow along with the article.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_boost_throughput_with_resteasy_reactive_in_quarkus_2">Boost throughput with RESTEasy Reactive in Quarkus 2.</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2021/11/04/boost-throughput-resteasy-reactive-quarkus-22/">Boost throughput with RESTEasy Reactive in Quarkus 2.</a>, by Daniel Oh</p>
+<p>Daniel shows how some simple changes in your REST endpoints can boost the throughput of your application using RESTEasy Reactive. He also shows how to use the Endpoint score dashboard to assess the performance of your endpoints.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_low_code_camel">Low Code Camel</h2>
+<div class="sectionbody">
+<p><a href="https://www.nicolaferraro.me/2021/11/03/low-code-camel/]">Low Code Camel - How Kamelets enable a low code integration experience.</a>, by Nicola Ferraro</p>
+<p>This excellent post shows how Kamelets is driving a deeper transformation towards "low code" development with Camel. Nicola Ferraro shows that you can use Kamelets directly with yaml or take advantage of the Karavan tool to design and visualize your integration flows graphically.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_started_with_hibernate_reactive_on_quarkus">Getting started with Hibernate reactive on Quarkus</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/getting-started-with-hibernate-reactive/">Getting started with Hibernate reactive on Quarkus</a>, by F. Marchioni</p>
+<p>Reactive everywhere! In this post, F. Marchioni helps us get started with Hibernate reactive, providing a step-by-step from project creation to configuration and coding.</p>
+<p>The post covers the "classic" Hibernate ORM, but Hibernate Reactive can also be applied to Panache.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_java_lts_perspective_of_a_library_author">Java LTS - perspective of a library author</h2>
+<div class="sectionbody">
+<p><a href="https://emmanuelbernard.com/blog/2021/11/15/java-lts/">Java LTS - perspective of a library author</a>, by Emmanuel Bernard</p>
+<p>Oracle is proposing a change to the Java LTS lifecycle from the current 3 years for 2 years. In this post, Emmanuel Bernard put some light on the challenges, from the perspective of a library author, that such changes may bring to the complex Java ecosystem.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_videos">Videos</h2>
+<div class="sectionbody">
+<p>YouTube is such a great platform to share knowledge, here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/stH_jA5f5eM">First Look at Testcontainers Cloud and Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/VGAnVX1lCxg">Quarkus Insights #69: Performance and costs of reactive libraries in Java</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/C5NGczQMHu0">KIELive #51 TrustyAI: Ensuring the Fairness and Transparency of Decision Models</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/alex-porcelli.png"></pfe-avatar>
+        <span>Alex Porcelli</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

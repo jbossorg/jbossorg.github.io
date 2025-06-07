@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "@patternfly/pfelement@1.0.0-prerelease.56",
+      "/home/runner/work/jbossorg.github.io/jbossorg.github.io"
+    ]
+  ],
+  "_from": "@patternfly/pfelement@1.0.0-prerelease.56",
+  "_id": "@patternfly/pfelement@1.0.0-prerelease.56",
+  "_inBundle": false,
+  "_integrity": "sha512-YT+BJ8QLSJUxdhaaPwtoAjwHeunUaZY2y+i/48lMNmO1iGLghmpsH5J6awTZxH4oaIKwQ1MmSBHe7CvzpIrIpw==",
+  "_location": "/@patternfly/pfelement",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@patternfly/pfelement@1.0.0-prerelease.56",
+    "name": "@patternfly/pfelement",
+    "escapedName": "@patternfly%2fpfelement",
+    "scope": "@patternfly",
+    "rawSpec": "1.0.0-prerelease.56",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-prerelease.56"
+  },
+  "_requiredBy": [
+    "/@patternfly/pfe-avatar",
+    "/@patternfly/pfe-band",
+    "/@patternfly/pfe-card",
+    "/@patternfly/pfe-cta",
+    "/@patternfly/pfe-datetime",
+    "/@patternfly/pfe-icon"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfelement/-/pfelement-1.0.0-prerelease.56.tgz",
+  "_spec": "1.0.0-prerelease.56",
+  "_where": "/home/runner/work/jbossorg.github.io/jbossorg.github.io",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "contributors": [
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    },
+    {
+      "name": "Michael Clayton"
+    },
+    {
+      "name": "castastrophe",
+      "url": "https://github.com/castastrophe"
+    }
+  ],
+  "description": "Base class for PatternFly Elements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.3.4",
+  "gitHead": "efed86135e85925182445801ab89570b3bcec5ca",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfelement.umd.js",
+  "module": "./dist/pfelement.js",
+  "name": "@patternfly/pfelement",
+  "pfelement": {
+    "className": "PFElement",
+    "elementName": "pfelement",
+    "assets": [
+      "pfelement.*css",
+      "pfelement.*css.map"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfelement"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfelement/test/",
+    "watch": "../../node_modules/.bin/gulp watch"
+  },
+  "unpkg": "./dist/pfelement.umd.min.js",
+  "version": "1.0.0-prerelease.56"
+}
