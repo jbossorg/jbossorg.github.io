@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 30th July 2020: No rest for the JBoss community! - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="eap, editorial, infinispan, quarkus, jgroups, java, wildfly, clustering, mod_cluster, eclipse, jkube, kubernetes,">
+      <h1>This Week in JBoss - 30th July 2020: No rest for the JBoss community!</h1>
+      
+    <p class="preamble"><p>Welcome to another installment of our JBoss Editorial! The last two weeks have been pretty rich on published content and releases, so let&#8217;s dive right in!</p></p>
+<div class="sect1">
+<h2 id="_from_spring_boot_to_quarkus">From Spring Boot to Quarkus</h2>
+<div class="sectionbody">
+<p>As Quarkus community is increasing the question of how to migrate to this new framework (or rather runtime) often arises. If you happen to have such predicament with Spring Boot, I&#8217;m sure you&#8217;ll be quite interested to read this article on <a href="https://developers.redhat.com/blog/2020/07/17/migrating-spring-boot-tests-to-quarkus/">migrating Spring Boot tests to Quarkus</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_secure_vue_js_with_keycloak">Secure vue.js with Keycloak</h2>
+<div class="sectionbody">
+<p>If most of the content we mentioned today is made of articles, we have one, quite cool video content to share. It&#8217;s coming straight from one of the tech-talks of the DevNation and we hope you&#8217;ll like it :  <a href="https://developers.redhat.com/devnation/tech-talks/secure-vuejs-keycloak">Secure vue.js using Keycloak</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jgroups_double_your_performance_with_virtual_threads">JGroups: Double your performance with virtual threads!</h2>
+<div class="sectionbody">
+<p>Quite a lot of exciting things are happening in the realm of JGroups lately! Last time, we already mentioned the <a href="http://belaban.blogspot.com/2020/06/new-netty-transport.html">new netty transport</a>, but Bela Ban, the creator of project, got us even more excited with this news about <a href="http://belaban.blogspot.com/2020/07/double-your-performance-virtual-threads.html">how one can double its performance using virtual threads (fibers) on JDK15/16</a>!!! This JDK is still a bit down the road, but its certainly a nice glimpse into tomorrow.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_back_to_the_basics">Back to the Basics</h2>
+<div class="sectionbody">
+<p>As said above, the last two weeks have been particularly rich in interesting content around the JBoss community and the Java ecosystem at large. Some of those articles took the time to go back and rethink some aspects of our work that we take for granted. Let&#8217;s first mention this original take on java programming that focuses on <a href="https://developers.redhat.com/blog/2020/07/09/behavior-is-easy-state-is-hard-tame-inconsistent-state-in-your-java-code/">taming inconsistent state in a Java code</a>.</p>
+<p>This first article is already pretty centered around coding, but this next one goes into the very guts of Infinispan! If you know the project, I&#8217;m sure you&#8217;ll find this entry on <a href="https://infinispan.org/blog/2020/07/22/anchored-keys/">anchored keys</a> as fascinating as I did!</p>
+<p>Let&#8217;s also revisit a classic: load balancing a JEE app server (such as Wildfly or its product counterpart JBoss EAP), but with a twist: <a href="https://developers.redhat.com/blog/2020/07/15/load-balancing-red-hat-jboss-enterprise-application-platform-subclusters-with-mod_cluster/">Load balancing Red Hat JBoss EAP with subclusters</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evangelists_corner">Evangelist&#8217;s Corner</h2>
+<div class="sectionbody">
+<p>No rest for the wicked! And no, no rest for our very own Eric D. Schabell! In the last two weeks, he has been quite busy again. First of all, he got his very <a href="https://www.schabell.org/2020/07/what-the-dev-podcast-episode-44-agile-integration.html">first interview on a podcast</a> (yep, that&#8217;s right, he was never on a podcast before!). With the host, he discussed the best practices for Agile integration. If you are interested in this topic, fetch the episode, you won&#8217;t regret it!</p>
+<p>That&#8217;s not all. Eric also took the time to update and release his "fully updated to the latest release" version of his <a href="https://www.schabell.org/2020/07/beginners-guide-building-a-retail-web-shop-workshop-update.html">Beginners guide - Building a retail web shop workshop update</a>.</p>
+<p>On top of that, he took the time to describe <a href="https://www.schabell.org/2020/07/how-to-install-rhpam-77.html">how to How to Install Red Hat Process Automation Manager 7.7</a> and share his experience with the <a href="https://www.schabell.org/2020/07/shift-remote-2020-devops-heroes.html">Shift Remote 2020 online conference</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases,&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>As always, the JBoss community has been pretty busy in the last weeks and a few projects have seized the relative quietness of Summer to release new version of their product:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.keycloak.org//2020/07/keycloak-1100-released.html">Keycloak 11.0.0</a></p>
+</li>
+<li>
+<p><a href="http://bytemanblog.blogspot.com/2020/07/byteman-4012-has-been-released.html">Byteman 4.0.12</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/blog/2020/07/27/infinispan-12/">Infinispan 12.0.0.Dev01</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf</h2>
+<div class="sectionbody">
+<p>For once, this section stays rather close to Java, covering how to <a href="https://developers.redhat.com/blog/2020/07/27/deploy-your-java-web-application-into-the-cloud-using-eclipse-jkube/">deploy your Java Webapp into the cloud using Eclipse JKube</a>. So, yes, we&#8217;ll talk Kubernetes, but in a context quite close to home :) .</p>
+<p>That&#8217;s all for another edition of the JBoss Editorial, please join us again for more exciting development from the JBoss Communities.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
