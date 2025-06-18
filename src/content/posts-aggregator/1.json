@@ -1,14 +1,13 @@
 {
-  "title": "Meet Keycloak at KubeCon India in August",
-  "link": "https://www.keycloak.org/2025/06/keycloak-kubecon25-india-announce",
+  "title": "Narayana is now in Commonhaus Foundation!",
+  "link": "https://jbossts.blogspot.com/2025/06/narayana-is-now-in-commonhaus-foundation.html",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": "Tom Jenkinson",
       "avatar": null
     }
   ],
-  "date": "2025-06-12T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "Last year’s KubeCon India was a great success, and Keycloak will be part of this year’s edition in Hyderabad on August 7-8.    A lot of people use Keycloak and develop extensions in for Keycloak in India, so we are thrilled to connect with the community.  Connect with me in to have your contributions or projects mentioned in the talk!     TALKS AT KUBECON  The schedule of KubeCon + CloudNativeCon India 2025 has been released, see below talks about Keycloak:   *     Wednesday August 6, 2025 11:37 IST    Alexander Schwartz, Red Hat   *     Wednesday August 6, 2025 12:10 IST    Alexander Schwartz & Rishabh Singh, Red Hat   PROJECT PAVILLION  The Keycloak project table in the Project Pavillion is the place to meet the Keycloak maintainers, contributors and the larger community.  We will be there in the afternoons, while other projects will be there during the mornings. See below for the location and the times.  Wednesday, August 6: 3:10 pm - 7:15 pm  Thursday, August 7: 1:25 pm - 3:50 pm   SEE YOU THERE!  We’re preparing for KubeCon India 2025 and can’t wait to connect with our community. Mark your calendars and join us.  Let me know in to have your contributions or projects mentioned in the talk!  See you in Hyderabad!"
+  "date": "2025-06-18T15:42:00.001Z",
+  "feed_title": "Narayana team blog",
+  "content": "Hi,  Further to the earlier post about Narayana in a foundation (https://jbossts.blogspot.com/2025/03/request-for-input-narayana-in-foundation.html) I am pleased to share here that the Narayana project has successfully transferred to Commonhaus Foundation (as part of a move with WildFly - please see the WildFly announcement here https://www.wildfly.org/news/2025/04/30/WildFly-Commonhaus/).  You can find us now listed at: https://www.commonhaus.org/.  Please feel free to reach out on Zulip to chat about this: https://narayana.zulipchat.com/     Congratulations to the project on this new home!  Tom "
 }

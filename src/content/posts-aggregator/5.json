@@ -1,14 +1,13 @@
 {
-  "title": "Keycloak 26.2.5 released",
-  "link": "https://www.keycloak.org/2025/05/keycloak-2625-released",
+  "title": "Quarkus 3.23.2 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-23-2-released/",
   "author": [
     {
-      "name": null,
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-05-28T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "To download the release go to .   UPGRADING  Before upgrading refer to for a complete list of changes.   ALL RESOLVED ISSUES   ENHANCEMENTS   * Fix Securing Apps links to adapters docs  * Email server credentials can be harvested through host/port manipulation    admin/api  * Fix doc link to FGAP v1 docs  * Apply edits to Operators Guide docs  * Edit Observability Guide docs  * Fix callouts in Operator guide docs  * Sessions from Infinispan should be mapped lazily for the Admin UI  * Speed up Infinispan list of all sessions be more eagerly remove old client    sessions  * When logging in, all client sessions are loaded which is slow oidc   BUGS   * Authorization Code Flow Fails Scope Validation After Credential Definition    Migration to Realm Level oid4vc  * [quarkus-next] TestEngine with ID 'junit-jupiter' failed to discover tests    dist/quarkus  * [OID4VCI] Documentation Errors docs  * Aggregated policy: Cannot select policies that do not appear in the drop-down    list admin/ui  * quarkus runtime options are treated as buildtime options dist/quarkus  * [26.2.3/26.1.5] Regression: empty ClientList in UI for Custom    UserStorageProvider admin/ui  * UI does not show user's attributes after reentering the Attributes TAB    admin/ui  * Refreshed tokens are not persisted for IDP token exchange token-exchange  * UI does not show organization's attributes after reentering the Attributes    TAB account/ui  * Autocomplete in Mapper type of user federation broken admin/ui  * Forms IT tests breaks with Chrome 136.0.7103.59 ci  * Unable to change the OTP hash algorithm admin/ui  * Keycloak not using custom Infinispan config infinispan  * Duplicate validation message “Please specify username.” shown on login form    login/ui  * Clicking on the jump links removes the localization of the UI admin/ui  * Authorization documentation shows the wrong view authorization-services  * Recreate update is not scaling down the statefulset to zero operator  * Hibernate LazyInitializationException when deleting client with    CompositeRoles core  * POST realm API returns 400 on conflict instead of 409 in version 26.2.4    admin/api  * Documentation has outdated link to the \"latest\" branch of quickstarts docs  * [KEYCLOAK CI] - AuroraDB IT - Create EC2 runner instance ci"
+  "date": "2025-06-05T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.23.2, the first (we skipped 3.23.1) maintenance release for our 3.23 release train.   UPDATE  To update to Quarkus 3.23, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.23.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of and on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
