@@ -1,13 +1,14 @@
 {
-  "title": "Quarkus Newsletter #57 - June",
-  "link": "https://quarkus.io/blog/quarkus-newsletter-57/",
+  "title": "Meet Keycloak at KubeCon India in August",
+  "link": "https://www.keycloak.org/2025/06/keycloak-kubecon25-india-announce",
   "author": [
     {
-      "name": "James Cobb",
+      "name": "Alexander Schwartz",
       "avatar": null
     }
   ],
   "date": "2025-06-12T00:00:00.000Z",
-  "feed_title": "Quarkus",
-  "content": "Quarkus MCP Server is blazing a trail as the first Java MCP server with Streamable HTTP support—unlocking new possibilities for developers. Read more about in the blog post \"Quarkus MCP Server: The First Java Server SDK to Support Streamable HTTP!\" by Max Rydahl Andersen. Learn how Quarkus MCP Client can use access tokens to access secure MCP servers in Sergey Beryozkin’s blog post \"Use Quarkus MCP client to access secure MCP HTTP servers\". Leverage ChatGPT and existing Maven skills, to rapidly develop and deploy a new API with Quarkus. Ease the learning curve and achieving quick validation on Heroku. See how in \"How To Introduce a New API Quickly Using Quarkus and ChatGPT\" by John Vester. Explore LLM guardrails, why they matter, and how you can effectively implement them to ensure safe and trustworthy AI interactions in \"Ensuring Safe and Reliable AI Interactions with LLM Guardrails\" by Brian Vermeer. Learn about Prasbanth’s first experience to see how the Java ecosystem is adapting to the world of cloud-native applications — and how that experience left him motivated to continue this journey in \"From Traditional Java to Cloud-Native with Quarkus: My First Boston Java Users Meetup Experience\".  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Last year’s KubeCon India was a great success, and Keycloak will be part of this year’s edition in Hyderabad on August 7-8.    A lot of people use Keycloak and develop extensions in for Keycloak in India, so we are thrilled to connect with the community.  Connect with me in to have your contributions or projects mentioned in the talk!     TALKS AT KUBECON  The schedule of KubeCon + CloudNativeCon India 2025 has been released, see below talks about Keycloak:   *     Wednesday August 6, 2025 11:37 IST    Alexander Schwartz, Red Hat   *     Wednesday August 6, 2025 12:10 IST    Alexander Schwartz & Rishabh Singh, Red Hat   PROJECT PAVILLION  The Keycloak project table in the Project Pavillion is the place to meet the Keycloak maintainers, contributors and the larger community.  We will be there in the afternoons, while other projects will be there during the mornings. See below for the location and the times.  Wednesday, August 6: 3:10 pm - 7:15 pm  Thursday, August 7: 1:25 pm - 3:50 pm   SEE YOU THERE!  We’re preparing for KubeCon India 2025 and can’t wait to connect with our community. Mark your calendars and join us.  Let me know in to have your contributions or projects mentioned in the talk!  See you in Hyderabad!"
 }
