@@ -1,13 +1,13 @@
 {
-  "title": "Quarkus 3.23.2 - Maintenance release",
-  "link": "https://quarkus.io/blog/quarkus-3-23-2-released/",
+  "title": "Quarkus Newsletter #57 - June",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-57/",
   "author": [
     {
-      "name": "Guillaume Smet",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2025-06-05T00:00:00.000Z",
+  "date": "2025-06-12T00:00:00.000Z",
   "feed_title": "Quarkus",
-  "content": "We released Quarkus 3.23.2, the first (we skipped 3.23.1) maintenance release for our 3.23 release train.   UPDATE  To update to Quarkus 3.23, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.23.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of and on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
+  "content": "Quarkus MCP Server is blazing a trail as the first Java MCP server with Streamable HTTP support—unlocking new possibilities for developers. Read more about in the blog post \"Quarkus MCP Server: The First Java Server SDK to Support Streamable HTTP!\" by Max Rydahl Andersen. Learn how Quarkus MCP Client can use access tokens to access secure MCP servers in Sergey Beryozkin’s blog post \"Use Quarkus MCP client to access secure MCP HTTP servers\". Leverage ChatGPT and existing Maven skills, to rapidly develop and deploy a new API with Quarkus. Ease the learning curve and achieving quick validation on Heroku. See how in \"How To Introduce a New API Quickly Using Quarkus and ChatGPT\" by John Vester. Explore LLM guardrails, why they matter, and how you can effectively implement them to ensure safe and trustworthy AI interactions in \"Ensuring Safe and Reliable AI Interactions with LLM Guardrails\" by Brian Vermeer. Learn about Prasbanth’s first experience to see how the Java ecosystem is adapting to the world of cloud-native applications — and how that experience left him motivated to continue this journey in \"From Traditional Java to Cloud-Native with Quarkus: My First Boston Java Users Meetup Experience\".  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }

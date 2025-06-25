@@ -1,13 +1,14 @@
 {
-  "title": "Eclipse Vert.x 5 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-5-released",
+  "title": "Hitachi Keycloak case study published",
+  "link": "https://www.keycloak.org/2025/05/hitachi-case-study",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Alexander Schwartz",
       "avatar": null
     }
   ],
-  "date": "2025-05-15T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2025-05-19T00:00:00.000Z",
+  "feed_title": "Keycloak Blog",
+  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
+  "content": "Hitachi Ltd. uses Keycloak to make financial grade security easier.  They are providing an API management cloud service for Japanese banks. Banks can open their APIs (like accessing bank accounts) to third-party fintech companies securely by using the service. One of the biggest challenges in the development phase was authorizing APIs for financial grade security. For API authorization in the financial sector, Financial-grade API (FAPI) is specified by the OpenID Foundation and widely adopted.  By using Keycloak as an authorization server of the API management cloud service, they can provide a fully FAPI conformant API authorization for their customers.  Read more on their challenges and the solution in this !  We are now starting to collect all case studies at . If you want to share your case study with the Keycloak community, to sort out the details."
 }
