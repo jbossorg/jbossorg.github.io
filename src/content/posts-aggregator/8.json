@@ -1,13 +1,13 @@
 {
-  "title": "Narayana is now in Commonhaus Foundation!",
-  "link": "https://jbossts.blogspot.com/2025/06/narayana-is-now-in-commonhaus-foundation.html",
+  "title": "Quarkus 3.23.4 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-23-4-released/",
   "author": [
     {
-      "name": "Tom Jenkinson",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-06-18T15:42:00.001Z",
-  "feed_title": "Narayana team blog",
-  "content": "Hi,  Further to the earlier post about Narayana in a foundation (https://jbossts.blogspot.com/2025/03/request-for-input-narayana-in-foundation.html) I am pleased to share here that the Narayana project has successfully transferred to Commonhaus Foundation (as part of a move with WildFly - please see the WildFly announcement here https://www.wildfly.org/news/2025/04/30/WildFly-Commonhaus/).  You can find us now listed at: https://www.commonhaus.org/.  Please feel free to reach out on Zulip to chat about this: https://narayana.zulipchat.com/     Congratulations to the project on this new home!  Tom "
+  "date": "2025-06-19T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.23.4, the third (we skipped 3.23.1) maintenance release for our 3.23 release train.   UPDATE  To update to Quarkus 3.23, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.23.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
