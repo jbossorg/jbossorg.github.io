@@ -1,13 +1,13 @@
 {
-  "title": "Narayana is now in Commonhaus Foundation!",
-  "link": "https://jbossts.blogspot.com/2025/06/narayana-is-now-in-commonhaus-foundation.html",
+  "title": "Quarkus Newsletter #57 - June",
+  "link": "https://quarkus.io/blog/quarkus-newsletter-57/",
   "author": [
     {
-      "name": "Tom Jenkinson",
+      "name": "James Cobb",
       "avatar": null
     }
   ],
-  "date": "2025-06-18T15:42:00.001Z",
-  "feed_title": "Narayana team blog",
-  "content": "Hi,  Further to the earlier post about Narayana in a foundation (https://jbossts.blogspot.com/2025/03/request-for-input-narayana-in-foundation.html) I am pleased to share here that the Narayana project has successfully transferred to Commonhaus Foundation (as part of a move with WildFly - please see the WildFly announcement here https://www.wildfly.org/news/2025/04/30/WildFly-Commonhaus/).  You can find us now listed at: https://www.commonhaus.org/.  Please feel free to reach out on Zulip to chat about this: https://narayana.zulipchat.com/     Congratulations to the project on this new home!  Tom "
+  "date": "2025-06-12T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "Quarkus MCP Server is blazing a trail as the first Java MCP server with Streamable HTTP support—unlocking new possibilities for developers. Read more about in the blog post \"Quarkus MCP Server: The First Java Server SDK to Support Streamable HTTP!\" by Max Rydahl Andersen. Learn how Quarkus MCP Client can use access tokens to access secure MCP servers in Sergey Beryozkin’s blog post \"Use Quarkus MCP client to access secure MCP HTTP servers\". Leverage ChatGPT and existing Maven skills, to rapidly develop and deploy a new API with Quarkus. Ease the learning curve and achieving quick validation on Heroku. See how in \"How To Introduce a New API Quickly Using Quarkus and ChatGPT\" by John Vester. Explore LLM guardrails, why they matter, and how you can effectively implement them to ensure safe and trustworthy AI interactions in \"Ensuring Safe and Reliable AI Interactions with LLM Guardrails\" by Brian Vermeer. Learn about Prasbanth’s first experience to see how the Java ecosystem is adapting to the world of cloud-native applications — and how that experience left him motivated to continue this journey in \"From Traditional Java to Cloud-Native with Quarkus: My First Boston Java Users Meetup Experience\".  You will also see the latest Quarkus Insights episodes, top tweets/discussions and upcoming Quarkus attended events.  Check out !  Want to get newsletters in your inbox? using the on page form."
 }

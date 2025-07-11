@@ -1,14 +1,13 @@
 {
-  "title": "Talks announced for KEYCONF25 - get your tickets!",
-  "link": "https://www.keycloak.org/2025/06/keyconf25-amsterdam-schedule",
+  "title": "Quarkus 3.24.3 - Maintenance release",
+  "link": "https://quarkus.io/blog/quarkus-3-24-3-released/",
   "author": [
     {
-      "name": "Alexander Schwartz",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-06-27T00:00:00.000Z",
-  "feed_title": "Keycloak Blog",
-  "feed_avatar": "https://www.gravatar.com/avatar/87fe00619f08c241da8dfb23d907ffa2?s=50",
-  "content": "The talks and speakers have now been announced for Keycloak’s Identity Summit. Save your spot today!  📍 – taking place in Amsterdam on August 28th, 2025!  This year’s edition of the Keycloak Identity Summit promises more content, more connections, and even more opportunities to engage with the people shaping the future of identity and access management.   TALK HIGHLIGHTS  Our talks highlight the broad spectrum of the Keycloak ecosystem: How to run it with confidence and securely, how extend it, and how to apply it in existing and new scenarios.  See below for a short-list of topics we cover:   * Human and Workload Identities: Bridging the Gap with Keycloak   * AI Meets Identity: Managing Keycloak with Natural Language via MCP   * Observability in Keycloak: Where Does It Hurt?   * The Event Sorcerer with the Keycloak: The Battle against Dynamic    Configuration   * Protectors of the Realm: Breaking and Fixing Keycloak Configurations   A GREAT PLACE TO NETWORK  Networking lunch  Our extended lunch break is designed to help you meet fellow attendees, swap ideas, and build meaningful professional connections in a relaxed setting.  Meet the maintainers  We will have a panel discussion with the maintainers. Ask your questions live and get a response from the experts!  Business drinks  Stick around after the last session for informal networking over drinks. Want to sponsor this year’s Business Drink? Get in touch with us—we’d love to partner with you!   GET YOUR TICKET AND JOIN US!  Whether you’re a developer, architect, security specialist, or product owner, KEYCONF25 is your opportunity to gain knowledge, grow your network, and contribute to the future of the Keycloak community.  📅 August 28th, 2025  📍 Amsterdam, Netherlands  Tickets are now available at – secure your spot!   WANT TO GET INVOLVED?  Let’s continue building a stronger, smarter IAM community—together.  We can’t wait to see you in Amsterdam!"
+  "date": "2025-07-09T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "We released Quarkus 3.24.3, the second (we skipped 3.24.0) maintenance release for our 3.24 release train.   UPDATE  To update to Quarkus 3.24, we recommend updating to the latest version of the Quarkus CLI and run:  quarkus update  Note that quarkus update can update your applications from any version of Quarkus (including 2.x) to Quarkus 3.24.  For more information about the adjustments you need to make to your applications, please refer to the .   FULL CHANGELOG  You can get the full changelog of on GitHub.   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
