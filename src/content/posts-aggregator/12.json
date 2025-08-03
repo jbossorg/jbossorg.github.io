@@ -1,13 +1,13 @@
 {
-  "title": "Eclipse Vert.x 4.5.15 released!",
-  "link": "https://vertx.io/blog/eclipse-vert-x-4-5-15",
+  "title": "Sunsetting legacy config classes",
+  "link": "https://quarkus.io/blog/legacy-config-classes-sunsetting/",
   "author": [
     {
-      "name": "Julien Viet",
+      "name": "Guillaume Smet",
       "avatar": null
     }
   ],
-  "date": "2025-05-19T00:00:00.000Z",
-  "feed_title": "Vert.x",
-  "content": ""
+  "date": "2025-07-03T00:00:00.000Z",
+  "feed_title": "Quarkus",
+  "content": "After having migrated the whole Quarkus code base and Quarkiverse extensions to @ConfigMapping interfaces in Quarkus 3.19, we announce the sunsetting of legacy config classes.   SOME HISTORY  In 2022, we introduced in Quarkus a new configuration infrastructure for extensions based on interfaces annotated with @ConfigMapping. They were a replacement for the legacy config classes that were used in Quarkus extensions, which came with several issues and were specific to extensions (you couldn’t use them in applications).  The new @ConfigMapping infrastructure unified extension and application configuration on the same infrastructure.  In Quarkus 3.19k, released late February this year, we moved all the core extensions to this new infrastructure (except for some classes that were kept for compatibility purposes) and deprecated the legacy config classes support, together with dropping close to all the existing config classes: we kept a few for compatibility reasons.  The extension annotation processor was also modified to require a specific option -AlegacyConfigRoot=true.  The plan has always been to sunset the legacy config classes so that we could remove all the machinery related to it, and offer a single unified configuration mechanism.   CURRENT STATE  The current state of the public Quarkus ecosystem is the following:   * All the Core extensions are using the new @ConfigMapping-based    infrastructure.   * All the Quarkiverse extensions have been updated to use the new    @ConfigMapping-based infrastructure (except for quarkus-logging-json but we    have a ).   * Some other extensions participating to the Ecosystem CI have also been    updated such as .  We know some of you also develop custom extensions so we highly recommend moving your custom extensions to @ConfigMapping as soon as possible, if not already done.  You can find more information about it in and a ton of examples in the or the .  If you have any questions while migrating, please ask them in , we will be happy to help.   COMING IN 3.25  In 3.25, we will throw an error when the extension annotation processor is used with -AlegacyConfigRoot=true.  It won’t be possible to build an extension containing legacy config classes with Quarkus 3.25 anymore.   COMING IN 3.26  In 3.26, we will remove all support for legacy config classes, meaning they won’t work anymore. If one of the extensions of your application is using any legacy config class, your application won’t build.  Note that since 3.19.4, you get a warning if any of the extensions in your application is using legacy config classes.  We will also drop all the compatibility classes we kept until then:   * GlobalDevServicesConfig: use DevServicesConfig instead   * HttpConfiguration: use VertxHttpConfig instead   * HttpBuildTimeConfig: use VertxHttpBuildTimeConfig instead   FEEDBACK AND QUESTIONS  If you have any feedback or questions regarding this change, please either use or the .   COME JOIN US  We value your feedback a lot so please report bugs, ask for improvements… Let’s build something great together!  If you are a Quarkus user or just curious, don’t be shy and join our welcoming community:   * provide feedback on ;   * craft some code and ;   * discuss with us on and on the ;   * ask your questions on ."
 }
