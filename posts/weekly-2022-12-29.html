@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - December, 29th 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, jakarta ee, wildfly, ansible, keycloak">
+      <h1>This Week in JBoss - December, 29th 2022</h1>
+      <p><em>Happy Holidays!</em></p>
+<p><em>Welcome to our last installment of JBoss Editorial for 2022! As we are about to let this year behind us, it’s time to look back and review our biggest achievement of the past twelve months, but also look ahead to 2023 and what is as in store for the JBoss community!</em></p>
+<p>In the previous years, it was Mark Little who wrote this last editorial, often sharing his thoughts on the JBoss community accomplishments and the exciting challenges of the next year. Needless to say, I have impossible shoes to fill in for here! So, I’m not even trying to :), especially as I certainly don’t have the same overview that Mark has on our industry. Also, I will not list all of the milestones the JBoss community achieve. There were simply too many of them to do so, from <a href="https://quarkus.io/blog/road-to-quarkus-3/">Quarkus reaching its 200th release and its third major version</a>, <a href="https://www.wildfly.org/news/2022/11/09/WildFly27-Final-Released/">Wildfly implementing the latest version of the Jakarta EE specification</a> or <a href="https://octoverse.github.com/2022/state-of-open-source">Keycloak named by GitHub one of the top projects in 2022</a>. The only one I could really discuss is the success of my own personal project, integrating as much as possible the JBoss community famous projects into Ansible (<a href="https://github.com/ansible-middleware/wildfly/">Wildfly</a>, <a href="https://github.com/ansible-middleware/infinispan/">Infinispan</a>, <a href="https://github.com/ansible-middleware/keycloak">Keycloak</a>, and <a href="https://github.com/ansible-middleware/amq">AMQ</a>), both upstream (with the collection available on <a href="https://galaxy.ansible.com/search?deprecated=false&amp;keywords=middleware_automation&amp;order_by=-relevance&amp;page=1">Ansible Galaxy</a>) and downstream (on <a href="https://console.redhat.com/ansible/automation-hub/?page_size=10&amp;view_type=list&amp;page=1&amp;keywords=redhat%20java">Ansible Automation Hub</a> for Red Hat customers). One of those extensions is now even part, as a technical preview feature, of the latest release of <a href="https://developers.redhat.com/articles/2022/12/22/automate-jboss-web-server-deployment-red-hat-certified-content-collection-jws">Red Hat JWS</a>! But, once more, this is only one of the numerous achievements of this year.</p>
+<p>This short inventory of mine is probably as incomplete as it is biased, but it does make my case: yet again, the JBoss community has been thriving, releasing new version often, and producing quality content (blogs, videos or presentation). I, for one, can’t wait to see what will come out of it next year, and if you are too, well, I have good news. You are already in the right place ;)! The JBoss Editorial will continue and will keep you inform, as much as we can, of everything happening!</p>
+<p><em>That’s all folks! Please join us again in two weeks for another installment of our JBoss editorial!</em></p>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

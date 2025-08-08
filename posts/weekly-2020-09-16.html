@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 16 September 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="jgroups, quarkus, infinispan">
+      <h1>This Week in JBoss - 16 September 2020</h1>
+      <p>Welcome to another edition of the JBoss Editorial where we gather news from our communities and explore developments from our projects.</p>
+<p>Our very own Mark Little goes into detail to explain Quarkus and Jakarta EE compatibility. Mark gives an insightful breakdown of the history for both projects and answers a much asked question, will Quarkus and Jarkata EE come together? No spoilers here, though. Go read Mark&#8217;s <a href="https://developers.redhat.com/blog/2020/09/11/quarkus-and-jakarta-ee-together-or-not/">Quarkus and Jakarta EE: Together, or not?</a> if you already haven&#8217;t.</p>
+<p>In the evangelist&#8217;s corner, Eric Schabell has brought out an excellent <a href="https://www.schabell.org/2020/09/beginners-guide-to-decision-management-retail-web-shop.html">hands-on workshop with labs</a> for Red Hat Decision Manager that show you how to design and build a retail web shop from scratch.</p>
+<p>Eric also teams up with Ramon Villarreal to bring you architectural blueprints for <a href="https://www.schabell.org/2020/09/financial-payments-architecture-an-introduction.html">cloud-native financial payment services</a>. The blueprints are focused on proven interactions, messaging, processing, and integration patterns that you can put to use when building a cloud-native payment architecture.</p>
+<p>Leon Matthews continues the topic of all things financial with his analysis of the history of Java in the banking sector and the role Quarkus is playing in allowing banks and financial institutions to embrace change, innovate to remain competitive, and become more efficient. Read Leon&#8217;s post: <a href="https://www.redhat.com/en/blog/25-years-and-going-strong-why-java-matters-future-banks?source=bloglisting">25 years and going strong: Why Java matters to the future of banks</a>.</p>
+<p>Speaking of Quarkus, Clement Escoffier shows you how to build a stream of beer and then retrieve beers in a reactive way. After walking you through how you can do that with Mutiny, Clement provides a gist with all the code that you can compile and execute with jbang and a single command. You can find everything in his <a href="https://quarkus.io/blog/mutiny-pagination/">Handling paginated APIs with Mutiny</a> post.</p>
+<p>Another post from the Quarkus team that is worth reading is Jeff Beck&#8217;s <a href="https://quarkus.io/blog/wipro-customer-story/">Wipro Addresses Seismic Shift in Retail with Quarkus</a>. Jeff shares the Wipro story by describing their needs and challenges and how they adopted Quarkus to modernize their applications and address customer use cases.</p>
+<p>If it hasn&#8217;t crossed your radar, Bela Ban shows us his plans for a <a href="http://belaban.blogspot.com/2020/09/one-size-fits-all-jgroups.html">One Size Fits All JGroups</a> program and explains what is needed to get there.</p>
+<p>Jakub Scholz on the Strimzi team shares a post that looks at using the <a href="https://strimzi.io/blog/2020/09/01/enforce-custom-resource-policies-with-opa-gatekeeper/">Open Policy Agent Gatekeeper project to enforce policies when creating custom resources</a> and demonstrates how this is useful. While the post focuses on Strimzi, Jakub points out how Gatekeeper can be used with other projects so go take a look.</p>
+<p>Releases!!</p>
+<p>Congratulations to the Infinispan team for releasing the Dev03 cut of Infinispan 12. Cross-site replication capabilities continue to advance with an SPI that includes configurable policies for merging conflicting values from asynchronous backups, a feature which guarantees data consistency between global Infinispan clusters. That&#8217;s no small feat of engineering! Find out about that and more over on the <a href="https://infinispan.org/blog/2020/09/08/infinispan-12/">Infinispan blog</a>.</p>
+<p>Quarkus 1.8 is out with some shiny new features, including jbang integration for easy Quarkus-based scripting, support for multiple persistence units for the Hibernate ORM extension, a new Micrometer extension, and update to GraalVM 20.2 for building native apps from Quarkus projects. Here is the <a href="https://quarkus.io/blog/quarkus-1-8-0-final-released/">announcement with all the info</a>.</p>
+<p>Keycloak have announced their new Account Console, built on React and PatternFly 4. The latest version offers a fresher look and feel with custom themes and extensions. Go <a href="https://www.keycloak.org/2020/09/new-account-console.adoc">check it out</a>.</p>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

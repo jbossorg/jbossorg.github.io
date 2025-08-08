@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This week in JBoss - 12th October 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="news, weekly_update, weekly_editorial, decision_manager, process_automation, kafka, camel, kamlets, quarkus, hacktoberfest, infinispan">
+      <h1>This week in JBoss - 12th October 2020</h1>
+      
+    <p class="preamble"><p>Welcome to another edition of the JBoss Editorial where we bring you articles and news from across the JBoss Community of projects</p></p>
+<div class="sect1">
+<h2 id="_creating_a_payments_architecture">Creating a Payments Architecture</h2>
+<div class="sectionbody">
+<p>With Cloud technologies changing the way we architect and deliver software Eric has been taking a look at how these technologies will apply to the Payment Services industry.</p>
+<p>In the next two posts from his Payment Architecture series Eric introduces us to <a href="https://www.schabell.org/2020/10/payments-architecture-anti-money-laundering-example.html">the design of an Anti-Money Laundering solution</a> and follows that with <a href="https://www.schabell.org/2020/10/payments-architecture-fraud-detection-example.html">the design of a Fraud Detection solution</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_codeready_containers_decision_manager_and_process_automation">CodeReady Containers, Decision Manager and Process Automation</h2>
+<div class="sectionbody">
+<p>If you have ever wanted to explore Decision Manager or Process Automation running within the cloud then it has never been easier to get started.  Eric has developed two simple setups, both leveraging CodeReady containers and OpenShift Container Platform 4.5, which allow you to quickly set up <a href="https://www.schabell.org/2020/10/codeready-containers-getting-started-with-ocp-45-and-decision-manager-tooling.html">Decision Manager</a> and <a href="https://www.schabell.org/2020/10/codeready-containers-ocp-45-with-process-automation-tooling.html">Process Automation</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kafka_and_emitters_a_deeper_dive">Kafka and Emitters, a deeper dive</h2>
+<div class="sectionbody">
+<p>Following on from an earlier blog post introducing us to emitters and how they can be used to send messages, Clement has taken a <a href="https://quarkus.io/blog/reactive-messaging-emitter/">deeper look into the Emitter construct and explains how this can be used to bridge between the imperative and reactive worlds</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_optimizing_camel_3_6">Optimizing Camel 3.6</h2>
+<div class="sectionbody">
+<p>Camel 3.6 will bring with it a number of optimizations to the camel core which will improve not only the performance of the core but also reduce the resources required to run camel routes.  For more information <a href="http://www.davsclaus.com/2020/10/apache-camel-36-more-camel-core.html">check out Claus' blog where he describes the changes in more detail</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kamlets_camel_in_the_cloud">Kamlets, Camel in the cloud</h2>
+<div class="sectionbody">
+<p>Apache Camel K 1.2.0 introduced a number of features, the most important of which is the Kamelet.  The Kamelet represents a camel route snippet and encapsulates the logic for connecting to a specific system.  For more information check out <a href="https://www.nicolaferraro.me/2020/10/12/kamelets/">Nicola&#8217;s blog where he introduces you to Kamelets and how they relate to Knative Eventing</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_testing_quarkus">Testing Quarkus</h2>
+<div class="sectionbody">
+<p>Alex Soto and Burr Sutter recently gave a talk about testing Quarkus applications as part of the DevNation Tech Talk series.  The talk covers <a href="https://developers.redhat.com/blog/2020/10/12/quarked-testing-writing-tests-for-quarkus/">how to test basic components as well as more advanced topics such as persistence, service virtualization and using containers for testing</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contributing_to_opensource_communities">Contributing to OpenSource Communities</h2>
+<div class="sectionbody">
+<p>With <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> already under way there are a number of opportunities for contributing to OpenSource, including a number of projects within the JBoss Community with two of those being <a href="https://strimzi.io">Strimzi</a> and <a href="https://quarkus.io/">Quarkus</a>.   If you are interested in <a href="https://strimzi.io/blog/2020/10/01/hacktoberfest/">contributing to Strimzi</a> then check out Paolo&#8217;s post, if interested in <a href="https://quarkus.io/blog/contributing-for-the-first-time/">contributing to Quarkus</a> then check out Loïc&#8217;s post.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_new_releases">New Releases</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The <a href="https://quarkus.io/">Quarkus team</a> have announced the release of <a href="https://quarkus.io/blog/quarkus-1-8-2-final-released/">Quarkus 1.8.2.Final</a> and <a href="https://quarkus.io/blog/quarkus-1-8-3-final-released/">Quarkus 1.8.3.Final</a></p>
+</li>
+<li>
+<p>The <a href="https://infinispan.org/">Infinispan</a> team have announced the release of <a href="https://infinispan.org/blog/2020/09/08/infinispan-12/">Infinispan 12.0.0.Dev03</a></p>
+</li>
+</ul>
+</div>
+<p>That&#8217;s all for this episode of the JBoss Editorial, please join us for our next edition when we will take another spin through the JBoss Community Projects in search of more interesting news and articles.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/kevin-conner.png"></pfe-avatar>
+        <span>Kevin Conner</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

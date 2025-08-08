@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      "@patternfly/pfe-cta@1.0.0-prerelease.56",
+      "/home/runner/work/jbossorg.github.io/jbossorg.github.io"
+    ]
+  ],
+  "_from": "@patternfly/pfe-cta@1.0.0-prerelease.56",
+  "_id": "@patternfly/pfe-cta@1.0.0-prerelease.56",
+  "_inBundle": false,
+  "_integrity": "sha512-tj2el/fjTVTQbd74H35FqkQbcE3HZDCTGRzaBThI1Fd92KywokouybF322Xi/sbQpKqmBhNrDYKfBb4PQQpF7g==",
+  "_location": "/@patternfly/pfe-cta",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@patternfly/pfe-cta@1.0.0-prerelease.56",
+    "name": "@patternfly/pfe-cta",
+    "escapedName": "@patternfly%2fpfe-cta",
+    "scope": "@patternfly",
+    "rawSpec": "1.0.0-prerelease.56",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-prerelease.56"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-cta/-/pfe-cta-1.0.0-prerelease.56.tgz",
+  "_spec": "1.0.0-prerelease.56",
+  "_where": "/home/runner/work/jbossorg.github.io/jbossorg.github.io",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "contributors": [
+    {
+      "name": "Mark Caron",
+      "email": "mark@redhat.com",
+      "url": "https://github.com/markcaron"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfelement": "^1.0.0-prerelease.56"
+  },
+  "description": "Call-to-actions for PatternFly Elements",
+  "devDependencies": {
+    "@patternfly/pfe-sass": "^1.0.0-prerelease.56"
+  },
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.5.0",
+  "gitHead": "efed86135e85925182445801ab89570b3bcec5ca",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-cta.umd.js",
+  "module": "./dist/pfe-cta.js",
+  "name": "@patternfly/pfe-cta",
+  "pfelement": {
+    "className": "PfeCta",
+    "elementName": "pfe-cta"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-cta"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-cta/test/",
+    "watch": "../../node_modules/.bin/gulp watch"
+  },
+  "unpkg": "./dist/pfe-cta.umd.min.js",
+  "version": "1.0.0-prerelease.56"
+}

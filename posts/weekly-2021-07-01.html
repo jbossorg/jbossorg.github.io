@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 01 July 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, DMN, Drools, Wildfly, Infinispan, microservices">
+      <h1>This Week in JBoss - 01 July 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Congrats to all the teams on their hard work!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://infinispan.org/blog/2021/06/29/infinispan-js-client">Inifinispan Node.js Client 0.9.0</a> This was released last week and includes the ability for the Node.js client to connect with different SASL authentication mechanisms.</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-1/">Eclipse Vert.x 4.1.1 released!</a> Mostly bug fixes, but there were a few small features implemented. Check the announcement for more details.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-0-0-final-released/">Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more</a>. Certainly a much anticipated release! Quarkus 2 has been in the works for months and the team is very excited for the release. A number of things have changed, so be sure to read the announcement and migration guide as you work on migrating those Quarkus apps!</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_from_the_community">From the community</h2>
+<div class="sectionbody">
+<p>Karina Varela has a post about <a href="https://developers.redhat.com/articles/2021/06/24/automating-rule-based-services-java-and-kogito">automating rule-based services with Java and Kogito</a> up on the Red Hat Developer Blog. The post focuses on Kogito and using it to build, package, and automate the deployment of those rule-based services on Kubernetes and OpenShift!</p>
+<p>James Falkner quickly tackles <a href="https://developers.redhat.com/articles/2021/07/01/resteasy-reactive-and-more-quarkus-20">RESTEasy Reactive in Quarkus 2.0</a> over on the Red Hat Developer Blog. With the release of Quarkus 2.0 there are a number of things that have improved. Using REST in a reactive way is one of them. Quarkus 2.0 utilizes Eclipse Vert.x 4 and does some optimizations at build time to further increase performance of REST services.</p>
+<p>If you&#8217;re using Red Hat 3scale API Management and have a need to use WebSockets, be sure to check out Srikanth Kalluru&#8217;s <a href="https://developers.redhat.com/articles/2021/07/01/how-expose-websocket-endpoint-using-red-hat-3scale-api-management">blog post</a> for a quick three step walk through of how to get it done!</p>
+<p>Mauro Vocale has a three part series, part four is not out yet, about moving Java programs to the cloud. <a href="https://developers.redhat.com/articles/2021/06/25/making-java-programs-cloud-ready-part-1-incremental-approach-using-jakarta-ee">Part one</a> introduces you to the legacy application and gets it up and running on OpenShift. This gets you familiar with what the application does and what to expect from further refactorings in subsequent posts. In <a href="https://developers.redhat.com/articles/2021/06/28/making-java-programs-cloud-ready-part-2-upgrade-legacy-java-application-jakarta">part two</a> the application will move from Java 8 to Java 11, JBoss EAP 7.3 and Jakarta EE. Lastly, in <a href="https://developers.redhat.com/articles/2021/06/30/making-java-programs-cloud-ready-part-3-integrate-microprofile-services">part three</a> the application will be moved to microservices. Additional monitoring tools will be introduced including Prometheus and Jaeger. The application will be updated for handling restarts, health checks, and other configuration settings.</p>
+<p>Over in the BPM arena, there are three posts to take a look at: <a href="https://blog.kie.org/2021/06/custom-logic-in-bpmn.html">Custom logic in BPMN</a> by Kirill Gaevksii, <a href="https://blog.kie.org/2021/07/how-to-start-contributing-to-drools-executable-model.html">How to start contributing to Drools executable model</a> where Luca Molteni discusses getting your feet with contributing to Drools&#8217;s "Executable Model Compiler". Lastly, Matteo Mortari discusses <a href="https://blog.kie.org/2021/06/intelligent-kafka-message-routing-using-drools-dmn-engine-and-apache-camel.html">using Drools DMN and Apache Camel to intelligently route Kafka messages</a>. It includes a video as well as various examples and code to really sink your teeth into.</p>
+<p>Wildfly 24.0.0.Final includes a preview of Jakarta EE 9.1 features. Jeff Mesnil discusses <a href="https://www.wildfly.org//news/2021/07/01/wildfly-preview-bootable-jar/">how to try these features out using a bootable jar</a>. There&#8217;s also a section about getting up and running using OpenShift!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_developers_on_film">Developers on film</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=JOv1K_wj6Vo">Quarkus Insights #54: Kotlin on Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=WyeaF2pk8Ec">Quarkus Insights #55: Quarkus 2.0 Launch</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=HQHjrf3i91Q">KIE Live #36: How to play with DMN</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=pj8or38w2eQ">KIE Live #37: How to work with dashboards layouts</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

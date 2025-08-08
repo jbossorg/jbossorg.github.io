@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 17 December 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, resteasy, springboot, avro, apicurio">
+      <h1>This Week in JBoss - 17 December 2020</h1>
+      
+    <p class="preamble"><p>Welcome to another installment of our JBoss Editorial and last before the holidays! As always during this period of the year, we all rush to finish our ongoing tasks so that we can enjoy a bit of rest. And the projects of the JBoss community do the same, which means we have quite of lot to discuss today! So, without any further ado&#8230;&#8203;</p></p>
+<div class="sect1">
+<h2 id="_quarkus_and_resteasy_reactive">Quarkus and RestEasy Reactive</h2>
+<div class="sectionbody">
+<p>The last months have certainly been quite active for Quarkus. Now part of the portfolio of <a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-quarkus">Red Hat products</a>, the project has everything but slow down. Just last week a new release, <a href="https://quarkus.io/blog/quarkus-1-10-3-final-released/">Quarkus 1.10.3</a> was published, but also RestEasy announced a large refactoring of its project <a href="https://quarkus.io/blog/resteasy-reactive/">RestEasy Reactive</a> in order to integrate and support Quarkus even more. Alessio Soldano, one of the main developers of RestEasy, also shares his thoughts behind this project <a href="https://resteasy.github.io/2020/12/07/resteasy-reactive/">here</a>.</p>
+<p>But that&#8217;s not all in the Quarkiverse! Andy Damevin released an interesting article on link:But that&#8217;s not all in the Quarkus-verse! Andy Damevin released an interesting article on new ways to discover Quarkus <a href="https://quarkus.io/blog/extension-codestarts-a-new-way-to-learn-and-discover-quarkus/"> new ways to discover Quarkus using Extension codestarts</a>. Whether that you already know Quarkus or want to explore it for the first time, this one will be in any case quite interesting to you! Oh, and by the way Quarkiverse is by no means a "bon mot,” it&#8217;s the real thing: <a href="https://quarkus.io/blog/quarkiverse/">Quarkiverse Hub - Home of Community Extensions</a>, so go check out this article from George Gastaldi to know more about it!</p>
+<p>Last, but certainly not the least, another article will help you <a href="https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0/">migrating your Spring Boot app to Quarkus using the Red Hat migration toolkit</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_apache_avro_and_apicurio_registry">Apache Avro and Apicurio Registry</h2>
+<div class="sectionbody">
+<p>Avro and Apicurio got a lot of attention in the last weeks. First, Clément Escoffier, who already took the time to blog about <a href="">How to Use Kafka, Schema Registry and Avro with Quarkus</a> a few months ago, just released a new article on <a href="https://quarkus.io/blog/avro-native/">Using Avro in a native executable</a>. Hugo Guerrero also took a stab at the topic in his blog entry on <a href="https://developers.redhat.com/blog/2020/12/11/debezium-serialization-with-apache-avro-and-apicurio-registry/">Debezium serialization with Apache Avro and Apicurio Registry</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf'</h2>
+<div class="sectionbody">
+<p>With the end of 2020 coming up soon, it&#8217;s time to clean up our desk and prepare a clean slate for next year. So let&#8217;s do the same with our computer and follow <a href="https://developers.redhat.com/blog/2020/12/10/how-to-clean-up-the-fedora-root-folder/">this how-to to clean up your Fedora</a>!</p>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime.</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

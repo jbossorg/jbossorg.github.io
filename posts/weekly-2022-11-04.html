@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - November, 4 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, infinispan, jakarta ee, wildfly, ansible, camel, kamelets, debezium, drools">
+      <h1>This Week in JBoss - November, 4 2022</h1>
+      
+    <p class="preamble"><p>Happy Friday, everyone!</p>
+<p>Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Here are the most recent releases for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-13-3-final-released/">Quarkus 2.13.3</a> - There is a new maintenance release with a new round of bug fixes and documentation improvements. This is a recommended upgrade since it fixes the <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-42003">CVE-2022-42003</a> Denial of Service (DoS) vulnerability in Jackson.  (Check here the full <a href="https://github.com/quarkusio/quarkus/releases/tag/2.13.3.Final">change log</a></p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/download/">Camel 3.18.0</a> - Apache Camel 3.18.3 it&#8217;s available. This is a new LTS release with 52 new features, improvements and fixes. This release supports Java 11 and 17 and upgrades its BOMs to Spring boot 2.7.5. The artifacts are published and ready for you to download from the Central Maven repository. For more details please take a look at the <a href="https://camel.apache.org/releases/release-3.18.3/">release notes</a></p>
+</li>
+<li>
+<p><a href="https://debezium.io/blog/2022/10/26/debezium-1-9-7-final-released/">Debezium 1.9.7.Final Released</a> - The Debezium is glad to announce the release of Debezium 1.9.7.Final. This release focuses on bug fixes and stability; and is the recommended update for all users from earlier versions. There are no breaking changes in this release. To learn more, check the <a href="https://debezium.io/releases/1.9/release-notes#release-1.9.7-final">release notes</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_drools_8_final_to_infinity_and_beyond">Drools 8 Final - to Infinity and Beyond!</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2022/10/drools-8-final-toward-a-modular-and-cloud-native-rule-engine.html">Drools 8 Final – toward a modular and cloud native rule engine</a>, by Mario Fusco.</p>
+<p>The Drools team is happy to announce that our rule engine reached the new major release 8. In this article, Mario discusses how the engine has been heavily reworked to make it more modular, isolating the non-core features in separated modules that users can optionally bring into their projects only when specifically required.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuring_distributed_timers_in_wildfly">Configuring Distributed Timers in WildFly</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/java-ee/ejb-3/how-to-configure-distributed-ejb-timers/">How to configure distributed EJB Timers</a>, by Francesco Marchioni</p>
+<p>Find out how you can configure Distributed EJB Timers within an Infinispan cache. This feature aims to make your cluster scale horizontally for applications using extensively EJB Timers. Available since WildFly 27.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_ansible_automates_jboss_web_server_updates_and_upgrades">How Ansible automates JBoss Web Server updates and upgrades</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/10/24/ansible-automates-jws-updates-upgrades">How Ansible automates JBoss Web Server updates and upgrades</a>, by
+Romain Pelisse</p>
+<p>It&#8217;s time to automate the deployment of JBoss Web Server in your IT! This article from Romain shows how to use Ansible and the JWS collection to fully automate the deployment, patch and upgrades of your JWS installations.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_camel_textual_route_debugging_in_sublime">Camel Textual Route debugging in Sublime</h2>
+<div class="sectionbody">
+<p><a href="https://camel.apache.org/blog/2022/10/Sublimedap/">Camel Textual Route debugging in Sublime</a>, by Navyashree</p>
+<p>Debugging camel Routes can also be done within Sublime text editor. Just a few days after showing how to add debug support in Emacs, Navyashree teaches us how to attach Camel application to Sublime text editor for debugging.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_kamelets_simplify_camel_integrations_on_kubernetes">How Kamelets simplify Camel integrations on Kubernetes</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/11/01/how-kamelets-simplify-camel-integrations-kubernetes">How Kamelets simplify Camel integrations on Kubernetes</a>, by
+Mohammadi Iram</p>
+<p>Camel K is a lightweight integration framework based on Apache Camel that runs natively on Kubernetes to create serverless and microservice architectures. Learn about the advantages and types of Kamelets configuration files which simplify connections to external systems.</p>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/francesco-marchioni.png"></pfe-avatar>
+        <span>Francesco Marchioni</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

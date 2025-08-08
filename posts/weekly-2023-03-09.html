@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 10th March 2023 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, vertx, ansible, container, kafka">
+      <h1>This Week in JBoss - 10th March 2023</h1>
+      
+    <p class="preamble"><p><em>Welcome to another installment of our JBoss editorial! And without any further ado, let&#8217;s jump right into it.</em></p></p>
+<div class="sect1">
+<h2 id="_releases">Releases</h2>
+<div class="sectionbody">
+<p>As always, the JBoss community has been quite active and released a steady stream of new versions:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.kie.org/2023/02/kogito-1-34-0-released.html">Kogito 1.34.0 released!</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-4-0/">Eclipse Vert.x 4.4.0 released!</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-3-0-0-alpha5-released/">Quarkus 3.0.0.Alpha5</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-16-4-final-released/">Quarkus 2.16.4.Final released</a></p>
+</li>
+<li>
+<p><a href="https://galaxy.ansible.com/middleware_automation/keycloak">Ansible collection for Keyloak 1.1.1 released!</a></p>
+</li>
+<li>
+<p><a href="https://galaxy.ansible.com/middleware_automation/amq_streams">Ansible collection for AMQ Streams (Kafka) 0.0.2 released!</a></p>
+</li>
+<li>
+<p><a href="https://galaxy.ansible.com/middleware_automation/amq">Ansible collection for AMQ 1.3.0 released!</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_vert_x">Vert.x</h2>
+<div class="sectionbody">
+<p>With <a href="https://vertx.io/blog/eclipse-vert-x-4-4-0/">Vert.x 4.4.0 recently released</a>, it&#8217;s a good opportunity to learn <a href="https://vertx.io/blog/whats-new-in-vert-x-4-4/">what&#8217;s new in this version</a>, discover <a href="https://vertx.io/blog/vertx-web-graphql-java-improvements/">Improvements to the GraphQL-Java integration</a> or how to migrate <a href="https://vertx.io/blog/from-vert-x-3-to-vert-x-4/">from Vert.x 3 to 4</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kafka">Kafka</h2>
+<div class="sectionbody">
+<p>If you want to catch up with Kafka, last&#8217;s week <a href="https://developers.redhat.com/blog/2023/03/01/kafka-monthly-digest-february-2023">Kafka Monthly Digest</a> is for you! And you also want to dig further with this article on <a href="https://developers.redhat.com/articles/2023/03/08/configuring-knative-broker-apache-kafka">configuring Knative Broker for Apache Kafka</a> or this <a href="https://developers.redhat.com/articles/2023/02/16/comparison-activemq-and-kafka">comparaison between ActiveMQ and Kafka</a>. Also worth mentioning, we just released an <a href="https://galaxy.ansible.com/middleware_automation/amq_streams:">Ansible collection to automate Kafka deployment using Ansible</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf'</h2>
+<div class="sectionbody">
+<p>Two more article before we end this installment. First, one on <a href="https://developers.redhat.com/articles/2023/03/07/overhauling-memory-tuning-openjdk-containers-updates">Overhauling memory tuning in OpenJDK containers</a>, certainly a topic interesting to anyone deploying Java app inside containers. The second one is from yours truly, it&#8217;s about using Ansible to set up and configure <a href="https://developers.redhat.com/articles/2023/02/20/automate-your-sso-ansible-and-keycloak">your own SSO with Keycloak</a>. I hope you&#8217;ll enjoy it! And that note&#8230;&#8203;</p>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

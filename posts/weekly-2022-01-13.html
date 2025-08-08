@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - January 13th 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, resteasy, camel, reactive, panache, hibernate, event-driven, netty, kubernetes">
+      <h1>This Week in JBoss - January 13th 2022</h1>
+      
+    <p class="preamble"><p>Happy new year, everyone! Welcome to the first JBoss weekly editorial of 2022.
+Enjoy our pick of the latest news and interesting reads from around the JBoss community.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases!</h2>
+<div class="sectionbody">
+<p>Here are the releases from the JBoss Community for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-6-0-final-released/">Quarkus 2.6.0</a></p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/blog/2021/12/camel-quarkus-release-2.6.0/">Camel Quarkus 2.6.0</a></p>
+</li>
+<li>
+<p><a href="https://debezium.io/blog/2021/12/16/debezium-1.8-final-released/">Debezium 1.8.0</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-3-9-12/">Eclipse Vert.x 3.9.12</a> and <a href="https://vertx.io/blog/eclipse-vert-x-4-2-3/">4.2.3</a></p>
+</li>
+<li>
+<p><a href="https://in.relation.to/2022/01/05/hibernate-search-6-0-8-Final/">Hibernate Search 6.0.8</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_articles_books_and_tutorials">Articles, Books, and Tutorials</h2>
+<div class="sectionbody">
+<p>New year, new content! Check out some of the recent articles about Java, Kubernetes, Quarkus, and more&#8230;&#8203;</p>
+<div class="sect2">
+<h3 id="_new_book_reactive_systems_in_java">New Book: Reactive Systems in Java</h3>
+<p><a href="https://www.oreilly.com/library/view/reactive-systems-in/9781492091714/">Reactive Systems in Java</a>, by Clement Escoffier and Ken Finnigan</p>
+<p>In their new book <em>Reactive Systems in Java</em>, Clement Escoffier and Ken Finnigan take an in-depth look at reactive systems design make applications responsive, elastic, and resilient, and
+explore event-driven architectures as a flexible and composable option for designing distributed systems. Full of practical examples, their new book helps developers bring these approaches together when designing applications with Quarkus.</p>
+</div>
+<div class="sect2">
+<h3 id="_simplify_java_persistence_using_quarkus_and_hibernate_reactive">Simplify Java persistence using Quarkus and Hibernate Reactive</h3>
+<p><a href="https://developers.redhat.com/articles/2022/01/06/simplify-java-persistence-using-quarkus-and-hibernate-reactive#">Simplify Java persistence using Quarkus and Hibernate Reactive</a> by Daniel Oh</p>
+<p>Daniel Oh walks you through developing a reactive application with persistent data storage that leverages the benefits of simplified JPA implementation using the new extension for Hibernate Reactive with Panache.</p>
+</div>
+<div class="sect2">
+<h3 id="_getting_started_with_netty">Getting started with Netty</h3>
+<p><a href="http://www.mastertheboss.com/jboss-frameworks/netty/jboss-netty-tutorial/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=jboss-netty-tutorial">Getting started with Netty</a> by Francesco Marchioni</p>
+<p>Francesco&#8217;s tutorial introduces you to Netty a client/server framework that provides a simplified layer over non-blocking I/O networking. The introduction briefly describes the notable features that Netty provides. The first part of the tutorial section explains how you can create a simple echo server. The second part shows you how you can expand it by adding a separate Netty Client with its own Handler, and also demonstrates how to send a String between the client and the server over the event loop.</p>
+</div>
+<div class="sect2">
+<h3 id="_why_you_should_migrate_your_java_workloads_to_openshift">Why you should migrate your Java workloads to OpenShift</h3>
+<p><a href="https://developers.redhat.com/articles/2022/01/07/why-you-should-migrate-your-java-workloads-openshift#">Why you should migrate your Java workloads to OpenShift</a> by Philip Hayes</p>
+<p>In the first part of his two-part post series, Philip Hayes outlines the main benefits of migrating Java workloads to OpenShift and explores a number of tools available from Red Hat and from the Konveyor community project that are designed to help you transitions your Java workloads to the cloud with ease. Stay tuned for part 2 that will take an in-depth look at migrating a JBoss EAP application to OpenShift!</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_use_quarkus_with_the_service_binding_operator">How to use Quarkus with the Service Binding Operator</h3>
+<p><a href="https://developers.redhat.com/articles/2021/12/22/how-use-quarkus-service-binding-operator">How to use Quarkus with the Service Binding Operator</a> by Ioannis Kanellos</p>
+<p>Ioannis Kanellos opens his article with a brief history of service binding solutions for Kubernetes developers and follows it up with a demonstration of a developer workflow centered around binding an external database service to an application in a cloud environment. With plenty of code examples and technical detail, Ioannis walks you through provisioning a database service, writing a Quarkus app for simplified data access with Hibernate with Panache, generating the service binding resources using the Service Binding Operator, and deploying your project to a containerized Kubernetes cluster running on your local machine.</p>
+</div>
+<div class="sect2">
+<h3 id="_videos">Videos</h3>
+<p>Here&#8217;s my pick of this week&#8217;s YouTube videos:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/1_GUWDeQIsc">Drag and Drop your Quarkus Serverless App on the Developer Sandbox</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/1Rt7CPFodbE">Quarkus Insights #75: State of the Quarkus Ecosystem</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/stefan-sitani.png"></pfe-avatar>
+        <span>Stefan Sitani</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "@patternfly/pfe-datetime@1.0.0-prerelease.56",
+      "/home/runner/work/jbossorg.github.io/jbossorg.github.io"
+    ]
+  ],
+  "_from": "@patternfly/pfe-datetime@1.0.0-prerelease.56",
+  "_id": "@patternfly/pfe-datetime@1.0.0-prerelease.56",
+  "_inBundle": false,
+  "_integrity": "sha512-FxaQzRnK/4fl0wnXIJ/PSb7su0i9Fxtw2akduVXHVe4AzQC2CZUMLgj43YgVkZL/8rthwo7aHIUIimRF15ekZA==",
+  "_location": "/@patternfly/pfe-datetime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@patternfly/pfe-datetime@1.0.0-prerelease.56",
+    "name": "@patternfly/pfe-datetime",
+    "escapedName": "@patternfly%2fpfe-datetime",
+    "scope": "@patternfly",
+    "rawSpec": "1.0.0-prerelease.56",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-prerelease.56"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@patternfly/pfe-datetime/-/pfe-datetime-1.0.0-prerelease.56.tgz",
+  "_spec": "1.0.0-prerelease.56",
+  "_where": "/home/runner/work/jbossorg.github.io/jbossorg.github.io",
+  "authors": [
+    {
+      "name": "Luke Dary"
+    },
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "dependencies": {
+    "@patternfly/pfelement": "^1.0.0-prerelease.56"
+  },
+  "description": "Datetime element for PFElements",
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "0.2.8",
+  "gitHead": "efed86135e85925182445801ab89570b3bcec5ca",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "license": "MIT",
+  "main": "./dist/pfe-datetime.umd.js",
+  "module": "./dist/pfe-datetime.js",
+  "name": "@patternfly/pfe-datetime",
+  "pfelement": {
+    "className": "PfeDatetime",
+    "elementName": "pfe-datetime"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-datetime"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-datetime/test/",
+    "watch": "../../node_modules/.bin/gulp watch"
+  },
+  "unpkg": "./dist/pfe-datetime.umd.min.js",
+  "version": "1.0.0-prerelease.56"
+}

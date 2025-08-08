@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - July 28th 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, kubernetes, openshift, dekorate, operators, gitops, security, fabric8, jfr, performance, monitoring, jvm">
+      <h1>This Week in JBoss - July 28th 2022</h1>
+      
+    <p class="preamble"><p>Hello, everyone. Welcome to the latest edition of <em>This Week in JBoss</em>. We are in the middle of summer, but our favorite projects keep coming up with cool new releases, dev tips, and demos. Take a look at the JBoss community content highlights from the past 2 weeks.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases!</h2>
+<div class="sectionbody">
+<p>Here are the releases from the JBoss Community for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://camel.apache.org/blog/2022/07/camel-quarkus-release-2.11.0">Camel Quarkus 2.11.0</a></p>
+</li>
+<li>
+<p><a href="https://debezium.io/releases/2.0/">Debezium 2.0.0 Beta 1</a></p>
+</li>
+<li>
+<p><a href="https://docs.drools.org/7.73.0.Final/drools-docs/html_single/index.html">Drools 7.73.0</a></p>
+</li>
+<li>
+<p><a href="https://blog.marcnuri.com/fabric8-kubernetes-client-6-0-0">Fabric8 Kubernetes Client 6.0.0</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2022/07/keycloak-1901-released">Keycloak 19.0.1</a></p>
+</li>
+<li>
+<p><a href="https://www.optaplanner.org/download/releaseNotes/releaseNotes8.html">OptaPlanner 8.25.0</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-11-1-final-released/">Quarkus 2.11.1 and Quarkus 2.10.4</a></p>
+</li>
+<li>
+<p><a href="https://resteasy.dev/2022/07/21/resteasy-releases/#">RESTEasy 6.0.3, 5.0.4, and 4.7.7</a></p>
+</li>
+<li>
+<p><a href="https://strimzi.io/blog/2022/07/27/what-is-new-in-strimzi-0.30.0/">Strimzi 0.30.0</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/downloads/">WildFly 27 Alpha 3</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_articles_blogs">Articles &amp; Blogs</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_secure_kubernetes_certificates_with_cert_manager_and_dekorate">Secure Kubernetes certificates with cert-manager and Dekorate</h3>
+<p><a href="https://developers.redhat.com/articles/2022/07/19/secure-kubernetes-certificates-cert-manager-and-dekorate">Secure Kubernetes certificates with cert-manager and Dekorate</a> by Jose Carvajal Hilario, Anna-Maria Mihalceanu, and Charles Moulliard.</p>
+<p>Managing SSL certificates for your cloud native apps can sometimes get a little tricky. <a href="https://cert-manager.io/">Cert-manager</a>,  a popular tool for cloud-native certificate management helps makes this task a lot easier. But before they can start using it, developers need to deal with creating custom resources that cert-manager requires. Enter <a href="https://dekorate.io/">Dekorate</a>, the tool that significantly decreases the complexity of managing custom resource for Kubernetes and OpenShift. This walkthrough demonstrates how Dekorate automatically creates cert-manager custom resources from annotations in your code. You can then install these resources in a project on your cluster and use them to secure the REST endpoints of your application with TLS. The article provides rich code examples for every step, and also an example application project based on Spring Boot that you can use to follow along with the walkthrough.</p>
+</div>
+<div class="sect2">
+<h3 id="_new_http_clients_a_java_generator_and_more_in_fabric8_6_0_0">New HTTP clients, a Java generator, and more in Fabric8 6.0.0</h3>
+<p><a href="https://developers.redhat.com/articles/2022/07/15/new-http-clients-java-generator-and-more-fabric8-600">New HTTP clients, a Java generator, and more in Fabric8 6.0.0</a> by Andrea Peruffo and Steven Hawkins</p>
+<p>The Fabric8 Kubernetes client has been making cloud-native development with Java easier for years. After more than five months of intensive work, the release of Fabric8 6.0.0 brings a host of innovative features and capabilities to the core components and utilities in the Fabric8 suite. Steven Hawkins and Andrea Peruffo show off some the coolest features and important bugfixes that the new release has to offer. Check out their article to see the highlights</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_use_java_mission_control_to_monitor_java_apps">How to use Java Mission Control to monitor Java apps</h3>
+<p><a href="http://www.mastertheboss.com/java/how-to-use-java-mission-control-to-monitor-java-apps/">How to use Java Mission Control to monitor Java apps</a> by Francesco Marchioni</p>
+<p>Those of you with an interest in monitoring the performance of your Java apps will find Francesco&#8217;s post especially informative. The article focuses on Java Flight Recorder (JFR), a JVM monitoring tool that also powers the recently released <a href="https://cryostat.io/">Cryostat</a> project. In addition to offering  insights into the JFR user experience compared to competing tools like JConosle and VisualVM (which he covered in earlier articles), Francesco also provides a quickstart guide for spinning up JFR with Java Mission Control to monitor a Wildfly server.</p>
+</div>
+<div class="sect2">
+<h3 id="_saas_security_in_kubernetes_environments_a_layered_approach">SaaS security in Kubernetes environments: A layered approach</h3>
+<p><a href="https://developers.redhat.com/articles/2022/07/27/saas-security-kubernetes-environments-layered-approach#">SaaS security in Kubernetes environments: A layered approach</a> by Alex Kubacki</p>
+<p>In his most recent article, Alex Kubacki analyzes recommended practices for securing software-as-a-service applications. Opening with the argument that if you want to truly secure your applications, you must secure every layer of your application stack (all the way from the hardware to the container network interface), Alex moves on to break down the security concerns specific to each layer. He gives particular attention to the cluster and networking layers, where he highlights the benefits of recently released projects, including Advanced Cluster Security for Kubernetes and the more recent networking security innovations in OpenShift.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_videos">Videos</h2>
+<div class="sectionbody">
+<p>Since we are in middle of vacation season, there isn&#8217;t as much new content coming out as the rest of the year. Still, there is definitely enough to choose from.
+Please enjoy this week&#8217;s video picks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/kdasoBPOWUQ">Quarkus Insights #96: Quarkus Q&amp;A</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/2gdbMtl1tak">Kube by Example Insider #13 with Travis Nielsen</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/1K92tit2uCk">Demo: <em>Encrypting an Elytron Filesystem Realm</em> by Ashpan Raskar</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please stay tuned for the next editorial, stay safe, and enjoy the rest of the vacation season!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/stefan-sitani.png"></pfe-avatar>
+        <span>Stefan Sitani</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 31 May 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, keycloak, kogito, infinispan, camel, jgroups, vert.x">
+      <h1>This Week in JBoss - 31 May 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_hello_again">Hello again</h2>
+<div class="sectionbody">
+<p>To our community and all our readers,</p>
+<p>I&#8217;d like to start this edition with a sincere and frank apology on behalf of the editorial team for the posts we missed in the last month.</p>
+<p>There&#8217;s been a lot of awesome content that our community has shared and multiple project releases packed with useful new features and clever enhancements.
+We&#8217;re long overdue in highlighting and celebrating all the great work that JBoss teams are doing, not to mention all the brilliant work of our evangelists and other contributors.</p>
+<p>It&#8217;s been a busy past few weeks and we&#8217;ve got a lot of great articles and releases to catch up on, so let&#8217;s go.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Let&#8217;s start things off with congrats to all the teams on their hard work!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="http://belaban.blogspot.com/2021/05/jgroups-517-released.html/">JGroups 5.1.7</a> is released. Congrats, Bela!</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-1-13-6-final-released/">Quarkus 1.13.6.Final</a> has shipped, which is the latest in a recent series of updates to version 1.13.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-0-0-cr2-released/">Quarkus 2 CR2</a> is out!</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-CR2-released/">Vert.x 4.1.0.CR2</a> is here, right on the heels of the beta and CR1 releases.</p>
+</li>
+<li>
+<p><a href="https://infinispan.org/blog/2021/05/07/infinispan-12-1-2-final">Infinispan 12.1.2 Final</a> is available for download so go grab it.</p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2021/05/keycloak-1301-released">Keycloak 13.0.1</a> is out!</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/05/kogito-tooling-0-10-0-released.html">Kogito Tooling 0.10.0</a> has launched!</p>
+</li>
+<li>
+<p><a href="http://bytemanblog.blogspot.com/2021/05/byteman-4015-has-been-released.html]">Byteman 4.0.15</a> is now available!</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_2_ama">Quarkus 2 AMA</h2>
+<div class="sectionbody">
+<p>With the recent release of Quarkus CR2, I&#8217;m sure we&#8217;re all anticipating Quarkus 2.0 GA.
+As part of that release, Max and the rest of the Quarkus team are taking questions that they will answer on an episode of Quarkus Insights.
+Use the <code>#quarkusinsights</code> tag to submit a question via social media and tune in to <a href="https://www.youtube.com/watch?v=ETTMBWEBfLY">Quarkus Insights #51: Q &amp; A - Part II</a> on June 2 to hear your questions answered.</p>
+<p>Follow the social media links to post your question to the Quarkus team in their post, <a href="https://quarkus.io/blog/quarkus-insights-qanda2/">About to release Quarkus 2 - ask us anything!</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_from_the_community">From the community</h2>
+<div class="sectionbody">
+<p>Jeff Mesnil has authored a very helpful and detailed look at building and deploying WildFly applications on OpenShift using Helm Charts in his post, <a href="https://www.wildfly.org/news/2021/05/05/helm-charts-for-wildfly/">Helm Chart for WildFly</a></p>
+<p>Over on the Infinispan blog, Ryan Emerson has shared some details about the CLI compiled to a native image in <a href="https://infinispan.org/blog/2021/05/21/infinispan-cli-image">Infinispan Native CLI</a>, which is well worth a read.
+You should also try downloading the latest Infinispan 12 server version and taking it for a spin with the native CLI!</p>
+<p>Another recent one from the Infinispan team comes from Katia Aresti who, along with Ryan Emerson, explains how they <a href="https://developers.redhat.com/articles/2021/05/28/building-real-time-leaderboard-red-hat-data-grid-and-quarkus-hybrid-kubernetes">built a real-time leaderboard using Data Grid and several Quarkus extensions</a> to add some magic to this year&#8217;s Red Hat Summit Keynote.</p>
+<p>Jacopo Rota on the Kogito blog explains how to <a href="https://blog.kie.org/2021/05/getting-started-with-trustyai-in-only-15-minutes.html">how to deploy a Kogito service together with the TrustyAI infrastructure on an OpenShift cluster in only 15 minutes</a>!</p>
+<p>Have you been wanting to find out more about Shenandoah GC? Well, you should dive right in and check out Roman Kennke&#8217;s informative post, <a href="https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing">Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing</a>.</p>
+<p>Bilgin Ibryam has recently posted <a href="http://www.ofbizian.com/2021/05/data-gateways-of-future.html">Data Gateways in the Cloud Native Era</a> that examines how data gateway components support different use cases and offer a solution for hybrid workloads spread across multiple cloud providers.</p>
+<p>Last but certainly not least is Claus Ibsen&#8217;s webinar, <a href="http://www.davsclaus.com/2021/05/webinar-integrate-systems-in-age-of.html">Integrate systems in the age of Quarkus and Camel</a>, that explores how the trio of Camel Quarkus, Camel K, and Kamelets simplify the work to manage and bind systems together.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evangelists_corner">Evangelist&#8217;s corner</h2>
+<div class="sectionbody">
+<p>Eric Schabell never disappoints and his previous series on architectural elements in a real-time stock control solution for retail was no exception.
+Eric rounds that series off nicely with <a href="https://www.schabell.org/2021/05/real-time-stock-control-example-stock-control-architecture.html">Real-time stock control - Example stock control architecture</a>.</p>
+<p>Not one to rest for long, Eric Schabell launches a new series that tackles how to create a framework for accessing retail data from customers, stock, stores, and staff across multiple internal teams.
+I&#8217;m sure it&#8217;s going to be a brilliant series so go have a look for yourself and find out more in his post, <a href="https://www.schabell.org/2021/05/retail-data-framework-architectural-introduction.html">Retail data framework - An architectural introduction</a>.</p>
+<p>I also really enjoyed reading through Christina and Eric&#8217;s <a href="http://wei-meilin.blogspot.com/2021/05/tooling-guide-for-getting-started-with.html">Tooling guide for Getting Started with Apache Camel in 2021</a>.
+It&#8217;s a well put together beginner&#8217;s guide to tools that can help with Camel applications.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_developers_on_film">Developers on film</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/ILl85LLj93w">Quarkus Insights #49: Why I use Quarkus for Cloud Native Apps</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/7JPm1BFcrrk">What is Serverless with Java?</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/jBDmX85IjLM">No YAML! Kubernetes done the easy way</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/szza3DZlKzA">Quarkus DevServices</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

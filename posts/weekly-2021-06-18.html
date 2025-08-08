@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 18 June 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, keycloak, kogito, infinispan, vert.x, java, narayana">
+      <h1>This Week in JBoss - 18 June 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Congrats to all the teams on their hard work!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://www.keycloak.org/2021/06/keycloak-1400-released">Keycloak 14.0.0</a> is released! This release adds Financial-grade API (FAPI) support and lots of improvements.</p>
+</li>
+<li>
+<p><a href="http://bytemanblog.blogspot.com/2021/06/byteman-4016-has-been-released.html">Byteman 4.0.16</a> has shipped and is now the latest version if you&#8217;re running Java version 9 to 17.</p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/06/17/WildFly24-Final-Released/">WildFly 24</a> is here and brings lots of awesome work. There&#8217;s too much to sum up here so click the link and check out the release notes.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-0-0-cr3-released/">Quarkus 2.0.0.CR3</a> is here. Towards 2.0 final!!</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-1-13-7-final-released/">Quarkus 1.13.7.Final</a> is available as a maintenance release.</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-0/">Eclipse Vert.x 4.1.0</a> is available with lots of exciting features. Go download and start using it!</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-3-9-8/">Eclipse Vert.x 3.9.8</a> is also here with numerous bug fixes.</p>
+</li>
+<li>
+<p><a href="https://jbossts.blogspot.com/2021/06/narayana-5120final-released.html">Narayana 5.12.0.Final</a> has been shipped. This version gives several enhancements and fixes some bugs. Go grab it!</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_from_the_community">From the community</h2>
+<div class="sectionbody">
+<p>Katia and Ryan on the Infinispan team released a nice two-part series of posts that explained how they built an online game across data centers and multiple cloud providers for this year&#8217;s Summit keynote demonstration.
+In the first part, <a href="https://developers.redhat.com/articles/2021/05/28/building-real-time-leaderboard-red-hat-data-grid-and-quarkus-hybrid-kubernetes">Building a real-time leaderboard with Infinispan and Quarkus on a hybrid Kubernetes deployment</a>, Katia and Ryan describe how they designed and implemented various services using Infinispan and Quarkus.
+With part two, they explain how using the Infinispan Operator greatly reduced the complexity of standing up their clusters, <a href="https://developers.redhat.com/articles/2021/06/08/create-and-manage-red-hat-data-grid-services-hybrid-cloud">Creating and managing Infinispan services in the hybrid cloud</a>.</p>
+<p>Tommaso Teofili&#8217;s recent post, <a href="https://blog.kie.org/2021/06/autotuning-lime-explanations-with-few-predictions.html">Autotuning LIME explanations with few predictions</a>, outlines how to automatically tune LIME hyperparameters to achieve more stable explanations and comes with a PR that lets you dig into all the technical aspects covered in the post.</p>
+<p><a href="https://blog.kie.org/2021/06/rhpam-connectivity-to-external-amq-configurations-in-openshift.html">RHPAM connectivity to external AMQ configurations in OpenShift</a> by Michael Perez takes an in-depth look at connecting to an external AMQ with the aim of lowering the memory footprint for RHPAM pods as well as other deployment optimizations.
+It&#8217;s an interesting read with good technical considerations to sink your teeth into so go give it a look.</p>
+<p>Over on the WildFly blog, Jeff Mesnil walks us through the process of changing logging levels for cloud-based WildFly applications on the fly.
+Take a look at Jeff&#8217;s script and straightforward commands to help you easily modify logs for debugging in his post, <a href="https://www.wildfly.org/news/2021/06/15/change-log-level-wildfly-cloud/">How to Change Logging Level for WildFly on the Cloud</a>.</p>
+<p>Bilgin Ibryam is back with a post on the Red Hat Developer blog titled <a href="https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes">Application modernization patterns with Apache Kafka, Debezium, and Kubernetes</a>.
+I really enjoyed this one as Bilgin expertly puts application modernization in context and examines different patterns, tools, and open-source ecosystems that can help you migrate brown-field systems to more modern, event-driven services as well as design green-field services that are future proof by providing the ability to evolve over time.
+Be sure to catch up on this one if you haven&#8217;t already read it.</p>
+<p>Just in time for your summer reading list the first book dedicated to Keycloak has been published, <a href="https://www.keycloak.org/2021/06/book.adoc">Keycloak - Identity and Access Management for Modern Applications</a>.
+Congrats to authors Stian Thorgersen and Pedro Igor Silva.
+It&#8217;s an impressive achievement and no doubt the book is full of invaluable expertise.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evangelists_corner">Evangelist&#8217;s corner</h2>
+<div class="sectionbody">
+<p>In our last editorial we mentioned Eric Schabell&#8217;s series on a retail data framework.
+Since then Eric has obviously been hard at work as his next two posts in the series, <a href="https://www.schabell.org/2021/05/retail-data-framework-common-architectural-elements.html">Retail data framework - Common architectural elements</a> and <a href="https://www.schabell.org/2021/06/retail-data-framework-example-data-architecture.html">Retail data framework - Example data architecture</a>.
+If you haven&#8217;t caught up on that series yet, then I highly recommend taking a look to learn about data flows and management in a retail context.</p>
+<p>Eric has also posted the first in his next series, <a href="https://www.schabell.org/2021/05/cloud-adoption-an-architectural-introduction.html">Cloud adoption - An architectural introduction</a>.
+This series is focused on proven integrations, structures, and interactions with the goal of enabling readers to implement and adopt cloud-based solutions using open-source technologies.
+I&#8217;m really excited about this series and can&#8217;t wait to see what Eric brings in his next posts.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_developers_on_film">Developers on film</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some videos from our community.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/ETTMBWEBfLY">Quarkus Insights #51: Answering questions from the community</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/pYhaZYX0kq4">Quarkus Insights #53: Java Memory - why should you care</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/ngXii5sA_nA">Building Kubernetes Native Java with the Quarkus CLI</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

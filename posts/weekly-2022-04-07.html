@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 07 April 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kubernetes, java, infinispan, wildfly, .net core, hot rod, cloud-native, openshift, quarkus camel, apache camel, atlasmap, microservice, events">
+      <h1>This Week in JBoss - 07 April 2022</h1>
+      
+    <p class="preamble"><p>Hi everyone!
+It&#8217;s great to be back and bringing you another edition of the JBoss Editorial.
+As always there&#8217;s a lot of exciting news and updates from JBoss communities so let&#8217;s dive in.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/vscode-quarkus-1.10.0/">Quarkus Tools for Visual Studio Code 1.10.0</a> - Quarkus Tools for Visual Studio Code 1.10.0 is available on the <a href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus">VS Code Marketplace</a> and <a href="https://open-vsx.org/extension/redhat/vscode-quarkus">Open VSX</a>.</p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2022/03/24/WildFly26-1-Beta-Released/">WildFly 26.1 Beta1</a> - WildFly and WildFly Preview 26.1.0.Beta1 releases are available for download.</p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2022/03/29/WildFly-s2i-26-1-Beta1-Released/">WildFly S2I builder and runtime images</a> - S2I images for WildFly 26.1 Beta are on <a href="quay.io/wildfly">quay.io/wildfly</a>.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/04/kogito-1-19-0-released.html">Kogito 1.19.0</a> - Kogito 1.19.0 is now available.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_net_core_client_for_infinispan">.Net core client for Infinispan</h2>
+<div class="sectionbody">
+<p><a href="https://infinispan.org/blog/2022/03/22/dotnetcore-0-0-3-beta">Infinispan .Net Core Client</a>, by Vittorio Rigamonti</p>
+<p>Vittorio Rigamonti has made a beta release of his .Net core client that allows access to remote caches on Infinispan clusters.
+The client provides .Net core applications with the performance benefits of in-memory data storage.
+Combined with the Protobuf data encoding Vittorio&#8217;s client also gives .Net core applications data interoperability with Java applications that can access the same Infinispan caches.
+Using Protobuf with the .Net core client lets you perform remote queries as an added bonus!</p>
+<p>Go check out Vittorio&#8217;s post and use his <a href="https://github.com/infinispan/Infinispan.Hotrod.Core/tree/main/Infinispan.Hotrod.Application">sample application</a> to get started coding.
+While you&#8217;re at it, you might find Vittorio&#8217;s other blog post on <a href="https://infinispan.org/blog/2022/01/21/dotnet-core-query">performing remote queries</a> useful.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_inside_out_event_streaming_with_microservice_architectures">Inside out event streaming with microservice architectures</h2>
+<div class="sectionbody">
+<p><a href="http://www.ofbizian.com/2022/04/turning-microservices-inside-out.html">Turning Microservices Inside-Out</a>, by Bilgin Ibryam</p>
+<p>This excellent read from Bilgin starts with recent ideas about the design of relational databases and their place in the event-driven world of microservice architectures.
+Bilgin makes his point that, rather than replacing relational databases with event streams, the inside out design principle is better applied to the service level.
+Using traditional databases with an event-driven approach allows you to combine the best of both technologies but requires a deliberate focus on APIs.
+From there Bilgin explains the flow of events through outbound and inbound APIs and how a "connecting tissue" such as Debezium can help you effectively bring relational databases into event-driven microservices.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_camel_quarkus_the_swiss_knife_of_integration">Camel Quarkus: the Swiss knife of integration</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/camel-quarkus-effortless-apis/">Riding Camel Quarkus: effortless APIs</a>, by Bruno Meseguer</p>
+<p>Bruno showcases Camel Quarkus in an extensive post that will leave anyone working on service integration how they could live without it.</p>
+<p>Using the OpenAPI specification as an example Bruno explains how to use Camel Quarkus to connect to an HTTP service and transform data in a few effortless steps.
+There&#8217;s a lot to discover in his post and Bruno even walks you through a second iteration of his application in which he reduces the path to integration even further.</p>
+<p>I think by the end Bruno proves his point, that Camel Quarkus really is a Swiss knife for service integration.
+He offers a compelling look at how reducing integration overhead lowers maintenance costs and accelerates development cycles for rapid functionality growth.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quickly_debug_and_profile_mysql_databases">Quickly debug and profile MySQL databases</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/jbossas/jboss-datasource/how-to-trace-jdbc-statements-performance-in-mysql/">How to trace JDBC Statements performance in MySQL</a>, by Francesco Marchioni</p>
+<p>Francesco shows us how to quickly debug and profile SQL statements with Java applications using the MySQL JDBC driver.
+Using the WildFly CLI Francesco adds a JDBC connection to MySQL database in a container in a few simple steps.
+After creating the datasource he demonstrates the <code>hibernate.show_sql</code> option in the application&#8217;s <code>persistence.xml</code>.
+Once that&#8217;s done you can find all sorts of useful information about SQL statements in your logs.
+You&#8217;re all set to debug and tune!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_videos">YouTube videos</h2>
+<div class="sectionbody">
+<p>From unmissable demos to brilliant chat about the latest Java trends, the JBoss community has some great video content for you:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/Y2En5miRKjY">Build &amp; Deploy WildFly Quickstarts on OpenShift</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/2gQO4_7Z5CI">Securing a WildFly application with OpenID Connect on OpenShift</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/22wg8oO9xXM">Quarkus Insights #86: Vaadin &amp; Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/saTxdw-SPGA">Quarkus Insights #85: What&#8217;s new in Quarkus Kafka, REX with Loïc Mathieu</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/W2QPxfEU_bw">Build your first Java Serverless Function using Quarkus Quick start</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_you_next_time">See you next time</h2>
+<div class="sectionbody">
+<p><em>Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

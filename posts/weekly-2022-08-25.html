@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 25 August 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kubernetes, java, jakarta, infinispan, wildfly, cloud-native, openshift, kogito, drools, keycloak">
+      <h1>This Week in JBoss - 25 August 2022</h1>
+      
+    <p class="preamble"><p>Hi everyone!
+It&#8217;s great to be back and bringing you another edition of the JBoss Editorial.
+As always there&#8217;s a lot of exciting news and updates from JBoss communities so let&#8217;s dive in.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-11-3-final-released/">Quarkus 2.11.3.Final released - Fix for CVE-2022-2466 and other bugfixes</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hola_你好_こんにちは_quarkus">Hola, 你好, こんにちは Quarkus</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/l10n-of-quarkusio/">Hola, 你好, こんにちは Quarkus</a>, by Max Rydahl Andersen</p>
+<p>Since the launch of Japanese <a href="http://ja.quarkus.io/">ja.quarkus.io</a>, we got contributors translating the website into (simplified) Chinese at <a href="http://cn.quarkus.io">cn.quarkus.io</a> and recently we added Spanish at <a href="http://es.quarkus.io">es.quarkus.io</a> too. These sites are now accessible via the drop-down "globe" menu in the top-right corner.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_using_rhosak_from_wildfly">Using RHOSAK from WildFly</h2>
+<div class="sectionbody">
+<p><a href="https://www.wildfly.org/news/2022/08/19/RHOSAK/">Using RHOSAK from WildFly</a>, by Kabir Khan</p>
+<p>In this post Kabir shows how to write a simple application which sends and receives messages to/from a Kafka instance using <strong>RHOSAK</strong>. RHOSAK - Red Hat OpenShift Streams for Apache Kafka, is a cloud service hosted by Red Hat which makes setting up, managing, and scaling Apache Kafka instances very easy</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_started_with_atlasmap">Getting started with AtlasMap</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/java/getting-started-with-atlasmap/">Getting started with AtlasMap</a>, by Francesco Marchioni</p>
+<p>In this article, Francesco shows the basics of the AtlasMap data mapping solution. He also covers the basic set up of the Web UI and how to use it to create a minimal mapping file. Finally, he discusses two simple ways to use AtlasMap in your Java projects.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_optimize_loops_with_long_variables_in_java">Optimize loops with long variables in Java</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/08/25/optimize-loops-long-variables-java#why_optimization_was_added_for_long_variables">Optimize loops with long variables in Java</a>, by Roland Westrelin</p>
+<p>The just-in-time (JIT) compiler in OpenJDK improves Java performance through a number of optimizations, particularly in loops. Until recently, many optimizations worked only when the loop index was an int variable. In this article, Roland shows how the HotSpot virtual machine was upgraded to add the same optimizations for long variables.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_a_dmn_feel_handbook">A DMN FEEL HANDBOOK</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2022/08/a-dmn-feel-handbook.html">A DMN FEEL handbook</a>, by Matteo Mortari</p>
+<p>In this announcement, Matteo introduces an (experimental) DMN FEEL handbook, a helpful companion for your DMN modeling activities! You can access the FEEL handbook at <a href="https://kiegroup.github.io/dmn-feel-handbook/#dmn-feel-handbook">DMN FEEL handbook</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_videos">YouTube videos</h2>
+<div class="sectionbody">
+<p>From unmissable demos to brilliant chat about the latest Java trends, the JBoss community has some great video content for you:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=lLyVDqVK8cE">Quarkus Insights #99: Using Quarkus CodeStarts</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=7Q34Za79g18">Kubernetes Master Class - Avoiding configuration drift with Argo CD</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_you_next_time">See you next time</h2>
+<div class="sectionbody">
+<p><em>Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/pedro-silva.png"></pfe-avatar>
+        <span>Pedro Silva</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 23 September 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, openjdk, ansible, java">
+      <h1>This Week in JBoss - 23 September 2021</h1>
+      
+    <p class="preamble"><p>Welcome to yet another installment of the JBoss Editorial! September is coming to an end, but it has been a pretty busy month for the JBoss community.</p></p>
+<div class="sect1">
+<h2 id="_quarkus">Quarkus</h2>
+<div class="sectionbody">
+<p>Quarkus has really come a long way since the first release only a few years ago. A testament to the fact is certainly the compelling user stories released by the project&#8217;s team in the last weeks. First, we have <a href="https://quarkus.io/blog/logicdrop-customer-story/">How Quarkus Improved Logicdrop’s Developer Experience and Process</a>, followed by <a href="https://quarkus.io/blog/adoptium-customer-story/">Eclipse Adoptium Uses Quarkus for high volume Java SE distribution API</a>. And we even have a nice retail business use case, with <a href="https://quarkus.io/blog/decathlon-user-story/">VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus</a>!</p>
+<p>So, if you have yet to jump onboard the Quarkus train, it&#8217;s really time to do so! And, to help you do it, you can check out this nice tutorial on <a href="https://developers.redhat.com/articles/2021/09/20/quarkus-spring-developers-getting-started">Quarkus for Spring developers: Getting started</a>. Once you are hooked by Quarkus, go check out the <a href="https://quarkus.io/newsletter/12/">Quarkus Newsletter #12</a>!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_kogito_never_stops">Kogito never stops!</h2>
+<div class="sectionbody">
+<p>Kogito and its ecosystem have been quite active lately. In the last two weeks, five different articles have been released, each covering very different aspects of the project:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://blog.kie.org/2021/09/automatic-connections-with-line-splicing.html">Automatic connections with Line Splicing</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/09/an-object-model-marshaller-for-all-occasions.html">An object model marshaller for all occasions</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/09/manage-processes-and-tasks-using-kogito-consoles.html">Manage Processes and Tasks using Kogito consoles</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/09/new-dmn-boxed-expression-editor-what-is-new.html">New DMN Boxed Expression Editor – What’s new?</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/09/kogito-process-eventing-add-ons.html">Kogito Process Eventing Add-ons</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_openjdk_and_gc_pauses">OpenJDK and GC pauses</h2>
+<div class="sectionbody">
+<p>After all this Quarkus and Kogito action, if you are still looking for even more technical nitty, gritty details, you should certainly check out this article on <a href="https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses#thread_processing_in_java">Shenandoah in OpenJDK 17: Sub-millisecond GC pauses</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>As always, projects of the JBoss community have been quite active and released a few exciting new versions, including a beta of Wildlfy&#8217;s next major version!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://www.wildfly.org//news/2021/09/20/WildFly25-Beta-Released/">Wildfly 25 Beta released!</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-4/">Eclipse Vert.x 4.1.4 released!</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/09/kogito-1-11-0-released.html">Kogito 1.11.0 released!</a></p>
+</li>
+<li>
+<p>Ansible collection for Apache Tomcat (JWS) and Wildfly (EAP)</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/ansible-middleware/jws-ansible-playbook">JWS Collection v0.0.2</a></p>
+</li>
+<li>
+<p><a href="https://github.com/ansible-middleware/ansible_collections_jcliff">Ansible Cliff Collection v0.0.10</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf_ansible_for_jboss_middleware">Decaf' - Ansible for JBoss middleware</h2>
+<div class="sectionbody">
+<p>In the past months, we&#8217;ve been doing some hard work to ensure that JBoss software can fit as neatly as possible within an Ansible playbook. There is a still a lot to be done, but we are already quite proud of to two Ansible collections we have released. The first one is called, JCliff, but will soon be renamed to WildFly, as it aims to integrate, as smoothly as possible, the app server into Ansible. The latest version (v.0.0.10) has already a few exciting features:
+* systemd integration, a reusable role to help set up WildFly as a systemd service
+* a reusable role to install JDBC driver and their module
+* and, of course, more fine-tuning of WildFly&#8217;s subsystem thanks to the JCLiff (embedded in the collection) which allows Ansible to configure mod_cluster, sockets, JMS queues and so many other features.</p>
+<p>We are also very happy about the release of JWS Collection for Ansible (v0.0.2), which allows us to quickly set up Apache Tomcat or its counterpart, JBoss Web Server, but also provides some nice features, like integration with systemd and common criteria (partial) compliance checking. Please check our blog entry about this <a href="https://developers.redhat.com/articles/2021/08/30/automate-red-hat-jboss-web-server-deployments-ansible">Ansible collection for Apache Tomcat / JWS</a> for more details!</p>
+<p>(Given that those are projects I work on, I fully assume that this entry is a shameless plug :) )</p>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime.</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 08 October 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kogito, infinispan, vert.x, java, wildfly, elytron, jbang">
+      <h1>This Week in JBoss - 08 October 2021</h1>
+      
+    <p class="preamble"><p>Hello! Welcome to another edition of the JBoss Editorial that brings you news and updates from our community.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Congrats on all the releases and great work from the community!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-3-0-final-released/">Quarkus 2.3.0.Final</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-1-5/">Eclipse Vert.x 4.1.5</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/blog/2021/09/23/infinispan-13-cr1">Infinispan 13.0.0.CR1</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly_25">WildFly 25</h2>
+<div class="sectionbody">
+<p><a href="https://www.wildfly.org//news/2021/10/05/WildFly25-Final-Released/">WildFly 25 is released!</a>, by Brian Stansberry</p>
+<p>It feels appropriate to call special attention to Brian&#8217;s release announcement of WildFly 15.
+The entire team has done great work and Brian goes into detail about all the new features, including finishing the migration to Elytron-based security and Java SE 17 support.
+Congrats to the WildFly community on another fantastic milestone!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_elytron_hacktoberfest">Elytron Hacktoberfest</h2>
+<div class="sectionbody">
+<p><a href="https://wildfly-security.github.io/wildfly-elytron/blog/hacktoberfest-has-begun/">Hacktoberfest Has Begun</a>, by Farah Juma</p>
+<p>Calling all hackers!!
+WildFly Elytron is participating in this year&#8217;s Hacktoberfest.
+Check out Farah&#8217;s post to register and contribute to Elytron, Elytron Web, or WildFly OpenSSL repositories.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_run_decision_manager_with_podman">Run Decision Manager with Podman</h2>
+<div class="sectionbody">
+<p><a href="https://www.schabell.org/2021/10/beginners-guide-to-rhdm-local-conainter-podman.html.html">Beginners Guide to Installing Decision Management Tooling in a Local Container using Podman</a>, by Eric Schabell</p>
+<p>Eric&#8217;s step-by-step tutorial taught me how to quickly set up a running instance of Decision Manager in a local container.
+I really enjoyed the tutorial and would recommend as a great way to introduce yourself to the world of process automation.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_authenticating_to_business_central_with_ssh_keys">Authenticating to Business Central with SSH keys</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2021/10/business-central-ssh-key-based-authentication.html">Business Central SSH Key-Based Authentication</a>, by Eder Ignatowicz</p>
+<p>This brief article shows you how easy it is to configure authentication with Business Central using SSH keys.
+At the end, Eder also combines JBang with JGit in a nifty way to use a different SSH keys and provides you with the code.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_insights">Quarkus Insights</h2>
+<div class="sectionbody">
+<p>Get your popcorn ready and sit back to watch some Quarkus insights.
+Here are my top picks for this week&#8217;s editorial:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/2cHX8HT7Z6A">Quarkus Insights #66: SNCF migration from WildFly to Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/efPuzK2YM4I">Quarkus Insights #65: Boost Business Automation Productivity with Quarkus Dev UI</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

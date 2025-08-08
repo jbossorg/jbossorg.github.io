@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This week in JBoss - 20th November 2020 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="news, weekly_update, weekly_editorial, wildfly, quarkus, jcliff, ansible, jca, jpa, jakarta-ee, openid, 3scale, event-driven, Camel-K, aws, kafka, camel, apicurio">
+      <h1>This week in JBoss - 20th November 2020</h1>
+      
+    <p class="preamble"><p><em>Welcome to another installment of our JBoss Editorial! Today, we&#8217;ll focus on some core project of our community. The first one is obviously Wildfly, our Jakarta EE application server whom predecessor (JBoss AS) was the beginning of everything. The second one is our more recent and shiny project, Quarkus. Without any further ado, let&#8217;s begin!</em></p></p>
+<div class="sect1">
+<h2 id="_wildfly_a_first_taste_of_jakarta_9">Wildfly, a first Taste of Jakarta 9</h2>
+<div class="sectionbody">
+<p>With the release of the <a href="https://wildfly.org//news/2020/11/19/WildFly2101-Released/">Wildfly 21.01</a>, it&#8217;s time to put the Jakarta EE server back in the spotlight. Especially as this release gives a <a href="https://www.wildfly.org//news/2020/11/12/Jakarta-EE-9-with-WildFly-Preview/">a preview of Jakarta EE 9</a>! And if your knowledge of the EE standards needs a refresher to fully enjoy this preview, we got you covered with this in depth two-part series on <a href="https://developers.redhat.com/blog/2020/06/15/jakarta-ee-multitenancy-with-jpa-on-wildfly-part-1/">Jakarta EE multitenancy (part1)</a> and <a href="https://developers.redhat.com/blog/2020/11/12/jakarta-ee-multitenancy-with-jpa-on-wildfly-part-2/">(part 2)</a>.</p>
+<p>But Jakarta EE 9 is not the only newsworthy item around Wildfly. The first part of my own series on <a href="https://developers.redhat.com/blog/2020/11/06/wildfly-server-configuration-with-ansible-collection-for-jcliff-part-1/">automation of Wildfly using Ansible and JCliff</a> is out! It&#8217;s hand on a tutorial on how to set up Ansible and its decided collection for Wildfly (<a href="https://github.com/wildfly-extras/ansible_collections_jcliff">JCliff</a>) in order to fully automate the app server set up and configuration.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_leading_the_future_of_java">Quarkus, Leading the Future of Java</h2>
+<div class="sectionbody">
+<p>It might a bold statement, but we&#8217;ve made it! Or rather Red Hat made it as Quarkus 1.7 is available as a product for a little while now. Maybe it&#8217;s time to finally take a look at it by following this <a href="https://developers.redhat.com/blog/2020/11/10/leading-the-future-of-java-with-the-red-hat-build-of-quarkus-1-7/">Red Hat Quarkus tutorial</a>?</p>
+<p>This is also a perfect opportunity to explore Quarkus functionality and ecosystems. For instance, take a look at this interesting post on <a href="https://quarkus.io/blog/mutiny-invoke-and-call/">mutiny invoke and call</a>. Or simply explore the cloud readiness of the framework with this article on <a href="https://developers.redhat.com/blog/2020/11/13/how-i-built-a-serverless-blog-search-with-java-quarkus-and-aws-lambda/">building a serverless blog search with Quarkus and AWS lambda</a> and this <a href="https://www.redhat.com/en/blog/introducing-quarkus-red-hat-openshift?sc_cid=701f2000000tyBjAAI">introduction to Quarkus on Red Hat Openshift</a>?</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_techbytes">Techbytes</h2>
+<div class="sectionbody">
+<p>If Quarkus and Wildfly did not quench your thirst for knowledge, let us give you a bit more nuggets. First, why not explore the topic of <a href="https://developers.redhat.com/blog/2020/11/09/openid-connect-integration-with-red-hat-3scale-api-management-and-okta/">using OpenID connect integration with 3scale</a>? Or maybe <a href="http://wei-meilin.blogspot.com/2020/11/contract-first-development-event-driven.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+blogspot%2FhFXzh+%28Christina+%E7%9A%84+J%E8%80%81%E9%97%86%29">contract first development using an event-driven approach with Kafka, AMQ Streams, APIcurio</a>? And to make it extra spicy, Christina has even a added a touch of Google protobuf! By the way, if "event driven" is your thing, you can then move this other article on <a href="https://developers.redhat.com/blog/2020/11/17/event-driven-serverless-applications-with-camel-k/">event driven serverless with Camel K</a>.</p>
+<p>Still hungry for more? Well, maybe it&#8217;s time for less crunchy and technical details? What about stepping back and invite some reflection on <a href="http://www.ofbizian.com/2020/11/open-source-monetization-ecosystem.html">Open Source monetization ecosystem</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases&#8230;&#8203;</h2>
+<div class="sectionbody">
+<p>In case you somehow missed above (most likely by jumping directly to this section) &#8230;&#8203; <a href="https://wildfly.org//news/2020/11/19/WildFly2101-Released/">Wildlfy 21 Alpha 1 has been released</a>!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decaf">Decaf</h2>
+<div class="sectionbody">
+<p>All this Java made you too jittery? Time for a Java break? Here are a few dry cookies to go along your cup of joe. As mentioned above, the first part of my series on using [Ansible to automate Wildfly setup] might a nice palate cleanser. Also, if you are using Docker you might be interested in this article describing how to <a href="https://developers.redhat.com/blog/2020/11/19/transitioning-from-docker-to-podman/">transitioning from Docker to Podman</a>.</p>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another installment of our JBoss editorial! Stay safe and healthy in the meantime.</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

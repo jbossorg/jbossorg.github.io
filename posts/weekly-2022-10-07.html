@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 07 October 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, jakarta, infinispan, wildfly, cloud-native, kogito, drools, keycloak, dmn, persistence">
+      <h1>This Week in JBoss - 07 October 2022</h1>
+      
+    <p class="preamble"><p>Hi everyone!
+It&#8217;s great to be back and bringing you another edition of the JBoss Editorial.
+As always there&#8217;s a lot of exciting news and updates from JBoss communities, so let&#8217;s dive in.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://infinispan.org/blog/2022/09/29/infinispan-14">Infinispan 14.0.0.Final</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-3-4/">Eclipse Vert.x 4.3.4</a></p>
+</li>
+<li>
+<p><a href="https://resteasy.dev/2022/09/23/resteasy-6.2.0.Final-release/">RESTEasy 6.2.0.Final</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-13-0-final-released/">Quarkus 2.13.0.Final</a> and <a href="https://quarkus.io/blog/quarkus-2-13-1-final-released/">Quarkus 2.13.1.Final</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org/news/2022/09/29/WildFly26-Beta-Released/">WildFly 27 Beta</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2022/10/keycloak-1903-released">Keycloak 19.0.3</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_the_flying_saucer_release_is_here">The Flying Saucer release is here</h2>
+<div class="sectionbody">
+<p><a href="https://infinispan.org/blog/2022/09/29/infinispan-14">Infinispan 14 Final release announcement</a>, by Tristan Tarrant</p>
+<p>UFOs, beer, a RESP endpoint, FIPs support for remote caches, a wizard that makes creating complex cache configuration a breeze, what&#8217;s not to love?
+From Tristan&#8217;s release announcement it certainly sounds like there are a lot of great new features and capabilities to help establish the Infinispan project as the default choice for open-source, in-memory caching.
+Congrats again to the Infinispan team on all the amazing work!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jakarta_mvc_in_a_nutshell">Jakarta MVC in a nutshell</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-mvc-made-simple/">Jakarta MVC made simple</a>, by Francesco Marchioni</p>
+<p>Francesco provides a crisp introduction to the Model-View-Controller (MVC) framework for building HTTP applications and delves into where the MVC API sits within the Jakarta ecosystem.
+In his post, Francesco provides code samples for an MVC app that show how to perform standard operations.</p>
+<p>It&#8217;s a solid resource for anyone interested in the MVC pattern.
+Francesco even provides his <a href="https://github.com/fmarchioni/mastertheboss/tree/master/web/ee-mvc-demo">ee-mvc-demo</a> source to play around with.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_rounding_up_jakarta_persistence_3_1">Rounding up Jakarta Persistence 3.1</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/java-ee/jakarta-ee/jakarta-persistence-3-1-new-features/">Jakarta Persistence 3.1 new features</a>, by Francesco Marchioni</p>
+<p>In another blog post, Francesco takes us on a tour of Jakarta Persistence 3.1.
+Using the Jakarta EE 10 runtime and the WildFly 27 Preview release, Francesco shows us how to use <code>java.util.UUID</code> to automatically generate a Primary Key and other cool JPQL functions.
+Francesco shows us how to extract the numeric parts from a given date and do some other interesting Math, Date, and Time functions.</p>
+<p>Once again, Francesco provides his source for us to try out.
+You can find it in the <a href="https://github.com/fmarchioni/mastertheboss/tree/master/jpa/uuid-demo">uuid-demo</a> repository.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_troubleshooting_drools_memory_issues">Troubleshooting Drools memory issues</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2022/09/drools-trouble-shooting-memory-issues.html">Drools trouble-shooting: Memory issues</a>, by Toshiya Kobayashi</p>
+<p>Toshiya runs down memory issues frequently encountered in Drools troubleshooting.
+Dividing them into three categories - long-term memory leaks, OOM errors when building rules, and OOM errors executing KieSession - Toshiya expertly explains how to solve each memory issue.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_comparing_choices_in_dmn_modeling">Comparing Choices in DMN Modeling</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2022/10/comparing-choices-in-modeling-dmn.html">Comparing Choices in DMN Modeling</a>, by Eder Ignatowicz</p>
+<p>Eder highlights a recent comparative analysis, by Keith Swenson, of TrisoTech DMN Modeler, Camunda, Red Hat Drools Workbench, and KIE Sandbox.
+I think it&#8217;s worth reading Eder&#8217;s post for yourself.
+Should you need convincing, I offer this snippet from Keith&#8217;s feedback on KIE tools:</p>
+<p>"&#8230;&#8203; if you want practical experience with DMN models and running the models, go right to KIE Sandbox. It works."</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_videos">YouTube videos</h2>
+<div class="sectionbody">
+<p>Be sure to check out <a href="https://youtu.be/MQR1SLJVpgM">Quarkus Insights #103: Debezium and Quarkus, A Match Made in Heaven?</a> if you haven&#8217;t already.</p>
+<p>And don&#8217;t forget to tune in on <strong>October 17</strong> for <a href="https://youtu.be/-gyJ6JoHxlc">Quarkus Insights #105: Discover the new Quarkus Redis API</a></p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_see_you_next_time">See you next time</h2>
+<div class="sectionbody">
+<p><em>Hope you enjoyed this edition. Please join us again in two weeks for our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/don-naro.png"></pfe-avatar>
+        <span>Don Naro</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - June 30th 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, kubernetes, openshift, security, xss, golang, go, javascript, graphql">
+      <h1>This Week in JBoss - June 30th 2022</h1>
+      
+    <p class="preamble"><p>Hello and welcome to JBoss Editorial June 30th edition! We are nearing the end of the second week of summer, and most of us are already looking forward to our vacation plans.
+And while for some the next 2 months will be a time to relax, slow down, and take things a little easy, progress and innovation never really stop!
+So for those of you interested in the latest and the greatest that your favorite project have to offer, here are this week&#8217;s highlights from around the JBoss community.</p></p>
+<div class="sect1">
+<h2 id="_releases_releases_releases">Releases, releases, releases!</h2>
+<div class="sectionbody">
+<p>Here are the releases from the JBoss Community for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://camel.apache.org/blog/2022/06/camel-quarkus-release-2.10.0/">Camel Quarkus 2.10.0</a></p>
+</li>
+<li>
+<p><a href="https://debezium.io/blog/2022/06/21/debezium-1-9-4-final-released/">Debezium 1.9.4.Final</a></p>
+</li>
+<li>
+<p><a href="https://www.keycloak.org/2022/06/keycloak-1802-released">Keycloak 18.0.2</a></p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2022/06/kogito-1-23-0-released.html">Kogito 1.23.0</a></p>
+</li>
+<li>
+<p><a href="https://github.com/smallrye/smallrye-mutiny/releases/tag/1.6.0">Mutiny 1.6.0</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-10-0-final-released/">Quarkus 2.10.0</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_articles_blogs">Articles &amp; Blogs</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_how_to_convert_a_web_application_to_software_as_a_service">How to convert a web application to Software-as-a-Service</h3>
+<p><a href="https://developers.redhat.com/articles/2022/06/16/how-convert-web-application-software-service#">How to convert a web application to Software-as-a-Service</a> by Bob Reselman</p>
+<p>Bob Reselman delves into the "brownfield" approach to redeveloping your web application into a SaaS platform.
+Starting off with a well-laid out example business scenario, Bob walks you through the key steps of the process from analyzing your business logic patterns, separating configuration from code, picking an appropriate service architecture, to leveraging the benefits offered by containerization and Kubernetes to ensure that you&#8217;ll always be able to scale your services to match the growth of your business.</p>
+</div>
+<div class="sect2">
+<h3 id="_multi_cloud_storage_strategies_for_saas_applications">Multi-cloud storage strategies for SaaS applications</h3>
+<p><a href="https://developers.redhat.com/articles/2022/06/23/multi-cloud-storage-strategies-saas-applications#">Multi-cloud storage strategies for SaaS applications</a> by Michael Hrivnak</p>
+<p>In the fourth entry to the ongoing <a href="https://developers.redhat.com/articles/2022/05/18/saas-architecture-checklist-kubernetes"><em>SaaS architecture checklist</em></a> blog series Michael Hrivnak compares software-defined storage (SDS) technologies that help developers create optimized data storage solutions for use in multi-tenant cloud environments.
+The first part of Michael&#8217;s article deals with the broader technical consideration of how SDS can help developers minimize platform-specific development work, followed by an overview of Red Hat&#8217;s current cloud storage technology offerings. In the latter section, Michael provides some insight into combining these offerings to create solutions that provide customers with self-scaling, self-managed, low-latency data storage capabilities.</p>
+</div>
+<div class="sect2">
+<h3 id="_cross_site_scripting_explanation_and_prevention_with_go">Cross-site scripting: Explanation and prevention with Go</h3>
+<p><a href="https://developers.redhat.com/articles/2022/06/28/cross-site-scripting-explanation-and-prevention-go#">Cross-site scripting: Explanation and prevention with Go</a> by Sandipan Roy</p>
+<p>Cross-site scripting (XSS) attacks have recently become a topic of interest among application security experts in the cloud native developer community. In his tutorial, Sandipan breaks down the mechanism of executing an XSS attack using malicious JavaScript elements and follows up by outlining 3 strategies for coding in Go that you can use to protect your applications against different types of XSS attacks (Sandipan mentions Stored, Reflected and DOM-based XSS attacks).
+The tutorial is richly supplemented by code examples and plenty of additional information context.
+Even though this article is a little outside our usual focus area, it is definitely worth a read, especially for those of you interested in buffing up your application security knowledge.</p>
+</div>
+<div class="sect2">
+<h3 id="_how_to_build_graphql_applications_with_quarkus">How to build GraphQL applications with Quarkus</h3>
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/how-to-build-graphql-applications-with-quarkus/">How to build GraphQL applications with Quarkus</a> by Francesco Marchioni</p>
+<p>In a follow-up to his <a href="http://www.mastertheboss.com/eclipse/eclipse-microservices/getting-started-with-graphql-using-java-applications/">earlier article</a> about GraphQL on WildFly, Francesco is back with another tutorial, this time about GraphQL and Quarkus.
+The article opens with a brief discussion of the advantages that GraphQL&#8217;s schema based data access model has over REST APIs. Francesco  then moves on to showing how you can use <a href="https://code.quarkus.io">code.quarkus.io</a> to create a Quarkus application that supports GraphQL using the MicroProfile-compliant SmallRye GraphQL extensions. The test of the tutorial is a step-by-step guide to writing the service class of the application and a GraphQL API class that handles the Query and Mutation operations supported by GraphQL. At this point, Francesco offers a bit of comparison between the different ways that data access operations work in GraphQL as opposed to REST.
+The tutorial ends with sections detailing how you can test your applications using either the GraphQL UI provided by the extension, or the SmallRye MicroProfile GraphQL client API.
+In a manner typical of most of Francesco&#8217;s tutorials, this one also contains a link to a repository with the code for this example project.
+And those of you interested in learning more about GraphQL in Quarkus, check out <em>Quarkus Insights</em> episode #93. You can find the link to it in the <em>Videos</em> section of this week&#8217;s editorial.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_videos">Videos</h2>
+<div class="sectionbody">
+<p>This week there was plenty of fresh content to choose from, so please enjoy some of my top video picks:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://youtu.be/qqztCp5Bvbg">Quarkus Insights #94: Scientific Games meets Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/PHWOzzusfrY">Quarkus Insights #93: The Latest with GraphQL and Quarkus</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/w5SBQpAQ8m8">Using Minecraft as an Observability Client: A demo by Holly Cummins</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/00g-gBIYpsU">Quinoa: A modern Quarkus UI with no hassles: DevNation talk by Andy Damevin</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/LhTR_ECSaAo">Debugging natively compiled Java code with NativeJDB: A demo by Ansu Varghese</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/4HI8bVd8JFc">JNation.PT 2022: All Quarkus Track Sessions Recorded</a></p>
+</li>
+</ul>
+</div>
+<p><em>That&#8217;s all for today! Please join us again in two weeks for another round of our JBoss editorial! Stay safe and enjoy your summer vacation!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/stefan-sitani.png"></pfe-avatar>
+        <span>Stefan Sitani</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

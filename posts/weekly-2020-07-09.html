@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 9 July 2020: Over the (j)cliff! - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, editorial, infinispan, jgroups, netty, codeready, serverless, microservice, ansible, jcliff, widlfy, eap, eap-xp, microprofile">
+      <h1>This Week in JBoss - 9 July 2020: Over the (j)cliff!</h1>
+      
+    <p class="preamble"><p>Welcome to another installment of our JBoss Editorial! Summer has begun, well, at least for those of you readers living in the northern hemisphere :)! So let’s enjoy it by giving some nice, interesting and exciting reading material to enjoy while resting in the sun (with your mask, #staysafe!).</p></p>
+<div class="sect1">
+<h2 id="_infinispan_11">Infinispan 11!</h2>
+<div class="sectionbody">
+<p>It’s out! The new major version of Infinispan is here! Please go and check out <a href="https://infinispan.org/blog/2020/07/03/infinispan-11/">Infinispan 11</a>!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_jgroups_new_netty_transport">JGroups: new Netty transport!</h2>
+<div class="sectionbody">
+<p>I’ve said it many times, JGroups is an incredible piece of software. The power and the flexibility of the frameworks always dazzle me, so I’m very excited about this <a href="http://belaban.blogspot.com/2020/06/new-netty-transport.html">new netty transport</a> getting into it!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ansible_collection_for_jcliff">Ansible Collection for JCliff</h2>
+<div class="sectionbody">
+<p>It’s a pet project of mine that I have already mentioned a few months ago: Andrew Block, Roel Holzmans and I have been working on integrating further Widlfy (and EAP) into Ansible, in order to ensure that one can use the tool to fine-tune as much as possible the JEE server’s configuration. We leverage an existing Open Source Java tool called <a href="https://github.com/bserdar/jcliff">JCliff</a> to just that.</p>
+<p>Last year, we released a role, already available in <a href="https://galaxy.ansible.com/redhat-cop/jcliff">Ansible Galaxy</a>, to integrate JCliff into Ansible. However, since then, the Ansible community released a new format to distribute extension, called Ansible Collection. We therefore decide to migrate our content there and we finally released, just this week, a very first version: <a href="https://galaxy.ansible.com/redhat/jcliff">Ansible Collection for JCliff 0.0.1</a>.</p>
+<p>So, please check it out! All you need to do is $ ansible-galaxy collection install redhat.jcliff:0.0.1 and, voilà, the collection is installed and you can start to <a href="https://github.com/ansible-middleware/ansible_collections_jcliff_demo">play with it</a>.</p>
+<p>Oh, almost forgot! This release also supports, on tops of Linux, MacOSX with homebrew! (Windows using Chocolatey is coming next).</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_serverless_and_microservice">Serverless and Microservice</h2>
+<div class="sectionbody">
+<p>As alluring as “serverless” is, it does, like any other technology, come with its own challenges. Follow Christina as she goes through the importance of having the proper infrastructure to support your “serverless” apps in this well thought out blog entry: <a href="http://wei-meilin.blogspot.com/2020/07/serverless-integration-components.html">Serverless Integration Components</a></p>
+<p>Follow this first read, you may want to take a look at this other article on <a href="http://www.ofbizian.com/2020/07/operators-and-sidecars-are-new-model.html">operators and sidecars are the new model</a>, which also discuss similar concerns.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_microprofile">Microprofile</h2>
+<div class="sectionbody">
+<p>With the release JBoss EAP XP, there are a lot of opportunities to develop supported microprofile application. So if you want to explore how to develop such an application, please follow <a href="https://developers.redhat.com/blog/author/ehugonne/">Emmanuel Hugonnet</a>’s tutorial on <a href="https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces/">Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_decafquarkus_workshops_automated_with_ansible">Decaf—Quarkus Workshops automated with Ansible</h2>
+<div class="sectionbody">
+<p>Yeah, I know, we just talked about Ansible! Where is my Java stuff you are rightly asking. Well, as you’ll see Ansible, while being Python, plays well with Java software, as demonstrated by this article on <a href="https://developers.redhat.com/blog/2020/07/03/automate-workshop-setup-with-ansible-playbooks-and-codeready-workspaces/">automate workshop setup with Ansible playbooks and CodeReady workspaces</a>.</p>
+<p>That&#8217;s all for another edition of the JBoss Editorial, please join us again for more exciting development from the JBoss Communities.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/romain-pelisse.png"></pfe-avatar>
+        <span>Romain Pelisse</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

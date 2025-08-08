@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - May, 15 2023 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, java, wildfly, camel, strimzi, podman">
+      <h1>This Week in JBoss - May, 15 2023</h1>
+      
+    <p class="preamble"><p>Happy Friday, everyone!</p>
+<p>Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Here are the most recent releases for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-3-0-3-final-released/">Quarkus 3.0.3.Final released</a> - The Quarkus Team released Quarkus 3.0.3.Final, as part of the second maintenance release of our 3.0 release train. This release  contains bugfixes and documentation improvements.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2023/05/kogito-1-37-0-released.html">Kogito 1.37 released</a> - The new Kogito release features enhancements in the flow actions, workflow definitions logging and service discovery.</p>
+</li>
+<li>
+<p><a href="https://camel.apache.org/releases/release-4.0.0-M3/">Camel RELEASE 4.0.0-M3 available</a> - The Camel community announces the availability of Camel 4.0.0-M3, the third milestone towards a new 4.0.0 major release which comes with 155 new features and improvements.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_exactly_once_semantics_with_kafka_transactions">Exactly-once semantics with Kafka transactions</h2>
+<div class="sectionbody">
+<p><a href="https://strimzi.io/blog/2023/05/03/kafka-transactions/">Exactly-once semantics with Kafka transactions</a>, by Federico Valeri.</p>
+<p>Kafka transactions play a vital role in guaranteeing the reliability and integrity of data, making them a pivotal component of the Kafka platform. Nevertheless, these benefits are accompanied by a trade-off in terms of decreased throughput and added latency, necessitating potential adjustments. Neglecting to monitor transactions that remain unresolved can adversely affect the availability of the service. This article sheds some light on this topic.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_use_the_new_openshift_quick_starts_to_deploy_jboss_eap">How to use the new OpenShift quick starts to deploy JBoss EAP</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2023/05/15/how-use-new-openshift-quick-starts-deploy-jboss-eap">How to use the new OpenShift quick starts to deploy JBoss EAP</a>, by Philip Hayes</p>
+<p>This article showcases the latest JBoss EAP quick start, specifically created to assist developers who are already familiar with conventional JBoss EAP deployments. Its purpose is to provide a comprehensive walkthrough on constructing and deploying application images on OpenShift. The quick start offers valuable guidance on utilizing Helm to generate the necessary build configs, deployment configs, and external routes for building and deploying JBoss EAP applications on OpenShift.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_integrate_excel_with_drools_on_openshift_with_knative_and_quarkus">Integrate Excel with Drools on OpenShift with Knative and Quarkus</h2>
+<div class="sectionbody">
+<p><a href="https://blog.kie.org/2023/05/integrate-excel-with-drools-on-openshift-with-knative-and-quarkus.html">Integrate Excel with Drools on OpenShift with Knative and Quarkus</a>, by Matteo Mortari</p>
+<p>In this blog post, Matteo shares the results of a technical exploration of bringing together different technologies and platforms. At the end of the day, he combined things like regular spreadsheet applications (like Excel), serverless platforms (Knative on OpenShift), and our rule engine Drools to see how they could work together.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_podman_desktop_beginners_guide">Podman Desktop Beginner&#8217;s Guide</h2>
+<div class="sectionbody">
+<p><a href="https://www.mastertheboss.com/soa-cloud/docker/podman-desktop-a-beginners-guide-to-containerization/">Podman Desktop Guide</a>, by Francesco Marchioni</p>
+<p>In this tutorial, I&#8217;m introducing the Podman desktop UI which simplifies the usage and management of container images. As an example, we will learn how to pull, start, and monitor a WildFly Container image with just a few clicks!</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_whats_new_in_red_hats_migration_toolkit_for_applications_6_1">What’s new in Red Hat’s migration toolkit for applications 6.1</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2023/05/10/whats-new-red-hats-migration-toolkit-applications-61">What’s new in Red Hat’s migration toolkit for applications 6.1</a>, by Yashwanth Maheshwaram</p>
+<p>Red Hat Migration Toolkit is an essential tool to simplify the upgrade or migration of a large set of enterprise applications. This article gives you an update with the latest news and includes a great demo video.</p>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/francesco-marchioni.png"></pfe-avatar>
+        <span>Francesco Marchioni</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

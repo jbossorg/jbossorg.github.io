@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 21 October 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, vscode, java, vertx, wildfly">
+      <h1>This Week in JBoss - 21 October 2021</h1>
+      
+    <p class="preamble"><p>Welcome back to another edition of the JBoss Editorial, a bi-weekly editorial containing information about JBoss and Red Hat related news and software!</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Once again, let&#8217;s thank everyone who has contributed to rolling out new releases over the past two weeks!</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://developers.redhat.com/articles/2021/10/20/developer-workflows-using-vs-code-java-extension-10">vscode-java 1.0</a> - Bringing Java 17 support to VS Code!</p>
+</li>
+<li>
+<p><a href="https://developers.redhat.com/articles/2021/10/11/red-hat-software-collections-38-and-red-hat-developer-toolset-11-now-beta">Red Hat Software Collections 3.8</a></p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vertx-4-2-CR1-released/">Eclipse Vert.x 4.2.0.CR1</a></p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-3-1-final-released/">Quarkus 2.3.1.Final</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/10/12/WildFly-s2i-25-Released/">Wildfly 25 s2i images</a></p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/10/12/bootable-jar-6.0.Final-Released/">Wildfly Bootable Jar 6.0</a></p>
+</li>
+<li>
+<p><a href="https://infinispan.org/blog/2021/10/12/infinispan-13-final">Infinispan 13.0.0.Final</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_wildfly">WildFly</h2>
+<div class="sectionbody">
+<p>This past week, the Wildfly Elytron team (a team specializing in server and client side security) participated in the <a href="https://ghc.anitab.org/programs-and-awards/open-source-day/">Open Source Day</a> hackathon.
+It is an all day hackathon celebrating Open Source technologies and allowing participants to learn about Open Source and contribute to projects designed to solve real world problems.</p>
+<p>Issues in the Elytron issue tracker were triaged ahead of the event and new contributors were onboarded and taught about Git, creating and submitting pull requests, and how Open Source works.
+The event went well for the Elytron team with double the amount of PRs submitted than in the Summer Open Source Day!</p>
+<p>We&#8217;d also like to mention that in Wildfly 25 support has been added for the MicroProfile Reactive Messaging 2.0. More information and a sample application can be found within <a href="https://www.wildfly.org//news/2021/10/14/MicroProfile-Reactive-Messaging-2.0-in-WildFly-25/">the announcement</a>.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_videos">Quarkus Videos</h2>
+<div class="sectionbody">
+<p>The Quarkus team has been busy in front of the camera these last two weeks!
+Six videos have come out, including a new Quarkus Insights.
+These videos cover remote development, the DevCLI, DevUI, DevServices, and continuous testing.
+Most of these are under five minutes, why not watch them all?</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=5FRcQ9lUhRo">Quarkus RemoteDevelopment</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=1hTMyTiiNO4">QuarkusDevCLI</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=XKsr6cX3qT4">Quarkus DevServices</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=OQWalmv72Nc">Quarkus DevUI</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=5LbYbZpsbIg">Quarkus Continuous Testing</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=oY8TtKrC_5I">Quarkus Insights #67</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

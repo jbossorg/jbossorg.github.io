@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 11 February 2021 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, wildfly, kogito, openshift, vertx">
+      <h1>This Week in JBoss - 11 February 2021</h1>
+      
+    <p class="preamble"><p>Here we are again, it&#8217;s been two weeks and we&#8217;re into the second month of 2021!
+How quickly times flies!
+In this edition, expect to find release information, blog posts, and general updates from around the JBoss Community.</p></p>
+<div class="sect1">
+<h2 id="_releases">Releases!</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-1-11-2-final-released/">Quarkus 1.11.2.Final</a> is the second maintenance release for the Quarkus 1.11 branch. The notable bug fix with this version is updating to Hibernate ORM 5.4.27.SP1 which fixes a potential data loss issue. Please see the <a href="https://github.com/quarkusio/quarkus/releases/tag/1.11.2.Final">full changelog for more info</a>.</p>
+</li>
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-1-11-3-final-released/">Quarkus 1.11.3.Final</a> is a quick bug fix release that focused on a regression making it impossible to build native executables if your project was using both RESTEasy and OpenTracing. <a href="https://github.com/quarkusio/quarkus/releases/tag/1.11.3.Final">Please see the full changelog</a> for more information.</p>
+</li>
+<li>
+<p><a href="https://www.wildfly.org//news/2021/02/11/WildFly2201-Released/">Wildfly 22.0.1</a> has been released, about a month after 22.0.</p>
+</li>
+<li>
+<p><a href="https://vertx.io/blog/eclipse-vert-x-4-0-2/">Vert.x 4.0.2 released</a> recently. The 4.0.1 release also happened, but contained potential memory leaks and the team decided not to announce it and proceed with another quick release to fix the issues. <a href="https://github.com/vert-x3/wiki/wiki/4.0.2-Release-Notes">Please view the release notes for more details</a>.</p>
+</li>
+<li>
+<p><a href="https://blog.kie.org/2021/02/kogito-tooling-0-8-3-released.html">Kogito Tooling 0.8.3 released</a> a few days ago. With the release of 0.8.1, the Kogito team released their official version of the BPMN and DMN standalone editors. This release builds on that and continues to allow you to embed the editor within your application. It also allows you to open DMN 1.1 and 1.3 assets. The post also contains a list of bugs squashed</p>
+</li>
+</ul>
+</div>
+<p>We would certainly like to thank all those who helped complete these releases!
+Each team is grateful for the help from the community.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_highlights_from_the_blogosphere">Highlights from the blogosphere</h2>
+<div class="sectionbody">
+<p>Eric Schabell published a migration guide for a traditional JBoss BPM application running either within a VM or on bare-metal to running inside containers using OpenShift Container Platform.
+In <a href="https://www.schabell.org/2021/03/4-easy-steps-for-migrating-projects-to-openshift-container-platform.html">his post he breaks the migration down into four steps</a>.
+I won&#8217;t detail them all here, but the steps are very easy and you should be able to get up and running quickly on your own laptop, even without having some of the tech installed previously!</p>
+<p><a href="https://blog.kie.org/2021/02/improvements-of-project-authoring-in-business-central.html">Abhishek Kumar discussed project authoring improvements within Business Central recently on the KIE Blog</a>.
+The features he discusses are:
+. Opening projects directly with a URL
+. Changing the default asset page size
+. Security permissions for project screen tools and tabs</p>
+<p>Each of these help users in the authoring process within Business Central through either ease of use or security!</p>
+<p>Still on the KIE Blog, <a href="https://blog.kie.org/2021/01/how-to-use-a-pmml-file-in-dmn-editor-vscode.html">Yeser Amer demonstrates how to use PMML models in the DMN Editor</a>.
+PMML support was released with version 0.7.0.
+PMML is an XML file describing a predictive model often generated by data mining or AI algorithms.
+The support for this format within the VSCode plugin was recently released and follows the same usage patterns as those found within Business Central, so it may very well be familiar to some.</p>
+<p>A number of blogs about Quarkus sprang up over the past couple of weeks!</p>
+<p>Firstly, Georgios Andrianakis discusses <a href="https://quarkus.io/blog/resteasy-reactive-faq/">achieving massive performance without headaches</a> in a RESTEasy application on Quarkus using RESTEasy Reactive.
+He talks about the different models, how to use them, the best way to get performance out of each model, and why this will likely becoming the default model within RESTEasy on Quarkus in the near future.</p>
+<p>Clement Escoffier <a href="https://quarkus.io/blog/getting-started-amqp/">helps us get started with AMQP in Quarkus</a> with an in-depth demo similar to using Kafka.
+He walks you through the basics and gives you a running project which he steps through to show you all the basics.</p>
+<p>Over on the Red Hat Developers Blog, Eric Deandrea shows us a very cool trick, or maybe the power of Quarkus&#8217;s Spring compatibility, about running a Spring Boot application on Quarkus without changing a single line of Java code!
+It is definitely worth the read, <a href="https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness/">head on over to check it out</a>!</p>
+<p>If you missed the announcement about Quarkus remote development, be sure to read up about it by Daniel Oh <a href="https://developers.redhat.com/blog/2021/02/11/enhancing-the-development-loop-with-quarkus-remote-development/">on the Red Hat Developer Blog</a>.
+Using a mutable-jar package, you can deploy onto OpenShift and continue to develop remotely without having to build a new container and push every time you want to see a change!
+What an amazing way to build on the cloud and make sure everything works correctly without having slow downs!</p>
+<p>Yeray Borges of the Wildfly team <a href="https://www.wildfly.org/news/2021/02/01/Bootable-jar-jkube-clustering-openshift/">demonstrates how to deploy a bootable Wildfly application jar which caches the HTTP session state</a>.
+It&#8217;s a useful option allowing you to build and test locally and then push to OpenShift with minimal changes ensuring your application still works in the cloud.</p>
+<p>Lastly, Mario Fusco and Edson Yanaga have a presentation from a recent DevNation Live about designing a Java API.
+Check it out over on <a href="https://developers.redhat.com/devnation/tech-talks/design-java-apis">the Red Hat Developer blog</a>.
+Certainly worth the watch if you develop APIs in Java (which should be most of you).</p>
+<p>Thanks for being with us for another edition of the JBoss Weekly Editorial.</p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/jason-porter.png"></pfe-avatar>
+        <span>Jason Porter</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>

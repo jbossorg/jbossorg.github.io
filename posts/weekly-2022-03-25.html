@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; form-action 'self'; 
+    script-src https://www.stage.jboss.org/ https://www.jboss.org/ https://www.redhat.com/ https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com 
+    https://assets.adobedtm.com https://img.en25.com https://ds-aksb-a.akamaihd.net/ https://s1795.t.eloqua.com https://consent.trustarc.com/ 
+    https://kit.fontawesome.com/ https://sjs.bizographics.com https://googleads.g.doubleclick.net/
+    https://kit-free.fontawesome.com/ https://cdnjs.cloudflare.com https://static.redhat.com https://static.hotjar.com https://in.ml314.com 'unsafe-inline' 'unsafe-eval'; 
+    style-src https: 'unsafe-inline'; 
+    img-src 'self' https://developers.redhat.com https://www.gravatar.com/ https://consent.trustarc.com https://smetrics.jboss.org 
+    https://s1795.t.eloqua.com https://cm.everesttech.net https://ds-aksb-a.akamaihd.net https://www.google.com
+    https://www.google-analytics.com/ https://stats.g.doubleclick.net https://px.ads.linkedin.com https://p.adsymptotic.com; 
+    frame-src https://redhat.demdex.net/;
+    connect-src https://dpm.demdex.net https://redhat.tt.omtrdc.net https://dcp2.jboss.org https://ka-f.fontawesome.com/;
+    font-src https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://consent.trustarc.com">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+    <title>This Week in JBoss - 25 March 2022 - JBoss.org</title>
+    <script type="text/javascript">
+    dataLayer = [{'channel' : 'developer'}];
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NJWS5L');
+    </script>
+    <script id="dpal" src="https://www.redhat.com/ma/dpal.js"></script>
+    <script src="https://kit.fontawesome.com/f7383166fb.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jbossorg.css">
+</head>
+<body class="undefined">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header>
+      <a class="site-home " href="/">JBoss<strong>.ORG</strong></a>
+      <nav>
+          <a  href="/blogs.html">Blogs</a>
+          <!--<a  href="/tweets.html">Twitter</a>-->
+          <a href="https://redhatofficial.github.io/">Projects <span class="icon"><i class="fas fa-external-link-alt fa-xs"></i></span></a>
+      </nav>
+  </header>
+  
+  <main id="main-content">
+      <article class="" data-tags="quarkus, kubernetes, java, infinispan, jakarta ee, wildfly, ansible, azure app service">
+      <h1>This Week in JBoss - 25 March 2022</h1>
+      
+    <p class="preamble"><p>Happy Friday, everyone!</p>
+<p>Here is another edition of the JBoss Editorial with exciting news and updates from your JBoss communities.</p></p>
+<div class="sect1">
+<h2 id="_release_roundup">Release roundup</h2>
+<div class="sectionbody">
+<p>Here are the most recent releases for this edition:</p>
+<div class="ulist square">
+<ul class="square">
+<li>
+<p><a href="https://quarkus.io/blog/quarkus-2-7-5-final-released/">Quarkus 2.7.5</a> - There is a new maintenance release with a new round of bugfixes and documentation improvements. This should be a safe upgrade upgrade for anyone already using 2.7. More details on the <a href="https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.7">Migration Guide 2.7</a></p>
+</li>
+<li>
+<p><a href="https://github.com/kiegroup/kogito-images/releases/tag/1.19.0">Kogito 1.19.0</a> - We are glad to announce that the Kogito 1.19.0 release is now available!.</p>
+</li>
+<li>
+<p><a href="https://infinispan.org/download/">Infinispan 14.0.0.Dev01</a> - Infinispan 14 GA is almost ready! Expect some cool features such as Redis (RESP) endpoints, new MP Metrics with Micrometer, clustering and endpoint metrics in Prometheus, FIPS compatible Infinispan Installation, Cross-site replication memory and batching improvements and Dynamic Role-Based Access Control</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_write_kubernetes_in_java_with_the_java_operator_sdk_part_2">Write Kubernetes in Java with the Java Operator SDK (Part 2)</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/03/22/write-kubernetes-java-java-operator-sdk-part-2">Write Kubernetes in Java with the Java Operator SDK, Part 2</a>, by Christophe Laprun</p>
+<p>In this post, Christophe teach us how to use the Java Operator SDK and its Quarkus extension to build a sample application as you take a deeper dive into writing Kubernetes Operators in Java.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_deploy_infinispan_automatically_with_ansible">Deploy Infinispan automatically with Ansible</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/03/21/deploy-infinispan-automatically-ansible">Deploy Infinispan automatically with Ansible</a>, by Romain Pelisse</p>
+<p>In this article from Romain, you will learn how to use Ansible to cover all repetitive work to provision Infinispan. It covers everything from downloading software, preparing the environment (user, group, firewall), deploying the binary files and the configuration, setting up the service in systemd, etc.
+That&#8217;s a great way to get started with Infinispan and Ansible.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_clustering_support_for_jboss_eap_on_azure_app_service_tech_preview">Clustering support for JBoss EAP on Azure App Service (Tech Preview)</h2>
+<div class="sectionbody">
+<p><a href="https://developers.redhat.com/articles/2022/03/15/preview-clustering-support-jboss-eap-azure-app-service">Clustering support for JBoss EAP on Azure App Service (Tech Preview)</a>, by James Falkner and Jason Freeberg</p>
+<p>If you want to try out a preview of JBoss EAP clustering on Azure App Service then this article is for you! The combination of JBoss EAP, a leading Jakarta EE platform, with Microsoft Azure, a leading cloud platform, gives JBoss EAP users a powerful path to the cloud.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_newsletter_18_march">Quarkus Newsletter #18 - March</h2>
+<div class="sectionbody">
+<p><a href="https://quarkus.io/blog/quarkus-newsletter-18/">Quarkus March newsletter</a>, By James Cobb</p>
+<p>This newsletter covers what’s new with Java 17 and containers, discusses LogicDrop and Vaadin’s path to using Quarkus, and get a look at Continuous testing with Quarkus.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_quarkus_migration_tips">Quarkus Migration Tips</h2>
+<div class="sectionbody">
+<p><a href="http://www.mastertheboss.com/soa-cloud/quarkus/quarkus-migration-tips/">Quarkus Migration Tips</a>, by Francesco Marchioni</p>
+<p>In this article from mastertheboss.com you will learn which are the available guidelines to migrate Quarkus applications and tools that can help you to simplify your update strategy</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_youtube_video_build_deploy_wildfly_quickstarts_on_openshift">Youtube video: Build &amp; Deploy WildFly Quickstarts on OpenShift</h2>
+<div class="sectionbody">
+<p><a href="https://www.youtube.com/watch?v=Y2En5miRKjY">Build &amp; Deploy WildFly Quickstarts on OpenShift</a>, by Jeff Meslin</p>
+<p>Finally, from WildFly&#8217;s youtube channel check this video by Jeff Meslin to learn how to build and deploy a quickstart
+for WildFly on OpenShift</p>
+<p>Jeff shows how to deploy the microprofile-config quickstart for WildFly on the Developer Sandbox for Red Hat OpenShift. This uses the Helm Chart for WildFly to configuring building and deploying WildFly applications.</p>
+<p><em>That&#8217;s all folks! Please join us again in two weeks for another round of our JBoss editorial!</em></p>
+</div>
+</div>
+      
+      <div class="author">
+        <pfe-avatar pfe-shape="circle" pfe-pattern="squares" pfe-src="/img/people/francesco-marchioni.png"></pfe-avatar>
+        <span>Francesco Marchioni</span>
+    
+      </article>
+  </main>
+  <footer>
+    
+  </footer>
+  <script type="module" src="/js/cpx-search/cpx-results.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-query.js"></script>
+  <script type="module" src="/js/cpx-search/cpx-search-box.js"></script>
+  <script type="module" src="/js/pfe-avatar/dist/pfe-avatar.js"></script>
+  <script type="module" src="/js/pfe-datetime/dist/pfe-datetime.js"></script>
+  <script type="module" src="/js/cpx-footer.js"></script>
+  <script src="/js/jbossorg.js"></script>
+</body>
+</html>
